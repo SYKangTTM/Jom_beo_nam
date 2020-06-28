@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/Stock_info/Stock_info_1.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_2.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_3.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_4.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_5.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_6.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_7.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_8.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_9.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_10.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>좀 버는 남자</title>
+</head>
+
+<body>
+    <section class="main" style="height:69vh;overflow-y:scroll;">
+        <div class="topnav">
+            <img src="images/logo.svg" alt="" style="height:60px;" />
+            <span class="title" style="color:white">좀버남(좀 버는 남자)</span>
+            <div id="myLinks">
+                <a href="http://consensus.hankyung.com/" target="_blank">한경컨센서스</a>
+                <a href="http://m.thebell.co.kr/m/" target="_blank">더벨</a>
+                <a href="https://m.irgo.co.kr/" target="_blank">IRGO</a>
+                <a href="https://blog.naver.com/kkseyj" target="_blank">주식아빠_블로그</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="nav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <form role="form">
+            <div class="form-group">
+                <input class="form-control input-lg" id="txt-search" type="input" placeholder="종목코드 또는 종목명을 입력하세요.">
+                <!-- <input type="text" id="input_stock" placeholder="Search for names..">
+                <button type="button" onclick="func_stock_info()"></button> -->
+                
+            </div>
+            <div id="filter-records" style="padding:5%" align="center"></div>
+            <div id="Button_insert" style="padding:5%" align="center"></div>
+            <div id="filter-records_1" style="padding:5%" align="center"></div>
+        </form>
+    </section>
+
+    <section class="banner_section" align="center" style="height:7vh">
+        광고 - 3page
+        <!-- <ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-1k1r9ipbv3wvm" 
+ data-ad-width   = "320" 
+ data-ad-height  = "100"></ins> 
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> -->
+    </section>
+
+    <section>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='index.html';">목표주가</button>
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='Find_Stock.html';">종목검색</button>
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='3page.html';">준비중1</button>
+            <button type="button" class="button" style="height:10vh;width:20vw">준비중2</button>
+            <button type="button" class="button" style="height:10vh;width:20vw">준비중3</button>
+        </div>
+    </section>
+    <footer class="footer" style="height:3vh">
+        <div class="center_footer">
+            <p>copyright&copy; 2020. 좀버남(주식아빠) all rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var data1 = stock1;
+        var data2 = stock2;
+        var data3 = stock3;
+        var data4 = stock4;
+        var data5 = stock5;
+        var data6 = stock6;
+        var data7 = stock7;
+        var data8 = stock8;
+        var data9 = stock9;
+        var data10 = stock10;
+        $('#txt-search').keyup(function() {
+            var searchField = $(this).val();
+            if (searchField === '') {
+                $('#filter-records').html('');
+                return;
+            }
+            var regex = new RegExp(searchField, "i");
+            var FinishDate = new Date().toISOString().slice(0, 10);
+            var d = new Date(),
+                month = '' + d.getMonth(),
+                day = '' + d.getDate(),
+                year = d.getFullYear();
+            if (month.length < 2)
+                month = '0' + month;
+            if (day.length < 2)
+                day = '0' + day;
+            var StartDate = year + '-' + month + '-' + day;
+            var output = '<div>';
+            var stockcode;
+            var count = 1;
+            $.each(data1, function(key, val) {
+                if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
+                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '</button>';
+                    output += '</div>';
+                    //                     if (count % 2 == 0) {
+                    //                         output += '</div><div class="row">'
+                    //                     }
+                    count++;
+                }
+            });
+            $.each(data2, function(key, val) {
+                if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
+                    output += '<button id="R" type="button" onclick="stock_det()" value="' + val.stock_code + '">';
+                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '</button>';
+                    output += '</div>';
+                    //                     if (count % 2 == 0) {
+                    //                         output += '</div><div class="row">'
+                    //                     }
+                    //                     count++;
+                }
+            });
+            output += '</div>';
+            $('#filter-records').html(output);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    function stock_det(clicked_id) {
+        document.getElementById('filter-records_1').innerHTML = "";
+        var xx = document.getElementById(clicked_id).value;
+        var detail_path = 'js/Stock_Det/' + xx + '.js';
+        $.ajax({
+            url: detail_path,
+            type: 'GET',
+            async: true,
+            dataType: 'js',
+            timeout: 10000
+        });
+        var json_script = document.createElement('script');
+        json_script.type = 'text/javascript';
+        json_script.src = detail_path;
+        json_script.id = 'json_script';
+        document.head.appendChild(json_script);
+        console.log(json_script);
+        var insert = '<button id="KK" type="button" onclick="show_finan_data()" value="' + xx + '">' + xx + ' 보러가기</button>';
+        $('#Button_insert').html(insert);
+    }
+</script>
+
+<script>
+    function nav() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+    function show_finan_data() {
+        
+        document.getElementById('filter-records').innerHTML = "";
+        document.getElementById('Button_insert').innerHTML = "";
+        
+        
+        var data = detail_data;
+        // console.log(data);
+        var FinishDate = new Date().toISOString().slice(0, 10);
+        var d = new Date(),
+            month = '' + d.getMonth(),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2)
+            month = '0' + month;
+        if (day.length < 2)
+            day = '0' + day;
+        var StartDate = year + '-' + month + '-' + day;
+        var output = '<div>';
+        // var count = 1;
+        $.each(data, function(key, val) {
+                output += '<div class="S_Table"><table>';
+                output += '<tr>' + '<th>종목 코드</th>' + '<td>' + val.stock_code + '</td>' + '</tr>';
+                output += '<tr>' + '<th>종목명</th>' + '<td>' + val.stock_name + '</td>' + '</tr>';
+                output += '<tr>' + '<th>업종</th>' + '<td>' + val.stock_Div + '</td>' + '</tr>';
+                output += '<tr>' + '<th>SRIM 매수가</th>' + '<td>' + val.SRIM_1 + '</td>' + '</tr>';
+                output += '<tr>' + '<th>SRIM 목표가1</th>' + '<td>' + val.SRIM_2 + '</td>' + '</tr>';
+                output += '<tr>' + '<th>SRIM 목표가2</th>' + '<td>' + val.SRIM_3 + '</td>' + '</tr>';
+                if (screen.width < 768)
+                    output += '<tr>' + '<th>네이버 종목 토론실</th>' + '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' + val.stock_code.substr(1) + '/discuss" target="_blank">바로가기</a></td>' + '</tr>';
+                else
+                    output += '<tr>' + '<th>네이버 종목 토론실</th>' + '<td><a href="https://finance.naver.com/item/board.nhn?code=' + val.stock_code.substr(1) + '" target="_blank">바로가기</a></td>' + '</tr>';
+                output += '<tr>' + '<th>한경컨센서스</th>' + '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' + StartDate + "&edate=" + FinishDate + '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' + val.stock_code.substr(1) + '" target="_blank">바로가기</a></td>' + '</tr>';
+                output += '<tr>' + '<th>The Bell News</th>' + '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' + val.stock_name + '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' + '</tr>';
+                output += '<tr>' + '<th>IR GO</th>' + '<td><a href="https://m.irgo.co.kr/IR-COMP/' + val.stock_code.substr(1) + '/' + val.stock_name + '-IR-ROOM" target="_blank">바로가기</a></td>' + '</tr>';
+                output += '</table></div>';
+            
+        });
+        output += '</div>';
+        $('#filter-records_1').html(output);
+    }
+</script>
