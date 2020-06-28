@@ -47,7 +47,7 @@
                 <input class="form-control input-lg" id="txt-search" type="input" placeholder="종목코드 또는 종목명을 입력하세요.">
                 <!-- <input type="text" id="input_stock" placeholder="Search for names..">
                 <button type="button" onclick="func_stock_info()"></button> -->
-                
+
             </div>
             <div id="filter-records" style="padding:5%" align="center"></div>
             <div id="Button_insert" style="padding:5%" align="center"></div>
@@ -56,12 +56,9 @@
     </section>
 
     <section class="banner_section" align="center" style="height:7vh">
-        광고 - 1page
-        <!-- <ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-1k1r9ipbv3wvm" 
- data-ad-width   = "320" 
- data-ad-height  = "100"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> -->
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1jyb0fd2si5v5" data-ad-width="320" data-ad-height="100"></ins>
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+
     </section>
 
     <section>
@@ -221,7 +218,7 @@
             type: 'GET',
             async: true,
             dataType: 'js',
-            charset:'UTF-8',
+            charset: 'UTF-8',
             timeout: 10000
         });
         var json_script = document.createElement('script');
@@ -263,22 +260,21 @@
         var output = '<div>';
         // var count = 1;
         $.each(data, function(key, val) {
-                output += '<div class="S_Table"><table>';
-                output += '<tr>' + '<th>종목 코드</th>' + '<td>' + val.stock_code + '</td>' + '</tr>';
-                output += '<tr>' + '<th>종목명</th>' + '<td>' + val.stock_name + '</td>' + '</tr>';
-                output += '<tr>' + '<th>업종</th>' + '<td>' + val.stock_Div + '</td>' + '</tr>';
-                output += '<tr>' + '<th>SRIM 매수가</th>' + '<td>' + val.SRIM_1 + '</td>' + '</tr>';
-                output += '<tr>' + '<th>SRIM 목표가1</th>' + '<td>' + val.SRIM_2 + '</td>' + '</tr>';
-                output += '<tr>' + '<th>SRIM 목표가2</th>' + '<td>' + val.SRIM_3 + '</td>' + '</tr>';
-                if (screen.width < 768)
-                    output += '<tr>' + '<th>네이버 종목 토론실</th>' + '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' + val.stock_code.substr(1) + '/discuss" target="_blank">바로가기</a></td>' + '</tr>';
-                else
-                    output += '<tr>' + '<th>네이버 종목 토론실</th>' + '<td><a href="https://finance.naver.com/item/board.nhn?code=' + val.stock_code.substr(1) + '" target="_blank">바로가기</a></td>' + '</tr>';
-                output += '<tr>' + '<th>한경컨센서스</th>' + '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' + StartDate + "&edate=" + FinishDate + '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' + val.stock_code.substr(1) + '" target="_blank">바로가기</a></td>' + '</tr>';
-                output += '<tr>' + '<th>The Bell News</th>' + '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' + val.stock_name + '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' + '</tr>';
-                output += '<tr>' + '<th>IR GO</th>' + '<td><a href="https://m.irgo.co.kr/IR-COMP/' + val.stock_code.substr(1) + '/' + val.stock_name + '-IR-ROOM" target="_blank">바로가기</a></td>' + '</tr>';
-                output += '</table></div>';
-            
+            output += '<div class="S_Table"><table>';
+            output += '<tr>' + '<th>종목 코드</th>' + '<td>' + val.stock_code + '</td>' + '</tr>';
+            output += '<tr>' + '<th>종목명</th>' + '<td>' + val.stock_name + '</td>' + '</tr>';
+            output += '<tr>' + '<th>업종</th>' + '<td>' + val.stock_Div + '</td>' + '</tr>';
+            output += '<tr>' + '<th>SRIM 매수가</th>' + '<td>' + val.SRIM_1 + '</td>' + '</tr>';
+            output += '<tr>' + '<th>SRIM 목표가1</th>' + '<td>' + val.SRIM_2 + '</td>' + '</tr>';
+            output += '<tr>' + '<th>SRIM 목표가2</th>' + '<td>' + val.SRIM_3 + '</td>' + '</tr>';
+            if (screen.width < 768)
+                output += '<tr>' + '<th>네이버 종목 토론실</th>' + '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' + val.stock_code.substr(1) + '/discuss" target="_blank">바로가기</a></td>' + '</tr>';
+            else
+                output += '<tr>' + '<th>네이버 종목 토론실</th>' + '<td><a href="https://finance.naver.com/item/board.nhn?code=' + val.stock_code.substr(1) + '" target="_blank">바로가기</a></td>' + '</tr>';
+            output += '<tr>' + '<th>한경컨센서스</th>' + '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' + StartDate + "&edate=" + FinishDate + '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' + val.stock_code.substr(1) + '" target="_blank">바로가기</a></td>' + '</tr>';
+            output += '<tr>' + '<th>The Bell News</th>' + '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' + val.stock_name + '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' + '</tr>';
+            output += '<tr>' + '<th>IR GO</th>' + '<td><a href="https://m.irgo.co.kr/IR-COMP/' + val.stock_code.substr(1) + '/' + val.stock_name + '-IR-ROOM" target="_blank">바로가기</a></td>' + '</tr>';
+            output += '</table></div>';
         });
         output += '</div>';
         $('#filter-records_1').html(output);
