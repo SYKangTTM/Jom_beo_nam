@@ -45,26 +45,23 @@
         <form role="form">
             <div class="form-group">
                 <input class="form-control input-lg" id="txt-search" type="input" placeholder="종목코드 또는 종목명을 입력하세요.">
-                <!-- <input type="text" id="input_stock" placeholder="Search for names..">
-                <button type="button" onclick="func_stock_info()"></button> -->
-
             </div>
-            <div id="filter-records" style="padding:5%" align="center"></div>
-            <div id="Button_insert" style="padding:5%" align="center"></div>
-            <div id="filter-records_1" style="padding:5%" align="center"></div>
+            <div id="filter-records" align="center"></div>
+            <div id="Button_insert" style="padding-top:10px" align="center"></div>
+            <div id="filter-records_1" style="padding-top:10px" align="center"></div>
+
         </form>
     </section>
 
-    <section class="banner_section" align="center" style="height:7vh">
+    <section class="banner_section" align="center">
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1jyb0fd2si5v5" data-ad-width="320" data-ad-height="100"></ins>
         <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-
     </section>
 
     <section>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='index.html';">목표주가</button>
-            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='Find_Stock.html';">종목검색</button>
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='Find_Stock.html';">준비중</button>
             <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='3page.html';">준비중1</button>
             <button type="button" class="button" style="height:10vh;width:20vw">준비중2</button>
             <button type="button" class="button" style="height:10vh;width:20vw">준비중3</button>
@@ -93,6 +90,12 @@
         var data9 = stock9;
         var data10 = stock10;
         $('#txt-search').keyup(function() {
+            var x1 = document.getElementById("filter-records");
+            x1.style.display = "block";
+            var x2 = document.getElementById("Button_insert");
+            x2.style.display = "block";
+            var x3 = document.getElementById("filter-records_1");
+            x3.style.display = "none";
             var searchField = $(this).val();
             if (searchField === '') {
                 $('#filter-records').html('');
@@ -114,7 +117,7 @@
             var count = 1;
             $.each(data1, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -123,7 +126,7 @@
             });
             $.each(data2, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -132,7 +135,7 @@
             });
             $.each(data3, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -141,7 +144,7 @@
             });
             $.each(data4, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -150,7 +153,7 @@
             });
             $.each(data5, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -159,7 +162,7 @@
             });
             $.each(data6, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -168,7 +171,7 @@
             });
             $.each(data7, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -177,7 +180,7 @@
             });
             $.each(data8, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -186,7 +189,7 @@
             });
             $.each(data9, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -195,7 +198,7 @@
             });
             $.each(data10, function(key, val) {
                 if ((val.stock_name.search(regex) != -1) || (val.stock_code.search(regex) != -1)) {
-                    output += '<button id="R' + count + '" type="button" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
+                    output += '<button id="R' + count + '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' + val.stock_code + '">';
                     output += '[' + val.stock_code + ']' + val.stock_name;
                     output += '</button>';
                     output += '</div>';
@@ -211,6 +214,12 @@
 <script type="text/javascript">
     function stock_det(clicked_id) {
         document.getElementById('filter-records_1').innerHTML = "";
+        var x1 = document.getElementById("filter-records");
+        x1.style.display = "block";
+        var x2 = document.getElementById("Button_insert");
+        x2.style.display = "block";
+        var x3 = document.getElementById("filter-records_1");
+        x3.style.display = "block";
         var xx = document.getElementById(clicked_id).value;
         var detail_path = 'js/Stock_Det/' + xx + '.js';
         $.ajax({
@@ -227,7 +236,7 @@
         json_script.id = 'json_script';
         document.head.appendChild(json_script);
         console.log(json_script);
-        var insert = '<button id="KK" type="button" onclick="show_finan_data()" value="' + xx + '">' + xx + ' 보러가기</button>';
+        var insert = '<button id="KK" type="button" class="btn btn-primary"" style="width:100vw" onclick="show_finan_data()" value="' + xx + '">' + xx + ' 보러가기</button>';
         $('#Button_insert').html(insert);
     }
 </script>
@@ -245,6 +254,12 @@
     function show_finan_data() {
         document.getElementById('filter-records').innerHTML = "";
         document.getElementById('Button_insert').innerHTML = "";
+        var x1 = document.getElementById("filter-records");
+        x1.style.display = "none";
+        var x2 = document.getElementById("Button_insert");
+        x2.style.display = "none";
+        var x3 = document.getElementById("filter-records_1");
+        x3.style.display = "block";
         var data = detail_data;
         // console.log(data);
         var FinishDate = new Date().toISOString().slice(0, 10);
