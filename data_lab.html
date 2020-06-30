@@ -13,12 +13,22 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_1.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_2.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_3.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_4.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_5.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_6.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_7.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_8.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_9.js"></script>
+    <script type="text/javascript" src="js/Stock_info/Stock_info_10.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>좀 버는 남자</title>
 </head>
 
 <body>
-    <section class="main" style="height:69vh">
+    <section class="main" style="height:69vh;overflow-y:scroll;">
         <div class="topnav">
             <img src="images/logo.svg" alt="" style="height:60px;" />
             <span class="title" style="color:white">좀버남(좀 버는 남자)</span>
@@ -35,22 +45,18 @@
         준비중
     </section>
 
-    <section class="banner_section" align="center" style="height:7vh">
-        광고
-        <!-- <ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-1k1r9ipbv3wvm" 
- data-ad-width   = "320" 
- data-ad-height  = "100"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> -->
+    <section class="banner_section" align="center">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1jyb0fd2si5v5" data-ad-width="320" data-ad-height="100"></ins>
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     </section>
 
     <section>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='index.html';" >목표주가</button>
-            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='Find_Stock.html';">종목검색</button>            
-            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='3page.html';">준비중1</button>
-            <button type="button" class="button" style="height:10vh;width:20vw">준비중2</button>
-            <button type="button" class="button" style="height:10vh;width:20vw">준비중3</button>
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='Find_Stock.html';">종목발굴</button>            
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='sector.html';">업종DATA</button>
+            <button type="button" class="button" style="height:10vh;width:20vw" onclick="location.href='data_lab.html';">데이터실</button>
+            <button type="button" class="button" style="height:10vh;width:20vw"onclick="location.href='help.html';">도움말</button>
         </div>
     </section>
     <footer class="footer" style="height:3vh">
@@ -63,7 +69,6 @@
 
 </html>
 
-
 <script>
     function nav() {
         var x = document.getElementById("myLinks");
@@ -74,4 +79,3 @@
         }
     }
 </script>
-
