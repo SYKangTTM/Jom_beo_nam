@@ -47,7 +47,7 @@
                 <input class="form-control input-lg" id="txt-search" type="input" placeholder="종목코드 또는 종목명을 입력하세요.">
             </div>
             <div id="filter-records" align="center"></div>
-            <div id="Button_insert" style="padding-top:10px" align="center"></div>
+            <div id="Button_insert" style="padding-top:10px" align="center" ></div>
             <div id="filter-records_1" style="padding-top:10px" align="center"></div>
 
         </form>
@@ -222,20 +222,21 @@
         x3.style.display = "block";
         var xx = document.getElementById(clicked_id).value;
         var detail_path = 'js/Stock_Det/' + xx + '.js';
-        $.ajax({
-            url: detail_path,
-            type: 'GET',
-            async: true,
-            dataType: 'js',
-            charset: 'UTF-8',
-            timeout: 10000
-        });
+        // $.ajax({
+        //     url: detail_path,
+        //     type: 'GET',
+        //     async: true,
+        //     dataType: 'json',
+        //     charset: 'UTF-8',
+        //     timeout: 10000
+        //     }
+        // });
         var json_script = document.createElement('script');
         json_script.type = 'text/javascript';
         json_script.src = detail_path;
         json_script.id = 'json_script';
         document.head.appendChild(json_script);
-        console.log(json_script);
+        // console.log(json_script);
         var insert = '<button id="KK" type="button" class="btn btn-primary"" style="width:100vw" onclick="show_finan_data()" value="' + xx + '">' + xx + ' 보러가기</button>';
         $('#Button_insert').html(insert);
     }
