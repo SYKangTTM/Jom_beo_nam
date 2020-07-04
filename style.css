@@ -59,8 +59,8 @@ body {
 }
 
 .topnav a {
-  color: white;
-  background-color: green;
+  color: Black;
+  background-color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -68,7 +68,7 @@ body {
 }
 
 .topnav a.icon {
-  background: gray;
+  background: white;
   display: block;
   position: absolute;
   right: 0;
@@ -76,7 +76,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
@@ -174,3 +174,4 @@ table{
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
