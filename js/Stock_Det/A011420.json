@@ -1,8 +1,16 @@
 {
-"stock_code":"A011420",
-"stock_name":"갤럭시아에스엠",
-"stock_Div":"미디어",
-"SRIM_1":"712",
-"SRIM_2":"590",
-"SRIM_3":"387"
+"stock_code": "A011420",
+"stock_name": "갤럭시아에스엠",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "713",
+"SRIM_2": "591",
+"SRIM_3": "388",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1215",
+"Price_over_PERAvg": "N/A"
 }

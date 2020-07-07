@@ -1,8 +1,16 @@
 {
-"stock_code":"A094280",
-"stock_name":"효성ITX",
-"stock_Div":"상업서비스",
-"SRIM_1":"4873",
-"SRIM_2":"4042",
-"SRIM_3":"2652"
+"stock_code": "A094280",
+"stock_name": "효성ITX",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "4880",
+"SRIM_2": "4048",
+"SRIM_3": "2656",
+"stock_Div_PER": "24.48",
+"Current_PER": "21.43",
+"Current_PER_Rank": "12",
+"PER_Target_1": "24445",
+"PER_Target_2": "20418",
+"PER_Target_Avr": "22432",
+"Close_Price": "19300",
+"Price_over_PERAvg": "0.860397209281591"
 }

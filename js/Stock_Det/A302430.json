@@ -1,8 +1,16 @@
 {
-"stock_code":"A302430",
-"stock_name":"이노메트리",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"4873",
-"SRIM_2":"4042",
-"SRIM_3":"2652"
+"stock_code": "A302430",
+"stock_name": "이노메트리",
+"stock_Div": "전기제품",
+"SRIM_1": "6019",
+"SRIM_2": "4992",
+"SRIM_3": "3276",
+"stock_Div_PER": "77.9",
+"Current_PER": "44.89",
+"Current_PER_Rank": "15",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "19300",
+"Price_over_PERAvg": "N/A"
 }

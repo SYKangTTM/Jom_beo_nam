@@ -1,8 +1,16 @@
 {
-"stock_code":"A000240",
-"stock_name":"한국테크놀로지그룹",
-"stock_Div":"자동차부품",
-"SRIM_1":"30763",
-"SRIM_2":"28448",
-"SRIM_3":"23910"
+"stock_code": "A000240",
+"stock_name": "한국테크놀로지그룹",
+"stock_Div": "자동차부품",
+"SRIM_1": "30807",
+"SRIM_2": "28490",
+"SRIM_3": "23944",
+"stock_Div_PER": "12.97",
+"Current_PER": "9.22",
+"Current_PER_Rank": "36",
+"PER_Target_1": "13526",
+"PER_Target_2": "10165",
+"PER_Target_Avr": "11846",
+"Close_Price": "14200",
+"Price_over_PERAvg": "1.19876746443797"
 }

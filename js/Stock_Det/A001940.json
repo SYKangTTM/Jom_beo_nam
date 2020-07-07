@@ -1,8 +1,16 @@
 {
-"stock_code":"A001940",
-"stock_name":"KISCOÈ¦µù½º",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"48059",
-"SRIM_2":"39864",
-"SRIM_3":"26156"
+"stock_code": "A001940",
+"stock_name": "KISCOÈ¦µù½º",
+"stock_Div": "Ã¶°­",
+"SRIM_1": "48129",
+"SRIM_2": "39922",
+"SRIM_3": "26194",
+"stock_Div_PER": "18.57",
+"Current_PER": "5.04",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "11550",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A008500",
-"stock_name":"일정실업",
-"stock_Div":"자동차부품",
-"SRIM_1":"22449",
-"SRIM_2":"18621",
-"SRIM_3":"12218"
+"stock_code": "A008500",
+"stock_name": "일정실업",
+"stock_Div": "자동차부품",
+"SRIM_1": "22482",
+"SRIM_2": "18648",
+"SRIM_3": "12236",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13900",
+"Price_over_PERAvg": "N/A"
 }

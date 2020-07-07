@@ -1,8 +1,16 @@
 {
-"stock_code":"A039490",
-"stock_name":"키움증권",
-"stock_Div":"증권",
-"SRIM_1":"106606",
-"SRIM_2":"115751",
-"SRIM_3":"138465"
+"stock_code": "A039490",
+"stock_name": "키움증권",
+"stock_Div": "증권",
+"SRIM_1": "107131",
+"SRIM_2": "116190",
+"SRIM_3": "138651",
+"stock_Div_PER": "6.77",
+"Current_PER": "10.51",
+"Current_PER_Rank": "17",
+"PER_Target_1": "56341",
+"PER_Target_2": "95297",
+"PER_Target_Avr": "75819",
+"Close_Price": "88200",
+"Price_over_PERAvg": "1.16329679895541"
 }

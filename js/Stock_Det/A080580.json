@@ -1,8 +1,16 @@
 {
-"stock_code":"A080580",
-"stock_name":"오킨스전자",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"3252",
-"SRIM_2":"2698",
-"SRIM_3":"1770"
+"stock_code": "A080580",
+"stock_name": "오킨스전자",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "3199",
+"SRIM_2": "2654",
+"SRIM_3": "1741",
+"stock_Div_PER": "17.68",
+"Current_PER": "16.13",
+"Current_PER_Rank": "29",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4405",
+"Price_over_PERAvg": "N/A"
 }

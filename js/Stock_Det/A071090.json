@@ -1,8 +1,16 @@
 {
-"stock_code":"A071090",
-"stock_name":"하이스틸",
-"stock_Div":"금속및광물",
-"SRIM_1":"57438",
-"SRIM_2":"47644",
-"SRIM_3":"31261"
+"stock_code": "A071090",
+"stock_name": "하이스틸",
+"stock_Div": "철강",
+"SRIM_1": "57522",
+"SRIM_2": "47713",
+"SRIM_3": "31306",
+"stock_Div_PER": "18.57",
+"Current_PER": "36.55",
+"Current_PER_Rank": "26",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "16950",
+"Price_over_PERAvg": "N/A"
 }

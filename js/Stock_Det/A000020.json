@@ -1,8 +1,16 @@
 {
-"stock_code":"A000020",
-"stock_name":"동화약품",
-"stock_Div":"제약",
-"SRIM_1":"9800",
-"SRIM_2":"8129",
-"SRIM_3":"5334"
+"stock_code": "A000020",
+"stock_name": "동화약품",
+"stock_Div": "제약",
+"SRIM_1": "9815",
+"SRIM_2": "8141",
+"SRIM_3": "5342",
+"stock_Div_PER": "122.92",
+"Current_PER": "43.1",
+"Current_PER_Rank": "48",
+"PER_Target_1": "107240",
+"PER_Target_2": "12777",
+"PER_Target_Avr": "60008",
+"Close_Price": "15100",
+"Price_over_PERAvg": "0.251631018938984"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A004370",
-"stock_name":"³ó½É",
-"stock_Div":"½Ä·áÇ°",
-"SRIM_1":"307851",
-"SRIM_2":"292859",
-"SRIM_3":"262212"
+"stock_code": "A004370",
+"stock_name": "³ó½É",
+"stock_Div": "½ÄÇ°",
+"SRIM_1": "308354",
+"SRIM_2": "293338",
+"SRIM_3": "262640",
+"stock_Div_PER": "23.98",
+"Current_PER": "25.42",
+"Current_PER_Rank": "40",
+"PER_Target_1": "558919",
+"PER_Target_2": "394119",
+"PER_Target_Avr": "476519",
+"Close_Price": "380000",
+"Price_over_PERAvg": "0.797449839355828"
 }

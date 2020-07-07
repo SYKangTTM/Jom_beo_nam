@@ -1,8 +1,16 @@
 {
-"stock_code":"A115160",
-"stock_name":"ÈÞ¸Æ½º",
-"stock_Div":"¼ÂÅé¹Ú½º",
-"SRIM_1":"16462",
-"SRIM_2":"14686",
-"SRIM_3":"11383"
+"stock_code": "A115160",
+"stock_name": "ÈÞ¸Æ½º",
+"stock_Div": "ÀüÀÚÁ¦Ç°",
+"SRIM_1": "15556",
+"SRIM_2": "12903",
+"SRIM_3": "8466",
+"stock_Div_PER": "33.93",
+"Current_PER": "66.98",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3130",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A096350",
-"stock_name":"대창솔루션",
-"stock_Div":"조선",
-"SRIM_1":"378",
-"SRIM_2":"314",
-"SRIM_3":"206"
+"stock_code": "A096350",
+"stock_name": "대창솔루션",
+"stock_Div": "기계",
+"SRIM_1": "379",
+"SRIM_2": "314",
+"SRIM_3": "206",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "316",
+"Price_over_PERAvg": "N/A"
 }

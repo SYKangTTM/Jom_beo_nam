@@ -1,8 +1,16 @@
 {
-"stock_code":"A148150",
-"stock_name":"세경하이테크",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"21631",
-"SRIM_2":"29006",
-"SRIM_3":"54039"
+"stock_code": "A148150",
+"stock_name": "세경하이테크",
+"stock_Div": "핸드셋",
+"SRIM_1": "21662",
+"SRIM_2": "29049",
+"SRIM_3": "54117",
+"stock_Div_PER": "22.29",
+"Current_PER": "35.92",
+"Current_PER_Rank": "29",
+"PER_Target_1": "49963",
+"PER_Target_2": "0",
+"PER_Target_Avr": "24982",
+"Close_Price": "26600",
+"Price_over_PERAvg": "0.532393971538939"
 }

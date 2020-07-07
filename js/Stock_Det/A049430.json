@@ -1,8 +1,16 @@
 {
-"stock_code":"A049430",
-"stock_name":"코메론",
-"stock_Div":"기계",
-"SRIM_1":"18258",
-"SRIM_2":"18975",
-"SRIM_3":"20644"
+"stock_code": "A049430",
+"stock_name": "코메론",
+"stock_Div": "기계",
+"SRIM_1": "15272",
+"SRIM_2": "12668",
+"SRIM_3": "8312",
+"stock_Div_PER": "N/A",
+"Current_PER": "5.88",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9100",
+"Price_over_PERAvg": "N/A"
 }

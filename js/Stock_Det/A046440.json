@@ -1,8 +1,16 @@
 {
-"stock_code":"A046440",
-"stock_name":"KG모빌리언스",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"8629",
-"SRIM_2":"10362",
-"SRIM_3":"15358"
+"stock_code": "A046440",
+"stock_name": "KG모빌리언스",
+"stock_Div": "IT서비스",
+"SRIM_1": "8642",
+"SRIM_2": "10377",
+"SRIM_3": "15380",
+"stock_Div_PER": "23.79",
+"Current_PER": "20.07",
+"Current_PER_Rank": "23",
+"PER_Target_1": "16509",
+"PER_Target_2": "17838",
+"PER_Target_Avr": "17174",
+"Close_Price": "12250",
+"Price_over_PERAvg": "0.713308294756456"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A241560",
-"stock_name":"µÎ»ê¹äÄ¹",
-"stock_Div":"±â°è",
-"SRIM_1":"35924",
-"SRIM_2":"34935",
-"SRIM_3":"32847"
+"stock_code": "A241560",
+"stock_name": "µÎ»ê¹äÄ¹",
+"stock_Div": "±â°è",
+"SRIM_1": "35938",
+"SRIM_2": "34884",
+"SRIM_3": "32663",
+"stock_Div_PER": "N/A",
+"Current_PER": "11.26",
+"Current_PER_Rank": "20",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "26250",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A032750",
-"stock_name":"삼진",
-"stock_Div":"내구소비재",
-"SRIM_1":"11480",
-"SRIM_2":"9522",
-"SRIM_3":"6248"
+"stock_code": "A032750",
+"stock_name": "삼진",
+"stock_Div": "전자제품",
+"SRIM_1": "11496",
+"SRIM_2": "9536",
+"SRIM_3": "6257",
+"stock_Div_PER": "33.93",
+"Current_PER": "4.25",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8480",
+"Price_over_PERAvg": "N/A"
 }

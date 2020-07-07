@@ -1,8 +1,16 @@
 {
-"stock_code":"A018120",
-"stock_name":"진로발효",
-"stock_Div":"음료",
-"SRIM_1":"10653",
-"SRIM_2":"8836",
-"SRIM_3":"5798"
+"stock_code": "A018120",
+"stock_name": "진로발효",
+"stock_Div": "음료",
+"SRIM_1": "10668",
+"SRIM_2": "8849",
+"SRIM_3": "5806",
+"stock_Div_PER": "N/A",
+"Current_PER": "14.27",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "29800",
+"Price_over_PERAvg": "N/A"
 }

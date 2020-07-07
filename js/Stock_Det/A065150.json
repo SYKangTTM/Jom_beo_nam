@@ -1,8 +1,16 @@
 {
-"stock_code":"A065150",
-"stock_name":"MP그룹",
-"stock_Div":"식료품",
-"SRIM_1":"239",
-"SRIM_2":"199",
-"SRIM_3":"130"
+"stock_code": "A065150",
+"stock_name": "MP그룹",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "240",
+"SRIM_2": "199",
+"SRIM_3": "131",
+"stock_Div_PER": "96.54",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1315",
+"Price_over_PERAvg": "N/A"
 }

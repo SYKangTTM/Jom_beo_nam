@@ -1,8 +1,16 @@
 {
-"stock_code":"A020000",
-"stock_name":"ÇÑ¼¶",
-"stock_Div":"¼¶À¯¹×ÀÇº¹",
-"SRIM_1":"48415",
-"SRIM_2":"48146",
-"SRIM_3":"47560"
+"stock_code": "A020000",
+"stock_name": "ÇÑ¼¶",
+"stock_Div": "¼¶À¯,ÀÇ·ù,½Å¹ß,È£È­Ç°",
+"SRIM_1": "48498",
+"SRIM_2": "48240",
+"SRIM_3": "47677",
+"stock_Div_PER": "23.09",
+"Current_PER": "10.84",
+"Current_PER_Rank": "15",
+"PER_Target_1": "56660",
+"PER_Target_2": "45070",
+"PER_Target_Avr": "50865",
+"Close_Price": "35350",
+"Price_over_PERAvg": "0.694976899636292"
 }

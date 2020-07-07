@@ -1,8 +1,16 @@
 {
-"stock_code":"A060720",
-"stock_name":"KH바텍",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"13828",
-"SRIM_2":"17703",
-"SRIM_3":"29978"
+"stock_code": "A060720",
+"stock_name": "KH바텍",
+"stock_Div": "핸드셋",
+"SRIM_1": "13849",
+"SRIM_2": "17728",
+"SRIM_3": "30021",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "16465",
+"PER_Target_2": "0",
+"PER_Target_Avr": "8232",
+"Close_Price": "23000",
+"Price_over_PERAvg": "1.39690252049803"
 }

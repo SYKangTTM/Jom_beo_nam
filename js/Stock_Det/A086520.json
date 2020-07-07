@@ -1,8 +1,16 @@
 {
-"stock_code":"A086520",
-"stock_name":"에코프로",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"22445",
-"SRIM_2":"30215",
-"SRIM_3":"56736"
+"stock_code": "A086520",
+"stock_name": "에코프로",
+"stock_Div": "화학",
+"SRIM_1": "22475",
+"SRIM_2": "30256",
+"SRIM_3": "56813",
+"stock_Div_PER": "58.5",
+"Current_PER": "42.02",
+"Current_PER_Rank": "60",
+"PER_Target_1": "73154",
+"PER_Target_2": "0",
+"PER_Target_Avr": "36577",
+"Close_Price": "31200",
+"Price_over_PERAvg": "0.426497525767559"
 }

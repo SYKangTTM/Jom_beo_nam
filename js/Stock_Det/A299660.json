@@ -1,8 +1,16 @@
 {
-"stock_code":"A299660",
-"stock_name":"셀리드",
-"stock_Div":"바이오",
-"SRIM_1":"4781",
-"SRIM_2":"3966",
-"SRIM_3":"2602"
+"stock_code": "A299660",
+"stock_name": "셀리드",
+"stock_Div": "생물공학",
+"SRIM_1": "4788",
+"SRIM_2": "3971",
+"SRIM_3": "2606",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "28050",
+"Price_over_PERAvg": "N/A"
 }

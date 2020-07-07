@@ -1,8 +1,16 @@
 {
-"stock_code":"A026940",
-"stock_name":"ºÎ±¹Ã¶°­",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"5058",
-"SRIM_2":"4196",
-"SRIM_3":"2753"
+"stock_code": "A026940",
+"stock_name": "ºÎ±¹Ã¶°­",
+"stock_Div": "Ã¶°­",
+"SRIM_1": "5065",
+"SRIM_2": "4202",
+"SRIM_3": "2757",
+"stock_Div_PER": "18.57",
+"Current_PER": "61.85",
+"Current_PER_Rank": "33",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5810",
+"Price_over_PERAvg": "N/A"
 }

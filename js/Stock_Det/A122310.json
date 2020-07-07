@@ -1,8 +1,16 @@
 {
-"stock_code":"A122310",
-"stock_name":"제노레이",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"7384",
-"SRIM_2":"9330",
-"SRIM_3":"15378"
+"stock_code": "A122310",
+"stock_name": "제노레이",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "7394",
+"SRIM_2": "9343",
+"SRIM_3": "15400",
+"stock_Div_PER": "116.58",
+"Current_PER": "10.09",
+"Current_PER_Rank": "2",
+"PER_Target_1": "80358",
+"PER_Target_2": "0",
+"PER_Target_Avr": "40179",
+"Close_Price": "9990",
+"Price_over_PERAvg": "0.124318673934145"
 }

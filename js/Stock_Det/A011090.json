@@ -1,8 +1,16 @@
 {
-"stock_code":"A011090",
-"stock_name":"에넥스",
-"stock_Div":"내구소비재",
-"SRIM_1":"881",
-"SRIM_2":"731",
-"SRIM_3":"480"
+"stock_code": "A011090",
+"stock_name": "에넥스",
+"stock_Div": "가구",
+"SRIM_1": "883",
+"SRIM_2": "732",
+"SRIM_3": "480",
+"stock_Div_PER": "23.12",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1125",
+"Price_over_PERAvg": "N/A"
 }

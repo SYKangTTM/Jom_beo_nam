@@ -1,8 +1,16 @@
 {
-"stock_code":"A037370",
-"stock_name":"EG",
-"stock_Div":"금속및광물",
-"SRIM_1":"3980",
-"SRIM_2":"3302",
-"SRIM_3":"2166"
+"stock_code": "A037370",
+"stock_name": "EG",
+"stock_Div": "무역회사와판매업체",
+"SRIM_1": "3985",
+"SRIM_2": "3303",
+"SRIM_3": "2164",
+"stock_Div_PER": "7.25",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8950",
+"Price_over_PERAvg": "N/A"
 }

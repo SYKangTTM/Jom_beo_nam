@@ -1,8 +1,16 @@
 {
-"stock_code":"A038110",
-"stock_name":"에코플라스틱",
-"stock_Div":"자동차부품",
-"SRIM_1":"3944",
-"SRIM_2":"3272",
-"SRIM_3":"2147"
+"stock_code": "A038110",
+"stock_name": "에코플라스틱",
+"stock_Div": "자동차부품",
+"SRIM_1": "3950",
+"SRIM_2": "3277",
+"SRIM_3": "2150",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1350",
+"Price_over_PERAvg": "N/A"
 }

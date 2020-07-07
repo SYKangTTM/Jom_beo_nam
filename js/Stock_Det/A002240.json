@@ -1,8 +1,16 @@
 {
-"stock_code":"A002240",
-"stock_name":"고려제강",
-"stock_Div":"금속및광물",
-"SRIM_1":"61909",
-"SRIM_2":"51352",
-"SRIM_3":"33694"
+"stock_code": "A002240",
+"stock_name": "고려제강",
+"stock_Div": "철강",
+"SRIM_1": "61999",
+"SRIM_2": "51427",
+"SRIM_3": "33743",
+"stock_Div_PER": "18.57",
+"Current_PER": "56.46",
+"Current_PER_Rank": "32",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "16200",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A035420",
-"stock_name":"NAVER",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"56342",
-"SRIM_2":"62320",
-"SRIM_3":"77577"
+"stock_code": "A035420",
+"stock_name": "NAVER",
+"stock_Div": "양방향미디어와서비스",
+"SRIM_1": "56675",
+"SRIM_2": "62802",
+"SRIM_3": "78486",
+"stock_Div_PER": "177.92",
+"Current_PER": "72.68",
+"Current_PER_Rank": "5",
+"PER_Target_1": "1438805",
+"PER_Target_2": "246258",
+"PER_Target_Avr": "842532",
+"Close_Price": "279500",
+"Price_over_PERAvg": "0.33173833856657"
 }

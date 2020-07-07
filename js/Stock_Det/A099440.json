@@ -1,8 +1,16 @@
 {
-"stock_code":"A099440",
-"stock_name":"½º¸Æ",
-"stock_Div":"±â°è",
-"SRIM_1":"3283",
-"SRIM_2":"2723",
-"SRIM_3":"1787"
+"stock_code": "A099440",
+"stock_name": "½º¸Æ",
+"stock_Div": "±â°è",
+"SRIM_1": "3288",
+"SRIM_2": "2727",
+"SRIM_3": "1789",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1960",
+"Price_over_PERAvg": "N/A"
 }

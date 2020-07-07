@@ -1,8 +1,16 @@
 {
-"stock_code":"A004910",
-"stock_name":"조광페인트",
-"stock_Div":"건축자재",
-"SRIM_1":"15356",
-"SRIM_2":"12737",
-"SRIM_3":"8357"
+"stock_code": "A004910",
+"stock_name": "조광페인트",
+"stock_Div": "건축자재",
+"SRIM_1": "15378",
+"SRIM_2": "12756",
+"SRIM_3": "8369",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5530",
+"Price_over_PERAvg": "N/A"
 }

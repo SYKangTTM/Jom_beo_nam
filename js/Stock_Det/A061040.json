@@ -1,8 +1,16 @@
 {
-"stock_code":"A061040",
-"stock_name":"알에프텍",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"9374",
-"SRIM_2":"12632",
-"SRIM_3":"23773"
+"stock_code": "A061040",
+"stock_name": "알에프텍",
+"stock_Div": "핸드셋",
+"SRIM_1": "9387",
+"SRIM_2": "12651",
+"SRIM_3": "23807",
+"stock_Div_PER": "22.29",
+"Current_PER": "11.68",
+"Current_PER_Rank": "18",
+"PER_Target_1": "20059",
+"PER_Target_2": "0",
+"PER_Target_Avr": "10030",
+"Close_Price": "8180",
+"Price_over_PERAvg": "0.407796998853383"
 }

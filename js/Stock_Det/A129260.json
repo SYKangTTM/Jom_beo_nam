@@ -1,8 +1,16 @@
 {
-"stock_code":"A129260",
-"stock_name":"인터지스",
-"stock_Div":"해상운수",
-"SRIM_1":"5593",
-"SRIM_2":"4640",
-"SRIM_3":"3044"
+"stock_code": "A129260",
+"stock_name": "인터지스",
+"stock_Div": "항공화물운송과물류",
+"SRIM_1": "5601",
+"SRIM_2": "4646",
+"SRIM_3": "3049",
+"stock_Div_PER": "14.8",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1665",
+"Price_over_PERAvg": "N/A"
 }

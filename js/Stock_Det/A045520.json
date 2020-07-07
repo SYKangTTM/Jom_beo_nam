@@ -1,8 +1,16 @@
 {
-"stock_code":"A045520",
-"stock_name":"크린앤사이언스",
-"stock_Div":"자동차부품",
-"SRIM_1":"6202",
-"SRIM_2":"5144",
-"SRIM_3":"3375"
+"stock_code": "A045520",
+"stock_name": "크린앤사이언스",
+"stock_Div": "자동차부품",
+"SRIM_1": "6211",
+"SRIM_2": "5152",
+"SRIM_3": "3380",
+"stock_Div_PER": "12.97",
+"Current_PER": "27.19",
+"Current_PER_Rank": "63",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "36800",
+"Price_over_PERAvg": "N/A"
 }

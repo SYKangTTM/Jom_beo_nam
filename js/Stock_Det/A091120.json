@@ -1,8 +1,16 @@
 {
-"stock_code":"A091120",
-"stock_name":"이엠텍",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"15178",
-"SRIM_2":"17641",
-"SRIM_3":"24408"
+"stock_code": "A091120",
+"stock_name": "이엠텍",
+"stock_Div": "핸드셋",
+"SRIM_1": "15200",
+"SRIM_2": "17667",
+"SRIM_3": "24443",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "14844",
+"PER_Target_2": "65948",
+"PER_Target_Avr": "40396",
+"Close_Price": "12800",
+"Price_over_PERAvg": "0.316863055748094"
 }

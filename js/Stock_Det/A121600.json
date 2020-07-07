@@ -1,8 +1,16 @@
 {
-"stock_code":"A121600",
-"stock_name":"나노신소재",
-"stock_Div":"금속및광물",
-"SRIM_1":"7904",
-"SRIM_2":"6556",
-"SRIM_3":"4302"
+"stock_code": "A121600",
+"stock_name": "나노신소재",
+"stock_Div": "화학",
+"SRIM_1": "7916",
+"SRIM_2": "6566",
+"SRIM_3": "4308",
+"stock_Div_PER": "58.5",
+"Current_PER": "52.94",
+"Current_PER_Rank": "66",
+"PER_Target_1": "27263",
+"PER_Target_2": "18275",
+"PER_Target_Avr": "22769",
+"Close_Price": "22000",
+"Price_over_PERAvg": "0.966226009047389"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A005930",
-"stock_name":"삼성전자",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"42225",
-"SRIM_2":"46326",
-"SRIM_3":"56670"
+"stock_code": "A005930",
+"stock_name": "삼성전자",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "42061",
+"SRIM_2": "45845",
+"SRIM_3": "55299",
+"stock_Div_PER": "17.68",
+"Current_PER": "17.55",
+"Current_PER_Rank": "34",
+"PER_Target_1": "58908",
+"PER_Target_2": "42459",
+"PER_Target_Avr": "50684",
+"Close_Price": "53400",
+"Price_over_PERAvg": "1.05359732457309"
 }

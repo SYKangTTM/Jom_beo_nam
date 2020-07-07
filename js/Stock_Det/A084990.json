@@ -1,8 +1,16 @@
 {
-"stock_code":"A084990",
-"stock_name":"헬릭스미스",
-"stock_Div":"바이오",
-"SRIM_1":"6574",
-"SRIM_2":"5453",
-"SRIM_3":"3578"
+"stock_code": "A084990",
+"stock_name": "헬릭스미스",
+"stock_Div": "생물공학",
+"SRIM_1": "6584",
+"SRIM_2": "5461",
+"SRIM_3": "3583",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "63600",
+"Price_over_PERAvg": "N/A"
 }

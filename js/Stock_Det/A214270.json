@@ -1,8 +1,16 @@
 {
-"stock_code":"A214270",
-"stock_name":"퓨쳐스트림네트웍스",
-"stock_Div":"미디어",
-"SRIM_1":"505",
-"SRIM_2":"418",
-"SRIM_3":"275"
+"stock_code": "A214270",
+"stock_name": "퓨쳐스트림네트웍스",
+"stock_Div": "양방향미디어와서비스",
+"SRIM_1": "505",
+"SRIM_2": "419",
+"SRIM_3": "275",
+"stock_Div_PER": "177.92",
+"Current_PER": "15.68",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1085",
+"Price_over_PERAvg": "N/A"
 }

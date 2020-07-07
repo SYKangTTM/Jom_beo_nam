@@ -1,8 +1,16 @@
 {
-"stock_code":"A184230",
-"stock_name":"SGA솔루션즈",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"449",
-"SRIM_2":"373",
-"SRIM_3":"244"
+"stock_code": "A184230",
+"stock_name": "SGA솔루션즈",
+"stock_Div": "소프트웨어",
+"SRIM_1": "450",
+"SRIM_2": "373",
+"SRIM_3": "245",
+"stock_Div_PER": "110.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "935",
+"Price_over_PERAvg": "N/A"
 }

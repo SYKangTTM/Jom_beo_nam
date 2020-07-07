@@ -1,8 +1,16 @@
 {
-"stock_code":"A016590",
-"stock_name":"신대양제지",
-"stock_Div":"종이및목재",
-"SRIM_1":"93361",
-"SRIM_2":"77441",
-"SRIM_3":"50812"
+"stock_code": "A016590",
+"stock_name": "신대양제지",
+"stock_Div": "포장재",
+"SRIM_1": "93496",
+"SRIM_2": "77554",
+"SRIM_3": "50885",
+"stock_Div_PER": "9.45",
+"Current_PER": "3.7",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "52100",
+"Price_over_PERAvg": "N/A"
 }

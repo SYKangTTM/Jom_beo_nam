@@ -1,8 +1,16 @@
 {
-"stock_code":"A230360",
-"stock_name":"에코마케팅",
-"stock_Div":"미디어",
-"SRIM_1":"13914",
-"SRIM_2":"20015",
-"SRIM_3":"42988"
+"stock_code": "A230360",
+"stock_name": "에코마케팅",
+"stock_Div": "광고",
+"SRIM_1": "14057",
+"SRIM_2": "20267",
+"SRIM_3": "43733",
+"stock_Div_PER": "14.98",
+"Current_PER": "21.05",
+"Current_PER_Rank": "8",
+"PER_Target_1": "34502",
+"PER_Target_2": "0",
+"PER_Target_Avr": "17251",
+"Close_Price": "39500",
+"Price_over_PERAvg": "1.14486116746855"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A001460",
-"stock_name":"BYC",
-"stock_Div":"섬유및의복",
-"SRIM_1":"464910",
-"SRIM_2":"385635",
-"SRIM_3":"253027"
+"stock_code": "A001460",
+"stock_name": "BYC",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "465411",
+"SRIM_2": "385789",
+"SRIM_3": "252732",
+"stock_Div_PER": "23.09",
+"Current_PER": "7.05",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "213500",
+"Price_over_PERAvg": "N/A"
 }

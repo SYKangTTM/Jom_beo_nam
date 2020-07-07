@@ -1,8 +1,16 @@
 {
-"stock_code":"A290720",
-"stock_name":"푸드나무",
-"stock_Div":"식료품",
-"SRIM_1":"12543",
-"SRIM_2":"16168",
-"SRIM_3":"27775"
+"stock_code": "A290720",
+"stock_name": "푸드나무",
+"stock_Div": "식품",
+"SRIM_1": "12561",
+"SRIM_2": "16192",
+"SRIM_3": "27816",
+"stock_Div_PER": "23.98",
+"Current_PER": "43.97",
+"Current_PER_Rank": "46",
+"PER_Target_1": "27919",
+"PER_Target_2": "0",
+"PER_Target_Avr": "13960",
+"Close_Price": "26200",
+"Price_over_PERAvg": "0.938429026827608"
 }

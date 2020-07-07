@@ -1,8 +1,16 @@
 {
-"stock_code":"A036420",
-"stock_name":"제이콘텐트리",
-"stock_Div":"미디어",
-"SRIM_1":"20487",
-"SRIM_2":"20845",
-"SRIM_3":"21654"
+"stock_code": "A036420",
+"stock_name": "제이콘텐트리",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "20462",
+"SRIM_2": "20829",
+"SRIM_3": "21659",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "-17385",
+"PER_Target_Avr": "-8692",
+"Close_Price": "32850",
+"Price_over_PERAvg": "-1.88955996548749"
 }

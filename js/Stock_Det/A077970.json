@@ -1,8 +1,16 @@
 {
-"stock_code":"A077970",
-"stock_name":"STX엔진",
-"stock_Div":"조선",
-"SRIM_1":"7724",
-"SRIM_2":"6407",
-"SRIM_3":"4204"
+"stock_code": "A077970",
+"stock_name": "STX엔진",
+"stock_Div": "조선",
+"SRIM_1": "7736",
+"SRIM_2": "6417",
+"SRIM_3": "4210",
+"stock_Div_PER": "N/A",
+"Current_PER": "11.5",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5890",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A008420",
-"stock_name":"¹®¹èÃ¶°­",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"5108",
-"SRIM_2":"4237",
-"SRIM_3":"2780"
+"stock_code": "A008420",
+"stock_name": "¹®¹èÃ¶°­",
+"stock_Div": "Ã¶°­",
+"SRIM_1": "5115",
+"SRIM_2": "4243",
+"SRIM_3": "2784",
+"stock_Div_PER": "18.57",
+"Current_PER": "33.34",
+"Current_PER_Rank": "24",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2700",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A084730",
-"stock_name":"팅크웨어",
-"stock_Div":"자동차부품",
-"SRIM_1":"14182",
-"SRIM_2":"11764",
-"SRIM_3":"7719"
+"stock_code": "A084730",
+"stock_name": "팅크웨어",
+"stock_Div": "전자제품",
+"SRIM_1": "14203",
+"SRIM_2": "11781",
+"SRIM_3": "7730",
+"stock_Div_PER": "33.93",
+"Current_PER": "26.7",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10400",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A001120",
-"stock_name":"LG상사",
-"stock_Div":"무역",
-"SRIM_1":"34025",
-"SRIM_2":"32681",
-"SRIM_3":"29894"
+"stock_code": "A001120",
+"stock_name": "LG상사",
+"stock_Div": "무역회사와판매업체",
+"SRIM_1": "34902",
+"SRIM_2": "33610",
+"SRIM_3": "30920",
+"stock_Div_PER": "7.25",
+"Current_PER": "2.97",
+"Current_PER_Rank": "1",
+"PER_Target_1": "99696",
+"PER_Target_2": "0",
+"PER_Target_Avr": "49848",
+"Close_Price": "15100",
+"Price_over_PERAvg": "0.1514604397368"
 }

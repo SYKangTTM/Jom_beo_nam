@@ -1,8 +1,16 @@
 {
-"stock_code":"A140860",
-"stock_name":"파크시스템스",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"15465",
-"SRIM_2":"23560",
-"SRIM_3":"56734"
+"stock_code": "A140860",
+"stock_name": "파크시스템스",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "15488",
+"SRIM_2": "23594",
+"SRIM_3": "56816",
+"stock_Div_PER": "31.01",
+"Current_PER": "34.61",
+"Current_PER_Rank": "31",
+"PER_Target_1": "75827",
+"PER_Target_2": "78367",
+"PER_Target_Avr": "77097",
+"Close_Price": "51700",
+"Price_over_PERAvg": "0.670583810005577"
 }

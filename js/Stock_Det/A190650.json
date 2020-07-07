@@ -1,8 +1,16 @@
 {
-"stock_code":"A190650",
-"stock_name":"코리아에셋투자증권",
-"stock_Div":"증권",
-"SRIM_1":"9797",
-"SRIM_2":"8127",
-"SRIM_3":"5332"
+"stock_code": "A190650",
+"stock_name": "코리아에셋투자증권",
+"stock_Div": "증권",
+"SRIM_1": "9811",
+"SRIM_2": "8138",
+"SRIM_3": "5340",
+"stock_Div_PER": "5.03",
+"Current_PER": "6.02",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7430",
+"Price_over_PERAvg": "N/A"
 }

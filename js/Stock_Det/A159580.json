@@ -1,8 +1,16 @@
 {
-"stock_code":"A159580",
-"stock_name":"제로투세븐",
-"stock_Div":"섬유및의복",
-"SRIM_1":"5879",
-"SRIM_2":"7264",
-"SRIM_3":"11430"
+"stock_code": "A159580",
+"stock_name": "제로투세븐",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "5887",
+"SRIM_2": "7275",
+"SRIM_3": "11447",
+"stock_Div_PER": "23.09",
+"Current_PER": "20.19",
+"Current_PER_Rank": "34",
+"PER_Target_1": "7099",
+"PER_Target_2": "0",
+"PER_Target_Avr": "3550",
+"Close_Price": "7430",
+"Price_over_PERAvg": "1.04662628539231"
 }

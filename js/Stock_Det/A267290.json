@@ -1,8 +1,16 @@
 {
-"stock_code":"A267290",
-"stock_name":"경동도시가스",
-"stock_Div":"가스",
-"SRIM_1":"51769",
-"SRIM_2":"42941",
-"SRIM_3":"28175"
+"stock_code": "A267290",
+"stock_name": "경동도시가스",
+"stock_Div": "가스유틸리티",
+"SRIM_1": "51844",
+"SRIM_2": "43004",
+"SRIM_3": "28216",
+"stock_Div_PER": "10.96",
+"Current_PER": "4.65",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "16550",
+"Price_over_PERAvg": "N/A"
 }

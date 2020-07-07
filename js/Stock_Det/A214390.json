@@ -1,8 +1,16 @@
 {
-"stock_code":"A214390",
-"stock_name":"경보제약",
-"stock_Div":"제약",
-"SRIM_1":"5612",
-"SRIM_2":"4655",
-"SRIM_3":"3054"
+"stock_code": "A214390",
+"stock_name": "경보제약",
+"stock_Div": "제약",
+"SRIM_1": "5620",
+"SRIM_2": "4662",
+"SRIM_3": "3059",
+"stock_Div_PER": "122.92",
+"Current_PER": "40.74",
+"Current_PER_Rank": "47",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8670",
+"Price_over_PERAvg": "N/A"
 }

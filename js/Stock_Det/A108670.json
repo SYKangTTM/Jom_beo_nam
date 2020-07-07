@@ -1,8 +1,16 @@
 {
-"stock_code":"A108670",
-"stock_name":"LG하우시스",
-"stock_Div":"건축자재",
-"SRIM_1":"80199",
-"SRIM_2":"74923",
-"SRIM_3":"64421"
+"stock_code": "A108670",
+"stock_name": "LG하우시스",
+"stock_Div": "건축자재",
+"SRIM_1": "80152",
+"SRIM_2": "74826",
+"SRIM_3": "64235",
+"stock_Div_PER": "N/A",
+"Current_PER": "39.17",
+"Current_PER_Rank": "17",
+"PER_Target_1": "292768",
+"PER_Target_2": "0",
+"PER_Target_Avr": "146384",
+"Close_Price": "65200",
+"Price_over_PERAvg": "0.222701934637665"
 }

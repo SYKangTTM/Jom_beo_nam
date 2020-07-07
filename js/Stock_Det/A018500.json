@@ -1,8 +1,16 @@
 {
-"stock_code":"A018500",
-"stock_name":"동원금속",
-"stock_Div":"자동차부품",
-"SRIM_1":"1225",
-"SRIM_2":"1016",
-"SRIM_3":"667"
+"stock_code": "A018500",
+"stock_name": "동원금속",
+"stock_Div": "자동차부품",
+"SRIM_1": "1227",
+"SRIM_2": "1018",
+"SRIM_3": "668",
+"stock_Div_PER": "11.79",
+"Current_PER": "2",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "706",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A001560",
-"stock_name":"제일연마",
-"stock_Div":"금속및광물",
-"SRIM_1":"10071",
-"SRIM_2":"8354",
-"SRIM_3":"5481"
+"stock_code": "A001560",
+"stock_name": "제일연마",
+"stock_Div": "비철금속",
+"SRIM_1": "10086",
+"SRIM_2": "8366",
+"SRIM_3": "5489",
+"stock_Div_PER": "17.84",
+"Current_PER": "10.56",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6120",
+"Price_over_PERAvg": "N/A"
 }

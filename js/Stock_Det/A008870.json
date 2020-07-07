@@ -1,8 +1,16 @@
 {
-"stock_code":"A008870",
-"stock_name":"금비",
-"stock_Div":"용기및포장",
-"SRIM_1":"114968",
-"SRIM_2":"95364",
-"SRIM_3":"62571"
+"stock_code": "A008870",
+"stock_name": "금비",
+"stock_Div": "포장재",
+"SRIM_1": "115135",
+"SRIM_2": "95503",
+"SRIM_3": "62662",
+"stock_Div_PER": "9.45",
+"Current_PER": "16.22",
+"Current_PER_Rank": "18",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "57600",
+"Price_over_PERAvg": "N/A"
 }

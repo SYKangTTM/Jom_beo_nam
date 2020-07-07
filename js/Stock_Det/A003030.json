@@ -1,8 +1,16 @@
 {
-"stock_code":"A003030",
-"stock_name":"세아제강지주",
-"stock_Div":"금속및광물",
-"SRIM_1":"214736",
-"SRIM_2":"178120",
-"SRIM_3":"116870"
+"stock_code": "A003030",
+"stock_name": "세아제강지주",
+"stock_Div": "철강",
+"SRIM_1": "215049",
+"SRIM_2": "178379",
+"SRIM_3": "117040",
+"stock_Div_PER": "18.57",
+"Current_PER": "19.74",
+"Current_PER_Rank": "21",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "35250",
+"Price_over_PERAvg": "N/A"
 }

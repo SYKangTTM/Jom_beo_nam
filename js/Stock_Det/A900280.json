@@ -1,8 +1,16 @@
 {
-"stock_code":"A900280",
-"stock_name":"榜电季抿府",
-"stock_Div":"磊悼瞒何前",
-"SRIM_1":"1225",
-"SRIM_2":"1016",
-"SRIM_3":"667"
+"stock_code": "A900280",
+"stock_name": "榜电季抿府",
+"stock_Div": "磊悼瞒何前",
+"SRIM_1": "1227",
+"SRIM_2": "1018",
+"SRIM_3": "668",
+"stock_Div_PER": "12.97",
+"Current_PER": "1.59",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "269",
+"Price_over_PERAvg": "N/A"
 }

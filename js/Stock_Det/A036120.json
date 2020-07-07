@@ -1,8 +1,16 @@
 {
-"stock_code":"A036120",
-"stock_name":"SCI평가정보",
-"stock_Div":"상업서비스",
-"SRIM_1":"1037",
-"SRIM_2":"860",
-"SRIM_3":"565"
+"stock_code": "A036120",
+"stock_name": "SCI평가정보",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "1039",
+"SRIM_2": "862",
+"SRIM_3": "565",
+"stock_Div_PER": "24.48",
+"Current_PER": "25.2",
+"Current_PER_Rank": "15",
+"PER_Target_1": "5328",
+"PER_Target_2": "0",
+"PER_Target_Avr": "2664",
+"Close_Price": "5600",
+"Price_over_PERAvg": "1.05105105105105"
 }

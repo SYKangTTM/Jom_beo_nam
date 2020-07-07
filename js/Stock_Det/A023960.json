@@ -1,8 +1,16 @@
 {
-"stock_code":"A023960",
-"stock_name":"에쓰씨엔지니어링",
-"stock_Div":"건설",
-"SRIM_1":"895",
-"SRIM_2":"742",
-"SRIM_3":"487"
+"stock_code": "A023960",
+"stock_name": "에쓰씨엔지니어링",
+"stock_Div": "건설",
+"SRIM_1": "896",
+"SRIM_2": "743",
+"SRIM_3": "488",
+"stock_Div_PER": "6.13",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1285",
+"Price_over_PERAvg": "N/A"
 }

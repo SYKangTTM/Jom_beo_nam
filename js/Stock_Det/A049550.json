@@ -1,8 +1,16 @@
 {
-"stock_code":"A049550",
-"stock_name":"잉크테크",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"2022",
-"SRIM_2":"1677",
-"SRIM_3":"1101"
+"stock_code": "A049550",
+"stock_name": "잉크테크",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "2025",
+"SRIM_2": "1680",
+"SRIM_3": "1102",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2865",
+"Price_over_PERAvg": "N/A"
 }

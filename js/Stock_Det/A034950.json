@@ -1,8 +1,16 @@
 {
-"stock_code":"A034950",
-"stock_name":"한국기업평가",
-"stock_Div":"상업서비스",
-"SRIM_1":"21589",
-"SRIM_2":"17907",
-"SRIM_3":"11750"
+"stock_code": "A034950",
+"stock_name": "한국기업평가",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "21620",
+"SRIM_2": "17933",
+"SRIM_3": "11767",
+"stock_Div_PER": "24.48",
+"Current_PER": "15.82",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "73500",
+"Price_over_PERAvg": "N/A"
 }

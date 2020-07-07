@@ -1,8 +1,16 @@
 {
-"stock_code":"A192410",
-"stock_name":"감마누",
-"stock_Div":"통신장비",
-"SRIM_1":"1034",
-"SRIM_2":"858",
-"SRIM_3":"563"
+"stock_code": "A192410",
+"stock_name": "감마누",
+"stock_Div": "통신장비",
+"SRIM_1": "1036",
+"SRIM_2": "859",
+"SRIM_3": "564",
+"stock_Div_PER": "95.76",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "408",
+"Price_over_PERAvg": "N/A"
 }

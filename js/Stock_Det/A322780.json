@@ -1,8 +1,16 @@
 {
-"stock_code":"A322780",
-"stock_name":"DB금융스팩7호",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1680",
-"SRIM_2":"1393",
-"SRIM_3":"914"
+"stock_code": "A322780",
+"stock_name": "DB금융스팩7호",
+"stock_Div": "미분류",
+"SRIM_1": "1682",
+"SRIM_2": "1394",
+"SRIM_3": "913",
+"stock_Div_PER": "",
+"Current_PER": "224.58",
+"Current_PER_Rank": "23",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2040",
+"Price_over_PERAvg": "N/A"
 }

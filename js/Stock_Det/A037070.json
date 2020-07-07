@@ -1,8 +1,16 @@
 {
-"stock_code":"A037070",
-"stock_name":"파세코",
-"stock_Div":"내구소비재",
-"SRIM_1":"4875",
-"SRIM_2":"4044",
-"SRIM_3":"2653"
+"stock_code": "A037070",
+"stock_name": "파세코",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "4882",
+"SRIM_2": "4050",
+"SRIM_3": "2657",
+"stock_Div_PER": "19.57",
+"Current_PER": "24.94",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15550",
+"Price_over_PERAvg": "N/A"
 }

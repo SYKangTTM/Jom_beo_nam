@@ -1,8 +1,16 @@
 {
-"stock_code":"A028300",
-"stock_name":"에이치엘비",
-"stock_Div":"조선",
-"SRIM_1":"2315",
-"SRIM_2":"2609",
-"SRIM_3":"3380"
+"stock_code": "A028300",
+"stock_name": "에이치엘비",
+"stock_Div": "조선",
+"SRIM_1": "2321",
+"SRIM_2": "2618",
+"SRIM_3": "3397",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "88900",
+"Price_over_PERAvg": "N/A"
 }

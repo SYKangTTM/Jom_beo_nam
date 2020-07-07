@@ -1,8 +1,16 @@
 {
-"stock_code":"A032080",
-"stock_name":"아즈텍WB",
-"stock_Div":"섬유및의복",
-"SRIM_1":"4087",
-"SRIM_2":"3390",
-"SRIM_3":"2224"
+"stock_code": "A032080",
+"stock_name": "아즈텍WB",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "4093",
+"SRIM_2": "3395",
+"SRIM_3": "2228",
+"stock_Div_PER": "23.09",
+"Current_PER": "10.7",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1495",
+"Price_over_PERAvg": "N/A"
 }

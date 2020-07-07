@@ -1,8 +1,16 @@
 {
-"stock_code":"A141070",
-"stock_name":"맥스로텍",
-"stock_Div":"기계",
-"SRIM_1":"785",
-"SRIM_2":"651",
-"SRIM_3":"427"
+"stock_code": "A141070",
+"stock_name": "맥스로텍",
+"stock_Div": "기계",
+"SRIM_1": "786",
+"SRIM_2": "652",
+"SRIM_3": "428",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1160",
+"Price_over_PERAvg": "N/A"
 }

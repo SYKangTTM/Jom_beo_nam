@@ -1,8 +1,16 @@
 {
-"stock_code":"A308170",
-"stock_name":"센트랄모텍",
-"stock_Div":"자동차부품",
-"SRIM_1":"10203",
-"SRIM_2":"8464",
-"SRIM_3":"5553"
+"stock_code": "A308170",
+"stock_name": "센트랄모텍",
+"stock_Div": "자동차부품",
+"SRIM_1": "10218",
+"SRIM_2": "8476",
+"SRIM_3": "5561",
+"stock_Div_PER": "11.79",
+"Current_PER": "39.25",
+"Current_PER_Rank": "70",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "31250",
+"Price_over_PERAvg": "N/A"
 }

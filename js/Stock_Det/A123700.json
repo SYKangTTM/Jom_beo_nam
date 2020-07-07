@@ -1,8 +1,16 @@
 {
-"stock_code":"A123700",
-"stock_name":"SJM",
-"stock_Div":"자동차부품",
-"SRIM_1":"9548",
-"SRIM_2":"7920",
-"SRIM_3":"5197"
+"stock_code": "A123700",
+"stock_name": "SJM",
+"stock_Div": "자동차부품",
+"SRIM_1": "9562",
+"SRIM_2": "7931",
+"SRIM_3": "5204",
+"stock_Div_PER": "12.97",
+"Current_PER": "4.28",
+"Current_PER_Rank": "11",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2650",
+"Price_over_PERAvg": "N/A"
 }

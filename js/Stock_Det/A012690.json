@@ -1,8 +1,16 @@
 {
-"stock_code":"A012690",
-"stock_name":"모나리자",
-"stock_Div":"가정생활용품",
-"SRIM_1":"1601",
-"SRIM_2":"1328",
-"SRIM_3":"871"
+"stock_code": "A012690",
+"stock_name": "모나리자",
+"stock_Div": "가정용품",
+"SRIM_1": "1603",
+"SRIM_2": "1330",
+"SRIM_3": "873",
+"stock_Div_PER": "18.3",
+"Current_PER": "47.82",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6070",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A016450",
-"stock_name":"한세예스24홀딩스",
-"stock_Div":"섬유및의복",
-"SRIM_1":"7471",
-"SRIM_2":"7743",
-"SRIM_3":"8374"
+"stock_code": "A016450",
+"stock_name": "한세예스24홀딩스",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "7410",
+"SRIM_2": "7836",
+"SRIM_3": "8854",
+"stock_Div_PER": "23.09",
+"Current_PER": "114.73",
+"Current_PER_Rank": "43",
+"PER_Target_1": "3776",
+"PER_Target_2": "0",
+"PER_Target_Avr": "1888",
+"Close_Price": "4030",
+"Price_over_PERAvg": "1.06726694915254"
 }

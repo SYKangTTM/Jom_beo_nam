@@ -1,8 +1,16 @@
 {
-"stock_code":"A009310",
-"stock_name":"참엔지니어링",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"862",
-"SRIM_2":"715",
-"SRIM_3":"469"
+"stock_code": "A009310",
+"stock_name": "참엔지니어링",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "863",
+"SRIM_2": "716",
+"SRIM_3": "470",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1320",
+"Price_over_PERAvg": "N/A"
 }

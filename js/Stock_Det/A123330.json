@@ -1,8 +1,16 @@
 {
-"stock_code":"A123330",
-"stock_name":"제닉",
-"stock_Div":"개인생활용품",
-"SRIM_1":"3554",
-"SRIM_2":"2948",
-"SRIM_3":"1934"
+"stock_code": "A123330",
+"stock_name": "제닉",
+"stock_Div": "화장품",
+"SRIM_1": "3559",
+"SRIM_2": "2953",
+"SRIM_3": "1937",
+"stock_Div_PER": "47.37",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4090",
+"Price_over_PERAvg": "N/A"
 }

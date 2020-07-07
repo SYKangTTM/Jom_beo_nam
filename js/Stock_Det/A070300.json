@@ -1,8 +1,16 @@
 {
-"stock_code":"A070300",
-"stock_name":"한솔시큐어",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"2844",
-"SRIM_2":"2359",
-"SRIM_3":"1548"
+"stock_code": "A070300",
+"stock_name": "엑스큐어",
+"stock_Div": "핸드셋",
+"SRIM_1": "2848",
+"SRIM_2": "2363",
+"SRIM_3": "1550",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4920",
+"Price_over_PERAvg": "N/A"
 }

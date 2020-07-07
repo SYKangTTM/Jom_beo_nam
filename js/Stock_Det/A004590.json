@@ -1,8 +1,16 @@
 {
-"stock_code":"A004590",
-"stock_name":"한국가구",
-"stock_Div":"식료품",
-"SRIM_1":"6222",
-"SRIM_2":"5161",
-"SRIM_3":"3387"
+"stock_code": "A004590",
+"stock_name": "한국가구",
+"stock_Div": "식품과기본식료품소매",
+"SRIM_1": "6231",
+"SRIM_2": "5169",
+"SRIM_3": "3391",
+"stock_Div_PER": "46.19",
+"Current_PER": "10.3",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4380",
+"Price_over_PERAvg": "N/A"
 }

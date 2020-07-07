@@ -1,8 +1,16 @@
 {
-"stock_code":"A010780",
-"stock_name":"아이에스동서",
-"stock_Div":"건설",
-"SRIM_1":"43729",
-"SRIM_2":"49659",
-"SRIM_3":"65398"
+"stock_code": "A010780",
+"stock_name": "아이에스동서",
+"stock_Div": "건설",
+"SRIM_1": "43793",
+"SRIM_2": "49732",
+"SRIM_3": "65493",
+"stock_Div_PER": "6.13",
+"Current_PER": "18.62",
+"Current_PER_Rank": "41",
+"PER_Target_1": "23163",
+"PER_Target_2": "33822",
+"PER_Target_Avr": "28492",
+"Close_Price": "33300",
+"Price_over_PERAvg": "1.16872861279284"
 }

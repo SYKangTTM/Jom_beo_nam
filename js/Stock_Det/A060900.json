@@ -1,8 +1,16 @@
 {
-"stock_code":"A060900",
-"stock_name":"케이알피앤이",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"146",
-"SRIM_2":"121",
-"SRIM_3":"80"
+"stock_code": "A060900",
+"stock_name": "케이알피앤이",
+"stock_Div": "석유와가스",
+"SRIM_1": "147",
+"SRIM_2": "122",
+"SRIM_3": "80",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1055",
+"Price_over_PERAvg": "N/A"
 }

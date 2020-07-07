@@ -1,8 +1,16 @@
 {
-"stock_code":"A019490",
-"stock_name":"하이트론",
-"stock_Div":"보안장비",
-"SRIM_1":"3073",
-"SRIM_2":"2549",
-"SRIM_3":"1672"
+"stock_code": "A019490",
+"stock_name": "하이트론",
+"stock_Div": "통신장비",
+"SRIM_1": "3077",
+"SRIM_2": "2553",
+"SRIM_3": "1675",
+"stock_Div_PER": "95.76",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2990",
+"Price_over_PERAvg": "N/A"
 }

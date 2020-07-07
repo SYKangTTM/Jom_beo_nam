@@ -1,8 +1,16 @@
 {
-"stock_code":"A318010",
-"stock_name":"ÆÊ½ººô",
-"stock_Div":"Á¦¾à",
-"SRIM_1":"11938",
-"SRIM_2":"15366",
-"SRIM_3":"26314"
+"stock_code": "A318010",
+"stock_name": "ÆÊ½ººô",
+"stock_Div": "Á¦¾à",
+"SRIM_1": "11955",
+"SRIM_2": "15388",
+"SRIM_3": "26352",
+"stock_Div_PER": "188.02",
+"Current_PER": "12.51",
+"Current_PER_Rank": "11",
+"PER_Target_1": "248642",
+"PER_Target_2": "0",
+"PER_Target_Avr": "124321",
+"Close_Price": "13800",
+"Price_over_PERAvg": "5.55014840614216E-02"
 }

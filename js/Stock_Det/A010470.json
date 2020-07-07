@@ -1,8 +1,16 @@
 {
-"stock_code":"A010470",
-"stock_name":"¿À¸®ÄÞ",
-"stock_Div":"¹Ìµð¾î",
-"SRIM_1":"6577",
-"SRIM_2":"5456",
-"SRIM_3":"3580"
+"stock_code": "A010470",
+"stock_name": "¿À¸®ÄÞ",
+"stock_Div": "±¤°í",
+"SRIM_1": "6587",
+"SRIM_2": "5464",
+"SRIM_3": "3585",
+"stock_Div_PER": "14.98",
+"Current_PER": "9.83",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4220",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A245620",
-"stock_name":"EDGC",
-"stock_Div":"바이오",
-"SRIM_1":"979",
-"SRIM_2":"812",
-"SRIM_3":"533"
+"stock_code": "A245620",
+"stock_name": "EDGC",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "932",
+"SRIM_2": "773",
+"SRIM_3": "506",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "11700",
+"Price_over_PERAvg": "N/A"
 }

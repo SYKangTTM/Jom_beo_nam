@@ -1,8 +1,16 @@
 {
-"stock_code":"A053610",
-"stock_name":"프로텍",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"30237",
-"SRIM_2":"34989",
-"SRIM_3":"47954"
+"stock_code": "A053610",
+"stock_name": "프로텍",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "30281",
+"SRIM_2": "35040",
+"SRIM_3": "48024",
+"stock_Div_PER": "17.68",
+"Current_PER": "14.49",
+"Current_PER_Rank": "24",
+"PER_Target_1": "51008",
+"PER_Target_2": "19959",
+"PER_Target_Avr": "35484",
+"Close_Price": "23000",
+"Price_over_PERAvg": "0.648188594698945"
 }

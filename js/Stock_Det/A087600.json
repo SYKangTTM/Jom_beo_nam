@@ -1,8 +1,16 @@
 {
-"stock_code":"A087600",
-"stock_name":"픽셀플러스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"10984",
-"SRIM_2":"9111",
-"SRIM_3":"5978"
+"stock_code": "A087600",
+"stock_name": "픽셀플러스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "11000",
+"SRIM_2": "9125",
+"SRIM_3": "5987",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3785",
+"Price_over_PERAvg": "N/A"
 }

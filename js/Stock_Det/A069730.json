@@ -1,8 +1,16 @@
 {
-"stock_code":"A069730",
-"stock_name":"DSR제강",
-"stock_Div":"금속및광물",
-"SRIM_1":"8861",
-"SRIM_2":"7350",
-"SRIM_3":"4822"
+"stock_code": "A069730",
+"stock_name": "DSR제강",
+"stock_Div": "철강",
+"SRIM_1": "8870",
+"SRIM_2": "7353",
+"SRIM_3": "4817",
+"stock_Div_PER": "18.57",
+"Current_PER": "7.33",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3950",
+"Price_over_PERAvg": "N/A"
 }

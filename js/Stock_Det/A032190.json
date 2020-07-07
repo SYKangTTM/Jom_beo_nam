@@ -1,8 +1,16 @@
 {
-"stock_code":"A032190",
-"stock_name":"다우데이타",
-"stock_Div":"증권",
-"SRIM_1":"14284",
-"SRIM_2":"11848",
-"SRIM_3":"7774"
+"stock_code": "A032190",
+"stock_name": "다우데이타",
+"stock_Div": "증권",
+"SRIM_1": "14305",
+"SRIM_2": "11865",
+"SRIM_3": "7785",
+"stock_Div_PER": "6.77",
+"Current_PER": "11.37",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13850",
+"Price_over_PERAvg": "N/A"
 }

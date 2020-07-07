@@ -1,8 +1,16 @@
 {
-"stock_code":"A125210",
-"stock_name":"아모그린텍",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"2082",
-"SRIM_2":"1727",
-"SRIM_3":"1133"
+"stock_code": "A125210",
+"stock_name": "아모그린텍",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "2085",
+"SRIM_2": "1730",
+"SRIM_3": "1135",
+"stock_Div_PER": "31.01",
+"Current_PER": "98.84",
+"Current_PER_Rank": "42",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13750",
+"Price_over_PERAvg": "N/A"
 }

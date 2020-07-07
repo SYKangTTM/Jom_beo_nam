@@ -1,8 +1,16 @@
 {
-"stock_code":"A036530",
-"stock_name":"S&T홀딩스",
-"stock_Div":"자동차부품",
-"SRIM_1":"46518",
-"SRIM_2":"38586",
-"SRIM_3":"25318"
+"stock_code": "A036530",
+"stock_name": "S&T홀딩스",
+"stock_Div": "자동차부품",
+"SRIM_1": "46586",
+"SRIM_2": "38642",
+"SRIM_3": "25354",
+"stock_Div_PER": "12.97",
+"Current_PER": "3.2",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15050",
+"Price_over_PERAvg": "N/A"
 }

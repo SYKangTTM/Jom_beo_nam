@@ -1,8 +1,16 @@
 {
-"stock_code":"A010600",
-"stock_name":"웰바이오텍",
-"stock_Div":"섬유및의복",
-"SRIM_1":"1595",
-"SRIM_2":"1323",
-"SRIM_3":"868"
+"stock_code": "A010600",
+"stock_name": "웰바이오텍",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "1598",
+"SRIM_2": "1325",
+"SRIM_3": "869",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3050",
+"Price_over_PERAvg": "N/A"
 }

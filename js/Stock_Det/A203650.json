@@ -1,8 +1,16 @@
 {
-"stock_code":"A203650",
-"stock_name":"드림시큐리티",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"1163",
-"SRIM_2":"964",
-"SRIM_3":"633"
+"stock_code": "A203650",
+"stock_name": "드림시큐리티",
+"stock_Div": "소프트웨어",
+"SRIM_1": "1164",
+"SRIM_2": "966",
+"SRIM_3": "634",
+"stock_Div_PER": "110.57",
+"Current_PER": "27.51",
+"Current_PER_Rank": "16",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3425",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A054300",
-"stock_name":"팬스타엔터프라이즈",
-"stock_Div":"자동차부품",
-"SRIM_1":"739",
-"SRIM_2":"613",
-"SRIM_3":"402"
+"stock_code": "A054300",
+"stock_name": "팬스타엔터프라이즈",
+"stock_Div": "자동차부품",
+"SRIM_1": "740",
+"SRIM_2": "614",
+"SRIM_3": "403",
+"stock_Div_PER": "12.97",
+"Current_PER": "109.25",
+"Current_PER_Rank": "77",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "779",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A055550",
-"stock_name":"신한지주",
-"stock_Div":"상업은행",
-"SRIM_1":"77960",
-"SRIM_2":"76489",
-"SRIM_3":"73343"
+"stock_code": "A055550",
+"stock_name": "신한지주",
+"stock_Div": "은행",
+"SRIM_1": "78422",
+"SRIM_2": "77067",
+"SRIM_3": "74163",
+"stock_Div_PER": "3.89",
+"Current_PER": "4.36",
+"Current_PER_Rank": "8",
+"PER_Target_1": "22608",
+"PER_Target_2": "45297",
+"PER_Target_Avr": "33952",
+"Close_Price": "30150",
+"Price_over_PERAvg": "0.888005301524188"
 }

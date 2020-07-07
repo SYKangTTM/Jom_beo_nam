@@ -1,8 +1,16 @@
 {
-"stock_code":"A060240",
-"stock_name":"룽투코리아",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"2606",
-"SRIM_2":"2162",
-"SRIM_3":"1418"
+"stock_code": "A060240",
+"stock_name": "룽투코리아",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "2610",
+"SRIM_2": "2165",
+"SRIM_3": "1420",
+"stock_Div_PER": "38.15",
+"Current_PER": "109.5",
+"Current_PER_Rank": "21",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4700",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A018700",
-"stock_name":"바른손",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"1498",
-"SRIM_2":"1242",
-"SRIM_3":"815"
+"stock_code": "A018700",
+"stock_name": "바른손",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "1500",
+"SRIM_2": "1244",
+"SRIM_3": "816",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2150",
+"Price_over_PERAvg": "N/A"
 }

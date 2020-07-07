@@ -1,8 +1,16 @@
 {
-"stock_code":"A293780",
-"stock_name":"압타바이오",
-"stock_Div":"제약",
-"SRIM_1":"6138",
-"SRIM_2":"5092",
-"SRIM_3":"3341"
+"stock_code": "A293780",
+"stock_name": "압타바이오",
+"stock_Div": "제약",
+"SRIM_1": "6147",
+"SRIM_2": "5099",
+"SRIM_3": "3346",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "30500",
+"Price_over_PERAvg": "N/A"
 }

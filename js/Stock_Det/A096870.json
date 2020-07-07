@@ -1,8 +1,16 @@
 {
-"stock_code":"A096870",
-"stock_name":"엘디티",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"1333",
-"SRIM_2":"1106",
-"SRIM_3":"725"
+"stock_code": "A096870",
+"stock_name": "엘디티",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "1335",
+"SRIM_2": "1107",
+"SRIM_3": "727",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2500",
+"Price_over_PERAvg": "N/A"
 }

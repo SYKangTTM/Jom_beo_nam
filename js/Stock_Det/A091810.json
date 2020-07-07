@@ -1,8 +1,16 @@
 {
-"stock_code":"A091810",
-"stock_name":"티웨이항공",
-"stock_Div":"항공운수",
-"SRIM_1":"3943",
-"SRIM_2":"6401",
-"SRIM_3":"17469"
+"stock_code": "A091810",
+"stock_name": "티웨이항공",
+"stock_Div": "항공사",
+"SRIM_1": "3948",
+"SRIM_2": "6410",
+"SRIM_3": "17494",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3030",
+"Price_over_PERAvg": "N/A"
 }

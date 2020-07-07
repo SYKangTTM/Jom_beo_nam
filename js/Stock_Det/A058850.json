@@ -1,8 +1,16 @@
 {
-"stock_code":"A058850",
-"stock_name":"KTcs",
-"stock_Div":"상업서비스",
-"SRIM_1":"3411",
-"SRIM_2":"2829",
-"SRIM_3":"1856"
+"stock_code": "A058850",
+"stock_name": "KTcs",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "3416",
+"SRIM_2": "2833",
+"SRIM_3": "1859",
+"stock_Div_PER": "24.48",
+"Current_PER": "9.52",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1745",
+"Price_over_PERAvg": "N/A"
 }

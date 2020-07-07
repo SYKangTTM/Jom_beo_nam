@@ -1,8 +1,16 @@
 {
-"stock_code":"A298690",
-"stock_name":"에어부산",
-"stock_Div":"항공운수",
-"SRIM_1":"1871",
-"SRIM_2":"1552",
-"SRIM_3":"1018"
+"stock_code": "A298690",
+"stock_name": "에어부산",
+"stock_Div": "항공사",
+"SRIM_1": "1873",
+"SRIM_2": "1554",
+"SRIM_3": "1020",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3805",
+"Price_over_PERAvg": "N/A"
 }

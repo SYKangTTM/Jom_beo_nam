@@ -1,8 +1,16 @@
 {
-"stock_code":"A189980",
-"stock_name":"흥국에프엔비",
-"stock_Div":"음료",
-"SRIM_1":"1642",
-"SRIM_2":"1362",
-"SRIM_3":"893"
+"stock_code": "A189980",
+"stock_name": "흥국에프엔비",
+"stock_Div": "음료",
+"SRIM_1": "1826",
+"SRIM_2": "1826",
+"SRIM_3": "1826",
+"stock_Div_PER": "N/A",
+"Current_PER": "16.25",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1755",
+"Price_over_PERAvg": "N/A"
 }

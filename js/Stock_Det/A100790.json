@@ -1,8 +1,16 @@
 {
-"stock_code":"A100790",
-"stock_name":"미래에셋벤처투자",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"3004",
-"SRIM_2":"2492",
-"SRIM_3":"1635"
+"stock_code": "A100790",
+"stock_name": "미래에셋벤처투자",
+"stock_Div": "창업투자",
+"SRIM_1": "3009",
+"SRIM_2": "2496",
+"SRIM_3": "1638",
+"stock_Div_PER": "24.27",
+"Current_PER": "16.48",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3040",
+"Price_over_PERAvg": "N/A"
 }

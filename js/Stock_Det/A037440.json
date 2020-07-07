@@ -1,8 +1,16 @@
 {
-"stock_code":"A037440",
-"stock_name":"Èñ¸²",
-"stock_Div":"°Ç¼³",
-"SRIM_1":"3796",
-"SRIM_2":"3149",
-"SRIM_3":"2066"
+"stock_code": "A037440",
+"stock_name": "Èñ¸²",
+"stock_Div": "°Ç¼³",
+"SRIM_1": "4222",
+"SRIM_2": "4222",
+"SRIM_3": "4222",
+"stock_Div_PER": "6.13",
+"Current_PER": "15.37",
+"Current_PER_Rank": "40",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3715",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A067160",
-"stock_name":"아프리카TV",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"23769",
-"SRIM_2":"33662",
-"SRIM_3":"70059"
+"stock_code": "A067160",
+"stock_name": "아프리카TV",
+"stock_Div": "양방향미디어와서비스",
+"SRIM_1": "23804",
+"SRIM_2": "33711",
+"SRIM_3": "70161",
+"stock_Div_PER": "177.92",
+"Current_PER": "24.18",
+"Current_PER_Rank": "2",
+"PER_Target_1": "643942",
+"PER_Target_2": "79643",
+"PER_Target_Avr": "361792",
+"Close_Price": "67500",
+"Price_over_PERAvg": "0.186571031737806"
 }

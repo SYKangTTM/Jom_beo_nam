@@ -1,8 +1,16 @@
 {
-"stock_code":"A009140",
-"stock_name":"경인전자",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"37657",
-"SRIM_2":"31236",
-"SRIM_3":"20495"
+"stock_code": "A009140",
+"stock_name": "경인전자",
+"stock_Div": "전자제품",
+"SRIM_1": "37712",
+"SRIM_2": "31281",
+"SRIM_3": "20525",
+"stock_Div_PER": "33.93",
+"Current_PER": "28.58",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "18300",
+"Price_over_PERAvg": "N/A"
 }

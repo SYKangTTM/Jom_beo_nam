@@ -1,8 +1,16 @@
 {
-"stock_code":"A044960",
-"stock_name":"이글벳",
-"stock_Div":"제약",
-"SRIM_1":"2601",
-"SRIM_2":"2157",
-"SRIM_3":"1415"
+"stock_code": "A044960",
+"stock_name": "이글벳",
+"stock_Div": "제약",
+"SRIM_1": "2604",
+"SRIM_2": "2160",
+"SRIM_3": "1417",
+"stock_Div_PER": "122.92",
+"Current_PER": "71.33",
+"Current_PER_Rank": "59",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8400",
+"Price_over_PERAvg": "N/A"
 }

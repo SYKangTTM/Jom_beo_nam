@@ -1,8 +1,16 @@
 {
-"stock_code":"A019770",
-"stock_name":"서연탑메탈",
-"stock_Div":"자동차부품",
-"SRIM_1":"5048",
-"SRIM_2":"4187",
-"SRIM_3":"2747"
+"stock_code": "A019770",
+"stock_name": "서연탑메탈",
+"stock_Div": "자동차부품",
+"SRIM_1": "5055",
+"SRIM_2": "4193",
+"SRIM_3": "2751",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2370",
+"Price_over_PERAvg": "N/A"
 }

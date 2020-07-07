@@ -1,8 +1,16 @@
 {
-"stock_code":"A288620",
-"stock_name":"에스퓨얼셀",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"5228",
-"SRIM_2":"4336",
-"SRIM_3":"2845"
+"stock_code": "A288620",
+"stock_name": "에스퓨얼셀",
+"stock_Div": "전기제품",
+"SRIM_1": "5235",
+"SRIM_2": "4342",
+"SRIM_3": "2849",
+"stock_Div_PER": "77.9",
+"Current_PER": "148.72",
+"Current_PER_Rank": "23",
+"PER_Target_1": "42930",
+"PER_Target_2": "0",
+"PER_Target_Avr": "21465",
+"Close_Price": "43250",
+"Price_over_PERAvg": "1.00745399487538"
 }

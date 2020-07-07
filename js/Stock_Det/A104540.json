@@ -1,8 +1,16 @@
 {
-"stock_code":"A104540",
-"stock_name":"코렌텍",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"2399",
-"SRIM_2":"1990",
-"SRIM_3":"1305"
+"stock_code": "A104540",
+"stock_name": "코렌텍",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "2402",
+"SRIM_2": "1992",
+"SRIM_3": "1307",
+"stock_Div_PER": "116.58",
+"Current_PER": "24.01",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7220",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A104620",
-"stock_name":"노랑풍선",
-"stock_Div":"호텔및레저",
-"SRIM_1":"10604",
-"SRIM_2":"8796",
-"SRIM_3":"5771"
+"stock_code": "A104620",
+"stock_name": "노랑풍선",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "10619",
+"SRIM_2": "8809",
+"SRIM_3": "5780",
+"stock_Div_PER": "96.54",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12800",
+"Price_over_PERAvg": "N/A"
 }

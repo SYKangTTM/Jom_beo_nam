@@ -1,8 +1,16 @@
 {
-"stock_code":"A092870",
-"stock_name":"엑시콘",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"6621",
-"SRIM_2":"5492",
-"SRIM_3":"3604"
+"stock_code": "A092870",
+"stock_name": "엑시콘",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "6631",
+"SRIM_2": "5500",
+"SRIM_3": "3609",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9060",
+"Price_over_PERAvg": "N/A"
 }

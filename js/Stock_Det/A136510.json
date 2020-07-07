@@ -1,8 +1,16 @@
 {
-"stock_code":"A136510",
-"stock_name":"쎄미시스코",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"4305",
-"SRIM_2":"3571",
-"SRIM_3":"2343"
+"stock_code": "A136510",
+"stock_name": "쎄미시스코",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "4311",
+"SRIM_2": "3576",
+"SRIM_3": "2346",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8970",
+"Price_over_PERAvg": "N/A"
 }

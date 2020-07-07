@@ -1,8 +1,16 @@
 {
-"stock_code":"A321260",
-"stock_name":"유진스팩4호",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1752",
-"SRIM_2":"1453",
-"SRIM_3":"954"
+"stock_code": "A321260",
+"stock_name": "유진스팩4호",
+"stock_Div": "미분류",
+"SRIM_1": "1755",
+"SRIM_2": "1455",
+"SRIM_3": "955",
+"stock_Div_PER": "",
+"Current_PER": "208.13",
+"Current_PER_Rank": "18",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2005",
+"Price_over_PERAvg": "N/A"
 }

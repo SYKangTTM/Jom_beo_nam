@@ -1,8 +1,16 @@
 {
-"stock_code":"A105740",
-"stock_name":"디케이락",
-"stock_Div":"기계",
-"SRIM_1":"9886",
-"SRIM_2":"8200",
-"SRIM_3":"5380"
+"stock_code": "A105740",
+"stock_name": "디케이락",
+"stock_Div": "기계",
+"SRIM_1": "9900",
+"SRIM_2": "8212",
+"SRIM_3": "5388",
+"stock_Div_PER": "N/A",
+"Current_PER": "8.49",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8650",
+"Price_over_PERAvg": "N/A"
 }

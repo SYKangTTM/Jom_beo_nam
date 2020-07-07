@@ -1,8 +1,16 @@
 {
-"stock_code":"A131390",
-"stock_name":"피앤이솔루션",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"12144",
-"SRIM_2":"16394",
-"SRIM_3":"30959"
+"stock_code": "A131390",
+"stock_name": "피앤이솔루션",
+"stock_Div": "전기제품",
+"SRIM_1": "12162",
+"SRIM_2": "16418",
+"SRIM_3": "31004",
+"stock_Div_PER": "77.9",
+"Current_PER": "14.26",
+"Current_PER_Rank": "5",
+"PER_Target_1": "98846",
+"PER_Target_2": "43168",
+"PER_Target_Avr": "71007",
+"Close_Price": "19450",
+"Price_over_PERAvg": "0.273916656104328"
 }

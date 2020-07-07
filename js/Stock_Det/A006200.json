@@ -1,8 +1,16 @@
 {
-"stock_code":"A006200",
-"stock_name":"한국전자홀딩스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"2198",
-"SRIM_2":"1823",
-"SRIM_3":"1196"
+"stock_code": "A006200",
+"stock_name": "한국전자홀딩스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "2201",
+"SRIM_2": "1826",
+"SRIM_3": "1198",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "570",
+"Price_over_PERAvg": "N/A"
 }

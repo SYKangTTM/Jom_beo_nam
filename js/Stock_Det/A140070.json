@@ -1,8 +1,16 @@
 {
-"stock_code":"A140070",
-"stock_name":"서플러스글로벌",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"3183",
-"SRIM_2":"2640",
-"SRIM_3":"1732"
+"stock_code": "A140070",
+"stock_name": "서플러스글로벌",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "3188",
+"SRIM_2": "2644",
+"SRIM_3": "1735",
+"stock_Div_PER": "17.68",
+"Current_PER": "26.27",
+"Current_PER_Rank": "53",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2165",
+"Price_over_PERAvg": "N/A"
 }

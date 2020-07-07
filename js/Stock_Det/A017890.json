@@ -1,8 +1,16 @@
 {
-"stock_code":"A017890",
-"stock_name":"한국알콜",
-"stock_Div":"화학",
-"SRIM_1":"17939",
-"SRIM_2":"19606",
-"SRIM_3":"23788"
+"stock_code": "A017890",
+"stock_name": "한국알콜",
+"stock_Div": "화학",
+"SRIM_1": "17965",
+"SRIM_2": "19635",
+"SRIM_3": "23822",
+"stock_Div_PER": "58.5",
+"Current_PER": "9.27",
+"Current_PER_Rank": "28",
+"PER_Target_1": "63967",
+"PER_Target_2": "9854",
+"PER_Target_Avr": "36910",
+"Close_Price": "15200",
+"Price_over_PERAvg": "0.411806938405061"
 }

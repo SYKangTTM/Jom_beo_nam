@@ -1,8 +1,16 @@
 {
-"stock_code":"A317330",
-"stock_name":"덕산테코피아",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"7105",
-"SRIM_2":"5893",
-"SRIM_3":"3867"
+"stock_code": "A317330",
+"stock_name": "덕산테코피아",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "7115",
+"SRIM_2": "5902",
+"SRIM_3": "3872",
+"stock_Div_PER": "98.32",
+"Current_PER": "20.14",
+"Current_PER_Rank": "32",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13200",
+"Price_over_PERAvg": "N/A"
 }

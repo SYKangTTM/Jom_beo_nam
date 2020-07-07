@@ -1,8 +1,16 @@
 {
-"stock_code":"A042420",
-"stock_name":"네오위즈홀딩스",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"39371",
-"SRIM_2":"32658",
-"SRIM_3":"21428"
+"stock_code": "A042420",
+"stock_name": "네오위즈홀딩스",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "39429",
+"SRIM_2": "32705",
+"SRIM_3": "21459",
+"stock_Div_PER": "38.15",
+"Current_PER": "9.67",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15450",
+"Price_over_PERAvg": "N/A"
 }

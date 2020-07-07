@@ -1,8 +1,16 @@
 {
-"stock_code":"A251270",
-"stock_name":"넷마블",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"54719",
-"SRIM_2":"53139",
-"SRIM_3":"49809"
+"stock_code": "A251270",
+"stock_name": "넷마블",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "54873",
+"SRIM_2": "53325",
+"SRIM_3": "50060",
+"stock_Div_PER": "38.15",
+"Current_PER": "58.55",
+"Current_PER_Rank": "19",
+"PER_Target_1": "123079",
+"PER_Target_2": "0",
+"PER_Target_Avr": "61540",
+"Close_Price": "123000",
+"Price_over_PERAvg": "0.999358135831458"
 }

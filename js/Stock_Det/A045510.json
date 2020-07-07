@@ -1,8 +1,16 @@
 {
-"stock_code":"A045510",
-"stock_name":"정원엔시스",
-"stock_Div":"IT서비스",
-"SRIM_1":"1092",
-"SRIM_2":"906",
-"SRIM_3":"594"
+"stock_code": "A045510",
+"stock_name": "정원엔시스",
+"stock_Div": "IT서비스",
+"SRIM_1": "1094",
+"SRIM_2": "907",
+"SRIM_3": "595",
+"stock_Div_PER": "23.79",
+"Current_PER": "233.93",
+"Current_PER_Rank": "45",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1895",
+"Price_over_PERAvg": "N/A"
 }

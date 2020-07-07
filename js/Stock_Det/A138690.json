@@ -1,8 +1,16 @@
 {
-"stock_code":"A138690",
-"stock_name":"엘아이에스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"2362",
-"SRIM_2":"1959",
-"SRIM_3":"1286"
+"stock_code": "A138690",
+"stock_name": "엘아이에스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "2365",
+"SRIM_2": "1962",
+"SRIM_3": "1287",
+"stock_Div_PER": "112.72",
+"Current_PER": "24.11",
+"Current_PER_Rank": "35",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9100",
+"Price_over_PERAvg": "N/A"
 }

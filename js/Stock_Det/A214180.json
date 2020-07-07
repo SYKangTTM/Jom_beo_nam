@@ -1,8 +1,16 @@
 {
-"stock_code":"A214180",
-"stock_name":"¹Î¾ØÁö",
-"stock_Div":"IT¼­ºñ½º",
-"SRIM_1":"9065",
-"SRIM_2":"7520",
-"SRIM_3":"4934"
+"stock_code": "A214180",
+"stock_name": "¹Î¾ØÁö",
+"stock_Div": "IT¼­ºñ½º",
+"SRIM_1": "9079",
+"SRIM_2": "7531",
+"SRIM_3": "4941",
+"stock_Div_PER": "23.79",
+"Current_PER": "10.92",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13950",
+"Price_over_PERAvg": "N/A"
 }

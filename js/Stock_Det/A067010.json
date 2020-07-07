@@ -1,8 +1,16 @@
 {
-"stock_code":"A067010",
-"stock_name":"이씨에스",
-"stock_Div":"IT서비스",
-"SRIM_1":"3277",
-"SRIM_2":"2718",
-"SRIM_3":"1783"
+"stock_code": "A067010",
+"stock_name": "이씨에스",
+"stock_Div": "IT서비스",
+"SRIM_1": "3281",
+"SRIM_2": "2722",
+"SRIM_3": "1786",
+"stock_Div_PER": "18.96",
+"Current_PER": "12.76",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3545",
+"Price_over_PERAvg": "N/A"
 }

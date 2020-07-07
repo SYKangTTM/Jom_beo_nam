@@ -1,8 +1,16 @@
 {
-"stock_code":"A089890",
-"stock_name":"코세스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"1557",
-"SRIM_2":"1292",
-"SRIM_3":"848"
+"stock_code": "A089890",
+"stock_name": "코세스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "1560",
+"SRIM_2": "1294",
+"SRIM_3": "849",
+"stock_Div_PER": "17.68",
+"Current_PER": "16.9",
+"Current_PER_Rank": "32",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5660",
+"Price_over_PERAvg": "N/A"
 }

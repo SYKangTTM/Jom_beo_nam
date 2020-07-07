@@ -1,8 +1,16 @@
 {
-"stock_code":"A027360",
-"stock_name":"아주IB투자",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1312",
-"SRIM_2":"1088",
-"SRIM_3":"714"
+"stock_code": "A027360",
+"stock_name": "아주IB투자",
+"stock_Div": "창업투자",
+"SRIM_1": "1313",
+"SRIM_2": "1090",
+"SRIM_3": "715",
+"stock_Div_PER": "24.27",
+"Current_PER": "19.7",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1355",
+"Price_over_PERAvg": "N/A"
 }

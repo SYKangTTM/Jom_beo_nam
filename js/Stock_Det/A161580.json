@@ -1,8 +1,16 @@
 {
-"stock_code":"A161580",
-"stock_name":"필옵틱스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"5151",
-"SRIM_2":"7536",
-"SRIM_3":"16749"
+"stock_code": "A161580",
+"stock_name": "필옵틱스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "9110",
+"SRIM_2": "11218",
+"SRIM_3": "17523",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "93765",
+"PER_Target_2": "0",
+"PER_Target_Avr": "46882",
+"Close_Price": "12800",
+"Price_over_PERAvg": "0.136511491494694"
 }

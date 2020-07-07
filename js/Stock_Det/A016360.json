@@ -1,8 +1,16 @@
 {
-"stock_code":"A016360",
-"stock_name":"삼성증권",
-"stock_Div":"증권",
-"SRIM_1":"51776",
-"SRIM_2":"50823",
-"SRIM_3":"48782"
+"stock_code": "A016360",
+"stock_name": "삼성증권",
+"stock_Div": "증권",
+"SRIM_1": "52044",
+"SRIM_2": "51086",
+"SRIM_3": "49035",
+"stock_Div_PER": "6.77",
+"Current_PER": "8.39",
+"Current_PER_Rank": "13",
+"PER_Target_1": "16036",
+"PER_Target_2": "37251",
+"PER_Target_Avr": "26644",
+"Close_Price": "27300",
+"Price_over_PERAvg": "1.02464015613564"
 }

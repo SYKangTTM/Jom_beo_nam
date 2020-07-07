@@ -1,8 +1,16 @@
 {
-"stock_code":"A069640",
-"stock_name":"한세엠케이",
-"stock_Div":"섬유및의복",
-"SRIM_1":"8023",
-"SRIM_2":"6655",
-"SRIM_3":"4366"
+"stock_code": "A069640",
+"stock_name": "한세엠케이",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "8035",
+"SRIM_2": "6665",
+"SRIM_3": "4373",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "-3517",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-1758",
+"Close_Price": "2765",
+"Price_over_PERAvg": "-0.786181404606198"
 }

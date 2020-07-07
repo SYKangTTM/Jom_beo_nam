@@ -1,8 +1,16 @@
 {
-"stock_code":"A122900",
-"stock_name":"아이마켓코리아",
-"stock_Div":"온라인쇼핑",
-"SRIM_1":"10462",
-"SRIM_2":"8678",
-"SRIM_3":"5694"
+"stock_code": "A122900",
+"stock_name": "아이마켓코리아",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "10664",
+"SRIM_2": "8846",
+"SRIM_3": "5804",
+"stock_Div_PER": "24.48",
+"Current_PER": "19.04",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8590",
+"Price_over_PERAvg": "N/A"
 }

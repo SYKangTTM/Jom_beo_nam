@@ -1,8 +1,16 @@
 {
-"stock_code":"A000270",
-"stock_name":"기아차",
-"stock_Div":"자동차",
-"SRIM_1":"69556",
-"SRIM_2":"68690",
-"SRIM_3":"66819"
+"stock_code": "A000270",
+"stock_name": "기아차",
+"stock_Div": "자동차",
+"SRIM_1": "69676",
+"SRIM_2": "68872",
+"SRIM_3": "67133",
+"stock_Div_PER": "10.35",
+"Current_PER": "9.25",
+"Current_PER_Rank": "1",
+"PER_Target_1": "25148",
+"PER_Target_2": "32805",
+"PER_Target_Avr": "28976",
+"Close_Price": "32200",
+"Price_over_PERAvg": "1.11124531948303"
 }

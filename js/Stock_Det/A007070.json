@@ -1,8 +1,16 @@
 {
-"stock_code":"A007070",
-"stock_name":"GS리테일",
-"stock_Div":"도소매",
-"SRIM_1":"29830",
-"SRIM_2":"30781",
-"SRIM_3":"32973"
+"stock_code": "A007070",
+"stock_name": "GS리테일",
+"stock_Div": "백화점과일반상점",
+"SRIM_1": "29851",
+"SRIM_2": "30788",
+"SRIM_3": "32947",
+"stock_Div_PER": "N/A",
+"Current_PER": "15.47",
+"Current_PER_Rank": "6",
+"PER_Target_1": "103572",
+"PER_Target_2": "64802",
+"PER_Target_Avr": "84187",
+"Close_Price": "37500",
+"Price_over_PERAvg": "0.445436943946215"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A039290",
-"stock_name":"인포뱅크",
-"stock_Div":"IT서비스",
-"SRIM_1":"5581",
-"SRIM_2":"4629",
-"SRIM_3":"3037"
+"stock_code": "A039290",
+"stock_name": "인포뱅크",
+"stock_Div": "IT서비스",
+"SRIM_1": "5589",
+"SRIM_2": "4636",
+"SRIM_3": "3042",
+"stock_Div_PER": "23.79",
+"Current_PER": "81.19",
+"Current_PER_Rank": "42",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6690",
+"Price_over_PERAvg": "N/A"
 }

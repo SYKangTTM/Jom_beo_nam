@@ -1,8 +1,16 @@
 {
-"stock_code":"A002920",
-"stock_name":"유성기업",
-"stock_Div":"자동차부품",
-"SRIM_1":"9676",
-"SRIM_2":"8026",
-"SRIM_3":"5266"
+"stock_code": "A002920",
+"stock_name": "유성기업",
+"stock_Div": "자동차부품",
+"SRIM_1": "9691",
+"SRIM_2": "8038",
+"SRIM_3": "5274",
+"stock_Div_PER": "12.97",
+"Current_PER": "4.65",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2410",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A000250",
-"stock_name":"삼천당제약",
-"stock_Div":"제약",
-"SRIM_1":"7639",
-"SRIM_2":"7628",
-"SRIM_3":"7605"
+"stock_code": "A000250",
+"stock_name": "삼천당제약",
+"stock_Div": "제약",
+"SRIM_1": "7650",
+"SRIM_2": "7639",
+"SRIM_3": "7616",
+"stock_Div_PER": "122.92",
+"Current_PER": "95.25",
+"Current_PER_Rank": "65",
+"PER_Target_1": "90863",
+"PER_Target_2": "25170",
+"PER_Target_Avr": "58016",
+"Close_Price": "37050",
+"Price_over_PERAvg": "0.638611429507123"
 }

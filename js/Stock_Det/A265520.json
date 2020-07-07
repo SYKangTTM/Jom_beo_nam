@@ -1,8 +1,16 @@
 {
-"stock_code":"A265520",
-"stock_name":"AP시스템",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"14891",
-"SRIM_2":"19121",
-"SRIM_3":"32583"
+"stock_code": "A265520",
+"stock_name": "AP시스템",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "14636",
+"SRIM_2": "18763",
+"SRIM_3": "31869",
+"stock_Div_PER": "112.72",
+"Current_PER": "22.1",
+"Current_PER_Rank": "34",
+"PER_Target_1": "202792",
+"PER_Target_2": "0",
+"PER_Target_Avr": "101396",
+"Close_Price": "24550",
+"Price_over_PERAvg": "0.121060002366957"
 }

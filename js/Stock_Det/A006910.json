@@ -1,8 +1,16 @@
 {
-"stock_code":"A006910",
-"stock_name":"보성파워텍",
-"stock_Div":"전기장비",
-"SRIM_1":"1566",
-"SRIM_2":"1299",
-"SRIM_3":"852"
+"stock_code": "A006910",
+"stock_name": "보성파워텍",
+"stock_Div": "전기장비",
+"SRIM_1": "1568",
+"SRIM_2": "1301",
+"SRIM_3": "854",
+"stock_Div_PER": "N/A",
+"Current_PER": "24.59",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1700",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A009440",
-"stock_name":"KC그린홀딩스",
-"stock_Div":"상업서비스",
-"SRIM_1":"7291",
-"SRIM_2":"6048",
-"SRIM_3":"3968"
+"stock_code": "A009440",
+"stock_name": "KC그린홀딩스",
+"stock_Div": "기계",
+"SRIM_1": "7302",
+"SRIM_2": "6057",
+"SRIM_3": "3974",
+"stock_Div_PER": "N/A",
+"Current_PER": "11.25",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4000",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A049180",
-"stock_name":"셀루메드",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"157",
-"SRIM_2":"131",
-"SRIM_3":"86"
+"stock_code": "A049180",
+"stock_name": "셀루메드",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "158",
+"SRIM_2": "131",
+"SRIM_3": "86",
+"stock_Div_PER": "116.58",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5980",
+"Price_over_PERAvg": "N/A"
 }

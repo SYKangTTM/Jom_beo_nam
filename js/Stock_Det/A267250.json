@@ -1,8 +1,16 @@
 {
-"stock_code":"A267250",
-"stock_name":"현대중공업지주",
-"stock_Div":"석유및가스",
-"SRIM_1":"423759",
-"SRIM_2":"388837",
-"SRIM_3":"321130"
+"stock_code": "A267250",
+"stock_name": "현대중공업지주",
+"stock_Div": "석유와가스",
+"SRIM_1": "424806",
+"SRIM_2": "389881",
+"SRIM_3": "322147",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "-441175",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-220588",
+"Close_Price": "244500",
+"Price_over_PERAvg": "-0.554201847339491"
 }

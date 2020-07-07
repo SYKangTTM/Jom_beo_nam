@@ -1,8 +1,16 @@
 {
-"stock_code":"A204320",
-"stock_name":"만도",
-"stock_Div":"자동차부품",
-"SRIM_1":"32866",
-"SRIM_2":"34289",
-"SRIM_3":"37623"
+"stock_code": "A204320",
+"stock_name": "만도",
+"stock_Div": "자동차부품",
+"SRIM_1": "32914",
+"SRIM_2": "34339",
+"SRIM_3": "37678",
+"stock_Div_PER": "12.97",
+"Current_PER": "10.79",
+"Current_PER_Rank": "42",
+"PER_Target_1": "10604",
+"PER_Target_2": "128774",
+"PER_Target_Avr": "69689",
+"Close_Price": "23200",
+"Price_over_PERAvg": "0.332907632481453"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A091580",
-"stock_name":"상신이디피",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"4534",
-"SRIM_2":"3761",
-"SRIM_3":"2468"
+"stock_code": "A091580",
+"stock_name": "상신이디피",
+"stock_Div": "핸드셋",
+"SRIM_1": "4541",
+"SRIM_2": "3767",
+"SRIM_3": "2471",
+"stock_Div_PER": "22.29",
+"Current_PER": "32.09",
+"Current_PER_Rank": "28",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8790",
+"Price_over_PERAvg": "N/A"
 }

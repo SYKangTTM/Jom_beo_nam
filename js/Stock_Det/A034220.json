@@ -1,8 +1,16 @@
 {
-"stock_code":"A034220",
-"stock_name":"LG디스플레이",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"24431",
-"SRIM_2":"21902",
-"SRIM_3":"17162"
+"stock_code": "A034220",
+"stock_name": "LG디스플레이",
+"stock_Div": "디스플레이패널",
+"SRIM_1": "24613",
+"SRIM_2": "22159",
+"SRIM_3": "17531",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12200",
+"Price_over_PERAvg": "N/A"
 }

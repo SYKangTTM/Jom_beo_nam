@@ -1,8 +1,16 @@
 {
-"stock_code":"A153460",
-"stock_name":"네이블",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"3371",
-"SRIM_2":"2796",
-"SRIM_3":"1835"
+"stock_code": "A153460",
+"stock_name": "네이블",
+"stock_Div": "소프트웨어",
+"SRIM_1": "3376",
+"SRIM_2": "2800",
+"SRIM_3": "1837",
+"stock_Div_PER": "110.57",
+"Current_PER": "626.01",
+"Current_PER_Rank": "29",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4690",
+"Price_over_PERAvg": "N/A"
 }

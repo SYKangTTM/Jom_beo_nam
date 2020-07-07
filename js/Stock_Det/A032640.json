@@ -1,8 +1,16 @@
 {
-"stock_code":"A032640",
-"stock_name":"LG유플러스",
-"stock_Div":"무선통신",
-"SRIM_1":"16392",
-"SRIM_2":"16775",
-"SRIM_3":"17647"
+"stock_code": "A032640",
+"stock_name": "LG유플러스",
+"stock_Div": "무선통신서비스",
+"SRIM_1": "16436",
+"SRIM_2": "16832",
+"SRIM_3": "17733",
+"stock_Div_PER": "18.81",
+"Current_PER": "12.09",
+"Current_PER_Rank": "1",
+"PER_Target_1": "21024",
+"PER_Target_2": "16105",
+"PER_Target_Avr": "18564",
+"Close_Price": "12500",
+"Price_over_PERAvg": "0.67332812626249"
 }

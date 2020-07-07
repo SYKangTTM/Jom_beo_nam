@@ -1,8 +1,16 @@
 {
-"stock_code":"A002680",
-"stock_name":"한탑",
-"stock_Div":"식료품",
-"SRIM_1":"1400",
-"SRIM_2":"1161",
-"SRIM_3":"762"
+"stock_code": "A002680",
+"stock_name": "한탑",
+"stock_Div": "식품",
+"SRIM_1": "1402",
+"SRIM_2": "1163",
+"SRIM_3": "763",
+"stock_Div_PER": "23.98",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1800",
+"Price_over_PERAvg": "N/A"
 }

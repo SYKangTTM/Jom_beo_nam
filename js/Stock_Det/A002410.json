@@ -1,8 +1,16 @@
 {
-"stock_code":"A002410",
-"stock_name":"범양건영",
-"stock_Div":"건설",
-"SRIM_1":"2535",
-"SRIM_2":"2103",
-"SRIM_3":"1380"
+"stock_code": "A002410",
+"stock_name": "범양건영",
+"stock_Div": "건설",
+"SRIM_1": "2539",
+"SRIM_2": "2106",
+"SRIM_3": "1382",
+"stock_Div_PER": "6.13",
+"Current_PER": "6.88",
+"Current_PER_Rank": "25",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5500",
+"Price_over_PERAvg": "N/A"
 }

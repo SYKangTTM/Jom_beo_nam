@@ -1,8 +1,16 @@
 {
-"stock_code":"A039840",
-"stock_name":"디오",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"15920",
-"SRIM_2":"19458",
-"SRIM_3":"29923"
+"stock_code": "A039840",
+"stock_name": "디오",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "16110",
+"SRIM_2": "19946",
+"SRIM_3": "31516",
+"stock_Div_PER": "116.58",
+"Current_PER": "19.59",
+"Current_PER_Rank": "14",
+"PER_Target_1": "118341",
+"PER_Target_2": "76487",
+"PER_Target_Avr": "97414",
+"Close_Price": "26200",
+"Price_over_PERAvg": "0.268955180980147"
 }

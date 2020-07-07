@@ -1,8 +1,16 @@
 {
-"stock_code":"A145720",
-"stock_name":"덴티움",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"39756",
-"SRIM_2":"48408",
-"SRIM_3":"73864"
+"stock_code": "A145720",
+"stock_name": "덴티움",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "39856",
+"SRIM_2": "48594",
+"SRIM_3": "74353",
+"stock_Div_PER": "116.58",
+"Current_PER": "49.07",
+"Current_PER_Rank": "28",
+"PER_Target_1": "244695",
+"PER_Target_2": "0",
+"PER_Target_Avr": "122348",
+"Close_Price": "39350",
+"Price_over_PERAvg": "0.160812439976297"
 }

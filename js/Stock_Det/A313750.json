@@ -1,8 +1,16 @@
 {
-"stock_code":"A313750",
-"stock_name":"유안타제4호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1682",
-"SRIM_2":"1395",
-"SRIM_3":"916"
+"stock_code": "A313750",
+"stock_name": "유안타제4호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1685",
+"SRIM_2": "1398",
+"SRIM_3": "917",
+"stock_Div_PER": "",
+"Current_PER": "65.16",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2015",
+"Price_over_PERAvg": "N/A"
 }

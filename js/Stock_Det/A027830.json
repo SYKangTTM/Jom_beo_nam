@@ -1,8 +1,16 @@
 {
-"stock_code":"A027830",
-"stock_name":"대성창투",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1124",
-"SRIM_2":"932",
-"SRIM_3":"612"
+"stock_code": "A027830",
+"stock_name": "대성창투",
+"stock_Div": "창업투자",
+"SRIM_1": "1126",
+"SRIM_2": "934",
+"SRIM_3": "613",
+"stock_Div_PER": "24.27",
+"Current_PER": "213.82",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1705",
+"Price_over_PERAvg": "N/A"
 }

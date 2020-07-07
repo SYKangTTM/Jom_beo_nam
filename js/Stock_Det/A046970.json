@@ -1,8 +1,16 @@
 {
-"stock_code":"A046970",
-"stock_name":"우리로",
-"stock_Div":"통신장비",
-"SRIM_1":"969",
-"SRIM_2":"804",
-"SRIM_3":"527"
+"stock_code": "A046970",
+"stock_name": "우리로",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "971",
+"SRIM_2": "805",
+"SRIM_3": "528",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1670",
+"Price_over_PERAvg": "N/A"
 }

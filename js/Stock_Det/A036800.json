@@ -1,8 +1,16 @@
 {
-"stock_code":"A036800",
-"stock_name":"나이스정보통신",
-"stock_Div":"상업서비스",
-"SRIM_1":"31439",
-"SRIM_2":"35351",
-"SRIM_3":"45585"
+"stock_code": "A036800",
+"stock_name": "나이스정보통신",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "31485",
+"SRIM_2": "35403",
+"SRIM_3": "45651",
+"stock_Div_PER": "24.48",
+"Current_PER": "9.45",
+"Current_PER_Rank": "2",
+"PER_Target_1": "70110",
+"PER_Target_2": "26118",
+"PER_Target_Avr": "48114",
+"Close_Price": "26150",
+"Price_over_PERAvg": "0.543500852142828"
 }

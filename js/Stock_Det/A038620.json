@@ -1,8 +1,16 @@
 {
-"stock_code":"A038620",
-"stock_name":"위즈코프",
-"stock_Div":"운송인프라",
-"SRIM_1":"1023",
-"SRIM_2":"849",
-"SRIM_3":"557"
+"stock_code": "A038620",
+"stock_name": "위즈코프",
+"stock_Div": "석유와가스",
+"SRIM_1": "1025",
+"SRIM_2": "850",
+"SRIM_3": "558",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "981",
+"Price_over_PERAvg": "N/A"
 }

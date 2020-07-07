@@ -1,8 +1,16 @@
 {
-"stock_code":"A333050",
-"stock_name":"신한제6호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1633",
-"SRIM_2":"1355",
-"SRIM_3":"889"
+"stock_code": "A333050",
+"stock_name": "신한제6호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1636",
+"SRIM_2": "1357",
+"SRIM_3": "890",
+"stock_Div_PER": "",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2010",
+"Price_over_PERAvg": "N/A"
 }

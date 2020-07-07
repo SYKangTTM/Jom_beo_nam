@@ -1,8 +1,16 @@
 {
-"stock_code":"A065680",
-"stock_name":"우주일렉트로",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"22526",
-"SRIM_2":"18685",
-"SRIM_3":"12259"
+"stock_code": "A065680",
+"stock_name": "우주일렉트로",
+"stock_Div": "핸드셋",
+"SRIM_1": "22245",
+"SRIM_2": "18452",
+"SRIM_3": "12107",
+"stock_Div_PER": "22.29",
+"Current_PER": "23.4",
+"Current_PER_Rank": "23",
+"PER_Target_1": "9825",
+"PER_Target_2": "16465",
+"PER_Target_Avr": "13145",
+"Close_Price": "26200",
+"Price_over_PERAvg": "1.99315329022442"
 }

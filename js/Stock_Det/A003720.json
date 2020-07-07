@@ -1,8 +1,16 @@
 {
-"stock_code":"A003720",
-"stock_name":"삼영화학",
-"stock_Div":"용기및포장",
-"SRIM_1":"1156",
-"SRIM_2":"959",
-"SRIM_3":"629"
+"stock_code": "A003720",
+"stock_name": "삼영화학",
+"stock_Div": "화학",
+"SRIM_1": "1158",
+"SRIM_2": "960",
+"SRIM_3": "630",
+"stock_Div_PER": "58.5",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1200",
+"Price_over_PERAvg": "N/A"
 }

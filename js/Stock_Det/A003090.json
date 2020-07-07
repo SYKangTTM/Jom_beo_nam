@@ -1,8 +1,16 @@
 {
-"stock_code":"A003090",
-"stock_name":"´ë¿õ",
-"stock_Div":"Á¦¾à",
-"SRIM_1":"41528",
-"SRIM_2":"44318",
-"SRIM_3":"51074"
+"stock_code": "A003090",
+"stock_name": "´ë¿õ",
+"stock_Div": "Á¦¾à",
+"SRIM_1": "41589",
+"SRIM_2": "44383",
+"SRIM_3": "51149",
+"stock_Div_PER": "122.92",
+"Current_PER": "22.2",
+"Current_PER_Rank": "34",
+"PER_Target_1": "277169",
+"PER_Target_2": "33589",
+"PER_Target_Avr": "155379",
+"Close_Price": "23250",
+"Price_over_PERAvg": "0.149634120440986"
 }

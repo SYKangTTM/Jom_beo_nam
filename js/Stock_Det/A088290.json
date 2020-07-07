@@ -1,8 +1,16 @@
 {
-"stock_code":"A088290",
-"stock_name":"이원컴포텍",
-"stock_Div":"자동차부품",
-"SRIM_1":"1039",
-"SRIM_2":"862",
-"SRIM_3":"566"
+"stock_code": "A088290",
+"stock_name": "이원컴포텍",
+"stock_Div": "자동차부품",
+"SRIM_1": "1041",
+"SRIM_2": "863",
+"SRIM_3": "566",
+"stock_Div_PER": "12.97",
+"Current_PER": "48.07",
+"Current_PER_Rank": "72",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6170",
+"Price_over_PERAvg": "N/A"
 }

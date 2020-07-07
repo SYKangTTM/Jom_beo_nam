@@ -1,8 +1,16 @@
 {
-"stock_code":"A032960",
-"stock_name":"동일기연",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"14642",
-"SRIM_2":"12145",
-"SRIM_3":"7969"
+"stock_code": "A032960",
+"stock_name": "동일기연",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "14663",
+"SRIM_2": "12163",
+"SRIM_3": "7980",
+"stock_Div_PER": "31.01",
+"Current_PER": "24.27",
+"Current_PER_Rank": "25",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9750",
+"Price_over_PERAvg": "N/A"
 }

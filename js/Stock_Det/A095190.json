@@ -1,8 +1,16 @@
 {
-"stock_code":"A095190",
-"stock_name":"이엠코리아",
-"stock_Div":"기계",
-"SRIM_1":"1866",
-"SRIM_2":"1548",
-"SRIM_3":"1016"
+"stock_code": "A095190",
+"stock_name": "이엠코리아",
+"stock_Div": "기계",
+"SRIM_1": "1869",
+"SRIM_2": "1550",
+"SRIM_3": "1017",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5480",
+"Price_over_PERAvg": "N/A"
 }

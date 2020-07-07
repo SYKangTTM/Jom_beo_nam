@@ -1,8 +1,16 @@
 {
-"stock_code":"A119610",
-"stock_name":"인터로조",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"17418",
-"SRIM_2":"20755",
-"SRIM_3":"30263"
+"stock_code": "A119610",
+"stock_name": "인터로조",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "17443",
+"SRIM_2": "20785",
+"SRIM_3": "30307",
+"stock_Div_PER": "116.58",
+"Current_PER": "14.76",
+"Current_PER_Rank": "11",
+"PER_Target_1": "145538",
+"PER_Target_2": "42578",
+"PER_Target_Avr": "94058",
+"Close_Price": "23050",
+"Price_over_PERAvg": "0.245061557762232"
 }

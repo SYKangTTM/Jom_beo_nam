@@ -1,8 +1,16 @@
 {
-"stock_code":"A259630",
-"stock_name":"엠플러스",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"7318",
-"SRIM_2":"6070",
-"SRIM_3":"3983"
+"stock_code": "A259630",
+"stock_name": "엠플러스",
+"stock_Div": "전기제품",
+"SRIM_1": "8544",
+"SRIM_2": "7087",
+"SRIM_3": "4650",
+"stock_Div_PER": "77.9",
+"Current_PER": "100.41",
+"Current_PER_Rank": "22",
+"PER_Target_1": "80087",
+"PER_Target_2": "0",
+"PER_Target_Avr": "40044",
+"Close_Price": "20550",
+"Price_over_PERAvg": "0.256595951902306"
 }

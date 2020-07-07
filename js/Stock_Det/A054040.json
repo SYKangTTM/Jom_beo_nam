@@ -1,8 +1,16 @@
 {
-"stock_code":"A054040",
-"stock_name":"한국컴퓨터",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"5531",
-"SRIM_2":"4588",
-"SRIM_3":"3010"
+"stock_code": "A054040",
+"stock_name": "한국컴퓨터",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "5540",
+"SRIM_2": "4595",
+"SRIM_3": "3015",
+"stock_Div_PER": "112.72",
+"Current_PER": "4.32",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2400",
+"Price_over_PERAvg": "N/A"
 }

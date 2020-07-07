@@ -1,8 +1,16 @@
 {
-"stock_code":"A084010",
-"stock_name":"대한제강",
-"stock_Div":"금속및광물",
-"SRIM_1":"21630",
-"SRIM_2":"21400",
-"SRIM_3":"20903"
+"stock_code": "A084010",
+"stock_name": "대한제강",
+"stock_Div": "철강",
+"SRIM_1": "21661",
+"SRIM_2": "21431",
+"SRIM_3": "20933",
+"stock_Div_PER": "18.57",
+"Current_PER": "5.84",
+"Current_PER_Rank": "5",
+"PER_Target_1": "20186",
+"PER_Target_2": "0",
+"PER_Target_Avr": "10093",
+"Close_Price": "6730",
+"Price_over_PERAvg": "0.33339938571287"
 }

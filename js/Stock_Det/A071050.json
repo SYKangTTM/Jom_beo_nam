@@ -1,8 +1,16 @@
 {
-"stock_code":"A071050",
-"stock_name":"한국금융지주",
-"stock_Div":"증권",
-"SRIM_1":"94720",
-"SRIM_2":"102334",
-"SRIM_3":"121105"
+"stock_code": "A071050",
+"stock_name": "한국금융지주",
+"stock_Div": "증권",
+"SRIM_1": "94812",
+"SRIM_2": "102339",
+"SRIM_3": "120874",
+"stock_Div_PER": "6.77",
+"Current_PER": "6.01",
+"Current_PER_Rank": "8",
+"PER_Target_1": "34540",
+"PER_Target_2": "57526",
+"PER_Target_Avr": "46033",
+"Close_Price": "45050",
+"Price_over_PERAvg": "0.978645754132905"
 }

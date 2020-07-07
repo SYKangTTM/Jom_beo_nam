@@ -1,8 +1,16 @@
 {
-"stock_code":"A003800",
-"stock_name":"에이스침대",
-"stock_Div":"내구소비재",
-"SRIM_1":"41092",
-"SRIM_2":"34085",
-"SRIM_3":"22364"
+"stock_code": "A003800",
+"stock_name": "에이스침대",
+"stock_Div": "가구",
+"SRIM_1": "41152",
+"SRIM_2": "34135",
+"SRIM_3": "22397",
+"stock_Div_PER": "23.12",
+"Current_PER": "12.41",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "44450",
+"Price_over_PERAvg": "N/A"
 }

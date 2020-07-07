@@ -1,8 +1,16 @@
 {
-"stock_code":"A086280",
-"stock_name":"현대글로비스",
-"stock_Div":"육상운수",
-"SRIM_1":"143408",
-"SRIM_2":"153565",
-"SRIM_3":"178279"
+"stock_code": "A086280",
+"stock_name": "현대글로비스",
+"stock_Div": "항공화물운송과물류",
+"SRIM_1": "143556",
+"SRIM_2": "153830",
+"SRIM_3": "178858",
+"stock_Div_PER": "14.8",
+"Current_PER": "7.17",
+"Current_PER_Rank": "1",
+"PER_Target_1": "229011",
+"PER_Target_2": "171261",
+"PER_Target_Avr": "200136",
+"Close_Price": "107000",
+"Price_over_PERAvg": "0.534636447215893"
 }

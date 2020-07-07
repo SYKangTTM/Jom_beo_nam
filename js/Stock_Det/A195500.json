@@ -1,8 +1,16 @@
 {
-"stock_code":"A195500",
-"stock_name":"마니커에프앤지",
-"stock_Div":"식료품",
-"SRIM_1":"3065",
-"SRIM_2":"2542",
-"SRIM_3":"1668"
+"stock_code": "A195500",
+"stock_name": "마니커에프앤지",
+"stock_Div": "식품",
+"SRIM_1": "3069",
+"SRIM_2": "2546",
+"SRIM_3": "1670",
+"stock_Div_PER": "28.92",
+"Current_PER": "31.17",
+"Current_PER_Rank": "41",
+"PER_Target_1": "7895",
+"PER_Target_2": "0",
+"PER_Target_Avr": "3948",
+"Close_Price": "10250",
+"Price_over_PERAvg": "1.2982900569981"
 }

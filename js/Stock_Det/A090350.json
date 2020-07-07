@@ -1,8 +1,16 @@
 {
-"stock_code":"A090350",
-"stock_name":"노루페인트",
-"stock_Div":"건축자재",
-"SRIM_1":"15848",
-"SRIM_2":"16107",
-"SRIM_3":"16690"
+"stock_code": "A090350",
+"stock_name": "노루페인트",
+"stock_Div": "건축자재",
+"SRIM_1": "15871",
+"SRIM_2": "16130",
+"SRIM_3": "16714",
+"stock_Div_PER": "N/A",
+"Current_PER": "7.26",
+"Current_PER_Rank": "3",
+"PER_Target_1": "66207",
+"PER_Target_2": "8361",
+"PER_Target_Avr": "37284",
+"Close_Price": "7250",
+"Price_over_PERAvg": "0.194453384829954"
 }

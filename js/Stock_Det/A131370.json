@@ -1,8 +1,16 @@
 {
-"stock_code":"A131370",
-"stock_name":"알서포트",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"2790",
-"SRIM_2":"4425",
-"SRIM_3":"11542"
+"stock_code": "A131370",
+"stock_name": "알서포트",
+"stock_Div": "소프트웨어",
+"SRIM_1": "2794",
+"SRIM_2": "4432",
+"SRIM_3": "11559",
+"stock_Div_PER": "110.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "2162",
+"PER_Target_2": "0",
+"PER_Target_Avr": "1081",
+"Close_Price": "7830",
+"Price_over_PERAvg": "3.62164662349676"
 }

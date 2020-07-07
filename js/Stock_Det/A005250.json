@@ -1,8 +1,16 @@
 {
-"stock_code":"A005250",
-"stock_name":"³ì½ÊÀÚÈ¦µù½º",
-"stock_Div":"Á¦¾à",
-"SRIM_1":"15403",
-"SRIM_2":"12777",
-"SRIM_3":"8383"
+"stock_code": "A005250",
+"stock_name": "³ì½ÊÀÚÈ¦µù½º",
+"stock_Div": "Á¦¾à",
+"SRIM_1": "15426",
+"SRIM_2": "12795",
+"SRIM_3": "8395",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "24100",
+"Price_over_PERAvg": "N/A"
 }

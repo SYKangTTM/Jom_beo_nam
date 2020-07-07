@@ -1,8 +1,16 @@
 {
-"stock_code":"A005090",
-"stock_name":"»ï±¤±Û¶ó½º",
-"stock_Div":"¿ë±â¹×Æ÷Àå",
-"SRIM_1":"51208",
-"SRIM_2":"42476",
-"SRIM_3":"27870"
+"stock_code": "A005090",
+"stock_name": "»ï±¤±Û¶ó½º",
+"stock_Div": "Æ÷ÀåÀç",
+"SRIM_1": "51282",
+"SRIM_2": "42538",
+"SRIM_3": "27910",
+"stock_Div_PER": "9.45",
+"Current_PER": "44.52",
+"Current_PER_Rank": "24",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "28700",
+"Price_over_PERAvg": "N/A"
 }

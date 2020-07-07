@@ -1,8 +1,16 @@
 {
-"stock_code":"A182690",
-"stock_name":"테라셈",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"493",
-"SRIM_2":"409",
-"SRIM_3":"268"
+"stock_code": "A182690",
+"stock_name": "테라셈",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "494",
+"SRIM_2": "409",
+"SRIM_3": "269",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1940",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A091700",
-"stock_name":"파트론",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"9015",
-"SRIM_2":"10523",
-"SRIM_3":"14690"
+"stock_code": "A091700",
+"stock_name": "파트론",
+"stock_Div": "핸드셋",
+"SRIM_1": "8851",
+"SRIM_2": "10322",
+"SRIM_3": "14382",
+"stock_Div_PER": "22.29",
+"Current_PER": "9.7",
+"Current_PER_Rank": "13",
+"PER_Target_1": "16446",
+"PER_Target_2": "120712",
+"PER_Target_Avr": "68579",
+"Close_Price": "9050",
+"Price_over_PERAvg": "0.131964595575905"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A053700",
-"stock_name":"삼보모터스",
-"stock_Div":"자동차부품",
-"SRIM_1":"10807",
-"SRIM_2":"8964",
-"SRIM_3":"5882"
+"stock_code": "A053700",
+"stock_name": "삼보모터스",
+"stock_Div": "자동차부품",
+"SRIM_1": "10822",
+"SRIM_2": "8977",
+"SRIM_3": "5890",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4210",
+"Price_over_PERAvg": "N/A"
 }

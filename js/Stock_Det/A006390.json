@@ -1,8 +1,16 @@
 {
-"stock_code":"A006390",
-"stock_name":"한일현대시멘트",
-"stock_Div":"건축소재",
-"SRIM_1":"10937",
-"SRIM_2":"9072",
-"SRIM_3":"5952"
+"stock_code": "A006390",
+"stock_name": "한일현대시멘트",
+"stock_Div": "건축자재",
+"SRIM_1": "10953",
+"SRIM_2": "9085",
+"SRIM_3": "5961",
+"stock_Div_PER": "N/A",
+"Current_PER": "10.1",
+"Current_PER_Rank": "7",
+"PER_Target_1": "188716",
+"PER_Target_2": "0",
+"PER_Target_Avr": "94358",
+"Close_Price": "29200",
+"Price_over_PERAvg": "0.15472985862354"
 }

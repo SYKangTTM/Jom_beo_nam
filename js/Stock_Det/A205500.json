@@ -1,8 +1,16 @@
 {
-"stock_code":"A205500",
-"stock_name":"액션스퀘어",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"439",
-"SRIM_2":"365",
-"SRIM_3":"239"
+"stock_code": "A205500",
+"stock_name": "액션스퀘어",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "440",
+"SRIM_2": "365",
+"SRIM_3": "240",
+"stock_Div_PER": "38.15",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1500",
+"Price_over_PERAvg": "N/A"
 }

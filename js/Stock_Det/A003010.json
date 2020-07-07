@@ -1,8 +1,16 @@
 {
-"stock_code":"A003010",
-"stock_name":"ÇýÀÎ",
-"stock_Div":"±â°è",
-"SRIM_1":"8709",
-"SRIM_2":"7224",
-"SRIM_3":"4740"
+"stock_code": "A003010",
+"stock_name": "ÇýÀÎ",
+"stock_Div": "±â°è",
+"SRIM_1": "8722",
+"SRIM_2": "7234",
+"SRIM_3": "4747",
+"stock_Div_PER": "N/A",
+"Current_PER": "109.52",
+"Current_PER_Rank": "54",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4745",
+"Price_over_PERAvg": "N/A"
 }

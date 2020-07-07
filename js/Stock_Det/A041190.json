@@ -1,8 +1,16 @@
 {
-"stock_code":"A041190",
-"stock_name":"우리기술투자",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"891",
-"SRIM_2":"739",
-"SRIM_3":"485"
+"stock_code": "A041190",
+"stock_name": "우리기술투자",
+"stock_Div": "창업투자",
+"SRIM_1": "893",
+"SRIM_2": "740",
+"SRIM_3": "486",
+"stock_Div_PER": "24.27",
+"Current_PER": "24.44",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2800",
+"Price_over_PERAvg": "N/A"
 }

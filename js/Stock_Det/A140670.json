@@ -1,8 +1,16 @@
 {
-"stock_code":"A140670",
-"stock_name":"알에스오토메이션",
-"stock_Div":"기계",
-"SRIM_1":"3915",
-"SRIM_2":"3247",
-"SRIM_3":"2130"
+"stock_code": "A140670",
+"stock_name": "알에스오토메이션",
+"stock_Div": "기계",
+"SRIM_1": "3920",
+"SRIM_2": "3252",
+"SRIM_3": "2134",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7680",
+"Price_over_PERAvg": "N/A"
 }

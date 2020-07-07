@@ -1,8 +1,16 @@
 {
-"stock_code":"A327260",
-"stock_name":"메탈라이프",
-"stock_Div":"통신장비",
-"SRIM_1":"6425",
-"SRIM_2":"5330",
-"SRIM_3":"3497"
+"stock_code": "A327260",
+"stock_name": "메탈라이프",
+"stock_Div": "통신장비",
+"SRIM_1": "6435",
+"SRIM_2": "5337",
+"SRIM_3": "3502",
+"stock_Div_PER": "54.91",
+"Current_PER": "41.75",
+"Current_PER_Rank": "20",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "20500",
+"Price_over_PERAvg": "N/A"
 }

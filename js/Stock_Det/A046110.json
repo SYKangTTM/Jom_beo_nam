@@ -1,8 +1,16 @@
 {
-"stock_code":"A046110",
-"stock_name":"한일네트웍스",
-"stock_Div":"IT서비스",
-"SRIM_1":"5070",
-"SRIM_2":"4205",
-"SRIM_3":"2759"
+"stock_code": "A046110",
+"stock_name": "한일네트웍스",
+"stock_Div": "IT서비스",
+"SRIM_1": "5077",
+"SRIM_2": "4211",
+"SRIM_3": "2763",
+"stock_Div_PER": "23.79",
+"Current_PER": "7.35",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4510",
+"Price_over_PERAvg": "N/A"
 }

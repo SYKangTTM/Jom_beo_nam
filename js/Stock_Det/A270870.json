@@ -1,8 +1,16 @@
 {
-"stock_code":"A270870",
-"stock_name":"뉴트리",
-"stock_Div":"식료품",
-"SRIM_1":"15950",
-"SRIM_2":"24349",
-"SRIM_3":"58875"
+"stock_code": "A270870",
+"stock_name": "뉴트리",
+"stock_Div": "제약",
+"SRIM_1": "15973",
+"SRIM_2": "24384",
+"SRIM_3": "58961",
+"stock_Div_PER": "122.92",
+"Current_PER": "18.3",
+"Current_PER_Rank": "26",
+"PER_Target_1": "443576",
+"PER_Target_2": "0",
+"PER_Target_Avr": "221788",
+"Close_Price": "27850",
+"Price_over_PERAvg": "6.27851822461089E-02"
 }

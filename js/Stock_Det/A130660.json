@@ -1,8 +1,16 @@
 {
-"stock_code":"A130660",
-"stock_name":"한전산업",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"2367",
-"SRIM_2":"1963",
-"SRIM_3":"1288"
+"stock_code": "A130660",
+"stock_name": "한전산업",
+"stock_Div": "전기유틸리티",
+"SRIM_1": "2370",
+"SRIM_2": "1966",
+"SRIM_3": "1290",
+"stock_Div_PER": "N/A",
+"Current_PER": "6.41",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3280",
+"Price_over_PERAvg": "N/A"
 }

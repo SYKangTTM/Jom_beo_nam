@@ -1,8 +1,16 @@
 {
-"stock_code":"A111820",
-"stock_name":"지와이커머스",
-"stock_Div":"상업서비스",
-"SRIM_1":"11",
-"SRIM_2":"9",
-"SRIM_3":"6"
+"stock_code": "A111820",
+"stock_name": "지와이커머스",
+"stock_Div": "인터넷과카탈로그소매",
+"SRIM_1": "11",
+"SRIM_2": "9",
+"SRIM_3": "6",
+"stock_Div_PER": "16.77",
+"Current_PER": "0.35",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2465",
+"Price_over_PERAvg": "N/A"
 }

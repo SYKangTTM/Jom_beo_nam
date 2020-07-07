@@ -1,8 +1,16 @@
 {
-"stock_code":"A073560",
-"stock_name":"우리손에프앤지",
-"stock_Div":"식료품",
-"SRIM_1":"2378",
-"SRIM_2":"1972",
-"SRIM_3":"1294"
+"stock_code": "A073560",
+"stock_name": "우리손에프앤지",
+"stock_Div": "식품",
+"SRIM_1": "2381",
+"SRIM_2": "1975",
+"SRIM_3": "1296",
+"stock_Div_PER": "23.98",
+"Current_PER": "35.16",
+"Current_PER_Rank": "43",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1925",
+"Price_over_PERAvg": "N/A"
 }

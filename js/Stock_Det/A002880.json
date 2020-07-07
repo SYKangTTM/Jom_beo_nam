@@ -1,8 +1,16 @@
 {
-"stock_code":"A002880",
-"stock_name":"대유에이텍",
-"stock_Div":"자동차부품",
-"SRIM_1":"911",
-"SRIM_2":"755",
-"SRIM_3":"496"
+"stock_code": "A002880",
+"stock_name": "대유에이텍",
+"stock_Div": "자동차부품",
+"SRIM_1": "912",
+"SRIM_2": "757",
+"SRIM_3": "496",
+"stock_Div_PER": "12.97",
+"Current_PER": "40.4",
+"Current_PER_Rank": "71",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "664",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A086390",
-"stock_name":"유니테스트",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"14207",
-"SRIM_2":"19807",
-"SRIM_3":"39936"
+"stock_code": "A086390",
+"stock_name": "유니테스트",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "14228",
+"SRIM_2": "19836",
+"SRIM_3": "39994",
+"stock_Div_PER": "17.68",
+"Current_PER": "12.33",
+"Current_PER_Rank": "16",
+"PER_Target_1": "11591",
+"PER_Target_2": "9074",
+"PER_Target_Avr": "10332",
+"Close_Price": "12350",
+"Price_over_PERAvg": "1.19525768207113"
 }

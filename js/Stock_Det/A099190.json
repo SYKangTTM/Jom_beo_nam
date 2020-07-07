@@ -1,8 +1,16 @@
 {
-"stock_code":"A099190",
-"stock_name":"아이센스",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"18818",
-"SRIM_2":"20979",
-"SRIM_3":"26562"
+"stock_code": "A099190",
+"stock_name": "아이센스",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "18845",
+"SRIM_2": "21010",
+"SRIM_3": "26601",
+"stock_Div_PER": "116.58",
+"Current_PER": "14.52",
+"Current_PER_Rank": "10",
+"PER_Target_1": "146925",
+"PER_Target_2": "40196",
+"PER_Target_Avr": "93560",
+"Close_Price": "25100",
+"Price_over_PERAvg": "0.268275607761823"
 }

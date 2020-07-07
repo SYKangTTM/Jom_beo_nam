@@ -1,8 +1,16 @@
 {
-"stock_code":"A046390",
-"stock_name":"삼화네트웍스",
-"stock_Div":"미디어",
-"SRIM_1":"806",
-"SRIM_2":"669",
-"SRIM_3":"439"
+"stock_code": "A046390",
+"stock_name": "삼화네트웍스",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "808",
+"SRIM_2": "671",
+"SRIM_3": "440",
+"stock_Div_PER": "N/A",
+"Current_PER": "35.8",
+"Current_PER_Rank": "15",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1480",
+"Price_over_PERAvg": "N/A"
 }

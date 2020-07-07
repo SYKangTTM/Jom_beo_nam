@@ -1,8 +1,16 @@
 {
-"stock_code":"A004800",
-"stock_name":"효성",
-"stock_Div":"복합산업",
-"SRIM_1":"106772",
-"SRIM_2":"105712",
-"SRIM_3":"103413"
+"stock_code": "A004800",
+"stock_name": "효성",
+"stock_Div": "복합기업",
+"SRIM_1": "106927",
+"SRIM_2": "105865",
+"SRIM_3": "103564",
+"stock_Div_PER": "20.53",
+"Current_PER": "17.62",
+"Current_PER_Rank": "4",
+"PER_Target_1": "95115",
+"PER_Target_2": "42318",
+"PER_Target_Avr": "68716",
+"Close_Price": "62900",
+"Price_over_PERAvg": "0.915355118494103"
 }

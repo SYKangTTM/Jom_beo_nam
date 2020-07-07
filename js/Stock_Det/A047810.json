@@ -1,8 +1,16 @@
 {
-"stock_code":"A047810",
-"stock_name":"한국항공우주",
-"stock_Div":"상업서비스",
-"SRIM_1":"15340",
-"SRIM_2":"17490",
-"SRIM_3":"23232"
+"stock_code": "A047810",
+"stock_name": "한국항공우주",
+"stock_Div": "우주항공과국방",
+"SRIM_1": "15237",
+"SRIM_2": "17358",
+"SRIM_3": "23012",
+"stock_Div_PER": "16.99",
+"Current_PER": "11.66",
+"Current_PER_Rank": "3",
+"PER_Target_1": "37196",
+"PER_Target_2": "0",
+"PER_Target_Avr": "18598",
+"Close_Price": "24450",
+"Price_over_PERAvg": "0.657328745026347"
 }

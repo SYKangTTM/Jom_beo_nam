@@ -1,8 +1,16 @@
 {
-"stock_code":"A339950",
-"stock_name":"엔에이치스팩15호",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1719",
-"SRIM_2":"1426",
-"SRIM_3":"935"
+"stock_code": "A339950",
+"stock_name": "엔에이치스팩15호",
+"stock_Div": "미분류",
+"SRIM_1": "1721",
+"SRIM_2": "1428",
+"SRIM_3": "937",
+"stock_Div_PER": "",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2065",
+"Price_over_PERAvg": "N/A"
 }

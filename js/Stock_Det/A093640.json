@@ -1,8 +1,16 @@
 {
-"stock_code":"A093640",
-"stock_name":"다믈멀티미디어",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"1765",
-"SRIM_2":"1464",
-"SRIM_3":"961"
+"stock_code": "A093640",
+"stock_name": "다믈멀티미디어",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "1768",
+"SRIM_2": "1466",
+"SRIM_3": "962",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2850",
+"Price_over_PERAvg": "N/A"
 }

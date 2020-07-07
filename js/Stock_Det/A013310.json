@@ -1,8 +1,16 @@
 {
-"stock_code":"A013310",
-"stock_name":"아진산업",
-"stock_Div":"자동차부품",
-"SRIM_1":"4945",
-"SRIM_2":"4102",
-"SRIM_3":"2691"
+"stock_code": "A013310",
+"stock_name": "아진산업",
+"stock_Div": "자동차부품",
+"SRIM_1": "4952",
+"SRIM_2": "4108",
+"SRIM_3": "2695",
+"stock_Div_PER": "12.97",
+"Current_PER": "5.69",
+"Current_PER_Rank": "17",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2505",
+"Price_over_PERAvg": "N/A"
 }

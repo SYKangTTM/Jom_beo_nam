@@ -1,8 +1,16 @@
 {
-"stock_code":"A100120",
-"stock_name":"뷰웍스",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"23390",
-"SRIM_2":"26897",
-"SRIM_3":"36378"
+"stock_code": "A100120",
+"stock_name": "뷰웍스",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "23424",
+"SRIM_2": "26936",
+"SRIM_3": "36431",
+"stock_Div_PER": "116.58",
+"Current_PER": "12.91",
+"Current_PER_Rank": "8",
+"PER_Target_1": "216034",
+"PER_Target_2": "56046",
+"PER_Target_Avr": "136040",
+"Close_Price": "34700",
+"Price_over_PERAvg": "0.255072037635989"
 }

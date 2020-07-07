@@ -1,8 +1,16 @@
 {
-"stock_code":"A048870",
-"stock_name":"시너지이노베이션",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"1035",
-"SRIM_2":"859",
-"SRIM_3":"563"
+"stock_code": "A048870",
+"stock_name": "시너지이노베이션",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "1037",
+"SRIM_2": "860",
+"SRIM_3": "564",
+"stock_Div_PER": "116.58",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1660",
+"Price_over_PERAvg": "N/A"
 }

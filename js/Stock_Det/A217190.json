@@ -1,8 +1,16 @@
 {
-"stock_code":"A217190",
-"stock_name":"제너셈",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"2143",
-"SRIM_2":"1778",
-"SRIM_3":"1166"
+"stock_code": "A217190",
+"stock_name": "제너셈",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "2146",
+"SRIM_2": "1780",
+"SRIM_3": "1168",
+"stock_Div_PER": "17.68",
+"Current_PER": "14.91",
+"Current_PER_Rank": "26",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3460",
+"Price_over_PERAvg": "N/A"
 }

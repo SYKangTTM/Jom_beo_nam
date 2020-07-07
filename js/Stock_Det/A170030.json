@@ -1,8 +1,16 @@
 {
-"stock_code":"A170030",
-"stock_name":"현대공업",
-"stock_Div":"자동차부품",
-"SRIM_1":"6087",
-"SRIM_2":"5049",
-"SRIM_3":"3313"
+"stock_code": "A170030",
+"stock_name": "현대공업",
+"stock_Div": "자동차부품",
+"SRIM_1": "6096",
+"SRIM_2": "5057",
+"SRIM_3": "3318",
+"stock_Div_PER": "12.97",
+"Current_PER": "17.11",
+"Current_PER_Rank": "52",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4210",
+"Price_over_PERAvg": "N/A"
 }

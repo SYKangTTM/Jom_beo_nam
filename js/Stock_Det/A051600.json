@@ -1,8 +1,16 @@
 {
-"stock_code":"A051600",
-"stock_name":"한전KPS",
-"stock_Div":"전력",
-"SRIM_1":"25555",
-"SRIM_2":"28632",
-"SRIM_3":"36638"
+"stock_code": "A051600",
+"stock_name": "한전KPS",
+"stock_Div": "전기유틸리티",
+"SRIM_1": "25622",
+"SRIM_2": "28727",
+"SRIM_3": "36812",
+"stock_Div_PER": "N/A",
+"Current_PER": "8.5",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "56767",
+"PER_Target_Avr": "28384",
+"Close_Price": "30300",
+"Price_over_PERAvg": "0.533760811739215"
 }

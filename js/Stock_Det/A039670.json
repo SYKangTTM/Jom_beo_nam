@@ -1,8 +1,16 @@
 {
-"stock_code":"A039670",
-"stock_name":"한류타임즈",
-"stock_Div":"미디어",
-"SRIM_1":"986",
-"SRIM_2":"818",
-"SRIM_3":"537"
+"stock_code": "A039670",
+"stock_name": "한류타임즈",
+"stock_Div": "출판",
+"SRIM_1": "-152",
+"SRIM_2": "-126",
+"SRIM_3": "-82",
+"stock_Div_PER": "465.61",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "917",
+"Price_over_PERAvg": "N/A"
 }

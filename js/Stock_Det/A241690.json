@@ -1,8 +1,16 @@
 {
-"stock_code":"A241690",
-"stock_name":"유니테크노",
-"stock_Div":"자동차부품",
-"SRIM_1":"5043",
-"SRIM_2":"4183",
-"SRIM_3":"2745"
+"stock_code": "A241690",
+"stock_name": "유니테크노",
+"stock_Div": "자동차부품",
+"SRIM_1": "5051",
+"SRIM_2": "4190",
+"SRIM_3": "2749",
+"stock_Div_PER": "12.97",
+"Current_PER": "20.28",
+"Current_PER_Rank": "54",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9780",
+"Price_over_PERAvg": "N/A"
 }

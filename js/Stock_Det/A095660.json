@@ -1,8 +1,16 @@
 {
-"stock_code":"A095660",
-"stock_name":"네오위즈",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"20007",
-"SRIM_2":"22321",
-"SRIM_3":"28301"
+"stock_code": "A095660",
+"stock_name": "네오위즈",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "20036",
+"SRIM_2": "22353",
+"SRIM_3": "28343",
+"stock_Div_PER": "38.15",
+"Current_PER": "21.03",
+"Current_PER_Rank": "9",
+"PER_Target_1": "90904",
+"PER_Target_2": "0",
+"PER_Target_Avr": "45452",
+"Close_Price": "28350",
+"Price_over_PERAvg": "0.311867464578016"
 }

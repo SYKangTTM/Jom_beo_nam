@@ -1,8 +1,16 @@
 {
-"stock_code":"A072990",
-"stock_name":"에이치시티",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"6601",
-"SRIM_2":"5476",
-"SRIM_3":"3593"
+"stock_code": "A072990",
+"stock_name": "에이치시티",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "6611",
+"SRIM_2": "5484",
+"SRIM_3": "3598",
+"stock_Div_PER": "31.01",
+"Current_PER": "10.83",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10400",
+"Price_over_PERAvg": "N/A"
 }

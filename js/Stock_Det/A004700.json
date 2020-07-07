@@ -1,8 +1,16 @@
 {
-"stock_code":"A004700",
-"stock_name":"Á¶±¤ÇÇÇõ",
-"stock_Div":"¼¶À¯¹×ÀÇº¹",
-"SRIM_1":"69599",
-"SRIM_2":"57731",
-"SRIM_3":"37879"
+"stock_code": "A004700",
+"stock_name": "Á¶±¤ÇÇÇõ",
+"stock_Div": "¼¶À¯,ÀÇ·ù,½Å¹ß,È£È­Ç°",
+"SRIM_1": "69700",
+"SRIM_2": "57815",
+"SRIM_3": "37934",
+"stock_Div_PER": "23.09",
+"Current_PER": "24.57",
+"Current_PER_Rank": "35",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "58100",
+"Price_over_PERAvg": "N/A"
 }

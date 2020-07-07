@@ -1,8 +1,16 @@
 {
-"stock_code":"A049770",
-"stock_name":"동원F&B",
-"stock_Div":"식료품",
-"SRIM_1":"202482",
-"SRIM_2":"214516",
-"SRIM_3":"243339"
+"stock_code": "A049770",
+"stock_name": "동원F&B",
+"stock_Div": "식품",
+"SRIM_1": "202881",
+"SRIM_2": "214988",
+"SRIM_3": "243996",
+"stock_Div_PER": "23.98",
+"Current_PER": "11.03",
+"Current_PER_Rank": "20",
+"PER_Target_1": "493748",
+"PER_Target_2": "335862",
+"PER_Target_Avr": "414805",
+"Close_Price": "183000",
+"Price_over_PERAvg": "0.44117115271031"
 }

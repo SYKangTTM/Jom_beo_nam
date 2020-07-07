@@ -1,8 +1,16 @@
 {
-"stock_code":"A187270",
-"stock_name":"신화콘텍",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"4780",
-"SRIM_2":"3965",
-"SRIM_3":"2602"
+"stock_code": "A187270",
+"stock_name": "신화콘텍",
+"stock_Div": "전기제품",
+"SRIM_1": "4787",
+"SRIM_2": "3971",
+"SRIM_3": "2605",
+"stock_Div_PER": "77.9",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2560",
+"Price_over_PERAvg": "N/A"
 }

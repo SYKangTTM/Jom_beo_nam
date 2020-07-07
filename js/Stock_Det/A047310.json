@@ -1,8 +1,16 @@
 {
-"stock_code":"A047310",
-"stock_name":"파워로직스",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"9411",
-"SRIM_2":"10652",
-"SRIM_3":"13927"
+"stock_code": "A047310",
+"stock_name": "파워로직스",
+"stock_Div": "전기제품",
+"SRIM_1": "9425",
+"SRIM_2": "10667",
+"SRIM_3": "13947",
+"stock_Div_PER": "77.9",
+"Current_PER": "8.1",
+"Current_PER_Rank": "2",
+"PER_Target_1": "55917",
+"PER_Target_2": "15187",
+"PER_Target_Avr": "35552",
+"Close_Price": "7300",
+"Price_over_PERAvg": "0.20533303330333"
 }

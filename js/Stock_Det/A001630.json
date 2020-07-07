@@ -1,8 +1,16 @@
 {
-"stock_code":"A001630",
-"stock_name":"종근당홀딩스",
-"stock_Div":"제약",
-"SRIM_1":"125509",
-"SRIM_2":"144036",
-"SRIM_3":"193977"
+"stock_code": "A001630",
+"stock_name": "종근당홀딩스",
+"stock_Div": "제약",
+"SRIM_1": "125691",
+"SRIM_2": "144246",
+"SRIM_3": "194259",
+"stock_Div_PER": "122.92",
+"Current_PER": "15.57",
+"Current_PER_Rank": "20",
+"PER_Target_1": "2088979",
+"PER_Target_2": "170139",
+"PER_Target_Avr": "1129559",
+"Close_Price": "122000",
+"Price_over_PERAvg": "0.108006753077971"
 }

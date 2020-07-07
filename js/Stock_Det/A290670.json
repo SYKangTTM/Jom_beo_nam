@@ -1,8 +1,16 @@
 {
-"stock_code":"A290670",
-"stock_name":"대보마그네틱",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"4933",
-"SRIM_2":"4092",
-"SRIM_3":"2685"
+"stock_code": "A290670",
+"stock_name": "대보마그네틱",
+"stock_Div": "전기제품",
+"SRIM_1": "4945",
+"SRIM_2": "4102",
+"SRIM_3": "2691",
+"stock_Div_PER": "77.9",
+"Current_PER": "86.3",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "29800",
+"Price_over_PERAvg": "N/A"
 }

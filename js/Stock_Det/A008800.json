@@ -1,8 +1,16 @@
 {
-"stock_code":"A008800",
-"stock_name":"행남사",
-"stock_Div":"내구소비재",
-"SRIM_1":"603",
-"SRIM_2":"500",
-"SRIM_3":"328"
+"stock_code": "A008800",
+"stock_name": "행남사",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "604",
+"SRIM_2": "501",
+"SRIM_3": "329",
+"stock_Div_PER": "19.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1770",
+"Price_over_PERAvg": "N/A"
 }

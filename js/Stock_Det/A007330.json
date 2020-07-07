@@ -1,8 +1,16 @@
 {
-"stock_code":"A007330",
-"stock_name":"푸른저축은행",
-"stock_Div":"상호저축은행",
-"SRIM_1":"19953",
-"SRIM_2":"16550",
-"SRIM_3":"10859"
+"stock_code": "A007330",
+"stock_name": "푸른저축은행",
+"stock_Div": "기타금융",
+"SRIM_1": "19993",
+"SRIM_2": "16584",
+"SRIM_3": "10881",
+"stock_Div_PER": "6.54",
+"Current_PER": "5.51",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7780",
+"Price_over_PERAvg": "N/A"
 }

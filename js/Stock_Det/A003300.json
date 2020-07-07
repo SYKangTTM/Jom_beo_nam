@@ -1,8 +1,16 @@
 {
-"stock_code":"A003300",
-"stock_name":"한일홀딩스",
-"stock_Div":"건축소재",
-"SRIM_1":"155077",
-"SRIM_2":"128634",
-"SRIM_3":"84400"
+"stock_code": "A003300",
+"stock_name": "한일홀딩스",
+"stock_Div": "건축자재",
+"SRIM_1": "155395",
+"SRIM_2": "128898",
+"SRIM_3": "84574",
+"stock_Div_PER": "N/A",
+"Current_PER": "11.1",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "47350",
+"Price_over_PERAvg": "N/A"
 }

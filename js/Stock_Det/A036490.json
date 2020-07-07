@@ -1,8 +1,16 @@
 {
-"stock_code":"A036490",
-"stock_name":"SK머티리얼즈",
-"stock_Div":"석유및가스",
-"SRIM_1":"98045",
-"SRIM_2":"135530",
-"SRIM_3":"268595"
+"stock_code": "A036490",
+"stock_name": "SK머티리얼즈",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "98425",
+"SRIM_2": "136287",
+"SRIM_3": "271030",
+"stock_Div_PER": "112.72",
+"Current_PER": "16.65",
+"Current_PER_Rank": "22",
+"PER_Target_1": "1349618",
+"PER_Target_2": "227358",
+"PER_Target_Avr": "788488",
+"Close_Price": "197500",
+"Price_over_PERAvg": "0.250479398545063"
 }

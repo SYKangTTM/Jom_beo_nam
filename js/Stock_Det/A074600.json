@@ -1,8 +1,16 @@
 {
-"stock_code":"A074600",
-"stock_name":"원익QnC",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"12721",
-"SRIM_2":"15189",
-"SRIM_3":"22240"
+"stock_code": "A074600",
+"stock_name": "원익QnC",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "12740",
+"SRIM_2": "15211",
+"SRIM_3": "22272",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "16573",
+"PER_Target_2": "40929",
+"PER_Target_Avr": "28751",
+"Close_Price": "13650",
+"Price_over_PERAvg": "0.474766095092345"
 }

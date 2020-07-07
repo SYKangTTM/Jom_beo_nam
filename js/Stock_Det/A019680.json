@@ -1,8 +1,16 @@
 {
-"stock_code":"A019680",
-"stock_name":"대교",
-"stock_Div":"교육",
-"SRIM_1":"5000",
-"SRIM_2":"4485",
-"SRIM_3":"3520"
+"stock_code": "A019680",
+"stock_name": "대교",
+"stock_Div": "교육서비스",
+"SRIM_1": "5008",
+"SRIM_2": "4492",
+"SRIM_3": "3525",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "244",
+"PER_Target_Avr": "122",
+"Close_Price": "4260",
+"Price_over_PERAvg": "17.4590163934426"
 }

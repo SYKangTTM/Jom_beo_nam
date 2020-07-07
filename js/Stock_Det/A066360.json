@@ -1,8 +1,16 @@
 {
-"stock_code":"A066360",
-"stock_name":"체리부로",
-"stock_Div":"식료품",
-"SRIM_1":"2900",
-"SRIM_2":"2406",
-"SRIM_3":"1578"
+"stock_code": "A066360",
+"stock_name": "체리부로",
+"stock_Div": "식품",
+"SRIM_1": "2904",
+"SRIM_2": "2409",
+"SRIM_3": "1581",
+"stock_Div_PER": "23.98",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2640",
+"Price_over_PERAvg": "N/A"
 }

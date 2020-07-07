@@ -1,8 +1,16 @@
 {
-"stock_code":"A102710",
-"stock_name":"이엔에프테크놀로지",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"31001",
-"SRIM_2":"37334",
-"SRIM_3":"55665"
+"stock_code": "A102710",
+"stock_name": "이엔에프테크놀로지",
+"stock_Div": "화학",
+"SRIM_1": "31046",
+"SRIM_2": "37388",
+"SRIM_3": "55746",
+"stock_Div_PER": "58.5",
+"Current_PER": "10.44",
+"Current_PER_Rank": "36",
+"PER_Target_1": "179355",
+"PER_Target_2": "42727",
+"PER_Target_Avr": "111041",
+"Close_Price": "36700",
+"Price_over_PERAvg": "0.330508550895615"
 }

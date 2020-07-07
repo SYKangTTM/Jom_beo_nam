@@ -1,8 +1,16 @@
 {
-"stock_code":"A010420",
-"stock_name":"한솔PNS",
-"stock_Div":"종이및목재",
-"SRIM_1":"1803",
-"SRIM_2":"1496",
-"SRIM_3":"981"
+"stock_code": "A010420",
+"stock_name": "한솔PNS",
+"stock_Div": "종이와목재",
+"SRIM_1": "1806",
+"SRIM_2": "1498",
+"SRIM_3": "983",
+"stock_Div_PER": "N/A",
+"Current_PER": "9.18",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1375",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A039440",
-"stock_name":"에스티아이",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"19949",
-"SRIM_2":"25739",
-"SRIM_3":"44295"
+"stock_code": "A039440",
+"stock_name": "에스티아이",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "19978",
+"SRIM_2": "25776",
+"SRIM_3": "44359",
+"stock_Div_PER": "17.68",
+"Current_PER": "12.79",
+"Current_PER_Rank": "18",
+"PER_Target_1": "33920",
+"PER_Target_2": "21945",
+"PER_Target_Avr": "27932",
+"Close_Price": "16850",
+"Price_over_PERAvg": "0.603239953459232"
 }

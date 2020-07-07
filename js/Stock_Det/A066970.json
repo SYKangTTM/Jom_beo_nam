@@ -1,8 +1,16 @@
 {
-"stock_code":"A066970",
-"stock_name":"엘앤에프",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"10685",
-"SRIM_2":"13158",
-"SRIM_3":"20553"
+"stock_code": "A066970",
+"stock_name": "엘앤에프",
+"stock_Div": "전기제품",
+"SRIM_1": "10701",
+"SRIM_2": "13177",
+"SRIM_3": "20583",
+"stock_Div_PER": "77.9",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "11243",
+"PER_Target_2": "0",
+"PER_Target_Avr": "5622",
+"Close_Price": "38750",
+"Price_over_PERAvg": "3.44658898870408"
 }

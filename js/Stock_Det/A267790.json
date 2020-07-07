@@ -1,8 +1,16 @@
 {
-"stock_code":"A267790",
-"stock_name":"¹è·²",
-"stock_Div":"¼¶À¯¹×ÀÇº¹",
-"SRIM_1":"10642",
-"SRIM_2":"14170",
-"SRIM_3":"26018"
+"stock_code": "A267790",
+"stock_name": "¹è·²",
+"stock_Div": "¼¶À¯,ÀÇ·ù,½Å¹ß,È£È­Ç°",
+"SRIM_1": "10657",
+"SRIM_2": "14190",
+"SRIM_3": "26056",
+"stock_Div_PER": "23.09",
+"Current_PER": "17.12",
+"Current_PER_Rank": "30",
+"PER_Target_1": "10940",
+"PER_Target_2": "0",
+"PER_Target_Avr": "5470",
+"Close_Price": "9990",
+"Price_over_PERAvg": "0.913162705667276"
 }

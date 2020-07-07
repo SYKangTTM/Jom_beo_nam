@@ -1,8 +1,16 @@
 {
-"stock_code":"A005850",
-"stock_name":"에스엘",
-"stock_Div":"자동차부품",
-"SRIM_1":"27506",
-"SRIM_2":"26974",
-"SRIM_3":"25837"
+"stock_code": "A005850",
+"stock_name": "에스엘",
+"stock_Div": "자동차부품",
+"SRIM_1": "27546",
+"SRIM_2": "27013",
+"SRIM_3": "25875",
+"stock_Div_PER": "12.97",
+"Current_PER": "6.14",
+"Current_PER_Rank": "21",
+"PER_Target_1": "14932",
+"PER_Target_2": "16480",
+"PER_Target_Avr": "15706",
+"Close_Price": "11050",
+"Price_over_PERAvg": "0.703552782376162"
 }

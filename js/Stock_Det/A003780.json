@@ -1,8 +1,16 @@
 {
-"stock_code":"A003780",
-"stock_name":"진양산업",
-"stock_Div":"화학",
-"SRIM_1":"2843",
-"SRIM_2":"2358",
-"SRIM_3":"1547"
+"stock_code": "A003780",
+"stock_name": "진양산업",
+"stock_Div": "화학",
+"SRIM_1": "2847",
+"SRIM_2": "2362",
+"SRIM_3": "1549",
+"stock_Div_PER": "58.5",
+"Current_PER": "6.64",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3385",
+"Price_over_PERAvg": "N/A"
 }

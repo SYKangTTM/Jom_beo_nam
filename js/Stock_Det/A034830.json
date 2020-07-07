@@ -1,8 +1,16 @@
 {
-"stock_code":"A034830",
-"stock_name":"한국토지신탁",
-"stock_Div":"부동산",
-"SRIM_1":"4317",
-"SRIM_2":"4460",
-"SRIM_3":"4789"
+"stock_code": "A034830",
+"stock_name": "한국토지신탁",
+"stock_Div": "부동산",
+"SRIM_1": "4333",
+"SRIM_2": "4476",
+"SRIM_3": "4807",
+"stock_Div_PER": "5.87",
+"Current_PER": "3.92",
+"Current_PER_Rank": "2",
+"PER_Target_1": "2828",
+"PER_Target_2": "2821",
+"PER_Target_Avr": "2824",
+"Close_Price": "1750",
+"Price_over_PERAvg": "0.619578686493185"
 }

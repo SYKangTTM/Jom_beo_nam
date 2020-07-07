@@ -1,8 +1,16 @@
 {
-"stock_code":"A005030",
-"stock_name":"부산주공",
-"stock_Div":"자동차부품",
-"SRIM_1":"638",
-"SRIM_2":"530",
-"SRIM_3":"347"
+"stock_code": "A005030",
+"stock_name": "부산주공",
+"stock_Div": "자동차부품",
+"SRIM_1": "639",
+"SRIM_2": "530",
+"SRIM_3": "348",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "362",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A289080",
-"stock_name":"SV인베스트먼트",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"905",
-"SRIM_2":"751",
-"SRIM_3":"493"
+"stock_code": "A289080",
+"stock_name": "SV인베스트먼트",
+"stock_Div": "창업투자",
+"SRIM_1": "907",
+"SRIM_2": "752",
+"SRIM_3": "493",
+"stock_Div_PER": "18.22",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3760",
+"Price_over_PERAvg": "N/A"
 }

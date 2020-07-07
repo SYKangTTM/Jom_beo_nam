@@ -1,8 +1,16 @@
 {
-"stock_code":"A109960",
-"stock_name":"에이프로젠H&G",
-"stock_Div":"제약",
-"SRIM_1":"1060",
-"SRIM_2":"879",
-"SRIM_3":"577"
+"stock_code": "A109960",
+"stock_name": "에이프로젠 H&G",
+"stock_Div": "제약",
+"SRIM_1": "1062",
+"SRIM_2": "881",
+"SRIM_3": "578",
+"stock_Div_PER": "122.92",
+"Current_PER": "64.57",
+"Current_PER_Rank": "57",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "934",
+"Price_over_PERAvg": "N/A"
 }

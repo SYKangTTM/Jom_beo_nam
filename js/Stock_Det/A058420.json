@@ -1,8 +1,16 @@
 {
-"stock_code":"A058420",
-"stock_name":"제이웨이",
-"stock_Div":"미디어",
-"SRIM_1":"531",
-"SRIM_2":"440",
-"SRIM_3":"289"
+"stock_code": "A058420",
+"stock_name": "제이웨이",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "532",
+"SRIM_2": "441",
+"SRIM_3": "289",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1040",
+"Price_over_PERAvg": "N/A"
 }

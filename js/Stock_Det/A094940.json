@@ -1,8 +1,16 @@
 {
-"stock_code":"A094940",
-"stock_name":"푸른기술",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"4317",
-"SRIM_2":"3581",
-"SRIM_3":"2349"
+"stock_code": "A094940",
+"stock_name": "푸른기술",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "4323",
+"SRIM_2": "3586",
+"SRIM_3": "2353",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15900",
+"Price_over_PERAvg": "N/A"
 }

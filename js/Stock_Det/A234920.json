@@ -1,8 +1,16 @@
 {
-"stock_code":"A234920",
-"stock_name":"자이글",
-"stock_Div":"내구소비재",
-"SRIM_1":"3463",
-"SRIM_2":"2872",
-"SRIM_3":"1885"
+"stock_code": "A234920",
+"stock_name": "자이글",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "3468",
+"SRIM_2": "2876",
+"SRIM_3": "1887",
+"stock_Div_PER": "19.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3450",
+"Price_over_PERAvg": "N/A"
 }

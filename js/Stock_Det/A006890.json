@@ -1,8 +1,16 @@
 {
-"stock_code":"A006890",
-"stock_name":"태경화학",
-"stock_Div":"화학",
-"SRIM_1":"9401",
-"SRIM_2":"7798",
-"SRIM_3":"5117"
+"stock_code": "A006890",
+"stock_name": "태경케미컬",
+"stock_Div": "화학",
+"SRIM_1": "9415",
+"SRIM_2": "7810",
+"SRIM_3": "5124",
+"stock_Div_PER": "58.5",
+"Current_PER": "7.05",
+"Current_PER_Rank": "21",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6250",
+"Price_over_PERAvg": "N/A"
 }

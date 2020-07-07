@@ -1,8 +1,16 @@
 {
-"stock_code":"A009680",
-"stock_name":"모토닉",
-"stock_Div":"자동차부품",
-"SRIM_1":"16787",
-"SRIM_2":"13925",
-"SRIM_3":"9137"
+"stock_code": "A009680",
+"stock_name": "모토닉",
+"stock_Div": "자동차부품",
+"SRIM_1": "16812",
+"SRIM_2": "13945",
+"SRIM_3": "9150",
+"stock_Div_PER": "12.97",
+"Current_PER": "20.69",
+"Current_PER_Rank": "55",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7780",
+"Price_over_PERAvg": "N/A"
 }

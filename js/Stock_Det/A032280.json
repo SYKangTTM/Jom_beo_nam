@@ -1,8 +1,16 @@
 {
-"stock_code":"A032280",
-"stock_name":"삼일",
-"stock_Div":"육상운수",
-"SRIM_1":"3888",
-"SRIM_2":"3225",
-"SRIM_3":"2116"
+"stock_code": "A032280",
+"stock_name": "삼일",
+"stock_Div": "항공화물운송과물류",
+"SRIM_1": "3893",
+"SRIM_2": "3230",
+"SRIM_3": "2119",
+"stock_Div_PER": "14.8",
+"Current_PER": "10.91",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1820",
+"Price_over_PERAvg": "N/A"
 }

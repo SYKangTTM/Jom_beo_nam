@@ -1,8 +1,16 @@
 {
-"stock_code":"A177830",
-"stock_name":"파버나인",
-"stock_Div":"금속및광물",
-"SRIM_1":"4073",
-"SRIM_2":"3378",
-"SRIM_3":"2216"
+"stock_code": "A177830",
+"stock_name": "파버나인",
+"stock_Div": "비철금속",
+"SRIM_1": "3834",
+"SRIM_2": "3181",
+"SRIM_3": "2087",
+"stock_Div_PER": "17.84",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "12592",
+"PER_Target_2": "0",
+"PER_Target_Avr": "6296",
+"Close_Price": "5060",
+"Price_over_PERAvg": "0.401842439644219"
 }

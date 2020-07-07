@@ -1,8 +1,16 @@
 {
-"stock_code":"A018880",
-"stock_name":"한온시스템",
-"stock_Div":"자동차부품",
-"SRIM_1":"4449",
-"SRIM_2":"5140",
-"SRIM_3":"7021"
+"stock_code": "A018880",
+"stock_name": "한온시스템",
+"stock_Div": "자동차부품",
+"SRIM_1": "4468",
+"SRIM_2": "5164",
+"SRIM_3": "7061",
+"stock_Div_PER": "12.97",
+"Current_PER": "16.88",
+"Current_PER_Rank": "51",
+"PER_Target_1": "3246",
+"PER_Target_2": "6481",
+"PER_Target_Avr": "4864",
+"Close_Price": "9750",
+"Price_over_PERAvg": "2.00472910455433"
 }

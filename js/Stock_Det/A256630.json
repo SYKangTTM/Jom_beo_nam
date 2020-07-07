@@ -1,8 +1,16 @@
 {
-"stock_code":"A256630",
-"stock_name":"포인트엔지니어링",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"1506",
-"SRIM_2":"1249",
-"SRIM_3":"820"
+"stock_code": "A256630",
+"stock_name": "포인트엔지니어링",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "1508",
+"SRIM_2": "1251",
+"SRIM_3": "821",
+"stock_Div_PER": "98.32",
+"Current_PER": "153.92",
+"Current_PER_Rank": "56",
+"PER_Target_1": "17157",
+"PER_Target_2": "0",
+"PER_Target_Avr": "8578",
+"Close_Price": "3405",
+"Price_over_PERAvg": "0.198461269452702"
 }

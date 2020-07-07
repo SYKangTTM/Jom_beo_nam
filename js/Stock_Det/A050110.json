@@ -1,8 +1,16 @@
 {
-"stock_code":"A050110",
-"stock_name":"캠시스",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"1983",
-"SRIM_2":"2668",
-"SRIM_3":"5004"
+"stock_code": "A050110",
+"stock_name": "캠시스",
+"stock_Div": "핸드셋",
+"SRIM_1": "1348",
+"SRIM_2": "1118",
+"SRIM_3": "734",
+"stock_Div_PER": "22.29",
+"Current_PER": "28.78",
+"Current_PER_Rank": "26",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2780",
+"Price_over_PERAvg": "N/A"
 }

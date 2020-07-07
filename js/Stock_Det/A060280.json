@@ -1,8 +1,16 @@
 {
-"stock_code":"A060280",
-"stock_name":"큐렉소",
-"stock_Div":"식료품",
-"SRIM_1":"1186",
-"SRIM_2":"984",
-"SRIM_3":"646"
+"stock_code": "A060280",
+"stock_name": "큐렉소",
+"stock_Div": "판매업체",
+"SRIM_1": "1188",
+"SRIM_2": "985",
+"SRIM_3": "646",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6260",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A020150",
-"stock_name":"일진머티리얼즈",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"15926",
-"SRIM_2":"16600",
-"SRIM_3":"18178"
+"stock_code": "A020150",
+"stock_name": "일진머티리얼즈",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "15949",
+"SRIM_2": "16624",
+"SRIM_3": "18204",
+"stock_Div_PER": "31.01",
+"Current_PER": "45.81",
+"Current_PER_Rank": "37",
+"PER_Target_1": "41575",
+"PER_Target_2": "0",
+"PER_Target_Avr": "20788",
+"Close_Price": "51900",
+"Price_over_PERAvg": "1.24834636199639"
 }

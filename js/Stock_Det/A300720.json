@@ -1,8 +1,16 @@
 {
-"stock_code":"A300720",
-"stock_name":"한일시멘트",
-"stock_Div":"건축소재",
-"SRIM_1":"192444",
-"SRIM_2":"159629",
-"SRIM_3":"104738"
+"stock_code": "A300720",
+"stock_name": "한일시멘트",
+"stock_Div": "건축자재",
+"SRIM_1": "192724",
+"SRIM_2": "159862",
+"SRIM_3": "104890",
+"stock_Div_PER": "N/A",
+"Current_PER": "7.95",
+"Current_PER_Rank": "4",
+"PER_Target_1": "1290872",
+"PER_Target_2": "0",
+"PER_Target_Avr": "645436",
+"Close_Price": "81300",
+"Price_over_PERAvg": "0.062980682825253"
 }

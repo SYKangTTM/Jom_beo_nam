@@ -1,8 +1,16 @@
 {
-"stock_code":"A037030",
-"stock_name":"파워넷",
-"stock_Div":"전기장비",
-"SRIM_1":"3557",
-"SRIM_2":"2951",
-"SRIM_3":"1936"
+"stock_code": "A037030",
+"stock_name": "파워넷",
+"stock_Div": "전기제품",
+"SRIM_1": "3562",
+"SRIM_2": "2955",
+"SRIM_3": "1939",
+"stock_Div_PER": "77.9",
+"Current_PER": "10.62",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4645",
+"Price_over_PERAvg": "N/A"
 }

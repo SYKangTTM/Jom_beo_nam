@@ -1,8 +1,16 @@
 {
-"stock_code":"A307750",
-"stock_name":"대신밸런스제6호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1723",
-"SRIM_2":"1429",
-"SRIM_3":"938"
+"stock_code": "A307750",
+"stock_name": "대신밸런스제6호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1726",
+"SRIM_2": "1431",
+"SRIM_3": "939",
+"stock_Div_PER": "",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2060",
+"Price_over_PERAvg": "N/A"
 }

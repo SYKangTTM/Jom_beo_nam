@@ -1,8 +1,16 @@
 {
-"stock_code":"A106520",
-"stock_name":"叼瘤呕可平",
-"stock_Div":"绒措迄棺包访何前",
-"SRIM_1":"566",
-"SRIM_2":"469",
-"SRIM_3":"308"
+"stock_code": "A106520",
+"stock_name": "叼瘤呕可平",
+"stock_Div": "勤靛悸",
+"SRIM_1": "566",
+"SRIM_2": "470",
+"SRIM_3": "308",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "684",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A039830",
-"stock_name":"오로라",
-"stock_Div":"레저용품",
-"SRIM_1":"11528",
-"SRIM_2":"12049",
-"SRIM_3":"13274"
+"stock_code": "A039830",
+"stock_name": "오로라",
+"stock_Div": "레저용장비와제품",
+"SRIM_1": "11545",
+"SRIM_2": "12067",
+"SRIM_3": "13293",
+"stock_Div_PER": "N/A",
+"Current_PER": "101.44",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "17106",
+"PER_Target_Avr": "8553",
+"Close_Price": "9060",
+"Price_over_PERAvg": "0.529638723254998"
 }

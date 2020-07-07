@@ -1,8 +1,16 @@
 {
-"stock_code":"A217600",
-"stock_name":"켐온",
-"stock_Div":"바이오",
-"SRIM_1":"554",
-"SRIM_2":"459",
-"SRIM_3":"301"
+"stock_code": "A217600",
+"stock_name": "켐온",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "554",
+"SRIM_2": "460",
+"SRIM_3": "302",
+"stock_Div_PER": "N/A",
+"Current_PER": "45.07",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1385",
+"Price_over_PERAvg": "N/A"
 }

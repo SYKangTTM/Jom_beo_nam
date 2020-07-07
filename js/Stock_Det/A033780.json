@@ -1,8 +1,16 @@
 {
-"stock_code":"A033780",
-"stock_name":"KT&G",
-"stock_Div":"담배",
-"SRIM_1":"72215",
-"SRIM_2":"78141",
-"SRIM_3":"92788"
+"stock_code": "A033780",
+"stock_name": "KT&G",
+"stock_Div": "담배",
+"SRIM_1": "72395",
+"SRIM_2": "78392",
+"SRIM_3": "93227",
+"stock_Div_PER": "10.38",
+"Current_PER": "10.38",
+"Current_PER_Rank": "1",
+"PER_Target_1": "81898",
+"PER_Target_2": "108687",
+"PER_Target_Avr": "95292",
+"Close_Price": "79200",
+"Price_over_PERAvg": "0.831125219718236"
 }

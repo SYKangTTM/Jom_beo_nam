@@ -1,8 +1,16 @@
 {
-"stock_code":"A032540",
-"stock_name":"TJ미디어",
-"stock_Div":"레저용품",
-"SRIM_1":"5073",
-"SRIM_2":"4208",
-"SRIM_3":"2761"
+"stock_code": "A032540",
+"stock_name": "TJ미디어",
+"stock_Div": "전자제품",
+"SRIM_1": "5081",
+"SRIM_2": "4214",
+"SRIM_3": "2765",
+"stock_Div_PER": "33.93",
+"Current_PER": "11.2",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2770",
+"Price_over_PERAvg": "N/A"
 }

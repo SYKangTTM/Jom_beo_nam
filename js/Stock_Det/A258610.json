@@ -1,8 +1,16 @@
 {
-"stock_code":"A258610",
-"stock_name":"이더블유케이",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"2595",
-"SRIM_2":"2153",
-"SRIM_3":"1413"
+"stock_code": "A258610",
+"stock_name": "이더블유케이",
+"stock_Div": "기계",
+"SRIM_1": "2599",
+"SRIM_2": "2156",
+"SRIM_3": "1415",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4540",
+"Price_over_PERAvg": "N/A"
 }

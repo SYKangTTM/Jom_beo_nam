@@ -1,8 +1,16 @@
 {
-"stock_code":"A019010",
-"stock_name":"베뉴지",
-"stock_Div":"백화점",
-"SRIM_1":"5766",
-"SRIM_2":"4783",
-"SRIM_3":"3138"
+"stock_code": "A019010",
+"stock_name": "베뉴지",
+"stock_Div": "백화점과일반상점",
+"SRIM_1": "5775",
+"SRIM_2": "4790",
+"SRIM_3": "3143",
+"stock_Div_PER": "N/A",
+"Current_PER": "13.44",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1440",
+"Price_over_PERAvg": "N/A"
 }

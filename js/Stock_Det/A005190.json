@@ -1,8 +1,16 @@
 {
-"stock_code":"A005190",
-"stock_name":"동성화학",
-"stock_Div":"화학",
-"SRIM_1":"37921",
-"SRIM_2":"41351",
-"SRIM_3":"49927"
+"stock_code": "A005190",
+"stock_name": "동성화학",
+"stock_Div": "화학",
+"SRIM_1": "37976",
+"SRIM_2": "41411",
+"SRIM_3": "49999",
+"stock_Div_PER": "58.5",
+"Current_PER": "5.71",
+"Current_PER_Rank": "11",
+"PER_Target_1": "117174",
+"PER_Target_2": "33192",
+"PER_Target_Avr": "75183",
+"Close_Price": "16350",
+"Price_over_PERAvg": "0.217469374725669"
 }

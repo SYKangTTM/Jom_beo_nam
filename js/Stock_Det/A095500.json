@@ -1,8 +1,16 @@
 {
-"stock_code":"A095500",
-"stock_name":"미래나노텍",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"7073",
-"SRIM_2":"5867",
-"SRIM_3":"3850"
+"stock_code": "A095500",
+"stock_name": "미래나노텍",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "7083",
+"SRIM_2": "5876",
+"SRIM_3": "3855",
+"stock_Div_PER": "112.72",
+"Current_PER": "90.78",
+"Current_PER_Rank": "51",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3290",
+"Price_over_PERAvg": "N/A"
 }

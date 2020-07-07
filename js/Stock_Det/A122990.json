@@ -1,8 +1,16 @@
 {
-"stock_code":"A122990",
-"stock_name":"와이솔",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"14435",
-"SRIM_2":"15863",
-"SRIM_3":"19472"
+"stock_code": "A122990",
+"stock_name": "와이솔",
+"stock_Div": "핸드셋",
+"SRIM_1": "14229",
+"SRIM_2": "15498",
+"SRIM_3": "18667",
+"stock_Div_PER": "22.29",
+"Current_PER": "12.95",
+"Current_PER_Rank": "19",
+"PER_Target_1": "17325",
+"PER_Target_2": "8765",
+"PER_Target_Avr": "13045",
+"Close_Price": "13050",
+"Price_over_PERAvg": "1.00038328861633"
 }

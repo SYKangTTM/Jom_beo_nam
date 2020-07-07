@@ -1,8 +1,16 @@
 {
-"stock_code":"A102280",
-"stock_name":"½Ö¹æ¿ï",
-"stock_Div":"¼¶À¯¹×ÀÇº¹",
-"SRIM_1":"1071",
-"SRIM_2":"888",
-"SRIM_3":"583"
+"stock_code": "A102280",
+"stock_name": "½Ö¹æ¿ï",
+"stock_Div": "¼¶À¯,ÀÇ·ù,½Å¹ß,È£È­Ç°",
+"SRIM_1": "1072",
+"SRIM_2": "889",
+"SRIM_3": "583",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "812",
+"Price_over_PERAvg": "N/A"
 }

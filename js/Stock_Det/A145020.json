@@ -1,8 +1,16 @@
 {
-"stock_code":"A145020",
-"stock_name":"ÈÞÁ©",
-"stock_Div":"¹ÙÀÌ¿À",
-"SRIM_1":"182822",
-"SRIM_2":"184907",
-"SRIM_3":"189571"
+"stock_code": "A145020",
+"stock_name": "ÈÞÁ©",
+"stock_Div": "»ý¹°°øÇÐ",
+"SRIM_1": "243216",
+"SRIM_2": "298094",
+"SRIM_3": "461130",
+"stock_Div_PER": "N/A",
+"Current_PER": "62.89",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "284510",
+"PER_Target_Avr": "142255",
+"Close_Price": "520800",
+"Price_over_PERAvg": "1.83051562335243"
 }

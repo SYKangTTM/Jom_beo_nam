@@ -1,8 +1,16 @@
 {
-"stock_code":"A010170",
-"stock_name":"대한광통신",
-"stock_Div":"통신장비",
-"SRIM_1":"2188",
-"SRIM_2":"1815",
-"SRIM_3":"1191"
+"stock_code": "A010170",
+"stock_name": "대한광통신",
+"stock_Div": "전기장비",
+"SRIM_1": "2191",
+"SRIM_2": "1817",
+"SRIM_3": "1192",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3965",
+"Price_over_PERAvg": "N/A"
 }

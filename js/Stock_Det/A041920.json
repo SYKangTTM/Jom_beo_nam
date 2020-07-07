@@ -1,8 +1,16 @@
 {
-"stock_code":"A041920",
-"stock_name":"메디아나",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"14356",
-"SRIM_2":"18563",
-"SRIM_3":"32089"
+"stock_code": "A041920",
+"stock_name": "메디아나",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "14377",
+"SRIM_2": "18590",
+"SRIM_3": "32135",
+"stock_Div_PER": "116.58",
+"Current_PER": "17.29",
+"Current_PER_Rank": "12",
+"PER_Target_1": "183521",
+"PER_Target_2": "43243",
+"PER_Target_Avr": "113382",
+"Close_Price": "18000",
+"Price_over_PERAvg": "0.158755357993332"
 }

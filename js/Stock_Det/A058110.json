@@ -1,8 +1,16 @@
 {
-"stock_code":"A058110",
-"stock_name":"멕아이씨에스",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"583",
-"SRIM_2":"484",
-"SRIM_3":"318"
+"stock_code": "A058110",
+"stock_name": "멕아이씨에스",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "584",
+"SRIM_2": "485",
+"SRIM_3": "318",
+"stock_Div_PER": "116.58",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "29950",
+"Price_over_PERAvg": "N/A"
 }

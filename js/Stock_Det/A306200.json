@@ -1,8 +1,16 @@
 {
-"stock_code":"A306200",
-"stock_name":"세아제강",
-"stock_Div":"금속및광물",
-"SRIM_1":"181602",
-"SRIM_2":"150636",
-"SRIM_3":"98837"
+"stock_code": "A306200",
+"stock_name": "세아제강",
+"stock_Div": "철강",
+"SRIM_1": "181914",
+"SRIM_2": "150894",
+"SRIM_3": "99006",
+"stock_Div_PER": "18.57",
+"Current_PER": "6.06",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "48800",
+"Price_over_PERAvg": "N/A"
 }

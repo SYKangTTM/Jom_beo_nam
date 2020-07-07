@@ -1,8 +1,16 @@
 {
-"stock_code":"A126560",
-"stock_name":"현대에이치씨엔",
-"stock_Div":"미디어",
-"SRIM_1":"5825",
-"SRIM_2":"5350",
-"SRIM_3":"4428"
+"stock_code": "A126560",
+"stock_name": "현대에이치씨엔",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "6062",
+"SRIM_2": "5028",
+"SRIM_3": "3299",
+"stock_Div_PER": "N/A",
+"Current_PER": "13.89",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4415",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A016380",
-"stock_name":"µ¿ºÎÁ¦Ã¶",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"7990",
-"SRIM_2":"6628",
-"SRIM_3":"4349"
+"stock_code": "A016380",
+"stock_name": "KGµ¿ºÎÁ¦Ã¶",
+"stock_Div": "Ã¶°­",
+"SRIM_1": "8002",
+"SRIM_2": "6637",
+"SRIM_3": "4355",
+"stock_Div_PER": "18.57",
+"Current_PER": "41.14",
+"Current_PER_Rank": "30",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12900",
+"Price_over_PERAvg": "N/A"
 }

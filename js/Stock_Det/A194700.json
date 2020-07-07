@@ -1,8 +1,16 @@
 {
-"stock_code":"A194700",
-"stock_name":"노바렉스",
-"stock_Div":"식료품",
-"SRIM_1":"20284",
-"SRIM_2":"25508",
-"SRIM_3":"41626"
+"stock_code": "A194700",
+"stock_name": "노바렉스",
+"stock_Div": "제약",
+"SRIM_1": "20314",
+"SRIM_2": "25545",
+"SRIM_3": "41686",
+"stock_Div_PER": "122.92",
+"Current_PER": "18.24",
+"Current_PER_Rank": "25",
+"PER_Target_1": "390044",
+"PER_Target_2": "0",
+"PER_Target_Avr": "195022",
+"Close_Price": "37500",
+"Price_over_PERAvg": "9.61429992513665E-02"
 }

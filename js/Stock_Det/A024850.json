@@ -1,8 +1,16 @@
 {
-"stock_code":"A024850",
-"stock_name":"피에스엠씨",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"458",
-"SRIM_2":"380",
-"SRIM_3":"250"
+"stock_code": "A024850",
+"stock_name": "피에스엠씨",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "459",
+"SRIM_2": "381",
+"SRIM_3": "250",
+"stock_Div_PER": "17.36",
+"Current_PER": "343.59",
+"Current_PER_Rank": "83",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "819",
+"Price_over_PERAvg": "N/A"
 }

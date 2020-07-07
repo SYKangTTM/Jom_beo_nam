@@ -1,8 +1,16 @@
 {
-"stock_code":"A005950",
-"stock_name":"이수화학",
-"stock_Div":"화학",
-"SRIM_1":"67258",
-"SRIM_2":"67554",
-"SRIM_3":"68211"
+"stock_code": "A005950",
+"stock_name": "이수화학",
+"stock_Div": "화학",
+"SRIM_1": "67356",
+"SRIM_2": "67653",
+"SRIM_3": "68310",
+"stock_Div_PER": "58.5",
+"Current_PER": "184.52",
+"Current_PER_Rank": "70",
+"PER_Target_1": "122193",
+"PER_Target_2": "0",
+"PER_Target_Avr": "61096",
+"Close_Price": "8420",
+"Price_over_PERAvg": "6.89073842200453E-02"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A051910",
-"stock_name":"LG화학",
-"stock_Div":"화학",
-"SRIM_1":"220362",
-"SRIM_2":"224578",
-"SRIM_3":"234116"
+"stock_code": "A051910",
+"stock_name": "LG화학",
+"stock_Div": "화학",
+"SRIM_1": "220672",
+"SRIM_2": "225154",
+"SRIM_3": "235312",
+"stock_Div_PER": "58.5",
+"Current_PER": "284.7",
+"Current_PER_Rank": "72",
+"PER_Target_1": "408813",
+"PER_Target_2": "288706",
+"PER_Target_Avr": "348760",
+"Close_Price": "516000",
+"Price_over_PERAvg": "1.47952958987497"
 }

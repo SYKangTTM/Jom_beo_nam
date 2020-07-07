@@ -1,8 +1,16 @@
 {
-"stock_code":"A048260",
-"stock_name":"오스템임플란트",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"17922",
-"SRIM_2":"25034",
-"SRIM_3":"50671"
+"stock_code": "A048260",
+"stock_name": "오스템임플란트",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "18282",
+"SRIM_2": "26127",
+"SRIM_3": "55383",
+"stock_Div_PER": "116.58",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "106784",
+"PER_Target_2": "0",
+"PER_Target_Avr": "53392",
+"Close_Price": "30050",
+"Price_over_PERAvg": "0.281409199880132"
 }

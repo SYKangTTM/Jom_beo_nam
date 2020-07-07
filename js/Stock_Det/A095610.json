@@ -1,8 +1,16 @@
 {
-"stock_code":"A095610",
-"stock_name":"테스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"15467",
-"SRIM_2":"17842",
-"SRIM_3":"24291"
+"stock_code": "A095610",
+"stock_name": "테스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "15493",
+"SRIM_2": "17871",
+"SRIM_3": "24332",
+"stock_Div_PER": "17.68",
+"Current_PER": "59.71",
+"Current_PER_Rank": "73",
+"PER_Target_1": "23392",
+"PER_Target_2": "28544",
+"PER_Target_Avr": "25968",
+"Close_Price": "22150",
+"Price_over_PERAvg": "0.852972889710413"
 }

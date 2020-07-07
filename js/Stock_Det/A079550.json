@@ -1,8 +1,16 @@
 {
-"stock_code":"A079550",
-"stock_name":"LIG넥스원",
-"stock_Div":"상업서비스",
-"SRIM_1":"30883",
-"SRIM_2":"32868",
-"SRIM_3":"37655"
+"stock_code": "A079550",
+"stock_name": "LIG넥스원",
+"stock_Div": "우주항공과국방",
+"SRIM_1": "30928",
+"SRIM_2": "32916",
+"SRIM_3": "37710",
+"stock_Div_PER": "16.99",
+"Current_PER": "25.07",
+"Current_PER_Rank": "6",
+"PER_Target_1": "35437",
+"PER_Target_2": "0",
+"PER_Target_Avr": "17718",
+"Close_Price": "30150",
+"Price_over_PERAvg": "0.850805655106245"
 }

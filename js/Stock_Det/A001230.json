@@ -1,8 +1,16 @@
 {
-"stock_code":"A001230",
-"stock_name":"동국제강",
-"stock_Div":"금속및광물",
-"SRIM_1":"14960",
-"SRIM_2":"12953",
-"SRIM_3":"9378"
+"stock_code": "A001230",
+"stock_name": "동국제강",
+"stock_Div": "철강",
+"SRIM_1": "15439",
+"SRIM_2": "13604",
+"SRIM_3": "10251",
+"stock_Div_PER": "18.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "-7819",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-3910",
+"Close_Price": "5600",
+"Price_over_PERAvg": "-0.716204118173679"
 }

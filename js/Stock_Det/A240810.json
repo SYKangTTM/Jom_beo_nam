@@ -1,8 +1,16 @@
 {
-"stock_code":"A240810",
-"stock_name":"원익IPS",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"19804",
-"SRIM_2":"24130",
-"SRIM_3":"36870"
+"stock_code": "A240810",
+"stock_name": "원익IPS",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "19833",
+"SRIM_2": "24165",
+"SRIM_3": "36924",
+"stock_Div_PER": "17.68",
+"Current_PER": "33.31",
+"Current_PER_Rank": "63",
+"PER_Target_1": "40497",
+"PER_Target_2": "0",
+"PER_Target_Avr": "20248",
+"Close_Price": "34800",
+"Price_over_PERAvg": "0.859322912808356"
 }

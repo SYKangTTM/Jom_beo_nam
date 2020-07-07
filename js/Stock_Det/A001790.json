@@ -1,8 +1,16 @@
 {
-"stock_code":"A001790",
-"stock_name":"대한제당",
-"stock_Div":"식료품",
-"SRIM_1":"45491",
-"SRIM_2":"37734",
-"SRIM_3":"24758"
+"stock_code": "A001790",
+"stock_name": "대한제당",
+"stock_Div": "식품",
+"SRIM_1": "45557",
+"SRIM_2": "37789",
+"SRIM_3": "24794",
+"stock_Div_PER": "23.98",
+"Current_PER": "11.02",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "18700",
+"Price_over_PERAvg": "N/A"
 }

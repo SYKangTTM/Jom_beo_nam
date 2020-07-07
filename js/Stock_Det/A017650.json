@@ -1,8 +1,16 @@
 {
-"stock_code":"A017650",
-"stock_name":"대림제지",
-"stock_Div":"종이및목재",
-"SRIM_1":"16619",
-"SRIM_2":"13785",
-"SRIM_3":"9045"
+"stock_code": "A017650",
+"stock_name": "대림제지",
+"stock_Div": "포장재",
+"SRIM_1": "16643",
+"SRIM_2": "13805",
+"SRIM_3": "9058",
+"stock_Div_PER": "9.45",
+"Current_PER": "39.8",
+"Current_PER_Rank": "23",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1600",
+"Price_over_PERAvg": "N/A"
 }

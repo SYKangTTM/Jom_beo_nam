@@ -1,8 +1,16 @@
 {
-"stock_code":"A005870",
-"stock_name":"휴니드",
-"stock_Div":"통신장비",
-"SRIM_1":"7954",
-"SRIM_2":"6598",
-"SRIM_3":"4329"
+"stock_code": "A005870",
+"stock_name": "휴니드",
+"stock_Div": "우주항공과국방",
+"SRIM_1": "7966",
+"SRIM_2": "6608",
+"SRIM_3": "4335",
+"stock_Div_PER": "16.99",
+"Current_PER": "10.28",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7130",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A139130",
-"stock_name":"DGB금융지주",
-"stock_Div":"상업은행",
-"SRIM_1":"25110",
-"SRIM_2":"23770",
-"SRIM_3":"21049"
+"stock_code": "A139130",
+"stock_name": "DGB금융지주",
+"stock_Div": "은행",
+"SRIM_1": "25188",
+"SRIM_2": "23833",
+"SRIM_3": "21084",
+"stock_Div_PER": "3.89",
+"Current_PER": "2.84",
+"Current_PER_Rank": "2",
+"PER_Target_1": "5768",
+"PER_Target_2": "7923",
+"PER_Target_Avr": "6846",
+"Close_Price": "5180",
+"Price_over_PERAvg": "0.756701482725878"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A000860",
-"stock_name":"강남제비스코",
-"stock_Div":"건축자재",
-"SRIM_1":"72849",
-"SRIM_2":"60427",
-"SRIM_3":"39648"
+"stock_code": "A000860",
+"stock_name": "강남제비스코",
+"stock_Div": "건축자재",
+"SRIM_1": "72955",
+"SRIM_2": "60515",
+"SRIM_3": "39705",
+"stock_Div_PER": "N/A",
+"Current_PER": "7.23",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14200",
+"Price_over_PERAvg": "N/A"
 }

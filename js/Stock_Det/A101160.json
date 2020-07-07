@@ -1,8 +1,16 @@
 {
-"stock_code":"A101160",
-"stock_name":"월덱스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"9956",
-"SRIM_2":"13229",
-"SRIM_3":"24183"
+"stock_code": "A101160",
+"stock_name": "월덱스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "9971",
+"SRIM_2": "13248",
+"SRIM_3": "24218",
+"stock_Div_PER": "17.68",
+"Current_PER": "8.35",
+"Current_PER_Rank": "8",
+"PER_Target_1": "26262",
+"PER_Target_2": "0",
+"PER_Target_Avr": "13131",
+"Close_Price": "10750",
+"Price_over_PERAvg": "0.409336684182469"
 }

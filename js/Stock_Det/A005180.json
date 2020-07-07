@@ -1,8 +1,16 @@
 {
-"stock_code":"A005180",
-"stock_name":"빙그레",
-"stock_Div":"식료품",
-"SRIM_1":"62444",
-"SRIM_2":"62011",
-"SRIM_3":"61068"
+"stock_code": "A005180",
+"stock_name": "빙그레",
+"stock_Div": "식품",
+"SRIM_1": "62722",
+"SRIM_2": "62287",
+"SRIM_3": "61340",
+"stock_Div_PER": "23.98",
+"Current_PER": "14.67",
+"Current_PER_Rank": "26",
+"PER_Target_1": "120276",
+"PER_Target_2": "92614",
+"PER_Target_Avr": "106445",
+"Close_Price": "61000",
+"Price_over_PERAvg": "0.573065902578797"
 }

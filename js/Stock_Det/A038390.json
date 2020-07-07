@@ -1,8 +1,16 @@
 {
-"stock_code":"A038390",
-"stock_name":"레드캡투어",
-"stock_Div":"호텔및레저",
-"SRIM_1":"18338",
-"SRIM_2":"15211",
-"SRIM_3":"9980"
+"stock_code": "A038390",
+"stock_name": "레드캡투어",
+"stock_Div": "도로와철도운송",
+"SRIM_1": "18364",
+"SRIM_2": "15233",
+"SRIM_3": "9995",
+"stock_Div_PER": "77.02",
+"Current_PER": "5.06",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12350",
+"Price_over_PERAvg": "N/A"
 }

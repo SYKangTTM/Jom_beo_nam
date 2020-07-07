@@ -1,8 +1,16 @@
 {
-"stock_code":"A272450",
-"stock_name":"진에어",
-"stock_Div":"항공운수",
-"SRIM_1":"7921",
-"SRIM_2":"9536",
-"SRIM_3":"14205"
+"stock_code": "A272450",
+"stock_name": "진에어",
+"stock_Div": "항공사",
+"SRIM_1": "5889",
+"SRIM_2": "4885",
+"SRIM_3": "3205",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10100",
+"Price_over_PERAvg": "N/A"
 }

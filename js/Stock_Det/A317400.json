@@ -1,8 +1,16 @@
 {
-"stock_code":"A317400",
-"stock_name":"자이에스앤디",
-"stock_Div":"건설",
-"SRIM_1":"4872",
-"SRIM_2":"4041",
-"SRIM_3":"2651"
+"stock_code": "A317400",
+"stock_name": "자이에스앤디",
+"stock_Div": "건설",
+"SRIM_1": "4879",
+"SRIM_2": "4047",
+"SRIM_3": "2655",
+"stock_Div_PER": "6.29",
+"Current_PER": "9.05",
+"Current_PER_Rank": "27",
+"PER_Target_1": "4225",
+"PER_Target_2": "0",
+"PER_Target_Avr": "2112",
+"Close_Price": "6040",
+"Price_over_PERAvg": "1.42958579881657"
 }

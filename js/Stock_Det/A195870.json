@@ -1,8 +1,16 @@
 {
-"stock_code":"A195870",
-"stock_name":"해성디에스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"15088",
-"SRIM_2":"16757",
-"SRIM_3":"21043"
+"stock_code": "A195870",
+"stock_name": "해성디에스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "15110",
+"SRIM_2": "16781",
+"SRIM_3": "21073",
+"stock_Div_PER": "17.68",
+"Current_PER": "10",
+"Current_PER_Rank": "12",
+"PER_Target_1": "25891",
+"PER_Target_2": "0",
+"PER_Target_Avr": "12946",
+"Close_Price": "15400",
+"Price_over_PERAvg": "0.594801282298868"
 }

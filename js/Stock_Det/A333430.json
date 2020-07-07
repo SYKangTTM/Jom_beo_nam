@@ -1,8 +1,16 @@
 {
-"stock_code":"A333430",
-"stock_name":"미래에셋대우스팩4호",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1741",
-"SRIM_2":"1444",
-"SRIM_3":"948"
+"stock_code": "A333430",
+"stock_name": "미래에셋대우스팩4호",
+"stock_Div": "미분류",
+"SRIM_1": "1744",
+"SRIM_2": "1446",
+"SRIM_3": "949",
+"stock_Div_PER": "",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2010",
+"Price_over_PERAvg": "N/A"
 }

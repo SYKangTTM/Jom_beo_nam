@@ -1,8 +1,16 @@
 {
-"stock_code":"A075970",
-"stock_name":"동국알앤에스",
-"stock_Div":"금속및광물",
-"SRIM_1":"3655",
-"SRIM_2":"3032",
-"SRIM_3":"1989"
+"stock_code": "A075970",
+"stock_name": "동국알앤에스",
+"stock_Div": "비철금속",
+"SRIM_1": "3661",
+"SRIM_2": "3037",
+"SRIM_3": "1992",
+"stock_Div_PER": "17.84",
+"Current_PER": "15.57",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2380",
+"Price_over_PERAvg": "N/A"
 }

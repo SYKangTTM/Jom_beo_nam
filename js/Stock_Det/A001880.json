@@ -1,8 +1,16 @@
 {
-"stock_code":"A001880",
-"stock_name":"ªÔ»£",
-"stock_Div":"∞«º≥",
-"SRIM_1":"27119",
-"SRIM_2":"22495",
-"SRIM_3":"14760"
+"stock_code": "A001880",
+"stock_name": "ªÔ»£",
+"stock_Div": "∞«º≥",
+"SRIM_1": "17688",
+"SRIM_2": "14671",
+"SRIM_3": "9626",
+"stock_Div_PER": "6.13",
+"Current_PER": "3.22",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "24800",
+"Price_over_PERAvg": "N/A"
 }

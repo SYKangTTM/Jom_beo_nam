@@ -1,8 +1,16 @@
 {
-"stock_code":"A005390",
-"stock_name":"신성통상",
-"stock_Div":"섬유및의복",
-"SRIM_1":"1444",
-"SRIM_2":"1198",
-"SRIM_3":"786"
+"stock_code": "A005390",
+"stock_name": "신성통상",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "1446",
+"SRIM_2": "1200",
+"SRIM_3": "787",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1680",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A094850",
-"stock_name":"참좋은여행",
-"stock_Div":"호텔및레저",
-"SRIM_1":"6587",
-"SRIM_2":"5464",
-"SRIM_3":"3585"
+"stock_code": "A094850",
+"stock_name": "참좋은여행",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "6597",
+"SRIM_2": "5472",
+"SRIM_3": "3590",
+"stock_Div_PER": "96.54",
+"Current_PER": "3.34",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4930",
+"Price_over_PERAvg": "N/A"
 }

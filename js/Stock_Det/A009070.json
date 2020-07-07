@@ -1,8 +1,16 @@
 {
-"stock_code":"A009070",
-"stock_name":"KCTC",
-"stock_Div":"육상운수",
-"SRIM_1":"5782",
-"SRIM_2":"4796",
-"SRIM_3":"3147"
+"stock_code": "A009070",
+"stock_name": "KCTC",
+"stock_Div": "항공화물운송과물류",
+"SRIM_1": "5790",
+"SRIM_2": "4803",
+"SRIM_3": "3151",
+"stock_Div_PER": "14.8",
+"Current_PER": "10.62",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2145",
+"Price_over_PERAvg": "N/A"
 }

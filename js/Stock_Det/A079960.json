@@ -1,8 +1,16 @@
 {
-"stock_code":"A079960",
-"stock_name":"동양이엔피",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"26038",
-"SRIM_2":"21598",
-"SRIM_3":"14171"
+"stock_code": "A079960",
+"stock_name": "동양이엔피",
+"stock_Div": "전기제품",
+"SRIM_1": "26076",
+"SRIM_2": "21630",
+"SRIM_3": "14192",
+"stock_Div_PER": "77.9",
+"Current_PER": "3.32",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12850",
+"Price_over_PERAvg": "N/A"
 }

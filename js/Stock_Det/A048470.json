@@ -1,8 +1,16 @@
 {
-"stock_code":"A048470",
-"stock_name":"대동스틸",
-"stock_Div":"금속및광물",
-"SRIM_1":"5537",
-"SRIM_2":"4593",
-"SRIM_3":"3014"
+"stock_code": "A048470",
+"stock_name": "대동스틸",
+"stock_Div": "철강",
+"SRIM_1": "5545",
+"SRIM_2": "4600",
+"SRIM_3": "3018",
+"stock_Div_PER": "18.57",
+"Current_PER": "74.72",
+"Current_PER_Rank": "35",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5130",
+"Price_over_PERAvg": "N/A"
 }

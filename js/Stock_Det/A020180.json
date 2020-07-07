@@ -1,8 +1,16 @@
 {
-"stock_code":"A020180",
-"stock_name":"대신정보통신",
-"stock_Div":"IT서비스",
-"SRIM_1":"608",
-"SRIM_2":"505",
-"SRIM_3":"331"
+"stock_code": "A020180",
+"stock_name": "대신정보통신",
+"stock_Div": "IT서비스",
+"SRIM_1": "609",
+"SRIM_2": "505",
+"SRIM_3": "332",
+"stock_Div_PER": "18.96",
+"Current_PER": "30.47",
+"Current_PER_Rank": "28",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1190",
+"Price_over_PERAvg": "N/A"
 }

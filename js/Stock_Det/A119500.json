@@ -1,8 +1,16 @@
 {
-"stock_code":"A119500",
-"stock_name":"Æ÷¸ÞÅ»",
-"stock_Div":"±â°è",
-"SRIM_1":"3393",
-"SRIM_2":"2814",
-"SRIM_3":"1846"
+"stock_code": "A119500",
+"stock_name": "Æ÷¸ÞÅ»",
+"stock_Div": "±â°è",
+"SRIM_1": "3398",
+"SRIM_2": "2818",
+"SRIM_3": "1849",
+"stock_Div_PER": "N/A",
+"Current_PER": "15.64",
+"Current_PER_Rank": "25",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3030",
+"Price_over_PERAvg": "N/A"
 }

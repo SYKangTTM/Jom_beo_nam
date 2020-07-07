@@ -1,8 +1,16 @@
 {
-"stock_code":"A066310",
-"stock_name":"큐에스아이",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"5923",
-"SRIM_2":"4913",
-"SRIM_3":"3224"
+"stock_code": "A066310",
+"stock_name": "큐에스아이",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "5355",
+"SRIM_2": "4441",
+"SRIM_3": "2914",
+"stock_Div_PER": "17.68",
+"Current_PER": "117.93",
+"Current_PER_Rank": "80",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "17700",
+"Price_over_PERAvg": "N/A"
 }

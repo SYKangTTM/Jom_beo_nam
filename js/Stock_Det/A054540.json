@@ -1,8 +1,16 @@
 {
-"stock_code":"A054540",
-"stock_name":"»ï¿µ¿¥ÅØ",
-"stock_Div":"±â°è",
-"SRIM_1":"5529",
-"SRIM_2":"4586",
-"SRIM_3":"3009"
+"stock_code": "A054540",
+"stock_name": "»ï¿µ¿¥ÅØ",
+"stock_Div": "±â°è",
+"SRIM_1": "5537",
+"SRIM_2": "4593",
+"SRIM_3": "3013",
+"stock_Div_PER": "N/A",
+"Current_PER": "14",
+"Current_PER_Rank": "24",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3885",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A008490",
-"stock_name":"서흥",
-"stock_Div":"제약",
-"SRIM_1":"35721",
-"SRIM_2":"41085",
-"SRIM_3":"55594"
+"stock_code": "A008490",
+"stock_name": "서흥",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "35868",
+"SRIM_2": "41319",
+"SRIM_3": "56096",
+"stock_Div_PER": "N/A",
+"Current_PER": "18.14",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "55558",
+"PER_Target_Avr": "27779",
+"Close_Price": "54200",
+"Price_over_PERAvg": "0.975557075488679"
 }

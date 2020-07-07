@@ -1,8 +1,16 @@
 {
-"stock_code":"A900120",
-"stock_name":"씨케이에이치",
-"stock_Div":"식료품",
-"SRIM_1":"3645",
-"SRIM_2":"3023",
-"SRIM_3":"1984"
+"stock_code": "A900120",
+"stock_name": "씨케이에이치",
+"stock_Div": "제약",
+"SRIM_1": "3650",
+"SRIM_2": "3028",
+"SRIM_3": "1987",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "233",
+"Price_over_PERAvg": "N/A"
 }

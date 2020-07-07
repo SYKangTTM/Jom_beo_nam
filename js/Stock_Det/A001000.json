@@ -1,8 +1,16 @@
 {
-"stock_code":"A001000",
-"stock_name":"신라섬유",
-"stock_Div":"부동산",
-"SRIM_1":"537",
-"SRIM_2":"445",
-"SRIM_3":"292"
+"stock_code": "A001000",
+"stock_name": "신라섬유",
+"stock_Div": "무선통신서비스",
+"SRIM_1": "538",
+"SRIM_2": "446",
+"SRIM_3": "293",
+"stock_Div_PER": "18.81",
+"Current_PER": "265.56",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2410",
+"Price_over_PERAvg": "N/A"
 }

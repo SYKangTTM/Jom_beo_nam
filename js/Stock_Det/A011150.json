@@ -1,8 +1,16 @@
 {
-"stock_code":"A011150",
-"stock_name":"CJ¾¾Çªµå",
-"stock_Div":"½Ä·áÇ°",
-"SRIM_1":"1603",
-"SRIM_2":"1329",
-"SRIM_3":"872"
+"stock_code": "A011150",
+"stock_name": "CJ¾¾Çªµå",
+"stock_Div": "½ÄÇ°",
+"SRIM_1": "1604",
+"SRIM_2": "1330",
+"SRIM_3": "871",
+"stock_Div_PER": "23.98",
+"Current_PER": "42.2",
+"Current_PER_Rank": "45",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3830",
+"Price_over_PERAvg": "N/A"
 }

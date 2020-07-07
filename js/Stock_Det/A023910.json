@@ -1,8 +1,16 @@
 {
-"stock_code":"A023910",
-"stock_name":"대한약품",
-"stock_Div":"제약",
-"SRIM_1":"24998",
-"SRIM_2":"20735",
-"SRIM_3":"13605"
+"stock_code": "A023910",
+"stock_name": "대한약품",
+"stock_Div": "제약",
+"SRIM_1": "25034",
+"SRIM_2": "20765",
+"SRIM_3": "13625",
+"stock_Div_PER": "122.92",
+"Current_PER": "6.09",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "29300",
+"Price_over_PERAvg": "N/A"
 }

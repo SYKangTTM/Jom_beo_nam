@@ -1,8 +1,16 @@
 {
-"stock_code":"A098120",
-"stock_name":"마이크로컨텍솔",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"3548",
-"SRIM_2":"2943",
-"SRIM_3":"1931"
+"stock_code": "A098120",
+"stock_name": "마이크로컨텍솔",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "3553",
+"SRIM_2": "2947",
+"SRIM_3": "1934",
+"stock_Div_PER": "17.68",
+"Current_PER": "35.18",
+"Current_PER_Rank": "67",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4300",
+"Price_over_PERAvg": "N/A"
 }

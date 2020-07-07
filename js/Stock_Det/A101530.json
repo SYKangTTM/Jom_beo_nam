@@ -1,8 +1,16 @@
 {
-"stock_code":"A101530",
-"stock_name":"해태제과식품",
-"stock_Div":"식료품",
-"SRIM_1":"8254",
-"SRIM_2":"6846",
-"SRIM_3":"4492"
+"stock_code": "A101530",
+"stock_name": "해태제과식품",
+"stock_Div": "식품",
+"SRIM_1": "8266",
+"SRIM_2": "6856",
+"SRIM_3": "4499",
+"stock_Div_PER": "23.98",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8420",
+"Price_over_PERAvg": "N/A"
 }

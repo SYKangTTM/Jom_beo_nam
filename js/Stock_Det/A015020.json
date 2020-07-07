@@ -1,8 +1,16 @@
 {
-"stock_code":"A015020",
-"stock_name":"이스타코",
-"stock_Div":"미디어",
-"SRIM_1":"1131",
-"SRIM_2":"938",
-"SRIM_3":"615"
+"stock_code": "A015020",
+"stock_name": "이스타코",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "1132",
+"SRIM_2": "939",
+"SRIM_3": "616",
+"stock_Div_PER": "N/A",
+"Current_PER": "2.55",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "719",
+"Price_over_PERAvg": "N/A"
 }

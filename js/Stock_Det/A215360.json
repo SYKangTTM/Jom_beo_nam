@@ -1,8 +1,16 @@
 {
-"stock_code":"A215360",
-"stock_name":"우리산업",
-"stock_Div":"자동차부품",
-"SRIM_1":"15220",
-"SRIM_2":"16726",
-"SRIM_3":"20531"
+"stock_code": "A215360",
+"stock_name": "우리산업",
+"stock_Div": "자동차부품",
+"SRIM_1": "15243",
+"SRIM_2": "16750",
+"SRIM_3": "20561",
+"stock_Div_PER": "12.97",
+"Current_PER": "22.74",
+"Current_PER_Rank": "59",
+"PER_Target_1": "12379",
+"PER_Target_2": "27600",
+"PER_Target_Avr": "19990",
+"Close_Price": "18600",
+"Price_over_PERAvg": "0.930488506465895"
 }

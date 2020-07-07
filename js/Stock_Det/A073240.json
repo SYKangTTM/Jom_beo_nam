@@ -1,8 +1,16 @@
 {
-"stock_code":"A073240",
-"stock_name":"금호타이어",
-"stock_Div":"자동차부품",
-"SRIM_1":"4128",
-"SRIM_2":"3424",
-"SRIM_3":"2246"
+"stock_code": "A073240",
+"stock_name": "금호타이어",
+"stock_Div": "자동차부품",
+"SRIM_1": "4052",
+"SRIM_2": "3361",
+"SRIM_3": "2205",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3015",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A048550",
-"stock_name":"SMC&C",
-"stock_Div":"¹Ìµð¾î",
-"SRIM_1":"1117",
-"SRIM_2":"926",
-"SRIM_3":"608"
+"stock_code": "A048550",
+"stock_name": "SM C&C",
+"stock_Div": "±¤°í",
+"SRIM_1": "1118",
+"SRIM_2": "928",
+"SRIM_3": "609",
+"stock_Div_PER": "14.98",
+"Current_PER": "74.66",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1825",
+"Price_over_PERAvg": "N/A"
 }

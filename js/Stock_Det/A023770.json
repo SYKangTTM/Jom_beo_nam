@@ -1,8 +1,16 @@
 {
-"stock_code":"A023770",
-"stock_name":"플레이위드",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"1904",
-"SRIM_2":"1579",
-"SRIM_3":"1036"
+"stock_code": "A023770",
+"stock_name": "플레이위드",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "1907",
+"SRIM_2": "1582",
+"SRIM_3": "1038",
+"stock_Div_PER": "38.15",
+"Current_PER": "5.46",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12600",
+"Price_over_PERAvg": "N/A"
 }

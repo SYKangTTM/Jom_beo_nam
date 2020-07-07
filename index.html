@@ -87,6 +87,7 @@
                 <div id="Button_insert" style="padding-top: 10px;" align="center"></div>
                 <div id="filter-records_1" style="padding-top: 10px;" align="center">
                     본 자료는 참조로 사용하시길 바랍니다.<br>
+                    제공하는 목표가 정보는 개인적인 분석에 의해 작성되었으며, 이를 통한 해당종목의 매수추천을 의미하는 것은 아닙니다. <br>
                     Updated : 2020-07-04<br>
                     금용 및 보험 업종의 경우 Data 에러가 확인 되었으니, 본 자료가 정확하지 않습니다.<br>
                     수정 예정입니다.
@@ -525,9 +526,21 @@
             output += '<tr>' + '<th>종목 코드</th>' + '<td>' + jd.stock_code + '</td>' + '</tr>';
             output += '<tr>' + '<th>종목명</th>' + '<td>' + s_info[1] + '</td>' + '</tr>';
             output += '<tr>' + '<th>업종</th>' + '<td>' + s_info[2] + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM - 5년지속</th>' + '<td>' + jd.SRIM_1 + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM - 10년지속</th>' + '<td>' + jd.SRIM_2 + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM - 초과지속</th>' + '<td>' + jd.SRIM_3 + '</td>' + '</tr>';
+            output += '<tr>' + '<th>업종PER</th>' + '<td>' + jd.stock_Div_PER + '</td>' + '</tr>';
+            output += '<tr>' + '<th>PER</th>' + '<td>' + jd.Current_PER + '</td>' + '</tr>';
+            output += '<tr>' + '<th>업종내PER순위</th>' + '<td>' + jd.Current_PER_Rank + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<th>SRIM - 5년지속</th>' + '<td>' + jd.SRIM_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            output += '<tr>' + '<th>SRIM - 10년지속</th>' + '<td>' + jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            output += '<tr>' + '<th>SRIM - 초과지속</th>' + '<td>' + jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<th>PER_목표1</th>' + '<td>' + jd.PER_Target_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            output += '<tr>' + '<th>PER_목표2</th>' + '<td>' + jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            output += '<tr>' + '<th>PER_목표평균</th>' + '<td>' + jd.PER_Target_Avr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<th>종가</th>' + '<td>' + jd.Close_Price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
+            output += '<tr>' + '<th>종가/PER 괴리율</th>' + '<td>' + Number(Math.round(jd.Price_over_PERAvg*100)+'e-0') + '%' + '</td>' + '</tr>';
+            
             
             if (screen.width < 768)
                 output +=
@@ -603,81 +616,82 @@
         }
     }
 
-    function show_finan_data() {
-        document.getElementById('filter-records').innerHTML = '';
-        document.getElementById('Button_insert').innerHTML = '';
-        var x1 = document.getElementById('filter-records');
-        x1.style.display = 'none';
-        var x2 = document.getElementById('Button_insert');
-        x2.style.display = 'none';
-        var x3 = document.getElementById('filter-records_1');
-        x3.style.display = 'block';
-        var data = detail_data;
-        // console.log(data);
-        var FinishDate = new Date().toISOString().slice(0, 10);
-        var d = new Date(),
-            month = '' + d.getMonth(),
-            day = '' + d.getDate(),
-            year = d.getFullYear();
-        if (month.length < 2) month = '0' + month;
-        if (day.length < 2) day = '0' + day;
-        var StartDate = year + '-' + month + '-' + day;
-        var output = '<div>';
-        // var count = 1;
-        $.each(data, function (key, val) {
-            output += '<div class="S_Table"><table>';
-            output += '<tr>' + '<th>종목 코드</th>' + '<td>' + val.stock_code + '</td>' + '</tr>';
-            output += '<tr>' + '<th>종목명</th>' + '<td>' + val.stock_name + '</td>' + '</tr>';
-            output += '<tr>' + '<th>업종</th>' + '<td>' + val.stock_Div + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM 매수가</th>' + '<td>' + val.SRIM_1 + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM 목표가1</th>' + '<td>' + val.SRIM_2 + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM 목표가2</th>' + '<td>' + val.SRIM_3 + '</td>' + '</tr>';
-            if (screen.width < 768)
-                output +=
-                    '<tr>' +
-                    '<th>네이버 종목 토론실</th>' +
-                    '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' +
-                    val.stock_code.substr(1) +
-                    '/discuss" target="_blank">바로가기</a></td>' +
-                    '</tr>';
-            else
-                output +=
-                    '<tr>' +
-                    '<th>네이버 종목 토론실</th>' +
-                    '<td><a href="https://finance.naver.com/item/board.nhn?code=' +
-                    val.stock_code.substr(1) +
-                    '" target="_blank">바로가기</a></td>' +
-                    '</tr>';
-            output +=
-                '<tr>' +
-                '<th>한경컨센서스</th>' +
-                '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
-                StartDate +
-                '&edate=' +
-                FinishDate +
-                '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
-                val.stock_code.substr(1) +
-                '" target="_blank">바로가기</a></td>' +
-                '</tr>';
-            output +=
-                '<tr>' +
-                '<th>The Bell News</th>' +
-                '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' +
-                val.stock_name +
-                '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' +
-                '</tr>';
-            output +=
-                '<tr>' +
-                '<th>IR GO</th>' +
-                '<td><a href="https://m.irgo.co.kr/IR-COMP/' +
-                val.stock_code.substr(1) +
-                '/' +
-                val.stock_name +
-                '-IR-ROOM" target="_blank">바로가기</a></td>' +
-                '</tr>';
-            output += '</table></div>';
-        });
-        output += '</div>';
-        $('#filter-records_1').html(output);
-    }
+
+    // function show_finan_data() {
+    //     document.getElementById('filter-records').innerHTML = '';
+    //     document.getElementById('Button_insert').innerHTML = '';
+    //     var x1 = document.getElementById('filter-records');
+    //     x1.style.display = 'none';
+    //     var x2 = document.getElementById('Button_insert');
+    //     x2.style.display = 'none';
+    //     var x3 = document.getElementById('filter-records_1');
+    //     x3.style.display = 'block';
+    //     var data = detail_data;
+    //     // console.log(data);
+    //     var FinishDate = new Date().toISOString().slice(0, 10);
+    //     var d = new Date(),
+    //         month = '' + d.getMonth(),
+    //         day = '' + d.getDate(),
+    //         year = d.getFullYear();
+    //     if (month.length < 2) month = '0' + month;
+    //     if (day.length < 2) day = '0' + day;
+    //     var StartDate = year + '-' + month + '-' + day;
+    //     var output = '<div>';
+    //     // var count = 1;
+    //     $.each(data, function (key, val) {
+    //         output += '<div class="S_Table"><table>';
+    //         output += '<tr>' + '<th>종목 코드</th>' + '<td>' + val.stock_code + '</td>' + '</tr>';
+    //         output += '<tr>' + '<th>종목명</th>' + '<td>' + val.stock_name + '</td>' + '</tr>';
+    //         output += '<tr>' + '<th>업종</th>' + '<td>' + val.stock_Div + '</td>' + '</tr>';
+    //         output += '<tr>' + '<th>SRIM 매수가</th>' + '<td>' + val.SRIM_1 + '</td>' + '</tr>';
+    //         output += '<tr>' + '<th>SRIM 목표가1</th>' + '<td>' + val.SRIM_2 + '</td>' + '</tr>';
+    //         output += '<tr>' + '<th>SRIM 목표가2</th>' + '<td>' + val.SRIM_3 + '</td>' + '</tr>';
+    //         if (screen.width < 768)
+    //             output +=
+    //                 '<tr>' +
+    //                 '<th>네이버 종목 토론실</th>' +
+    //                 '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' +
+    //                 val.stock_code.substr(1) +
+    //                 '/discuss" target="_blank">바로가기</a></td>' +
+    //                 '</tr>';
+    //         else
+    //             output +=
+    //                 '<tr>' +
+    //                 '<th>네이버 종목 토론실</th>' +
+    //                 '<td><a href="https://finance.naver.com/item/board.nhn?code=' +
+    //                 val.stock_code.substr(1) +
+    //                 '" target="_blank">바로가기</a></td>' +
+    //                 '</tr>';
+    //         output +=
+    //             '<tr>' +
+    //             '<th>한경컨센서스</th>' +
+    //             '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
+    //             StartDate +
+    //             '&edate=' +
+    //             FinishDate +
+    //             '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
+    //             val.stock_code.substr(1) +
+    //             '" target="_blank">바로가기</a></td>' +
+    //             '</tr>';
+    //         output +=
+    //             '<tr>' +
+    //             '<th>The Bell News</th>' +
+    //             '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' +
+    //             val.stock_name +
+    //             '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' +
+    //             '</tr>';
+    //         output +=
+    //             '<tr>' +
+    //             '<th>IR GO</th>' +
+    //             '<td><a href="https://m.irgo.co.kr/IR-COMP/' +
+    //             val.stock_code.substr(1) +
+    //             '/' +
+    //             val.stock_name +
+    //             '-IR-ROOM" target="_blank">바로가기</a></td>' +
+    //             '</tr>';
+    //         output += '</table></div>';
+    //     });
+    //     output += '</div>';
+    //     $('#filter-records_1').html(output);
+    // }
 </script>

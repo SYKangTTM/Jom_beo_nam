@@ -1,8 +1,16 @@
 {
-"stock_code":"A009150",
-"stock_name":"삼성전기",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"78587",
-"SRIM_2":"83028",
-"SRIM_3":"93623"
+"stock_code": "A009150",
+"stock_name": "삼성전기",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "78842",
+"SRIM_2": "83394",
+"SRIM_3": "94273",
+"stock_Div_PER": "31.01",
+"Current_PER": "19.53",
+"Current_PER_Rank": "23",
+"PER_Target_1": "194654",
+"PER_Target_2": "941153",
+"PER_Target_Avr": "567904",
+"Close_Price": "127000",
+"Price_over_PERAvg": "0.223629542695194"
 }

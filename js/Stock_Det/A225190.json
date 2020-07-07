@@ -1,8 +1,16 @@
 {
-"stock_code":"A225190",
-"stock_name":"삼양옵틱스",
-"stock_Div":"내구소비재",
-"SRIM_1":"3512",
-"SRIM_2":"2913",
-"SRIM_3":"1912"
+"stock_code": "A225190",
+"stock_name": "삼양옵틱스",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "3517",
+"SRIM_2": "2918",
+"SRIM_3": "1914",
+"stock_Div_PER": "31.01",
+"Current_PER": "7.63",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9030",
+"Price_over_PERAvg": "N/A"
 }

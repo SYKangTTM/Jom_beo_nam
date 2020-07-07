@@ -1,8 +1,16 @@
 {
-"stock_code":"A207940",
-"stock_name":"삼성바이오로직스",
-"stock_Div":"바이오",
-"SRIM_1":"59156",
-"SRIM_2":"49036",
-"SRIM_3":"32123"
+"stock_code": "A207940",
+"stock_name": "삼성바이오로직스",
+"stock_Div": "제약",
+"SRIM_1": "59265",
+"SRIM_2": "49159",
+"SRIM_3": "32255",
+"stock_Div_PER": "122.92",
+"Current_PER": "179.45",
+"Current_PER_Rank": "72",
+"PER_Target_1": "675665",
+"PER_Target_2": "0",
+"PER_Target_Avr": "337832",
+"Close_Price": "751000",
+"Price_over_PERAvg": "1.11149756166147"
 }

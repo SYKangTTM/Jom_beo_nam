@@ -1,8 +1,16 @@
 {
-"stock_code":"A196700",
-"stock_name":"웹스",
-"stock_Div":"화학",
-"SRIM_1":"2553",
-"SRIM_2":"2118",
-"SRIM_3":"1390"
+"stock_code": "A196700",
+"stock_name": "웹스",
+"stock_Div": "화학",
+"SRIM_1": "2557",
+"SRIM_2": "2121",
+"SRIM_3": "1392",
+"stock_Div_PER": "58.5",
+"Current_PER": "47.31",
+"Current_PER_Rank": "63",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1690",
+"Price_over_PERAvg": "N/A"
 }

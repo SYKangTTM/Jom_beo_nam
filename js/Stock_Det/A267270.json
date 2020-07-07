@@ -1,8 +1,16 @@
 {
-"stock_code":"A267270",
-"stock_name":"현대건설기계",
-"stock_Div":"기계",
-"SRIM_1":"54939",
-"SRIM_2":"51470",
-"SRIM_3":"44536"
+"stock_code": "A267270",
+"stock_name": "현대건설기계",
+"stock_Div": "기계",
+"SRIM_1": "55029",
+"SRIM_2": "51542",
+"SRIM_3": "44575",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "21150",
+"Price_over_PERAvg": "N/A"
 }

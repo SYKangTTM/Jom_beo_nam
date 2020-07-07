@@ -1,8 +1,16 @@
 {
-"stock_code":"A000890",
-"stock_name":"보해양조",
-"stock_Div":"음료",
-"SRIM_1":"565",
-"SRIM_2":"468",
-"SRIM_3":"307"
+"stock_code": "A000890",
+"stock_name": "보해양조",
+"stock_Div": "음료",
+"SRIM_1": "565",
+"SRIM_2": "469",
+"SRIM_3": "308",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "803",
+"Price_over_PERAvg": "N/A"
 }

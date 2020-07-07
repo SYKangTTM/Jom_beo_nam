@@ -1,8 +1,16 @@
 {
-"stock_code":"A221610",
-"stock_name":"한솔씨앤피",
-"stock_Div":"화학",
-"SRIM_1":"162",
-"SRIM_2":"134",
-"SRIM_3":"88"
+"stock_code": "A221610",
+"stock_name": "자안",
+"stock_Div": "화학",
+"SRIM_1": "162",
+"SRIM_2": "134",
+"SRIM_3": "88",
+"stock_Div_PER": "58.5",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "444",
+"Price_over_PERAvg": "N/A"
 }

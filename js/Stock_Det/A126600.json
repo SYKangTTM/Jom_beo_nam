@@ -1,8 +1,16 @@
 {
-"stock_code":"A126600",
-"stock_name":"코프라",
-"stock_Div":"자동차부품",
-"SRIM_1":"4839",
-"SRIM_2":"4014",
-"SRIM_3":"2634"
+"stock_code": "A126600",
+"stock_name": "코프라",
+"stock_Div": "자동차부품",
+"SRIM_1": "4846",
+"SRIM_2": "4020",
+"SRIM_3": "2637",
+"stock_Div_PER": "12.97",
+"Current_PER": "7.42",
+"Current_PER_Rank": "25",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3315",
+"Price_over_PERAvg": "N/A"
 }

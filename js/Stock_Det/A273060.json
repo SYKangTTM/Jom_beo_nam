@@ -1,8 +1,16 @@
 {
-"stock_code":"A273060",
-"stock_name":"엔에이치스팩12호",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1700",
-"SRIM_2":"1410",
-"SRIM_3":"925"
+"stock_code": "A273060",
+"stock_name": "엔에이치스팩12호",
+"stock_Div": "미분류",
+"SRIM_1": "1703",
+"SRIM_2": "1412",
+"SRIM_3": "927",
+"stock_Div_PER": "",
+"Current_PER": "116.39",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2140",
+"Price_over_PERAvg": "N/A"
 }

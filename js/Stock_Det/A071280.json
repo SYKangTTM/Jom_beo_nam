@@ -1,8 +1,16 @@
 {
-"stock_code":"A071280",
-"stock_name":"로체시스템즈",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"3943",
-"SRIM_2":"3270",
-"SRIM_3":"2146"
+"stock_code": "A071280",
+"stock_name": "로체시스템즈",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "3948",
+"SRIM_2": "3275",
+"SRIM_3": "2149",
+"stock_Div_PER": "112.72",
+"Current_PER": "124.7",
+"Current_PER_Rank": "53",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4725",
+"Price_over_PERAvg": "N/A"
 }

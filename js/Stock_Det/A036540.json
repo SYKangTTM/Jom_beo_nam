@@ -1,8 +1,16 @@
 {
-"stock_code":"A036540",
-"stock_name":"SFA반도체",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"2741",
-"SRIM_2":"3099",
-"SRIM_3":"4043"
+"stock_code": "A036540",
+"stock_name": "SFA반도체",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "2745",
+"SRIM_2": "3104",
+"SRIM_3": "4049",
+"stock_Div_PER": "17.68",
+"Current_PER": "32.09",
+"Current_PER_Rank": "61",
+"PER_Target_1": "4579",
+"PER_Target_2": "0",
+"PER_Target_Avr": "2290",
+"Close_Price": "5040",
+"Price_over_PERAvg": "1.1006770037126"
 }

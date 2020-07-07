@@ -1,8 +1,16 @@
 {
-"stock_code":"A015350",
-"stock_name":"부산가스",
-"stock_Div":"가스",
-"SRIM_1":"60213",
-"SRIM_2":"49946",
-"SRIM_3":"32771"
+"stock_code": "A015350",
+"stock_name": "부산가스",
+"stock_Div": "가스유틸리티",
+"SRIM_1": "60301",
+"SRIM_2": "50018",
+"SRIM_3": "32819",
+"stock_Div_PER": "10.96",
+"Current_PER": "8.76",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "36550",
+"Price_over_PERAvg": "N/A"
 }

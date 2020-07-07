@@ -1,8 +1,16 @@
 {
-"stock_code":"A141000",
-"stock_name":"비아트론",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"16107",
-"SRIM_2":"17648",
-"SRIM_3":"21527"
+"stock_code": "A141000",
+"stock_name": "비아트론",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "12914",
+"SRIM_2": "10712",
+"SRIM_3": "7028",
+"stock_Div_PER": "112.72",
+"Current_PER": "38.02",
+"Current_PER_Rank": "44",
+"PER_Target_1": "139949",
+"PER_Target_2": "30931",
+"PER_Target_Avr": "85440",
+"Close_Price": "10000",
+"Price_over_PERAvg": "0.117041198501873"
 }

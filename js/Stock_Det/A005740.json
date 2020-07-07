@@ -1,8 +1,16 @@
 {
-"stock_code":"A005740",
-"stock_name":"크라운해태홀딩스",
-"stock_Div":"식료품",
-"SRIM_1":"15836",
-"SRIM_2":"13136",
-"SRIM_3":"8619"
+"stock_code": "A005740",
+"stock_name": "크라운해태홀딩스",
+"stock_Div": "식품",
+"SRIM_1": "15863",
+"SRIM_2": "13158",
+"SRIM_3": "8633",
+"stock_Div_PER": "23.98",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8400",
+"Price_over_PERAvg": "N/A"
 }

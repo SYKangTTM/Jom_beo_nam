@@ -1,8 +1,16 @@
 {
-"stock_code":"A900340",
-"stock_name":"À®ÀÔÇªµå",
-"stock_Div":"½Ä·áÇ°",
-"SRIM_1":"1876",
-"SRIM_2":"1556",
-"SRIM_3":"1021"
+"stock_code": "A900340",
+"stock_name": "À®ÀÔÇªµå",
+"stock_Div": "½ÄÇ°",
+"SRIM_1": "2346",
+"SRIM_2": "1946",
+"SRIM_3": "1277",
+"stock_Div_PER": "23.98",
+"Current_PER": "7.95",
+"Current_PER_Rank": "12",
+"PER_Target_1": "6674",
+"PER_Target_2": "0",
+"PER_Target_Avr": "3337",
+"Close_Price": "1565",
+"Price_over_PERAvg": "0.234492058735391"
 }

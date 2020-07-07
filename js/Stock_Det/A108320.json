@@ -1,8 +1,16 @@
 {
-"stock_code":"A108320",
-"stock_name":"실리콘웍스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"34867",
-"SRIM_2":"38428",
-"SRIM_3":"47470"
+"stock_code": "A108320",
+"stock_name": "실리콘웍스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "35002",
+"SRIM_2": "38646",
+"SRIM_3": "47924",
+"stock_Div_PER": "112.72",
+"Current_PER": "15.24",
+"Current_PER_Rank": "18",
+"PER_Target_1": "367379",
+"PER_Target_2": "50148",
+"PER_Target_Avr": "208764",
+"Close_Price": "44850",
+"Price_over_PERAvg": "0.214836405789326"
 }

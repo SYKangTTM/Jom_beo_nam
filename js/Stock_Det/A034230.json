@@ -1,8 +1,16 @@
 {
-"stock_code":"A034230",
-"stock_name":"파라다이스",
-"stock_Div":"호텔및레저",
-"SRIM_1":"11767",
-"SRIM_2":"10985",
-"SRIM_3":"9430"
+"stock_code": "A034230",
+"stock_name": "파라다이스",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "11784",
+"SRIM_2": "11001",
+"SRIM_3": "9444",
+"stock_Div_PER": "96.54",
+"Current_PER": "58.14",
+"Current_PER_Rank": "6",
+"PER_Target_1": "-10967",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-5484",
+"Close_Price": "12750",
+"Price_over_PERAvg": "-1.16257864502599"
 }

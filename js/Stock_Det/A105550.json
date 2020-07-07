@@ -1,8 +1,16 @@
 {
-"stock_code":"A105550",
-"stock_name":"트루윈",
-"stock_Div":"자동차부품",
-"SRIM_1":"1906",
-"SRIM_2":"1581",
-"SRIM_3":"1038"
+"stock_code": "A105550",
+"stock_name": "트루윈",
+"stock_Div": "자동차부품",
+"SRIM_1": "1909",
+"SRIM_2": "1584",
+"SRIM_3": "1039",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3415",
+"Price_over_PERAvg": "N/A"
 }

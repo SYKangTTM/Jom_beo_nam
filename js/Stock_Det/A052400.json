@@ -1,8 +1,16 @@
 {
-"stock_code":"A052400",
-"stock_name":"코나아이",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"6695",
-"SRIM_2":"7601",
-"SRIM_3":"10005"
+"stock_code": "A052400",
+"stock_name": "코나아이",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "5217",
+"SRIM_2": "4327",
+"SRIM_3": "2839",
+"stock_Div_PER": "31.01",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13050",
+"Price_over_PERAvg": "N/A"
 }

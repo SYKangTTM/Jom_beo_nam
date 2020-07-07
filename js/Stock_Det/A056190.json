@@ -1,8 +1,16 @@
 {
-"stock_code":"A056190",
-"stock_name":"에스에프에이",
-"stock_Div":"운송인프라",
-"SRIM_1":"36151",
-"SRIM_2":"41804",
-"SRIM_3":"57213"
+"stock_code": "A056190",
+"stock_name": "에스에프에이",
+"stock_Div": "기계",
+"SRIM_1": "36361",
+"SRIM_2": "42225",
+"SRIM_3": "58310",
+"stock_Div_PER": "N/A",
+"Current_PER": "10.02",
+"Current_PER_Rank": "16",
+"PER_Target_1": "0",
+"PER_Target_2": "59960",
+"PER_Target_Avr": "29980",
+"Close_Price": "33450",
+"Price_over_PERAvg": "0.55787191460974"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A073110",
-"stock_name":"엘엠에스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"16383",
-"SRIM_2":"13589",
-"SRIM_3":"8916"
+"stock_code": "A073110",
+"stock_name": "엘엠에스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "16406",
+"SRIM_2": "13609",
+"SRIM_3": "8929",
+"stock_Div_PER": "112.72",
+"Current_PER": "276.91",
+"Current_PER_Rank": "58",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9910",
+"Price_over_PERAvg": "N/A"
 }

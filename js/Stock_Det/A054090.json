@@ -1,8 +1,16 @@
 {
-"stock_code":"A054090",
-"stock_name":"삼진엘앤디",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"3564",
-"SRIM_2":"2956",
-"SRIM_3":"1940"
+"stock_code": "A054090",
+"stock_name": "삼진엘앤디",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "3569",
+"SRIM_2": "2961",
+"SRIM_3": "1943",
+"stock_Div_PER": "112.72",
+"Current_PER": "112.45",
+"Current_PER_Rank": "52",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2830",
+"Price_over_PERAvg": "N/A"
 }

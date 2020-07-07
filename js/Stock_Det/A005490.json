@@ -1,8 +1,16 @@
 {
-"stock_code":"A005490",
-"stock_name":"POSCO",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"464916",
-"SRIM_2":"431783",
-"SRIM_3":"366396"
+"stock_code": "A005490",
+"stock_name": "POSCO",
+"stock_Div": "Ã¶°­",
+"SRIM_1": "463359",
+"SRIM_2": "429007",
+"SRIM_3": "361522",
+"stock_Div_PER": "18.57",
+"Current_PER": "10.71",
+"Current_PER_Rank": "16",
+"PER_Target_1": "159679",
+"PER_Target_2": "353123",
+"PER_Target_Avr": "256401",
+"Close_Price": "185000",
+"Price_over_PERAvg": "0.7215260470903"
 }

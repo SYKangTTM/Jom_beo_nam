@@ -1,8 +1,16 @@
 {
-"stock_code":"A001080",
-"stock_name":"만호제강",
-"stock_Div":"금속및광물",
-"SRIM_1":"68135",
-"SRIM_2":"56517",
-"SRIM_3":"37082"
+"stock_code": "A001080",
+"stock_name": "만호제강",
+"stock_Div": "철강",
+"SRIM_1": "68234",
+"SRIM_2": "56599",
+"SRIM_3": "37136",
+"stock_Div_PER": "18.57",
+"Current_PER": "29.03",
+"Current_PER_Rank": "23",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14000",
+"Price_over_PERAvg": "N/A"
 }

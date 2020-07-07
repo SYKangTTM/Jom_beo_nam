@@ -1,8 +1,16 @@
 {
-"stock_code":"A078930",
-"stock_name":"GS",
-"stock_Div":"석유및가스",
-"SRIM_1":"89912",
-"SRIM_2":"88195",
-"SRIM_3":"84523"
+"stock_code": "A078930",
+"stock_name": "GS",
+"stock_Div": "석유와가스",
+"SRIM_1": "89502",
+"SRIM_2": "87998",
+"SRIM_3": "84770",
+"stock_Div_PER": "N/A",
+"Current_PER": "71.71",
+"Current_PER_Rank": "8",
+"PER_Target_1": "115378",
+"PER_Target_2": "27892",
+"PER_Target_Avr": "71635",
+"Close_Price": "36750",
+"Price_over_PERAvg": "0.513017379772458"
 }

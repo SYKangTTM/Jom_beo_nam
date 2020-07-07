@@ -1,8 +1,16 @@
 {
-"stock_code":"A243070",
-"stock_name":"ÈÞ¿Â½º",
-"stock_Div":"Á¦¾à",
-"SRIM_1":"28418",
-"SRIM_2":"33311",
-"SRIM_3":"46920"
+"stock_code": "A243070",
+"stock_name": "ÈÞ¿Â½º",
+"stock_Div": "Á¦¾à",
+"SRIM_1": "40011",
+"SRIM_2": "57049",
+"SRIM_3": "120364",
+"stock_Div_PER": "122.92",
+"Current_PER": "16.01",
+"Current_PER_Rank": "22",
+"PER_Target_1": "746102",
+"PER_Target_2": "0",
+"PER_Target_Avr": "373051",
+"Close_Price": "62000",
+"Price_over_PERAvg": "8.30985575698765E-02"
 }

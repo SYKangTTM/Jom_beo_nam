@@ -1,8 +1,16 @@
 {
-"stock_code":"A038340",
-"stock_name":"UCI",
-"stock_Div":"±³À°",
-"SRIM_1":"999",
-"SRIM_2":"829",
-"SRIM_3":"544"
+"stock_code": "A038340",
+"stock_name": "UCI",
+"stock_Div": "±³À°¼­ºñ½º",
+"SRIM_1": "1001",
+"SRIM_2": "830",
+"SRIM_3": "545",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3260",
+"Price_over_PERAvg": "N/A"
 }

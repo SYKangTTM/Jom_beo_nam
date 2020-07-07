@@ -1,8 +1,16 @@
 {
-"stock_code":"A025750",
-"stock_name":"한솔홈데코",
-"stock_Div":"종이및목재",
-"SRIM_1":"1721",
-"SRIM_2":"1428",
-"SRIM_3":"937"
+"stock_code": "A025750",
+"stock_name": "한솔홈데코",
+"stock_Div": "건축자재",
+"SRIM_1": "1724",
+"SRIM_2": "1430",
+"SRIM_3": "938",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1000",
+"Price_over_PERAvg": "N/A"
 }

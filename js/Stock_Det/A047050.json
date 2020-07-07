@@ -1,8 +1,16 @@
 {
-"stock_code":"A047050",
-"stock_name":"포스코인터내셔널",
-"stock_Div":"무역",
-"SRIM_1":"23736",
-"SRIM_2":"23626",
-"SRIM_3":"23386"
+"stock_code": "A047050",
+"stock_name": "포스코인터내셔널",
+"stock_Div": "무역회사와판매업체",
+"SRIM_1": "24387",
+"SRIM_2": "24574",
+"SRIM_3": "24990",
+"stock_Div_PER": "7.25",
+"Current_PER": "8.4",
+"Current_PER_Rank": "2",
+"PER_Target_1": "26636",
+"PER_Target_2": "32156",
+"PER_Target_Avr": "29396",
+"Close_Price": "14050",
+"Price_over_PERAvg": "0.4779561845149"
 }

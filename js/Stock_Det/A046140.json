@@ -1,8 +1,16 @@
 {
-"stock_code":"A046140",
-"stock_name":"SBS콘텐츠허브",
-"stock_Div":"미디어",
-"SRIM_1":"7674",
-"SRIM_2":"7117",
-"SRIM_3":"6020"
+"stock_code": "A046140",
+"stock_name": "SBS콘텐츠허브",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "7042",
+"SRIM_2": "5841",
+"SRIM_3": "3832",
+"stock_Div_PER": "N/A",
+"Current_PER": "63.49",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6340",
+"Price_over_PERAvg": "N/A"
 }

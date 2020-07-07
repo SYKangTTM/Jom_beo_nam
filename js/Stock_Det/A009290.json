@@ -1,8 +1,16 @@
 {
-"stock_code":"A009290",
-"stock_name":"광동제약",
-"stock_Div":"제약",
-"SRIM_1":"9259",
-"SRIM_2":"7680",
-"SRIM_3":"5039"
+"stock_code": "A009290",
+"stock_name": "광동제약",
+"stock_Div": "제약",
+"SRIM_1": "9272",
+"SRIM_2": "7691",
+"SRIM_3": "5046",
+"stock_Div_PER": "122.92",
+"Current_PER": "15.96",
+"Current_PER_Rank": "21",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7570",
+"Price_over_PERAvg": "N/A"
 }

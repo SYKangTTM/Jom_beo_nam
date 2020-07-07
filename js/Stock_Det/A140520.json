@@ -1,8 +1,16 @@
 {
-"stock_code":"A140520",
-"stock_name":"대창스틸",
-"stock_Div":"건축자재",
-"SRIM_1":"4213",
-"SRIM_2":"3495",
-"SRIM_3":"2293"
+"stock_code": "A140520",
+"stock_name": "대창스틸",
+"stock_Div": "철강",
+"SRIM_1": "4219",
+"SRIM_2": "3500",
+"SRIM_3": "2296",
+"stock_Div_PER": "18.57",
+"Current_PER": "439.47",
+"Current_PER_Rank": "36",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2070",
+"Price_over_PERAvg": "N/A"
 }

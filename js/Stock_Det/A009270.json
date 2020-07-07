@@ -1,8 +1,16 @@
 {
-"stock_code":"A009270",
-"stock_name":"신원",
-"stock_Div":"섬유및의복",
-"SRIM_1":"2501",
-"SRIM_2":"2074",
-"SRIM_3":"1361"
+"stock_code": "A009270",
+"stock_name": "신원",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "2504",
+"SRIM_2": "2077",
+"SRIM_3": "1363",
+"stock_Div_PER": "23.09",
+"Current_PER": "173.92",
+"Current_PER_Rank": "44",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1645",
+"Price_over_PERAvg": "N/A"
 }

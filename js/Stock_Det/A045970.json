@@ -1,8 +1,16 @@
 {
-"stock_code":"A045970",
-"stock_name":"코아시아",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"4931",
-"SRIM_2":"4090",
-"SRIM_3":"2684"
+"stock_code": "A045970",
+"stock_name": "코아시아",
+"stock_Div": "핸드셋",
+"SRIM_1": "4938",
+"SRIM_2": "4096",
+"SRIM_3": "2687",
+"stock_Div_PER": "22.29",
+"Current_PER": "50.64",
+"Current_PER_Rank": "31",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9210",
+"Price_over_PERAvg": "N/A"
 }

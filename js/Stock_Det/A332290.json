@@ -1,8 +1,16 @@
 {
-"stock_code":"A332290",
-"stock_name":"대신밸런스제7호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1779",
-"SRIM_2":"1476",
-"SRIM_3":"968"
+"stock_code": "A332290",
+"stock_name": "대신밸런스제7호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1782",
+"SRIM_2": "1478",
+"SRIM_3": "970",
+"stock_Div_PER": "",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2015",
+"Price_over_PERAvg": "N/A"
 }

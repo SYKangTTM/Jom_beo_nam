@@ -1,8 +1,16 @@
 {
-"stock_code":"A248170",
-"stock_name":"基钎侥前",
-"stock_Div":"侥丰前",
-"SRIM_1":"30914",
-"SRIM_2":"25643",
-"SRIM_3":"16825"
+"stock_code": "A248170",
+"stock_name": "基钎侥前",
+"stock_Div": "侥前",
+"SRIM_1": "30959",
+"SRIM_2": "25680",
+"SRIM_3": "16850",
+"stock_Div_PER": "23.98",
+"Current_PER": "6.56",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "45050",
+"Price_over_PERAvg": "N/A"
 }

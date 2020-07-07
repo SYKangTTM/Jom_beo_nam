@@ -1,8 +1,16 @@
 {
-"stock_code":"A034020",
-"stock_name":"두산중공업",
-"stock_Div":"기계",
-"SRIM_1":"10137",
-"SRIM_2":"9626",
-"SRIM_3":"8582"
+"stock_code": "A034020",
+"stock_name": "두산중공업",
+"stock_Div": "기계",
+"SRIM_1": "9115",
+"SRIM_2": "7561",
+"SRIM_3": "4961",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4605",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A900140",
-"stock_name":"¿¤ºêÀÌ¿¥¾¾È¦µù½º",
-"stock_Div":"ÀÚµ¿Â÷",
-"SRIM_1":"5751",
-"SRIM_2":"4771",
-"SRIM_3":"3130"
+"stock_code": "A900140",
+"stock_name": "¿¤ºêÀÌ¿¥¾¾È¦µù½º",
+"stock_Div": "ÀÚµ¿Â÷",
+"SRIM_1": "5760",
+"SRIM_2": "4778",
+"SRIM_3": "3135",
+"stock_Div_PER": "10.35",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4065",
+"Price_over_PERAvg": "N/A"
 }

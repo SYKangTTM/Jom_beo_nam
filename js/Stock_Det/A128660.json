@@ -1,8 +1,16 @@
 {
-"stock_code":"A128660",
-"stock_name":"««¡¶¿Ã∏ﬁ≈ª",
-"stock_Div":"±›º”π◊±§π∞",
-"SRIM_1":"1468",
-"SRIM_2":"1218",
-"SRIM_3":"799"
+"stock_code": "A128660",
+"stock_name": "««¡¶¿Ã∏ﬁ≈ª",
+"stock_Div": "∫Ò√∂±›º”",
+"SRIM_1": "1470",
+"SRIM_2": "1220",
+"SRIM_3": "800",
+"stock_Div_PER": "17.84",
+"Current_PER": "31.62",
+"Current_PER_Rank": "17",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1890",
+"Price_over_PERAvg": "N/A"
 }

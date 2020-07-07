@@ -1,8 +1,16 @@
 {
-"stock_code":"A100130",
-"stock_name":"동국S&C",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"4434",
-"SRIM_2":"3678",
-"SRIM_3":"2413"
+"stock_code": "A100130",
+"stock_name": "동국S&C",
+"stock_Div": "기계",
+"SRIM_1": "4440",
+"SRIM_2": "3683",
+"SRIM_3": "2416",
+"stock_Div_PER": "N/A",
+"Current_PER": "19.87",
+"Current_PER_Rank": "30",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5030",
+"Price_over_PERAvg": "N/A"
 }

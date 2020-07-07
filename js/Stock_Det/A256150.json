@@ -1,8 +1,16 @@
 {
-"stock_code":"A256150",
-"stock_name":"한독크린텍",
-"stock_Div":"가정생활용품",
-"SRIM_1":"7909",
-"SRIM_2":"6560",
-"SRIM_3":"4305"
+"stock_code": "A256150",
+"stock_name": "한독크린텍",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "7921",
+"SRIM_2": "6570",
+"SRIM_3": "4311",
+"stock_Div_PER": "18.27",
+"Current_PER": "14.39",
+"Current_PER_Rank": "4",
+"PER_Target_1": "32598",
+"PER_Target_2": "0",
+"PER_Target_Avr": "16299",
+"Close_Price": "19850",
+"Price_over_PERAvg": "0.608933063378121"
 }

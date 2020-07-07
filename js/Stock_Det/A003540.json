@@ -1,8 +1,16 @@
 {
-"stock_code":"A003540",
-"stock_name":"대신증권",
-"stock_Div":"증권",
-"SRIM_1":"22823",
-"SRIM_2":"21438",
-"SRIM_3":"18657"
+"stock_code": "A003540",
+"stock_name": "대신증권",
+"stock_Div": "증권",
+"SRIM_1": "22856",
+"SRIM_2": "21469",
+"SRIM_3": "18685",
+"stock_Div_PER": "6.77",
+"Current_PER": "8.9",
+"Current_PER_Rank": "14",
+"PER_Target_1": "5798",
+"PER_Target_2": "11950",
+"PER_Target_Avr": "8874",
+"Close_Price": "9860",
+"Price_over_PERAvg": "1.11111111111111"
 }

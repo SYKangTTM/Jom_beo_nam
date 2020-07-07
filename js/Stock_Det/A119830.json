@@ -1,8 +1,16 @@
 {
-"stock_code":"A119830",
-"stock_name":"아이텍",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"4135",
-"SRIM_2":"3430",
-"SRIM_3":"2250"
+"stock_code": "A119830",
+"stock_name": "아이텍",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "4121",
+"SRIM_2": "3418",
+"SRIM_3": "2243",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6490",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A043590",
-"stock_name":"크로바하이텍",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"644",
-"SRIM_2":"534",
-"SRIM_3":"350"
+"stock_code": "A043590",
+"stock_name": "크로바하이텍",
+"stock_Div": "전기제품",
+"SRIM_1": "645",
+"SRIM_2": "535",
+"SRIM_3": "351",
+"stock_Div_PER": "77.9",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1490",
+"Price_over_PERAvg": "N/A"
 }

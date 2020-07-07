@@ -1,8 +1,16 @@
 {
-"stock_code":"A069410",
-"stock_name":"엔텔스",
-"stock_Div":"IT서비스",
-"SRIM_1":"5658",
-"SRIM_2":"4693",
-"SRIM_3":"3079"
+"stock_code": "A069410",
+"stock_name": "엔텔스",
+"stock_Div": "IT서비스",
+"SRIM_1": "5666",
+"SRIM_2": "4700",
+"SRIM_3": "3084",
+"stock_Div_PER": "23.79",
+"Current_PER": "32.33",
+"Current_PER_Rank": "29",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9200",
+"Price_over_PERAvg": "N/A"
 }

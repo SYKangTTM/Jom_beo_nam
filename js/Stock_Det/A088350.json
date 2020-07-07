@@ -1,8 +1,16 @@
 {
-"stock_code":"A088350",
-"stock_name":"한화생명",
-"stock_Div":"보험",
-"SRIM_1":"10978",
-"SRIM_2":"9550",
-"SRIM_3":"6991"
+"stock_code": "A088350",
+"stock_name": "한화생명",
+"stock_Div": "생명보험",
+"SRIM_1": "13340",
+"SRIM_2": "11689",
+"SRIM_3": "8698",
+"stock_Div_PER": "10.34",
+"Current_PER": "7.76",
+"Current_PER_Rank": "3",
+"PER_Target_1": "2577",
+"PER_Target_2": "3405",
+"PER_Target_Avr": "2991",
+"Close_Price": "1410",
+"Price_over_PERAvg": "0.471414242728185"
 }

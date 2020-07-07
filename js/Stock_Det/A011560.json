@@ -1,8 +1,16 @@
 {
-"stock_code":"A011560",
-"stock_name":"¼¼º¸¿¥ÀÌ¾¾",
-"stock_Div":"°Ç¼³",
-"SRIM_1":"13491",
-"SRIM_2":"11190",
-"SRIM_3":"7342"
+"stock_code": "A011560",
+"stock_name": "¼¼º¸¿¥ÀÌ¾¾",
+"stock_Div": "°Ç¼³",
+"SRIM_1": "13510",
+"SRIM_2": "11207",
+"SRIM_3": "7353",
+"stock_Div_PER": "6.13",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5240",
+"Price_over_PERAvg": "N/A"
 }

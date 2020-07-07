@@ -1,8 +1,16 @@
 {
-"stock_code":"A042940",
-"stock_name":"상지카일룸",
-"stock_Div":"건설",
-"SRIM_1":"877",
-"SRIM_2":"727",
-"SRIM_3":"477"
+"stock_code": "A042940",
+"stock_name": "상지카일룸",
+"stock_Div": "건설",
+"SRIM_1": "851",
+"SRIM_2": "706",
+"SRIM_3": "463",
+"stock_Div_PER": "6.13",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1585",
+"Price_over_PERAvg": "N/A"
 }

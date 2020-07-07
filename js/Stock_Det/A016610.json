@@ -1,8 +1,16 @@
 {
-"stock_code":"A016610",
-"stock_name":"DB금융투자",
-"stock_Div":"증권",
-"SRIM_1":"15187",
-"SRIM_2":"12597",
-"SRIM_3":"8265"
+"stock_code": "A016610",
+"stock_name": "DB금융투자",
+"stock_Div": "증권",
+"SRIM_1": "15203",
+"SRIM_2": "12602",
+"SRIM_3": "8256",
+"stock_Div_PER": "6.77",
+"Current_PER": "4.91",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3240",
+"Price_over_PERAvg": "N/A"
 }

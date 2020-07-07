@@ -1,8 +1,16 @@
 {
-"stock_code":"A004720",
-"stock_name":"快府甸力距",
-"stock_Div":"力距",
-"SRIM_1":"3692",
-"SRIM_2":"3062",
-"SRIM_3":"2009"
+"stock_code": "A004720",
+"stock_name": "快府甸力距",
+"stock_Div": "力距",
+"SRIM_1": "3697",
+"SRIM_2": "3067",
+"SRIM_3": "2012",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6460",
+"Price_over_PERAvg": "N/A"
 }

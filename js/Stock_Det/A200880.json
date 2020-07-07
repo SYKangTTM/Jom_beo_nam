@@ -1,8 +1,16 @@
 {
-"stock_code":"A200880",
-"stock_name":"서연이화",
-"stock_Div":"자동차부품",
-"SRIM_1":"20335",
-"SRIM_2":"16867",
-"SRIM_3":"11067"
+"stock_code": "A200880",
+"stock_name": "서연이화",
+"stock_Div": "자동차부품",
+"SRIM_1": "20364",
+"SRIM_2": "16892",
+"SRIM_3": "11083",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3520",
+"Price_over_PERAvg": "N/A"
 }

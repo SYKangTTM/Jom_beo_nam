@@ -1,8 +1,16 @@
 {
-"stock_code":"A086670",
-"stock_name":"ºñ¿¥Æ¼",
-"stock_Div":"±â°è",
-"SRIM_1":"7760",
-"SRIM_2":"6436",
-"SRIM_3":"4223"
+"stock_code": "A086670",
+"stock_name": "ºñ¿¥Æ¼",
+"stock_Div": "±â°è",
+"SRIM_1": "7771",
+"SRIM_2": "6446",
+"SRIM_3": "4229",
+"stock_Div_PER": "N/A",
+"Current_PER": "9.18",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8450",
+"Price_over_PERAvg": "N/A"
 }

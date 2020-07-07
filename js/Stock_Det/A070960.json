@@ -1,8 +1,16 @@
 {
-"stock_code":"A070960",
-"stock_name":"용평리조트",
-"stock_Div":"호텔및레저",
-"SRIM_1":"7394",
-"SRIM_2":"6133",
-"SRIM_3":"4024"
+"stock_code": "A070960",
+"stock_name": "용평리조트",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "7405",
+"SRIM_2": "6142",
+"SRIM_3": "4030",
+"stock_Div_PER": "96.54",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4220",
+"Price_over_PERAvg": "N/A"
 }

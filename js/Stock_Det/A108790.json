@@ -1,8 +1,16 @@
 {
-"stock_code":"A108790",
-"stock_name":"인터파크",
-"stock_Div":"온라인쇼핑",
-"SRIM_1":"4210",
-"SRIM_2":"3492",
-"SRIM_3":"2291"
+"stock_code": "A108790",
+"stock_name": "인터파크",
+"stock_Div": "인터넷과카탈로그소매",
+"SRIM_1": "4216",
+"SRIM_2": "3497",
+"SRIM_3": "2295",
+"stock_Div_PER": "16.77",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5020",
+"Price_over_PERAvg": "N/A"
 }

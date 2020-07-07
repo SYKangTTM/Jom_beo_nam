@@ -1,8 +1,16 @@
 {
-"stock_code":"A138080",
-"stock_name":"오이솔루션",
-"stock_Div":"통신장비",
-"SRIM_1":"25870",
-"SRIM_2":"34115",
-"SRIM_3":"61408"
+"stock_code": "A138080",
+"stock_name": "오이솔루션",
+"stock_Div": "통신장비",
+"SRIM_1": "25080",
+"SRIM_2": "32951",
+"SRIM_3": "58870",
+"stock_Div_PER": "95.76",
+"Current_PER": "12.61",
+"Current_PER_Rank": "7",
+"PER_Target_1": "152931",
+"PER_Target_2": "0",
+"PER_Target_Avr": "76466",
+"Close_Price": "46450",
+"Price_over_PERAvg": "0.303731748304791"
 }

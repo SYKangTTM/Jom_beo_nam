@@ -1,8 +1,16 @@
 {
-"stock_code":"A042500",
-"stock_name":"링네트",
-"stock_Div":"IT서비스",
-"SRIM_1":"4058",
-"SRIM_2":"3366",
-"SRIM_3":"2209"
+"stock_code": "A042500",
+"stock_name": "링네트",
+"stock_Div": "IT서비스",
+"SRIM_1": "4064",
+"SRIM_2": "3371",
+"SRIM_3": "2212",
+"stock_Div_PER": "23.79",
+"Current_PER": "13.43",
+"Current_PER_Rank": "12",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4725",
+"Price_over_PERAvg": "N/A"
 }

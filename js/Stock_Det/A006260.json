@@ -1,8 +1,16 @@
 {
-"stock_code":"A006260",
-"stock_name":"LS",
-"stock_Div":"전기장비",
-"SRIM_1":"102105",
-"SRIM_2":"97064",
-"SRIM_3":"86770"
+"stock_code": "A006260",
+"stock_name": "LS",
+"stock_Div": "전기장비",
+"SRIM_1": "102736",
+"SRIM_2": "97778",
+"SRIM_3": "87637",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "36350",
+"Price_over_PERAvg": "N/A"
 }

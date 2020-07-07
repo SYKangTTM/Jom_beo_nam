@@ -1,8 +1,16 @@
 {
-"stock_code":"A238120",
-"stock_name":"로고스바이오",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"5253",
-"SRIM_2":"4357",
-"SRIM_3":"2859"
+"stock_code": "A238120",
+"stock_name": "로고스바이오",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "5261",
+"SRIM_2": "4364",
+"SRIM_3": "2863",
+"stock_Div_PER": "N/A",
+"Current_PER": "174.73",
+"Current_PER_Rank": "12",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "19600",
+"Price_over_PERAvg": "N/A"
 }

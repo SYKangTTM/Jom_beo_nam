@@ -1,8 +1,16 @@
 {
-"stock_code":"A009160",
-"stock_name":"SIMPAC",
-"stock_Div":"기계",
-"SRIM_1":"6901",
-"SRIM_2":"5724",
-"SRIM_3":"3756"
+"stock_code": "A009160",
+"stock_name": "SIMPAC",
+"stock_Div": "기계",
+"SRIM_1": "6911",
+"SRIM_2": "5733",
+"SRIM_3": "3761",
+"stock_Div_PER": "N/A",
+"Current_PER": "18.16",
+"Current_PER_Rank": "26",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2400",
+"Price_over_PERAvg": "N/A"
 }

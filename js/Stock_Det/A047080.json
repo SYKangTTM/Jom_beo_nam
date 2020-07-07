@@ -1,8 +1,16 @@
 {
-"stock_code":"A047080",
-"stock_name":"한빛소프트",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"541",
-"SRIM_2":"448",
-"SRIM_3":"294"
+"stock_code": "A047080",
+"stock_name": "한빛소프트",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "541",
+"SRIM_2": "449",
+"SRIM_3": "295",
+"stock_Div_PER": "38.15",
+"Current_PER": "56.03",
+"Current_PER_Rank": "18",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2820",
+"Price_over_PERAvg": "N/A"
 }

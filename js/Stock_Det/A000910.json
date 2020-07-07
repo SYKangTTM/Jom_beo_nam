@@ -1,8 +1,16 @@
 {
-"stock_code":"A000910",
-"stock_name":"유니온",
-"stock_Div":"건축소재",
-"SRIM_1":"5714",
-"SRIM_2":"4739",
-"SRIM_3":"3110"
+"stock_code": "A000910",
+"stock_name": "유니온",
+"stock_Div": "건축자재",
+"SRIM_1": "5722",
+"SRIM_2": "4746",
+"SRIM_3": "3114",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5180",
+"Price_over_PERAvg": "N/A"
 }

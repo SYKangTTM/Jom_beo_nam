@@ -1,8 +1,16 @@
 {
-"stock_code":"A007980",
-"stock_name":"태평양물산",
-"stock_Div":"섬유및의복",
-"SRIM_1":"4012",
-"SRIM_2":"4143",
-"SRIM_3":"4447"
+"stock_code": "A007980",
+"stock_name": "태평양물산",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "4017",
+"SRIM_2": "4149",
+"SRIM_3": "4454",
+"stock_Div_PER": "23.09",
+"Current_PER": "1611.45",
+"Current_PER_Rank": "45",
+"PER_Target_1": "2010",
+"PER_Target_2": "0",
+"PER_Target_Avr": "1005",
+"Close_Price": "1990",
+"Price_over_PERAvg": "0.990049751243781"
 }

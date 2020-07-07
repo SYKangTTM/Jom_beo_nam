@@ -1,8 +1,16 @@
 {
-"stock_code":"A008110",
-"stock_name":"대동전자",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"15287",
-"SRIM_2":"12680",
-"SRIM_3":"8320"
+"stock_code": "A008110",
+"stock_name": "대동전자",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "15331",
+"SRIM_2": "12717",
+"SRIM_3": "8344",
+"stock_Div_PER": "34.67",
+"Current_PER": "10.26",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4145",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A093240",
-"stock_name":"형지엘리트",
-"stock_Div":"섬유및의복",
-"SRIM_1":"1845",
-"SRIM_2":"1530",
-"SRIM_3":"1004"
+"stock_code": "A093240",
+"stock_name": "형지엘리트",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "1848",
+"SRIM_2": "1533",
+"SRIM_3": "1006",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1120",
+"Price_over_PERAvg": "N/A"
 }

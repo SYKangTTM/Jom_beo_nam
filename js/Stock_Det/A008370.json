@@ -1,8 +1,16 @@
 {
-"stock_code":"A008370",
-"stock_name":"¿øÇ³",
-"stock_Div":"È­ÇÐ",
-"SRIM_1":"5954",
-"SRIM_2":"4939",
-"SRIM_3":"3241"
+"stock_code": "A008370",
+"stock_name": "¿øÇ³",
+"stock_Div": "È­ÇÐ",
+"SRIM_1": "5963",
+"SRIM_2": "4946",
+"SRIM_3": "3245",
+"stock_Div_PER": "58.5",
+"Current_PER": "14.92",
+"Current_PER_Rank": "43",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4060",
+"Price_over_PERAvg": "N/A"
 }

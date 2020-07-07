@@ -1,8 +1,16 @@
 {
-"stock_code":"A005160",
-"stock_name":"동국산업",
-"stock_Div":"금속및광물",
-"SRIM_1":"6677",
-"SRIM_2":"5539",
-"SRIM_3":"3634"
+"stock_code": "A005160",
+"stock_name": "동국산업",
+"stock_Div": "철강",
+"SRIM_1": "6687",
+"SRIM_2": "5547",
+"SRIM_3": "3639",
+"stock_Div_PER": "18.57",
+"Current_PER": "8.12",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2605",
+"Price_over_PERAvg": "N/A"
 }

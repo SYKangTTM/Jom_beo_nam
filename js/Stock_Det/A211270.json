@@ -1,8 +1,16 @@
 {
-"stock_code":"A211270",
-"stock_name":"AP위성",
-"stock_Div":"통신장비",
-"SRIM_1":"5258",
-"SRIM_2":"4361",
-"SRIM_3":"2861"
+"stock_code": "A211270",
+"stock_name": "AP위성",
+"stock_Div": "핸드셋",
+"SRIM_1": "5263",
+"SRIM_2": "4363",
+"SRIM_3": "2858",
+"stock_Div_PER": "22.29",
+"Current_PER": "93.98",
+"Current_PER_Rank": "33",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7610",
+"Price_over_PERAvg": "N/A"
 }

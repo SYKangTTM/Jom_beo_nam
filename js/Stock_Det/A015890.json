@@ -1,8 +1,16 @@
 {
-"stock_code":"A015890",
-"stock_name":"태경산업",
-"stock_Div":"복합산업",
-"SRIM_1":"7373",
-"SRIM_2":"6116",
-"SRIM_3":"4013"
+"stock_code": "A015890",
+"stock_name": "태경산업",
+"stock_Div": "비철금속",
+"SRIM_1": "7384",
+"SRIM_2": "6125",
+"SRIM_3": "4019",
+"stock_Div_PER": "17.84",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4830",
+"Price_over_PERAvg": "N/A"
 }

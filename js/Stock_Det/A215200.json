@@ -1,8 +1,16 @@
 {
-"stock_code":"A215200",
-"stock_name":"메가스터디교육",
-"stock_Div":"교육",
-"SRIM_1":"35898",
-"SRIM_2":"47206",
-"SRIM_3":"84486"
+"stock_code": "A215200",
+"stock_name": "메가스터디교육",
+"stock_Div": "교육서비스",
+"SRIM_1": "35951",
+"SRIM_2": "47275",
+"SRIM_3": "84609",
+"stock_Div_PER": "N/A",
+"Current_PER": "10.45",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "78397",
+"PER_Target_Avr": "39198",
+"Close_Price": "35400",
+"Price_over_PERAvg": "0.451547890863171"
 }

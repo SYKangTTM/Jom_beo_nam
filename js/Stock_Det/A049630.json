@@ -1,8 +1,16 @@
 {
-"stock_code":"A049630",
-"stock_name":"재영솔루텍",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"665",
-"SRIM_2":"552",
-"SRIM_3":"362"
+"stock_code": "A049630",
+"stock_name": "재영솔루텍",
+"stock_Div": "핸드셋",
+"SRIM_1": "666",
+"SRIM_2": "553",
+"SRIM_3": "363",
+"stock_Div_PER": "22.29",
+"Current_PER": "11.06",
+"Current_PER_Rank": "17",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "770",
+"Price_over_PERAvg": "N/A"
 }

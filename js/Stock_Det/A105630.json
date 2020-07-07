@@ -1,8 +1,16 @@
 {
-"stock_code":"A105630",
-"stock_name":"한세실업",
-"stock_Div":"섬유및의복",
-"SRIM_1":"10134",
-"SRIM_2":"10986",
-"SRIM_3":"13097"
+"stock_code": "A105630",
+"stock_name": "한세실업",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "10123",
+"SRIM_2": "10939",
+"SRIM_3": "12952",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "7536",
+"PER_Target_2": "0",
+"PER_Target_Avr": "3768",
+"Close_Price": "11100",
+"Price_over_PERAvg": "1.47292993630573"
 }

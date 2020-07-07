@@ -1,8 +1,16 @@
 {
-"stock_code":"A293480",
-"stock_name":"하나제약",
-"stock_Div":"제약",
-"SRIM_1":"12594",
-"SRIM_2":"10446",
-"SRIM_3":"6854"
+"stock_code": "A293480",
+"stock_name": "하나제약",
+"stock_Div": "제약",
+"SRIM_1": "12612",
+"SRIM_2": "10461",
+"SRIM_3": "6864",
+"stock_Div_PER": "122.92",
+"Current_PER": "13.92",
+"Current_PER_Rank": "13",
+"PER_Target_1": "279282",
+"PER_Target_2": "0",
+"PER_Target_Avr": "139641",
+"Close_Price": "22900",
+"Price_over_PERAvg": "8.19959753940462E-02"
 }

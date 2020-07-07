@@ -1,8 +1,16 @@
 {
-"stock_code":"A049520",
-"stock_name":"유아이엘",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"7246",
-"SRIM_2":"6010",
-"SRIM_3":"3944"
+"stock_code": "A049520",
+"stock_name": "유아이엘",
+"stock_Div": "핸드셋",
+"SRIM_1": "7256",
+"SRIM_2": "6019",
+"SRIM_3": "3949",
+"stock_Div_PER": "22.29",
+"Current_PER": "17.52",
+"Current_PER_Rank": "22",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4090",
+"Price_over_PERAvg": "N/A"
 }

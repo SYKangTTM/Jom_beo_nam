@@ -1,8 +1,16 @@
 {
-"stock_code":"A004380",
-"stock_name":"ªÔ¿ÕTHK",
-"stock_Div":"±‚∞Ë",
-"SRIM_1":"8180",
-"SRIM_2":"6785",
-"SRIM_3":"4452"
+"stock_code": "A004380",
+"stock_name": "ªÔ¿ÕTHK",
+"stock_Div": "±‚∞Ë",
+"SRIM_1": "8192",
+"SRIM_2": "6795",
+"SRIM_3": "4458",
+"stock_Div_PER": "N/A",
+"Current_PER": "78.34",
+"Current_PER_Rank": "51",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10650",
+"Price_over_PERAvg": "N/A"
 }

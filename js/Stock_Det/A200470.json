@@ -1,8 +1,16 @@
 {
-"stock_code":"A200470",
-"stock_name":"하이셈",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"3109",
-"SRIM_2":"2579",
-"SRIM_3":"1692"
+"stock_code": "A200470",
+"stock_name": "에이팩트",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "3114",
+"SRIM_2": "2583",
+"SRIM_3": "1695",
+"stock_Div_PER": "17.68",
+"Current_PER": "33.59",
+"Current_PER_Rank": "64",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6830",
+"Price_over_PERAvg": "N/A"
 }

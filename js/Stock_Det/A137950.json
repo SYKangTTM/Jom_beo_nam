@@ -1,8 +1,16 @@
 {
-"stock_code":"A137950",
-"stock_name":"제이씨케미칼",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"3840",
-"SRIM_2":"3186",
-"SRIM_3":"2090"
+"stock_code": "A137950",
+"stock_name": "제이씨케미칼",
+"stock_Div": "에너지장비및서비스",
+"SRIM_1": "3846",
+"SRIM_2": "3190",
+"SRIM_3": "2093",
+"stock_Div_PER": "N/A",
+"Current_PER": "21.76",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5310",
+"Price_over_PERAvg": "N/A"
 }

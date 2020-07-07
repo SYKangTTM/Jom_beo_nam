@@ -1,8 +1,16 @@
 {
-"stock_code":"A003000",
-"stock_name":"何堡距前",
-"stock_Div":"力距",
-"SRIM_1":"4438",
-"SRIM_2":"3910",
-"SRIM_3":"2947"
+"stock_code": "A003000",
+"stock_name": "何堡距前",
+"stock_Div": "力距",
+"SRIM_1": "4444",
+"SRIM_2": "3916",
+"SRIM_3": "2951",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "18137",
+"PER_Target_2": "0",
+"PER_Target_Avr": "9068",
+"Close_Price": "34050",
+"Price_over_PERAvg": "1.87737773611953"
 }

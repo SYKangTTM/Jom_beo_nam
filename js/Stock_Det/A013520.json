@@ -1,8 +1,16 @@
 {
-"stock_code":"A013520",
-"stock_name":"화승알앤에이",
-"stock_Div":"자동차부품",
-"SRIM_1":"3834",
-"SRIM_2":"3180",
-"SRIM_3":"2087"
+"stock_code": "A013520",
+"stock_name": "화승알앤에이",
+"stock_Div": "자동차부품",
+"SRIM_1": "3839",
+"SRIM_2": "3185",
+"SRIM_3": "2090",
+"stock_Div_PER": "12.97",
+"Current_PER": "5.45",
+"Current_PER_Rank": "16",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1490",
+"Price_over_PERAvg": "N/A"
 }

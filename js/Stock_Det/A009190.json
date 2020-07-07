@@ -1,8 +1,16 @@
 {
-"stock_code":"A009190",
-"stock_name":"대양금속",
-"stock_Div":"금속및광물",
-"SRIM_1":"1418",
-"SRIM_2":"1176",
-"SRIM_3":"771"
+"stock_code": "A009190",
+"stock_name": "대양금속",
+"stock_Div": "비철금속",
+"SRIM_1": "1420",
+"SRIM_2": "1178",
+"SRIM_3": "773",
+"stock_Div_PER": "17.84",
+"Current_PER": "30.54",
+"Current_PER_Rank": "16",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4060",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A060570",
-"stock_name":"드림어스컴퍼니",
-"stock_Div":"미디어",
-"SRIM_1":"1865",
-"SRIM_2":"1547",
-"SRIM_3":"1015"
+"stock_code": "A060570",
+"stock_name": "드림어스컴퍼니",
+"stock_Div": "전자제품",
+"SRIM_1": "1867",
+"SRIM_2": "1549",
+"SRIM_3": "1016",
+"stock_Div_PER": "33.93",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5230",
+"Price_over_PERAvg": "N/A"
 }

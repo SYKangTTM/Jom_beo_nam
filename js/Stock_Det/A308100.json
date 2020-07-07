@@ -1,8 +1,16 @@
 {
-"stock_code":"A308100",
-"stock_name":"까스텔바작",
-"stock_Div":"섬유및의복",
-"SRIM_1":"10650",
-"SRIM_2":"8834",
-"SRIM_3":"5796"
+"stock_code": "A308100",
+"stock_name": "까스텔바작",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "10628",
+"SRIM_2": "8816",
+"SRIM_3": "5784",
+"stock_Div_PER": "23.09",
+"Current_PER": "14",
+"Current_PER_Rank": "25",
+"PER_Target_1": "17811",
+"PER_Target_2": "0",
+"PER_Target_Avr": "8906",
+"Close_Price": "12000",
+"Price_over_PERAvg": "0.67374094660603"
 }

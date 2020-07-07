@@ -1,8 +1,16 @@
 {
-"stock_code":"A066570",
-"stock_name":"LG전자",
-"stock_Div":"내구소비재",
-"SRIM_1":"89049",
-"SRIM_2":"92502",
-"SRIM_3":"100535"
+"stock_code": "A066570",
+"stock_name": "LG전자",
+"stock_Div": "전자제품",
+"SRIM_1": "89258",
+"SRIM_2": "92932",
+"SRIM_3": "101511",
+"stock_Div_PER": "33.93",
+"Current_PER": "25.35",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "961273",
+"PER_Target_Avr": "480636",
+"Close_Price": "65500",
+"Price_over_PERAvg": "6.81388117631516E-02"
 }

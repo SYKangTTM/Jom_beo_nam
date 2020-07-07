@@ -1,8 +1,16 @@
 {
-"stock_code":"A004970",
-"stock_name":"신라교역",
-"stock_Div":"식료품",
-"SRIM_1":"29111",
-"SRIM_2":"24147",
-"SRIM_3":"15844"
+"stock_code": "A004970",
+"stock_name": "신라교역",
+"stock_Div": "식품",
+"SRIM_1": "29154",
+"SRIM_2": "24183",
+"SRIM_3": "15867",
+"stock_Div_PER": "23.98",
+"Current_PER": "20.89",
+"Current_PER_Rank": "36",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9840",
+"Price_over_PERAvg": "N/A"
 }

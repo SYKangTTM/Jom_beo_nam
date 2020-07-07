@@ -1,8 +1,16 @@
 {
-"stock_code":"A092070",
-"stock_name":"디엔에프",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"7990",
-"SRIM_2":"6628",
-"SRIM_3":"4349"
+"stock_code": "A092070",
+"stock_name": "디엔에프",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "7556",
+"SRIM_2": "6268",
+"SRIM_3": "4112",
+"stock_Div_PER": "17.68",
+"Current_PER": "87.82",
+"Current_PER_Rank": "77",
+"PER_Target_1": "21264",
+"PER_Target_2": "23716",
+"PER_Target_Avr": "22490",
+"Close_Price": "14400",
+"Price_over_PERAvg": "0.640284570920409"
 }

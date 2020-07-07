@@ -1,8 +1,16 @@
 {
-"stock_code":"A013890",
-"stock_name":"지누스",
-"stock_Div":"내구소비재",
-"SRIM_1":"52845",
-"SRIM_2":"71108",
-"SRIM_3":"133406"
+"stock_code": "A013890",
+"stock_name": "지누스",
+"stock_Div": "가구",
+"SRIM_1": "52921",
+"SRIM_2": "71211",
+"SRIM_3": "133600",
+"stock_Div_PER": "23.12",
+"Current_PER": "16.09",
+"Current_PER_Rank": "4",
+"PER_Target_1": "147264",
+"PER_Target_2": "0",
+"PER_Target_Avr": "73632",
+"Close_Price": "88200",
+"Price_over_PERAvg": "0.598924380704042"
 }

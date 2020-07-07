@@ -1,8 +1,16 @@
 {
-"stock_code":"A068330",
-"stock_name":"일신바이오",
-"stock_Div":"바이오",
-"SRIM_1":"843",
-"SRIM_2":"699",
-"SRIM_3":"459"
+"stock_code": "A068330",
+"stock_name": "일신바이오",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "844",
+"SRIM_2": "700",
+"SRIM_3": "460",
+"stock_Div_PER": "N/A",
+"Current_PER": "19.49",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2400",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A065690",
-"stock_name":"파커스",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"5608",
-"SRIM_2":"4652",
-"SRIM_3":"3052"
+"stock_code": "A065690",
+"stock_name": "파커스",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "5616",
+"SRIM_2": "4658",
+"SRIM_3": "3056",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2610",
+"Price_over_PERAvg": "N/A"
 }

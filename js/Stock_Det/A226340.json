@@ -1,8 +1,16 @@
 {
-"stock_code":"A226340",
-"stock_name":"본느",
-"stock_Div":"개인생활용품",
-"SRIM_1":"996",
-"SRIM_2":"826",
-"SRIM_3":"542"
+"stock_code": "A226340",
+"stock_name": "본느",
+"stock_Div": "화장품",
+"SRIM_1": "997",
+"SRIM_2": "827",
+"SRIM_3": "543",
+"stock_Div_PER": "47.37",
+"Current_PER": "29.78",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2530",
+"Price_over_PERAvg": "N/A"
 }

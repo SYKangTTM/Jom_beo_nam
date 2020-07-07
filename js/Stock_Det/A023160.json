@@ -1,8 +1,16 @@
 {
-"stock_code":"A023160",
-"stock_name":"ÅÂ±¤",
-"stock_Div":"±â°è",
-"SRIM_1":"13756",
-"SRIM_2":"12384",
-"SRIM_3":"9798"
+"stock_code": "A023160",
+"stock_name": "ÅÂ±¤",
+"stock_Div": "±â°è",
+"SRIM_1": "13776",
+"SRIM_2": "12402",
+"SRIM_3": "9812",
+"stock_Div_PER": "N/A",
+"Current_PER": "21.55",
+"Current_PER_Rank": "34",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7240",
+"Price_over_PERAvg": "N/A"
 }

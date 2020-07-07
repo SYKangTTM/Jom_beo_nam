@@ -1,8 +1,16 @@
 {
-"stock_code":"A080000",
-"stock_name":"에스엔유",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"3322",
-"SRIM_2":"2755",
-"SRIM_3":"1808"
+"stock_code": "A080000",
+"stock_name": "에스엔유",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "3327",
+"SRIM_2": "2759",
+"SRIM_3": "1811",
+"stock_Div_PER": "112.72",
+"Current_PER": "12.34",
+"Current_PER_Rank": "14",
+"PER_Target_1": "31920",
+"PER_Target_2": "0",
+"PER_Target_Avr": "15960",
+"Close_Price": "3595",
+"Price_over_PERAvg": "0.112625313283208"
 }

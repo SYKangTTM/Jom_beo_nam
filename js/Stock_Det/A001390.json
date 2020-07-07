@@ -1,8 +1,16 @@
 {
-"stock_code":"A001390",
-"stock_name":"KG케미칼",
-"stock_Div":"IT서비스",
-"SRIM_1":"23939",
-"SRIM_2":"19857",
-"SRIM_3":"13029"
+"stock_code": "A001390",
+"stock_name": "KG케미칼",
+"stock_Div": "화학",
+"SRIM_1": "23974",
+"SRIM_2": "19886",
+"SRIM_3": "13048",
+"stock_Div_PER": "58.5",
+"Current_PER": "1.76",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13300",
+"Price_over_PERAvg": "N/A"
 }

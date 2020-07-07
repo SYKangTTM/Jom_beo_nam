@@ -1,8 +1,16 @@
 {
-"stock_code":"A227840",
-"stock_name":"현대코퍼레이션홀딩스",
-"stock_Div":"식료품",
-"SRIM_1":"22603",
-"SRIM_2":"23572",
-"SRIM_3":"25838"
+"stock_code": "A227840",
+"stock_name": "현대코퍼레이션홀딩스",
+"stock_Div": "식품과기본식료품소매",
+"SRIM_1": "22696",
+"SRIM_2": "23669",
+"SRIM_3": "25944",
+"stock_Div_PER": "46.19",
+"Current_PER": "7.57",
+"Current_PER_Rank": "1",
+"PER_Target_1": "57664",
+"PER_Target_2": "35317",
+"PER_Target_Avr": "46490",
+"Close_Price": "9520",
+"Price_over_PERAvg": "0.204773018143492"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A012630",
-"stock_name":"HDC",
-"stock_Div":"화학",
-"SRIM_1":"41741",
-"SRIM_2":"41838",
-"SRIM_3":"42051"
+"stock_code": "A012630",
+"stock_name": "HDC",
+"stock_Div": "건설",
+"SRIM_1": "35442",
+"SRIM_2": "29379",
+"SRIM_3": "19246",
+"stock_Div_PER": "6.13",
+"Current_PER": "2.2",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8590",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A063760",
-"stock_name":"이엘피",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"13859",
-"SRIM_2":"11496",
-"SRIM_3":"7543"
+"stock_code": "A063760",
+"stock_name": "이엘피",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "13914",
+"SRIM_2": "11542",
+"SRIM_3": "7573",
+"stock_Div_PER": "112.72",
+"Current_PER": "7.51",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10150",
+"Price_over_PERAvg": "N/A"
 }

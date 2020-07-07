@@ -1,8 +1,16 @@
 {
-"stock_code":"A025870",
-"stock_name":"신라에스지",
-"stock_Div":"식료품",
-"SRIM_1":"3574",
-"SRIM_2":"2965",
-"SRIM_3":"1945"
+"stock_code": "A025870",
+"stock_name": "신라에스지",
+"stock_Div": "식품",
+"SRIM_1": "3579",
+"SRIM_2": "2969",
+"SRIM_3": "1948",
+"stock_Div_PER": "23.98",
+"Current_PER": "45.33",
+"Current_PER_Rank": "47",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9390",
+"Price_over_PERAvg": "N/A"
 }

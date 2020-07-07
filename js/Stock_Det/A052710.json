@@ -1,8 +1,16 @@
 {
-"stock_code":"A052710",
-"stock_name":"아모텍",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"21409",
-"SRIM_2":"22199",
-"SRIM_3":"24031"
+"stock_code": "A052710",
+"stock_name": "아모텍",
+"stock_Div": "핸드셋",
+"SRIM_1": "21832",
+"SRIM_2": "22966",
+"SRIM_3": "25655",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "13360",
+"PER_Target_2": "118311",
+"PER_Target_Avr": "65836",
+"Close_Price": "29250",
+"Price_over_PERAvg": "0.444289175292965"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A000100",
-"stock_name":"유한양행",
-"stock_Div":"제약",
-"SRIM_1":"23647",
-"SRIM_2":"22223",
-"SRIM_3":"19362"
+"stock_code": "A000100",
+"stock_name": "유한양행",
+"stock_Div": "제약",
+"SRIM_1": "23594",
+"SRIM_2": "22099",
+"SRIM_3": "19112",
+"stock_Div_PER": "122.92",
+"Current_PER": "25.38",
+"Current_PER_Rank": "40",
+"PER_Target_1": "396207",
+"PER_Target_2": "86103",
+"PER_Target_Avr": "241155",
+"Close_Price": "52100",
+"Price_over_PERAvg": "0.216043623395741"
 }

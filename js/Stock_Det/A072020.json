@@ -1,8 +1,16 @@
 {
-"stock_code":"A072020",
-"stock_name":"중앙백신",
-"stock_Div":"제약",
-"SRIM_1":"7880",
-"SRIM_2":"6537",
-"SRIM_3":"4289"
+"stock_code": "A072020",
+"stock_name": "중앙백신",
+"stock_Div": "제약",
+"SRIM_1": "7892",
+"SRIM_2": "6546",
+"SRIM_3": "4295",
+"stock_Div_PER": "122.92",
+"Current_PER": "64.46",
+"Current_PER_Rank": "56",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "16750",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A080720",
-"stock_name":"한국유니온제약",
-"stock_Div":"제약",
-"SRIM_1":"8834",
-"SRIM_2":"7328",
-"SRIM_3":"4808"
+"stock_code": "A080720",
+"stock_name": "한국유니온제약",
+"stock_Div": "제약",
+"SRIM_1": "8847",
+"SRIM_2": "7338",
+"SRIM_3": "4815",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13950",
+"Price_over_PERAvg": "N/A"
 }

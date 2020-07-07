@@ -1,8 +1,16 @@
 {
-"stock_code":"A121800",
-"stock_name":"비덴트",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"6590",
-"SRIM_2":"5467",
-"SRIM_3":"3587"
+"stock_code": "A121800",
+"stock_name": "비덴트",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "6600",
+"SRIM_2": "5475",
+"SRIM_3": "3592",
+"stock_Div_PER": "31.01",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6250",
+"Price_over_PERAvg": "N/A"
 }

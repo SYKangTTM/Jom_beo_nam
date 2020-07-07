@@ -1,8 +1,16 @@
 {
-"stock_code":"A214450",
-"stock_name":"파마리서치프로덕트",
-"stock_Div":"바이오",
-"SRIM_1":"28195",
-"SRIM_2":"31618",
-"SRIM_3":"40537"
+"stock_code": "A214450",
+"stock_name": "파마리서치프로덕트",
+"stock_Div": "제약",
+"SRIM_1": "28236",
+"SRIM_2": "31664",
+"SRIM_3": "40596",
+"stock_Div_PER": "122.92",
+"Current_PER": "33.01",
+"Current_PER_Rank": "44",
+"PER_Target_1": "440054",
+"PER_Target_2": "81038",
+"PER_Target_Avr": "260546",
+"Close_Price": "53800",
+"Price_over_PERAvg": "0.206489449080009"
 }

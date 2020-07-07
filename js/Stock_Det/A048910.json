@@ -1,8 +1,16 @@
 {
-"stock_code":"A048910",
-"stock_name":"대원미디어",
-"stock_Div":"미디어",
-"SRIM_1":"5841",
-"SRIM_2":"4845",
-"SRIM_3":"3179"
+"stock_code": "A048910",
+"stock_name": "대원미디어",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "5850",
+"SRIM_2": "4852",
+"SRIM_3": "3184",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6160",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A007570",
-"stock_name":"老剧距前",
-"stock_Div":"力距",
-"SRIM_1":"9493",
-"SRIM_2":"7874",
-"SRIM_3":"5167"
+"stock_code": "A007570",
+"stock_name": "老剧距前",
+"stock_Div": "力距",
+"SRIM_1": "9507",
+"SRIM_2": "7886",
+"SRIM_3": "5174",
+"stock_Div_PER": "122.92",
+"Current_PER": "159.82",
+"Current_PER_Rank": "70",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "69700",
+"Price_over_PERAvg": "N/A"
 }

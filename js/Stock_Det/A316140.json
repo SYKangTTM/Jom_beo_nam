@@ -1,8 +1,16 @@
 {
-"stock_code":"A316140",
-"stock_name":"우리금융지주",
-"stock_Div":"상업은행",
-"SRIM_1":"28758",
-"SRIM_2":"27999",
-"SRIM_3":"26394"
+"stock_code": "A316140",
+"stock_name": "우리금융지주",
+"stock_Div": "은행",
+"SRIM_1": "28973",
+"SRIM_2": "28281",
+"SRIM_3": "26811",
+"stock_Div_PER": "3.89",
+"Current_PER": "3.5",
+"Current_PER_Rank": "5",
+"PER_Target_1": "8177",
+"PER_Target_2": "0",
+"PER_Target_Avr": "4088",
+"Close_Price": "8930",
+"Price_over_PERAvg": "1.0920875626758"
 }

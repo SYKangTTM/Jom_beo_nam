@@ -1,8 +1,16 @@
 {
-"stock_code":"A051360",
-"stock_name":"토비스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"15347",
-"SRIM_2":"17906",
-"SRIM_3":"24973"
+"stock_code": "A051360",
+"stock_name": "토비스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "11700",
+"SRIM_2": "9705",
+"SRIM_3": "6368",
+"stock_Div_PER": "112.72",
+"Current_PER": "5.58",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6770",
+"Price_over_PERAvg": "N/A"
 }

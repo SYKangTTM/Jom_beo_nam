@@ -1,8 +1,16 @@
 {
-"stock_code":"A023450",
-"stock_name":"동남합성",
-"stock_Div":"화학",
-"SRIM_1":"18660",
-"SRIM_2":"15478",
-"SRIM_3":"10156"
+"stock_code": "A023450",
+"stock_name": "동남합성",
+"stock_Div": "화학",
+"SRIM_1": "18687",
+"SRIM_2": "15501",
+"SRIM_3": "10171",
+"stock_Div_PER": "58.5",
+"Current_PER": "5.52",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "29950",
+"Price_over_PERAvg": "N/A"
 }

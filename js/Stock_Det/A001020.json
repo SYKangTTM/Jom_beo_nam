@@ -1,8 +1,16 @@
 {
-"stock_code":"A001020",
-"stock_name":"페이퍼코리아",
-"stock_Div":"종이및목재",
-"SRIM_1":"333",
-"SRIM_2":"276",
-"SRIM_3":"181"
+"stock_code": "A001020",
+"stock_name": "페이퍼코리아",
+"stock_Div": "종이와목재",
+"SRIM_1": "333",
+"SRIM_2": "277",
+"SRIM_3": "181",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1635",
+"Price_over_PERAvg": "N/A"
 }

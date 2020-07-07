@@ -1,8 +1,16 @@
 {
-"stock_code":"A215000",
-"stock_name":"골프존",
-"stock_Div":"호텔및레저",
-"SRIM_1":"42036",
-"SRIM_2":"53813",
-"SRIM_3":"91128"
+"stock_code": "A215000",
+"stock_name": "골프존",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "42097",
+"SRIM_2": "53891",
+"SRIM_3": "91260",
+"stock_Div_PER": "38.15",
+"Current_PER": "26",
+"Current_PER_Rank": "13",
+"PER_Target_1": "192929",
+"PER_Target_2": "62824",
+"PER_Target_Avr": "127876",
+"Close_Price": "70000",
+"Price_over_PERAvg": "0.547403158516225"
 }

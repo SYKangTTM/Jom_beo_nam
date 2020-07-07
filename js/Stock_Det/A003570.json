@@ -1,8 +1,16 @@
 {
-"stock_code":"A003570",
-"stock_name":"S&T중공업",
-"stock_Div":"자동차부품",
-"SRIM_1":"21503",
-"SRIM_2":"17837",
-"SRIM_3":"11703"
+"stock_code": "A003570",
+"stock_name": "S&T중공업",
+"stock_Div": "자동차부품",
+"SRIM_1": "21703",
+"SRIM_2": "18002",
+"SRIM_3": "11812",
+"stock_Div_PER": "12.97",
+"Current_PER": "10.48",
+"Current_PER_Rank": "40",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5050",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A002990",
-"stock_name":"금호산업",
-"stock_Div":"건설",
-"SRIM_1":"14132",
-"SRIM_2":"16327",
-"SRIM_3":"22304"
+"stock_code": "A002990",
+"stock_name": "금호산업",
+"stock_Div": "건설",
+"SRIM_1": "14153",
+"SRIM_2": "16351",
+"SRIM_3": "22336",
+"stock_Div_PER": "6.13",
+"Current_PER": "4.77",
+"Current_PER_Rank": "14",
+"PER_Target_1": "10081",
+"PER_Target_2": "0",
+"PER_Target_Avr": "5040",
+"Close_Price": "6690",
+"Price_over_PERAvg": "0.663624640412657"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A099750",
-"stock_name":"이지케어텍",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"5979",
-"SRIM_2":"4960",
-"SRIM_3":"3254"
+"stock_code": "A099750",
+"stock_name": "이지케어텍",
+"stock_Div": "건강관리기술",
+"SRIM_1": "5988",
+"SRIM_2": "4967",
+"SRIM_3": "3259",
+"stock_Div_PER": "206.6",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "19450",
+"Price_over_PERAvg": "N/A"
 }

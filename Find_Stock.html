@@ -29,14 +29,18 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-        <script type="text/javascript" src="test.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_Div_Detail.js"></script>
+        <script type="text/javascript" src="js/Finder_Stock/Finder_S_PER1.js"></script>
+        
         <title>좀 버는 남자</title>
     </head>
 
     <body>
         <section class="main" style="height: 69vh;">
             <div class="topnav">
-                <a class ="title" href="#" ><img src="images/JBN_Logo.svg" alt="" style="height:60px"></a>
+                <a class="title" href="#"
+                    ><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"
+                /></a>
                 <div id="myLinks">
                     <a href="http://consensus.hankyung.com/" target="_blank">한경컨센서스</a>
                     <a href="http://m.thebell.co.kr/m/" target="_blank">더벨</a>
@@ -48,17 +52,20 @@
                 </a>
             </div>
             <div class="dropdown">
-                <button onclick="dropdown_1()" class="dropbtn">업종</button>
+                <button onclick="dropdown_1()" class="dropbtn">검색조건</button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a onclick="Low_PER_1()">저PER</a>
+                    준비중
                 </div>
+                <div id="PER_FINDER"></div>
+                
+                
             </div>
+            <div id="PER_FINDER_Result"></div>
+
             <div align="center">
-                준비중    
+                준비중
             </div>
-            
         </section>
 
         <section class="banner_section" align="center">
@@ -141,7 +148,10 @@
     function dropdown_1() {
         document.getElementById('myDropdown').classList.toggle('show');
     }
-
+    function dropdown_2() {
+        document.getElementById('myDropdown_2').classList.toggle('show');
+    }
+    
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function (event) {
         if (!event.target.matches('.dropbtn')) {
@@ -155,4 +165,28 @@
             }
         }
     };
+</script>
+<script type="text/javascript">
+    function Low_PER_1(){
+        var data = stock_div;
+        // alert(data);
+        var output = '<button onclick="dropdown_2()" class="dropbtn">업종</button>';
+        output += '<div id="myDropdown_2" class="dropdown-content">';
+        for (i=0;i<data.length;i++){
+            output += '<a id="Find_LOW_PER">' + data[i] + '</a>'
+        }            
+        output += '</div>'
+        $('#PER_FINDER').html(output);
+    }
+    
+    // 수정필요
+    $(document).ready(function (){
+        var data1 = LOW_PER1;
+        $('#Find_LOW_PER').click(function(){
+            console.log("TT");
+            
+        });
+    });
+    
+    
 </script>

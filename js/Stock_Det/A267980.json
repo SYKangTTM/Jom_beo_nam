@@ -1,8 +1,16 @@
 {
-"stock_code":"A267980",
-"stock_name":"매일유업",
-"stock_Div":"식료품",
-"SRIM_1":"75585",
-"SRIM_2":"87736",
-"SRIM_3":"121044"
+"stock_code": "A267980",
+"stock_name": "매일유업",
+"stock_Div": "식품",
+"SRIM_1": "75695",
+"SRIM_2": "87863",
+"SRIM_3": "121220",
+"stock_Div_PER": "23.98",
+"Current_PER": "9.35",
+"Current_PER_Rank": "16",
+"PER_Target_1": "257483",
+"PER_Target_2": "0",
+"PER_Target_Avr": "128742",
+"Close_Price": "79500",
+"Price_over_PERAvg": "0.308758248117351"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A079430",
-"stock_name":"현대리바트",
-"stock_Div":"내구소비재",
-"SRIM_1":"26602",
-"SRIM_2":"28209",
-"SRIM_3":"32063"
+"stock_code": "A079430",
+"stock_name": "현대리바트",
+"stock_Div": "가구",
+"SRIM_1": "26641",
+"SRIM_2": "28250",
+"SRIM_3": "32110",
+"stock_Div_PER": "23.12",
+"Current_PER": "18.16",
+"Current_PER_Rank": "6",
+"PER_Target_1": "40039",
+"PER_Target_2": "26254",
+"PER_Target_Avr": "33146",
+"Close_Price": "18800",
+"Price_over_PERAvg": "0.567179038510853"
 }

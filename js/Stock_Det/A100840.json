@@ -1,8 +1,16 @@
 {
-"stock_code":"A100840",
-"stock_name":"S&TC",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"31587",
-"SRIM_2":"26201",
-"SRIM_3":"17191"
+"stock_code": "A100840",
+"stock_name": "S&TC",
+"stock_Div": "기계",
+"SRIM_1": "31633",
+"SRIM_2": "26239",
+"SRIM_3": "17216",
+"stock_Div_PER": "N/A",
+"Current_PER": "5.12",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15300",
+"Price_over_PERAvg": "N/A"
 }

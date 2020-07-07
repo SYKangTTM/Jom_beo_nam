@@ -1,8 +1,16 @@
 {
-"stock_code":"A071320",
-"stock_name":"지역난방공사",
-"stock_Div":"전력",
-"SRIM_1":"109163",
-"SRIM_2":"97228",
-"SRIM_3":"75076"
+"stock_code": "A071320",
+"stock_name": "지역난방공사",
+"stock_Div": "복합유틸리티",
+"SRIM_1": "109579",
+"SRIM_2": "99265",
+"SRIM_3": "79641",
+"stock_Div_PER": "5.28",
+"Current_PER": "70.15",
+"Current_PER_Rank": "2",
+"PER_Target_1": "25340",
+"PER_Target_2": "0",
+"PER_Target_Avr": "12670",
+"Close_Price": "33050",
+"Price_over_PERAvg": "1.30426203630624"
 }

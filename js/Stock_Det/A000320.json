@@ -1,8 +1,16 @@
 {
-"stock_code":"A000320",
-"stock_name":"노루홀딩스",
-"stock_Div":"건축자재",
-"SRIM_1":"27338",
-"SRIM_2":"24571",
-"SRIM_3":"19367"
+"stock_code": "A000320",
+"stock_name": "노루홀딩스",
+"stock_Div": "건축자재",
+"SRIM_1": "27378",
+"SRIM_2": "24607",
+"SRIM_3": "19395",
+"stock_Div_PER": "N/A",
+"Current_PER": "14.55",
+"Current_PER_Rank": "12",
+"PER_Target_1": "31410",
+"PER_Target_2": "0",
+"PER_Target_Avr": "15705",
+"Close_Price": "9220",
+"Price_over_PERAvg": "0.293537090098695"
 }

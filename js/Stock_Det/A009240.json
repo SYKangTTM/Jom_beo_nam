@@ -1,8 +1,16 @@
 {
-"stock_code":"A009240",
-"stock_name":"茄基",
-"stock_Div":"郴备家厚犁",
-"SRIM_1":"40111",
-"SRIM_2":"44418",
-"SRIM_3":"55430"
+"stock_code": "A009240",
+"stock_name": "茄基",
+"stock_Div": "啊备",
+"SRIM_1": "40409",
+"SRIM_2": "44869",
+"SRIM_3": "56318",
+"stock_Div_PER": "23.12",
+"Current_PER": "51.4",
+"Current_PER_Rank": "7",
+"PER_Target_1": "58598",
+"PER_Target_2": "94719",
+"PER_Target_Avr": "76658",
+"Close_Price": "92800",
+"Price_over_PERAvg": "1.21056373396297"
 }

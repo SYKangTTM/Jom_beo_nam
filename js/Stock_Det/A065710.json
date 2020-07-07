@@ -1,8 +1,16 @@
 {
-"stock_code":"A065710",
-"stock_name":"서호전기",
-"stock_Div":"운송인프라",
-"SRIM_1":"13083",
-"SRIM_2":"10852",
-"SRIM_3":"7121"
+"stock_code": "A065710",
+"stock_name": "서호전기",
+"stock_Div": "소프트웨어",
+"SRIM_1": "13102",
+"SRIM_2": "10868",
+"SRIM_3": "7131",
+"stock_Div_PER": "110.57",
+"Current_PER": "6.44",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "19400",
+"Price_over_PERAvg": "N/A"
 }

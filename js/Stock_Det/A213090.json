@@ -1,8 +1,16 @@
 {
-"stock_code":"A213090",
-"stock_name":"미래테크놀로지",
-"stock_Div":"보안장비",
-"SRIM_1":"8843",
-"SRIM_2":"7335",
-"SRIM_3":"4813"
+"stock_code": "A213090",
+"stock_name": "미래테크놀로지",
+"stock_Div": "IT서비스",
+"SRIM_1": "8856",
+"SRIM_2": "7346",
+"SRIM_3": "4820",
+"stock_Div_PER": "23.79",
+"Current_PER": "64",
+"Current_PER_Rank": "39",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8130",
+"Price_over_PERAvg": "N/A"
 }

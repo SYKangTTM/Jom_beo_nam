@@ -1,8 +1,16 @@
 {
-"stock_code":"A001770",
-"stock_name":"신화실업",
-"stock_Div":"금속및광물",
-"SRIM_1":"25313",
-"SRIM_2":"20997",
-"SRIM_3":"13777"
+"stock_code": "A001770",
+"stock_name": "신화실업",
+"stock_Div": "철강",
+"SRIM_1": "25350",
+"SRIM_2": "21027",
+"SRIM_3": "13797",
+"stock_Div_PER": "18.57",
+"Current_PER": "39.99",
+"Current_PER_Rank": "29",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "21600",
+"Price_over_PERAvg": "N/A"
 }

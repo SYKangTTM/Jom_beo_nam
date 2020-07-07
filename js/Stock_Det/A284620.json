@@ -1,8 +1,16 @@
 {
-"stock_code":"A284620",
-"stock_name":"하나금융11호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"43",
-"SRIM_2":"36",
-"SRIM_3":"24"
+"stock_code": "A284620",
+"stock_name": "카이노스메드",
+"stock_Div": "제약",
+"SRIM_1": "43",
+"SRIM_2": "36",
+"SRIM_3": "24",
+"stock_Div_PER": "188.02",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5370",
+"Price_over_PERAvg": "N/A"
 }

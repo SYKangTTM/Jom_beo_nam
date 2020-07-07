@@ -1,8 +1,16 @@
 {
-"stock_code":"A005290",
-"stock_name":"동진쎄미켐",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"8005",
-"SRIM_2":"6640",
-"SRIM_3":"4357"
+"stock_code": "A005290",
+"stock_name": "동진쎄미켐",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "8016",
+"SRIM_2": "6649",
+"SRIM_3": "4363",
+"stock_Div_PER": "17.68",
+"Current_PER": "23.06",
+"Current_PER_Rank": "49",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "28400",
+"Price_over_PERAvg": "N/A"
 }

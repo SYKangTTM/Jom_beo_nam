@@ -1,8 +1,16 @@
 {
-"stock_code":"A005880",
-"stock_name":"대한해운",
-"stock_Div":"해상운수",
-"SRIM_1":"37896",
-"SRIM_2":"38222",
-"SRIM_3":"38948"
+"stock_code": "A005880",
+"stock_name": "대한해운",
+"stock_Div": "해운사",
+"SRIM_1": "38274",
+"SRIM_2": "38782",
+"SRIM_3": "39921",
+"stock_Div_PER": "N/A",
+"Current_PER": "3.99",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "28593",
+"PER_Target_Avr": "14296",
+"Close_Price": "17100",
+"Price_over_PERAvg": "0.598048473402581"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A010040",
-"stock_name":"한국내화",
-"stock_Div":"금속및광물",
-"SRIM_1":"5658",
-"SRIM_2":"4693",
-"SRIM_3":"3079"
+"stock_code": "A010040",
+"stock_name": "한국내화",
+"stock_Div": "비철금속",
+"SRIM_1": "5666",
+"SRIM_2": "4700",
+"SRIM_3": "3084",
+"stock_Div_PER": "17.84",
+"Current_PER": "44.53",
+"Current_PER_Rank": "21",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3405",
+"Price_over_PERAvg": "N/A"
 }

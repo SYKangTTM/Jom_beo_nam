@@ -1,8 +1,16 @@
 {
-"stock_code":"A104040",
-"stock_name":"대성파인텍",
-"stock_Div":"자동차부품",
-"SRIM_1":"1554",
-"SRIM_2":"1289",
-"SRIM_3":"846"
+"stock_code": "A104040",
+"stock_name": "대성파인텍",
+"stock_Div": "자동차부품",
+"SRIM_1": "1556",
+"SRIM_2": "1291",
+"SRIM_3": "847",
+"stock_Div_PER": "12.97",
+"Current_PER": "22.26",
+"Current_PER_Rank": "58",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1345",
+"Price_over_PERAvg": "N/A"
 }

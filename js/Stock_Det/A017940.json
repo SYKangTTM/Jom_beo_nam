@@ -1,8 +1,16 @@
 {
-"stock_code":"A017940",
-"stock_name":"E1",
-"stock_Div":"석유및가스",
-"SRIM_1":"158282",
-"SRIM_2":"147904",
-"SRIM_3":"127239"
+"stock_code": "A017940",
+"stock_name": "E1",
+"stock_Div": "가스유틸리티",
+"SRIM_1": "158363",
+"SRIM_2": "147878",
+"SRIM_3": "127020",
+"stock_Div_PER": "10.96",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "138651",
+"PER_Target_2": "0",
+"PER_Target_Avr": "69326",
+"Close_Price": "34950",
+"Price_over_PERAvg": "0.252071748490815"
 }

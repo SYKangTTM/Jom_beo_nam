@@ -1,8 +1,16 @@
 {
-"stock_code":"A235980",
-"stock_name":"메드팩토",
-"stock_Div":"제약",
-"SRIM_1":"3480",
-"SRIM_2":"2887",
-"SRIM_3":"1894"
+"stock_code": "A235980",
+"stock_name": "메드팩토",
+"stock_Div": "제약",
+"SRIM_1": "3485",
+"SRIM_2": "2891",
+"SRIM_3": "1897",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "-321016",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-160508",
+"Close_Price": "56400",
+"Price_over_PERAvg": "-0.175692177336955"
 }

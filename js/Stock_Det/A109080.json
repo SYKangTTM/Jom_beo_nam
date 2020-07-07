@@ -1,8 +1,16 @@
 {
-"stock_code":"A109080",
-"stock_name":"옵티시스",
-"stock_Div":"통신장비",
-"SRIM_1":"6972",
-"SRIM_2":"5783",
-"SRIM_3":"3794"
+"stock_code": "A109080",
+"stock_name": "옵티시스",
+"stock_Div": "통신장비",
+"SRIM_1": "6982",
+"SRIM_2": "5791",
+"SRIM_3": "3800",
+"stock_Div_PER": "95.76",
+"Current_PER": "15.43",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8010",
+"Price_over_PERAvg": "N/A"
 }

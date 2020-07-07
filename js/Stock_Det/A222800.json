@@ -1,8 +1,16 @@
 {
-"stock_code":"A222800",
-"stock_name":"심텍",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"11496",
-"SRIM_2":"15308",
-"SRIM_3":"28108"
+"stock_code": "A222800",
+"stock_name": "심텍",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "11513",
+"SRIM_2": "15330",
+"SRIM_3": "28148",
+"stock_Div_PER": "31.01",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "52981",
+"PER_Target_2": "0",
+"PER_Target_Avr": "26490",
+"Close_Price": "11100",
+"Price_over_PERAvg": "0.20950906928899"
 }

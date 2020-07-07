@@ -1,8 +1,16 @@
 {
-"stock_code":"A024830",
-"stock_name":"세원물산",
-"stock_Div":"자동차부품",
-"SRIM_1":"20364",
-"SRIM_2":"16891",
-"SRIM_3":"11083"
+"stock_code": "A024830",
+"stock_name": "세원물산",
+"stock_Div": "자동차부품",
+"SRIM_1": "20393",
+"SRIM_2": "16916",
+"SRIM_3": "11099",
+"stock_Div_PER": "12.97",
+"Current_PER": "4.48",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6280",
+"Price_over_PERAvg": "N/A"
 }

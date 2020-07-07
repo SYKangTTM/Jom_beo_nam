@@ -1,8 +1,16 @@
 {
-"stock_code":"A272550",
-"stock_name":"삼양패키징",
-"stock_Div":"용기및포장",
-"SRIM_1":"18111",
-"SRIM_2":"15023",
-"SRIM_3":"9857"
+"stock_code": "A272550",
+"stock_name": "삼양패키징",
+"stock_Div": "포장재",
+"SRIM_1": "18137",
+"SRIM_2": "15044",
+"SRIM_3": "9871",
+"stock_Div_PER": "9.45",
+"Current_PER": "8.45",
+"Current_PER_Rank": "9",
+"PER_Target_1": "18519",
+"PER_Target_2": "0",
+"PER_Target_Avr": "9260",
+"Close_Price": "17850",
+"Price_over_PERAvg": "0.963874939251579"
 }

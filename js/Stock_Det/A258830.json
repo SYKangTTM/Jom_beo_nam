@@ -1,8 +1,16 @@
 {
-"stock_code":"A258830",
-"stock_name":"세종메디칼",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"6433",
-"SRIM_2":"5336",
-"SRIM_3":"3501"
+"stock_code": "A258830",
+"stock_name": "세종메디칼",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "6442",
+"SRIM_2": "5344",
+"SRIM_3": "3506",
+"stock_Div_PER": "116.58",
+"Current_PER": "20.7",
+"Current_PER_Rank": "16",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10200",
+"Price_over_PERAvg": "N/A"
 }

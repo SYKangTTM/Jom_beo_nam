@@ -1,8 +1,16 @@
 {
-"stock_code":"A053030",
-"stock_name":"바이넥스",
-"stock_Div":"제약",
-"SRIM_1":"5327",
-"SRIM_2":"5321",
-"SRIM_3":"5307"
+"stock_code": "A053030",
+"stock_name": "바이넥스",
+"stock_Div": "제약",
+"SRIM_1": "5335",
+"SRIM_2": "5329",
+"SRIM_3": "5315",
+"stock_Div_PER": "122.92",
+"Current_PER": "47.79",
+"Current_PER_Rank": "50",
+"PER_Target_1": "60400",
+"PER_Target_2": "0",
+"PER_Target_Avr": "30200",
+"Close_Price": "12800",
+"Price_over_PERAvg": "0.211920529801325"
 }

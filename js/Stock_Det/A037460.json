@@ -1,8 +1,16 @@
 {
-"stock_code":"A037460",
-"stock_name":"삼지전자",
-"stock_Div":"통신장비",
-"SRIM_1":"11827",
-"SRIM_2":"9810",
-"SRIM_3":"6437"
+"stock_code": "A037460",
+"stock_name": "삼지전자",
+"stock_Div": "통신장비",
+"SRIM_1": "11844",
+"SRIM_2": "9824",
+"SRIM_3": "6446",
+"stock_Div_PER": "95.76",
+"Current_PER": "9.55",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10300",
+"Price_over_PERAvg": "N/A"
 }

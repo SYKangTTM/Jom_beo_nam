@@ -1,8 +1,16 @@
 {
-"stock_code":"A049480",
-"stock_name":"오픈베이스",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"1873",
-"SRIM_2":"1553",
-"SRIM_3":"1019"
+"stock_code": "A049480",
+"stock_name": "오픈베이스",
+"stock_Div": "IT서비스",
+"SRIM_1": "1875",
+"SRIM_2": "1556",
+"SRIM_3": "1021",
+"stock_Div_PER": "23.79",
+"Current_PER": "44.45",
+"Current_PER_Rank": "36",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3360",
+"Price_over_PERAvg": "N/A"
 }

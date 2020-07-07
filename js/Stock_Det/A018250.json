@@ -1,8 +1,16 @@
 {
-"stock_code":"A018250",
-"stock_name":"애경산업",
-"stock_Div":"개인생활용품",
-"SRIM_1":"14858",
-"SRIM_2":"16246",
-"SRIM_3":"19730"
+"stock_code": "A018250",
+"stock_name": "애경산업",
+"stock_Div": "화장품",
+"SRIM_1": "14749",
+"SRIM_2": "16113",
+"SRIM_3": "19530",
+"stock_Div_PER": "47.37",
+"Current_PER": "18.82",
+"Current_PER_Rank": "6",
+"PER_Target_1": "59289",
+"PER_Target_2": "0",
+"PER_Target_Avr": "29644",
+"Close_Price": "22900",
+"Price_over_PERAvg": "0.386243653966166"
 }

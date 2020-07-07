@@ -1,8 +1,16 @@
 {
-"stock_code":"A196450",
-"stock_name":"디오스텍",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"472",
-"SRIM_2":"391",
-"SRIM_3":"257"
+"stock_code": "A196450",
+"stock_name": "디오스텍",
+"stock_Div": "핸드셋",
+"SRIM_1": "472",
+"SRIM_2": "392",
+"SRIM_3": "257",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "412",
+"Price_over_PERAvg": "N/A"
 }

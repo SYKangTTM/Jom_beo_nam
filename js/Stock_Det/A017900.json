@@ -1,8 +1,16 @@
 {
-"stock_code":"A017900",
-"stock_name":"광전자",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"3937",
-"SRIM_2":"3266",
-"SRIM_3":"2143"
+"stock_code": "A017900",
+"stock_name": "광전자",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "3943",
+"SRIM_2": "3270",
+"SRIM_3": "2146",
+"stock_Div_PER": "31.01",
+"Current_PER": "25.93",
+"Current_PER_Rank": "27",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1800",
+"Price_over_PERAvg": "N/A"
 }

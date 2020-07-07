@@ -1,8 +1,16 @@
 {
-"stock_code":"A123840",
-"stock_name":"한일진공",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"1422",
-"SRIM_2":"1180",
-"SRIM_3":"774"
+"stock_code": "A123840",
+"stock_name": "한일진공",
+"stock_Div": "핸드셋",
+"SRIM_1": "1424",
+"SRIM_2": "1181",
+"SRIM_3": "775",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "616",
+"Price_over_PERAvg": "N/A"
 }

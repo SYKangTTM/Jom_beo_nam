@@ -1,8 +1,16 @@
 {
-"stock_code":"A043360",
-"stock_name":"디지아이",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"4609",
-"SRIM_2":"3823",
-"SRIM_3":"2508"
+"stock_code": "A043360",
+"stock_name": "디지아이",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "4616",
+"SRIM_2": "3829",
+"SRIM_3": "2512",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2145",
+"Price_over_PERAvg": "N/A"
 }

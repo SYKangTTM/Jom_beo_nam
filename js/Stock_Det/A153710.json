@@ -1,8 +1,16 @@
 {
-"stock_code":"A153710",
-"stock_name":"可萍剖",
-"stock_Div":"力距",
-"SRIM_1":"2226",
-"SRIM_2":"1847",
-"SRIM_3":"1212"
+"stock_code": "A153710",
+"stock_name": "可萍剖",
+"stock_Div": "力距",
+"SRIM_1": "2230",
+"SRIM_2": "1849",
+"SRIM_3": "1214",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "-4931",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-2466",
+"Close_Price": "23900",
+"Price_over_PERAvg": "-4.84688704116812"
 }

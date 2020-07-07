@@ -1,8 +1,16 @@
 {
-"stock_code":"A025540",
-"stock_name":"한국단자",
-"stock_Div":"자동차부품",
-"SRIM_1":"61902",
-"SRIM_2":"51347",
-"SRIM_3":"33690"
+"stock_code": "A025540",
+"stock_name": "한국단자",
+"stock_Div": "자동차부품",
+"SRIM_1": "61992",
+"SRIM_2": "51421",
+"SRIM_3": "33739",
+"stock_Div_PER": "12.97",
+"Current_PER": "9.48",
+"Current_PER_Rank": "38",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "35550",
+"Price_over_PERAvg": "N/A"
 }

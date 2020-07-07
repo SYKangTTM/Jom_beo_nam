@@ -1,8 +1,16 @@
 {
-"stock_code":"A000440",
-"stock_name":"중앙에너비스",
-"stock_Div":"석유및가스",
-"SRIM_1":"8733",
-"SRIM_2":"7244",
-"SRIM_3":"4753"
+"stock_code": "A000440",
+"stock_name": "중앙에너비스",
+"stock_Div": "석유와가스",
+"SRIM_1": "8746",
+"SRIM_2": "7254",
+"SRIM_3": "4760",
+"stock_Div_PER": "N/A",
+"Current_PER": "80.71",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9020",
+"Price_over_PERAvg": "N/A"
 }

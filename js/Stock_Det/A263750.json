@@ -1,8 +1,16 @@
 {
-"stock_code":"A263750",
-"stock_name":"펄어비스",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"91608",
-"SRIM_2":"115852",
-"SRIM_3":"191296"
+"stock_code": "A263750",
+"stock_name": "펄어비스",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "91901",
+"SRIM_2": "116502",
+"SRIM_3": "193328",
+"stock_Div_PER": "38.15",
+"Current_PER": "14.63",
+"Current_PER_Rank": "6",
+"PER_Target_1": "522850",
+"PER_Target_2": "0",
+"PER_Target_Avr": "261425",
+"Close_Price": "218700",
+"Price_over_PERAvg": "0.418284402792388"
 }

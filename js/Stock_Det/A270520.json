@@ -1,8 +1,16 @@
 {
-"stock_code":"A270520",
-"stock_name":"하나금융10호스팩",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"590",
-"SRIM_2":"489",
-"SRIM_3":"321"
+"stock_code": "A270520",
+"stock_name": "지엔원에너지",
+"stock_Div": "에너지장비및서비스",
+"SRIM_1": "591",
+"SRIM_2": "490",
+"SRIM_3": "321",
+"stock_Div_PER": "N/A",
+"Current_PER": "26",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2425",
+"Price_over_PERAvg": "N/A"
 }

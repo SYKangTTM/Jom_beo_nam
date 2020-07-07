@@ -1,8 +1,16 @@
 {
-"stock_code":"A123410",
-"stock_name":"코리아에프티",
-"stock_Div":"자동차부품",
-"SRIM_1":"3860",
-"SRIM_2":"3201",
-"SRIM_3":"2101"
+"stock_code": "A123410",
+"stock_name": "코리아에프티",
+"stock_Div": "자동차부품",
+"SRIM_1": "3865",
+"SRIM_2": "3206",
+"SRIM_3": "2104",
+"stock_Div_PER": "12.97",
+"Current_PER": "9.47",
+"Current_PER_Rank": "37",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2720",
+"Price_over_PERAvg": "N/A"
 }

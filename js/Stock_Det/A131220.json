@@ -1,8 +1,16 @@
 {
-"stock_code":"A131220",
-"stock_name":"대한과학",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"3403",
-"SRIM_2":"2822",
-"SRIM_3":"1852"
+"stock_code": "A131220",
+"stock_name": "대한과학",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "3408",
+"SRIM_2": "2826",
+"SRIM_3": "1855",
+"stock_Div_PER": "N/A",
+"Current_PER": "33.63",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5420",
+"Price_over_PERAvg": "N/A"
 }

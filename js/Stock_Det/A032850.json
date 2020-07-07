@@ -1,8 +1,16 @@
 {
-"stock_code":"A032850",
-"stock_name":"비트컴퓨터",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"3785",
-"SRIM_2":"4186",
-"SRIM_3":"5211"
+"stock_code": "A032850",
+"stock_name": "비트컴퓨터",
+"stock_Div": "건강관리기술",
+"SRIM_1": "2995",
+"SRIM_2": "2484",
+"SRIM_3": "1630",
+"stock_Div_PER": "98.35",
+"Current_PER": "34.54",
+"Current_PER_Rank": "2",
+"PER_Target_1": "67079",
+"PER_Target_2": "0",
+"PER_Target_Avr": "33540",
+"Close_Price": "11850",
+"Price_over_PERAvg": "0.176657374140938"
 }

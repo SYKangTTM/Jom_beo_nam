@@ -1,8 +1,16 @@
 {
-"stock_code":"A268280",
-"stock_name":"미원에스씨",
-"stock_Div":"화학",
-"SRIM_1":"43955",
-"SRIM_2":"36460",
-"SRIM_3":"23922"
+"stock_code": "A268280",
+"stock_name": "미원에스씨",
+"stock_Div": "화학",
+"SRIM_1": "44019",
+"SRIM_2": "36513",
+"SRIM_3": "23957",
+"stock_Div_PER": "58.5",
+"Current_PER": "10.27",
+"Current_PER_Rank": "35",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "81600",
+"Price_over_PERAvg": "N/A"
 }

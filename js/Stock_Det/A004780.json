@@ -1,8 +1,16 @@
 {
-"stock_code":"A004780",
-"stock_name":"대륙제관",
-"stock_Div":"용기및포장",
-"SRIM_1":"6044",
-"SRIM_2":"5014",
-"SRIM_3":"3290"
+"stock_code": "A004780",
+"stock_name": "대륙제관",
+"stock_Div": "포장재",
+"SRIM_1": "6053",
+"SRIM_2": "5021",
+"SRIM_3": "3294",
+"stock_Div_PER": "9.45",
+"Current_PER": "11.98",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4455",
+"Price_over_PERAvg": "N/A"
 }

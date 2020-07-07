@@ -1,8 +1,16 @@
 {
-"stock_code":"A044340",
-"stock_name":"위닉스",
-"stock_Div":"내구소비재",
-"SRIM_1":"12181",
-"SRIM_2":"16066",
-"SRIM_3":"28932"
+"stock_code": "A044340",
+"stock_name": "위닉스",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "8414",
+"SRIM_2": "6979",
+"SRIM_3": "4579",
+"stock_Div_PER": "19.57",
+"Current_PER": "18.7",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "19550",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A011280",
-"stock_name":"태림포장",
-"stock_Div":"용기및포장",
-"SRIM_1":"4000",
-"SRIM_2":"3318",
-"SRIM_3":"2177"
+"stock_code": "A011280",
+"stock_name": "태림포장",
+"stock_Div": "포장재",
+"SRIM_1": "4005",
+"SRIM_2": "3322",
+"SRIM_3": "2180",
+"stock_Div_PER": "9.45",
+"Current_PER": "14.51",
+"Current_PER_Rank": "15",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3385",
+"Price_over_PERAvg": "N/A"
 }

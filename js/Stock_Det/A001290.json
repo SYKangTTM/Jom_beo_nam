@@ -1,8 +1,16 @@
 {
-"stock_code":"A001290",
-"stock_name":"상상인증권",
-"stock_Div":"증권",
-"SRIM_1":"1458",
-"SRIM_2":"1210",
-"SRIM_3":"794"
+"stock_code": "A001290",
+"stock_name": "상상인증권",
+"stock_Div": "증권",
+"SRIM_1": "1460",
+"SRIM_2": "1211",
+"SRIM_3": "795",
+"stock_Div_PER": "6.77",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1030",
+"Price_over_PERAvg": "N/A"
 }

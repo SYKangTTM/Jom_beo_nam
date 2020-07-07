@@ -1,8 +1,16 @@
 {
-"stock_code":"A005680",
-"stock_name":"삼영전자",
-"stock_Div":"전기장비",
-"SRIM_1":"22479",
-"SRIM_2":"19402",
-"SRIM_3":"13947"
+"stock_code": "A005680",
+"stock_name": "삼영전자",
+"stock_Div": "전기제품",
+"SRIM_1": "21810",
+"SRIM_2": "18091",
+"SRIM_3": "11870",
+"stock_Div_PER": "77.9",
+"Current_PER": "15.71",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7220",
+"Price_over_PERAvg": "N/A"
 }

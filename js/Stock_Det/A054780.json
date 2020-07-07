@@ -1,8 +1,16 @@
 {
-"stock_code":"A054780",
-"stock_name":"키이스트",
-"stock_Div":"미디어",
-"SRIM_1":"2297",
-"SRIM_2":"1905",
-"SRIM_3":"1250"
+"stock_code": "A054780",
+"stock_name": "키이스트",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "2300",
+"SRIM_2": "1908",
+"SRIM_3": "1252",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13600",
+"Price_over_PERAvg": "N/A"
 }

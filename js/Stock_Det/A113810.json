@@ -1,8 +1,16 @@
 {
-"stock_code":"A113810",
-"stock_name":"디젠스",
-"stock_Div":"자동차부품",
-"SRIM_1":"537",
-"SRIM_2":"446",
-"SRIM_3":"292"
+"stock_code": "A113810",
+"stock_name": "디젠스",
+"stock_Div": "자동차부품",
+"SRIM_1": "538",
+"SRIM_2": "446",
+"SRIM_3": "293",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "477",
+"Price_over_PERAvg": "N/A"
 }

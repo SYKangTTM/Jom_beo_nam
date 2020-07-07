@@ -1,8 +1,16 @@
 {
-"stock_code":"A051160",
-"stock_name":"지어소프트",
-"stock_Div":"도소매",
-"SRIM_1":"7235",
-"SRIM_2":"16593",
-"SRIM_3":"86524"
+"stock_code": "A051160",
+"stock_name": "지어소프트",
+"stock_Div": "식품과기본식료품소매",
+"SRIM_1": "7246",
+"SRIM_2": "16617",
+"SRIM_3": "86649",
+"stock_Div_PER": "46.19",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "19231",
+"PER_Target_2": "0",
+"PER_Target_Avr": "9616",
+"Close_Price": "12100",
+"Price_over_PERAvg": "0.629192449690604"
 }

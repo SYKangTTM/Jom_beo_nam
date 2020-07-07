@@ -1,8 +1,16 @@
 {
-"stock_code":"A092730",
-"stock_name":"네오팜",
-"stock_Div":"개인생활용품",
-"SRIM_1":"18425",
-"SRIM_2":"22116",
-"SRIM_3":"32747"
+"stock_code": "A092730",
+"stock_name": "네오팜",
+"stock_Div": "화장품",
+"SRIM_1": "18498",
+"SRIM_2": "22272",
+"SRIM_3": "33193",
+"stock_Div_PER": "47.37",
+"Current_PER": "13.94",
+"Current_PER_Rank": "5",
+"PER_Target_1": "99925",
+"PER_Target_2": "84269",
+"PER_Target_Avr": "92097",
+"Close_Price": "34000",
+"Price_over_PERAvg": "0.369175977501982"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A087260",
-"stock_name":"모바일어플라이언스",
-"stock_Div":"자동차부품",
-"SRIM_1":"845",
-"SRIM_2":"701",
-"SRIM_3":"460"
+"stock_code": "A087260",
+"stock_name": "모바일어플라이언스",
+"stock_Div": "전자제품",
+"SRIM_1": "846",
+"SRIM_2": "702",
+"SRIM_3": "461",
+"stock_Div_PER": "33.93",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3825",
+"Price_over_PERAvg": "N/A"
 }

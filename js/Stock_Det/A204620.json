@@ -1,8 +1,16 @@
 {
-"stock_code":"A204620",
-"stock_name":"글로벌텍스프리",
-"stock_Div":"소비자금융",
-"SRIM_1":"2079",
-"SRIM_2":"2114",
-"SRIM_3":"2194"
+"stock_code": "A204620",
+"stock_name": "글로벌텍스프리",
+"stock_Div": "기타금융",
+"SRIM_1": "1769",
+"SRIM_2": "1468",
+"SRIM_3": "963",
+"stock_Div_PER": "6.54",
+"Current_PER": "6.5",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2610",
+"Price_over_PERAvg": "N/A"
 }

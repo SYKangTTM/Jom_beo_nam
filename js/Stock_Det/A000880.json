@@ -1,8 +1,16 @@
 {
-"stock_code":"A000880",
-"stock_name":"한화",
-"stock_Div":"복합산업",
-"SRIM_1":"48312",
-"SRIM_2":"44151",
-"SRIM_3":"36132"
+"stock_code": "A000880",
+"stock_name": "한화",
+"stock_Div": "생명보험",
+"SRIM_1": "48440",
+"SRIM_2": "44310",
+"SRIM_3": "36340",
+"stock_Div_PER": "10.34",
+"Current_PER": "19.14",
+"Current_PER_Rank": "5",
+"PER_Target_1": "23652",
+"PER_Target_2": "0",
+"PER_Target_Avr": "11826",
+"Close_Price": "22800",
+"Price_over_PERAvg": "0.963977676306443"
 }

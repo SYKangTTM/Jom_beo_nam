@@ -1,8 +1,16 @@
 {
-"stock_code":"A069080",
-"stock_name":"웹젠",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"15972",
-"SRIM_2":"17919",
-"SRIM_3":"22995"
+"stock_code": "A069080",
+"stock_name": "웹젠",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "16220",
+"SRIM_2": "18288",
+"SRIM_3": "23718",
+"stock_Div_PER": "38.15",
+"Current_PER": "25.42",
+"Current_PER_Rank": "11",
+"PER_Target_1": "60739",
+"PER_Target_2": "29452",
+"PER_Target_Avr": "45096",
+"Close_Price": "29200",
+"Price_over_PERAvg": "0.647514718763513"
 }

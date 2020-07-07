@@ -1,8 +1,16 @@
 {
-"stock_code":"A052220",
-"stock_name":"iMBC",
-"stock_Div":"미디어",
-"SRIM_1":"2041",
-"SRIM_2":"1693",
-"SRIM_3":"1111"
+"stock_code": "A052220",
+"stock_name": "iMBC",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "2044",
+"SRIM_2": "1695",
+"SRIM_3": "1112",
+"stock_Div_PER": "N/A",
+"Current_PER": "26.78",
+"Current_PER_Rank": "11",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2625",
+"Price_over_PERAvg": "N/A"
 }

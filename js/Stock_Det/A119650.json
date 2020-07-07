@@ -1,8 +1,16 @@
 {
-"stock_code":"A119650",
-"stock_name":"KC코트렐",
-"stock_Div":"상업서비스",
-"SRIM_1":"5222",
-"SRIM_2":"4332",
-"SRIM_3":"2842"
+"stock_code": "A119650",
+"stock_name": "KC코트렐",
+"stock_Div": "기계",
+"SRIM_1": "5230",
+"SRIM_2": "4338",
+"SRIM_3": "2846",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6060",
+"Price_over_PERAvg": "N/A"
 }

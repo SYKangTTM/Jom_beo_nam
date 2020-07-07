@@ -1,8 +1,16 @@
 {
-"stock_code":"A175330",
-"stock_name":"JB금융지주",
-"stock_Div":"상업은행",
-"SRIM_1":"18277",
-"SRIM_2":"18243",
-"SRIM_3":"18169"
+"stock_code": "A175330",
+"stock_name": "JB금융지주",
+"stock_Div": "은행",
+"SRIM_1": "18334",
+"SRIM_2": "18283",
+"SRIM_3": "18172",
+"stock_Div_PER": "3.89",
+"Current_PER": "2.71",
+"Current_PER_Rank": "1",
+"PER_Target_1": "5883",
+"PER_Target_2": "8069",
+"PER_Target_Avr": "6976",
+"Close_Price": "4785",
+"Price_over_PERAvg": "0.685923165137615"
 }

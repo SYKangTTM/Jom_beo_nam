@@ -1,8 +1,16 @@
 {
-"stock_code":"A025820",
-"stock_name":"이구산업",
-"stock_Div":"금속및광물",
-"SRIM_1":"2721",
-"SRIM_2":"2257",
-"SRIM_3":"1481"
+"stock_code": "A025820",
+"stock_name": "이구산업",
+"stock_Div": "비철금속",
+"SRIM_1": "2725",
+"SRIM_2": "2260",
+"SRIM_3": "1483",
+"stock_Div_PER": "17.84",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1575",
+"Price_over_PERAvg": "N/A"
 }

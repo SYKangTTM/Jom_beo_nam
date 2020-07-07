@@ -1,8 +1,16 @@
 {
-"stock_code":"A095700",
-"stock_name":"제넥신",
-"stock_Div":"바이오",
-"SRIM_1":"11208",
-"SRIM_2":"9297",
-"SRIM_3":"6100"
+"stock_code": "A095700",
+"stock_name": "제넥신",
+"stock_Div": "생물공학",
+"SRIM_1": "11224",
+"SRIM_2": "9310",
+"SRIM_3": "6109",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "94300",
+"Price_over_PERAvg": "N/A"
 }

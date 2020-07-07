@@ -1,8 +1,16 @@
 {
-"stock_code":"A086060",
-"stock_name":"진바이오텍",
-"stock_Div":"제약",
-"SRIM_1":"4898",
-"SRIM_2":"4063",
-"SRIM_3":"2666"
+"stock_code": "A086060",
+"stock_name": "진바이오텍",
+"stock_Div": "제약",
+"SRIM_1": "4905",
+"SRIM_2": "4068",
+"SRIM_3": "2669",
+"stock_Div_PER": "122.92",
+"Current_PER": "65.45",
+"Current_PER_Rank": "58",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6070",
+"Price_over_PERAvg": "N/A"
 }

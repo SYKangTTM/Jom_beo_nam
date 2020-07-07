@@ -1,8 +1,16 @@
 {
-"stock_code":"A096530",
-"stock_name":"씨젠",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"46003",
-"SRIM_2":"60506",
-"SRIM_3":"108337"
+"stock_code": "A096530",
+"stock_name": "씨젠",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "46070",
+"SRIM_2": "60594",
+"SRIM_3": "108495",
+"stock_Div_PER": "N/A",
+"Current_PER": "61.64",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "1676848",
+"PER_Target_Avr": "838424",
+"Close_Price": "132300",
+"Price_over_PERAvg": "7.88980277282139E-02"
 }

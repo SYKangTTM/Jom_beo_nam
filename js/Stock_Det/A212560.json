@@ -1,8 +1,16 @@
 {
-"stock_code":"A212560",
-"stock_name":"네오오토",
-"stock_Div":"자동차부품",
-"SRIM_1":"9067",
-"SRIM_2":"7521",
-"SRIM_3":"4935"
+"stock_code": "A212560",
+"stock_name": "네오오토",
+"stock_Div": "자동차부품",
+"SRIM_1": "9080",
+"SRIM_2": "7532",
+"SRIM_3": "4942",
+"stock_Div_PER": "12.97",
+"Current_PER": "15.45",
+"Current_PER_Rank": "49",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4940",
+"Price_over_PERAvg": "N/A"
 }

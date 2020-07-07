@@ -1,8 +1,16 @@
 {
-"stock_code":"A030190",
-"stock_name":"NICE평가정보",
-"stock_Div":"상업서비스",
-"SRIM_1":"5024",
-"SRIM_2":"6042",
-"SRIM_3":"8984"
+"stock_code": "A030190",
+"stock_name": "NICE평가정보",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "5031",
+"SRIM_2": "6051",
+"SRIM_3": "8997",
+"stock_Div_PER": "24.48",
+"Current_PER": "27.17",
+"Current_PER_Rank": "16",
+"PER_Target_1": "16943",
+"PER_Target_2": "14238",
+"PER_Target_Avr": "15590",
+"Close_Price": "18800",
+"Price_over_PERAvg": "1.20586254449825"
 }

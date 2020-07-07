@@ -1,8 +1,16 @@
 {
-"stock_code":"A014790",
-"stock_name":"한라",
-"stock_Div":"건설",
-"SRIM_1":"35529",
-"SRIM_2":"39485",
-"SRIM_3":"49657"
+"stock_code": "A014790",
+"stock_name": "한라",
+"stock_Div": "건설",
+"SRIM_1": "35580",
+"SRIM_2": "39543",
+"SRIM_3": "49729",
+"stock_Div_PER": "6.13",
+"Current_PER": "13.46",
+"Current_PER_Rank": "39",
+"PER_Target_1": "4237",
+"PER_Target_2": "0",
+"PER_Target_Avr": "2118",
+"Close_Price": "3050",
+"Price_over_PERAvg": "0.719848949728581"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A019660",
-"stock_name":"글로본",
-"stock_Div":"개인생활용품",
-"SRIM_1":"643",
-"SRIM_2":"533",
-"SRIM_3":"350"
+"stock_code": "A019660",
+"stock_name": "글로본",
+"stock_Div": "화장품",
+"SRIM_1": "644",
+"SRIM_2": "534",
+"SRIM_3": "351",
+"stock_Div_PER": "47.37",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2240",
+"Price_over_PERAvg": "N/A"
 }

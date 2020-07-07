@@ -1,8 +1,16 @@
 {
-"stock_code":"A155660",
-"stock_name":"DSR",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"8644",
-"SRIM_2":"7170",
-"SRIM_3":"4704"
+"stock_code": "A155660",
+"stock_name": "DSR",
+"stock_Div": "ºñÃ¶±Ý¼Ó",
+"SRIM_1": "8653",
+"SRIM_2": "7173",
+"SRIM_3": "4699",
+"stock_Div_PER": "17.84",
+"Current_PER": "7.14",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3925",
+"Price_over_PERAvg": "N/A"
 }

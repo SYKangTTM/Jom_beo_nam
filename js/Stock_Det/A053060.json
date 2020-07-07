@@ -1,8 +1,16 @@
 {
-"stock_code":"A053060",
-"stock_name":"세동",
-"stock_Div":"자동차부품",
-"SRIM_1":"794",
-"SRIM_2":"658",
-"SRIM_3":"432"
+"stock_code": "A053060",
+"stock_name": "세동",
+"stock_Div": "자동차부품",
+"SRIM_1": "795",
+"SRIM_2": "659",
+"SRIM_3": "433",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "568",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A067310",
-"stock_name":"하나마이크론",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"4371",
-"SRIM_2":"3626",
-"SRIM_3":"2379"
+"stock_code": "A067310",
+"stock_name": "하나마이크론",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "4377",
+"SRIM_2": "3631",
+"SRIM_3": "2382",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4760",
+"Price_over_PERAvg": "N/A"
 }

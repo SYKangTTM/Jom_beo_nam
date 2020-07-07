@@ -1,8 +1,16 @@
 {
-"stock_code":"A011070",
-"stock_name":"LG이노텍",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"130442",
-"SRIM_2":"147397",
-"SRIM_3":"192066"
+"stock_code": "A011070",
+"stock_name": "LG이노텍",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "130845",
+"SRIM_2": "147990",
+"SRIM_3": "193222",
+"stock_Div_PER": "31.01",
+"Current_PER": "19.57",
+"Current_PER_Rank": "24",
+"PER_Target_1": "470935",
+"PER_Target_2": "1486319",
+"PER_Target_Avr": "978627",
+"Close_Price": "175500",
+"Price_over_PERAvg": "0.17933288168015"
 }

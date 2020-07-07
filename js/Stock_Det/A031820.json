@@ -1,8 +1,16 @@
 {
-"stock_code":"A031820",
-"stock_name":"콤텍시스템",
-"stock_Div":"통신장비",
-"SRIM_1":"1258",
-"SRIM_2":"1043",
-"SRIM_3":"684"
+"stock_code": "A031820",
+"stock_name": "콤텍시스템",
+"stock_Div": "IT서비스",
+"SRIM_1": "1259",
+"SRIM_2": "1045",
+"SRIM_3": "685",
+"stock_Div_PER": "23.79",
+"Current_PER": "257.63",
+"Current_PER_Rank": "47",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1270",
+"Price_over_PERAvg": "N/A"
 }

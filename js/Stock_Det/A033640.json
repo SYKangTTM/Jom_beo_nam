@@ -1,8 +1,16 @@
 {
-"stock_code":"A033640",
-"stock_name":"네패스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"14611",
-"SRIM_2":"22083",
-"SRIM_3":"52350"
+"stock_code": "A033640",
+"stock_name": "네패스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "14632",
+"SRIM_2": "22115",
+"SRIM_3": "52426",
+"stock_Div_PER": "17.68",
+"Current_PER": "27.2",
+"Current_PER_Rank": "57",
+"PER_Target_1": "-2612",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-1306",
+"Close_Price": "28800",
+"Price_over_PERAvg": "-11.0260336906585"
 }

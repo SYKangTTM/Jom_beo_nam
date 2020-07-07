@@ -1,8 +1,16 @@
 {
-"stock_code":"A006800",
-"stock_name":"미래에셋대우",
-"stock_Div":"증권",
-"SRIM_1":"12375",
-"SRIM_2":"11914",
-"SRIM_3":"10955"
+"stock_code": "A006800",
+"stock_name": "미래에셋대우",
+"stock_Div": "증권",
+"SRIM_1": "12458",
+"SRIM_2": "12002",
+"SRIM_3": "11053",
+"stock_Div_PER": "6.77",
+"Current_PER": "9.33",
+"Current_PER_Rank": "16",
+"PER_Target_1": "3118",
+"PER_Target_2": "14997",
+"PER_Target_Avr": "9058",
+"Close_Price": "6900",
+"Price_over_PERAvg": "0.761799613579906"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A016580",
-"stock_name":"환인제약",
-"stock_Div":"제약",
-"SRIM_1":"16126",
-"SRIM_2":"13376",
-"SRIM_3":"8777"
+"stock_code": "A016580",
+"stock_name": "환인제약",
+"stock_Div": "제약",
+"SRIM_1": "16150",
+"SRIM_2": "13396",
+"SRIM_3": "8789",
+"stock_Div_PER": "122.92",
+"Current_PER": "15.31",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14250",
+"Price_over_PERAvg": "N/A"
 }

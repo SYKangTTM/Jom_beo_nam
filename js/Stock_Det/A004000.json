@@ -1,8 +1,16 @@
 {
-"stock_code":"A004000",
-"stock_name":"롯데정밀화학",
-"stock_Div":"화학",
-"SRIM_1":"64360",
-"SRIM_2":"67765",
-"SRIM_3":"75849"
+"stock_code": "A004000",
+"stock_name": "롯데정밀화학",
+"stock_Div": "화학",
+"SRIM_1": "64560",
+"SRIM_2": "68116",
+"SRIM_3": "76583",
+"stock_Div_PER": "58.5",
+"Current_PER": "6.01",
+"Current_PER_Rank": "13",
+"PER_Target_1": "275391",
+"PER_Target_2": "0",
+"PER_Target_Avr": "137696",
+"Close_Price": "41350",
+"Price_over_PERAvg": "0.15015015015015"
 }

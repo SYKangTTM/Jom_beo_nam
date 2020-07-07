@@ -1,8 +1,16 @@
 {
-"stock_code":"A008260",
-"stock_name":"NI스틸",
-"stock_Div":"금속및광물",
-"SRIM_1":"3487",
-"SRIM_2":"2892",
-"SRIM_3":"1898"
+"stock_code": "A008260",
+"stock_name": "NI스틸",
+"stock_Div": "철강",
+"SRIM_1": "3492",
+"SRIM_2": "2896",
+"SRIM_3": "1900",
+"stock_Div_PER": "18.57",
+"Current_PER": "9.99",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2005",
+"Price_over_PERAvg": "N/A"
 }

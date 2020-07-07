@@ -1,8 +1,16 @@
 {
-"stock_code":"A067920",
-"stock_name":"이글루시큐리티",
-"stock_Div":"IT서비스",
-"SRIM_1":"4728",
-"SRIM_2":"3922",
-"SRIM_3":"2573"
+"stock_code": "A067920",
+"stock_name": "이글루시큐리티",
+"stock_Div": "소프트웨어",
+"SRIM_1": "4735",
+"SRIM_2": "3927",
+"SRIM_3": "2577",
+"stock_Div_PER": "110.57",
+"Current_PER": "19.68",
+"Current_PER_Rank": "13",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4590",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A102260",
-"stock_name":"동성코퍼레이션",
-"stock_Div":"화학",
-"SRIM_1":"5758",
-"SRIM_2":"4776",
-"SRIM_3":"3134"
+"stock_code": "A102260",
+"stock_name": "동성코퍼레이션",
+"stock_Div": "화학",
+"SRIM_1": "5766",
+"SRIM_2": "4783",
+"SRIM_3": "3138",
+"stock_Div_PER": "58.5",
+"Current_PER": "22.51",
+"Current_PER_Rank": "52",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3760",
+"Price_over_PERAvg": "N/A"
 }

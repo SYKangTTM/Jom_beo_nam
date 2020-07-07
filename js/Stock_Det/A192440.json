@@ -1,8 +1,16 @@
 {
-"stock_code":"A192440",
-"stock_name":"슈피겐코리아",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"64526",
-"SRIM_2":"73621",
-"SRIM_3":"97929"
+"stock_code": "A192440",
+"stock_name": "슈피겐코리아",
+"stock_Div": "핸드셋",
+"SRIM_1": "64619",
+"SRIM_2": "73728",
+"SRIM_3": "98072",
+"stock_Div_PER": "22.29",
+"Current_PER": "9.3",
+"Current_PER_Rank": "12",
+"PER_Target_1": "173659",
+"PER_Target_2": "74720",
+"PER_Target_Avr": "124190",
+"Close_Price": "65300",
+"Price_over_PERAvg": "0.525809347811208"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A013580",
-"stock_name":"계룡건설",
-"stock_Div":"건설",
-"SRIM_1":"46027",
-"SRIM_2":"38178",
-"SRIM_3":"25050"
+"stock_code": "A013580",
+"stock_name": "계룡건설",
+"stock_Div": "건설",
+"SRIM_1": "46094",
+"SRIM_2": "38234",
+"SRIM_3": "25086",
+"stock_Div_PER": "6.13",
+"Current_PER": "2.03",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15600",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A272210",
-"stock_name":"한화시스템",
-"stock_Div":"상업서비스",
-"SRIM_1":"8387",
-"SRIM_2":"8461",
-"SRIM_3":"8627"
+"stock_code": "A272210",
+"stock_name": "한화시스템",
+"stock_Div": "우주항공과국방",
+"SRIM_1": "8390",
+"SRIM_2": "8461",
+"SRIM_3": "8617",
+"stock_Div_PER": "19.42",
+"Current_PER": "12.81",
+"Current_PER_Rank": "4",
+"PER_Target_1": "11951",
+"PER_Target_2": "0",
+"PER_Target_Avr": "5976",
+"Close_Price": "9040",
+"Price_over_PERAvg": "0.756422056731654"
 }

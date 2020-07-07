@@ -1,8 +1,16 @@
 {
-"stock_code":"A066980",
-"stock_name":"브레인콘텐츠",
-"stock_Div":"소비자금융",
-"SRIM_1":"591",
-"SRIM_2":"490",
-"SRIM_3":"322"
+"stock_code": "A066980",
+"stock_name": "브레인콘텐츠",
+"stock_Div": "IT서비스",
+"SRIM_1": "592",
+"SRIM_2": "491",
+"SRIM_3": "322",
+"stock_Div_PER": "23.79",
+"Current_PER": "24.66",
+"Current_PER_Rank": "27",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "616",
+"Price_over_PERAvg": "N/A"
 }

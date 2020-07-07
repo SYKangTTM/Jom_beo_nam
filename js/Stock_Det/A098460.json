@@ -1,8 +1,16 @@
 {
-"stock_code":"A098460",
-"stock_name":"고영",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"23603",
-"SRIM_2":"27606",
-"SRIM_3":"38701"
+"stock_code": "A098460",
+"stock_name": "고영",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "23637",
+"SRIM_2": "27646",
+"SRIM_3": "38757",
+"stock_Div_PER": "31.01",
+"Current_PER": "40.71",
+"Current_PER_Rank": "34",
+"PER_Target_1": "72068",
+"PER_Target_2": "71635",
+"PER_Target_Avr": "71852",
+"Close_Price": "101900",
+"Price_over_PERAvg": "1.41820282109629"
 }

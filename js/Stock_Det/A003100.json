@@ -1,8 +1,16 @@
 {
-"stock_code":"A003100",
-"stock_name":"선광",
-"stock_Div":"운송인프라",
-"SRIM_1":"46421",
-"SRIM_2":"38505",
-"SRIM_3":"25265"
+"stock_code": "A003100",
+"stock_name": "선광",
+"stock_Div": "운송인프라",
+"SRIM_1": "46642",
+"SRIM_2": "38689",
+"SRIM_3": "25385",
+"stock_Div_PER": "20.73",
+"Current_PER": "16.46",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15700",
+"Price_over_PERAvg": "N/A"
 }

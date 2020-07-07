@@ -1,8 +1,16 @@
 {
-"stock_code":"A217820",
-"stock_name":"엔에스",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"2955",
-"SRIM_2":"2451",
-"SRIM_3":"1608"
+"stock_code": "A217820",
+"stock_name": "엔에스",
+"stock_Div": "전기제품",
+"SRIM_1": "2959",
+"SRIM_2": "2454",
+"SRIM_3": "1610",
+"stock_Div_PER": "77.9",
+"Current_PER": "15.66",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7400",
+"Price_over_PERAvg": "N/A"
 }

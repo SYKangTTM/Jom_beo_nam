@@ -1,8 +1,16 @@
 {
-"stock_code":"A150900",
-"stock_name":"파수",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"3189",
-"SRIM_2":"4175",
-"SRIM_3":"7406"
+"stock_code": "A150900",
+"stock_name": "파수",
+"stock_Div": "소프트웨어",
+"SRIM_1": "2271",
+"SRIM_2": "1884",
+"SRIM_3": "1236",
+"stock_Div_PER": "110.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "115643",
+"PER_Target_2": "0",
+"PER_Target_Avr": "57822",
+"Close_Price": "4595",
+"Price_over_PERAvg": "3.97343548679989E-02"
 }

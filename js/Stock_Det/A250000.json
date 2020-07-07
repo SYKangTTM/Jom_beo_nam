@@ -1,8 +1,16 @@
 {
-"stock_code":"A250000",
-"stock_name":"보라티알",
-"stock_Div":"식료품",
-"SRIM_1":"7637",
-"SRIM_2":"6335",
-"SRIM_3":"4157"
+"stock_code": "A250000",
+"stock_name": "보라티알",
+"stock_Div": "식품과기본식료품소매",
+"SRIM_1": "7648",
+"SRIM_2": "6344",
+"SRIM_3": "4163",
+"stock_Div_PER": "46.19",
+"Current_PER": "48.78",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8440",
+"Price_over_PERAvg": "N/A"
 }

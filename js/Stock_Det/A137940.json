@@ -1,8 +1,16 @@
 {
-"stock_code":"A137940",
-"stock_name":"넥스트아이",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"946",
-"SRIM_2":"785",
-"SRIM_3":"515"
+"stock_code": "A137940",
+"stock_name": "넥스트아이",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "948",
+"SRIM_2": "786",
+"SRIM_3": "516",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1325",
+"Price_over_PERAvg": "N/A"
 }

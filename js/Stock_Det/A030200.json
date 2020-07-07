@@ -1,8 +1,16 @@
 {
-"stock_code":"A030200",
-"stock_name":"KT",
-"stock_Div":"무선통신",
-"SRIM_1":"49920",
-"SRIM_2":"48004",
-"SRIM_3":"44026"
+"stock_code": "A030200",
+"stock_name": "KT",
+"stock_Div": "다각화된통신서비스",
+"SRIM_1": "50097",
+"SRIM_2": "48230",
+"SRIM_3": "44347",
+"stock_Div_PER": "12.51",
+"Current_PER": "10.62",
+"Current_PER_Rank": "1",
+"PER_Target_1": "30128",
+"PER_Target_2": "35618",
+"PER_Target_Avr": "32873",
+"Close_Price": "23950",
+"Price_over_PERAvg": "0.728561433395188"
 }

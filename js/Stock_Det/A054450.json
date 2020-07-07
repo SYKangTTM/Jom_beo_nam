@@ -1,8 +1,16 @@
 {
-"stock_code":"A054450",
-"stock_name":"텔레칩스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"8316",
-"SRIM_2":"8358",
-"SRIM_3":"8453"
+"stock_code": "A054450",
+"stock_name": "텔레칩스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "8328",
+"SRIM_2": "8371",
+"SRIM_3": "8465",
+"stock_Div_PER": "17.68",
+"Current_PER": "26.61",
+"Current_PER_Rank": "55",
+"PER_Target_1": "9673",
+"PER_Target_2": "20879",
+"PER_Target_Avr": "15276",
+"Close_Price": "8000",
+"Price_over_PERAvg": "0.52369730295889"
 }

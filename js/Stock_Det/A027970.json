@@ -1,8 +1,16 @@
 {
-"stock_code":"A027970",
-"stock_name":"세하",
-"stock_Div":"종이및목재",
-"SRIM_1":"1153",
-"SRIM_2":"956",
-"SRIM_3":"627"
+"stock_code": "A027970",
+"stock_name": "세하",
+"stock_Div": "포장재",
+"SRIM_1": "1155",
+"SRIM_2": "958",
+"SRIM_3": "628",
+"stock_Div_PER": "9.45",
+"Current_PER": "4.11",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1700",
+"Price_over_PERAvg": "N/A"
 }

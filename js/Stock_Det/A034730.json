@@ -1,8 +1,16 @@
 {
-"stock_code":"A034730",
-"stock_name":"SK",
-"stock_Div":"석유및가스",
-"SRIM_1":"289022",
-"SRIM_2":"271034",
-"SRIM_3":"235027"
+"stock_code": "A034730",
+"stock_name": "SK",
+"stock_Div": "복합기업",
+"SRIM_1": "295564",
+"SRIM_2": "276511",
+"SRIM_3": "238505",
+"stock_Div_PER": "20.53",
+"Current_PER": "267.65",
+"Current_PER_Rank": "6",
+"PER_Target_1": "144373",
+"PER_Target_2": "121595",
+"PER_Target_Avr": "132984",
+"Close_Price": "261000",
+"Price_over_PERAvg": "1.96264212236058"
 }

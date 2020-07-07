@@ -1,8 +1,16 @@
 {
-"stock_code":"A197140",
-"stock_name":"디지캡",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"3746",
-"SRIM_2":"3107",
-"SRIM_3":"2039"
+"stock_code": "A197140",
+"stock_name": "디지캡",
+"stock_Div": "소프트웨어",
+"SRIM_1": "3751",
+"SRIM_2": "3112",
+"SRIM_3": "2042",
+"stock_Div_PER": "110.57",
+"Current_PER": "276.95",
+"Current_PER_Rank": "27",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3905",
+"Price_over_PERAvg": "N/A"
 }

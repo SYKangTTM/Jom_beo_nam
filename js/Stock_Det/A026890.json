@@ -1,8 +1,16 @@
 {
-"stock_code":"A026890",
-"stock_name":"디피씨",
-"stock_Div":"내구소비재",
-"SRIM_1":"3730",
-"SRIM_2":"3094",
-"SRIM_3":"2030"
+"stock_code": "A026890",
+"stock_name": "디피씨",
+"stock_Div": "전기제품",
+"SRIM_1": "3735",
+"SRIM_2": "3098",
+"SRIM_3": "2033",
+"stock_Div_PER": "77.9",
+"Current_PER": "37.87",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14350",
+"Price_over_PERAvg": "N/A"
 }

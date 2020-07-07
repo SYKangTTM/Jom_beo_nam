@@ -1,8 +1,16 @@
 {
-"stock_code":"A201490",
-"stock_name":"미투온",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"2025",
-"SRIM_2":"1680",
-"SRIM_3":"1102"
+"stock_code": "A201490",
+"stock_name": "미투온",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "2028",
+"SRIM_2": "1682",
+"SRIM_3": "1104",
+"stock_Div_PER": "38.15",
+"Current_PER": "21.39",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7500",
+"Price_over_PERAvg": "N/A"
 }

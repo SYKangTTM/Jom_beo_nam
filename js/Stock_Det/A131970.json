@@ -1,8 +1,16 @@
 {
-"stock_code":"A131970",
-"stock_name":"테스나",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"17342",
-"SRIM_2":"14385",
-"SRIM_3":"9439"
+"stock_code": "A131970",
+"stock_name": "테스나",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "17368",
+"SRIM_2": "14406",
+"SRIM_3": "9452",
+"stock_Div_PER": "17.68",
+"Current_PER": "21.21",
+"Current_PER_Rank": "42",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "61000",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A115390",
-"stock_name":"락앤락",
-"stock_Div":"용기및포장",
-"SRIM_1":"11562",
-"SRIM_2":"9591",
-"SRIM_3":"6293"
+"stock_code": "A115390",
+"stock_name": "락앤락",
+"stock_Div": "포장재",
+"SRIM_1": "11579",
+"SRIM_2": "9604",
+"SRIM_3": "6302",
+"stock_Div_PER": "9.45",
+"Current_PER": "46.47",
+"Current_PER_Rank": "25",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10500",
+"Price_over_PERAvg": "N/A"
 }

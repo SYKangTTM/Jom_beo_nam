@@ -1,8 +1,16 @@
 {
-"stock_code":"A111710",
-"stock_name":"남화산업",
-"stock_Div":"호텔및레저",
-"SRIM_1":"5896",
-"SRIM_2":"4891",
-"SRIM_3":"3209"
+"stock_code": "A111710",
+"stock_name": "남화산업",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "5905",
+"SRIM_2": "4898",
+"SRIM_3": "3214",
+"stock_Div_PER": "96.54",
+"Current_PER": "97.01",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13800",
+"Price_over_PERAvg": "N/A"
 }

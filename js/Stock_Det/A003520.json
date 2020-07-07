@@ -1,8 +1,16 @@
 {
-"stock_code":"A003520",
-"stock_name":"영진약품",
-"stock_Div":"제약",
-"SRIM_1":"569",
-"SRIM_2":"472",
-"SRIM_3":"310"
+"stock_code": "A003520",
+"stock_name": "영진약품",
+"stock_Div": "제약",
+"SRIM_1": "570",
+"SRIM_2": "473",
+"SRIM_3": "310",
+"stock_Div_PER": "122.92",
+"Current_PER": "199",
+"Current_PER_Rank": "73",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5490",
+"Price_over_PERAvg": "N/A"
 }

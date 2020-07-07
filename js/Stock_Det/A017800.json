@@ -1,8 +1,16 @@
 {
-"stock_code":"A017800",
-"stock_name":"현대엘리베이",
-"stock_Div":"기계",
-"SRIM_1":"36558",
-"SRIM_2":"37542",
-"SRIM_3":"39793"
+"stock_code": "A017800",
+"stock_name": "현대엘리베이",
+"stock_Div": "기계",
+"SRIM_1": "22849",
+"SRIM_2": "23464",
+"SRIM_3": "24871",
+"stock_Div_PER": "N/A",
+"Current_PER": "110.87",
+"Current_PER_Rank": "56",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "50000",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A112040",
-"stock_name":"위메이드",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"17488",
-"SRIM_2":"20668",
-"SRIM_3":"29621"
+"stock_code": "A112040",
+"stock_name": "위메이드",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "16628",
+"SRIM_2": "19228",
+"SRIM_3": "26315",
+"stock_Div_PER": "38.15",
+"Current_PER": "438.09",
+"Current_PER_Rank": "22",
+"PER_Target_1": "45021",
+"PER_Target_2": "0",
+"PER_Target_Avr": "22510",
+"Close_Price": "40150",
+"Price_over_PERAvg": "0.891806046067391"
 }

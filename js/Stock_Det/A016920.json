@@ -1,8 +1,16 @@
 {
-"stock_code":"A016920",
-"stock_name":"카스",
-"stock_Div":"기계",
-"SRIM_1":"1913",
-"SRIM_2":"1587",
-"SRIM_3":"1041"
+"stock_code": "A016920",
+"stock_name": "카스",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "1916",
+"SRIM_2": "1589",
+"SRIM_3": "1043",
+"stock_Div_PER": "31.01",
+"Current_PER": "13.52",
+"Current_PER_Rank": "18",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1430",
+"Price_over_PERAvg": "N/A"
 }

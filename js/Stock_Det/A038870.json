@@ -1,8 +1,16 @@
 {
-"stock_code":"A038870",
-"stock_name":"에코바이오",
-"stock_Div":"에너지시설및서비스",
-"SRIM_1":"4818",
-"SRIM_2":"3996",
-"SRIM_3":"2622"
+"stock_code": "A038870",
+"stock_name": "에코바이오",
+"stock_Div": "독립전력생산및에너지거래",
+"SRIM_1": "4825",
+"SRIM_2": "4002",
+"SRIM_3": "2626",
+"stock_Div_PER": "9.55",
+"Current_PER": "9.55",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9180",
+"Price_over_PERAvg": "N/A"
 }

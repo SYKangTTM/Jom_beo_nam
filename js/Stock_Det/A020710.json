@@ -1,8 +1,16 @@
 {
-"stock_code":"A020710",
-"stock_name":"시공테크",
-"stock_Div":"호텔및레저",
-"SRIM_1":"5118",
-"SRIM_2":"4246",
-"SRIM_3":"2786"
+"stock_code": "A020710",
+"stock_name": "시공테크",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "5126",
+"SRIM_2": "4252",
+"SRIM_3": "2790",
+"stock_Div_PER": "96.54",
+"Current_PER": "6.78",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5140",
+"Price_over_PERAvg": "N/A"
 }

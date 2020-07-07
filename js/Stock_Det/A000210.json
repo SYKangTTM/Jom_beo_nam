@@ -1,8 +1,16 @@
 {
-"stock_code":"A000210",
-"stock_name":"대림산업",
-"stock_Div":"건설",
-"SRIM_1":"175279",
-"SRIM_2":"179831",
-"SRIM_3":"190231"
+"stock_code": "A000210",
+"stock_name": "대림산업",
+"stock_Div": "건설",
+"SRIM_1": "175504",
+"SRIM_2": "179979",
+"SRIM_3": "190196",
+"stock_Div_PER": "6.13",
+"Current_PER": "5.1",
+"Current_PER_Rank": "17",
+"PER_Target_1": "118753",
+"PER_Target_2": "173035",
+"PER_Target_Avr": "145894",
+"Close_Price": "84700",
+"Price_over_PERAvg": "0.58055848766913"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A082210",
-"stock_name":"옵트론텍",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"5129",
-"SRIM_2":"5284",
-"SRIM_3":"5640"
+"stock_code": "A082210",
+"stock_name": "옵트론텍",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "5136",
+"SRIM_2": "5292",
+"SRIM_3": "5649",
+"stock_Div_PER": "31.01",
+"Current_PER": "14.88",
+"Current_PER_Rank": "20",
+"PER_Target_1": "13318",
+"PER_Target_2": "13106",
+"PER_Target_Avr": "13212",
+"Close_Price": "4895",
+"Price_over_PERAvg": "0.370496518316682"
 }

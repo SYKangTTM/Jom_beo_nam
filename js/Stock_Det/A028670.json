@@ -1,8 +1,16 @@
 {
-"stock_code":"A028670",
-"stock_name":"팬오션",
-"stock_Div":"해상운수",
-"SRIM_1":"5195",
-"SRIM_2":"4951",
-"SRIM_3":"4451"
+"stock_code": "A028670",
+"stock_name": "팬오션",
+"stock_Div": "해운사",
+"SRIM_1": "5225",
+"SRIM_2": "4967",
+"SRIM_3": "4440",
+"stock_Div_PER": "N/A",
+"Current_PER": "14.73",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "5472",
+"PER_Target_Avr": "2736",
+"Close_Price": "4095",
+"Price_over_PERAvg": "0.748355263157895"
 }

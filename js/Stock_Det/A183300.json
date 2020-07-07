@@ -1,8 +1,16 @@
 {
-"stock_code":"A183300",
-"stock_name":"코미코",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"29039",
-"SRIM_2":"36989",
-"SRIM_3":"61992"
+"stock_code": "A183300",
+"stock_name": "코미코",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "29081",
+"SRIM_2": "37043",
+"SRIM_3": "62083",
+"stock_Div_PER": "17.68",
+"Current_PER": "14.91",
+"Current_PER_Rank": "25",
+"PER_Target_1": "50347",
+"PER_Target_2": "0",
+"PER_Target_Avr": "25174",
+"Close_Price": "35250",
+"Price_over_PERAvg": "0.700141021312094"
 }

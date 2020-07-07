@@ -1,8 +1,16 @@
 {
-"stock_code":"A264660",
-"stock_name":"씨앤지하이테크",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"7476",
-"SRIM_2":"6202",
-"SRIM_3":"4069"
+"stock_code": "A264660",
+"stock_name": "씨앤지하이테크",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "7487",
+"SRIM_2": "6211",
+"SRIM_3": "4075",
+"stock_Div_PER": "17.68",
+"Current_PER": "5.67",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8960",
+"Price_over_PERAvg": "N/A"
 }

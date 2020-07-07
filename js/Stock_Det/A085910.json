@@ -1,8 +1,16 @@
 {
-"stock_code":"A085910",
-"stock_name":"네오티스",
-"stock_Div":"자동차부품",
-"SRIM_1":"3676",
-"SRIM_2":"3049",
-"SRIM_3":"2001"
+"stock_code": "A085910",
+"stock_name": "네오티스",
+"stock_Div": "자동차부품",
+"SRIM_1": "3681",
+"SRIM_2": "3054",
+"SRIM_3": "2004",
+"stock_Div_PER": "12.97",
+"Current_PER": "21.02",
+"Current_PER_Rank": "56",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3670",
+"Price_over_PERAvg": "N/A"
 }

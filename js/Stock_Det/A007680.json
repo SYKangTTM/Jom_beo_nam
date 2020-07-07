@@ -1,8 +1,16 @@
 {
-"stock_code":"A007680",
-"stock_name":"대원",
-"stock_Div":"부동산",
-"SRIM_1":"21988",
-"SRIM_2":"18238",
-"SRIM_3":"11967"
+"stock_code": "A007680",
+"stock_name": "대원",
+"stock_Div": "건설",
+"SRIM_1": "22019",
+"SRIM_2": "18265",
+"SRIM_3": "11984",
+"stock_Div_PER": "6.13",
+"Current_PER": "13.31",
+"Current_PER_Rank": "38",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8990",
+"Price_over_PERAvg": "N/A"
 }

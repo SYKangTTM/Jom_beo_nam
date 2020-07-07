@@ -1,8 +1,16 @@
 {
-"stock_code":"A004360",
-"stock_name":"세방",
-"stock_Div":"육상운수",
-"SRIM_1":"32367",
-"SRIM_2":"26848",
-"SRIM_3":"17616"
+"stock_code": "A004360",
+"stock_name": "세방",
+"stock_Div": "항공화물운송과물류",
+"SRIM_1": "32430",
+"SRIM_2": "26901",
+"SRIM_3": "17650",
+"stock_Div_PER": "14.8",
+"Current_PER": "43.71",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10400",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A010240",
-"stock_name":"»Ô±π",
-"stock_Div":"±‚∞Ë",
-"SRIM_1":"5150",
-"SRIM_2":"4272",
-"SRIM_3":"2803"
+"stock_code": "A010240",
+"stock_name": "»Ô±π",
+"stock_Div": "±‚∞Ë",
+"SRIM_1": "5728",
+"SRIM_2": "5728",
+"SRIM_3": "5728",
+"stock_Div_PER": "N/A",
+"Current_PER": "6.21",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4040",
+"Price_over_PERAvg": "N/A"
 }

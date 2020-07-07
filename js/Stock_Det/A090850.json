@@ -1,8 +1,16 @@
 {
-"stock_code":"A090850",
-"stock_name":"이지웰페어",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"6673",
-"SRIM_2":"8943",
-"SRIM_3":"16639"
+"stock_code": "A090850",
+"stock_name": "이지웰",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "6683",
+"SRIM_2": "8956",
+"SRIM_3": "16663",
+"stock_Div_PER": "24.48",
+"Current_PER": "22.4",
+"Current_PER_Rank": "13",
+"PER_Target_1": "18976",
+"PER_Target_2": "0",
+"PER_Target_Avr": "9488",
+"Close_Price": "12450",
+"Price_over_PERAvg": "0.656091905564924"
 }

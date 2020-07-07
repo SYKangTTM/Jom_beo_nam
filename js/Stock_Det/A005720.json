@@ -1,8 +1,16 @@
 {
-"stock_code":"A005720",
-"stock_name":"넥센",
-"stock_Div":"자동차부품",
-"SRIM_1":"16453",
-"SRIM_2":"13648",
-"SRIM_3":"8955"
+"stock_code": "A005720",
+"stock_name": "넥센",
+"stock_Div": "자동차부품",
+"SRIM_1": "16477",
+"SRIM_2": "13668",
+"SRIM_3": "8968",
+"stock_Div_PER": "12.97",
+"Current_PER": "4.24",
+"Current_PER_Rank": "9",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4095",
+"Price_over_PERAvg": "N/A"
 }

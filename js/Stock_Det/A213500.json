@@ -1,8 +1,17 @@
 {
-"stock_code":"A213500",
-"stock_name":"한솔제지",
-"stock_Div":"종이및목재",
-"SRIM_1":"26729",
-"SRIM_2":"27600",
-"SRIM_3":"29610"
+"stock_code": "A213500",
+"stock_name": "한솔제지",
+"stock_Div": "종이와목재",
+"SRIM_1": "22366",
+"SRIM_2": "18552",
+"SRIM_3": "12173",
+"stock_Div_PER": "N/A",
+"Current_PER": "
+						<dt class="line-left"",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "43521",
+"PER_Target_Avr": "21760",
+"Close_Price": "14250",
+"Price_over_PERAvg": "0.327428138140208"
 }

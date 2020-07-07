@@ -1,8 +1,16 @@
 {
-"stock_code":"A138070",
-"stock_name":"신진에스엠",
-"stock_Div":"기계",
-"SRIM_1":"7494",
-"SRIM_2":"6216",
-"SRIM_3":"4079"
+"stock_code": "A138070",
+"stock_name": "신진에스엠",
+"stock_Div": "기계",
+"SRIM_1": "7505",
+"SRIM_2": "6225",
+"SRIM_3": "4085",
+"stock_Div_PER": "N/A",
+"Current_PER": "19.5",
+"Current_PER_Rank": "28",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4645",
+"Price_over_PERAvg": "N/A"
 }

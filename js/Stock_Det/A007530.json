@@ -1,8 +1,16 @@
 {
-"stock_code":"A007530",
-"stock_name":"영신금속",
-"stock_Div":"자동차부품",
-"SRIM_1":"2971",
-"SRIM_2":"2464",
-"SRIM_3":"1617"
+"stock_code": "A007530",
+"stock_name": "영신금속",
+"stock_Div": "자동차부품",
+"SRIM_1": "2975",
+"SRIM_2": "2468",
+"SRIM_3": "1619",
+"stock_Div_PER": "12.97",
+"Current_PER": "3.62",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1405",
+"Price_over_PERAvg": "N/A"
 }

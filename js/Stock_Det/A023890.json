@@ -1,8 +1,16 @@
 {
-"stock_code":"A023890",
-"stock_name":"한국아트라스비엑스",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"133032",
-"SRIM_2":"149756",
-"SRIM_3":"193570"
+"stock_code": "A023890",
+"stock_name": "한국아트라스비엑스",
+"stock_Div": "자동차부품",
+"SRIM_1": "133225",
+"SRIM_2": "149974",
+"SRIM_3": "193852",
+"stock_Div_PER": "12.97",
+"Current_PER": "8.56",
+"Current_PER_Rank": "32",
+"PER_Target_1": "59123",
+"PER_Target_2": "49449",
+"PER_Target_Avr": "54286",
+"Close_Price": "45500",
+"Price_over_PERAvg": "0.838153483402719"
 }

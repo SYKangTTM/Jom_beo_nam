@@ -1,8 +1,16 @@
 {
-"stock_code":"A307160",
-"stock_name":"하나머스트제6호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1626",
-"SRIM_2":"1349",
-"SRIM_3":"885"
+"stock_code": "A307160",
+"stock_name": "하나머스트제6호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1628",
+"SRIM_2": "1351",
+"SRIM_3": "886",
+"stock_Div_PER": "",
+"Current_PER": "125.91",
+"Current_PER_Rank": "11",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2155",
+"Price_over_PERAvg": "N/A"
 }

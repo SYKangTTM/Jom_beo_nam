@@ -1,8 +1,16 @@
 {
-"stock_code":"A035890",
-"stock_name":"서희건설",
-"stock_Div":"건설",
-"SRIM_1":"5100",
-"SRIM_2":"5667",
-"SRIM_3":"7127"
+"stock_code": "A035890",
+"stock_name": "서희건설",
+"stock_Div": "건설",
+"SRIM_1": "5107",
+"SRIM_2": "5676",
+"SRIM_3": "7138",
+"stock_Div_PER": "6.13",
+"Current_PER": "3.04",
+"Current_PER_Rank": "7",
+"PER_Target_1": "2606",
+"PER_Target_2": "3508",
+"PER_Target_Avr": "3057",
+"Close_Price": "1070",
+"Price_over_PERAvg": "0.350016355904481"
 }

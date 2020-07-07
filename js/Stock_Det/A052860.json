@@ -1,8 +1,16 @@
 {
-"stock_code":"A052860",
-"stock_name":"아이앤씨",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"2893",
-"SRIM_2":"2400",
-"SRIM_3":"1575"
+"stock_code": "A052860",
+"stock_name": "아이앤씨",
+"stock_Div": "통신장비",
+"SRIM_1": "2898",
+"SRIM_2": "2404",
+"SRIM_3": "1577",
+"stock_Div_PER": "95.76",
+"Current_PER": "24.92",
+"Current_PER_Rank": "17",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4440",
+"Price_over_PERAvg": "N/A"
 }

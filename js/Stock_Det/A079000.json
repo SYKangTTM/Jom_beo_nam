@@ -1,8 +1,16 @@
 {
-"stock_code":"A079000",
-"stock_name":"와토스코리아",
-"stock_Div":"건축자재",
-"SRIM_1":"9406",
-"SRIM_2":"7802",
-"SRIM_3":"5119"
+"stock_code": "A079000",
+"stock_name": "와토스코리아",
+"stock_Div": "건축제품",
+"SRIM_1": "9420",
+"SRIM_2": "7813",
+"SRIM_3": "5127",
+"stock_Div_PER": "266.17",
+"Current_PER": "11.59",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4735",
+"Price_over_PERAvg": "N/A"
 }

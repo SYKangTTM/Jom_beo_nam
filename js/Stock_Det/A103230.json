@@ -1,8 +1,16 @@
 {
-"stock_code":"A103230",
-"stock_name":"에스앤더블류",
-"stock_Div":"조선",
-"SRIM_1":"4871",
-"SRIM_2":"4040",
-"SRIM_3":"2651"
+"stock_code": "A103230",
+"stock_name": "에스앤더블류",
+"stock_Div": "조선",
+"SRIM_1": "4878",
+"SRIM_2": "4046",
+"SRIM_3": "2655",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1875",
+"Price_over_PERAvg": "N/A"
 }

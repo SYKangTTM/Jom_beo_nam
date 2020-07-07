@@ -1,8 +1,16 @@
 {
-"stock_code":"A336260",
-"stock_name":"두산퓨얼셀",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"2088",
-"SRIM_2":"1732",
-"SRIM_3":"1136"
+"stock_code": "A336260",
+"stock_name": "두산퓨얼셀",
+"stock_Div": "전기제품",
+"SRIM_1": "2091",
+"SRIM_2": "1734",
+"SRIM_3": "1138",
+"stock_Div_PER": "64.95",
+"Current_PER": "46.39",
+"Current_PER_Rank": "17",
+"PER_Target_1": "14911",
+"PER_Target_2": "0",
+"PER_Target_Avr": "7456",
+"Close_Price": "29900",
+"Price_over_PERAvg": "2.0052310374891"
 }

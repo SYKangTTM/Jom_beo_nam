@@ -1,8 +1,16 @@
 {
-"stock_code":"A033500",
-"stock_name":"동성화인텍",
-"stock_Div":"화학",
-"SRIM_1":"6294",
-"SRIM_2":"7610",
-"SRIM_3":"11442"
+"stock_code": "A033500",
+"stock_name": "동성화인텍",
+"stock_Div": "화학",
+"SRIM_1": "6303",
+"SRIM_2": "7621",
+"SRIM_3": "11459",
+"stock_Div_PER": "58.5",
+"Current_PER": "15.62",
+"Current_PER_Rank": "45",
+"PER_Target_1": "36662",
+"PER_Target_2": "0",
+"PER_Target_Avr": "18331",
+"Close_Price": "8940",
+"Price_over_PERAvg": "0.243849217173095"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A024890",
-"stock_name":"대원화성",
-"stock_Div":"섬유및의복",
-"SRIM_1":"1738",
-"SRIM_2":"1441",
-"SRIM_3":"946"
+"stock_code": "A024890",
+"stock_name": "대원화성",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "1740",
+"SRIM_2": "1444",
+"SRIM_3": "947",
+"stock_Div_PER": "23.09",
+"Current_PER": "17.93",
+"Current_PER_Rank": "31",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1670",
+"Price_over_PERAvg": "N/A"
 }

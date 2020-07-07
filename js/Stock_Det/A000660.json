@@ -1,8 +1,16 @@
 {
-"stock_code":"A000660",
-"stock_name":"SK하이닉스",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"91822",
-"SRIM_2":"105538",
-"SRIM_3":"142593"
+"stock_code": "A000660",
+"stock_name": "SK하이닉스",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "91719",
+"SRIM_2": "105494",
+"SRIM_3": "142747",
+"stock_Div_PER": "17.68",
+"Current_PER": "40.17",
+"Current_PER_Rank": "70",
+"PER_Target_1": "104242",
+"PER_Target_2": "75381",
+"PER_Target_Avr": "89812",
+"Close_Price": "84800",
+"Price_over_PERAvg": "0.944199796239902"
 }

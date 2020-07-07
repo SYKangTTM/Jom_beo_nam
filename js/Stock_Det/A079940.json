@@ -1,8 +1,16 @@
 {
-"stock_code":"A079940",
-"stock_name":"가비아",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"5049",
-"SRIM_2":"4188",
-"SRIM_3":"2748"
+"stock_code": "A079940",
+"stock_name": "가비아",
+"stock_Div": "IT서비스",
+"SRIM_1": "5057",
+"SRIM_2": "4195",
+"SRIM_3": "2752",
+"stock_Div_PER": "23.79",
+"Current_PER": "18.93",
+"Current_PER_Rank": "20",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "15300",
+"Price_over_PERAvg": "N/A"
 }

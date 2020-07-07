@@ -1,8 +1,16 @@
 {
-"stock_code":"A065530",
-"stock_name":"전파기지국",
-"stock_Div":"무선통신",
-"SRIM_1":"1365",
-"SRIM_2":"1133",
-"SRIM_3":"743"
+"stock_code": "A065530",
+"stock_name": "전파기지국",
+"stock_Div": "무선통신서비스",
+"SRIM_1": "1367",
+"SRIM_2": "1134",
+"SRIM_3": "744",
+"stock_Div_PER": "18.81",
+"Current_PER": "131.05",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5270",
+"Price_over_PERAvg": "N/A"
 }

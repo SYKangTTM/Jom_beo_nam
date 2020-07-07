@@ -1,8 +1,16 @@
 {
-"stock_code":"A263020",
-"stock_name":"디케이앤디",
-"stock_Div":"섬유및의복",
-"SRIM_1":"6083",
-"SRIM_2":"5046",
-"SRIM_3":"3311"
+"stock_code": "A263020",
+"stock_name": "디케이앤디",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "6092",
+"SRIM_2": "5053",
+"SRIM_3": "3316",
+"stock_Div_PER": "23.09",
+"Current_PER": "13.08",
+"Current_PER_Rank": "23",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4720",
+"Price_over_PERAvg": "N/A"
 }

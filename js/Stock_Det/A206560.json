@@ -1,8 +1,16 @@
 {
-"stock_code":"A206560",
-"stock_name":"덱스터",
-"stock_Div":"미디어",
-"SRIM_1":"2439",
-"SRIM_2":"2605",
-"SRIM_3":"3006"
+"stock_code": "A206560",
+"stock_name": "덱스터",
+"stock_Div": "방송과엔터테인먼트",
+"SRIM_1": "1996",
+"SRIM_2": "1656",
+"SRIM_3": "1086",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5150",
+"Price_over_PERAvg": "N/A"
 }

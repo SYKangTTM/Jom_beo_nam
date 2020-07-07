@@ -1,8 +1,16 @@
 {
-"stock_code":"A000300",
-"stock_name":"대유플러스",
-"stock_Div":"자동차부품",
-"SRIM_1":"819",
-"SRIM_2":"679",
-"SRIM_3":"446"
+"stock_code": "A000300",
+"stock_name": "대유플러스",
+"stock_Div": "자동차부품",
+"SRIM_1": "808",
+"SRIM_2": "670",
+"SRIM_3": "440",
+"stock_Div_PER": "12.97",
+"Current_PER": "2.67",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "622",
+"Price_over_PERAvg": "N/A"
 }

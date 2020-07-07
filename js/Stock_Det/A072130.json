@@ -1,8 +1,16 @@
 {
-"stock_code":"A072130",
-"stock_name":"유엔젤",
-"stock_Div":"IT서비스",
-"SRIM_1":"2835",
-"SRIM_2":"2351",
-"SRIM_3":"1543"
+"stock_code": "A072130",
+"stock_name": "유엔젤",
+"stock_Div": "IT서비스",
+"SRIM_1": "2839",
+"SRIM_2": "2355",
+"SRIM_3": "1545",
+"stock_Div_PER": "23.79",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2960",
+"Price_over_PERAvg": "N/A"
 }

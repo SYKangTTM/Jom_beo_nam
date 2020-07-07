@@ -1,8 +1,16 @@
 {
-"stock_code":"A046890",
-"stock_name":"서울반도체",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"10723",
-"SRIM_2":"10396",
-"SRIM_3":"9709"
+"stock_code": "A046890",
+"stock_name": "서울반도체",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "10724",
+"SRIM_2": "10385",
+"SRIM_3": "9674",
+"stock_Div_PER": "112.72",
+"Current_PER": "33.18",
+"Current_PER_Rank": "40",
+"PER_Target_1": "58154",
+"PER_Target_2": "19212",
+"PER_Target_Avr": "38683",
+"Close_Price": "13950",
+"Price_over_PERAvg": "0.360623529715896"
 }

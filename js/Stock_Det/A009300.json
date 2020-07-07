@@ -1,8 +1,16 @@
 {
-"stock_code":"A009300",
-"stock_name":"삼아제약",
-"stock_Div":"제약",
-"SRIM_1":"24766",
-"SRIM_2":"20543",
-"SRIM_3":"13479"
+"stock_code": "A009300",
+"stock_name": "삼아제약",
+"stock_Div": "제약",
+"SRIM_1": "24802",
+"SRIM_2": "20573",
+"SRIM_3": "13498",
+"stock_Div_PER": "122.92",
+"Current_PER": "11.2",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "16000",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A123690",
-"stock_name":"한국화장품",
-"stock_Div":"개인생활용품",
-"SRIM_1":"1970",
-"SRIM_2":"1634",
-"SRIM_3":"1072"
+"stock_code": "A123690",
+"stock_name": "한국화장품",
+"stock_Div": "화장품",
+"SRIM_1": "1973",
+"SRIM_2": "1636",
+"SRIM_3": "1074",
+"stock_Div_PER": "47.37",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13950",
+"Price_over_PERAvg": "N/A"
 }

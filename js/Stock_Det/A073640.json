@@ -1,8 +1,16 @@
 {
-"stock_code":"A073640",
-"stock_name":"삼원테크",
-"stock_Div":"기계",
-"SRIM_1":"410",
-"SRIM_2":"340",
-"SRIM_3":"223"
+"stock_code": "A073640",
+"stock_name": "삼원테크",
+"stock_Div": "기계",
+"SRIM_1": "410",
+"SRIM_2": "340",
+"SRIM_3": "223",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1850",
+"Price_over_PERAvg": "N/A"
 }

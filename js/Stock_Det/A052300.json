@@ -1,8 +1,16 @@
 {
-"stock_code":"A052300",
-"stock_name":"W홀딩컴퍼니",
-"stock_Div":"육상운수",
-"SRIM_1":"297",
-"SRIM_2":"247",
-"SRIM_3":"162"
+"stock_code": "A052300",
+"stock_name": "W홀딩컴퍼니",
+"stock_Div": "건축제품",
+"SRIM_1": "272",
+"SRIM_2": "225",
+"SRIM_3": "148",
+"stock_Div_PER": "266.17",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "252",
+"Price_over_PERAvg": "N/A"
 }

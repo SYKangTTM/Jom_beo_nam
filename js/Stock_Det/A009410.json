@@ -1,8 +1,16 @@
 {
-"stock_code":"A009410",
-"stock_name":"태영건설",
-"stock_Div":"건설",
-"SRIM_1":"23859",
-"SRIM_2":"26337",
-"SRIM_3":"32645"
+"stock_code": "A009410",
+"stock_name": "태영건설",
+"stock_Div": "건설",
+"SRIM_1": "26109",
+"SRIM_2": "30158",
+"SRIM_3": "41176",
+"stock_Div_PER": "6.13",
+"Current_PER": "12.45",
+"Current_PER_Rank": "37",
+"PER_Target_1": "19577",
+"PER_Target_2": "2065351",
+"PER_Target_Avr": "1042464",
+"Close_Price": "16750",
+"Price_over_PERAvg": "1.60677011388403E-02"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A030790",
-"stock_name":"동양네트웍스",
-"stock_Div":"IT서비스",
-"SRIM_1":"2985",
-"SRIM_2":"2476",
-"SRIM_3":"1625"
+"stock_code": "A030790",
+"stock_name": "비케이탑스",
+"stock_Div": "IT서비스",
+"SRIM_1": "2990",
+"SRIM_2": "2480",
+"SRIM_3": "1627",
+"stock_Div_PER": "23.79",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6590",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A035200",
-"stock_name":"프럼파스트",
-"stock_Div":"건축자재",
-"SRIM_1":"3672",
-"SRIM_2":"3046",
-"SRIM_3":"1998"
+"stock_code": "A035200",
+"stock_name": "프럼파스트",
+"stock_Div": "건축제품",
+"SRIM_1": "3677",
+"SRIM_2": "3050",
+"SRIM_3": "2001",
+"stock_Div_PER": "266.17",
+"Current_PER": "27.26",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2890",
+"Price_over_PERAvg": "N/A"
 }

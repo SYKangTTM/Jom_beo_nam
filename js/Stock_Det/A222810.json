@@ -1,8 +1,16 @@
 {
-"stock_code":"A222810",
-"stock_name":"한류AI센터",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"49",
-"SRIM_2":"41",
-"SRIM_3":"27"
+"stock_code": "A222810",
+"stock_name": "한류AI센터",
+"stock_Div": "소프트웨어",
+"SRIM_1": "49",
+"SRIM_2": "41",
+"SRIM_3": "27",
+"stock_Div_PER": "572.22",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "606",
+"Price_over_PERAvg": "N/A"
 }

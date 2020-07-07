@@ -1,8 +1,16 @@
 {
-"stock_code":"A053950",
-"stock_name":"경남제약",
-"stock_Div":"제약",
-"SRIM_1":"4030",
-"SRIM_2":"4210",
-"SRIM_3":"4633"
+"stock_code": "A053950",
+"stock_name": "경남제약",
+"stock_Div": "제약",
+"SRIM_1": "3946",
+"SRIM_2": "4122",
+"SRIM_3": "4537",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "43847",
+"PER_Target_2": "0",
+"PER_Target_Avr": "21924",
+"Close_Price": "7950",
+"Price_over_PERAvg": "0.18131229046457"
 }

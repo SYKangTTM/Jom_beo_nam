@@ -1,8 +1,16 @@
 {
-"stock_code":"A101170",
-"stock_name":"우림기계",
-"stock_Div":"기계",
-"SRIM_1":"5905",
-"SRIM_2":"4898",
-"SRIM_3":"3214"
+"stock_code": "A101170",
+"stock_name": "우림기계",
+"stock_Div": "기계",
+"SRIM_1": "5914",
+"SRIM_2": "4905",
+"SRIM_3": "3219",
+"stock_Div_PER": "N/A",
+"Current_PER": "40.7",
+"Current_PER_Rank": "47",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3265",
+"Price_over_PERAvg": "N/A"
 }

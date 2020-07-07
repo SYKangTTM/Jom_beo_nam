@@ -1,8 +1,16 @@
 {
-"stock_code":"A101400",
-"stock_name":"엔시트론",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"510",
-"SRIM_2":"423",
-"SRIM_3":"277"
+"stock_code": "A101400",
+"stock_name": "엔시트론",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "510",
+"SRIM_2": "423",
+"SRIM_3": "278",
+"stock_Div_PER": "17.68",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1375",
+"Price_over_PERAvg": "N/A"
 }

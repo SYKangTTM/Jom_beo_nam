@@ -1,8 +1,16 @@
 {
-"stock_code":"A230240",
-"stock_name":"에치에프알",
-"stock_Div":"통신장비",
-"SRIM_1":"13461",
-"SRIM_2":"19962",
-"SRIM_3":"45569"
+"stock_code": "A230240",
+"stock_name": "에치에프알",
+"stock_Div": "통신장비",
+"SRIM_1": "13481",
+"SRIM_2": "19991",
+"SRIM_3": "45635",
+"stock_Div_PER": "95.76",
+"Current_PER": "1738.73",
+"Current_PER_Rank": "28",
+"PER_Target_1": "67300",
+"PER_Target_2": "0",
+"PER_Target_Avr": "33650",
+"Close_Price": "33700",
+"Price_over_PERAvg": "0.50074294205052"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A110790",
-"stock_name":"Å©¸®½º¿¡ÇÁ¾Ø¾¾",
-"stock_Div":"¼¶À¯¹×ÀÇº¹",
-"SRIM_1":"26866",
-"SRIM_2":"31019",
-"SRIM_3":"42312"
+"stock_code": "A110790",
+"stock_name": "Å©¸®½º¿¡ÇÁ¾Ø¾¾",
+"stock_Div": "¼¶À¯,ÀÇ·ù,½Å¹ß,È£È­Ç°",
+"SRIM_1": "26905",
+"SRIM_2": "31064",
+"SRIM_3": "42373",
+"stock_Div_PER": "23.09",
+"Current_PER": "12.18",
+"Current_PER_Rank": "19",
+"PER_Target_1": "45104",
+"PER_Target_2": "0",
+"PER_Target_Avr": "22552",
+"Close_Price": "21600",
+"Price_over_PERAvg": "0.478893224547712"
 }

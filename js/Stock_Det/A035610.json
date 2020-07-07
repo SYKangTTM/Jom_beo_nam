@@ -1,8 +1,16 @@
 {
-"stock_code":"A035610",
-"stock_name":"솔본",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"4915",
-"SRIM_2":"4077",
-"SRIM_3":"2675"
+"stock_code": "A035610",
+"stock_name": "솔본",
+"stock_Div": "건강관리기술",
+"SRIM_1": "4922",
+"SRIM_2": "4083",
+"SRIM_3": "2679",
+"stock_Div_PER": "98.35",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3475",
+"Price_over_PERAvg": "N/A"
 }

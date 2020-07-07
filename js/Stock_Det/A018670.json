@@ -1,8 +1,16 @@
 {
-"stock_code":"A018670",
-"stock_name":"SK가스",
-"stock_Div":"석유및가스",
-"SRIM_1":"172874",
-"SRIM_2":"166005",
-"SRIM_3":"151769"
+"stock_code": "A018670",
+"stock_name": "SK가스",
+"stock_Div": "가스유틸리티",
+"SRIM_1": "186243",
+"SRIM_2": "180820",
+"SRIM_3": "169398",
+"stock_Div_PER": "10.96",
+"Current_PER": "2.59",
+"Current_PER_Rank": "1",
+"PER_Target_1": "288847",
+"PER_Target_2": "179933",
+"PER_Target_Avr": "234390",
+"Close_Price": "72900",
+"Price_over_PERAvg": "0.311020094713938"
 }

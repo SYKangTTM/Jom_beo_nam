@@ -1,8 +1,16 @@
 {
-"stock_code":"A037760",
-"stock_name":"ΩÍ¥œ∆Æ",
-"stock_Div":"∞«√‡º“¿Á",
-"SRIM_1":"2010",
-"SRIM_2":"1667",
-"SRIM_3":"1094"
+"stock_code": "A037760",
+"stock_name": "ΩÍ¥œ∆Æ",
+"stock_Div": "∫Ò√∂±›º”",
+"SRIM_1": "2013",
+"SRIM_2": "1670",
+"SRIM_3": "1096",
+"stock_Div_PER": "17.84",
+"Current_PER": "6.27",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1850",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A051980",
-"stock_name":"센트럴바이오",
-"stock_Div":"건축자재",
-"SRIM_1":"484",
-"SRIM_2":"401",
-"SRIM_3":"263"
+"stock_code": "A051980",
+"stock_name": "센트럴바이오",
+"stock_Div": "건축자재",
+"SRIM_1": "484",
+"SRIM_2": "402",
+"SRIM_3": "264",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "602",
+"Price_over_PERAvg": "N/A"
 }

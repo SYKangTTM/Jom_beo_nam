@@ -1,8 +1,16 @@
 {
-"stock_code":"A130740",
-"stock_name":"티피씨글로벌",
-"stock_Div":"자동차부품",
-"SRIM_1":"5309",
-"SRIM_2":"4404",
-"SRIM_3":"2890"
+"stock_code": "A130740",
+"stock_name": "티피씨글로벌",
+"stock_Div": "자동차부품",
+"SRIM_1": "5317",
+"SRIM_2": "4410",
+"SRIM_3": "2894",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2060",
+"Price_over_PERAvg": "N/A"
 }

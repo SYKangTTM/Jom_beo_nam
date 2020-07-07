@@ -1,8 +1,16 @@
 {
-"stock_code":"A035810",
-"stock_name":"이지바이오",
-"stock_Div":"식료품",
-"SRIM_1":"6810",
-"SRIM_2":"6441",
-"SRIM_3":"5692"
+"stock_code": "A035810",
+"stock_name": "이지홀딩스",
+"stock_Div": "식품",
+"SRIM_1": "6820",
+"SRIM_2": "6450",
+"SRIM_3": "5700",
+"stock_Div_PER": "23.98",
+"Current_PER": "131.41",
+"Current_PER_Rank": "52",
+"PER_Target_1": "8167",
+"PER_Target_2": "10463",
+"PER_Target_Avr": "9315",
+"Close_Price": "4955",
+"Price_over_PERAvg": "0.531937734836286"
 }

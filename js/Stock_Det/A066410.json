@@ -1,8 +1,16 @@
 {
-"stock_code":"A066410",
-"stock_name":"버킷스튜디오",
-"stock_Div":"미디어",
-"SRIM_1":"1171",
-"SRIM_2":"972",
-"SRIM_3":"637"
+"stock_code": "A066410",
+"stock_name": "버킷스튜디오",
+"stock_Div": "IT서비스",
+"SRIM_1": "1173",
+"SRIM_2": "973",
+"SRIM_3": "638",
+"stock_Div_PER": "23.79",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1840",
+"Price_over_PERAvg": "N/A"
 }

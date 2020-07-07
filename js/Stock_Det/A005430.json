@@ -1,8 +1,16 @@
 {
-"stock_code":"A005430",
-"stock_name":"한국공항",
-"stock_Div":"항공운수",
-"SRIM_1":"94969",
-"SRIM_2":"78776",
-"SRIM_3":"51687"
+"stock_code": "A005430",
+"stock_name": "한국공항",
+"stock_Div": "운송인프라",
+"SRIM_1": "95107",
+"SRIM_2": "78890",
+"SRIM_3": "51762",
+"stock_Div_PER": "20.73",
+"Current_PER": "52.95",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "34200",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A025900",
-"stock_name":"동화기업",
-"stock_Div":"종이및목재",
-"SRIM_1":"28250",
-"SRIM_2":"28797",
-"SRIM_3":"30036"
+"stock_code": "A025900",
+"stock_name": "동화기업",
+"stock_Div": "건축자재",
+"SRIM_1": "28291",
+"SRIM_2": "28839",
+"SRIM_3": "30080",
+"stock_Div_PER": "N/A",
+"Current_PER": "44.85",
+"Current_PER_Rank": "20",
+"PER_Target_1": "80007",
+"PER_Target_2": "13489",
+"PER_Target_Avr": "46748",
+"Close_Price": "45050",
+"Price_over_PERAvg": "0.963677590485154"
 }

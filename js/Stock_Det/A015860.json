@@ -1,8 +1,16 @@
 {
-"stock_code":"A015860",
-"stock_name":"일진홀딩스",
-"stock_Div":"전기장비",
-"SRIM_1":"5831",
-"SRIM_2":"5581",
-"SRIM_3":"5066"
+"stock_code": "A015860",
+"stock_name": "일진홀딩스",
+"stock_Div": "전기장비",
+"SRIM_1": "5840",
+"SRIM_2": "5589",
+"SRIM_3": "5073",
+"stock_Div_PER": "N/A",
+"Current_PER": "10.65",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4550",
+"Price_over_PERAvg": "N/A"
 }

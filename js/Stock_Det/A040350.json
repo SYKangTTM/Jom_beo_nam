@@ -1,8 +1,16 @@
 {
-"stock_code":"A040350",
-"stock_name":"큐로컴",
-"stock_Div":"IT서비스",
-"SRIM_1":"374",
-"SRIM_2":"311",
-"SRIM_3":"204"
+"stock_code": "A040350",
+"stock_name": "큐로컴",
+"stock_Div": "IT서비스",
+"SRIM_1": "375",
+"SRIM_2": "311",
+"SRIM_3": "204",
+"stock_Div_PER": "23.79",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2060",
+"Price_over_PERAvg": "N/A"
 }

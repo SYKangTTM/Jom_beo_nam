@@ -1,8 +1,16 @@
 {
-"stock_code":"A001250",
-"stock_name":"GS글로벌",
-"stock_Div":"무역",
-"SRIM_1":"3914",
-"SRIM_2":"3247",
-"SRIM_3":"2130"
+"stock_code": "A001250",
+"stock_name": "GS글로벌",
+"stock_Div": "무역회사와판매업체",
+"SRIM_1": "3918",
+"SRIM_2": "3248",
+"SRIM_3": "2128",
+"stock_Div_PER": "7.25",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1675",
+"Price_over_PERAvg": "N/A"
 }

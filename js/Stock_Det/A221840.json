@@ -1,8 +1,16 @@
 {
-"stock_code":"A221840",
-"stock_name":"하이즈항공",
-"stock_Div":"운송인프라",
-"SRIM_1":"4188",
-"SRIM_2":"3474",
-"SRIM_3":"2279"
+"stock_code": "A221840",
+"stock_name": "하이즈항공",
+"stock_Div": "우주항공과국방",
+"SRIM_1": "4217",
+"SRIM_2": "3498",
+"SRIM_3": "2295",
+"stock_Div_PER": "16.99",
+"Current_PER": "29.03",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3880",
+"Price_over_PERAvg": "N/A"
 }

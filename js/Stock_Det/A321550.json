@@ -1,8 +1,16 @@
 {
-"stock_code":"A321550",
-"stock_name":"티움바이오",
-"stock_Div":"제약",
-"SRIM_1":"3544",
-"SRIM_2":"2939",
-"SRIM_3":"1929"
+"stock_code": "A321550",
+"stock_name": "티움바이오",
+"stock_Div": "제약",
+"SRIM_1": "3549",
+"SRIM_2": "2944",
+"SRIM_3": "1931",
+"stock_Div_PER": "188.02",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14200",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A079650",
-"stock_name":"서산",
-"stock_Div":"건축소재",
-"SRIM_1":"3170",
-"SRIM_2":"2629",
-"SRIM_3":"1725"
+"stock_code": "A079650",
+"stock_name": "서산",
+"stock_Div": "건축자재",
+"SRIM_1": "3174",
+"SRIM_2": "2633",
+"SRIM_3": "1728",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2655",
+"Price_over_PERAvg": "N/A"
 }

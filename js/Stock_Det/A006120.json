@@ -1,8 +1,16 @@
 {
-"stock_code":"A006120",
-"stock_name":"SK디스커버리",
-"stock_Div":"석유및가스",
-"SRIM_1":"74228",
-"SRIM_2":"61571",
-"SRIM_3":"40399"
+"stock_code": "A006120",
+"stock_name": "SK디스커버리",
+"stock_Div": "석유와가스",
+"SRIM_1": "74336",
+"SRIM_2": "61660",
+"SRIM_3": "40457",
+"stock_Div_PER": "N/A",
+"Current_PER": "3.16",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "35600",
+"Price_over_PERAvg": "N/A"
 }

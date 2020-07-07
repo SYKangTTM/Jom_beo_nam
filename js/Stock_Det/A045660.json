@@ -1,8 +1,16 @@
 {
-"stock_code":"A045660",
-"stock_name":"에이텍",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"8379",
-"SRIM_2":"6951",
-"SRIM_3":"4560"
+"stock_code": "A045660",
+"stock_name": "에이텍",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "8392",
+"SRIM_2": "6961",
+"SRIM_3": "4567",
+"stock_Div_PER": "N/A",
+"Current_PER": "16.12",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13250",
+"Price_over_PERAvg": "N/A"
 }

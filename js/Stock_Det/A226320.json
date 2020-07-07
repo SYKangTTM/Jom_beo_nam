@@ -1,8 +1,16 @@
 {
-"stock_code":"A226320",
-"stock_name":"잇츠한불",
-"stock_Div":"개인생활용품",
-"SRIM_1":"20580",
-"SRIM_2":"18866",
-"SRIM_3":"15547"
+"stock_code": "A226320",
+"stock_name": "잇츠한불",
+"stock_Div": "화장품",
+"SRIM_1": "21060",
+"SRIM_2": "17469",
+"SRIM_3": "11462",
+"stock_Div_PER": "47.37",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "18850",
+"Price_over_PERAvg": "N/A"
 }

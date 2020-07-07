@@ -1,8 +1,16 @@
 {
-"stock_code":"A114450",
-"stock_name":"KPX생명과학",
-"stock_Div":"제약",
-"SRIM_1":"3621",
-"SRIM_2":"3003",
-"SRIM_3":"1971"
+"stock_code": "A114450",
+"stock_name": "KPX생명과학",
+"stock_Div": "제약",
+"SRIM_1": "3626",
+"SRIM_2": "3008",
+"SRIM_3": "1973",
+"stock_Div_PER": "122.92",
+"Current_PER": "642.7",
+"Current_PER_Rank": "77",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6190",
+"Price_over_PERAvg": "N/A"
 }

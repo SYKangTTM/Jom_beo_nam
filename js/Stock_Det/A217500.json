@@ -1,8 +1,16 @@
 {
-"stock_code":"A217500",
-"stock_name":"러셀",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"1246",
-"SRIM_2":"1034",
-"SRIM_3":"678"
+"stock_code": "A217500",
+"stock_name": "러셀",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "1248",
+"SRIM_2": "1035",
+"SRIM_3": "679",
+"stock_Div_PER": "17.68",
+"Current_PER": "14.07",
+"Current_PER_Rank": "22",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2105",
+"Price_over_PERAvg": "N/A"
 }

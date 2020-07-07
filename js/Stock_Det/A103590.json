@@ -1,8 +1,16 @@
 {
-"stock_code":"A103590",
-"stock_name":"일진전기",
-"stock_Div":"전기장비",
-"SRIM_1":"7366",
-"SRIM_2":"6110",
-"SRIM_3":"4009"
+"stock_code": "A103590",
+"stock_name": "일진전기",
+"stock_Div": "전기장비",
+"SRIM_1": "7377",
+"SRIM_2": "6119",
+"SRIM_3": "4015",
+"stock_Div_PER": "N/A",
+"Current_PER": "8.13",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2770",
+"Price_over_PERAvg": "N/A"
 }

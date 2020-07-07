@@ -1,8 +1,16 @@
 {
-"stock_code":"A039860",
-"stock_name":"나노엔텍",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"1378",
-"SRIM_2":"1143",
-"SRIM_3":"750"
+"stock_code": "A039860",
+"stock_name": "나노엔텍",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "1498",
+"SRIM_2": "1243",
+"SRIM_3": "815",
+"stock_Div_PER": "N/A",
+"Current_PER": "42.6",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10700",
+"Price_over_PERAvg": "N/A"
 }

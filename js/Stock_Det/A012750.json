@@ -1,8 +1,16 @@
 {
-"stock_code":"A012750",
-"stock_name":"에스원",
-"stock_Div":"상업서비스",
-"SRIM_1":"41019",
-"SRIM_2":"44416",
-"SRIM_3":"52818"
+"stock_code": "A012750",
+"stock_name": "에스원",
+"stock_Div": "상업서비스와공급품",
+"SRIM_1": "41129",
+"SRIM_2": "44567",
+"SRIM_3": "53078",
+"stock_Div_PER": "24.48",
+"Current_PER": "23.32",
+"Current_PER_Rank": "14",
+"PER_Target_1": "96541",
+"PER_Target_2": "114106",
+"PER_Target_Avr": "105324",
+"Close_Price": "88300",
+"Price_over_PERAvg": "0.838369404738734"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A003680",
-"stock_name":"한성기업",
-"stock_Div":"식료품",
-"SRIM_1":"7709",
-"SRIM_2":"6395",
-"SRIM_3":"4196"
+"stock_code": "A003680",
+"stock_name": "한성기업",
+"stock_Div": "식품",
+"SRIM_1": "7720",
+"SRIM_2": "6404",
+"SRIM_3": "4202",
+"stock_Div_PER": "23.98",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "11300",
+"Price_over_PERAvg": "N/A"
 }

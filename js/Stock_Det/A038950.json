@@ -1,8 +1,16 @@
 {
-"stock_code":"A038950",
-"stock_name":"파인디지털",
-"stock_Div":"자동차부품",
-"SRIM_1":"9440",
-"SRIM_2":"7831",
-"SRIM_3":"5138"
+"stock_code": "A038950",
+"stock_name": "파인디지털",
+"stock_Div": "전자제품",
+"SRIM_1": "9454",
+"SRIM_2": "7842",
+"SRIM_3": "5145",
+"stock_Div_PER": "33.93",
+"Current_PER": "35.33",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5340",
+"Price_over_PERAvg": "N/A"
 }

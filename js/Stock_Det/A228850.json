@@ -1,8 +1,16 @@
 {
-"stock_code":"A228850",
-"stock_name":"레이언스",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"12949",
-"SRIM_2":"13264",
-"SRIM_3":"13982"
+"stock_code": "A228850",
+"stock_name": "레이언스",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "12968",
+"SRIM_2": "13283",
+"SRIM_3": "14002",
+"stock_Div_PER": "116.58",
+"Current_PER": "12.73",
+"Current_PER_Rank": "6",
+"PER_Target_1": "82053",
+"PER_Target_2": "0",
+"PER_Target_Avr": "41026",
+"Close_Price": "11150",
+"Price_over_PERAvg": "0.135887779849609"
 }

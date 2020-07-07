@@ -1,8 +1,16 @@
 {
-"stock_code":"A058820",
-"stock_name":"CMG力距",
-"stock_Div":"力距",
-"SRIM_1":"1167",
-"SRIM_2":"968",
-"SRIM_3":"635"
+"stock_code": "A058820",
+"stock_name": "CMG力距",
+"stock_Div": "力距",
+"SRIM_1": "1168",
+"SRIM_2": "968",
+"SRIM_3": "634",
+"stock_Div_PER": "122.92",
+"Current_PER": "140.18",
+"Current_PER_Rank": "69",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4100",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A277480",
-"stock_name":"신한제4호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1661",
-"SRIM_2":"1378",
-"SRIM_3":"904"
+"stock_code": "A277480",
+"stock_name": "신한제4호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1663",
+"SRIM_2": "1380",
+"SRIM_3": "905",
+"stock_Div_PER": "",
+"Current_PER": "162.1",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2025",
+"Price_over_PERAvg": "N/A"
 }

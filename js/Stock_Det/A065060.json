@@ -1,8 +1,16 @@
 {
-"stock_code":"A065060",
-"stock_name":"지엔코",
-"stock_Div":"섬유및의복",
-"SRIM_1":"839",
-"SRIM_2":"696",
-"SRIM_3":"457"
+"stock_code": "A065060",
+"stock_name": "지엔코",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "840",
+"SRIM_2": "697",
+"SRIM_3": "457",
+"stock_Div_PER": "23.09",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1165",
+"Price_over_PERAvg": "N/A"
 }

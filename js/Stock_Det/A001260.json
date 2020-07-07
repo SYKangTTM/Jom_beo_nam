@@ -1,8 +1,16 @@
 {
-"stock_code":"A001260",
-"stock_name":"남광토건",
-"stock_Div":"건설",
-"SRIM_1":"4844",
-"SRIM_2":"4018",
-"SRIM_3":"2636"
+"stock_code": "A001260",
+"stock_name": "남광토건",
+"stock_Div": "건설",
+"SRIM_1": "4851",
+"SRIM_2": "4024",
+"SRIM_3": "2640",
+"stock_Div_PER": "6.13",
+"Current_PER": "26.23",
+"Current_PER_Rank": "46",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10900",
+"Price_over_PERAvg": "N/A"
 }

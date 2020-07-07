@@ -1,8 +1,16 @@
 {
-"stock_code":"A070590",
-"stock_name":"한솔인티큐브",
-"stock_Div":"IT서비스",
-"SRIM_1":"1560",
-"SRIM_2":"1294",
-"SRIM_3":"849"
+"stock_code": "A070590",
+"stock_name": "한솔인티큐브",
+"stock_Div": "IT서비스",
+"SRIM_1": "1562",
+"SRIM_2": "1296",
+"SRIM_3": "850",
+"stock_Div_PER": "23.79",
+"Current_PER": "8.05",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3210",
+"Price_over_PERAvg": "N/A"
 }

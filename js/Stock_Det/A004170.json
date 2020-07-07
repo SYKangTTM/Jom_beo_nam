@@ -1,8 +1,16 @@
 {
-"stock_code":"A004170",
-"stock_name":"신세계",
-"stock_Div":"백화점",
-"SRIM_1":"384490",
-"SRIM_2":"372337",
-"SRIM_3":"346834"
+"stock_code": "A004170",
+"stock_name": "신세계",
+"stock_Div": "백화점과일반상점",
+"SRIM_1": "381848",
+"SRIM_2": "369001",
+"SRIM_3": "342126",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "533376",
+"PER_Target_2": "133623",
+"PER_Target_Avr": "333500",
+"Close_Price": "218000",
+"Price_over_PERAvg": "0.653674143439495"
 }

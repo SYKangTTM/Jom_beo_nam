@@ -1,8 +1,16 @@
 {
-"stock_code":"A036200",
-"stock_name":"유니셈",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"8279",
-"SRIM_2":"10172",
-"SRIM_3":"15817"
+"stock_code": "A036200",
+"stock_name": "유니셈",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "8291",
+"SRIM_2": "10187",
+"SRIM_3": "15840",
+"stock_Div_PER": "17.68",
+"Current_PER": "8.13",
+"Current_PER_Rank": "7",
+"PER_Target_1": "12720",
+"PER_Target_2": "17756",
+"PER_Target_Avr": "15238",
+"Close_Price": "6370",
+"Price_over_PERAvg": "0.418033862711642"
 }

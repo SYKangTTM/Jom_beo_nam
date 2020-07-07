@@ -1,8 +1,16 @@
 {
-"stock_code":"A012620",
-"stock_name":"원일특강",
-"stock_Div":"금속및광물",
-"SRIM_1":"24115",
-"SRIM_2":"20003",
-"SRIM_3":"13124"
+"stock_code": "A012620",
+"stock_name": "원일특강",
+"stock_Div": "철강",
+"SRIM_1": "24150",
+"SRIM_2": "20032",
+"SRIM_3": "13144",
+"stock_Div_PER": "18.57",
+"Current_PER": "4.12",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "8460",
+"Price_over_PERAvg": "N/A"
 }

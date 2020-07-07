@@ -1,8 +1,16 @@
 {
-"stock_code":"A900110",
-"stock_name":"이스트아시아홀딩스",
-"stock_Div":"섬유및의복",
-"SRIM_1":"1637",
-"SRIM_2":"1358",
-"SRIM_3":"891"
+"stock_code": "A900110",
+"stock_name": "이스트아시아홀딩스",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "1639",
+"SRIM_2": "1360",
+"SRIM_3": "892",
+"stock_Div_PER": "23.09",
+"Current_PER": "26.22",
+"Current_PER_Rank": "36",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "230",
+"Price_over_PERAvg": "N/A"
 }

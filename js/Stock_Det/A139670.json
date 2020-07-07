@@ -1,8 +1,16 @@
 {
-"stock_code":"A139670",
-"stock_name":"키네마스터",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"861",
-"SRIM_2":"714",
-"SRIM_3":"468"
+"stock_code": "A139670",
+"stock_name": "키네마스터",
+"stock_Div": "소프트웨어",
+"SRIM_1": "1117",
+"SRIM_2": "927",
+"SRIM_3": "608",
+"stock_Div_PER": "110.57",
+"Current_PER": "149.76",
+"Current_PER_Rank": "25",
+"PER_Target_1": "147526",
+"PER_Target_2": "0",
+"PER_Target_Avr": "73763",
+"Close_Price": "12500",
+"Price_over_PERAvg": "8.47308271084419E-02"
 }

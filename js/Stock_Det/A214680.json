@@ -1,8 +1,16 @@
 {
-"stock_code":"A214680",
-"stock_name":"디알텍",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"655",
-"SRIM_2":"543",
-"SRIM_3":"357"
+"stock_code": "A214680",
+"stock_name": "디알텍",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "656",
+"SRIM_2": "544",
+"SRIM_3": "357",
+"stock_Div_PER": "116.58",
+"Current_PER": "49.39",
+"Current_PER_Rank": "29",
+"PER_Target_1": "4931",
+"PER_Target_2": "0",
+"PER_Target_Avr": "2466",
+"Close_Price": "1515",
+"Price_over_PERAvg": "0.307239910768607"
 }

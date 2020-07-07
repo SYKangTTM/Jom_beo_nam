@@ -1,8 +1,16 @@
 {
-"stock_code":"A001440",
-"stock_name":"대한전선",
-"stock_Div":"전기장비",
-"SRIM_1":"314",
-"SRIM_2":"260",
-"SRIM_3":"171"
+"stock_code": "A001440",
+"stock_name": "대한전선",
+"stock_Div": "전기장비",
+"SRIM_1": "314",
+"SRIM_2": "261",
+"SRIM_3": "171",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "675",
+"Price_over_PERAvg": "N/A"
 }

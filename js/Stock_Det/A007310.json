@@ -1,8 +1,16 @@
 {
-"stock_code":"A007310",
-"stock_name":"오뚜기",
-"stock_Div":"식료품",
-"SRIM_1":"398018",
-"SRIM_2":"403581",
-"SRIM_3":"416073"
+"stock_code": "A007310",
+"stock_name": "오뚜기",
+"stock_Div": "식품",
+"SRIM_1": "399513",
+"SRIM_2": "405471",
+"SRIM_3": "418868",
+"stock_Div_PER": "23.98",
+"Current_PER": "17.85",
+"Current_PER_Rank": "30",
+"PER_Target_1": "1005539",
+"PER_Target_2": "848030",
+"PER_Target_Avr": "926784",
+"Close_Price": "565000",
+"Price_over_PERAvg": "0.609634710118695"
 }

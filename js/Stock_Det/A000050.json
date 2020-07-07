@@ -1,8 +1,16 @@
 {
-"stock_code":"A000050",
-"stock_name":"경방",
-"stock_Div":"섬유및의복",
-"SRIM_1":"25633",
-"SRIM_2":"21262",
-"SRIM_3":"13951"
+"stock_code": "A000050",
+"stock_name": "경방",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "25670",
+"SRIM_2": "21293",
+"SRIM_3": "13971",
+"stock_Div_PER": "23.09",
+"Current_PER": "8.92",
+"Current_PER_Rank": "11",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12050",
+"Price_over_PERAvg": "N/A"
 }

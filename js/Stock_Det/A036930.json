@@ -1,8 +1,16 @@
 {
-"stock_code":"A036930",
-"stock_name":"주성엔지니어링",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"5832",
-"SRIM_2":"6253",
-"SRIM_3":"7282"
+"stock_code": "A036930",
+"stock_name": "주성엔지니어링",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "5840",
+"SRIM_2": "6263",
+"SRIM_3": "7292",
+"stock_Div_PER": "17.68",
+"Current_PER": "23.03",
+"Current_PER_Rank": "48",
+"PER_Target_1": "8012",
+"PER_Target_2": "10195",
+"PER_Target_Avr": "9104",
+"Close_Price": "7290",
+"Price_over_PERAvg": "0.800790904597133"
 }

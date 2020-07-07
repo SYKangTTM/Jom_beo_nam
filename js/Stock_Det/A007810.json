@@ -1,8 +1,16 @@
 {
-"stock_code":"A007810",
-"stock_name":"코리아써키트",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"13176",
-"SRIM_2":"13317",
-"SRIM_3":"13632"
+"stock_code": "A007810",
+"stock_name": "코리아써키트",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "13195",
+"SRIM_2": "13336",
+"SRIM_3": "13652",
+"stock_Div_PER": "31.01",
+"Current_PER": "29.42",
+"Current_PER_Rank": "30",
+"PER_Target_1": "34349",
+"PER_Target_2": "0",
+"PER_Target_Avr": "17174",
+"Close_Price": "11900",
+"Price_over_PERAvg": "0.346443855716324"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A057680",
-"stock_name":"옴니텔",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"803",
-"SRIM_2":"666",
-"SRIM_3":"437"
+"stock_code": "A057680",
+"stock_name": "옴니텔",
+"stock_Div": "양방향미디어와서비스",
+"SRIM_1": "804",
+"SRIM_2": "667",
+"SRIM_3": "438",
+"stock_Div_PER": "177.92",
+"Current_PER": "62.46",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3610",
+"Price_over_PERAvg": "N/A"
 }

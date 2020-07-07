@@ -1,8 +1,16 @@
 {
-"stock_code":"A234100",
-"stock_name":"세원",
-"stock_Div":"자동차부품",
-"SRIM_1":"1392",
-"SRIM_2":"1155",
-"SRIM_3":"758"
+"stock_code": "A234100",
+"stock_name": "세원",
+"stock_Div": "자동차부품",
+"SRIM_1": "1394",
+"SRIM_2": "1156",
+"SRIM_3": "759",
+"stock_Div_PER": "12.97",
+"Current_PER": "84.69",
+"Current_PER_Rank": "76",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5260",
+"Price_over_PERAvg": "N/A"
 }

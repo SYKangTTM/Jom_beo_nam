@@ -1,8 +1,16 @@
 {
-"stock_code":"A253840",
-"stock_name":"수젠텍",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"34281",
-"SRIM_2":"55712",
-"SRIM_3":"152355"
+"stock_code": "A253840",
+"stock_name": "수젠텍",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "34331",
+"SRIM_2": "55793",
+"SRIM_3": "152576",
+"stock_Div_PER": "116.58",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "1216464",
+"PER_Target_2": "0",
+"PER_Target_Avr": "608232",
+"Close_Price": "26200",
+"Price_over_PERAvg": "2.15378342474582E-02"
 }

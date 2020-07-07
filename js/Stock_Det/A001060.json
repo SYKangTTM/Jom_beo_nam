@@ -1,8 +1,16 @@
 {
-"stock_code":"A001060",
-"stock_name":"JW중외제약",
-"stock_Div":"제약",
-"SRIM_1":"9410",
-"SRIM_2":"7805",
-"SRIM_3":"5121"
+"stock_code": "A001060",
+"stock_name": "JW중외제약",
+"stock_Div": "제약",
+"SRIM_1": "9423",
+"SRIM_2": "7816",
+"SRIM_3": "5129",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "35650",
+"Price_over_PERAvg": "N/A"
 }

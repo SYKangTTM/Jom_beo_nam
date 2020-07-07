@@ -1,8 +1,16 @@
 {
-"stock_code":"A006920",
-"stock_name":"모헨즈",
-"stock_Div":"건축소재",
-"SRIM_1":"1861",
-"SRIM_2":"1544",
-"SRIM_3":"1013"
+"stock_code": "A006920",
+"stock_name": "모헨즈",
+"stock_Div": "건축자재",
+"SRIM_1": "1864",
+"SRIM_2": "1546",
+"SRIM_3": "1014",
+"stock_Div_PER": "N/A",
+"Current_PER": "49.9",
+"Current_PER_Rank": "22",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4595",
+"Price_over_PERAvg": "N/A"
 }

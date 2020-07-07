@@ -1,8 +1,16 @@
 {
-"stock_code":"A185750",
-"stock_name":"종근당",
-"stock_Div":"제약",
-"SRIM_1":"53204",
-"SRIM_2":"57403",
-"SRIM_3":"67733"
+"stock_code": "A185750",
+"stock_name": "종근당",
+"stock_Div": "제약",
+"SRIM_1": "53282",
+"SRIM_2": "57486",
+"SRIM_3": "67831",
+"stock_Div_PER": "122.92",
+"Current_PER": "21.18",
+"Current_PER_Rank": "30",
+"PER_Target_1": "1019044",
+"PER_Target_2": "0",
+"PER_Target_Avr": "509522",
+"Close_Price": "118000",
+"Price_over_PERAvg": "0.115794803757247"
 }

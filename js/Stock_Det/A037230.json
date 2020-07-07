@@ -1,8 +1,16 @@
 {
-"stock_code":"A037230",
-"stock_name":"한국팩키지",
-"stock_Div":"용기및포장",
-"SRIM_1":"1432",
-"SRIM_2":"1187",
-"SRIM_3":"779"
+"stock_code": "A037230",
+"stock_name": "한국팩키지",
+"stock_Div": "포장재",
+"SRIM_1": "1434",
+"SRIM_2": "1189",
+"SRIM_3": "780",
+"stock_Div_PER": "9.45",
+"Current_PER": "39.01",
+"Current_PER_Rank": "22",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2280",
+"Price_over_PERAvg": "N/A"
 }

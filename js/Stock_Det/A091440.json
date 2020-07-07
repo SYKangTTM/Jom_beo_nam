@@ -1,8 +1,16 @@
 {
-"stock_code":"A091440",
-"stock_name":"텔레필드",
-"stock_Div":"통신장비",
-"SRIM_1":"8012",
-"SRIM_2":"11600",
-"SRIM_3":"25244"
+"stock_code": "A091440",
+"stock_name": "텔레필드",
+"stock_Div": "통신장비",
+"SRIM_1": "8023",
+"SRIM_2": "11617",
+"SRIM_3": "25280",
+"stock_Div_PER": "95.76",
+"Current_PER": "6.7",
+"Current_PER_Rank": "2",
+"PER_Target_1": "46246",
+"PER_Target_2": "0",
+"PER_Target_Avr": "23123",
+"Close_Price": "4265",
+"Price_over_PERAvg": "9.22241923625827E-02"
 }

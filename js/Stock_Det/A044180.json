@@ -1,8 +1,16 @@
 {
-"stock_code":"A044180",
-"stock_name":"KD",
-"stock_Div":"건설",
-"SRIM_1":"390",
-"SRIM_2":"324",
-"SRIM_3":"212"
+"stock_code": "A044180",
+"stock_name": "KD",
+"stock_Div": "건설",
+"SRIM_1": "391",
+"SRIM_2": "324",
+"SRIM_3": "213",
+"stock_Div_PER": "6.13",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "495",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A064480",
-"stock_name":"브리지텍",
-"stock_Div":"IT서비스",
-"SRIM_1":"2556",
-"SRIM_2":"2120",
-"SRIM_3":"1391"
+"stock_code": "A064480",
+"stock_name": "브리지텍",
+"stock_Div": "IT서비스",
+"SRIM_1": "2564",
+"SRIM_2": "2127",
+"SRIM_3": "1395",
+"stock_Div_PER": "23.79",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3180",
+"Price_over_PERAvg": "N/A"
 }

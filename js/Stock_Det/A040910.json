@@ -1,8 +1,16 @@
 {
-"stock_code":"A040910",
-"stock_name":"아이씨디",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"17110",
-"SRIM_2":"22393",
-"SRIM_3":"39688"
+"stock_code": "A040910",
+"stock_name": "아이씨디",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "17135",
+"SRIM_2": "22425",
+"SRIM_3": "39745",
+"stock_Div_PER": "112.72",
+"Current_PER": "14.67",
+"Current_PER_Rank": "17",
+"PER_Target_1": "268527",
+"PER_Target_2": "266276",
+"PER_Target_Avr": "267402",
+"Close_Price": "14500",
+"Price_over_PERAvg": "5.42255746508527E-02"
 }

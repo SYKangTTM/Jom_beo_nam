@@ -1,8 +1,16 @@
 {
-"stock_code":"A072870",
-"stock_name":"메가스터디",
-"stock_Div":"교육",
-"SRIM_1":"20218",
-"SRIM_2":"16771",
-"SRIM_3":"11004"
+"stock_code": "A072870",
+"stock_name": "메가스터디",
+"stock_Div": "교육서비스",
+"SRIM_1": "20247",
+"SRIM_2": "16795",
+"SRIM_3": "11020",
+"stock_Div_PER": "N/A",
+"Current_PER": "10.29",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "10200",
+"Price_over_PERAvg": "N/A"
 }

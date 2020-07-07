@@ -1,8 +1,16 @@
 {
-"stock_code":"A055490",
-"stock_name":"테이팩스",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"19194",
-"SRIM_2":"15921",
-"SRIM_3":"10446"
+"stock_code": "A055490",
+"stock_name": "테이팩스",
+"stock_Div": "화학",
+"SRIM_1": "19222",
+"SRIM_2": "15944",
+"SRIM_3": "10461",
+"stock_Div_PER": "58.5",
+"Current_PER": "13.13",
+"Current_PER_Rank": "40",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "24750",
+"Price_over_PERAvg": "N/A"
 }

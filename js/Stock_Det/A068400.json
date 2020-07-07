@@ -1,8 +1,16 @@
 {
-"stock_code":"A068400",
-"stock_name":"SK렌터카",
-"stock_Div":"호텔및레저",
-"SRIM_1":"9147",
-"SRIM_2":"7587",
-"SRIM_3":"4978"
+"stock_code": "A068400",
+"stock_name": "SK렌터카",
+"stock_Div": "도로와철도운송",
+"SRIM_1": "9160",
+"SRIM_2": "7598",
+"SRIM_3": "4985",
+"stock_Div_PER": "77.02",
+"Current_PER": "11.6",
+"Current_PER_Rank": "4",
+"PER_Target_1": "3848",
+"PER_Target_2": "20695",
+"PER_Target_Avr": "12272",
+"Close_Price": "9300",
+"Price_over_PERAvg": "0.757853563134091"
 }

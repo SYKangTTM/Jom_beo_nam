@@ -1,8 +1,16 @@
 {
-"stock_code":"A058530",
-"stock_name":"½´Æå½ººñ¾ØÇÇ",
-"stock_Div":"°³ÀÎ»ýÈ°¿ëÇ°",
-"SRIM_1":"427",
-"SRIM_2":"354",
-"SRIM_3":"232"
+"stock_code": "A058530",
+"stock_name": "½´Æå½ººñ¾ØÇÇ",
+"stock_Div": "ÆÇ¸Å¾÷Ã¼",
+"SRIM_1": "427",
+"SRIM_2": "354",
+"SRIM_3": "233",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "163",
+"Price_over_PERAvg": "N/A"
 }

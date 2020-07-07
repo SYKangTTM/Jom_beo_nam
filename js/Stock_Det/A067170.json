@@ -1,8 +1,16 @@
 {
-"stock_code":"A067170",
-"stock_name":"오텍",
-"stock_Div":"기계",
-"SRIM_1":"16219",
-"SRIM_2":"19792",
-"SRIM_3":"30339"
+"stock_code": "A067170",
+"stock_name": "오텍",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "16242",
+"SRIM_2": "19821",
+"SRIM_3": "30383",
+"stock_Div_PER": "19.57",
+"Current_PER": "20.31",
+"Current_PER_Rank": "8",
+"PER_Target_1": "26576",
+"PER_Target_2": "23366",
+"PER_Target_Avr": "24971",
+"Close_Price": "11250",
+"Price_over_PERAvg": "0.450522606223219"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A037330",
-"stock_name":"인지디스플레",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"3491",
-"SRIM_2":"2896",
-"SRIM_3":"1900"
+"stock_code": "A037330",
+"stock_name": "인지디스플레",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "3496",
+"SRIM_2": "2900",
+"SRIM_3": "1903",
+"stock_Div_PER": "112.72",
+"Current_PER": "16.1",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1735",
+"Price_over_PERAvg": "N/A"
 }

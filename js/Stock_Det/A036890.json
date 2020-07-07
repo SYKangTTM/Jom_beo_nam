@@ -1,8 +1,16 @@
 {
-"stock_code":"A036890",
-"stock_name":"진성티이씨",
-"stock_Div":"기계",
-"SRIM_1":"9546",
-"SRIM_2":"11202",
-"SRIM_3":"15815"
+"stock_code": "A036890",
+"stock_name": "진성티이씨",
+"stock_Div": "기계",
+"SRIM_1": "9560",
+"SRIM_2": "11218",
+"SRIM_3": "15838",
+"stock_Div_PER": "N/A",
+"Current_PER": "8.33",
+"Current_PER_Rank": "12",
+"PER_Target_1": "0",
+"PER_Target_2": "12297",
+"PER_Target_Avr": "6148",
+"Close_Price": "7530",
+"Price_over_PERAvg": "0.612344474262015"
 }

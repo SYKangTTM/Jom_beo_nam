@@ -1,8 +1,16 @@
 {
-"stock_code":"A033130",
-"stock_name":"디지틀조선",
-"stock_Div":"미디어",
-"SRIM_1":"1861",
-"SRIM_2":"1543",
-"SRIM_3":"1013"
+"stock_code": "A033130",
+"stock_name": "디지틀조선",
+"stock_Div": "출판",
+"SRIM_1": "1863",
+"SRIM_2": "1546",
+"SRIM_3": "1014",
+"stock_Div_PER": "1344.25",
+"Current_PER": "24.04",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2440",
+"Price_over_PERAvg": "N/A"
 }

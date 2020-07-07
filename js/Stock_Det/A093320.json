@@ -1,8 +1,16 @@
 {
-"stock_code":"A093320",
-"stock_name":"케이아이엔엑스",
-"stock_Div":"인터넷서비스",
-"SRIM_1":"28449",
-"SRIM_2":"35085",
-"SRIM_3":"54981"
+"stock_code": "A093320",
+"stock_name": "케이아이엔엑스",
+"stock_Div": "IT서비스",
+"SRIM_1": "26737",
+"SRIM_2": "32974",
+"SRIM_3": "51672",
+"stock_Div_PER": "23.79",
+"Current_PER": "20.43",
+"Current_PER_Rank": "24",
+"PER_Target_1": "61295",
+"PER_Target_2": "41838",
+"PER_Target_Avr": "51566",
+"Close_Price": "60700",
+"Price_over_PERAvg": "1.1771208051739"
 }

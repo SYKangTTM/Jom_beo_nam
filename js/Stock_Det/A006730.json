@@ -1,8 +1,16 @@
 {
-"stock_code":"A006730",
-"stock_name":"서부T&D",
-"stock_Div":"백화점",
-"SRIM_1":"10811",
-"SRIM_2":"8967",
-"SRIM_3":"5884"
+"stock_code": "A006730",
+"stock_name": "서부T&D",
+"stock_Div": "호텔,레스토랑,레저",
+"SRIM_1": "10826",
+"SRIM_2": "8980",
+"SRIM_3": "5892",
+"stock_Div_PER": "96.54",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6450",
+"Price_over_PERAvg": "N/A"
 }

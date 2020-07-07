@@ -1,8 +1,16 @@
 {
-"stock_code":"A130500",
-"stock_name":"GH신소재",
-"stock_Div":"자동차부품",
-"SRIM_1":"3507",
-"SRIM_2":"2909",
-"SRIM_3":"1909"
+"stock_code": "A130500",
+"stock_name": "GH신소재",
+"stock_Div": "자동차부품",
+"SRIM_1": "3511",
+"SRIM_2": "2910",
+"SRIM_3": "1906",
+"stock_Div_PER": "12.97",
+"Current_PER": "26.52",
+"Current_PER_Rank": "61",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3645",
+"Price_over_PERAvg": "N/A"
 }

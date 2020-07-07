@@ -1,8 +1,16 @@
 {
-"stock_code":"A002600",
-"stock_name":"Á¶Èï",
-"stock_Div":"½Ä·áÇ°",
-"SRIM_1":"194076",
-"SRIM_2":"160983",
-"SRIM_3":"105626"
+"stock_code": "A002600",
+"stock_name": "Á¶Èï",
+"stock_Div": "½ÄÇ°",
+"SRIM_1": "194359",
+"SRIM_2": "161217",
+"SRIM_3": "105779",
+"stock_Div_PER": "23.98",
+"Current_PER": "13.95",
+"Current_PER_Rank": "25",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "151000",
+"Price_over_PERAvg": "N/A"
 }

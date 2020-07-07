@@ -1,8 +1,16 @@
 {
-"stock_code":"A103140",
-"stock_name":"Ç³»ê",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"42106",
-"SRIM_2":"38938",
-"SRIM_3":"32726"
+"stock_code": "A103140",
+"stock_name": "Ç³»ê",
+"stock_Div": "ºñÃ¶±Ý¼Ó",
+"SRIM_1": "42250",
+"SRIM_2": "39081",
+"SRIM_3": "32864",
+"stock_Div_PER": "17.84",
+"Current_PER": "122.57",
+"Current_PER_Rank": "23",
+"PER_Target_1": "19738",
+"PER_Target_2": "21409",
+"PER_Target_Avr": "20574",
+"Close_Price": "22900",
+"Price_over_PERAvg": "1.11308236323426"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A279600",
-"stock_name":"미디어젠",
-"stock_Div":"IT서비스",
-"SRIM_1":"3490",
-"SRIM_2":"2895",
-"SRIM_3":"1899"
+"stock_code": "A279600",
+"stock_name": "미디어젠",
+"stock_Div": "소프트웨어",
+"SRIM_1": "3495",
+"SRIM_2": "2899",
+"SRIM_3": "1902",
+"stock_Div_PER": "572.22",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6290",
+"Price_over_PERAvg": "N/A"
 }

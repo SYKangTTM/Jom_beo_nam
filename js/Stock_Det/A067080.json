@@ -1,8 +1,16 @@
 {
-"stock_code":"A067080",
-"stock_name":"대화제약",
-"stock_Div":"제약",
-"SRIM_1":"4164",
-"SRIM_2":"3454",
-"SRIM_3":"2266"
+"stock_code": "A067080",
+"stock_name": "대화제약",
+"stock_Div": "제약",
+"SRIM_1": "4170",
+"SRIM_2": "3459",
+"SRIM_3": "2269",
+"stock_Div_PER": "122.92",
+"Current_PER": "22.18",
+"Current_PER_Rank": "33",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "13000",
+"Price_over_PERAvg": "N/A"
 }

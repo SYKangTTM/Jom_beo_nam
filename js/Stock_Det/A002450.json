@@ -1,8 +1,16 @@
 {
-"stock_code":"A002450",
-"stock_name":"伙劳厩扁",
-"stock_Div":"饭历侩前",
-"SRIM_1":"2415",
-"SRIM_2":"2003",
-"SRIM_3":"1314"
+"stock_code": "A002450",
+"stock_name": "伙劳厩扁",
+"stock_Div": "饭历侩厘厚客力前",
+"SRIM_1": "2418",
+"SRIM_2": "2006",
+"SRIM_3": "1316",
+"stock_Div_PER": "N/A",
+"Current_PER": "13.61",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1410",
+"Price_over_PERAvg": "N/A"
 }

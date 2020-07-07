@@ -1,8 +1,16 @@
 {
-"stock_code":"A200130",
-"stock_name":"콜마비앤에이치",
-"stock_Div":"식료품",
-"SRIM_1":"16585",
-"SRIM_2":"21738",
-"SRIM_3":"38647"
+"stock_code": "A200130",
+"stock_name": "콜마비앤에이치",
+"stock_Div": "제약",
+"SRIM_1": "16609",
+"SRIM_2": "21770",
+"SRIM_3": "38703",
+"stock_Div_PER": "122.92",
+"Current_PER": "25.1",
+"Current_PER_Rank": "39",
+"PER_Target_1": "423325",
+"PER_Target_2": "515345",
+"PER_Target_Avr": "469335",
+"Close_Price": "52900",
+"Price_over_PERAvg": "0.112712667923764"
 }

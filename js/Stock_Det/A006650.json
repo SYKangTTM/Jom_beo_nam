@@ -1,8 +1,16 @@
 {
-"stock_code":"A006650",
-"stock_name":"대한유화",
-"stock_Div":"화학",
-"SRIM_1":"280750",
-"SRIM_2":"276351",
-"SRIM_3":"266895"
+"stock_code": "A006650",
+"stock_name": "대한유화",
+"stock_Div": "화학",
+"SRIM_1": "278030",
+"SRIM_2": "272402",
+"SRIM_3": "260388",
+"stock_Div_PER": "58.5",
+"Current_PER": "39.58",
+"Current_PER_Rank": "59",
+"PER_Target_1": "513781",
+"PER_Target_2": "75403",
+"PER_Target_Avr": "294592",
+"Close_Price": "115500",
+"Price_over_PERAvg": "0.392067673256572"
 }

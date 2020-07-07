@@ -1,8 +1,16 @@
 {
-"stock_code":"A024740",
-"stock_name":"한일단조",
-"stock_Div":"자동차부품",
-"SRIM_1":"3358",
-"SRIM_2":"2785",
-"SRIM_3":"1827"
+"stock_code": "A024740",
+"stock_name": "한일단조",
+"stock_Div": "자동차부품",
+"SRIM_1": "3363",
+"SRIM_2": "2789",
+"SRIM_3": "1830",
+"stock_Div_PER": "12.97",
+"Current_PER": "62.21",
+"Current_PER_Rank": "74",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1870",
+"Price_over_PERAvg": "N/A"
 }

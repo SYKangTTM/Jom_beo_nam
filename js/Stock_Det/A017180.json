@@ -1,8 +1,16 @@
 {
-"stock_code":"A017180",
-"stock_name":"명문제약",
-"stock_Div":"제약",
-"SRIM_1":"2979",
-"SRIM_2":"2837",
-"SRIM_3":"2545"
+"stock_code": "A017180",
+"stock_name": "명문제약",
+"stock_Div": "제약",
+"SRIM_1": "2097",
+"SRIM_2": "1739",
+"SRIM_3": "1141",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5640",
+"Price_over_PERAvg": "N/A"
 }

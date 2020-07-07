@@ -1,8 +1,16 @@
 {
-"stock_code":"A237750",
-"stock_name":"피앤씨테크",
-"stock_Div":"전기장비",
-"SRIM_1":"8249",
-"SRIM_2":"6843",
-"SRIM_3":"4490"
+"stock_code": "A237750",
+"stock_name": "피앤씨테크",
+"stock_Div": "전기장비",
+"SRIM_1": "8261",
+"SRIM_2": "6853",
+"SRIM_3": "4496",
+"stock_Div_PER": "N/A",
+"Current_PER": "11.11",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6110",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A003830",
-"stock_name":"대한화섬",
-"stock_Div":"화학",
-"SRIM_1":"426982",
-"SRIM_2":"354174",
-"SRIM_3":"232385"
+"stock_code": "A003830",
+"stock_name": "대한화섬",
+"stock_Div": "화학",
+"SRIM_1": "427603",
+"SRIM_2": "354689",
+"SRIM_3": "232722",
+"stock_Div_PER": "58.5",
+"Current_PER": "4.6",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "89800",
+"Price_over_PERAvg": "N/A"
 }

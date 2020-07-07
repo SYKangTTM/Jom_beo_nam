@@ -1,8 +1,16 @@
 {
-"stock_code":"A247540",
-"stock_name":"에코프로비엠",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"0",
-"SRIM_2":"0",
-"SRIM_3":"0"
+"stock_code": "A247540",
+"stock_name": "에코프로비엠",
+"stock_Div": "전기제품",
+"SRIM_1": "0",
+"SRIM_2": "0",
+"SRIM_3": "0",
+"stock_Div_PER": "77.9",
+"Current_PER": "86.97",
+"Current_PER_Rank": "20",
+"PER_Target_1": "98005",
+"PER_Target_2": "0",
+"PER_Target_Avr": "49002",
+"Close_Price": "134500",
+"Price_over_PERAvg": "1.37237896025713"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A263720",
-"stock_name":"µð¾Ø¾¾¹Ìµð¾î",
-"stock_Div":"¹Ìµð¾î",
-"SRIM_1":"6903",
-"SRIM_2":"9087",
-"SRIM_3":"16300"
+"stock_code": "A263720",
+"stock_name": "µð¾Ø¾¾¹Ìµð¾î",
+"stock_Div": "ÃâÆÇ",
+"SRIM_1": "6913",
+"SRIM_2": "9101",
+"SRIM_3": "16324",
+"stock_Div_PER": "1344.25",
+"Current_PER": "67.7",
+"Current_PER_Rank": "3",
+"PER_Target_1": "371330",
+"PER_Target_2": "0",
+"PER_Target_Avr": "185665",
+"Close_Price": "32500",
+"Price_over_PERAvg": "0.087523227318019"
 }

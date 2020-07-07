@@ -1,8 +1,16 @@
 {
-"stock_code":"A067290",
-"stock_name":"JW신약",
-"stock_Div":"제약",
-"SRIM_1":"1431",
-"SRIM_2":"1187",
-"SRIM_3":"779"
+"stock_code": "A067290",
+"stock_name": "JW신약",
+"stock_Div": "제약",
+"SRIM_1": "1433",
+"SRIM_2": "1188",
+"SRIM_3": "780",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4905",
+"Price_over_PERAvg": "N/A"
 }

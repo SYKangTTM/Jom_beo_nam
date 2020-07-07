@@ -1,8 +1,16 @@
 {
-"stock_code":"A161890",
-"stock_name":"한국콜마",
-"stock_Div":"개인생활용품",
-"SRIM_1":"23379",
-"SRIM_2":"23531",
-"SRIM_3":"23869"
+"stock_code": "A161890",
+"stock_name": "한국콜마",
+"stock_Div": "화장품",
+"SRIM_1": "23294",
+"SRIM_2": "23375",
+"SRIM_3": "23555",
+"stock_Div_PER": "47.37",
+"Current_PER": "36.42",
+"Current_PER_Rank": "12",
+"PER_Target_1": "91009",
+"PER_Target_2": "79589",
+"PER_Target_Avr": "85299",
+"Close_Price": "42800",
+"Price_over_PERAvg": "0.501764381762975"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A019540",
-"stock_name":"일지테크",
-"stock_Div":"자동차부품",
-"SRIM_1":"8097",
-"SRIM_2":"6716",
-"SRIM_3":"4407"
+"stock_code": "A019540",
+"stock_name": "일지테크",
+"stock_Div": "자동차부품",
+"SRIM_1": "8109",
+"SRIM_2": "6726",
+"SRIM_3": "4413",
+"stock_Div_PER": "12.97",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3290",
+"Price_over_PERAvg": "N/A"
 }

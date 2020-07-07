@@ -1,8 +1,16 @@
 {
-"stock_code":"A002790",
-"stock_name":"아모레G",
-"stock_Div":"개인생활용품",
-"SRIM_1":"35259",
-"SRIM_2":"34780",
-"SRIM_3":"33746"
+"stock_code": "A002790",
+"stock_name": "아모레G",
+"stock_Div": "화장품",
+"SRIM_1": "34217",
+"SRIM_2": "33221",
+"SRIM_3": "31122",
+"stock_Div_PER": "47.37",
+"Current_PER": "47.97",
+"Current_PER_Rank": "16",
+"PER_Target_1": "45771",
+"PER_Target_2": "65407",
+"PER_Target_Avr": "55589",
+"Close_Price": "52200",
+"Price_over_PERAvg": "0.939034701109932"
 }

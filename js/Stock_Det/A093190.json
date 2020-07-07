@@ -1,8 +1,16 @@
 {
-"stock_code":"A093190",
-"stock_name":"빅솔론",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"8036",
-"SRIM_2":"6666",
-"SRIM_3":"4374"
+"stock_code": "A093190",
+"stock_name": "빅솔론",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "8048",
+"SRIM_2": "6676",
+"SRIM_3": "4380",
+"stock_Div_PER": "N/A",
+"Current_PER": "8.3",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4805",
+"Price_over_PERAvg": "N/A"
 }

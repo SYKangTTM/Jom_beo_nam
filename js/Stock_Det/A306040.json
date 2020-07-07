@@ -1,8 +1,16 @@
 {
-"stock_code":"A306040",
-"stock_name":"에스제이그룹",
-"stock_Div":"섬유및의복",
-"SRIM_1":"51445",
-"SRIM_2":"88223",
-"SRIM_3":"267765"
+"stock_code": "A306040",
+"stock_name": "에스제이그룹",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "9583",
+"SRIM_2": "7949",
+"SRIM_3": "5216",
+"stock_Div_PER": "17.08",
+"Current_PER": "10.94",
+"Current_PER_Rank": "16",
+"PER_Target_1": "23824",
+"PER_Target_2": "0",
+"PER_Target_Avr": "11912",
+"Close_Price": "19150",
+"Price_over_PERAvg": "0.803811282740094"
 }

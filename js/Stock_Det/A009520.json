@@ -1,8 +1,16 @@
 {
-"stock_code":"A009520",
-"stock_name":"Æ÷½ºÄÚ¿¥ÅØ",
-"stock_Div":"±Ý¼Ó¹×±¤¹°",
-"SRIM_1":"1943",
-"SRIM_2":"1612",
-"SRIM_3":"1058"
+"stock_code": "A009520",
+"stock_name": "Æ÷½ºÄÚ¿¥ÅØ",
+"stock_Div": "Ã¶°­",
+"SRIM_1": "1946",
+"SRIM_2": "1614",
+"SRIM_3": "1059",
+"stock_Div_PER": "18.57",
+"Current_PER": "18.76",
+"Current_PER_Rank": "20",
+"PER_Target_1": "3305",
+"PER_Target_2": "5150",
+"PER_Target_Avr": "4228",
+"Close_Price": "4850",
+"Price_over_PERAvg": "1.14725014784151"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A002800",
-"stock_name":"신신제약",
-"stock_Div":"제약",
-"SRIM_1":"3343",
-"SRIM_2":"2773",
-"SRIM_3":"1819"
+"stock_code": "A002800",
+"stock_name": "신신제약",
+"stock_Div": "제약",
+"SRIM_1": "3348",
+"SRIM_2": "2777",
+"SRIM_3": "1822",
+"stock_Div_PER": "122.92",
+"Current_PER": "54.56",
+"Current_PER_Rank": "52",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7510",
+"Price_over_PERAvg": "N/A"
 }

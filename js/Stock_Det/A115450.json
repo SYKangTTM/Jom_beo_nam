@@ -1,8 +1,16 @@
 {
-"stock_code":"A115450",
-"stock_name":"지트리비앤티",
-"stock_Div":"제약",
-"SRIM_1":"8543",
-"SRIM_2":"19408",
-"SRIM_3":"99511"
+"stock_code": "A115450",
+"stock_name": "지트리비앤티",
+"stock_Div": "제약",
+"SRIM_1": "8552",
+"SRIM_2": "19429",
+"SRIM_3": "99616",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "-66915",
+"PER_Target_2": "0",
+"PER_Target_Avr": "-33458",
+"Close_Price": "25300",
+"Price_over_PERAvg": "-0.378091608757379"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A008060",
-"stock_name":"대덕전자",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"60054",
-"SRIM_2":"59790",
-"SRIM_3":"59213"
+"stock_code": "A008060",
+"stock_name": "대덕",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "51988",
+"SRIM_2": "43123",
+"SRIM_3": "28294",
+"stock_Div_PER": "31.01",
+"Current_PER": "8.64",
+"Current_PER_Rank": "11",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6250",
+"Price_over_PERAvg": "N/A"
 }

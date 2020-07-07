@@ -1,8 +1,16 @@
 {
-"stock_code":"A004690",
-"stock_name":"삼천리",
-"stock_Div":"가스",
-"SRIM_1":"303735",
-"SRIM_2":"269559",
-"SRIM_3":"206458"
+"stock_code": "A004690",
+"stock_name": "삼천리",
+"stock_Div": "가스유틸리티",
+"SRIM_1": "304177",
+"SRIM_2": "269951",
+"SRIM_3": "206758",
+"stock_Div_PER": "10.96",
+"Current_PER": "20.52",
+"Current_PER_Rank": "11",
+"PER_Target_1": "97042",
+"PER_Target_2": "117368",
+"PER_Target_Avr": "107205",
+"Close_Price": "71200",
+"Price_over_PERAvg": "0.66414812741943"
 }

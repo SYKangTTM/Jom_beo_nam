@@ -1,8 +1,16 @@
 {
-"stock_code":"A078000",
-"stock_name":"텔코웨어",
-"stock_Div":"일반소프트웨어",
-"SRIM_1":"19765",
-"SRIM_2":"18754",
-"SRIM_3":"16695"
+"stock_code": "A078000",
+"stock_name": "텔코웨어",
+"stock_Div": "소프트웨어",
+"SRIM_1": "17781",
+"SRIM_2": "14749",
+"SRIM_3": "9677",
+"stock_Div_PER": "110.57",
+"Current_PER": "37.99",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12500",
+"Price_over_PERAvg": "N/A"
 }

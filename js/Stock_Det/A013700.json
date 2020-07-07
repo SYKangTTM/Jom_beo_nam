@@ -1,8 +1,16 @@
 {
-"stock_code":"A013700",
-"stock_name":"±î¹ÂÀÌ¾Ø¾¾",
-"stock_Div":"°Ç¼³",
-"SRIM_1":"1439",
-"SRIM_2":"1193",
-"SRIM_3":"783"
+"stock_code": "A013700",
+"stock_name": "±î¹ÂÀÌ¾Ø¾¾",
+"stock_Div": "°Ç¼³",
+"SRIM_1": "1441",
+"SRIM_2": "1195",
+"SRIM_3": "784",
+"stock_Div_PER": "6.13",
+"Current_PER": "4.04",
+"Current_PER_Rank": "10",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1210",
+"Price_over_PERAvg": "N/A"
 }

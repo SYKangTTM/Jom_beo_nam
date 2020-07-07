@@ -1,8 +1,16 @@
 {
-"stock_code":"A158310",
-"stock_name":"스타모빌리티",
-"stock_Div":"기계",
-"SRIM_1":"2204",
-"SRIM_2":"1828",
-"SRIM_3":"1199"
+"stock_code": "A158310",
+"stock_name": "스타모빌리티",
+"stock_Div": "기계",
+"SRIM_1": "2207",
+"SRIM_2": "1831",
+"SRIM_3": "1201",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "505",
+"Price_over_PERAvg": "N/A"
 }

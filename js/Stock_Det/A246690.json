@@ -1,8 +1,16 @@
 {
-"stock_code":"A246690",
-"stock_name":"TS인베스트먼트",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1231",
-"SRIM_2":"1021",
-"SRIM_3":"670"
+"stock_code": "A246690",
+"stock_name": "TS인베스트먼트",
+"stock_Div": "창업투자",
+"SRIM_1": "1233",
+"SRIM_2": "1023",
+"SRIM_3": "671",
+"stock_Div_PER": "24.27",
+"Current_PER": "13.59",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2385",
+"Price_over_PERAvg": "N/A"
 }

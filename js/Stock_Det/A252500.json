@@ -1,8 +1,16 @@
 {
-"stock_code":"A252500",
-"stock_name":"세화피앤씨",
-"stock_Div":"개인생활용품",
-"SRIM_1":"1166",
-"SRIM_2":"967",
-"SRIM_3":"635"
+"stock_code": "A252500",
+"stock_name": "세화피앤씨",
+"stock_Div": "화장품",
+"SRIM_1": "1168",
+"SRIM_2": "969",
+"SRIM_3": "636",
+"stock_Div_PER": "47.37",
+"Current_PER": "46.33",
+"Current_PER_Rank": "15",
+"PER_Target_1": "17627",
+"PER_Target_2": "0",
+"PER_Target_Avr": "8814",
+"Close_Price": "5540",
+"Price_over_PERAvg": "0.314290576955806"
 }

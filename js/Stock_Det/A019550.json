@@ -1,8 +1,16 @@
 {
-"stock_code":"A019550",
-"stock_name":"SBI인베스트먼트",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"527",
-"SRIM_2":"437",
-"SRIM_3":"287"
+"stock_code": "A019550",
+"stock_name": "SBI인베스트먼트",
+"stock_Div": "창업투자",
+"SRIM_1": "528",
+"SRIM_2": "438",
+"SRIM_3": "287",
+"stock_Div_PER": "24.27",
+"Current_PER": "10.26",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "779",
+"Price_over_PERAvg": "N/A"
 }

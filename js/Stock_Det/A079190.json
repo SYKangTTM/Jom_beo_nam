@@ -1,8 +1,16 @@
 {
-"stock_code":"A079190",
-"stock_name":"EMW",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"871",
-"SRIM_2":"723",
-"SRIM_3":"474"
+"stock_code": "A079190",
+"stock_name": "EMW",
+"stock_Div": "핸드셋",
+"SRIM_1": "872",
+"SRIM_2": "723",
+"SRIM_3": "474",
+"stock_Div_PER": "22.29",
+"Current_PER": "342.78",
+"Current_PER_Rank": "37",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2780",
+"Price_over_PERAvg": "N/A"
 }

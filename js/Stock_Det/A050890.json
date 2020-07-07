@@ -1,8 +1,16 @@
 {
-"stock_code":"A050890",
-"stock_name":"쏠리드",
-"stock_Div":"통신장비",
-"SRIM_1":"3419",
-"SRIM_2":"4025",
-"SRIM_3":"5723"
+"stock_code": "A050890",
+"stock_name": "쏠리드",
+"stock_Div": "통신장비",
+"SRIM_1": "3424",
+"SRIM_2": "4031",
+"SRIM_3": "5731",
+"stock_Div_PER": "95.76",
+"Current_PER": "24.33",
+"Current_PER_Rank": "16",
+"PER_Target_1": "14403",
+"PER_Target_2": "0",
+"PER_Target_Avr": "7202",
+"Close_Price": "6390",
+"Price_over_PERAvg": "0.443657571339304"
 }

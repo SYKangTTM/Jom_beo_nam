@@ -1,8 +1,16 @@
 {
-"stock_code":"A033110",
-"stock_name":"코너스톤네트웍스",
-"stock_Div":"통신장비",
-"SRIM_1":"249",
-"SRIM_2":"207",
-"SRIM_3":"136"
+"stock_code": "A033110",
+"stock_name": "코너스톤네트웍스",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "250",
+"SRIM_2": "207",
+"SRIM_3": "136",
+"stock_Div_PER": "31.01",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "204",
+"Price_over_PERAvg": "N/A"
 }

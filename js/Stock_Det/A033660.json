@@ -1,8 +1,16 @@
 {
-"stock_code":"A033660",
-"stock_name":"아주캐피탈",
-"stock_Div":"소비자금융",
-"SRIM_1":"153048",
-"SRIM_2":"164114",
-"SRIM_3":"191097"
+"stock_code": "A033660",
+"stock_name": "아주캐피탈",
+"stock_Div": "기타금융",
+"SRIM_1": "153338",
+"SRIM_2": "164425",
+"SRIM_3": "191460",
+"stock_Div_PER": "6.54",
+"Current_PER": "6.21",
+"Current_PER_Rank": "4",
+"PER_Target_1": "11654",
+"PER_Target_2": "13610",
+"PER_Target_Avr": "12632",
+"Close_Price": "11650",
+"Price_over_PERAvg": "0.922260924635846"
 }

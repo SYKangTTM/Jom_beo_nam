@@ -1,8 +1,16 @@
 {
-"stock_code":"A002620",
-"stock_name":"제일파마홀딩스",
-"stock_Div":"제약",
-"SRIM_1":"23049",
-"SRIM_2":"19119",
-"SRIM_3":"12545"
+"stock_code": "A002620",
+"stock_name": "제일파마홀딩스",
+"stock_Div": "제약",
+"SRIM_1": "23083",
+"SRIM_2": "19147",
+"SRIM_3": "12563",
+"stock_Div_PER": "122.92",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "19800",
+"Price_over_PERAvg": "N/A"
 }

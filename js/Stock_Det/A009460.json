@@ -1,8 +1,16 @@
 {
-"stock_code":"A009460",
-"stock_name":"한창제지",
-"stock_Div":"종이및목재",
-"SRIM_1":"1295",
-"SRIM_2":"1074",
-"SRIM_3":"705"
+"stock_code": "A009460",
+"stock_name": "한창제지",
+"stock_Div": "포장재",
+"SRIM_1": "1296",
+"SRIM_2": "1075",
+"SRIM_3": "706",
+"stock_Div_PER": "9.45",
+"Current_PER": "15.09",
+"Current_PER_Rank": "16",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2000",
+"Price_over_PERAvg": "N/A"
 }

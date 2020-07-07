@@ -1,8 +1,16 @@
 {
-"stock_code":"A010050",
-"stock_name":"우리종금",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"490",
-"SRIM_2":"406",
-"SRIM_3":"267"
+"stock_code": "A010050",
+"stock_name": "우리종금",
+"stock_Div": "기타금융",
+"SRIM_1": "491",
+"SRIM_2": "407",
+"SRIM_3": "267",
+"stock_Div_PER": "6.54",
+"Current_PER": "7.16",
+"Current_PER_Rank": "6",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "574",
+"Price_over_PERAvg": "N/A"
 }

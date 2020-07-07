@@ -1,8 +1,16 @@
 {
-"stock_code":"A066620",
-"stock_name":"국보디자인",
-"stock_Div":"건설",
-"SRIM_1":"16145",
-"SRIM_2":"13392",
-"SRIM_3":"8787"
+"stock_code": "A066620",
+"stock_name": "국보디자인",
+"stock_Div": "건설",
+"SRIM_1": "16169",
+"SRIM_2": "13412",
+"SRIM_3": "8800",
+"stock_Div_PER": "6.13",
+"Current_PER": "5.47",
+"Current_PER_Rank": "21",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14100",
+"Price_over_PERAvg": "N/A"
 }

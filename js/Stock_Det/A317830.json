@@ -1,8 +1,16 @@
 {
-"stock_code":"A317830",
-"stock_name":"에스피시스템스",
-"stock_Div":"기계",
-"SRIM_1":"3688",
-"SRIM_2":"3059",
-"SRIM_3":"2007"
+"stock_code": "A317830",
+"stock_name": "에스피시스템스",
+"stock_Div": "기계",
+"SRIM_1": "3693",
+"SRIM_2": "3063",
+"SRIM_3": "2010",
+"stock_Div_PER": "N/A",
+"Current_PER": "34.35",
+"Current_PER_Rank": "43",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6090",
+"Price_over_PERAvg": "N/A"
 }

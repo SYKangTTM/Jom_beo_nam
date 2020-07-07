@@ -1,8 +1,16 @@
 {
-"stock_code":"A004080",
-"stock_name":"신흥",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"8291",
-"SRIM_2":"6877",
-"SRIM_3":"4512"
+"stock_code": "A004080",
+"stock_name": "신흥",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "8303",
+"SRIM_2": "6887",
+"SRIM_3": "4519",
+"stock_Div_PER": "116.58",
+"Current_PER": "11.67",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "9100",
+"Price_over_PERAvg": "N/A"
 }

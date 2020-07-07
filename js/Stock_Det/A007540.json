@@ -1,8 +1,16 @@
 {
-"stock_code":"A007540",
-"stock_name":"基钎",
-"stock_Div":"侥丰前",
-"SRIM_1":"65485",
-"SRIM_2":"54319",
-"SRIM_3":"35640"
+"stock_code": "A007540",
+"stock_name": "基钎",
+"stock_Div": "侥前",
+"SRIM_1": "65580",
+"SRIM_2": "54398",
+"SRIM_3": "35692",
+"stock_Div_PER": "23.98",
+"Current_PER": "12.22",
+"Current_PER_Rank": "23",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "57200",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A309930",
-"stock_name":"삼성머스트스팩3호",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1646",
-"SRIM_2":"1365",
-"SRIM_3":"896"
+"stock_code": "A309930",
+"stock_name": "삼성머스트스팩3호",
+"stock_Div": "미분류",
+"SRIM_1": "1648",
+"SRIM_2": "1367",
+"SRIM_3": "897",
+"stock_Div_PER": "",
+"Current_PER": "102.5",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2160",
+"Price_over_PERAvg": "N/A"
 }

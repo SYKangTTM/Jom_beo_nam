@@ -1,8 +1,16 @@
 {
-"stock_code":"A092440",
-"stock_name":"기신정기",
-"stock_Div":"기계",
-"SRIM_1":"7304",
-"SRIM_2":"6059",
-"SRIM_3":"3975"
+"stock_code": "A092440",
+"stock_name": "기신정기",
+"stock_Div": "기계",
+"SRIM_1": "7315",
+"SRIM_2": "6068",
+"SRIM_3": "3981",
+"stock_Div_PER": "N/A",
+"Current_PER": "10.12",
+"Current_PER_Rank": "17",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3000",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A213420",
-"stock_name":"덕산네오룩스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"5990",
-"SRIM_2":"4968",
-"SRIM_3":"3260"
+"stock_code": "A213420",
+"stock_name": "덕산네오룩스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "5998",
+"SRIM_2": "4976",
+"SRIM_3": "3265",
+"stock_Div_PER": "112.72",
+"Current_PER": "34.71",
+"Current_PER_Rank": "42",
+"PER_Target_1": "124987",
+"PER_Target_2": "81493",
+"PER_Target_Avr": "103240",
+"Close_Price": "35050",
+"Price_over_PERAvg": "0.339500193723363"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A078890",
-"stock_name":"가온미디어",
-"stock_Div":"셋톱박스",
-"SRIM_1":"9740",
-"SRIM_2":"8079",
-"SRIM_3":"5301"
+"stock_code": "A078890",
+"stock_name": "가온미디어",
+"stock_Div": "전자제품",
+"SRIM_1": "9757",
+"SRIM_2": "8093",
+"SRIM_3": "5310",
+"stock_Div_PER": "33.93",
+"Current_PER": "5.37",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5860",
+"Price_over_PERAvg": "N/A"
 }

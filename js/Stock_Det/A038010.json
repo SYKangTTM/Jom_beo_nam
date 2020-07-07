@@ -1,8 +1,16 @@
 {
-"stock_code":"A038010",
-"stock_name":"제일테크노스",
-"stock_Div":"건축자재",
-"SRIM_1":"8229",
-"SRIM_2":"6825",
-"SRIM_3":"4478"
+"stock_code": "A038010",
+"stock_name": "제일테크노스",
+"stock_Div": "건축제품",
+"SRIM_1": "8241",
+"SRIM_2": "6835",
+"SRIM_3": "4485",
+"stock_Div_PER": "266.17",
+"Current_PER": "19.5",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6040",
+"Price_over_PERAvg": "N/A"
 }

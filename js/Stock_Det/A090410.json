@@ -1,8 +1,16 @@
 {
-"stock_code":"A090410",
-"stock_name":"덕신하우징",
-"stock_Div":"건축자재",
-"SRIM_1":"1562",
-"SRIM_2":"1296",
-"SRIM_3":"850"
+"stock_code": "A090410",
+"stock_name": "덕신하우징",
+"stock_Div": "건축제품",
+"SRIM_1": "1564",
+"SRIM_2": "1298",
+"SRIM_3": "851",
+"stock_Div_PER": "266.17",
+"Current_PER": "59.2",
+"Current_PER_Rank": "8",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1455",
+"Price_over_PERAvg": "N/A"
 }

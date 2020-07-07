@@ -1,8 +1,16 @@
 {
-"stock_code":"A006740",
-"stock_name":"영풍제지",
-"stock_Div":"종이및목재",
-"SRIM_1":"6115",
-"SRIM_2":"5072",
-"SRIM_3":"3328"
+"stock_code": "A006740",
+"stock_name": "영풍제지",
+"stock_Div": "종이와목재",
+"SRIM_1": "6124",
+"SRIM_2": "5080",
+"SRIM_3": "3333",
+"stock_Div_PER": "N/A",
+"Current_PER": "6.45",
+"Current_PER_Rank": "2",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3115",
+"Price_over_PERAvg": "N/A"
 }

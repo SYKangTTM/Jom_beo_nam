@@ -1,8 +1,16 @@
 {
-"stock_code":"A127710",
-"stock_name":"아시아경제",
-"stock_Div":"미디어",
-"SRIM_1":"3638",
-"SRIM_2":"3018",
-"SRIM_3":"1980"
+"stock_code": "A127710",
+"stock_name": "아시아경제",
+"stock_Div": "출판",
+"SRIM_1": "3643",
+"SRIM_2": "3022",
+"SRIM_3": "1983",
+"stock_Div_PER": "1344.25",
+"Current_PER": "236.49",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1505",
+"Price_over_PERAvg": "N/A"
 }

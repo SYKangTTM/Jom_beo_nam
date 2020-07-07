@@ -1,8 +1,16 @@
 {
-"stock_code":"A032500",
-"stock_name":"케이엠더블유",
-"stock_Div":"통신장비",
-"SRIM_1":"24268",
-"SRIM_2":"38245",
-"SRIM_3":"98472"
+"stock_code": "A032500",
+"stock_name": "케이엠더블유",
+"stock_Div": "통신장비",
+"SRIM_1": "24304",
+"SRIM_2": "38300",
+"SRIM_3": "98616",
+"stock_Div_PER": "95.76",
+"Current_PER": "26.11",
+"Current_PER_Rank": "18",
+"PER_Target_1": "196820",
+"PER_Target_2": "0",
+"PER_Target_Avr": "98410",
+"Close_Price": "63800",
+"Price_over_PERAvg": "0.324154049385225"
 }

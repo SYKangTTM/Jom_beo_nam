@@ -1,8 +1,16 @@
 {
-"stock_code":"A063080",
-"stock_name":"게임빌",
-"stock_Div":"게임소프트웨어",
-"SRIM_1":"43452",
-"SRIM_2":"45438",
-"SRIM_3":"50105"
+"stock_code": "A063080",
+"stock_name": "게임빌",
+"stock_Div": "게임엔터테인먼트",
+"SRIM_1": "43515",
+"SRIM_2": "45504",
+"SRIM_3": "50178",
+"stock_Div_PER": "38.15",
+"Current_PER": "15.09",
+"Current_PER_Rank": "7",
+"PER_Target_1": "116143",
+"PER_Target_2": "0",
+"PER_Target_Avr": "58072",
+"Close_Price": "31550",
+"Price_over_PERAvg": "0.271647882351928"
 }

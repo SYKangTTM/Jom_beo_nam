@@ -1,8 +1,16 @@
 {
-"stock_code":"A089980",
-"stock_name":"상아프론테크",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"10380",
-"SRIM_2":"10711",
-"SRIM_3":"11473"
+"stock_code": "A089980",
+"stock_name": "상아프론테크",
+"stock_Div": "전기제품",
+"SRIM_1": "10354",
+"SRIM_2": "10684",
+"SRIM_3": "11445",
+"stock_Div_PER": "77.9",
+"Current_PER": "45.21",
+"Current_PER_Rank": "16",
+"PER_Target_1": "44733",
+"PER_Target_2": "15219",
+"PER_Target_Avr": "29976",
+"Close_Price": "28700",
+"Price_over_PERAvg": "0.957432612756872"
 }

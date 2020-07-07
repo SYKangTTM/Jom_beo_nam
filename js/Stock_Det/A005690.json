@@ -1,8 +1,16 @@
 {
-"stock_code":"A005690",
-"stock_name":"파미셀",
-"stock_Div":"바이오",
-"SRIM_1":"773",
-"SRIM_2":"641",
-"SRIM_3":"420"
+"stock_code": "A005690",
+"stock_name": "파미셀",
+"stock_Div": "화학",
+"SRIM_1": "774",
+"SRIM_2": "642",
+"SRIM_3": "421",
+"stock_Div_PER": "58.5",
+"Current_PER": "276.57",
+"Current_PER_Rank": "71",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "18900",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A117730",
-"stock_name":"티로보틱스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"4787",
-"SRIM_2":"3970",
-"SRIM_3":"2605"
+"stock_code": "A117730",
+"stock_name": "티로보틱스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "5294",
+"SRIM_2": "4391",
+"SRIM_3": "2881",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "55461",
+"PER_Target_2": "0",
+"PER_Target_Avr": "27730",
+"Close_Price": "8170",
+"Price_over_PERAvg": "0.147310722850291"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A004770",
-"stock_name":"써니전자",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"1391",
-"SRIM_2":"1154",
-"SRIM_3":"757"
+"stock_code": "A004770",
+"stock_name": "써니전자",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "1393",
+"SRIM_2": "1155",
+"SRIM_3": "758",
+"stock_Div_PER": "31.01",
+"Current_PER": "167.04",
+"Current_PER_Rank": "43",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3315",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A054950",
-"stock_name":"제이브이엠",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"26402",
-"SRIM_2":"29349",
-"SRIM_3":"36927"
+"stock_code": "A054950",
+"stock_name": "제이브이엠",
+"stock_Div": "건강관리장비와용품",
+"SRIM_1": "26441",
+"SRIM_2": "29392",
+"SRIM_3": "36981",
+"stock_Div_PER": "116.58",
+"Current_PER": "26.05",
+"Current_PER_Rank": "23",
+"PER_Target_1": "185293",
+"PER_Target_2": "87523",
+"PER_Target_Avr": "136408",
+"Close_Price": "31300",
+"Price_over_PERAvg": "0.229458682775204"
 }

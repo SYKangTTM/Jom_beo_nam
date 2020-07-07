@@ -1,8 +1,16 @@
 {
-"stock_code":"A115480",
-"stock_name":"씨유메디칼",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"1984",
-"SRIM_2":"1646",
-"SRIM_3":"1080"
+"stock_code": "A115480",
+"stock_name": "씨유메디칼",
+"stock_Div": "전문소매",
+"SRIM_1": "1987",
+"SRIM_2": "1648",
+"SRIM_3": "1081",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2860",
+"Price_over_PERAvg": "N/A"
 }

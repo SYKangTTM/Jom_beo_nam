@@ -1,8 +1,16 @@
 {
-"stock_code":"A014580",
-"stock_name":"백광소재",
-"stock_Div":"건축소재",
-"SRIM_1":"4359",
-"SRIM_2":"3615",
-"SRIM_3":"2372"
+"stock_code": "A014580",
+"stock_name": "태경비케이",
+"stock_Div": "비철금속",
+"SRIM_1": "4365",
+"SRIM_2": "3621",
+"SRIM_3": "2376",
+"stock_Div_PER": "17.84",
+"Current_PER": "21.31",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3585",
+"Price_over_PERAvg": "N/A"
 }

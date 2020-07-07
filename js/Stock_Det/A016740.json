@@ -1,8 +1,16 @@
 {
-"stock_code":"A016740",
-"stock_name":"두올",
-"stock_Div":"자동차부품",
-"SRIM_1":"4783",
-"SRIM_2":"3967",
-"SRIM_3":"2603"
+"stock_code": "A016740",
+"stock_name": "두올",
+"stock_Div": "자동차부품",
+"SRIM_1": "4790",
+"SRIM_2": "3973",
+"SRIM_3": "2607",
+"stock_Div_PER": "12.97",
+"Current_PER": "10.62",
+"Current_PER_Rank": "41",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2870",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A100220",
-"stock_name":"ºñ»ó±³À°",
-"stock_Div":"±³À°",
-"SRIM_1":"15736",
-"SRIM_2":"13053",
-"SRIM_3":"8564"
+"stock_code": "A100220",
+"stock_name": "ºñ»ó±³À°",
+"stock_Div": "±³À°¼­ºñ½º",
+"SRIM_1": "15759",
+"SRIM_2": "13072",
+"SRIM_3": "8577",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7030",
+"Price_over_PERAvg": "N/A"
 }

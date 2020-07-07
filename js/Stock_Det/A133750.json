@@ -1,8 +1,16 @@
 {
-"stock_code":"A133750",
-"stock_name":"¸Þ°¡¿¥µð",
-"stock_Div":"±³À°",
-"SRIM_1":"2371",
-"SRIM_2":"1967",
-"SRIM_3":"1291"
+"stock_code": "A133750",
+"stock_name": "¸Þ°¡¿¥µð",
+"stock_Div": "±³À°¼­ºñ½º",
+"SRIM_1": "2375",
+"SRIM_2": "1970",
+"SRIM_3": "1293",
+"stock_Div_PER": "N/A",
+"Current_PER": "86.62",
+"Current_PER_Rank": "11",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3595",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A004250",
-"stock_name":"NPC",
-"stock_Div":"화학",
-"SRIM_1":"6065",
-"SRIM_2":"5031",
-"SRIM_3":"3301"
+"stock_code": "A004250",
+"stock_name": "NPC",
+"stock_Div": "화학",
+"SRIM_1": "6074",
+"SRIM_2": "5038",
+"SRIM_3": "3306",
+"stock_Div_PER": "58.5",
+"Current_PER": "8.93",
+"Current_PER_Rank": "26",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "3535",
+"Price_over_PERAvg": "N/A"
 }

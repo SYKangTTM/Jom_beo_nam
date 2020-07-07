@@ -1,8 +1,16 @@
 {
-"stock_code":"A067990",
-"stock_name":"도이치모터스",
-"stock_Div":"자동차",
-"SRIM_1":"12033",
-"SRIM_2":"13704",
-"SRIM_3":"18160"
+"stock_code": "A067990",
+"stock_name": "도이치모터스",
+"stock_Div": "전문소매",
+"SRIM_1": "12050",
+"SRIM_2": "13724",
+"SRIM_3": "18186",
+"stock_Div_PER": "N/A",
+"Current_PER": "3.69",
+"Current_PER_Rank": "1",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6350",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A056080",
-"stock_name":"유진로봇",
-"stock_Div":"기계",
-"SRIM_1":"1244",
-"SRIM_2":"1032",
-"SRIM_3":"677"
+"stock_code": "A056080",
+"stock_name": "유진로봇",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "1246",
+"SRIM_2": "1033",
+"SRIM_3": "678",
+"stock_Div_PER": "19.57",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2175",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A142210",
-"stock_name":"유니트론텍",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"3353",
-"SRIM_2":"2781",
-"SRIM_3":"1825"
+"stock_code": "A142210",
+"stock_name": "유니트론텍",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "3358",
+"SRIM_2": "2785",
+"SRIM_3": "1827",
+"stock_Div_PER": "17.68",
+"Current_PER": "11.95",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6030",
+"Price_over_PERAvg": "N/A"
 }

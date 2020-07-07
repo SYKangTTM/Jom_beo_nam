@@ -1,8 +1,16 @@
 {
-"stock_code":"A011330",
-"stock_name":"유니켐",
-"stock_Div":"섬유및의복",
-"SRIM_1":"1105",
-"SRIM_2":"916",
-"SRIM_3":"601"
+"stock_code": "A011330",
+"stock_name": "유니켐",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "1106",
+"SRIM_2": "918",
+"SRIM_3": "602",
+"stock_Div_PER": "23.09",
+"Current_PER": "5.87",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1330",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A031330",
-"stock_name":"에스에이엠티",
-"stock_Div":"반도체및관련장비",
-"SRIM_1":"2187",
-"SRIM_2":"1814",
-"SRIM_3":"1190"
+"stock_code": "A031330",
+"stock_name": "에스에이엠티",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "2190",
+"SRIM_2": "1816",
+"SRIM_3": "1192",
+"stock_Div_PER": "31.01",
+"Current_PER": "5.13",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2065",
+"Price_over_PERAvg": "N/A"
 }

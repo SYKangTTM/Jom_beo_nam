@@ -1,8 +1,16 @@
 {
-"stock_code":"A011390",
-"stock_name":"부산산업",
-"stock_Div":"건축소재",
-"SRIM_1":"47514",
-"SRIM_2":"39412",
-"SRIM_3":"25860"
+"stock_code": "A011390",
+"stock_name": "부산산업",
+"stock_Div": "건축자재",
+"SRIM_1": "47583",
+"SRIM_2": "39470",
+"SRIM_3": "25897",
+"stock_Div_PER": "N/A",
+"Current_PER": "42.61",
+"Current_PER_Rank": "19",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "138000",
+"Price_over_PERAvg": "N/A"
 }

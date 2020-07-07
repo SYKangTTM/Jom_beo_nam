@@ -1,8 +1,16 @@
 {
-"stock_code":"A079980",
-"stock_name":"ÈÞºñ½º",
-"stock_Div":"¼¶À¯¹×ÀÇº¹",
-"SRIM_1":"10751",
-"SRIM_2":"8918",
-"SRIM_3":"5851"
+"stock_code": "A079980",
+"stock_name": "ÈÞºñ½º",
+"stock_Div": "¼¶À¯,ÀÇ·ù,½Å¹ß,È£È­Ç°",
+"SRIM_1": "10767",
+"SRIM_2": "8931",
+"SRIM_3": "5860",
+"stock_Div_PER": "23.09",
+"Current_PER": "96.59",
+"Current_PER_Rank": "42",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6100",
+"Price_over_PERAvg": "N/A"
 }

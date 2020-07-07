@@ -1,8 +1,16 @@
 {
-"stock_code":"A038460",
-"stock_name":"바이오스마트",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"4960",
-"SRIM_2":"4115",
-"SRIM_3":"2700"
+"stock_code": "A038460",
+"stock_name": "바이오스마트",
+"stock_Div": "전자장비와기기",
+"SRIM_1": "4968",
+"SRIM_2": "4121",
+"SRIM_3": "2704",
+"stock_Div_PER": "31.01",
+"Current_PER": "5.48",
+"Current_PER_Rank": "5",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5800",
+"Price_over_PERAvg": "N/A"
 }

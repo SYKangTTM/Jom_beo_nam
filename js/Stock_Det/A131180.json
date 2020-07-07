@@ -1,8 +1,16 @@
 {
-"stock_code":"A131180",
-"stock_name":"딜리",
-"stock_Div":"컴퓨터및주변기기",
-"SRIM_1":"1864",
-"SRIM_2":"1546",
-"SRIM_3":"1014"
+"stock_code": "A131180",
+"stock_name": "딜리",
+"stock_Div": "컴퓨터와주변기기",
+"SRIM_1": "1867",
+"SRIM_2": "1548",
+"SRIM_3": "1016",
+"stock_Div_PER": "N/A",
+"Current_PER": "17.23",
+"Current_PER_Rank": "3",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1490",
+"Price_over_PERAvg": "N/A"
 }

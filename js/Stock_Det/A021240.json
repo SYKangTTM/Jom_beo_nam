@@ -1,8 +1,16 @@
 {
-"stock_code":"A021240",
-"stock_name":"웅진코웨이",
-"stock_Div":"내구소비재",
-"SRIM_1":"30672",
-"SRIM_2":"43295",
-"SRIM_3":"89517"
+"stock_code": "A021240",
+"stock_name": "코웨이",
+"stock_Div": "가정용기기와용품",
+"SRIM_1": "30755",
+"SRIM_2": "43445",
+"SRIM_3": "89957",
+"stock_Div_PER": "19.57",
+"Current_PER": "16.72",
+"Current_PER_Rank": "5",
+"PER_Target_1": "93773",
+"PER_Target_2": "113848",
+"PER_Target_Avr": "103810",
+"Close_Price": "73300",
+"Price_over_PERAvg": "0.706094277553812"
 }

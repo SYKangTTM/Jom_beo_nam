@@ -1,8 +1,16 @@
 {
-"stock_code":"A147830",
-"stock_name":"제룡산업",
-"stock_Div":"금속및광물",
-"SRIM_1":"5108",
-"SRIM_2":"4237",
-"SRIM_3":"2780"
+"stock_code": "A147830",
+"stock_name": "제룡산업",
+"stock_Div": "전기장비",
+"SRIM_1": "5116",
+"SRIM_2": "4243",
+"SRIM_3": "2784",
+"stock_Div_PER": "N/A",
+"Current_PER": "22.86",
+"Current_PER_Rank": "12",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4855",
+"Price_over_PERAvg": "N/A"
 }

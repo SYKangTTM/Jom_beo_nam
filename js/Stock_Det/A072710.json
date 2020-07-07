@@ -1,8 +1,16 @@
 {
-"stock_code":"A072710",
-"stock_name":"³ó½ÉÈ¦µù½º",
-"stock_Div":"½Ä·áÇ°",
-"SRIM_1":"178509",
-"SRIM_2":"148071",
-"SRIM_3":"97154"
+"stock_code": "A072710",
+"stock_name": "³ó½ÉÈ¦µù½º",
+"stock_Div": "½ÄÇ°",
+"SRIM_1": "178769",
+"SRIM_2": "148286",
+"SRIM_3": "97295",
+"stock_Div_PER": "23.98",
+"Current_PER": "8.73",
+"Current_PER_Rank": "14",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "83700",
+"Price_over_PERAvg": "N/A"
 }

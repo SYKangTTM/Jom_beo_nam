@@ -1,8 +1,16 @@
 {
-"stock_code":"A091590",
-"stock_name":"남화토건",
-"stock_Div":"건설",
-"SRIM_1":"10164",
-"SRIM_2":"8431",
-"SRIM_3":"5532"
+"stock_code": "A091590",
+"stock_name": "남화토건",
+"stock_Div": "건설",
+"SRIM_1": "10179",
+"SRIM_2": "8443",
+"SRIM_3": "5540",
+"stock_Div_PER": "6.13",
+"Current_PER": "40.96",
+"Current_PER_Rank": "48",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "16100",
+"Price_over_PERAvg": "N/A"
 }

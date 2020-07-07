@@ -1,8 +1,16 @@
 {
-"stock_code":"A003490",
-"stock_name":"대한항공",
-"stock_Div":"항공운수",
-"SRIM_1":"22704",
-"SRIM_2":"21321",
-"SRIM_3":"18546"
+"stock_code": "A003490",
+"stock_name": "대한항공",
+"stock_Div": "항공사",
+"SRIM_1": "22737",
+"SRIM_2": "21352",
+"SRIM_3": "18573",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "17200",
+"Price_over_PERAvg": "N/A"
 }

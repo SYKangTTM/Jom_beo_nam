@@ -1,8 +1,16 @@
 {
-"stock_code":"A180400",
-"stock_name":"캔서롭",
-"stock_Div":"의료장비및서비스",
-"SRIM_1":"956",
-"SRIM_2":"793",
-"SRIM_3":"520"
+"stock_code": "A180400",
+"stock_name": "캔서롭",
+"stock_Div": "생명과학도구및서비스",
+"SRIM_1": "952",
+"SRIM_2": "790",
+"SRIM_3": "518",
+"stock_Div_PER": "N/A",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "7740",
+"Price_over_PERAvg": "N/A"
 }

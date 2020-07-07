@@ -1,8 +1,16 @@
 {
-"stock_code":"A012790",
-"stock_name":"脚老力距",
-"stock_Div":"力距",
-"SRIM_1":"8661",
-"SRIM_2":"7184",
-"SRIM_3":"4714"
+"stock_code": "A012790",
+"stock_name": "脚老力距",
+"stock_Div": "力距",
+"SRIM_1": "8673",
+"SRIM_2": "7194",
+"SRIM_3": "4720",
+"stock_Div_PER": "122.92",
+"Current_PER": "17.41",
+"Current_PER_Rank": "24",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "12500",
+"Price_over_PERAvg": "N/A"
 }

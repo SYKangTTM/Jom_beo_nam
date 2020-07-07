@@ -1,8 +1,16 @@
 {
-"stock_code":"A335890",
-"stock_name":"IBKS제11호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"1746",
-"SRIM_2":"1448",
-"SRIM_3":"950"
+"stock_code": "A335890",
+"stock_name": "IBKS제11호스팩",
+"stock_Div": "미분류",
+"SRIM_1": "1748",
+"SRIM_2": "1449",
+"SRIM_3": "949",
+"stock_Div_PER": "",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "2055",
+"Price_over_PERAvg": "N/A"
 }

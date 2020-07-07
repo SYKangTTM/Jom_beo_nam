@@ -1,8 +1,16 @@
 {
-"stock_code":"A003920",
-"stock_name":"남양유업",
-"stock_Div":"식료품",
-"SRIM_1":"969130",
-"SRIM_2":"803877",
-"SRIM_3":"527448"
+"stock_code": "A003920",
+"stock_name": "남양유업",
+"stock_Div": "식품",
+"SRIM_1": "970539",
+"SRIM_2": "805046",
+"SRIM_3": "528215",
+"stock_Div_PER": "23.98",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "283000",
+"Price_over_PERAvg": "N/A"
 }

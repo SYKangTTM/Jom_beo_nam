@@ -1,8 +1,16 @@
 {
-"stock_code":"A093230",
-"stock_name":"이아이디",
-"stock_Div":"석유및가스",
-"SRIM_1":"225",
-"SRIM_2":"187",
-"SRIM_3":"123"
+"stock_code": "A093230",
+"stock_name": "이아이디",
+"stock_Div": "석유와가스",
+"SRIM_1": "226",
+"SRIM_2": "187",
+"SRIM_3": "123",
+"stock_Div_PER": "N/A",
+"Current_PER": "17.92",
+"Current_PER_Rank": "7",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "222",
+"Price_over_PERAvg": "N/A"
 }

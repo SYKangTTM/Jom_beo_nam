@@ -1,8 +1,16 @@
 {
-"stock_code":"A123890",
-"stock_name":"한국자산신탁",
-"stock_Div":"부동산",
-"SRIM_1":"6991",
-"SRIM_2":"7728",
-"SRIM_3":"9606"
+"stock_code": "A123890",
+"stock_name": "한국자산신탁",
+"stock_Div": "부동산",
+"SRIM_1": "7001",
+"SRIM_2": "7739",
+"SRIM_3": "9620",
+"stock_Div_PER": "5.87",
+"Current_PER": "3.72",
+"Current_PER_Rank": "1",
+"PER_Target_1": "5716",
+"PER_Target_2": "0",
+"PER_Target_Avr": "2858",
+"Close_Price": "2845",
+"Price_over_PERAvg": "0.497725682295311"
 }

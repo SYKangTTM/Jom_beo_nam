@@ -1,8 +1,16 @@
 {
-"stock_code":"A028150",
-"stock_name":"GS홈쇼핑",
-"stock_Div":"온라인쇼핑",
-"SRIM_1":"201889",
-"SRIM_2":"207037",
-"SRIM_3":"218789"
+"stock_code": "A028150",
+"stock_name": "GS홈쇼핑",
+"stock_Div": "인터넷과카탈로그소매",
+"SRIM_1": "201934",
+"SRIM_2": "206938",
+"SRIM_3": "218352",
+"stock_Div_PER": "16.77",
+"Current_PER": "7.1",
+"Current_PER_Rank": "2",
+"PER_Target_1": "349598",
+"PER_Target_2": "194041",
+"PER_Target_Avr": "271820",
+"Close_Price": "111300",
+"Price_over_PERAvg": "0.409462897253508"
 }

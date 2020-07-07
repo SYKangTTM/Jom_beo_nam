@@ -1,8 +1,16 @@
 {
-"stock_code":"A028100",
-"stock_name":"동아지질",
-"stock_Div":"건설",
-"SRIM_1":"18884",
-"SRIM_2":"20171",
-"SRIM_3":"23291"
+"stock_code": "A028100",
+"stock_name": "동아지질",
+"stock_Div": "건설",
+"SRIM_1": "15452",
+"SRIM_2": "12817",
+"SRIM_3": "8410",
+"stock_Div_PER": "6.13",
+"Current_PER": "12.03",
+"Current_PER_Rank": "34",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "14850",
+"Price_over_PERAvg": "N/A"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A033050",
-"stock_name":"제이엠아이",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"1003",
-"SRIM_2":"832",
-"SRIM_3":"546"
+"stock_code": "A033050",
+"stock_name": "제이엠아이",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "1004",
+"SRIM_2": "833",
+"SRIM_3": "546",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1205",
+"Price_over_PERAvg": "N/A"
 }

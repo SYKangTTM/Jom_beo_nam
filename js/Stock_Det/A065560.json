@@ -1,8 +1,16 @@
 {
-"stock_code":"A065560",
-"stock_name":"³ì¿ø¾¾¿£¾ÆÀÌ",
-"stock_Div":"È­ÇÐ",
-"SRIM_1":"3576",
-"SRIM_2":"2966",
-"SRIM_3":"1946"
+"stock_code": "A065560",
+"stock_name": "³ì¿ø¾¾¿£¾ÆÀÌ",
+"stock_Div": "È­ÇÐ",
+"SRIM_1": "3581",
+"SRIM_2": "2970",
+"SRIM_3": "1949",
+"stock_Div_PER": "58.5",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "5500",
+"Price_over_PERAvg": "N/A"
 }

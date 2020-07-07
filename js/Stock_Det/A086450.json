@@ -1,8 +1,16 @@
 {
-"stock_code":"A086450",
-"stock_name":"동국제약",
-"stock_Div":"제약",
-"SRIM_1":"62281",
-"SRIM_2":"74624",
-"SRIM_3":"110085"
+"stock_code": "A086450",
+"stock_name": "동국제약",
+"stock_Div": "제약",
+"SRIM_1": "62371",
+"SRIM_2": "74732",
+"SRIM_3": "110245",
+"stock_Div_PER": "122.92",
+"Current_PER": "20.53",
+"Current_PER_Rank": "29",
+"PER_Target_1": "1343582",
+"PER_Target_2": "108575",
+"PER_Target_Avr": "726078",
+"Close_Price": "131400",
+"Price_over_PERAvg": "0.180972167609976"
 }

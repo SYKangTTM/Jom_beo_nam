@@ -1,8 +1,16 @@
 {
-"stock_code":"A078650",
-"stock_name":"코렌",
-"stock_Div":"휴대폰및관련부품",
-"SRIM_1":"1014",
-"SRIM_2":"841",
-"SRIM_3":"552"
+"stock_code": "A078650",
+"stock_name": "코렌",
+"stock_Div": "핸드셋",
+"SRIM_1": "1016",
+"SRIM_2": "843",
+"SRIM_3": "553",
+"stock_Div_PER": "22.29",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1085",
+"Price_over_PERAvg": "N/A"
 }

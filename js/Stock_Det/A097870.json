@@ -1,8 +1,16 @@
 {
-"stock_code":"A097870",
-"stock_name":"효성오앤비",
-"stock_Div":"화학",
-"SRIM_1":"7293",
-"SRIM_2":"6049",
-"SRIM_3":"3969"
+"stock_code": "A097870",
+"stock_name": "효성오앤비",
+"stock_Div": "화학",
+"SRIM_1": "7303",
+"SRIM_2": "6058",
+"SRIM_3": "3975",
+"stock_Div_PER": "58.5",
+"Current_PER": "32.1",
+"Current_PER_Rank": "57",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "6700",
+"Price_over_PERAvg": "N/A"
 }

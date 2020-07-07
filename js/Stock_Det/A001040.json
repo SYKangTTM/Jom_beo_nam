@@ -1,8 +1,16 @@
 {
-"stock_code":"A001040",
-"stock_name":"CJ",
-"stock_Div":"육상운수",
-"SRIM_1":"124802",
-"SRIM_2":"115031",
-"SRIM_3":"95962"
+"stock_code": "A001040",
+"stock_name": "CJ",
+"stock_Div": "복합기업",
+"SRIM_1": "123471",
+"SRIM_2": "114211",
+"SRIM_3": "96046",
+"stock_Div_PER": "20.53",
+"Current_PER": "8.75",
+"Current_PER_Rank": "2",
+"PER_Target_1": "174628",
+"PER_Target_2": "206968",
+"PER_Target_Avr": "190798",
+"Close_Price": "90100",
+"Price_over_PERAvg": "0.472227172192581"
 }

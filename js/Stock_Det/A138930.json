@@ -1,8 +1,16 @@
 {
-"stock_code":"A138930",
-"stock_name":"BNK금융지주",
-"stock_Div":"상업은행",
-"SRIM_1":"23278",
-"SRIM_2":"21901",
-"SRIM_3":"19131"
+"stock_code": "A138930",
+"stock_name": "BNK금융지주",
+"stock_Div": "은행",
+"SRIM_1": "23380",
+"SRIM_2": "22018",
+"SRIM_3": "19275",
+"stock_Div_PER": "3.89",
+"Current_PER": "3.26",
+"Current_PER_Rank": "3",
+"PER_Target_1": "5365",
+"PER_Target_2": "7998",
+"PER_Target_Avr": "6682",
+"Close_Price": "5060",
+"Price_over_PERAvg": "0.757314974182444"
 }

@@ -1,8 +1,16 @@
 {
-"stock_code":"A036030",
-"stock_name":"KTH",
-"stock_Div":"온라인쇼핑",
-"SRIM_1":"5161",
-"SRIM_2":"4281",
-"SRIM_3":"2809"
+"stock_code": "A036030",
+"stock_name": "KTH",
+"stock_Div": "인터넷과카탈로그소매",
+"SRIM_1": "5169",
+"SRIM_2": "4287",
+"SRIM_3": "2813",
+"stock_Div_PER": "16.77",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "4800",
+"Price_over_PERAvg": "N/A"
 }

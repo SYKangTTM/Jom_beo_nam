@@ -1,8 +1,16 @@
 {
-"stock_code":"A241590",
-"stock_name":"화승엔터프라이즈",
-"stock_Div":"섬유및의복",
-"SRIM_1":"11116",
-"SRIM_2":"14037",
-"SRIM_3":"23105"
+"stock_code": "A241590",
+"stock_name": "화승엔터프라이즈",
+"stock_Div": "섬유,의류,신발,호화품",
+"SRIM_1": "11209",
+"SRIM_2": "14101",
+"SRIM_3": "23032",
+"stock_Div_PER": "23.09",
+"Current_PER": "14.05",
+"Current_PER_Rank": "26",
+"PER_Target_1": "16013",
+"PER_Target_2": "0",
+"PER_Target_Avr": "8006",
+"Close_Price": "11600",
+"Price_over_PERAvg": "0.724411415724724"
 }

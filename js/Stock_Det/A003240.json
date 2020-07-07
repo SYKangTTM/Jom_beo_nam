@@ -1,8 +1,16 @@
 {
-"stock_code":"A003240",
-"stock_name":"태광산업",
-"stock_Div":"화학",
-"SRIM_1":"3396433",
-"SRIM_2":"2817283",
-"SRIM_3":"1848506"
+"stock_code": "A003240",
+"stock_name": "태광산업",
+"stock_Div": "화학",
+"SRIM_1": "3401371",
+"SRIM_2": "2821380",
+"SRIM_3": "1851193",
+"stock_Div_PER": "58.5",
+"Current_PER": "4.54",
+"Current_PER_Rank": "4",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "711000",
+"Price_over_PERAvg": "N/A"
 }

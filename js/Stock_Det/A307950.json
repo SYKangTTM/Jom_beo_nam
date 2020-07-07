@@ -1,8 +1,16 @@
 {
-"stock_code":"A307950",
-"stock_name":"현대오토에버",
-"stock_Div":"IT서비스",
-"SRIM_1":"28775",
-"SRIM_2":"32008",
-"SRIM_3":"40332"
+"stock_code": "A307950",
+"stock_name": "현대오토에버",
+"stock_Div": "IT서비스",
+"SRIM_1": "28817",
+"SRIM_2": "32055",
+"SRIM_3": "40390",
+"stock_Div_PER": "23.79",
+"Current_PER": "14.42",
+"Current_PER_Rank": "14",
+"PER_Target_1": "49959",
+"PER_Target_2": "0",
+"PER_Target_Avr": "24980",
+"Close_Price": "37300",
+"Price_over_PERAvg": "0.746612222022058"
 }

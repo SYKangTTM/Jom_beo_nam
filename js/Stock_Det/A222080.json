@@ -1,8 +1,16 @@
 {
-"stock_code":"A222080",
-"stock_name":"씨아이에스",
-"stock_Div":"전자장비및기기",
-"SRIM_1":"1232",
-"SRIM_2":"1768",
-"SRIM_3":"3783"
+"stock_code": "A222080",
+"stock_name": "씨아이에스",
+"stock_Div": "전기제품",
+"SRIM_1": "794",
+"SRIM_2": "659",
+"SRIM_3": "432",
+"stock_Div_PER": "77.9",
+"Current_PER": "25.52",
+"Current_PER_Rank": "13",
+"PER_Target_1": "14911",
+"PER_Target_2": "0",
+"PER_Target_Avr": "7456",
+"Close_Price": "5270",
+"Price_over_PERAvg": "0.353430353430353"
 }

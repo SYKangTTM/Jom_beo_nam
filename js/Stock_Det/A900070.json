@@ -1,8 +1,16 @@
 {
-"stock_code":"A900070",
-"stock_name":"글로벌에스엠",
-"stock_Div":"자동차부품",
-"SRIM_1":"1380",
-"SRIM_2":"1145",
-"SRIM_3":"751"
+"stock_code": "A900070",
+"stock_name": "글로벌에스엠",
+"stock_Div": "자동차부품",
+"SRIM_1": "1382",
+"SRIM_2": "1147",
+"SRIM_3": "752",
+"stock_Div_PER": "12.97",
+"Current_PER": "26.99",
+"Current_PER_Rank": "62",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "571",
+"Price_over_PERAvg": "N/A"
 }

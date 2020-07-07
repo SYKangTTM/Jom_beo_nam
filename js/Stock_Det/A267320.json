@@ -1,8 +1,16 @@
 {
-"stock_code":"A267320",
-"stock_name":"교보7호스팩",
-"stock_Div":"창업투자및종금",
-"SRIM_1":"248",
-"SRIM_2":"206",
-"SRIM_3":"135"
+"stock_code": "A267320",
+"stock_name": "나인테크",
+"stock_Div": "반도체와반도체장비",
+"SRIM_1": "249",
+"SRIM_2": "206",
+"SRIM_3": "135",
+"stock_Div_PER": "17.68",
+"Current_PER": "14.37",
+"Current_PER_Rank": "23",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1895",
+"Price_over_PERAvg": "N/A"
 }

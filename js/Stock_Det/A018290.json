@@ -1,8 +1,16 @@
 {
-"stock_code":"A018290",
-"stock_name":"브이티지엠피",
-"stock_Div":"용기및포장",
-"SRIM_1":"5426",
-"SRIM_2":"7955",
-"SRIM_3":"17746"
+"stock_code": "A018290",
+"stock_name": "브이티지엠피",
+"stock_Div": "사무용전자제품",
+"SRIM_1": "5434",
+"SRIM_2": "7967",
+"SRIM_3": "17772",
+"stock_Div_PER": "50.05",
+"Current_PER": "54.05",
+"Current_PER_Rank": "2",
+"PER_Target_1": "19433",
+"PER_Target_2": "0",
+"PER_Target_Avr": "9716",
+"Close_Price": "8740",
+"Price_over_PERAvg": "0.449750424535584"
 }

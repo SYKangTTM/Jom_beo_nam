@@ -1,8 +1,16 @@
 {
-"stock_code":"A038060",
-"stock_name":"루멘스",
-"stock_Div":"디스플레이및관련부품",
-"SRIM_1":"2262",
-"SRIM_2":"1876",
-"SRIM_3":"1231"
+"stock_code": "A038060",
+"stock_name": "루멘스",
+"stock_Div": "디스플레이장비및부품",
+"SRIM_1": "2265",
+"SRIM_2": "1879",
+"SRIM_3": "1233",
+"stock_Div_PER": "112.72",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"PER_Target_1": "0",
+"PER_Target_2": "0",
+"PER_Target_Avr": "0",
+"Close_Price": "1710",
+"Price_over_PERAvg": "N/A"
 }
