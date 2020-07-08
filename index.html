@@ -46,32 +46,47 @@
         <script type="text/javascript" src="js/Stock_info/Stock_info_15.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>좀 버는 남자</title>
-        
-        <meta property="og:image" content="images/Thumbnail_kakao_1.jpg">
+
+        <meta property="og:image" content="images/Thumbnail_kakao_1.jpg" />
         <!-- <meta property="og:image:width" content="600">
         <meta property="og:image:height" content="300"> -->
-                                                     
-        <meta name="title" content="좀 버는 남자 - 가치투자">
-        <meta name="subject" content="내가 보유하고 있는 주식의 적정가치는 얼마 일까요? 저평가 종목은 무엇일까요? 한번 확인해보세요.">
-        <meta name="keywords" content="가치투자, 주식발굴, 종목발굴, 목표매도가, 주식아빠, 좀버남, 저평가주, 퀀트투자, SRIM, PER, PBR, NCAV, PCR">
-        <meta name="description" content="내가 보유하고 있는 종목의 목표매도가는 얼마 일까요? PER? PBR? SRIM? 각종 방법으로 계산한 목표가를 확인해보세요. 또한, 다양한 조건을 활용하여 저평가되어 있는 종목을 한번 찾아보세요. 가치투자, 퀀트투자를 통해 수익을 가져올 수 있는 기회를 잡으세요.">
-        <meta name="author" content="좀버남(주식아빠)">
+
+        <meta name="title" content="좀 버는 남자 - 가치투자" />
+        <meta
+            name="subject"
+            content="내가 보유하고 있는 주식의 적정가치는 얼마 일까요? 저평가 종목은 무엇일까요? 한번 확인해보세요."
+        />
+        <meta
+            name="keywords"
+            content="가치투자, 주식발굴, 종목발굴, 목표매도가, 주식아빠, 좀버남, 저평가주, 퀀트투자, SRIM, PER, PBR, NCAV, PCR"
+        />
+        <meta
+            name="description"
+            content="내가 보유하고 있는 종목의 목표매도가는 얼마 일까요? PER? PBR? SRIM? 각종 방법으로 계산한 목표가를 확인해보세요. 또한, 다양한 조건을 활용하여 저평가되어 있는 종목을 한번 찾아보세요. 가치투자, 퀀트투자를 통해 수익을 가져올 수 있는 기회를 잡으세요."
+        />
+        <meta name="author" content="좀버남(주식아빠)" />
     </head>
 
     <body>
         <section class="main" style="height: 69vh; overflow-y: scroll;">
             <div class="topnav">
-                <a class ="title" href="#" ><img src="images/JBN_Logo.svg" alt="" style="height:60px"></a>
-                
-                <div id="myLinks">
+                <a class="title" href="#"
+                    ><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"
+                /></a>
+                <!-- <div id="myLinks">
                     <a href="http://consensus.hankyung.com/" target="_blank">한경컨센서스</a>
                     <a href="http://m.thebell.co.kr/m/" target="_blank">더벨</a>
                     <a href="https://m.irgo.co.kr/" target="_blank">IRGO</a>
                     <a href="https://blog.naver.com/kkseyj" target="_blank">주식아빠_블로그</a>
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="nav()" style="padding-top: 30px;">
+                <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="nav()"
+                    style="padding-top: 30px;"
+                >
                     <i class="fa fa-bars"></i>
-                </a>
+                </a> -->
             </div>
             <form role="form">
                 <div class="form-group">
@@ -80,17 +95,29 @@
                         id="txt-search"
                         type="input"
                         placeholder="종목코드 또는 종목명을 입력하세요."
-                        style="background-color:#C2C8CA; color:white"
+                        style="background-color: #c2c8ca; color: white;"
                     />
                 </div>
                 <div id="filter-records" align="center"></div>
                 <div id="Button_insert" style="padding-top: 10px;" align="center"></div>
                 <div id="filter-records_1" style="padding-top: 10px;" align="center">
-                    본 자료는 참조로 사용하시길 바랍니다.<br>
-                    제공하는 목표가 정보는 개인적인 분석에 의해 작성되었으며, 이를 통한 해당종목의 매수추천을 의미하는 것은 아닙니다. <br>
-                    Updated : 2020-07-04<br>
-                    금용 및 보험 업종의 경우 Data 에러가 확인 되었으니, 본 자료가 정확하지 않습니다.<br>
-                    수정 예정입니다.
+                    <p>
+                        모바일 환경에서 최적화 되어 있습니다.<br>
+                        본 자료는 참조로 사용하시길 바랍니다.<br>
+                        제공하는 목표가 정보는 개인적인 분석에 의해 작성되었으며, 이를 통한
+                        해당종목의 매수추천을 의미하는 것은 아닙니다. <br>
+                        Updated : 2020-07-08<br>
+                        <br>
+                        금용 및 보험 업종의 경우 Data 에러가 확인 되었으니, 본 자료가 정확하지
+                        않습니다.<br>
+                        수정 예정입니다.<br>
+                        <br>
+                        검색 결과에서 제공되는 Table의 설명은 아래와 같습니다.
+                    </p>
+                    <p>
+                        <img src="images/manual/20200708161131.png" alt="" style="width:100%"/>
+                        
+                    </p>
                 </div>
             </form>
         </section>
@@ -528,63 +555,74 @@
             output += '<tr>' + '<th>업종</th>' + '<td>' + s_info[2] + '</td>' + '</tr>';
             output += '<tr>' + '<th>업종PER</th>' + '<td>' + jd.stock_Div_PER + '</td>' + '</tr>';
             output += '<tr>' + '<th>PER</th>' + '<td>' + jd.Current_PER + '</td>' + '</tr>';
-            output += '<tr>' + '<th>업종내PER순위</th>' + '<td>' + jd.Current_PER_Rank + '</td>' + '</tr>';
-            
-            output += '<tr>' + '<th>SRIM - 5년지속</th>' + '<td>' + jd.SRIM_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM - 10년지속</th>' + '<td>' + jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            output += '<tr>' + '<th>SRIM - 초과지속</th>' + '<td>' + jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            
-            output += '<tr>' + '<th>PER_목표1</th>' + '<td>' + jd.PER_Target_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            output += '<tr>' + '<th>PER_목표2</th>' + '<td>' + jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            output += '<tr>' + '<th>PER_목표평균</th>' + '<td>' + jd.PER_Target_Avr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            
-            output += '<tr>' + '<th>종가</th>' + '<td>' + jd.Close_Price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</td>' + '</tr>';
-            output += '<tr>' + '<th>종가/PER 괴리율</th>' + '<td>' + Number(Math.round(jd.Price_over_PERAvg*100)+'e-0') + '%' + '</td>' + '</tr>';
-            
-            
-            if (screen.width < 768)
-                output +=
-                    '<tr>' +
-                    '<th>네이버 종목 토론실</th>' +
-                    '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' +
-                    jd.stock_code.substr(1) +
-                    '/discuss" target="_blank">바로가기</a></td>' +
-                    '</tr>';
-            else
-                output +=
-                    '<tr>' +
-                    '<th>네이버 종목 토론실</th>' +
-                    '<td><a href="https://finance.naver.com/item/board.nhn?code=' +
-                    jd.stock_code.substr(1) +
-                    '" target="_blank">바로가기</a></td>' +
-                    '</tr>';
             output +=
                 '<tr>' +
-                '<th>한경컨센서스</th>' +
-                '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
-                StartDate +
-                '&edate=' +
-                FinishDate +
-                '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
-                jd.stock_code.substr(1) +
-                '" target="_blank">바로가기</a></td>' +
+                '<th>업종내PER순위</th>' +
+                '<td>' +
+                jd.Current_PER_Rank +
+                '</td>' +
+                '</tr>';
+
+            output +=
+                '<tr>' +
+                '<th>SRIM - 5년지속</th>' +
+                '<td>' +
+                jd.SRIM_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
                 '</tr>';
             output +=
                 '<tr>' +
-                '<th>The Bell News</th>' +
-                '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' +
-                s_info[1] +
-                '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' +
+                '<th>SRIM - 10년지속</th>' +
+                '<td>' +
+                jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
                 '</tr>';
             output +=
                 '<tr>' +
-                '<th>IR GO</th>' +
-                '<td><a href="https://m.irgo.co.kr/IR-COMP/' +
-                jd.stock_code.substr(1) +
-                '/' +
-                s_info[1] +
-                '-IR-ROOM" target="_blank">바로가기</a></td>' +
+                '<th>SRIM - 초과지속</th>' +
+                '<td>' +
+                jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
                 '</tr>';
+
+            output +=
+                '<tr>' +
+                '<th>PER_목표1</th>' +
+                '<td>' +
+                jd.PER_Target_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
+                '</tr>';
+            output +=
+                '<tr>' +
+                '<th>PER_목표2</th>' +
+                '<td>' +
+                jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
+                '</tr>';
+            output +=
+                '<tr>' +
+                '<th>PER_목표평균</th>' +
+                '<td>' +
+                jd.PER_Target_Avr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
+                '</tr>';
+
+            output +=
+                '<tr>' +
+                '<th>종가</th>' +
+                '<td>' +
+                jd.Close_Price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                '</td>' +
+                '</tr>';
+            output +=
+                '<tr>' +
+                '<th>종가/PER 괴리율</th>' +
+                '<td>' +
+                Number(Math.round(jd.Price_over_PERAvg * 100) + 'e-0') +
+                '%' +
+                '</td>' +
+                '</tr>';
+
             output += '</table></div>';
             output += '</div>';
             $('#filter-records_1').html(output);
@@ -615,7 +653,6 @@
             x.style.display = 'block';
         }
     }
-
 
     // function show_finan_data() {
     //     document.getElementById('filter-records').innerHTML = '';
