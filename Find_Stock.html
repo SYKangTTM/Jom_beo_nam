@@ -31,7 +31,22 @@
         />
         <script type="text/javascript" src="js/Stock_info/Stock_Div_Detail.js"></script>
         <script type="text/javascript" src="js/Finder_Stock/Finder_S_PER1.js"></script>
-        
+        <script type="text/javascript" src="js/Stock_info/Stock_info_1.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_2.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_3.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_4.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_5.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_6.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_7.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_8.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_9.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_10.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_11.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_12.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_13.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_14.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_15.js"></script>
+
         <title>좀 버는 남자</title>
     </head>
 
@@ -41,31 +56,16 @@
                 <a class="title" href="#"
                     ><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"
                 /></a>
-                <!-- <div id="myLinks">
-                    <a href="http://consensus.hankyung.com/" target="_blank">한경컨센서스</a>
-                    <a href="http://m.thebell.co.kr/m/" target="_blank">더벨</a>
-                    <a href="https://m.irgo.co.kr/" target="_blank">IRGO</a>
-                    <a href="https://blog.naver.com/kkseyj" target="_blank">주식아빠_블로그</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="nav()">
-                    <i class="fa fa-bars"></i>
-                </a> -->
             </div>
             <div class="dropdown">
-                <button onclick="dropdown_1()" class="dropbtn">검색조건</button>
+                <button onclick="dropdown_1()" class="dropbtn">검색조건</button>  개발중
                 <div id="myDropdown" class="dropdown-content">
                     <a onclick="Low_PER_1()">저PER</a>
-                    준비중
                 </div>
-                <div id="PER_FINDER"></div>
-                
-                
             </div>
-            <div id="PER_FINDER_Result"></div>
-
-            <div align="center">
-                준비중
-            </div>
+            <form role="form">
+                <div id="PER_FINDER_Result"  style="max-height: 50vh; overflow: auto;padding-top: 10px;" align="center" ></div>    
+            </form>
         </section>
 
         <section class="banner_section" align="center">
@@ -136,22 +136,12 @@
 </html>
 
 <script>
-    function nav() {
-        var x = document.getElementById('myLinks');
-        if (x.style.display === 'block') {
-            x.style.display = 'none';
-        } else {
-            x.style.display = 'block';
-        }
-    }
-
     function dropdown_1() {
         document.getElementById('myDropdown').classList.toggle('show');
     }
     function dropdown_2() {
         document.getElementById('myDropdown_2').classList.toggle('show');
     }
-    
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function (event) {
         if (!event.target.matches('.dropbtn')) {
@@ -167,26 +157,175 @@
     };
 </script>
 <script type="text/javascript">
-    function Low_PER_1(){
+    function Low_PER_1() {
+        var data1 = stock1;
+        var data2 = stock2;
+        var data3 = stock3;
+        var data4 = stock4;
+        var data5 = stock5;
+        var data6 = stock6;
+        var data7 = stock7;
+        var data8 = stock8;
+        var data9 = stock9;
+        var data10 = stock10;
+        var data11 = stock11;
+        var data12 = stock12;
+        var data13 = stock13;
+        var data14 = stock14;
+        var data15 = stock15;
+        var data_length =
+            data1.length +
+            data2.length +
+            data3.length +
+            data4.length +
+            data5.length +
+            data6.length +
+            data7.length +
+            data8.length +
+            data9.length +
+            data10.length +
+            data11.length +
+            data12.length +
+            data13.length +
+            data14.length +
+            data15.length;
+
+        var data_stock_code = [];
+        var data_stock_name = [];
+        var data_stock_WICS = [];
+        var data_stock_stock_Div_PER = [];
+        var data_stock_Current_PER = [];
+        var data_stock_Current_PER_Rank = [];
+        var n = 0;
+
+        for (i = 0; i < data1.length; i++) {
+            data_stock_code[n] = data1[i].stock_code;
+            data_stock_name[n] = data1[i].stock_name;
+            data_stock_WICS[n] = data1[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data2.length; i++) {
+            data_stock_code[n] = data2[i].stock_code;
+            data_stock_name[n] = data2[i].stock_name;
+            data_stock_WICS[n] = data2[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data3.length; i++) {
+            data_stock_code[n] = data3[i].stock_code;
+            data_stock_name[n] = data3[i].stock_name;
+            data_stock_WICS[n] = data3[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data4.length; i++) {
+            data_stock_code[n] = data4[i].stock_code;
+            data_stock_name[n] = data4[i].stock_name;
+            data_stock_WICS[n] = data4[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data5.length; i++) {
+            data_stock_code[n] = data5[i].stock_code;
+            data_stock_name[n] = data5[i].stock_name;
+            data_stock_WICS[n] = data5[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data6.length; i++) {
+            data_stock_code[n] = data6[i].stock_code;
+            data_stock_name[n] = data6[i].stock_name;
+            data_stock_WICS[n] = data6[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data7.length; i++) {
+            data_stock_code[n] = data7[i].stock_code;
+            data_stock_name[n] = data7[i].stock_name;
+            data_stock_WICS[n] = data7[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data8.length; i++) {
+            data_stock_code[n] = data8[i].stock_code;
+            data_stock_name[n] = data8[i].stock_name;
+            data_stock_WICS[n] = data8[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data9.length; i++) {
+            data_stock_code[n] = data9[i].stock_code;
+            data_stock_name[n] = data9[i].stock_name;
+            data_stock_WICS[n] = data9[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data10.length; i++) {
+            data_stock_code[n] = data10[i].stock_code;
+            data_stock_name[n] = data10[i].stock_name;
+            data_stock_WICS[n] = data10[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data11.length; i++) {
+            data_stock_code[n] = data11[i].stock_code;
+            data_stock_name[n] = data11[i].stock_name;
+            data_stock_WICS[n] = data11[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data12.length; i++) {
+            data_stock_code[n] = data12[i].stock_code;
+            data_stock_name[n] = data12[i].stock_name;
+            data_stock_WICS[n] = data12[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data13.length; i++) {
+            data_stock_code[n] = data13[i].stock_code;
+            data_stock_name[n] = data13[i].stock_name;
+            data_stock_WICS[n] = data13[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data14.length; i++) {
+            data_stock_code[n] = data14[i].stock_code;
+            data_stock_name[n] = data14[i].stock_name;
+            data_stock_WICS[n] = data14[i].stock_WICS;
+            n = n + 1;
+        }
+        for (i = 0; i < data15.length; i++) {
+            data_stock_code[n] = data15[i].stock_code;
+            data_stock_name[n] = data15[i].stock_name;
+            data_stock_WICS[n] = data15[i].stock_WICS;
+            n = n + 1;
+        }
+        
+        
+        
+        
+
+        for (var i = 0; i < n; i++) {
+            var detail_path = 'js/Stock_Det/' + data_stock_code[i] + '.json';
+            if(data_stock_WICS[i] == '반도체와반도체장비'){
+                $.getJSON(detail_path, function (jd) {
+                data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                data_stock_Current_PER[i] = jd.Current_PER;
+                data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                });    
+            }
+        }
+        
+        
         var data = stock_div;
-        // alert(data);
-        var output = '<button onclick="dropdown_2()" class="dropbtn">업종</button>';
-        output += '<div id="myDropdown_2" class="dropdown-content">';
-        for (i=0;i<data.length;i++){
-            output += '<a id="Find_LOW_PER">' + data[i] + '</a>'
-        }            
-        output += '</div>'
-        $('#PER_FINDER').html(output);
-    }
-    
-    // 수정필요
-    $(document).ready(function (){
-        var data1 = LOW_PER1;
-        $('#Find_LOW_PER').click(function(){
-            console.log("TT");
+        var output = '<div>';
+        for (var i= 0;i<n;i++){
+            if (data_stock_WICS[i] == '반도체와반도체장비' && data_stock_Current_PER_Rank[i] <=5){
+                output += '<div class="S_Table"><table>';
+                output += '<tr>' + '<th>종목 코드</th>' + '<td>' + data_stock_code[i] + '</td>' + '</tr>';
+                output += '<tr>' + '<th>종목 명</th>' + '<td>' + data_stock_name[i] + '</td>' + '</tr>';
+                output += '<tr>' + '<th>업종</th>' + '<td>' + data_stock_WICS[i] + '</td>' + '</tr>';
+                output += '<tr>' + '<th>업종PER</th>' + '<td>' + data_stock_stock_Div_PER[i] + '</td>' + '</tr>';
+                output += '<tr>' + '<th>PER</th>' + '<td>' + data_stock_Current_PER[i] + '</td>' + '</tr>';
+                output += '<tr>' + '<th>PER_순위</th>' + '<td>' + data_stock_Current_PER_Rank[i] + '</td>' + '</tr>';
+            }
+                
+        }
+        output += '</table></div>';
+        output += '</div>';
             
-        });
-    });
-    
-    
+        // alert(data_stock_Current_PER_Rank[0]);
+        $('#PER_FINDER_Result').html(output);
+    }
+    $.ajaxSetup({
+    async: false
+});
 </script>
