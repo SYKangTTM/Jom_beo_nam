@@ -43,7 +43,6 @@
         <script type="text/javascript" src="js/Stock_info/Stock_info_12.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_13.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_14.js"></script>
-        <script type="text/javascript" src="js/Stock_info/Stock_info_15.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>좀 버는 남자</title>
 
@@ -69,8 +68,10 @@
 
     <body>
         <section class="main" style="height: 69vh; overflow-y: scroll;">
-            <div class="topnav"  >
-                <a class="title" href="#"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
+            <div class="topnav">
+                <a class="title" href="#"
+                    ><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"
+                /></a>
             </div>
             <form role="form">
                 <div class="form-group">
@@ -86,21 +87,20 @@
                 <div id="Button_insert" style="padding-top: 10px;" align="center"></div>
                 <div id="filter-records_1" style="padding-top: 10px;" align="center">
                     <p>
-                        모바일 환경에서 최적화 되어 있습니다.<br>
-                        본 자료는 참조로 사용하시길 바랍니다.<br>
+                        모바일 환경에서 최적화 되어 있습니다.<br />
+                        본 자료는 참조로 사용하시길 바랍니다.<br />
                         제공하는 목표가 정보는 개인적인 분석에 의해 작성되었으며, 이를 통한
-                        해당종목의 매수추천을 의미하는 것은 아닙니다. <br>
-                        Updated : 2020-07-08<br>
-                        <br>
+                        해당종목의 매수추천을 의미하는 것은 아닙니다. <br />
+                        Updated : 2020-07-08<br />
+                        <br />
                         금용 및 보험 업종의 경우 Data 에러가 확인 되었으니, 본 자료가 정확하지
-                        않습니다.<br>
-                        수정 예정입니다.<br>
-                        <br>
+                        않습니다.<br />
+                        수정 예정입니다.<br />
+                        <br />
                         검색 결과에서 제공되는 Table의 설명은 아래와 같습니다.
                     </p>
                     <p>
-                        <img src="images/manual/20200708161131.png" alt="" style="width:100%"/>
-                        
+                        <img src="images/manual/20200708161131.png" alt="" style="width: 100%;" />
                     </p>
                 </div>
             </form>
@@ -189,7 +189,6 @@
         var data12 = stock12;
         var data13 = stock13;
         var data14 = stock14;
-        var data15 = stock15;
         $('#txt-search').keyup(function () {
             var x1 = document.getElementById('filter-records');
             x1.style.display = 'block';
@@ -215,270 +214,252 @@
             var stockcode;
             var count = 1;
             $.each(data1, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data2, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data3, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data4, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data5, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data6, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data7, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data8, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data9, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data10, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data11, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data12, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data13, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
                 }
             });
             $.each(data14, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
+                if (val.s_n.search(regex) != -1 || val.s_c.search(regex) != -1) {
+                     output +=
                         '<button id="R' +
                         count +
                         '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
+                        val.s_c +
                         ',' +
-                        val.stock_name +
+                        val.s_n +
                         ',' +
-                        val.stock_WICS +
+                        val.s_W +
                         '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
-                    output += '</button>';
-                    output += '</div>';
-                    count++;
-                }
-            });
-            $.each(data15, function (key, val) {
-                if (val.stock_name.search(regex) != -1 || val.stock_code.search(regex) != -1) {
-                    output +=
-                        '<button id="R' +
-                        count +
-                        '" type="button" class="btn btn-success"" style="width:100vw" onclick="stock_det(this.id)" value="' +
-                        val.stock_code +
-                        ',' +
-                        val.stock_name +
-                        ',' +
-                        val.stock_WICS +
-                        '">';
-                    output += '[' + val.stock_code + ']' + val.stock_name;
+                    output += '[' + val.s_c + ']' + val.s_n;
                     output += '</button>';
                     output += '</div>';
                     count++;
@@ -637,82 +618,4 @@
             x.style.display = 'block';
         }
     }
-
-    // function show_finan_data() {
-    //     document.getElementById('filter-records').innerHTML = '';
-    //     document.getElementById('Button_insert').innerHTML = '';
-    //     var x1 = document.getElementById('filter-records');
-    //     x1.style.display = 'none';
-    //     var x2 = document.getElementById('Button_insert');
-    //     x2.style.display = 'none';
-    //     var x3 = document.getElementById('filter-records_1');
-    //     x3.style.display = 'block';
-    //     var data = detail_data;
-    //     // console.log(data);
-    //     var FinishDate = new Date().toISOString().slice(0, 10);
-    //     var d = new Date(),
-    //         month = '' + d.getMonth(),
-    //         day = '' + d.getDate(),
-    //         year = d.getFullYear();
-    //     if (month.length < 2) month = '0' + month;
-    //     if (day.length < 2) day = '0' + day;
-    //     var StartDate = year + '-' + month + '-' + day;
-    //     var output = '<div>';
-    //     // var count = 1;
-    //     $.each(data, function (key, val) {
-    //         output += '<div class="S_Table"><table>';
-    //         output += '<tr>' + '<th>종목 코드</th>' + '<td>' + val.stock_code + '</td>' + '</tr>';
-    //         output += '<tr>' + '<th>종목명</th>' + '<td>' + val.stock_name + '</td>' + '</tr>';
-    //         output += '<tr>' + '<th>업종</th>' + '<td>' + val.stock_Div + '</td>' + '</tr>';
-    //         output += '<tr>' + '<th>SRIM 매수가</th>' + '<td>' + val.SRIM_1 + '</td>' + '</tr>';
-    //         output += '<tr>' + '<th>SRIM 목표가1</th>' + '<td>' + val.SRIM_2 + '</td>' + '</tr>';
-    //         output += '<tr>' + '<th>SRIM 목표가2</th>' + '<td>' + val.SRIM_3 + '</td>' + '</tr>';
-    //         if (screen.width < 768)
-    //             output +=
-    //                 '<tr>' +
-    //                 '<th>네이버 종목 토론실</th>' +
-    //                 '<td><a href="https://m.stock.naver.com/item/main.nhn#/stocks/' +
-    //                 val.stock_code.substr(1) +
-    //                 '/discuss" target="_blank">바로가기</a></td>' +
-    //                 '</tr>';
-    //         else
-    //             output +=
-    //                 '<tr>' +
-    //                 '<th>네이버 종목 토론실</th>' +
-    //                 '<td><a href="https://finance.naver.com/item/board.nhn?code=' +
-    //                 val.stock_code.substr(1) +
-    //                 '" target="_blank">바로가기</a></td>' +
-    //                 '</tr>';
-    //         output +=
-    //             '<tr>' +
-    //             '<th>한경컨센서스</th>' +
-    //             '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
-    //             StartDate +
-    //             '&edate=' +
-    //             FinishDate +
-    //             '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
-    //             val.stock_code.substr(1) +
-    //             '" target="_blank">바로가기</a></td>' +
-    //             '</tr>';
-    //         output +=
-    //             '<tr>' +
-    //             '<th>The Bell News</th>' +
-    //             '<td><a href="http://m.thebell.co.kr/m/news.asp?svccode=00&sort=FREE_DTM&searchtxt=' +
-    //             val.stock_name +
-    //             '&x=0&y=0#PAGEING" target="_blank">바로가기</a></td>' +
-    //             '</tr>';
-    //         output +=
-    //             '<tr>' +
-    //             '<th>IR GO</th>' +
-    //             '<td><a href="https://m.irgo.co.kr/IR-COMP/' +
-    //             val.stock_code.substr(1) +
-    //             '/' +
-    //             val.stock_name +
-    //             '-IR-ROOM" target="_blank">바로가기</a></td>' +
-    //             '</tr>';
-    //         output += '</table></div>';
-    //     });
-    //     output += '</div>';
-    //     $('#filter-records_1').html(output);
-    // }
 </script>
