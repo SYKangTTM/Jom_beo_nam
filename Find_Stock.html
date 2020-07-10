@@ -57,7 +57,7 @@
                 /></a>
             </div>
             <div class="dropdown">
-                <div class="btn-group" role="group" aria-label="Basic example">
+                <!-- <div class="btn-group" role="group" aria-label="Basic example">
                     <button id="finder_stock_condition" onclick="dropdown_1()" class="dropbtn">검색조건</button>
                         <div id="myDropdown" class="dropdown-content">
                             <a onclick="Low_PER_1()">저PER</a>
@@ -66,8 +66,18 @@
                         <div id="myDropdown2" class="dropdown-content">
                             <a onclick="Low_PER_1()">반도체와반도체장비</a>
                         </div>
-                </div>
+                </div> -->
                 
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <select id="Find_Stock_Condtion" >
+                        <option value="Low_PER">저PER</option>
+                        <option value="SRIM">S_RIM</option>
+                    </select>
+                    
+                    <select id="inventory_WICS"></select>
+                    
+                    <button id="Finder" onclick="Search_Stock()">검색</button>
+                </div>
             </div>
             <form role="form">
                 개발중입니다.
@@ -163,10 +173,62 @@
             }
         }
     };
+    
+    $(document).ready(function () {
+        var stock_div_data = stock_div;
+        
+        var output = '<select>';
+        for(var i=0;i<stock_div_data.length;i++){
+            output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
+        }
+        output += '</select>';
+        $('#inventory_WICS').html(output);
+    });
+    
+    function Search_Stock(){
+        var Con_F_S = document.getElementById('Find_Stock_Condtion').value;
+        var Div_F_ST = document.getElementById('inventory_WICS').value;
+        if(Con_F_S == "Low_PER"){
+            Low_PER_1(Div_F_ST);
+        }
+    }
+    function sortTable() {
+        var table, rows, switching, i, x, y, shouldSwitch;
+        table = document.getElementById("Table_F_S");
+        switching = true;
+        /*Make a loop that will continue until
+        no switching has been done:*/
+        while (switching) {
+            //start by saying: no switching is done:
+            switching = false;
+            rows = table.rows;
+            /*Loop through all table rows (except the
+            first, which contains table headers):*/
+            for (i = 1; i < (rows.length - 1); i++) {
+                //start by saying there should be no switching:
+                shouldSwitch = false;
+                /*Get the two elements you want to compare,
+                one from current row and one from the next:*/
+                x = rows[i].getElementsByTagName("TD")[3];
+                y = rows[i + 1].getElementsByTagName("TD")[3];
+                //check if the two rows should switch place:
+                if (Number(x.innerHTML) > Number(y.innerHTML)) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+            if (shouldSwitch) {
+                /*If a switch has been marked, make the switch
+                and mark that a switch has been done:*/
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+            }
+          }
+    }
 </script>
 <script type="text/javascript">
-    function Low_PER_1() {
-        document.getElementById('finder_stock_condition').innerHTML = '저PER';
+    function Low_PER_1(Div_F_ST) {
         var data1 = stock1;
         var data2 = stock2;
         var data3 = stock3;
@@ -311,7 +373,7 @@
         
 
         for (var i = 0; i < n; i++) {
-            if(data_stock_WICS[i] == '반도체와반도체장비' && data_stock_PER_RANK[i] <=5){
+            if(data_stock_WICS[i] == Div_F_ST && data_stock_PER_RANK[i] <=10){
                 var detail_path = 'js/Stock_Det/' + data_stock_code[i] + '.json';
                 $.getJSON(detail_path, function (jd) {
                 data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
@@ -324,32 +386,31 @@
         
         var data = stock_div;
         var output = '<div class="table-responsive">';
-        output += '<table class="table table-sm">';
+        output += '<table id="Table_F_S" class="table table-sm">';
         output += '<thread>';
         output += '<tr>';
         output += '<th scope="col"> # </th>';
         output += '<th scope="col"> 종목코드 </th>';
         output += '<th scope="col"> 종목명 </th>';
-        output += '<th scope="col"> 업종 </th>';
-        output += '<th scope="col"> 업종PER </th>';
+        output += '<th scope="col"> PER 순위 </th>';
         output += '<th scope="col"> PER </th>';
-        output += '<th scope="col"> PER 순위</th>';
+        output += '<th scope="col"> 업종 PER </th>';
+        output += '<th scope="col"> 업종 </th>';
         output += '</tr>';
         output += '</thread>';
         output += '<tbody>';
         for (var i= 0;i<n;i++){
-            if (data_stock_WICS[i] == '반도체와반도체장비' && data_stock_Current_PER_Rank[i] <=5){
+            if (data_stock_WICS[i] == Div_F_ST && data_stock_Current_PER[i] <= 10){
                 output += '<tr>'
                 output += '<th scope="row">' + i+1 + '</th>'
                 output += '<td>' +  data_stock_code[i] + '</td>';
                 output += '<td>' +  data_stock_name[i] + '</td>';
-                output += '<td>' +  data_stock_WICS[i] + '</td>';
-                output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
-                output += '<td>' +  data_stock_Current_PER[i] + '</td>';
                 output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
-                output += '</tr>'
+                output += '<td>' +  data_stock_Current_PER[i] + '</td>';
+                output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                output += '<td>' +  data_stock_WICS[i] + '</td>';
+                output += '</tr>'    
             }
-                
         }
         output += '</tbody>';
         output += '</table>';
@@ -357,6 +418,12 @@
         
         // alert(data_stock_Current_PER_Rank[0]);
         $('#PER_FINDER_Result').html(output);
+        sortTable();
+        
+
+        
+        
+        
     }
     $.ajaxSetup({
     async: false
