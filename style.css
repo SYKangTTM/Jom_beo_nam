@@ -175,3 +175,17 @@ table{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+
+.button_1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5%;
+}

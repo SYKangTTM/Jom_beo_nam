@@ -69,14 +69,14 @@
                 </div> -->
                 
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <select id="Find_Stock_Condtion" >
+                    <select id="Find_Stock_Condtion" style="vertical-align: middle;">
                         <option value="Low_PER">저PER</option>
                         <option value="SRIM">S_RIM</option>
                     </select>
                     
-                    <select id="inventory_WICS"></select>
+                    <select id="inventory_WICS" style="vertical-align: middle;"></select>
                     
-                    <button id="Finder" onclick="Search_Stock()">검색</button>
+                    <button id="Finder" onclick="Search_Stock()" class="button_1">검색</button>
                 </div>
             </div>
             <form role="form">
@@ -382,13 +382,12 @@
                 });    
             }
         }
-        
-        
+
         var data = stock_div;
         var output = '<div class="table-responsive">';
         output += '<table id="Table_F_S" class="table table-sm">';
         output += '<thread>';
-        output += '<tr>';
+        output += '<tr >';
         output += '<th scope="col"> # </th>';
         output += '<th scope="col"> 종목코드 </th>';
         output += '<th scope="col"> 종목명 </th>';
