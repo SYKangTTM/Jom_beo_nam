@@ -400,7 +400,7 @@
         output += '</thread>';
         output += '<tbody>';
         for (var i= 0;i<n;i++){
-            if (data_stock_WICS[i] == Div_F_ST && data_stock_Current_PER[i] <= 10){
+            if (data_stock_WICS[i] == Div_F_ST && data_stock_PER_RANK[i] <= 10){
                 output += '<tr>'
                 output += '<th scope="row">' + i+1 + '</th>'
                 output += '<td>' +  data_stock_code[i] + '</td>';
