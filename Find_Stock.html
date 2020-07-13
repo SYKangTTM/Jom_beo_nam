@@ -453,11 +453,11 @@
                 if (data_stock_F_S_C_1[i] == 'O'){
                     output += '<tr>'
                     // output += '<th scope="row">' + i+1 + '</th>'
-                    output += '<td>' +  data_stock_code[i] + '</td>';
-                    output += '<td>' +  data_stock_name[i] + '</td>';
-                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
-                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
-                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_code[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_name[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_stock_Div_PER[i] + '</td>';
  
                     output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
@@ -465,25 +465,25 @@
                     output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
 
                     if(data_stock_F_S_C_2 =='OO'){
-                        output += '<td>컨센_흑전</td>';
+                        output += '<td align="center">컨센_흑전</td>';
                     } else if(data_stock_F_S_C_2 =='O'){
-                        output += '<td>추세_흑전</td>';
+                        output += '<td align="center" >추세_흑전</td>';
                     } else {
-                        output += '<td></td>';
+                        output += '<td align="center"></td>';
                     }
 
-                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_WICS[i] + '</td>';
                     output += '</tr>'    
                 }
             }else{
                 if (data_stock_WICS[i] == Div_F_ST && data_stock_F_S_C_1[i] == 'O'){
                     output += '<tr>'
                     // output += '<th scope="row">' + i+1 + '</th>'
-                    output += '<td>' +  data_stock_code[i] + '</td>';
-                    output += '<td>' +  data_stock_name[i] + '</td>';
-                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
-                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
-                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_code[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_name[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_stock_Div_PER[i] + '</td>';
                     
                     output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
@@ -491,14 +491,14 @@
                     output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
 
                     if(data_stock_F_S_C_2 =='OO'){
-                        output += '<td>컨센_흑전</td>';
+                        output += '<td align="center">컨센_흑전</td>';
                     } else if(data_stock_F_S_C_2 =='O'){
-                        output += '<td>추세_흑전</td>';
+                        output += '<td align="center">추세_흑전</td>';
                     } else {
-                        output += '<td></td>';
+                        output += '<td align="center"></td>';
                     }
 
-                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_WICS[i] + '</td>';
                     output += '</tr>'    
                 }
             }
@@ -805,50 +805,50 @@
                 if (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO'){
                     output += '<tr>'
                     // output += '<th scope="row">' + i+1 + '</th>'
-                    output += '<td>' +  data_stock_code[i] + '</td>';
-                    output += '<td>' +  data_stock_name[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_code[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_name[i] + '</td>';
                     if(data_stock_F_S_C_2[i] =='OO'){
-                        output += '<td>컨센_흑전</td>';
+                        output += '<td align="center">컨센_흑전</td>';
                     } else if(data_stock_F_S_C_2[i] =='O'){
-                        output += '<td>추세_흑전</td>';
+                        output += '<td align="center">추세_흑전</td>';
                     } else {
-                        output += '<td></td>';
+                        output += '<td align="center"></td>';
                     }
-                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
-                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
-                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_stock_Div_PER[i] + '</td>';
                     
                     output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     
-                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_WICS[i] + '</td>';
                     output += '</tr>'   
                 }
             }else{
                 if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
                     output += '<tr>'
                     // output += '<th scope="row">' + i+1 + '</th>'
-                    output += '<td>' +  data_stock_code[i] + '</td>';
-                    output += '<td>' +  data_stock_name[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_code[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_name[i] + '</td>';
                     if(data_stock_F_S_C_2[i] =='OO'){
-                        output += '<td>컨센_흑전</td>';
+                        output += '<td align="center">컨센_흑전</td>';
                     } else if(data_stock_F_S_C_2[i] =='O'){
-                        output += '<td>추세_흑전</td>';
+                        output += '<td align="center">추세_흑전</td>';
                     } else {
-                        output += '<td></td>';
+                        output += '<td align="center"></td>';
                     }
-                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
-                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
-                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_stock_Div_PER[i] + '</td>';
                     
                     output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     
-                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '<td align="center">' +  data_stock_WICS[i] + '</td>';
                     output += '</tr>' 
                     }
             }
