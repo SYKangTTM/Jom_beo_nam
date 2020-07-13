@@ -1,0 +1,16 @@
+{
+"stock_code": "A014130",
+"stock_name": "한익스프레스",
+"stock_Div": "항공화물운송과물류",
+"stock_Div_PER": "14.62",
+"Current_PER": "7.95",
+"Current_PER_Rank": "2",
+"Close_Price": "4560",
+"PER_Target_1": "6653",
+"PER_Target_2": "5891",
+"PER_Target_Avr": "6272",
+"Price_over_PERAvg": "0.727040816326531",
+"SRIM_1": "5374",
+"SRIM_2": "4458",
+"SRIM_3": "2925"
+}

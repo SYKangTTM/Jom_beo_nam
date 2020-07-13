@@ -1,0 +1,16 @@
+{
+"stock_code": "A032280",
+"stock_name": "삼일",
+"stock_Div": "항공화물운송과물류",
+"stock_Div_PER": "14.62",
+"Current_PER": "11.03",
+"Current_PER_Rank": "4",
+"Close_Price": "1845",
+"PER_Target_1": "2833",
+"PER_Target_2": "2406",
+"PER_Target_Avr": "2620",
+"Price_over_PERAvg": "0.704332887955717",
+"SRIM_1": "3900",
+"SRIM_2": "3235",
+"SRIM_3": "2122"
+}

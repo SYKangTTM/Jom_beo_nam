@@ -1,0 +1,16 @@
+{
+"stock_code": "A001500",
+"stock_name": "현대차증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "3.72",
+"Current_PER_Rank": "2",
+"Close_Price": "8510",
+"PER_Target_1": "11591",
+"PER_Target_2": "10453",
+"PER_Target_Avr": "11022",
+"Price_over_PERAvg": "0.772092179277808",
+"SRIM_1": "204916",
+"SRIM_2": "199508",
+"SRIM_3": "188069"
+}

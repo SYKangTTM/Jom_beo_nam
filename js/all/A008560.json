@@ -1,0 +1,16 @@
+{
+"stock_code": "A008560",
+"stock_name": "메리츠증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "4.14",
+"Current_PER_Rank": "3",
+"Close_Price": "3000",
+"PER_Target_1": "3980",
+"PER_Target_2": "4072",
+"PER_Target_Avr": "4026",
+"Price_over_PERAvg": "0.745156482861401",
+"SRIM_1": "6507",
+"SRIM_2": "6718",
+"SRIM_3": "7203"
+}

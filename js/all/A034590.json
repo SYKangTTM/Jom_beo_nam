@@ -1,0 +1,16 @@
+{
+"stock_code": "A034590",
+"stock_name": "인천도시가스",
+"stock_Div": "가스유틸리티",
+"stock_Div_PER": "10.76",
+"Current_PER": "11.25",
+"Current_PER_Rank": "7",
+"Close_Price": "24050",
+"PER_Target_1": "25023",
+"PER_Target_2": "31848",
+"PER_Target_Avr": "28436",
+"Price_over_PERAvg": "0.845773768704612",
+"SRIM_1": "40483",
+"SRIM_2": "33580",
+"SRIM_3": "22033"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A020710",
+"stock_name": "시공테크",
+"stock_Div": "호텔,레스토랑,레저",
+"stock_Div_PER": "96.29",
+"Current_PER": "7.03",
+"Current_PER_Rank": "2",
+"Close_Price": "5330",
+"PER_Target_1": "69979",
+"PER_Target_2": "41121",
+"PER_Target_Avr": "55550",
+"Price_over_PERAvg": "0.095949594959496",
+"SRIM_1": "5134",
+"SRIM_2": "4259",
+"SRIM_3": "2794"
+}

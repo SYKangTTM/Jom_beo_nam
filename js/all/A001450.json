@@ -1,0 +1,16 @@
+{
+"stock_code": "A001450",
+"stock_name": "현대해상",
+"stock_Div": "손해보험",
+"stock_Div_PER": "8.39",
+"Current_PER": "7.01",
+"Current_PER_Rank": "5",
+"Close_Price": "22050",
+"PER_Target_1": "31651",
+"PER_Target_2": "39615",
+"PER_Target_Avr": "35633",
+"Price_over_PERAvg": "0.618808407936463",
+"SRIM_1": "52406",
+"SRIM_2": "51874",
+"SRIM_3": "50720"
+}

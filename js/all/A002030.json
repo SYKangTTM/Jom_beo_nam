@@ -1,0 +1,16 @@
+{
+"stock_code": "A002030",
+"stock_name": "아세아",
+"stock_Div": "포장재",
+"stock_Div_PER": "9.25",
+"Current_PER": "3.16",
+"Current_PER_Rank": "2",
+"Close_Price": "69400",
+"PER_Target_1": "193343",
+"PER_Target_2": "251351",
+"PER_Target_Avr": "222347",
+"Price_over_PERAvg": "0.312124741957391",
+"SRIM_1": "368631",
+"SRIM_2": "305774",
+"SRIM_3": "200627"
+}

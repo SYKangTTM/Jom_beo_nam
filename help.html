@@ -34,15 +34,21 @@
     </head>
 
     <body>
-        <section class="main" style="height: 69vh; overflow-y: scroll;">
+        <section class="main" style="height: 75vh; overflow-y: scroll;">
             <div class="topnav">
-                <a class ="title" href="#" ><img src="images/JBN_Logo.svg" alt="" style="height:60px"></a>
+                <a class="title" href="index.html"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
             </div>
             <div>
                 <h1 align="center">
                     도움말
                 </h1>
-                <article>
+                <article style="padding-top: 5%;">
+                    <p align="center">
+                        제공 되는 데이터의 정확성에 대하여 100% 보장할 수 업습니다.
+                    </p>
+                </article>
+                
+                <article style="padding-top: 5%;">
                     <p>
                         1) 목표주가 : 각 종목을 조회하여, 해당 종목의 목표주가를 확인 할 수
                         있습니다. 목표주가의 확인 방법으로는 SRIM, PER, PBR 3가지로 계산 되었습니다.
@@ -52,14 +58,13 @@
                         평균 PER을 적용하는 경우. 두번째 동일업종 평균 PER로 계산된 목표주가에서
                         할인율 5%적용
                     </p>
-                    <p>
+                    <!-- <p>
                         - PBR : 동일업종PBR 기준으로 산정된 값이며, 2가지로 계산됨. 첫번째, 동일업종
                         평균 PBR을 적용하는 경우. 두번째 동일업종 평균 PBR로 계산된 목표주가에서
                         할인율 10%적용
-                    </p>
+                    </p> -->
                     <p>
-                        - SRIM : SRIM 분석. 표시된 매도목표가는 10년 지속 혹은 초과지속의 결과 중
-                        낮은값으로 산정됨
+                        - SRIM : SRIM 분석을 동해 5년지속, 10년지속, 초괴지속시 목표 주가.
                     </p>
                     <p>
                         단 목표주가에서 제공하는 목표주가 보다 주가가 낮다고 하여 해당 주식의 매수 추천하는 것은 아닙니다.<br>
@@ -71,13 +76,16 @@
                     </p>
                     <p>
                         - 흑자전환 예상 : 분기 적자 폭이 감소 중 으로, 다음 분기 흑자로 전환 가능
-                        추세에 있는 종목 선별
+                        추세에 있는 종목 선별<br>
+                           [컨센흑자전환 = 연결연간기준 다음 분기 예상치가 흑자 인 경우]<br>
+                           [추세흑자전화 = 직전 발표한 2개 분기의 적자폭 감소 추정을 통해 다음 실적 발표 시 흑자 전환 추세가 예상 되는 경우]<br>
+                        
                     </p>
-                    <p>
+                    <!-- <p>
                         - F스코어 : F스코어로 분류한 종목 선별
-                    </p>
+                    </p> -->
                     <p>
-                        - 저 PER : 업종 평균 PER보다 낮은 종목
+                        - 저 PER : 업종 PER의 90% 보다 낮고, 전년도 영업이익이 흑자이며, ROE가 20 이상인 기업
                     </p>
                 </article>
             </div>
@@ -100,46 +108,9 @@
 
         <section>
             <div class="btn-group" role="group" aria-label="Basic example">
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='index.html';"
-                >
-                    목표주가
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='Find_Stock.html';"
-                >
-                    종목발굴
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='sector.html';"
-                >
-                    업종DATA
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='data_lab.html';"
-                >
-                    데이터실
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='help.html';"
-                >
-                    도움말
-                </button>
+                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='index.html';">목표주가</button>
+                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
+                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='help.html';">도움말</button>
             </div>
         </section>
         <footer class="footer" style="height: 3vh;">

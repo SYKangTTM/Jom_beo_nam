@@ -1,0 +1,16 @@
+{
+"stock_code": "A000300",
+"stock_name": "대유플러스",
+"stock_Div": "자동차부품",
+"stock_Div_PER": "12.48",
+"Current_PER": "2.59",
+"Current_PER_Rank": "3",
+"Close_Price": "609",
+"PER_Target_1": "1755",
+"PER_Target_2": "2754",
+"PER_Target_Avr": "2254",
+"Price_over_PERAvg": "0.270126413838989",
+"SRIM_1": "809",
+"SRIM_2": "671",
+"SRIM_3": "440"
+}

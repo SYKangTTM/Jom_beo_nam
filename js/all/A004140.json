@@ -1,0 +1,16 @@
+{
+"stock_code": "A004140",
+"stock_name": "동방",
+"stock_Div": "항공화물운송과물류",
+"stock_Div_PER": "14.62",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"Close_Price": "1845",
+"PER_Target_1": "-3375",
+"PER_Target_2": "-838",
+"PER_Target_Avr": "-2106",
+"Price_over_PERAvg": "-0.875860431996202",
+"SRIM_1": "2444",
+"SRIM_2": "2027",
+"SRIM_3": "1330"
+}

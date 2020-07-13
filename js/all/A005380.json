@@ -1,0 +1,16 @@
+{
+"stock_code": "A005380",
+"stock_name": "현대차",
+"stock_Div": "자동차",
+"stock_Div_PER": "10.07",
+"Current_PER": "10.41",
+"Current_PER_Rank": "2",
+"Close_Price": "98300",
+"PER_Target_1": "84013",
+"PER_Target_2": "103136",
+"PER_Target_Avr": "93574",
+"Price_over_PERAvg": "1.05049986908827",
+"SRIM_1": "237080",
+"SRIM_2": "224847",
+"SRIM_3": "199951"
+}

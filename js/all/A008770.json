@@ -1,0 +1,16 @@
+{
+"stock_code": "A008770",
+"stock_name": "호텔신라",
+"stock_Div": "호텔,레스토랑,레저",
+"stock_Div_PER": "96.29",
+"Current_PER": "62.22",
+"Current_PER_Rank": "7",
+"Close_Price": "68800",
+"PER_Target_1": "-179292",
+"PER_Target_2": "-164620",
+"PER_Target_Avr": "-171956",
+"Price_over_PERAvg": "-0.400102351764405",
+"SRIM_1": "32682",
+"SRIM_2": "42883",
+"SRIM_3": "76410"
+}

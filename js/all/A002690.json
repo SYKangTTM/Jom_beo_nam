@@ -1,0 +1,16 @@
+{
+"stock_code": "A002690",
+"stock_name": "동일제강",
+"stock_Div": "철강",
+"stock_Div_PER": "18.35",
+"Current_PER": "40",
+"Current_PER_Rank": "31",
+"Close_Price": "1910",
+"PER_Target_1": "1290",
+"PER_Target_2": "6516",
+"PER_Target_Avr": "3903",
+"Price_over_PERAvg": "0.489367153471688",
+"SRIM_1": "8126",
+"SRIM_2": "6741",
+"SRIM_3": "4423"
+}

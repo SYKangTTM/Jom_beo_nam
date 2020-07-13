@@ -1,0 +1,16 @@
+{
+"stock_code": "A007700",
+"stock_name": "F&F",
+"stock_Div": "섬유,의류,신발,호화품",
+"stock_Div_PER": "22.63",
+"Current_PER": "12.42",
+"Current_PER_Rank": "21",
+"Close_Price": "88500",
+"PER_Target_1": "160422",
+"PER_Target_2": "90723",
+"PER_Target_Avr": "125572",
+"Price_over_PERAvg": "0.704772143582393",
+"SRIM_1": "57824",
+"SRIM_2": "75183",
+"SRIM_3": "131464"
+}

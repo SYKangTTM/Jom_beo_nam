@@ -1,0 +1,16 @@
+{
+"stock_code": "A120030",
+"stock_name": "조선선재",
+"stock_Div": "철강",
+"stock_Div_PER": "18.35",
+"Current_PER": "9.94",
+"Current_PER_Rank": "13",
+"Close_Price": "115000",
+"PER_Target_1": "177585",
+"PER_Target_2": "72124",
+"PER_Target_Avr": "124854",
+"Price_over_PERAvg": "0.921072127956942",
+"SRIM_1": "95476",
+"SRIM_2": "79196",
+"SRIM_3": "51963"
+}

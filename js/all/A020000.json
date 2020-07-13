@@ -1,0 +1,16 @@
+{
+"stock_code": "A020000",
+"stock_name": "한섬",
+"stock_Div": "섬유,의류,신발,호화품",
+"stock_Div_PER": "22.63",
+"Current_PER": "11.07",
+"Current_PER_Rank": "16",
+"Close_Price": "36600",
+"PER_Target_1": "76341",
+"PER_Target_2": "45779",
+"PER_Target_Avr": "61060",
+"Price_over_PERAvg": "0.599410415984278",
+"SRIM_1": "48961",
+"SRIM_2": "49109",
+"SRIM_3": "49435"
+}

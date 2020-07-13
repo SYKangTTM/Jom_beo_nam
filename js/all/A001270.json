@@ -1,0 +1,16 @@
+{
+"stock_code": "A001270",
+"stock_name": "부국증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "8.17",
+"Current_PER_Rank": "12",
+"Close_Price": "18400",
+"PER_Target_1": "13002",
+"PER_Target_2": "19379",
+"PER_Target_Avr": "16190",
+"Price_over_PERAvg": "1.13646891695748",
+"SRIM_1": "48969",
+"SRIM_2": "40619",
+"SRIM_3": "26651"
+}

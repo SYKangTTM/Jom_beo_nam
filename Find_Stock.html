@@ -30,7 +30,6 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <script type="text/javascript" src="js/Stock_info/Stock_Div_Detail.js"></script>
-        <script type="text/javascript" src="js/Finder_Stock/Finder_S_PER1.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_1.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_2.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_3.js"></script>
@@ -45,42 +44,29 @@
         <script type="text/javascript" src="js/Stock_info/Stock_info_12.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_13.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_14.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_15.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_16.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_17.js"></script>
 
         <title>좀 버는 남자</title>
     </head>
 
     <body>
-        <section class="main" style="height: 69vh;">
+        <section class="main" style="height: 70vh; overflow-y: scroll;">
             <div class="topnav">
-                <a class="title" href="#"
-                    ><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"
-                /></a>
+                <a class="title" href="index.html"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
             </div>
             <div class="dropdown">
-                <!-- <div class="btn-group" role="group" aria-label="Basic example">
-                    <button id="finder_stock_condition" onclick="dropdown_1()" class="dropbtn">검색조건</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a onclick="Low_PER_1()">저PER</a>
-                        </div>
-                    <button id="finder_stock_condition" onclick="dropdown_2()" class="dropbtn">업종선택</button>
-                        <div id="myDropdown2" class="dropdown-content">
-                            <a onclick="Low_PER_1()">반도체와반도체장비</a>
-                        </div>
-                </div> -->
-                
-                <div class="btn-group" role="group" aria-label="Basic example">
+                <div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 2%;padding-bottom: 2%;">
                     <select id="Find_Stock_Condtion" style="vertical-align: middle;">
-                        <option value="Low_PER">저PER</option>
-                        <option value="SRIM">S_RIM</option>
+                        <option value="F_S_C_1">저PER</option>
+                        <option value="F_S_C_2">흑자전환예상</option>
                     </select>
-                    
                     <select id="inventory_WICS" style="vertical-align: middle;"></select>
-                    
                     <button id="Finder" onclick="Search_Stock()" class="button_1">검색</button>
                 </div>
             </div>
             <form role="form">
-                개발중입니다.
                 <div id="PER_FINDER_Result"  style="max-height: 50vh; overflow: auto;padding-top: 10px;" align="center" ></div>    
             </form>
         </section>
@@ -102,46 +88,9 @@
 
         <section>
             <div class="btn-group" role="group" aria-label="Basic example">
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='index.html';"
-                >
-                    목표주가
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='Find_Stock.html';"
-                >
-                    종목발굴
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='sector.html';"
-                >
-                    업종DATA
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='data_lab.html';"
-                >
-                    데이터실
-                </button>
-                <button
-                    type="button"
-                    class="button"
-                    style="height: 10vh; width: 20vw;"
-                    onclick="location.href='help.html';"
-                >
-                    도움말
-                </button>
+                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='index.html';">목표주가</button>
+                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
+                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='help.html';">도움말</button>
             </div>
         </section>
         <footer class="footer" style="height: 3vh;">
@@ -153,12 +102,12 @@
 </html>
 
 <script>
-    function dropdown_1() {
-        document.getElementById('myDropdown').classList.toggle('show');
-    }
-    function dropdown_2() {
-        document.getElementById('myDropdown2').classList.toggle('show');
-    }
+    // function dropdown_1() {
+    //     document.getElementById('myDropdown').classList.toggle('show');
+    // }
+    // function dropdown_2() {
+    //     document.getElementById('myDropdown2').classList.toggle('show');
+    // }
     
     // Close the dropdown menu if the user clicks outside of it
     window.onclick = function (event) {
@@ -175,9 +124,10 @@
     };
     
     $(document).ready(function () {
+        //inventory_WICS에 업종 선택 내용 추가.
         var stock_div_data = stock_div;
-        
         var output = '<select>';
+        output += '<option value="All">전체</option>'
         for(var i=0;i<stock_div_data.length;i++){
             output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
         }
@@ -187,12 +137,14 @@
     
     function Search_Stock(){
         var Con_F_S = document.getElementById('Find_Stock_Condtion').value;
-        var Div_F_ST = document.getElementById('inventory_WICS').value;
-        if(Con_F_S == "Low_PER"){
-            Low_PER_1(Div_F_ST);
+        var Div_F_ST = document.getElementById('inventory_WICS').value;        
+        if(Con_F_S == "F_S_C_1"){
+            F_S_C_1(Div_F_ST);
+        }else if(Con_F_S == "F_S_C_2"){
+            F_S_C_2(Div_F_ST);
         }
     }
-    function sortTable() {
+    function sortTable_PER() {
         var table, rows, switching, i, x, y, shouldSwitch;
         table = document.getElementById("Table_F_S");
         switching = true;
@@ -209,8 +161,8 @@
                 shouldSwitch = false;
                 /*Get the two elements you want to compare,
                 one from current row and one from the next:*/
-                x = rows[i].getElementsByTagName("TD")[3];
-                y = rows[i + 1].getElementsByTagName("TD")[3];
+                x = rows[i].getElementsByTagName("TD")[2];
+                y = rows[i + 1].getElementsByTagName("TD")[2];
                 //check if the two rows should switch place:
                 if (Number(x.innerHTML) > Number(y.innerHTML)) {
                     //if so, mark as a switch and break the loop:
@@ -228,7 +180,9 @@
     }
 </script>
 <script type="text/javascript">
-    function Low_PER_1(Div_F_ST) {
+        
+    function F_S_C_1(Div_F_ST) {
+        $('#PER_FINDER_Result').html("");
         var data1 = stock1;
         var data2 = stock2;
         var data3 = stock3;
@@ -243,6 +197,9 @@
         var data12 = stock12;
         var data13 = stock13;
         var data14 = stock14;
+        var data15 = stock15;
+        var data16 = stock16;
+        var data17 = stock17;
         var data_length =
             data1.length +
             data2.length +
@@ -257,7 +214,10 @@
             data11.length +
             data12.length +
             data13.length +
-            data14.length;
+            data14.length +
+            data15.length +
+            data16.length +
+            data17.length;
 
         var data_stock_code = [];
         var data_stock_name = [];
@@ -266,121 +226,204 @@
         var data_stock_stock_Div_PER = [];
         var data_stock_Current_PER = [];
         var data_stock_Current_PER_Rank = [];
+        var data_stock_Current_PER_Target_1 = [];
+        var data_stock_Current_PER_Target_2 = [];
+        var data_stock_Current_SRIM_2 = [];
+        var data_stock_Current_Close_Price =[];
+        var data_stock_F_S_C_1 = [];
+        var data_stock_F_S_C_2 = [];
+        
         var n = 0;
 
         for (i = 0; i < data1.length; i++) {
-            data_stock_code[n] = data1[i].s_c;
-            data_stock_name[n] = data1[i].s_n;
-            data_stock_WICS[n] = data1[i].s_W;
-            data_stock_PER_RANK[n] = data1[i].s_P_R;
+            data_stock_code[n] = data1[i].co;
+            data_stock_name[n] = data1[i].n;
+            data_stock_WICS[n] = data1[i].W;
+            data_stock_PER_RANK[n] = data1[i].P_R;
+            data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data2.length; i++) {
-            data_stock_code[n] = data2[i].s_c;
-            data_stock_name[n] = data2[i].s_n;
-            data_stock_WICS[n] = data2[i].s_W;
-            data_stock_PER_RANK[n] = data2[i].s_P_R;
+            data_stock_code[n] = data2[i].co;
+            data_stock_name[n] = data2[i].n;
+            data_stock_WICS[n] = data2[i].W;
+            data_stock_PER_RANK[n] = data2[i].P_R;
+            data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data3.length; i++) {
-            data_stock_code[n] = data3[i].s_c;
-            data_stock_name[n] = data3[i].s_n;
-            data_stock_WICS[n] = data3[i].s_W;
-            data_stock_PER_RANK[n] = data3[i].s_P_R;
+            data_stock_code[n] = data3[i].co;
+            data_stock_name[n] = data3[i].n;
+            data_stock_WICS[n] = data3[i].W;
+            data_stock_PER_RANK[n] = data3[i].P_R;
+            data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data4.length; i++) {
-            data_stock_code[n] = data4[i].s_c;
-            data_stock_name[n] = data4[i].s_n;
-            data_stock_WICS[n] = data4[i].s_W;
-            data_stock_PER_RANK[n] = data4[i].s_P_R;
+            data_stock_code[n] = data4[i].co;
+            data_stock_name[n] = data4[i].n;
+            data_stock_WICS[n] = data4[i].W;
+            data_stock_PER_RANK[n] = data4[i].P_R;
+            data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data5.length; i++) {
-            data_stock_code[n] = data5[i].s_c;
-            data_stock_name[n] = data5[i].s_n;
-            data_stock_WICS[n] = data5[i].s_W;
-            data_stock_PER_RANK[n] = data5[i].s_P_R;
+            data_stock_code[n] = data5[i].co;
+            data_stock_name[n] = data5[i].n;
+            data_stock_WICS[n] = data5[i].W;
+            data_stock_PER_RANK[n] = data5[i].P_R;
+            data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data6.length; i++) {
-            data_stock_code[n] = data6[i].s_c;
-            data_stock_name[n] = data6[i].s_n;
-            data_stock_WICS[n] = data6[i].s_W;
-            data_stock_PER_RANK[n] = data6[i].s_P_R;
+            data_stock_code[n] = data6[i].co;
+            data_stock_name[n] = data6[i].n;
+            data_stock_WICS[n] = data6[i].W;
+            data_stock_PER_RANK[n] = data6[i].P_R;
+            data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data7.length; i++) {
-            data_stock_code[n] = data7[i].s_c;
-            data_stock_name[n] = data7[i].s_n;
-            data_stock_WICS[n] = data7[i].s_W;
-            data_stock_PER_RANK[n] = data7[i].s_P_R;
+            data_stock_code[n] = data7[i].co;
+            data_stock_name[n] = data7[i].n;
+            data_stock_WICS[n] = data7[i].W;
+            data_stock_PER_RANK[n] = data7[i].P_R;
+            data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data8.length; i++) {
-            data_stock_code[n] = data8[i].s_c;
-            data_stock_name[n] = data8[i].s_n;
-            data_stock_WICS[n] = data8[i].s_W;
-            data_stock_PER_RANK[n] = data8[i].s_P_R;
+            data_stock_code[n] = data8[i].co;
+            data_stock_name[n] = data8[i].n;
+            data_stock_WICS[n] = data8[i].W;
+            data_stock_PER_RANK[n] = data8[i].P_R;
+            data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data9.length; i++) {
-            data_stock_code[n] = data9[i].s_c;
-            data_stock_name[n] = data9[i].s_n;
-            data_stock_WICS[n] = data9[i].s_W;
-            data_stock_PER_RANK[n] = data9[i].s_P_R;
+            data_stock_code[n] = data9[i].co;
+            data_stock_name[n] = data9[i].n;
+            data_stock_WICS[n] = data9[i].W;
+            data_stock_PER_RANK[n] = data9[i].P_R;
+            data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data10.length; i++) {
-            data_stock_code[n] = data10[i].s_c;
-            data_stock_name[n] = data10[i].s_n;
-            data_stock_WICS[n] = data10[i].s_W;
-            data_stock_PER_RANK[n] = data10[i].s_P_R;
+            data_stock_code[n] = data10[i].co;
+            data_stock_name[n] = data10[i].n;
+            data_stock_WICS[n] = data10[i].W;
+            data_stock_PER_RANK[n] = data10[i].P_R;
+            data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data11.length; i++) {
-            data_stock_code[n] = data11[i].s_c;
-            data_stock_name[n] = data11[i].s_n;
-            data_stock_WICS[n] = data11[i].s_W;
-            data_stock_PER_RANK[n] = data11[i].s_P_R;
+            data_stock_code[n] = data11[i].co;
+            data_stock_name[n] = data11[i].n;
+            data_stock_WICS[n] = data11[i].W;
+            data_stock_PER_RANK[n] = data11[i].P_R;
+            data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data12.length; i++) {
-            data_stock_code[n] = data12[i].s_c;
-            data_stock_name[n] = data12[i].s_n;
-            data_stock_WICS[n] = data12[i].s_W;
-            data_stock_PER_RANK[n] = data12[i].s_P_R;
+            data_stock_code[n] = data12[i].co;
+            data_stock_name[n] = data12[i].n;
+            data_stock_WICS[n] = data12[i].W;
+            data_stock_PER_RANK[n] = data12[i].P_R;
+            data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data13.length; i++) {
-            data_stock_code[n] = data13[i].s_c;
-            data_stock_name[n] = data13[i].s_n;
-            data_stock_WICS[n] = data13[i].s_W;
-            data_stock_PER_RANK[n] = data13[i].s_P_R;
+            data_stock_code[n] = data13[i].co;
+            data_stock_name[n] = data13[i].n;
+            data_stock_WICS[n] = data13[i].W;
+            data_stock_PER_RANK[n] = data13[i].P_R;
+            data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
         for (i = 0; i < data14.length; i++) {
-            data_stock_code[n] = data14[i].s_c;
-            data_stock_name[n] = data14[i].s_n;
-            data_stock_WICS[n] = data14[i].s_W;
-            data_stock_PER_RANK[n] = data14[i].s_P_R;
+            data_stock_code[n] = data14[i].co;
+            data_stock_name[n] = data14[i].n;
+            data_stock_WICS[n] = data14[i].W;
+            data_stock_PER_RANK[n] = data14[i].P_R;
+            data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        
+        for (i = 0; i < data15.length; i++) {
+            data_stock_code[n] = data15[i].co;
+            data_stock_name[n] = data15[i].n;
+            data_stock_WICS[n] = data15[i].W;
+            data_stock_PER_RANK[n] = data15[i].P_R;
+            data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data16.length; i++) {
+            data_stock_code[n] = data16[i].co;
+            data_stock_name[n] = data16[i].n;
+            data_stock_WICS[n] = data16[i].W;
+            data_stock_PER_RANK[n] = data16[i].P_R;
+            data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data17.length; i++) {
+            data_stock_code[n] = data17[i].co;
+            data_stock_name[n] = data17[i].n;
+            data_stock_WICS[n] = data17[i].W;
+            data_stock_PER_RANK[n] = data17[i].P_R;
+            data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
             n = n + 1;
         }
 
-        
-        
-        
-        
-
         for (var i = 0; i < n; i++) {
-            if(data_stock_WICS[i] == Div_F_ST && data_stock_PER_RANK[i] <=10){
-                var detail_path = 'js/Stock_Det/' + data_stock_code[i] + '.json';
-                $.getJSON(detail_path, function (jd) {
-                data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
-                data_stock_Current_PER[i] = jd.Current_PER;
-                data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
-                });    
+            if(Div_F_ST =='All'){
+                if(data_stock_F_S_C_1[i] == 'O'){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                        data_stock_Current_PER[i] = jd.Current_PER;
+                        data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                        data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+                        data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                        
+                        
+                    });    
+                }
+                
+            }else{
+                if(data_stock_WICS[i] == Div_F_ST && data_stock_F_S_C_1[i] == 'O'){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    // console.log(detail_path);
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                        data_stock_Current_PER[i] = jd.Current_PER;
+                        data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                        data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+                        data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
             }
+            
+            
         }
 
         var data = stock_div;
@@ -388,28 +431,77 @@
         output += '<table id="Table_F_S" class="table table-sm">';
         output += '<thread>';
         output += '<tr >';
-        output += '<th scope="col"> # </th>';
+        // output += '<th scope="col"> # </th>';
         output += '<th scope="col"> 종목코드 </th>';
         output += '<th scope="col"> 종목명 </th>';
         output += '<th scope="col"> PER 순위 </th>';
         output += '<th scope="col"> PER </th>';
         output += '<th scope="col"> 업종 PER </th>';
+        output += '<th scope="col"> 종가 </th>';
+        output += '<th scope="col"> PER_목표1 </th>';
+        output += '<th scope="col"> PER_목표2 </th>';
+        output += '<th scope="col"> SRIM_10년 </th>';
+        output += '<th scope="col"> 흑자전환예상조건 </th>';
         output += '<th scope="col"> 업종 </th>';
         output += '</tr>';
         output += '</thread>';
         output += '<tbody>';
         for (var i= 0;i<n;i++){
-            if (data_stock_WICS[i] == Div_F_ST && data_stock_PER_RANK[i] <= 10){
-                output += '<tr>'
-                output += '<th scope="row">' + i+1 + '</th>'
-                output += '<td>' +  data_stock_code[i] + '</td>';
-                output += '<td>' +  data_stock_name[i] + '</td>';
-                output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
-                output += '<td>' +  data_stock_Current_PER[i] + '</td>';
-                output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
-                output += '<td>' +  data_stock_WICS[i] + '</td>';
-                output += '</tr>'    
+            
+            if(Div_F_ST =='All'){
+                if (data_stock_F_S_C_1[i] == 'O'){
+                    output += '<tr>'
+                    // output += '<th scope="row">' + i+1 + '</th>'
+                    output += '<td>' +  data_stock_code[i] + '</td>';
+                    output += '<td>' +  data_stock_name[i] + '</td>';
+                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+ 
+                    output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+
+                    if(data_stock_F_S_C_2 =='OO'){
+                        output += '<td>컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2 =='O'){
+                        output += '<td>추세_흑전</td>';
+                    } else {
+                        output += '<td></td>';
+                    }
+
+                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '</tr>'    
+                }
+            }else{
+                if (data_stock_WICS[i] == Div_F_ST && data_stock_F_S_C_1[i] == 'O'){
+                    output += '<tr>'
+                    // output += '<th scope="row">' + i+1 + '</th>'
+                    output += '<td>' +  data_stock_code[i] + '</td>';
+                    output += '<td>' +  data_stock_name[i] + '</td>';
+                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    
+                    output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+
+                    if(data_stock_F_S_C_2 =='OO'){
+                        output += '<td>컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2 =='O'){
+                        output += '<td>추세_흑전</td>';
+                    } else {
+                        output += '<td></td>';
+                    }
+
+                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '</tr>'    
+                }
             }
+            
         }
         output += '</tbody>';
         output += '</table>';
@@ -417,14 +509,385 @@
         
         // alert(data_stock_Current_PER_Rank[0]);
         $('#PER_FINDER_Result').html(output);
-        sortTable();
+        sortTable_PER();
         
 
         
         
         
     }
+    
+    function F_S_C_2(Div_F_ST) {
+        $('#PER_FINDER_Result').html("");
+        var data1 = stock1;
+        var data2 = stock2;
+        var data3 = stock3;
+        var data4 = stock4;
+        var data5 = stock5;
+        var data6 = stock6;
+        var data7 = stock7;
+        var data8 = stock8;
+        var data9 = stock9;
+        var data10 = stock10;
+        var data11 = stock11;
+        var data12 = stock12;
+        var data13 = stock13;
+        var data14 = stock14;
+        var data15 = stock15;
+        var data16 = stock16;
+        var data17 = stock17;
+        var data_length =
+            data1.length +
+            data2.length +
+            data3.length +
+            data4.length +
+            data5.length +
+            data6.length +
+            data7.length +
+            data8.length +
+            data9.length +
+            data10.length +
+            data11.length +
+            data12.length +
+            data13.length +        
+            data14.length +
+            data15.length +
+            data16.length +
+            data17.length;
+
+        var data_stock_code = [];
+        var data_stock_name = [];
+        var data_stock_WICS = [];
+        var data_stock_PER_RANK = [];
+        var data_stock_stock_Div_PER = [];
+        var data_stock_Current_PER = [];
+        var data_stock_Current_PER_Rank = [];
+        var data_stock_Current_PER_Target_1 = [];
+        var data_stock_Current_PER_Target_2 = [];
+        var data_stock_Current_SRIM_2 = [];
+        var data_stock_Current_Close_Price =[];
+        var data_stock_F_S_C_1 = [];
+        var data_stock_F_S_C_2 = [];
+        
+        var n = 0;
+
+        for (i = 0; i < data1.length; i++) {
+            data_stock_code[n] = data1[i].co;
+            data_stock_name[n] = data1[i].n;
+            data_stock_WICS[n] = data1[i].W;
+            data_stock_PER_RANK[n] = data1[i].P_R;
+            data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data2.length; i++) {
+            data_stock_code[n] = data2[i].co;
+            data_stock_name[n] = data2[i].n;
+            data_stock_WICS[n] = data2[i].W;
+            data_stock_PER_RANK[n] = data2[i].P_R;
+            data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data3.length; i++) {
+            data_stock_code[n] = data3[i].co;
+            data_stock_name[n] = data3[i].n;
+            data_stock_WICS[n] = data3[i].W;
+            data_stock_PER_RANK[n] = data3[i].P_R;
+            data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data4.length; i++) {
+            data_stock_code[n] = data4[i].co;
+            data_stock_name[n] = data4[i].n;
+            data_stock_WICS[n] = data4[i].W;
+            data_stock_PER_RANK[n] = data4[i].P_R;
+            data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data5.length; i++) {
+            data_stock_code[n] = data5[i].co;
+            data_stock_name[n] = data5[i].n;
+            data_stock_WICS[n] = data5[i].W;
+            data_stock_PER_RANK[n] = data5[i].P_R;
+            data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data6.length; i++) {
+            data_stock_code[n] = data6[i].co;
+            data_stock_name[n] = data6[i].n;
+            data_stock_WICS[n] = data6[i].W;
+            data_stock_PER_RANK[n] = data6[i].P_R;
+            data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data7.length; i++) {
+            data_stock_code[n] = data7[i].co;
+            data_stock_name[n] = data7[i].n;
+            data_stock_WICS[n] = data7[i].W;
+            data_stock_PER_RANK[n] = data7[i].P_R;
+            data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data8.length; i++) {
+            data_stock_code[n] = data8[i].co;
+            data_stock_name[n] = data8[i].n;
+            data_stock_WICS[n] = data8[i].W;
+            data_stock_PER_RANK[n] = data8[i].P_R;
+            data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data9.length; i++) {
+            data_stock_code[n] = data9[i].co;
+            data_stock_name[n] = data9[i].n;
+            data_stock_WICS[n] = data9[i].W;
+            data_stock_PER_RANK[n] = data9[i].P_R;
+            data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data10.length; i++) {
+            data_stock_code[n] = data10[i].co;
+            data_stock_name[n] = data10[i].n;
+            data_stock_WICS[n] = data10[i].W;
+            data_stock_PER_RANK[n] = data10[i].P_R;
+            data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data11.length; i++) {
+            data_stock_code[n] = data11[i].co;
+            data_stock_name[n] = data11[i].n;
+            data_stock_WICS[n] = data11[i].W;
+            data_stock_PER_RANK[n] = data11[i].P_R;
+            data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data12.length; i++) {
+            data_stock_code[n] = data12[i].co;
+            data_stock_name[n] = data12[i].n;
+            data_stock_WICS[n] = data12[i].W;
+            data_stock_PER_RANK[n] = data12[i].P_R;
+            data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data13.length; i++) {
+            data_stock_code[n] = data13[i].co;
+            data_stock_name[n] = data13[i].n;
+            data_stock_WICS[n] = data13[i].W;
+            data_stock_PER_RANK[n] = data13[i].P_R;
+            data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data14.length; i++) {
+            data_stock_code[n] = data14[i].co;
+            data_stock_name[n] = data14[i].n;
+            data_stock_WICS[n] = data14[i].W;
+            data_stock_PER_RANK[n] = data14[i].P_R;
+            data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        
+        for (i = 0; i < data15.length; i++) {
+            data_stock_code[n] = data15[i].co;
+            data_stock_name[n] = data15[i].n;
+            data_stock_WICS[n] = data15[i].W;
+            data_stock_PER_RANK[n] = data15[i].P_R;
+            data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data16.length; i++) {
+            data_stock_code[n] = data16[i].co;
+            data_stock_name[n] = data16[i].n;
+            data_stock_WICS[n] = data16[i].W;
+            data_stock_PER_RANK[n] = data16[i].P_R;
+            data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data17.length; i++) {
+            data_stock_code[n] = data17[i].co;
+            data_stock_name[n] = data17[i].n;
+            data_stock_WICS[n] = data17[i].W;
+            data_stock_PER_RANK[n] = data17[i].P_R;
+            data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
+            n = n + 1;
+        }
+
+        for (var i = 0; i < n; i++) {
+            
+            
+            if(Div_F_ST =='All'){
+                if(data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO'){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                        data_stock_Current_PER[i] = jd.Current_PER;
+                        data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                        data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+                        data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;    
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
+                
+            }else{
+                if(data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                        data_stock_Current_PER[i] = jd.Current_PER;
+                        data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                        data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+                        data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            // if(data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
+            //     var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+            //     $.getJSON(detail_path, function (jd) {
+            //         data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+            //         data_stock_Current_PER[i] = jd.Current_PER;
+            //         data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+            //         data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+            //         data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+            //         data_stock_Current_SRIM_2[i] = jd.SRIM_2;   
+            //     });    
+            // }
+        }
+
+        var data = stock_div;
+        var output = '<div class="table-responsive">';        
+        output += '<table id="Table_F_S" class="table table-sm">';
+        output += '<thread>';
+        output += '<tr>';
+        // output += '<th scope="col"> # </th>';
+        output += '<th scope="col"> 종목코드 </th>';
+        output += '<th scope="col"> 종목명 </th>';
+        output += '<th scope="col"> 흑자전환예상조건 </th>';
+        output += '<th scope="col"> PER 순위 </th>';
+        output += '<th scope="col"> PER </th>';
+        output += '<th scope="col"> 업종 PER </th>';
+        output += '<th scope="col"> 종가 </th>';
+        output += '<th scope="col"> PER_목표1 </th>';
+        output += '<th scope="col"> PER_목표2 </th>';
+        output += '<th scope="col"> SRIM_10년 </th>';
+        output += '<th scope="col"> 업종 </th>';
+        output += '</tr>';
+        output += '</thread>';
+        output += '<tbody>';
+        for (var i= 0;i<n;i++){
+            
+            if(Div_F_ST =='All'){
+                if (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO'){
+                    output += '<tr>'
+                    // output += '<th scope="row">' + i+1 + '</th>'
+                    output += '<td>' +  data_stock_code[i] + '</td>';
+                    output += '<td>' +  data_stock_name[i] + '</td>';
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td>컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td>추세_흑전</td>';
+                    } else {
+                        output += '<td></td>';
+                    }
+                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    
+                    output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    
+                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '</tr>'   
+                }
+            }else{
+                if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
+                    output += '<tr>'
+                    // output += '<th scope="row">' + i+1 + '</th>'
+                    output += '<td>' +  data_stock_code[i] + '</td>';
+                    output += '<td>' +  data_stock_name[i] + '</td>';
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td>컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td>추세_흑전</td>';
+                    } else {
+                        output += '<td></td>';
+                    }
+                    output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
+                    output += '<td>' +  data_stock_Current_PER[i] + '</td>';
+                    output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+                    
+                    output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    
+                    output += '<td>' +  data_stock_WICS[i] + '</td>';
+                    output += '</tr>' 
+                    }
+            }
+            
+            
+            
+            
+            
+            
+            // if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
+            //     output += '<tr>'
+            //     // output += '<th scope="row">' + i+1 + '</th>'
+            //     output += '<td>' +  data_stock_code[i] + '</td>';
+            //     output += '<td>' +  data_stock_name[i] + '</td>';
+            //     if(data_stock_F_S_C_2[i] =='OO'){
+            //         output += '<td>컨센_흑전</td>';
+            //     } else if(data_stock_F_S_C_2[i] =='O'){
+            //         output += '<td>추세_흑전</td>';
+            //     } else {
+            //         output += '<td></td>';
+            //     }
+            //     output += '<td>' +  data_stock_Current_PER_Rank[i] + '</td>';
+            //     output += '<td>' +  data_stock_Current_PER[i] + '</td>';
+            //     output += '<td>' +  data_stock_stock_Div_PER[i] + '</td>';
+            //     output += '<td>' +  data_stock_Current_PER_Target_1[i] + '</td>';
+            //     output += '<td>' +  data_stock_Current_PER_Target_2[i] + '</td>';
+            //     output += '<td>' +  data_stock_Current_SRIM_2[i] + '</td>';
+            //     output += '<td>' +  data_stock_WICS[i] + '</td>';
+            //     output += '</tr>'
+            // }
+            
+        }
+        output += '</tbody>';
+        output += '</table>';
+        output += '</div>';
+        $('#PER_FINDER_Result').html(output);
+    }
+    
+    
     $.ajaxSetup({
     async: false
-});
+    });
 </script>

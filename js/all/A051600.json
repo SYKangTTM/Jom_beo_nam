@@ -1,0 +1,16 @@
+{
+"stock_code": "A051600",
+"stock_name": "한전KPS",
+"stock_Div": "전기유틸리티",
+"stock_Div_PER": "N/A",
+"Current_PER": "8.14",
+"Current_PER_Rank": "2",
+"Close_Price": "29050",
+"PER_Target_1": "0",
+"PER_Target_2": "56767",
+"PER_Target_Avr": "28384",
+"Price_over_PERAvg": "0.511740976271425",
+"SRIM_1": "25665",
+"SRIM_2": "28775",
+"SRIM_3": "36873"
+}

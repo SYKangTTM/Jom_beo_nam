@@ -1,0 +1,16 @@
+{
+"stock_code": "A001770",
+"stock_name": "신화실업",
+"stock_Div": "철강",
+"stock_Div_PER": "18.35",
+"Current_PER": "39.06",
+"Current_PER_Rank": "30",
+"Close_Price": "21000",
+"PER_Target_1": "13824",
+"PER_Target_2": "16450",
+"PER_Target_Avr": "15137",
+"Price_over_PERAvg": "1.38732906124067",
+"SRIM_1": "25392",
+"SRIM_2": "21062",
+"SRIM_3": "13820"
+}

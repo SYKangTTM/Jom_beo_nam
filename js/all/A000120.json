@@ -1,0 +1,16 @@
+{
+"stock_code": "A000120",
+"stock_name": "CJ대한통운",
+"stock_Div": "항공화물운송과물류",
+"stock_Div_PER": "14.62",
+"Current_PER": "53.7",
+"Current_PER_Rank": "8",
+"Close_Price": "166000",
+"PER_Target_1": "55070",
+"PER_Target_2": "315336",
+"PER_Target_Avr": "185203",
+"Price_over_PERAvg": "0.896313774614882",
+"SRIM_1": "144537",
+"SRIM_2": "133887",
+"SRIM_3": "112951"
+}

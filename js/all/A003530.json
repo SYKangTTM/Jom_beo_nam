@@ -1,0 +1,16 @@
+{
+"stock_code": "A003530",
+"stock_name": "한화투자증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "10.3",
+"Current_PER_Rank": "18",
+"Close_Price": "1650",
+"PER_Target_1": "3195",
+"PER_Target_2": "2978",
+"PER_Target_Avr": "3086",
+"Price_over_PERAvg": "0.53458610076138",
+"SRIM_1": "4764",
+"SRIM_2": "3952",
+"SRIM_3": "2593"
+}

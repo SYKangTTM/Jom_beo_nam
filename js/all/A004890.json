@@ -1,0 +1,16 @@
+{
+"stock_code": "A004890",
+"stock_name": "동일산업",
+"stock_Div": "철강",
+"stock_Div_PER": "18.35",
+"Current_PER": "77.72",
+"Current_PER_Rank": "35",
+"Close_Price": "62500",
+"PER_Target_1": "26968",
+"PER_Target_2": "31352",
+"PER_Target_Avr": "29160",
+"Price_over_PERAvg": "2.14334705075446",
+"SRIM_1": "147378",
+"SRIM_2": "122247",
+"SRIM_3": "80210"
+}

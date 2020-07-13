@@ -1,0 +1,16 @@
+{
+"stock_code": "A005500",
+"stock_name": "삼진제약",
+"stock_Div": "제약",
+"stock_Div_PER": "124.07",
+"Current_PER": "45.53",
+"Current_PER_Rank": "48",
+"Close_Price": "27200",
+"PER_Target_1": "95708",
+"PER_Target_2": "15344",
+"PER_Target_Avr": "55526",
+"Price_over_PERAvg": "0.489860605842308",
+"SRIM_1": "14480",
+"SRIM_2": "12011",
+"SRIM_3": "7881"
+}

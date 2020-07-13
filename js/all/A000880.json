@@ -1,0 +1,16 @@
+{
+"stock_code": "A000880",
+"stock_name": "한화",
+"stock_Div": "생명보험",
+"stock_Div_PER": "10",
+"Current_PER": "18.85",
+"Current_PER_Rank": "5",
+"Close_Price": "22650",
+"PER_Target_1": "25460",
+"PER_Target_2": "33192",
+"PER_Target_Avr": "29326",
+"Price_over_PERAvg": "0.772352178953829",
+"SRIM_1": "48521",
+"SRIM_2": "44384",
+"SRIM_3": "36400"
+}

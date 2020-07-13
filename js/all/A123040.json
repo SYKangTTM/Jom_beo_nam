@@ -1,0 +1,16 @@
+{
+"stock_code": "A123040",
+"stock_name": "엠에스오토텍",
+"stock_Div": "자동차부품",
+"stock_Div_PER": "12.48",
+"Current_PER": "24.67",
+"Current_PER_Rank": "60",
+"Close_Price": "5200",
+"PER_Target_1": "6248",
+"PER_Target_2": "5340",
+"PER_Target_Avr": "5794",
+"Price_over_PERAvg": "0.897480151881257",
+"SRIM_1": "4320",
+"SRIM_2": "3584",
+"SRIM_3": "2351"
+}

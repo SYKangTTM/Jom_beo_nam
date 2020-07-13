@@ -1,0 +1,16 @@
+{
+"stock_code": "A003120",
+"stock_name": "일성신약",
+"stock_Div": "제약",
+"stock_Div_PER": "124.07",
+"Current_PER": "29.49",
+"Current_PER_Rank": "43",
+"Close_Price": "76500",
+"PER_Target_1": "297731",
+"PER_Target_2": "184878",
+"PER_Target_Avr": "241304",
+"Price_over_PERAvg": "0.317026827100199",
+"SRIM_1": "203186",
+"SRIM_2": "168540",
+"SRIM_3": "110584"
+}

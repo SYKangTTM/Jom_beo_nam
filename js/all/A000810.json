@@ -1,0 +1,16 @@
+{
+"stock_code": "A000810",
+"stock_name": "삼성화재",
+"stock_Div": "손해보험",
+"stock_Div_PER": "8.39",
+"Current_PER": "15.26",
+"Current_PER_Rank": "7",
+"Close_Price": "178000",
+"PER_Target_1": "119741",
+"PER_Target_2": "239467",
+"PER_Target_Avr": "179604",
+"Price_over_PERAvg": "0.991069241219572",
+"SRIM_1": "282125",
+"SRIM_2": "271233",
+"SRIM_3": "248619"
+}

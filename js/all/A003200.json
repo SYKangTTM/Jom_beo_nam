@@ -1,0 +1,16 @@
+{
+"stock_code": "A003200",
+"stock_name": "일신방직",
+"stock_Div": "섬유,의류,신발,호화품",
+"stock_Div_PER": "22.63",
+"Current_PER": "19.13",
+"Current_PER_Rank": "33",
+"Close_Price": "65800",
+"PER_Target_1": "63206",
+"PER_Target_2": "50474",
+"PER_Target_Avr": "56840",
+"Price_over_PERAvg": "1.1576354679803",
+"SRIM_1": "280351",
+"SRIM_2": "232546",
+"SRIM_3": "152581"
+}

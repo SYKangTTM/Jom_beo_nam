@@ -1,0 +1,16 @@
+{
+"stock_code": "A071050",
+"stock_name": "한국금융지주",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "5.55",
+"Current_PER_Rank": "7",
+"Close_Price": "42700",
+"PER_Target_1": "46807",
+"PER_Target_2": "57941",
+"PER_Target_Avr": "52374",
+"Price_over_PERAvg": "0.815290029403903",
+"SRIM_1": "94607",
+"SRIM_2": "101632",
+"SRIM_3": "118808"
+}

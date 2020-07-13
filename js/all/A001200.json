@@ -1,0 +1,16 @@
+{
+"stock_code": "A001200",
+"stock_name": "유진투자증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "6.07",
+"Current_PER_Rank": "9",
+"Close_Price": "2830",
+"PER_Target_1": "2702",
+"PER_Target_2": "2263",
+"PER_Target_Avr": "2482",
+"Price_over_PERAvg": "1.13997985901309",
+"SRIM_1": "7590",
+"SRIM_2": "6296",
+"SRIM_3": "4131"
+}

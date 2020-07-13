@@ -1,0 +1,16 @@
+{
+"stock_code": "A010100",
+"stock_name": "한국프랜지",
+"stock_Div": "자동차부품",
+"stock_Div_PER": "12.48",
+"Current_PER": "4.16",
+"Current_PER_Rank": "8",
+"Close_Price": "2380",
+"PER_Target_1": "4422",
+"PER_Target_2": "4394",
+"PER_Target_Avr": "4408",
+"Price_over_PERAvg": "0.539927404718693",
+"SRIM_1": "6398",
+"SRIM_2": "5307",
+"SRIM_3": "3482"
+}

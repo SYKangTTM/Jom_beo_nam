@@ -1,0 +1,16 @@
+{
+"stock_code": "A001510",
+"stock_name": "SK증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "737.43",
+"Current_PER_Rank": "22",
+"Close_Price": "879",
+"PER_Target_1": "418",
+"PER_Target_2": "1164",
+"PER_Target_Avr": "791",
+"Price_over_PERAvg": "1.11125158027813",
+"SRIM_1": "1177",
+"SRIM_2": "976",
+"SRIM_3": "641"
+}

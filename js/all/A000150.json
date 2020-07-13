@@ -1,0 +1,16 @@
+{
+"stock_code": "A000150",
+"stock_name": "두산",
+"stock_Div": "복합기업",
+"stock_Div_PER": "19.1",
+"Current_PER": "3.42",
+"Current_PER_Rank": "1",
+"Close_Price": "36300",
+"PER_Target_1": "-62582",
+"PER_Target_2": "-81511",
+"PER_Target_Avr": "-72046",
+"Price_over_PERAvg": "-0.503841269180321",
+"SRIM_1": "62658",
+"SRIM_2": "57208",
+"SRIM_3": "46717"
+}

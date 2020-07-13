@@ -1,0 +1,16 @@
+{
+"stock_code": "A001720",
+"stock_name": "신영증권",
+"stock_Div": "증권",
+"stock_Div_PER": "4.95",
+"Current_PER": "34.9",
+"Current_PER_Rank": "20",
+"Close_Price": "43800",
+"PER_Target_1": "5902",
+"PER_Target_2": "23581",
+"PER_Target_Avr": "14742",
+"Price_over_PERAvg": "2.97120374453075",
+"SRIM_1": "77265",
+"SRIM_2": "64090",
+"SRIM_3": "42051"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A068400",
+"stock_name": "SK렌터카",
+"stock_Div": "도로와철도운송",
+"stock_Div_PER": "75.58",
+"Current_PER": "11.44",
+"Current_PER_Rank": "4",
+"Close_Price": "9220",
+"PER_Target_1": "52846",
+"PER_Target_2": "21884",
+"PER_Target_Avr": "37365",
+"Price_over_PERAvg": "0.246754984611267",
+"SRIM_1": "9175",
+"SRIM_2": "7611",
+"SRIM_3": "4994"
+}

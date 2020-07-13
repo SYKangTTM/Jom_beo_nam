@@ -1,0 +1,16 @@
+{
+"stock_code": "A002200",
+"stock_name": "한국수출포장",
+"stock_Div": "포장재",
+"stock_Div_PER": "9.25",
+"Current_PER": "3.9",
+"Current_PER_Rank": "6",
+"Close_Price": "18650",
+"PER_Target_1": "39588",
+"PER_Target_2": "20025",
+"PER_Target_Avr": "29806",
+"Price_over_PERAvg": "0.625702447452737",
+"SRIM_1": "55879",
+"SRIM_2": "46351",
+"SRIM_3": "30412"
+}

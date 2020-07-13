@@ -1,0 +1,16 @@
+{
+"stock_code": "A042000",
+"stock_name": "카페24",
+"stock_Div": "IT서비스",
+"stock_Div_PER": "24.28",
+"Current_PER": "143.74",
+"Current_PER_Rank": "43",
+"Close_Price": "55200",
+"PER_Target_1": "6966",
+"PER_Target_2": "23256",
+"PER_Target_Avr": "15111",
+"Price_over_PERAvg": "3.65296803652968",
+"SRIM_1": "13682",
+"SRIM_2": "14502",
+"SRIM_3": "16467"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A001460",
+"stock_name": "BYC",
+"stock_Div": "섬유,의류,신발,호화품",
+"stock_Div_PER": "22.63",
+"Current_PER": "6.84",
+"Current_PER_Rank": "8",
+"Close_Price": "207000",
+"PER_Target_1": "710805",
+"PER_Target_2": "791065",
+"PER_Target_Avr": "750935",
+"Price_over_PERAvg": "0.275656348418971",
+"SRIM_1": "466187",
+"SRIM_2": "386432",
+"SRIM_3": "253154"
+}

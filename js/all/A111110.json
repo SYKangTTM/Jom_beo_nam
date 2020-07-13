@@ -1,0 +1,16 @@
+{
+"stock_code": "A111110",
+"stock_name": "호전실업",
+"stock_Div": "섬유,의류,신발,호화품",
+"stock_Div_PER": "22.63",
+"Current_PER": "35.84",
+"Current_PER_Rank": "38",
+"Close_Price": "9270",
+"PER_Target_1": "7030",
+"PER_Target_2": "9265",
+"PER_Target_Avr": "8148",
+"Price_over_PERAvg": "1.1377723227984",
+"SRIM_1": "13733",
+"SRIM_2": "11391",
+"SRIM_3": "7474"
+}

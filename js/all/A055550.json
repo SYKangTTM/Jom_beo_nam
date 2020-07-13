@@ -1,0 +1,16 @@
+{
+"stock_code": "A055550",
+"stock_name": "신한지주",
+"stock_Div": "은행",
+"stock_Div_PER": "3.7",
+"Current_PER": "4.17",
+"Current_PER_Rank": "8",
+"Close_Price": "29000",
+"PER_Target_1": "22043",
+"PER_Target_2": "45239",
+"PER_Target_Avr": "33641",
+"Price_over_PERAvg": "0.862043339972058",
+"SRIM_1": "78657",
+"SRIM_2": "77353",
+"SRIM_3": "74553"
+}

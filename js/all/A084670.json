@@ -1,0 +1,16 @@
+{
+"stock_code": "A084670",
+"stock_name": "동양고속",
+"stock_Div": "도로와철도운송",
+"stock_Div_PER": "75.58",
+"Current_PER": "2.88",
+"Current_PER_Rank": "2",
+"Close_Price": "26100",
+"PER_Target_1": "812357",
+"PER_Target_2": "247635",
+"PER_Target_Avr": "529996",
+"Price_over_PERAvg": "4.92456546841863E-02",
+"SRIM_1": "45235",
+"SRIM_2": "37522",
+"SRIM_3": "24619"
+}

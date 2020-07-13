@@ -1,0 +1,16 @@
+{
+"stock_code": "A001750",
+"stock_name": "한양증권",
+"stock_Div": "증권",
+"stock_Div_PER": "6.66",
+"Current_PER": "3.61",
+"Current_PER_Rank": "1",
+"Close_Price": "7370",
+"PER_Target_1": "10579",
+"PER_Target_2": "23936",
+"PER_Target_Avr": "17258",
+"Price_over_PERAvg": "0.427060698247139",
+"SRIM_1": "20056",
+"SRIM_2": "16637",
+"SRIM_3": "10916"
+}

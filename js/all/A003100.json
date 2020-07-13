@@ -1,0 +1,16 @@
+{
+"stock_code": "A003100",
+"stock_name": "선광",
+"stock_Div": "운송인프라",
+"stock_Div_PER": "20.48",
+"Current_PER": "16.46",
+"Current_PER_Rank": "2",
+"Close_Price": "15650",
+"PER_Target_1": "14748",
+"PER_Target_2": "12619",
+"PER_Target_Avr": "13684",
+"Price_over_PERAvg": "1.14371323126393",
+"SRIM_1": "46867",
+"SRIM_2": "38875",
+"SRIM_3": "25507"
+}

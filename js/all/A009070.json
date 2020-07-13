@@ -1,0 +1,16 @@
+{
+"stock_code": "A009070",
+"stock_name": "KCTC",
+"stock_Div": "항공화물운송과물류",
+"stock_Div_PER": "14.62",
+"Current_PER": "11.29",
+"Current_PER_Rank": "5",
+"Close_Price": "2265",
+"PER_Target_1": "3306",
+"PER_Target_2": "2624",
+"PER_Target_Avr": "2965",
+"Price_over_PERAvg": "0.763912310286678",
+"SRIM_1": "5800",
+"SRIM_2": "4811",
+"SRIM_3": "3157"
+}

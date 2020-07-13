@@ -1,0 +1,16 @@
+{
+"stock_code": "A015350",
+"stock_name": "부산가스",
+"stock_Div": "가스유틸리티",
+"stock_Div_PER": "10.76",
+"Current_PER": "8.59",
+"Current_PER_Rank": "4",
+"Close_Price": "35800",
+"PER_Target_1": "45467",
+"PER_Target_2": "36838",
+"PER_Target_Avr": "41152",
+"Price_over_PERAvg": "0.869934997873762",
+"SRIM_1": "60401",
+"SRIM_2": "50101",
+"SRIM_3": "32873"
+}

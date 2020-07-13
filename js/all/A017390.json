@@ -1,0 +1,16 @@
+{
+"stock_code": "A017390",
+"stock_name": "서울가스",
+"stock_Div": "가스유틸리티",
+"stock_Div_PER": "10.76",
+"Current_PER": "11.15",
+"Current_PER_Rank": "6",
+"Close_Price": "67600",
+"PER_Target_1": "59656",
+"PER_Target_2": "76883",
+"PER_Target_Avr": "68270",
+"Price_over_PERAvg": "0.990193278111016",
+"SRIM_1": "223859",
+"SRIM_2": "185688",
+"SRIM_3": "121835"
+}

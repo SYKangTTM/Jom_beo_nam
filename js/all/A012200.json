@@ -1,0 +1,16 @@
+{
+"stock_code": "A012200",
+"stock_name": "계양전기",
+"stock_Div": "자동차부품",
+"stock_Div_PER": "12.48",
+"Current_PER": "1291.91",
+"Current_PER_Rank": "82",
+"Close_Price": "2655",
+"PER_Target_1": "47",
+"PER_Target_2": "649",
+"PER_Target_Avr": "348",
+"Price_over_PERAvg": "7.62931034482759",
+"SRIM_1": "4895",
+"SRIM_2": "4060",
+"SRIM_3": "2664"
+}

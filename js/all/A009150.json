@@ -1,0 +1,16 @@
+{
+"stock_code": "A009150",
+"stock_name": "삼성전기",
+"stock_Div": "전자장비와기기",
+"stock_Div_PER": "30.85",
+"Current_PER": "18.93",
+"Current_PER_Rank": "22",
+"Close_Price": "126000",
+"PER_Target_1": "175845",
+"PER_Target_2": "940056",
+"PER_Target_Avr": "557950",
+"Price_over_PERAvg": "0.225826484607506",
+"SRIM_1": "78909",
+"SRIM_2": "83408",
+"SRIM_3": "94148"
+}

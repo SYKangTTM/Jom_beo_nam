@@ -1,0 +1,16 @@
+{
+"stock_code": "A080220",
+"stock_name": "제주반도체",
+"stock_Div": "반도체와반도체장비",
+"stock_Div_PER": "17.03",
+"Current_PER": "113.58",
+"Current_PER_Rank": "79",
+"Close_Price": "2865",
+"PER_Target_1": "-2718",
+"PER_Target_2": "-3183",
+"PER_Target_Avr": "-2950",
+"Price_over_PERAvg": "-0.971021860701576",
+"SRIM_1": "2090",
+"SRIM_2": "1734",
+"SRIM_3": "1138"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A002320",
+"stock_name": "한진",
+"stock_Div": "항공화물운송과물류",
+"stock_Div_PER": "14.62",
+"Current_PER": "218.88",
+"Current_PER_Rank": "9",
+"Close_Price": "48300",
+"PER_Target_1": "10097",
+"PER_Target_2": "6870",
+"PER_Target_Avr": "8484",
+"Price_over_PERAvg": "5.69340484469853",
+"SRIM_1": "62883",
+"SRIM_2": "55941",
+"SRIM_3": "43079"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A024110",
+"stock_name": "기업은행",
+"stock_Div": "은행",
+"stock_Div_PER": "3.7",
+"Current_PER": "3.42",
+"Current_PER_Rank": "6",
+"Close_Price": "7870",
+"PER_Target_1": "6784",
+"PER_Target_2": "12232",
+"PER_Target_Avr": "9508",
+"Price_over_PERAvg": "0.827724021876315",
+"SRIM_1": "27150",
+"SRIM_2": "26121",
+"SRIM_3": "23980"
+}

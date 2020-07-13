@@ -1,0 +1,16 @@
+{
+"stock_code": "A084010",
+"stock_name": "대한제강",
+"stock_Div": "철강",
+"stock_Div_PER": "18.35",
+"Current_PER": "5.56",
+"Current_PER_Rank": "4",
+"Close_Price": "6430",
+"PER_Target_1": "29705",
+"PER_Target_2": "10258",
+"PER_Target_Avr": "19982",
+"Price_over_PERAvg": "0.321797662838125",
+"SRIM_1": "21697",
+"SRIM_2": "21467",
+"SRIM_3": "20968"
+}

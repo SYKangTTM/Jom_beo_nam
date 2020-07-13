@@ -1,0 +1,16 @@
+{
+"stock_code": "A010130",
+"stock_name": "고려아연",
+"stock_Div": "비철금속",
+"stock_Div_PER": "18.04",
+"Current_PER": "11.38",
+"Current_PER_Rank": "8",
+"Close_Price": "373500",
+"PER_Target_1": "547730",
+"PER_Target_2": "482149",
+"PER_Target_Avr": "514940",
+"Price_over_PERAvg": "0.725327926872963",
+"SRIM_1": "379203",
+"SRIM_2": "386015",
+"SRIM_3": "401399"
+}

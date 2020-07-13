@@ -1,0 +1,16 @@
+{
+"stock_code": "A000060",
+"stock_name": "메리츠화재",
+"stock_Div": "손해보험",
+"stock_Div_PER": "8.39",
+"Current_PER": "4.29",
+"Current_PER_Rank": "2",
+"Close_Price": "12450",
+"PER_Target_1": "18372",
+"PER_Target_2": "18975",
+"PER_Target_Avr": "18674",
+"Price_over_PERAvg": "0.666720218491445",
+"SRIM_1": "22310",
+"SRIM_2": "22853",
+"SRIM_3": "24089"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A082640",
+"stock_name": "동양생명",
+"stock_Div": "생명보험",
+"stock_Div_PER": "10",
+"Current_PER": "3.38",
+"Current_PER_Rank": "1",
+"Close_Price": "2920",
+"PER_Target_1": "5472",
+"PER_Target_2": "17122",
+"PER_Target_Avr": "11297",
+"Price_over_PERAvg": "0.258475701513676",
+"SRIM_1": "12986",
+"SRIM_2": "11808",
+"SRIM_3": "9556"
+}

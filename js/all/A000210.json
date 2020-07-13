@@ -1,0 +1,16 @@
+{
+"stock_code": "A000210",
+"stock_name": "대림산업",
+"stock_Div": "건설",
+"stock_Div_PER": "6.03",
+"Current_PER": "4.92",
+"Current_PER_Rank": "16",
+"Close_Price": "82000",
+"PER_Target_1": "115005",
+"PER_Target_2": "172854",
+"PER_Target_Avr": "143930",
+"Price_over_PERAvg": "0.569723371511747",
+"SRIM_1": "175857",
+"SRIM_2": "180507",
+"SRIM_3": "191138"
+}

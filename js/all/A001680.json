@@ -1,0 +1,16 @@
+{
+"stock_code": "A001680",
+"stock_name": "대상",
+"stock_Div": "식품",
+"stock_Div_PER": "24.24",
+"Current_PER": "7.28",
+"Current_PER_Rank": "10",
+"Close_Price": "27700",
+"PER_Target_1": "78226",
+"PER_Target_2": "51220",
+"PER_Target_Avr": "64723",
+"Price_over_PERAvg": "0.427977689538495",
+"SRIM_1": "31218",
+"SRIM_2": "32236",
+"SRIM_3": "34583"
+}

@@ -1,0 +1,16 @@
+{
+"stock_code": "A032830",
+"stock_name": "삼성생명",
+"stock_Div": "생명보험",
+"stock_Div_PER": "10",
+"Current_PER": "11.82",
+"Current_PER_Rank": "4",
+"Close_Price": "44900",
+"PER_Target_1": "47738",
+"PER_Target_2": "75888",
+"PER_Target_Avr": "61813",
+"Price_over_PERAvg": "0.726384417517351",
+"SRIM_1": "148780",
+"SRIM_2": "133626",
+"SRIM_3": "105152"
+}

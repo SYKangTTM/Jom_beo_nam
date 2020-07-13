@@ -1,0 +1,16 @@
+{
+"stock_code": "A006400",
+"stock_name": "삼성SDI",
+"stock_Div": "전기제품",
+"stock_Div_PER": "78.87",
+"Current_PER": "92.73",
+"Current_PER_Rank": "20",
+"Close_Price": "391000",
+"PER_Target_1": "533177",
+"PER_Target_2": "390597",
+"PER_Target_Avr": "461887",
+"Price_over_PERAvg": "0.846527397393735",
+"SRIM_1": "184098",
+"SRIM_2": "185210",
+"SRIM_3": "187677"
+}

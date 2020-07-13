@@ -1,0 +1,16 @@
+{
+"stock_code": "A001230",
+"stock_name": "동국제강",
+"stock_Div": "철강",
+"stock_Div_PER": "18.35",
+"Current_PER": "N/A",
+"Current_PER_Rank": "N/A",
+"Close_Price": "5660",
+"PER_Target_1": "-11436",
+"PER_Target_2": "-81649",
+"PER_Target_Avr": "-46542",
+"Price_over_PERAvg": "-0.121609281839179",
+"SRIM_1": "15722",
+"SRIM_2": "13866",
+"SRIM_3": "10471"
+}

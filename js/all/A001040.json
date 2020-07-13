@@ -1,0 +1,16 @@
+{
+"stock_code": "A001040",
+"stock_name": "CJ",
+"stock_Div": "복합기업",
+"stock_Div_PER": "19.1",
+"Current_PER": "8.37",
+"Current_PER_Rank": "2",
+"Close_Price": "87100",
+"PER_Target_1": "184716",
+"PER_Target_2": "200241",
+"PER_Target_Avr": "192478",
+"Price_over_PERAvg": "0.452518073447164",
+"SRIM_1": "127616",
+"SRIM_2": "117823",
+"SRIM_3": "98663"
+}

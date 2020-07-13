@@ -1,0 +1,16 @@
+{
+"stock_code": "A011210",
+"stock_name": "현대위아",
+"stock_Div": "자동차부품",
+"stock_Div_PER": "12.48",
+"Current_PER": "8.23",
+"Current_PER_Rank": "29",
+"Close_Price": "35700",
+"PER_Target_1": "43334",
+"PER_Target_2": "59991",
+"PER_Target_Avr": "51662",
+"Price_over_PERAvg": "0.691023469634648",
+"SRIM_1": "99133",
+"SRIM_2": "90875",
+"SRIM_3": "74887"
+}
