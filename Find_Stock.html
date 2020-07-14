@@ -53,26 +53,24 @@
     </head>
 
     <body>
-        <section class="main" style="height: 70vh; overflow-y: scroll;">
-            <div class="topnav">
-                <a class="title" href="index.html"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
-            </div>
-            <div class="dropdown">
-                <div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 2%;padding-bottom: 2%;">
-                    <select id="Find_Stock_Condtion" style="vertical-align: middle;">
-                        <option value="F_S_C_1">저PER</option>
-                        <option value="F_S_C_2">흑자전환예상</option>
-                    </select>
-                    <select id="inventory_WICS" style="vertical-align: middle;"></select>
-                    <button id="Finder" onclick="Search_Stock()" class="button_1">검색</button>
-                </div>
+        <div class="topnav">
+            <a class="title" href="index.html"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
+        </div>
+        <section class="main" style="height: 65vh; overflow-y: scroll;">
+            <div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 2%;padding-bottom: 2%;">
+                <select id="Find_Stock_Condtion" style="vertical-align: middle;">
+                    <option value="F_S_C_1">저PER</option>
+                    <option value="F_S_C_2">흑자전환예상</option>
+                </select>
+                <select id="inventory_WICS" style="vertical-align: middle;"></select>
+                <button id="Finder" onclick="Search_Stock()" class="button_1">검색</button>
             </div>
             <form role="form">
                 <div id="PER_FINDER_Result"  style="max-height: 50vh; overflow: auto;padding-top: 10px;" align="center" ></div>    
             </form>
         </section>
 
-        <section class="banner_section" align="center">
+        <section class="banner_section" align="center" style="margin-top:5px;margin-left:5px;margin-right:5px">
             <ins
                 class="kakao_ad_area"
                 style="display: none;"
@@ -87,11 +85,11 @@
             ></script>
         </section>
 
-        <section>
+        <section align="center">
             <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='index.html';">목표주가</button>
-                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
-                <button type="button" class="button" style="height: 8vh; width: 33vw;"  onclick="location.href='help.html';">도움말</button>
+                <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;"  onclick="location.href='index.html';">목표주가</button>
+                <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;margin-right:5px;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
+                <button type="button" class="button" style="height: 8vh; width: 30vw;margin-right:5px;"  onclick="location.href='help.html';">도움말</button>
             </div>
         </section>
         <footer class="footer" style="height: 3vh;">
