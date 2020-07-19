@@ -3,14 +3,15 @@
 "stock_name": "쌍용양회",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "18.06",
+"Current_PER": "18.25",
 "Current_PER_Rank": "14",
-"Close_Price": "4910",
+"Close_Price": "4960",
 "PER_Target_1": "0",
 "PER_Target_2": "4316",
 "PER_Target_Avr": "2158",
-"Price_over_PERAvg": "1.13762743280816",
-"SRIM_1": "2806",
-"SRIM_2": "2980",
-"SRIM_3": "3399"
+"Price_over_PERAvg": "1.14921223354958",
+"SRIM_1": "2810",
+"SRIM_2": "2984",
+"SRIM_3": "3404",
+"SRIM_2R": "1.66195289593659"
 }

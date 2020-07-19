@@ -2,15 +2,16 @@
 "stock_code": "A011690",
 "stock_name": "유양디앤유",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
+"stock_Div_PER": "118.69",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "1220",
-"PER_Target_1": "-17626",
+"PER_Target_1": "-18492",
 "PER_Target_2": "-7705",
-"PER_Target_Avr": "-12666",
-"Price_over_PERAvg": "-9.63246614819786E-02",
-"SRIM_1": "1781",
-"SRIM_2": "1477",
-"SRIM_3": "969"
+"PER_Target_Avr": "-13098",
+"Price_over_PERAvg": "-0.093140435927778",
+"SRIM_1": "1783",
+"SRIM_2": "1479",
+"SRIM_3": "971",
+"SRIM_2R": "0.824775969970547"
 }

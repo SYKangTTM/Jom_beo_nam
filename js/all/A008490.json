@@ -3,14 +3,15 @@
 "stock_name": "서흥",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "18.71",
+"Current_PER": "18.88",
 "Current_PER_Rank": "1",
-"Close_Price": "55400",
+"Close_Price": "55900",
 "PER_Target_1": "0",
-"PER_Target_2": "55558",
-"PER_Target_Avr": "27779",
-"Price_over_PERAvg": "0.997156125130494",
-"SRIM_1": "35927",
-"SRIM_2": "41388",
-"SRIM_3": "56190"
+"PER_Target_2": "56946",
+"PER_Target_Avr": "28473",
+"Price_over_PERAvg": "0.981631721279809",
+"SRIM_1": "35972",
+"SRIM_2": "41439",
+"SRIM_3": "56260",
+"SRIM_2R": "1.34895583574729"
 }

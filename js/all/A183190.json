@@ -3,14 +3,15 @@
 "stock_name": "아세아시멘트",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.69",
-"Current_PER_Rank": "4",
-"Close_Price": "53300",
+"Current_PER": "7.85",
+"Current_PER_Rank": "5",
+"Close_Price": "54400",
 "PER_Target_1": "0",
 "PER_Target_2": "92717",
 "PER_Target_Avr": "46358",
-"Price_over_PERAvg": "0.57486760788205",
-"SRIM_1": "403253",
-"SRIM_2": "369925",
-"SRIM_3": "305331"
+"Price_over_PERAvg": "0.586731667331773",
+"SRIM_1": "403756",
+"SRIM_2": "370386",
+"SRIM_3": "305712",
+"SRIM_2R": "0.146873813085718"
 }

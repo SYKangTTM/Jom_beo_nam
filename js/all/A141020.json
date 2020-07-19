@@ -2,15 +2,16 @@
 "stock_code": "A141020",
 "stock_name": "포티스",
 "stock_Div": "인터넷과카탈로그소매",
-"stock_Div_PER": "16.37",
+"stock_Div_PER": "15.78",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "108",
-"PER_Target_1": "-5350",
+"PER_Target_1": "-5157",
 "PER_Target_2": "-8370",
-"PER_Target_Avr": "-6860",
-"Price_over_PERAvg": "-1.57434402332362E-02",
+"PER_Target_Avr": "-6764",
+"Price_over_PERAvg": "-1.59680638722555E-02",
 "SRIM_1": "190",
-"SRIM_2": "157",
-"SRIM_3": "103"
+"SRIM_2": "158",
+"SRIM_3": "103",
+"SRIM_2R": "0.685250596982467"
 }

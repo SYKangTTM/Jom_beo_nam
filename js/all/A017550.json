@@ -3,14 +3,15 @@
 "stock_name": "수산중공업",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "57.47",
+"Current_PER": "57.13",
 "Current_PER_Rank": "50",
-"Close_Price": "1735",
+"Close_Price": "1725",
 "PER_Target_1": "0",
 "PER_Target_2": "688",
 "PER_Target_Avr": "344",
-"Price_over_PERAvg": "2.5218023255814",
-"SRIM_1": "1760",
-"SRIM_2": "1460",
-"SRIM_3": "958"
+"Price_over_PERAvg": "2.50726744186047",
+"SRIM_1": "1763",
+"SRIM_2": "1462",
+"SRIM_3": "959",
+"SRIM_2R": "1.17989294999794"
 }

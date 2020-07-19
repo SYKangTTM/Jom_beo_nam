@@ -2,15 +2,16 @@
 "stock_code": "A219550",
 "stock_name": "MP한강",
 "stock_Div": "화장품",
-"stock_Div_PER": "45.5",
+"stock_Div_PER": "47.7",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1405",
-"PER_Target_1": "-2204",
+"Close_Price": "1635",
+"PER_Target_1": "-2311",
 "PER_Target_2": "-948",
-"PER_Target_Avr": "-1576",
-"Price_over_PERAvg": "-0.891497461928934",
-"SRIM_1": "513",
+"PER_Target_Avr": "-1630",
+"Price_over_PERAvg": "-1.00337526848727",
+"SRIM_1": "514",
 "SRIM_2": "426",
-"SRIM_3": "279"
+"SRIM_3": "280",
+"SRIM_2R": "3.83436006046887"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A344820",
 "stock_name": "케이씨씨글라스",
 "stock_Div": "건축자재",
-"stock_Div_PER": "89.08",
+"stock_Div_PER": "90.1",
 "Current_PER": "",
 "Current_PER_Rank": "9",
-"Close_Price": "33150",
+"Close_Price": "34250",
 "PER_Target_1": "0",
 "PER_Target_2": "0",
 "PER_Target_Avr": "0",
 "Price_over_PERAvg": "N/A",
-"SRIM_1": "24802",
-"SRIM_2": "20573",
-"SRIM_3": "13499"
+"SRIM_1": "26420",
+"SRIM_2": "21915",
+"SRIM_3": "14379",
+"SRIM_2R": "1.56286166039518"
 }

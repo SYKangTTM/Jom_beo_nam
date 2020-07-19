@@ -3,14 +3,15 @@
 "stock_name": "에이치케이",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "96.61",
+"Current_PER": "91.24",
 "Current_PER_Rank": "52",
-"Close_Price": "1350",
+"Close_Price": "1275",
 "PER_Target_1": "0",
 "PER_Target_2": "3775",
 "PER_Target_Avr": "1888",
-"Price_over_PERAvg": "0.357615894039735",
-"SRIM_1": "2409",
-"SRIM_2": "1998",
-"SRIM_3": "1311"
+"Price_over_PERAvg": "0.337748344370861",
+"SRIM_1": "2412",
+"SRIM_2": "2000",
+"SRIM_3": "1313",
+"SRIM_2R": "0.637342023833494"
 }

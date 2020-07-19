@@ -39,7 +39,6 @@
             <a class="title" href="index.html"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
         </div>
         <section class="main" style="height: 65vh; overflow-y: scroll;">
-            
             <div style="margin-left:10px;margin-right=10px;">
                 <h1 align="center">
                     도움말
@@ -95,34 +94,18 @@
                     </p>
                 </article>
             </div>
+            <div id="iframeDisplay"></div>
         </section>
 
         <section class="banner_section" align="center" style="margin-top:15px;margin-left:5px;margin-right:5px">
-            <!-- <ins
-                class="kakao_ad_area"
-                style="display: none;"
-                data-ad-unit="DAN-1jyb0fd2si5v5"
-                data-ad-width="320"
-                data-ad-height="100"
-            ></ins>
-            <script
-                type="text/javascript"
-                src="//t1.daumcdn.net/kas/static/ba.min.js"
-                async
-            ></script> -->
-            
-            
-            <!-- <a href="https://coupa.ng/bF7Zb6" target="_blank"><img src="https://ads-partners.coupang.com/banners/273817?subId=&traceId=V0-301-879dd1202e5c73b2-I273817&w=320&h=80" alt=""></a> -->
-            <!-- <a href="https://coupa.ng/bF7ZBC" target="_blank"><img src="https://ads-partners.coupang.com/banners/233883?subId=&traceId=V0-301-879dd1202e5c73b2-I233883&w=728&h=90" alt=""></a> -->
             <script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({ id:273827 });
-</script>
+            <script> new PartnersCoupang.G({ id:273827 });</script>
         </section>
 
         <section align="center">
             <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;"  onclick="location.href='index.html';">목표주가</button>
+                <!-- <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;"  onclick="displayIframe()">목표주가</button> -->
                 <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;margin-right:5px;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
                 <button type="button" class="button" style="height: 8vh; width: 30vw;margin-right:5px;"  onclick="location.href='help.html';">도움말</button>
             </div>
@@ -136,5 +119,7 @@
 </html>
 
 <script>
-
+    //  function displayIframe() {
+    //     document.getElementById("iframeDisplay").innerHTML = '<iframe src="index.html" height="100%" width="100%"></iframe>';
+    // }
 </script>

@@ -3,14 +3,15 @@
 "stock_name": "지엔씨에너지",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "20.49",
+"Current_PER": "21.04",
 "Current_PER_Rank": "11",
-"Close_Price": "5620",
+"Close_Price": "5770",
 "PER_Target_1": "0",
-"PER_Target_2": "5315",
-"PER_Target_Avr": "2658",
-"Price_over_PERAvg": "1.05738476011289",
-"SRIM_1": "6100",
-"SRIM_2": "6544",
-"SRIM_3": "7628"
+"PER_Target_2": "4836",
+"PER_Target_Avr": "2418",
+"Price_over_PERAvg": "1.19313482216708",
+"SRIM_1": "6108",
+"SRIM_2": "6552",
+"SRIM_3": "7637",
+"SRIM_2R": "0.880599439561112"
 }

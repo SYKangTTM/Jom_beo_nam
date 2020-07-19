@@ -2,15 +2,16 @@
 "stock_code": "A054920",
 "stock_name": "한컴위드",
 "stock_Div": "소프트웨어",
-"stock_Div_PER": "116.23",
+"stock_Div_PER": "115.55",
 "Current_PER": "1.99",
 "Current_PER_Rank": "1",
 "Close_Price": "3410",
-"PER_Target_1": "210126",
+"PER_Target_1": "208897",
 "PER_Target_2": "120206",
-"PER_Target_Avr": "165166",
-"Price_over_PERAvg": "0.020645895644382",
-"SRIM_1": "4518",
-"SRIM_2": "3747",
-"SRIM_3": "2459"
+"PER_Target_Avr": "164552",
+"Price_over_PERAvg": "2.07229955363518E-02",
+"SRIM_1": "4523",
+"SRIM_2": "3752",
+"SRIM_3": "2462",
+"SRIM_2R": "0.908879058749553"
 }

@@ -3,14 +3,15 @@
 "stock_name": "현대에이치씨엔",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.21",
-"Current_PER_Rank": "5",
-"Close_Price": "4505",
+"Current_PER": "14.76",
+"Current_PER_Rank": "6",
+"Close_Price": "4680",
 "PER_Target_1": "0",
 "PER_Target_2": "3490",
 "PER_Target_Avr": "1745",
-"Price_over_PERAvg": "1.29083094555874",
-"SRIM_1": "6072",
-"SRIM_2": "5036",
-"SRIM_3": "3305"
+"Price_over_PERAvg": "1.34097421203438",
+"SRIM_1": "6079",
+"SRIM_2": "5043",
+"SRIM_3": "3309",
+"SRIM_2R": "0.928063658176389"
 }

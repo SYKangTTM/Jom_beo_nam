@@ -2,15 +2,16 @@
 "stock_code": "A000540",
 "stock_name": "흥국화재",
 "stock_Div": "손해보험",
-"stock_Div_PER": "8.39",
-"Current_PER": "5.62",
+"stock_Div_PER": "8.77",
+"Current_PER": "5.51",
 "Current_PER_Rank": "4",
-"Close_Price": "2290",
-"PER_Target_1": "4703",
+"Close_Price": "2245",
+"PER_Target_1": "4916",
 "PER_Target_2": "4361",
-"PER_Target_Avr": "4532",
-"Price_over_PERAvg": "0.505295675198588",
+"PER_Target_Avr": "4638",
+"Price_over_PERAvg": "0.483992670044195",
 "SRIM_1": "10926",
 "SRIM_2": "10926",
-"SRIM_3": "10926"
+"SRIM_3": "10926",
+"SRIM_2R": "0.205468721945225"
 }

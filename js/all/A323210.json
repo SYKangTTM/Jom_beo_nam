@@ -3,14 +3,15 @@
 "stock_name": "이베스트이안스팩1호",
 "stock_Div": "미분류",
 "stock_Div_PER": "",
-"Current_PER": "2331.69",
+"Current_PER": "2343.32",
 "Current_PER_Rank": "29",
-"Close_Price": "2005",
+"Close_Price": "2015",
 "PER_Target_1": "0",
 "PER_Target_2": "2441",
 "PER_Target_Avr": "1220",
-"Price_over_PERAvg": "1.64276935682097",
-"SRIM_1": "1748",
-"SRIM_2": "1450",
-"SRIM_3": "951"
+"Price_over_PERAvg": "1.65096272019664",
+"SRIM_1": "1750",
+"SRIM_2": "1451",
+"SRIM_3": "952",
+"SRIM_2R": "1.38828515237344"
 }

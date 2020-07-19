@@ -3,14 +3,15 @@
 "stock_name": "풍국주정",
 "stock_Div": "음료",
 "stock_Div_PER": "N/A",
-"Current_PER": "41.6",
+"Current_PER": "40.6",
 "Current_PER_Rank": "4",
-"Close_Price": "24950",
+"Close_Price": "24350",
 "PER_Target_1": "0",
 "PER_Target_2": "10453",
 "PER_Target_Avr": "5226",
-"Price_over_PERAvg": "2.38687458145987",
-"SRIM_1": "9571",
-"SRIM_2": "7939",
-"SRIM_3": "5209"
+"Price_over_PERAvg": "2.32947479192576",
+"SRIM_1": "9583",
+"SRIM_2": "7949",
+"SRIM_3": "5216",
+"SRIM_2R": "3.06325705943052"
 }

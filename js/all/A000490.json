@@ -3,14 +3,15 @@
 "stock_name": "대동공업",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "29.66",
+"Current_PER": "31.45",
 "Current_PER_Rank": "42",
-"Close_Price": "6320",
+"Close_Price": "6700",
 "PER_Target_1": "0",
 "PER_Target_2": "7603",
 "PER_Target_Avr": "3802",
-"Price_over_PERAvg": "0.83125082204393",
-"SRIM_1": "9312",
-"SRIM_2": "7724",
-"SRIM_3": "5068"
+"Price_over_PERAvg": "0.881231092989609",
+"SRIM_1": "9324",
+"SRIM_2": "7734",
+"SRIM_3": "5075",
+"SRIM_2R": "0.866299709716332"
 }

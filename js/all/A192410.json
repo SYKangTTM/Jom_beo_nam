@@ -2,15 +2,16 @@
 "stock_code": "A192410",
 "stock_name": "감마누",
 "stock_Div": "통신장비",
-"stock_Div_PER": "91.14",
+"stock_Div_PER": "96.41",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "408",
-"PER_Target_1": "4069",
+"PER_Target_1": "4305",
 "PER_Target_2": "776",
-"PER_Target_Avr": "2422",
-"Price_over_PERAvg": "0.168421052631579",
-"SRIM_1": "1037",
-"SRIM_2": "861",
-"SRIM_3": "565"
+"PER_Target_Avr": "2540",
+"Price_over_PERAvg": "0.160598307419799",
+"SRIM_1": "1039",
+"SRIM_2": "862",
+"SRIM_3": "565",
+"SRIM_2R": "0.473540624382607"
 }

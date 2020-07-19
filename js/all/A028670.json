@@ -3,14 +3,15 @@
 "stock_name": "팬오션",
 "stock_Div": "해운사",
 "stock_Div_PER": "N/A",
-"Current_PER": "13.93",
+"Current_PER": "13.89",
 "Current_PER_Rank": "5",
-"Close_Price": "3715",
+"Close_Price": "3705",
 "PER_Target_1": "0",
-"PER_Target_2": "5534",
-"PER_Target_Avr": "2767",
-"Price_over_PERAvg": "0.671304662088905",
-"SRIM_1": "5244",
-"SRIM_2": "4989",
-"SRIM_3": "4467"
+"PER_Target_2": "5718",
+"PER_Target_Avr": "2859",
+"Price_over_PERAvg": "0.647953830010493",
+"SRIM_1": "5284",
+"SRIM_2": "5052",
+"SRIM_3": "4576",
+"SRIM_2R": "0.733336042883331"
 }

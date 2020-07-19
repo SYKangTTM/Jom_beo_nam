@@ -3,14 +3,15 @@
 "stock_name": "STX엔진",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "11.03",
+"Current_PER": "11.32",
 "Current_PER_Rank": "4",
-"Close_Price": "5650",
+"Close_Price": "5800",
 "PER_Target_1": "0",
 "PER_Target_2": "4985",
 "PER_Target_Avr": "2492",
-"Price_over_PERAvg": "1.13340020060181",
-"SRIM_1": "7749",
-"SRIM_2": "6427",
-"SRIM_3": "4217"
+"Price_over_PERAvg": "1.16349047141424",
+"SRIM_1": "7758",
+"SRIM_2": "6435",
+"SRIM_3": "4222",
+"SRIM_2R": "0.901276008035411"
 }

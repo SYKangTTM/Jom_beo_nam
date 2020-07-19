@@ -2,15 +2,16 @@
 "stock_code": "A150840",
 "stock_name": "인트로메딕",
 "stock_Div": "건강관리장비와용품",
-"stock_Div_PER": "119.78",
+"stock_Div_PER": "117.52",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "2525",
-"PER_Target_1": "-100819",
+"Close_Price": "2410",
+"PER_Target_1": "-98917",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-50410",
-"Price_over_PERAvg": "-2.50448824130372E-02",
+"PER_Target_Avr": "-49458",
+"Price_over_PERAvg": "-2.43638606104107E-02",
 "SRIM_1": "495",
-"SRIM_2": "410",
-"SRIM_3": "269"
+"SRIM_2": "411",
+"SRIM_3": "269",
+"SRIM_2R": "5.86809225738671"
 }

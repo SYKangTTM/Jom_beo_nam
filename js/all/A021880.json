@@ -2,15 +2,16 @@
 "stock_code": "A021880",
 "stock_name": "¸ÞÀÌ½¼Ä³ÇÇÅ»",
 "stock_Div": "±âÅ¸±ÝÀ¶",
-"stock_Div_PER": "6.62",
+"stock_Div_PER": "6.64",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "312",
-"PER_Target_1": "-434",
+"Close_Price": "310",
+"PER_Target_1": "-435",
 "PER_Target_2": "-1117",
 "PER_Target_Avr": "-776",
-"Price_over_PERAvg": "-0.402321083172147",
+"Price_over_PERAvg": "-0.399484536082474",
 "SRIM_1": "282",
 "SRIM_2": "234",
-"SRIM_3": "153"
+"SRIM_3": "154",
+"SRIM_2R": "1.32400231705144"
 }

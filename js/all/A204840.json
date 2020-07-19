@@ -2,15 +2,16 @@
 "stock_code": "A204840",
 "stock_name": "¡ˆø§∆ ≈ÿ",
 "stock_Div": "¡¶æ‡",
-"stock_Div_PER": "124.07",
+"stock_Div_PER": "126.68",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "960",
-"PER_Target_1": "-17326",
+"Close_Price": "1010",
+"PER_Target_1": "-17691",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-8663",
-"Price_over_PERAvg": "-5.54080572549925E-02",
-"SRIM_1": "48",
+"PER_Target_Avr": "-8846",
+"Price_over_PERAvg": "-5.70911763043355E-02",
+"SRIM_1": "49",
 "SRIM_2": "40",
-"SRIM_3": "26"
+"SRIM_3": "26",
+"SRIM_2R": "25.102123374618"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A123010",
 "stock_name": "아이에이네트웍스",
 "stock_Div": "반도체와반도체장비",
-"stock_Div_PER": "17.03",
+"stock_Div_PER": "17.47",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1865",
-"PER_Target_1": "-4530",
+"Close_Price": "2120",
+"PER_Target_1": "-4647",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-2265",
-"Price_over_PERAvg": "-0.411699779249448",
-"SRIM_1": "177",
+"PER_Target_Avr": "-2324",
+"Price_over_PERAvg": "-0.456208306434259",
+"SRIM_1": "178",
 "SRIM_2": "147",
-"SRIM_3": "96"
+"SRIM_3": "97",
+"SRIM_2R": "14.398176953157"
 }

@@ -3,14 +3,15 @@
 "stock_name": "빅솔론",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "8",
+"Current_PER": "7.95",
 "Current_PER_Rank": "1",
-"Close_Price": "4625",
+"Close_Price": "4595",
 "PER_Target_1": "0",
 "PER_Target_2": "4264",
 "PER_Target_Avr": "2132",
-"Price_over_PERAvg": "1.08466228893058",
-"SRIM_1": "8061",
-"SRIM_2": "6687",
-"SRIM_3": "4387"
+"Price_over_PERAvg": "1.07762664165103",
+"SRIM_1": "8071",
+"SRIM_2": "6695",
+"SRIM_3": "4393",
+"SRIM_2R": "0.686325953177152"
 }

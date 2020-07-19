@@ -2,15 +2,16 @@
 "stock_code": "A065150",
 "stock_name": "MP그룹",
 "stock_Div": "호텔,레스토랑,레저",
-"stock_Div_PER": "96.29",
+"stock_Div_PER": "100.35",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "1315",
-"PER_Target_1": "915",
+"PER_Target_1": "953",
 "PER_Target_2": "1313",
-"PER_Target_Avr": "1114",
-"Price_over_PERAvg": "1.18043087971275",
+"PER_Target_Avr": "1133",
+"Price_over_PERAvg": "1.16063548102383",
 "SRIM_1": "240",
 "SRIM_2": "199",
-"SRIM_3": "131"
+"SRIM_3": "131",
+"SRIM_2R": "6.59179588341069"
 }

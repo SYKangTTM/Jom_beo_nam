@@ -3,14 +3,15 @@
 "stock_name": "딜리",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "17.06",
+"Current_PER": "17.58",
 "Current_PER_Rank": "2",
-"Close_Price": "1475",
+"Close_Price": "1520",
 "PER_Target_1": "0",
 "PER_Target_2": "1541",
 "PER_Target_Avr": "770",
-"Price_over_PERAvg": "0.957170668397145",
-"SRIM_1": "1870",
-"SRIM_2": "1551",
-"SRIM_3": "1018"
+"Price_over_PERAvg": "0.986372485399092",
+"SRIM_1": "1872",
+"SRIM_2": "1553",
+"SRIM_3": "1019",
+"SRIM_2R": "0.978826982625436"
 }

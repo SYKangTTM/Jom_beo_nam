@@ -3,14 +3,15 @@
 "stock_name": "한국카본",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "12.44",
+"Current_PER": "14.01",
 "Current_PER_Rank": "5",
-"Close_Price": "7520",
+"Close_Price": "8470",
 "PER_Target_1": "0",
 "PER_Target_2": "73669",
 "PER_Target_Avr": "36834",
-"Price_over_PERAvg": "0.102078214717181",
-"SRIM_1": "8242",
-"SRIM_2": "8583",
-"SRIM_3": "9380"
+"Price_over_PERAvg": "0.114973733863633",
+"SRIM_1": "8252",
+"SRIM_2": "8594",
+"SRIM_3": "9392",
+"SRIM_2R": "0.9855765243329"
 }

@@ -3,14 +3,15 @@
 "stock_name": "영풍제지",
 "stock_Div": "종이와목재",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.47",
+"Current_PER": "7.07",
 "Current_PER_Rank": "2",
-"Close_Price": "3160",
+"Close_Price": "3455",
 "PER_Target_1": "0",
 "PER_Target_2": "4358",
 "PER_Target_Avr": "2179",
-"Price_over_PERAvg": "0.725103258375402",
-"SRIM_1": "6134",
-"SRIM_2": "5088",
-"SRIM_3": "3338"
+"Price_over_PERAvg": "0.792794860027536",
+"SRIM_1": "6142",
+"SRIM_2": "5094",
+"SRIM_3": "3343",
+"SRIM_2R": "0.678195163453884"
 }

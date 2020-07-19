@@ -3,14 +3,15 @@
 "stock_name": "중앙에너비스",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "79.8",
+"Current_PER": "86",
 "Current_PER_Rank": "9",
-"Close_Price": "8750",
+"Close_Price": "9430",
 "PER_Target_1": "0",
 "PER_Target_2": "4528",
 "PER_Target_Avr": "2264",
-"Price_over_PERAvg": "1.93242049469965",
-"SRIM_1": "8760",
-"SRIM_2": "7267",
-"SRIM_3": "4768"
+"Price_over_PERAvg": "2.08259717314488",
+"SRIM_1": "8771",
+"SRIM_2": "7276",
+"SRIM_3": "4774",
+"SRIM_2R": "1.29611272654362"
 }

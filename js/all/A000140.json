@@ -3,14 +3,15 @@
 "stock_name": "하이트진로홀딩스",
 "stock_Div": "음료",
 "stock_Div_PER": "N/A",
-"Current_PER": "1472.23",
+"Current_PER": "1360.69",
 "Current_PER_Rank": "6",
-"Close_Price": "23100",
+"Close_Price": "21350",
 "PER_Target_1": "0",
 "PER_Target_2": "-12687",
 "PER_Target_Avr": "-6344",
-"Price_over_PERAvg": "-1.82076140931662",
-"SRIM_1": "17994",
-"SRIM_2": "14926",
-"SRIM_3": "9793"
+"Price_over_PERAvg": "-1.68282493891385",
+"SRIM_1": "18017",
+"SRIM_2": "14945",
+"SRIM_3": "9806",
+"SRIM_2R": "1.42861893035478"
 }

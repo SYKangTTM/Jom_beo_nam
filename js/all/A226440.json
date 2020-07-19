@@ -2,15 +2,16 @@
 "stock_code": "A226440",
 "stock_name": "한송네오텍",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
-"Current_PER": "238.42",
+"stock_Div_PER": "118.69",
+"Current_PER": "253.44",
 "Current_PER_Rank": "57",
-"Close_Price": "1270",
-"PER_Target_1": "967",
+"Close_Price": "1350",
+"PER_Target_1": "1015",
 "PER_Target_2": "1353",
-"PER_Target_Avr": "1160",
-"Price_over_PERAvg": "1.0948275862069",
+"PER_Target_Avr": "1184",
+"Price_over_PERAvg": "1.1402027027027",
 "SRIM_1": "410",
 "SRIM_2": "340",
-"SRIM_3": "223"
+"SRIM_3": "223",
+"SRIM_2R": "3.96815489035836"
 }

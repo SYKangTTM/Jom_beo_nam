@@ -2,15 +2,16 @@
 "stock_code": "A068940",
 "stock_name": "아이씨케이",
 "stock_Div": "전자장비와기기",
-"stock_Div_PER": "30.85",
+"stock_Div_PER": "31.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "3250",
+"Close_Price": "3540",
 "PER_Target_1": "0",
 "PER_Target_2": "0",
 "PER_Target_Avr": "0",
 "Price_over_PERAvg": "N/A",
-"SRIM_1": "443",
+"SRIM_1": "444",
 "SRIM_2": "368",
-"SRIM_3": "241"
+"SRIM_3": "241",
+"SRIM_2R": "9.61996563878362"
 }

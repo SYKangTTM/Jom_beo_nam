@@ -3,14 +3,15 @@
 "stock_name": "한국제8호스팩",
 "stock_Div": "미분류",
 "stock_Div_PER": "",
-"Current_PER": "114.32",
+"Current_PER": "114.89",
 "Current_PER_Rank": "8",
-"Close_Price": "2015",
+"Close_Price": "2025",
 "PER_Target_1": "0",
 "PER_Target_2": "2099",
 "PER_Target_Avr": "1050",
-"Price_over_PERAvg": "1.91996188661267",
-"SRIM_1": "1688",
-"SRIM_2": "1400",
-"SRIM_3": "919"
+"Price_over_PERAvg": "1.9294902334445",
+"SRIM_1": "1690",
+"SRIM_2": "1402",
+"SRIM_3": "920",
+"SRIM_2R": "1.44449651784289"
 }

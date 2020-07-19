@@ -2,15 +2,16 @@
 "stock_code": "A010580",
 "stock_name": "지코",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "12.48",
+"stock_Div_PER": "13.55",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "306",
-"PER_Target_1": "-1944",
+"PER_Target_1": "-2111",
 "PER_Target_2": "-2189",
-"PER_Target_Avr": "-2066",
-"Price_over_PERAvg": "-0.148076457778853",
+"PER_Target_Avr": "-2150",
+"Price_over_PERAvg": "-0.142325581395349",
 "SRIM_1": "284",
-"SRIM_2": "235",
-"SRIM_3": "154"
+"SRIM_2": "236",
+"SRIM_3": "155",
+"SRIM_2R": "1.29894319479918"
 }

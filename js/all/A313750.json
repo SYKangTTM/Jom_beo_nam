@@ -3,14 +3,15 @@
 "stock_name": "유안타제4호스팩",
 "stock_Div": "미분류",
 "stock_Div_PER": "",
-"Current_PER": "65.16",
+"Current_PER": "65.49",
 "Current_PER_Rank": "2",
-"Close_Price": "2000",
+"Close_Price": "2010",
 "PER_Target_1": "0",
 "PER_Target_2": "1879",
 "PER_Target_Avr": "940",
-"Price_over_PERAvg": "2.12879191059074",
-"SRIM_1": "1688",
-"SRIM_2": "1400",
-"SRIM_3": "918"
+"Price_over_PERAvg": "2.13943587014369",
+"SRIM_1": "1690",
+"SRIM_2": "1402",
+"SRIM_3": "920",
+"SRIM_2R": "1.43408567381281"
 }

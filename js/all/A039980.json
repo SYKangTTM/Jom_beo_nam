@@ -2,15 +2,16 @@
 "stock_code": "A039980",
 "stock_name": "리노스",
 "stock_Div": "섬유,의류,신발,호화품",
-"stock_Div_PER": "22.63",
+"stock_Div_PER": "22.99",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "1225",
-"PER_Target_1": "-236",
+"PER_Target_1": "-240",
 "PER_Target_2": "-294",
-"PER_Target_Avr": "-265",
-"Price_over_PERAvg": "-4.62264150943396",
-"SRIM_1": "1661",
-"SRIM_2": "1378",
-"SRIM_3": "904"
+"PER_Target_Avr": "-267",
+"Price_over_PERAvg": "-4.58801498127341",
+"SRIM_1": "1664",
+"SRIM_2": "1380",
+"SRIM_3": "905",
+"SRIM_2R": "0.887759937163236"
 }

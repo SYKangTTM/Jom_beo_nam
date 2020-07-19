@@ -3,14 +3,15 @@
 "stock_name": "나노엔텍",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "40.58",
-"Current_PER_Rank": "6",
-"Close_Price": "11050",
+"Current_PER": "39.48",
+"Current_PER_Rank": "5",
+"Close_Price": "10750",
 "PER_Target_1": "0",
 "PER_Target_2": "3903",
 "PER_Target_Avr": "1952",
-"Price_over_PERAvg": "2.8311555213938",
-"SRIM_1": "1500",
-"SRIM_2": "1245",
-"SRIM_3": "817"
+"Price_over_PERAvg": "2.75429157058673",
+"SRIM_1": "1502",
+"SRIM_2": "1246",
+"SRIM_3": "817",
+"SRIM_2R": "8.63033000265034"
 }

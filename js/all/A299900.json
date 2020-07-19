@@ -3,14 +3,15 @@
 "stock_name": "위지윅스튜디오",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "66.88",
+"Current_PER": "68.15",
 "Current_PER_Rank": "20",
-"Close_Price": "4470",
+"Close_Price": "4555",
 "PER_Target_1": "0",
 "PER_Target_2": "4307",
 "PER_Target_Avr": "2154",
-"Price_over_PERAvg": "1.03784536800557",
-"SRIM_1": "2570",
-"SRIM_2": "2889",
-"SRIM_3": "3721"
+"Price_over_PERAvg": "1.05758068260971",
+"SRIM_1": "2573",
+"SRIM_2": "2892",
+"SRIM_3": "3726",
+"SRIM_2R": "1.57497014778476"
 }

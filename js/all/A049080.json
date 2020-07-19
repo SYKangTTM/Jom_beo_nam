@@ -2,15 +2,16 @@
 "stock_code": "A049080",
 "stock_name": "기가레인",
 "stock_Div": "반도체와반도체장비",
-"stock_Div_PER": "17.03",
+"stock_Div_PER": "17.47",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1135",
-"PER_Target_1": "-13962",
+"Close_Price": "1145",
+"PER_Target_1": "-14323",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-6981",
-"Price_over_PERAvg": "-8.12920784987824E-02",
+"PER_Target_Avr": "-7162",
+"Price_over_PERAvg": "-7.99413530684912E-02",
 "SRIM_1": "475",
 "SRIM_2": "394",
-"SRIM_3": "258"
+"SRIM_3": "259",
+"SRIM_2R": "2.905317869628"
 }

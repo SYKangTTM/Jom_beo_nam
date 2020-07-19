@@ -3,14 +3,15 @@
 "stock_name": "제룡전기",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.81",
+"Current_PER": "15.29",
 "Current_PER_Rank": "9",
-"Close_Price": "5470",
+"Close_Price": "5650",
 "PER_Target_1": "0",
 "PER_Target_2": "9132",
 "PER_Target_Avr": "4566",
-"Price_over_PERAvg": "0.598992553657468",
-"SRIM_1": "3150",
-"SRIM_2": "2613",
-"SRIM_3": "1715"
+"Price_over_PERAvg": "0.618703460359177",
+"SRIM_1": "3154",
+"SRIM_2": "2617",
+"SRIM_3": "1717",
+"SRIM_2R": "2.15936783063938"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A215480",
 "stock_name": "토박스코리아",
 "stock_Div": "섬유,의류,신발,호화품",
-"stock_Div_PER": "22.63",
+"stock_Div_PER": "22.99",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1090",
-"PER_Target_1": "86",
+"Close_Price": "1095",
+"PER_Target_1": "87",
 "PER_Target_2": "928",
-"PER_Target_Avr": "507",
-"Price_over_PERAvg": "2.14990138067061",
+"PER_Target_Avr": "508",
+"Price_over_PERAvg": "2.1576354679803",
 "SRIM_1": "501",
-"SRIM_2": "415",
-"SRIM_3": "272"
+"SRIM_2": "416",
+"SRIM_3": "273",
+"SRIM_2R": "2.63354889019837"
 }

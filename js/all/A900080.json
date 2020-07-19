@@ -2,15 +2,16 @@
 "stock_code": "A900080",
 "stock_name": "에스앤씨엔진그룹",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "11.35",
+"stock_Div_PER": "12.32",
 "Current_PER": "4.41",
 "Current_PER_Rank": "12",
 "Close_Price": "197",
-"PER_Target_1": "485",
+"PER_Target_1": "527",
 "PER_Target_2": "258",
-"PER_Target_Avr": "372",
-"Price_over_PERAvg": "0.53028263795424",
-"SRIM_1": "3205",
-"SRIM_2": "2659",
-"SRIM_3": "1745"
+"PER_Target_Avr": "392",
+"Price_over_PERAvg": "0.501910828025478",
+"SRIM_1": "3209",
+"SRIM_2": "2662",
+"SRIM_3": "1747",
+"SRIM_2R": "7.40005952637102E-02"
 }

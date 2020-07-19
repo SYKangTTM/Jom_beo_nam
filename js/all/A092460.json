@@ -3,14 +3,15 @@
 "stock_name": "한라IMS",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "20.76",
-"Current_PER_Rank": "8",
-"Close_Price": "5400",
+"Current_PER": "20.88",
+"Current_PER_Rank": "7",
+"Close_Price": "5430",
 "PER_Target_1": "0",
 "PER_Target_2": "9464",
 "PER_Target_Avr": "4732",
-"Price_over_PERAvg": "0.570583262890955",
-"SRIM_1": "6690",
-"SRIM_2": "5549",
-"SRIM_3": "3641"
+"Price_over_PERAvg": "0.573753169907016",
+"SRIM_1": "6698",
+"SRIM_2": "5556",
+"SRIM_3": "3645",
+"SRIM_2R": "0.977363575386874"
 }

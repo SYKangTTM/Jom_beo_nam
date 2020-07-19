@@ -2,15 +2,16 @@
 "stock_code": "A009320",
 "stock_name": "措快何前",
 "stock_Div": "磊悼瞒何前",
-"stock_Div_PER": "12.48",
+"stock_Div_PER": "13.55",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "2410",
-"PER_Target_1": "-617",
+"Close_Price": "2500",
+"PER_Target_1": "-669",
 "PER_Target_2": "-2669",
-"PER_Target_Avr": "-1643",
-"Price_over_PERAvg": "-1.46682897139379",
+"PER_Target_Avr": "-1669",
+"Price_over_PERAvg": "-1.49790293588975",
 "SRIM_1": "699",
-"SRIM_2": "579",
-"SRIM_3": "380"
+"SRIM_2": "580",
+"SRIM_3": "381",
+"SRIM_2R": "4.30912256207767"
 }

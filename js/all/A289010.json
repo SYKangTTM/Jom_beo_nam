@@ -3,14 +3,15 @@
 "stock_name": "아이스크림에듀",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "20.07",
-"Current_PER_Rank": "7",
-"Close_Price": "8350",
+"Current_PER": "20.29",
+"Current_PER_Rank": "6",
+"Close_Price": "8440",
 "PER_Target_1": "0",
 "PER_Target_2": "8018",
 "PER_Target_Avr": "4009",
-"Price_over_PERAvg": "1.0414068346221",
-"SRIM_1": "5358",
-"SRIM_2": "4445",
-"SRIM_3": "2916"
+"Price_over_PERAvg": "1.05263157894737",
+"SRIM_1": "5365",
+"SRIM_2": "4450",
+"SRIM_3": "2920",
+"SRIM_2R": "1.89654126335129"
 }

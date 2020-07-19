@@ -2,15 +2,16 @@
 "stock_code": "A071950",
 "stock_name": "코아스",
 "stock_Div": "가구",
-"stock_Div_PER": "25.43",
-"Current_PER": "17.95",
+"stock_Div_PER": "24.82",
+"Current_PER": "18.75",
 "Current_PER_Rank": "5",
-"Close_Price": "1115",
-"PER_Target_1": "1691",
+"Close_Price": "1165",
+"PER_Target_1": "1651",
 "PER_Target_2": "1289",
-"PER_Target_Avr": "1490",
-"Price_over_PERAvg": "0.748322147651007",
+"PER_Target_Avr": "1470",
+"Price_over_PERAvg": "0.792517006802721",
 "SRIM_1": "733",
 "SRIM_2": "608",
-"SRIM_3": "399"
+"SRIM_3": "399",
+"SRIM_2R": "1.91494959267144"
 }

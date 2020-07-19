@@ -2,15 +2,16 @@
 "stock_code": "A036630",
 "stock_name": "세종텔레콤",
 "stock_Div": "다각화된통신서비스",
-"stock_Div_PER": "12.34",
+"stock_Div_PER": "12.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "279",
-"PER_Target_1": "47",
+"Close_Price": "288",
+"PER_Target_1": "48",
 "PER_Target_2": "361",
 "PER_Target_Avr": "204",
-"Price_over_PERAvg": "1.36764705882353",
-"SRIM_1": "503",
-"SRIM_2": "417",
-"SRIM_3": "274"
+"Price_over_PERAvg": "1.40831295843521",
+"SRIM_1": "504",
+"SRIM_2": "418",
+"SRIM_3": "274",
+"SRIM_2R": "0.689555710121027"
 }

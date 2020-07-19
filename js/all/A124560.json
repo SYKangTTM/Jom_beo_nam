@@ -3,14 +3,15 @@
 "stock_name": "태웅로직스",
 "stock_Div": "해운사",
 "stock_Div_PER": "N/A",
-"Current_PER": "5.55",
+"Current_PER": "5.77",
 "Current_PER_Rank": "2",
-"Close_Price": "3500",
+"Close_Price": "3640",
 "PER_Target_1": "0",
 "PER_Target_2": "5557",
 "PER_Target_Avr": "2778",
-"Price_over_PERAvg": "0.62983624257693",
-"SRIM_1": "4916",
-"SRIM_2": "6247",
-"SRIM_3": "10417"
+"Price_over_PERAvg": "0.655029692280007",
+"SRIM_1": "4922",
+"SRIM_2": "6254",
+"SRIM_3": "10430",
+"SRIM_2R": "0.581998876870435"
 }

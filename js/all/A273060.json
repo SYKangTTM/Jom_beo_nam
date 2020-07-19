@@ -3,14 +3,15 @@
 "stock_name": "엔에이치스팩12호",
 "stock_Div": "미분류",
 "stock_Div_PER": "",
-"Current_PER": "118.04",
+"Current_PER": "119.42",
 "Current_PER_Rank": "9",
-"Close_Price": "2140",
+"Close_Price": "2165",
 "PER_Target_1": "0",
 "PER_Target_2": "2613",
 "PER_Target_Avr": "1306",
-"Price_over_PERAvg": "1.63796402602373",
-"SRIM_1": "1706",
-"SRIM_2": "1415",
-"SRIM_3": "928"
+"Price_over_PERAvg": "1.65709911978569",
+"SRIM_1": "1708",
+"SRIM_2": "1416",
+"SRIM_3": "929",
+"SRIM_2R": "1.52846265812653"
 }

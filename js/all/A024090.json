@@ -2,15 +2,16 @@
 "stock_code": "A024090",
 "stock_name": "µð¾¾¿¥",
 "stock_Div": "ºñÃ¶±Ý¼Ó",
-"stock_Div_PER": "18.04",
+"stock_Div_PER": "18.01",
 "Current_PER": "5.99",
 "Current_PER_Rank": "3",
 "Close_Price": "10700",
-"PER_Target_1": "34362",
+"PER_Target_1": "34305",
 "PER_Target_2": "29891",
-"PER_Target_Avr": "32126",
-"Price_over_PERAvg": "0.333058378597108",
-"SRIM_1": "17141",
-"SRIM_2": "14218",
-"SRIM_3": "9329"
+"PER_Target_Avr": "32098",
+"Price_over_PERAvg": "0.333354103059381",
+"SRIM_1": "17162",
+"SRIM_2": "14236",
+"SRIM_3": "9341",
+"SRIM_2R": "0.751619037112971"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A028040",
 "stock_name": "미래SCI",
 "stock_Div": "화학",
-"stock_Div_PER": "60.42",
+"stock_Div_PER": "60.8",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "279",
-"PER_Target_1": "-26404",
+"PER_Target_1": "-26570",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-13202",
-"Price_over_PERAvg": "-1.05665808210877E-02",
+"PER_Target_Avr": "-13285",
+"Price_over_PERAvg": "-0.010500564546481",
 "SRIM_1": "339",
 "SRIM_2": "281",
-"SRIM_3": "184"
+"SRIM_3": "185",
+"SRIM_2R": "0.991185334278274"
 }

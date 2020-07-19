@@ -3,14 +3,15 @@
 "stock_name": "도이치모터스",
 "stock_Div": "전문소매",
 "stock_Div_PER": "N/A",
-"Current_PER": "3.58",
+"Current_PER": "3.74",
 "Current_PER_Rank": "1",
-"Close_Price": "6330",
+"Close_Price": "6620",
 "PER_Target_1": "0",
 "PER_Target_2": "21683",
 "PER_Target_Avr": "10842",
-"Price_over_PERAvg": "0.291933773001891",
-"SRIM_1": "12070",
-"SRIM_2": "13747",
-"SRIM_3": "18216"
+"Price_over_PERAvg": "0.305308306046211",
+"SRIM_1": "12085",
+"SRIM_2": "13764",
+"SRIM_3": "18239",
+"SRIM_2R": "0.480960787670927"
 }

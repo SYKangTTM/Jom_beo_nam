@@ -2,15 +2,16 @@
 "stock_code": "A015260",
 "stock_name": "에이엔피",
 "stock_Div": "전자장비와기기",
-"stock_Div_PER": "30.85",
+"stock_Div_PER": "31.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "228",
-"PER_Target_1": "-2139",
+"Close_Price": "242",
+"PER_Target_1": "-2187",
 "PER_Target_2": "-1713",
-"PER_Target_Avr": "-1926",
-"Price_over_PERAvg": "-0.118380062305296",
-"SRIM_1": "636",
+"PER_Target_Avr": "-1950",
+"Price_over_PERAvg": "-0.124102564102564",
+"SRIM_1": "637",
 "SRIM_2": "528",
-"SRIM_3": "346"
+"SRIM_3": "347",
+"SRIM_2R": "0.457926765235286"
 }

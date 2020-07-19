@@ -2,15 +2,16 @@
 "stock_code": "A032820",
 "stock_name": "우리기술",
 "stock_Div": "전자장비와기기",
-"stock_Div_PER": "30.85",
+"stock_Div_PER": "31.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "722",
-"PER_Target_1": "-3282",
+"Close_Price": "730",
+"PER_Target_1": "-3356",
 "PER_Target_2": "-1453",
-"PER_Target_Avr": "-2368",
-"Price_over_PERAvg": "-0.304963041182682",
+"PER_Target_Avr": "-2404",
+"Price_over_PERAvg": "-0.303597421501352",
 "SRIM_1": "290",
-"SRIM_2": "240",
-"SRIM_3": "158"
+"SRIM_2": "241",
+"SRIM_3": "158",
+"SRIM_2R": "3.0337579987159"
 }

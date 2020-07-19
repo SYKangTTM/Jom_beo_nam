@@ -3,14 +3,15 @@
 "stock_name": "로보티즈",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "41.69",
+"Current_PER": "43.73",
 "Current_PER_Rank": "10",
-"Close_Price": "12300",
+"Close_Price": "12900",
 "PER_Target_1": "0",
 "PER_Target_2": "14070",
 "PER_Target_Avr": "7035",
-"Price_over_PERAvg": "0.874200426439232",
-"SRIM_1": "5037",
-"SRIM_2": "4178",
-"SRIM_3": "2742"
+"Price_over_PERAvg": "0.916844349680171",
+"SRIM_1": "5044",
+"SRIM_2": "4184",
+"SRIM_3": "2745",
+"SRIM_2R": "3.08341745457736"
 }

@@ -3,14 +3,15 @@
 "stock_name": "오로라",
 "stock_Div": "레저용장비와제품",
 "stock_Div_PER": "N/A",
-"Current_PER": "98.99",
+"Current_PER": "103.33",
 "Current_PER_Rank": "3",
-"Close_Price": "8900",
+"Close_Price": "9290",
 "PER_Target_1": "0",
 "PER_Target_2": "7319",
 "PER_Target_Avr": "3660",
-"Price_over_PERAvg": "1.21601311654598",
-"SRIM_1": "11237",
-"SRIM_2": "11745",
-"SRIM_3": "12938"
+"Price_over_PERAvg": "1.2692990845744",
+"SRIM_1": "11251",
+"SRIM_2": "11759",
+"SRIM_3": "12954",
+"SRIM_2R": "0.790004816002576"
 }

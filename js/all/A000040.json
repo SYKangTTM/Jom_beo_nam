@@ -2,15 +2,16 @@
 "stock_code": "A000040",
 "stock_name": "KR모터스",
 "stock_Div": "자동차",
-"stock_Div_PER": "10.07",
+"stock_Div_PER": "11.81",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "761",
-"PER_Target_1": "-7156",
+"Close_Price": "796",
+"PER_Target_1": "-8392",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-3578",
-"Price_over_PERAvg": "-0.106344326439352",
+"PER_Target_Avr": "-4196",
+"Price_over_PERAvg": "-9.48522402287893E-02",
 "SRIM_1": "182",
 "SRIM_2": "151",
-"SRIM_3": "99"
+"SRIM_3": "99",
+"SRIM_2R": "5.26425895615977"
 }

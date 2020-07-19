@@ -3,14 +3,15 @@
 "stock_name": "에버다임",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "18.56",
-"Current_PER_Rank": "27",
-"Close_Price": "3590",
+"Current_PER": "18.72",
+"Current_PER_Rank": "28",
+"Close_Price": "3620",
 "PER_Target_1": "0",
 "PER_Target_2": "1490",
 "PER_Target_Avr": "745",
-"Price_over_PERAvg": "2.40939597315436",
-"SRIM_1": "9601",
-"SRIM_2": "7963",
-"SRIM_3": "5225"
+"Price_over_PERAvg": "2.42953020134228",
+"SRIM_1": "9612",
+"SRIM_2": "7973",
+"SRIM_3": "5232",
+"SRIM_2R": "0.454010053785056"
 }

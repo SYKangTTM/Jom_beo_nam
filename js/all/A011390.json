@@ -4,13 +4,14 @@
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
 "Current_PER": "39.21",
-"Current_PER_Rank": "17",
+"Current_PER_Rank": "18",
 "Close_Price": "132500",
 "PER_Target_1": "0",
 "PER_Target_2": "89160",
 "PER_Target_Avr": "44580",
 "Price_over_PERAvg": "1.48609241812472",
-"SRIM_1": "47662",
-"SRIM_2": "39535",
-"SRIM_3": "25940"
+"SRIM_1": "47722",
+"SRIM_2": "39584",
+"SRIM_3": "25973",
+"SRIM_2R": "3.34727147987475"
 }

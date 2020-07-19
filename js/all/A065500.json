@@ -2,15 +2,16 @@
 "stock_code": "A065500",
 "stock_name": "오리엔트정공",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "12.48",
+"stock_Div_PER": "13.55",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "498",
-"PER_Target_1": "-403",
+"Close_Price": "500",
+"PER_Target_1": "-438",
 "PER_Target_2": "-587",
-"PER_Target_Avr": "-495",
-"Price_over_PERAvg": "-1.00606060606061",
+"PER_Target_Avr": "-512",
+"Price_over_PERAvg": "-0.975609756097561",
 "SRIM_1": "383",
-"SRIM_2": "317",
-"SRIM_3": "208"
+"SRIM_2": "318",
+"SRIM_3": "209",
+"SRIM_2R": "1.57332695361319"
 }

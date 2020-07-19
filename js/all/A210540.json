@@ -3,14 +3,15 @@
 "stock_name": "디와이파워",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.79",
+"Current_PER": "7.23",
 "Current_PER_Rank": "8",
-"Close_Price": "9580",
+"Close_Price": "10200",
 "PER_Target_1": "0",
 "PER_Target_2": "24244",
 "PER_Target_Avr": "12122",
-"Price_over_PERAvg": "0.395149315294506",
-"SRIM_1": "13650",
-"SRIM_2": "11322",
-"SRIM_3": "7429"
+"Price_over_PERAvg": "0.420722653027553",
+"SRIM_1": "13667",
+"SRIM_2": "11336",
+"SRIM_3": "7438",
+"SRIM_2R": "0.899776960435726"
 }

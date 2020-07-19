@@ -2,15 +2,16 @@
 "stock_code": "A032980",
 "stock_name": "바이온",
 "stock_Div": "제약",
-"stock_Div_PER": "124.07",
+"stock_Div_PER": "126.68",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "992",
-"PER_Target_1": "-47029",
+"Close_Price": "1010",
+"PER_Target_1": "-48018",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-23514",
-"Price_over_PERAvg": "-2.10933679219205E-02",
-"SRIM_1": "512",
+"PER_Target_Avr": "-24009",
+"Price_over_PERAvg": "-2.10337789995418E-02",
+"SRIM_1": "513",
 "SRIM_2": "425",
-"SRIM_3": "279"
+"SRIM_3": "279",
+"SRIM_2R": "2.37509471940191"
 }

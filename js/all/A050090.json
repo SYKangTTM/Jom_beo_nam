@@ -2,15 +2,16 @@
 "stock_code": "A050090",
 "stock_name": "휘닉스소재",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
+"stock_Div_PER": "118.69",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "539",
-"PER_Target_1": "-3009",
+"Close_Price": "553",
+"PER_Target_1": "-3157",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-1504",
-"Price_over_PERAvg": "-0.179129278830176",
-"SRIM_1": "312",
+"PER_Target_Avr": "-1578",
+"Price_over_PERAvg": "-0.175166297117517",
+"SRIM_1": "313",
 "SRIM_2": "259",
-"SRIM_3": "170"
+"SRIM_3": "170",
+"SRIM_2R": "2.1313384513671"
 }

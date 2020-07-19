@@ -3,14 +3,15 @@
 "stock_name": "NHN벅스",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "19.17",
+"Current_PER": "19.87",
 "Current_PER_Rank": "8",
-"Close_Price": "4695",
+"Close_Price": "4865",
 "PER_Target_1": "0",
 "PER_Target_2": "7060",
 "PER_Target_Avr": "3530",
-"Price_over_PERAvg": "0.665014164305949",
-"SRIM_1": "4194",
-"SRIM_2": "3479",
-"SRIM_3": "2282"
+"Price_over_PERAvg": "0.689093484419263",
+"SRIM_1": "4199",
+"SRIM_2": "3483",
+"SRIM_3": "2285",
+"SRIM_2R": "1.39677393176981"
 }

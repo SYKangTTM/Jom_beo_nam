@@ -3,14 +3,15 @@
 "stock_name": "YTN",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "22.82",
+"Current_PER": "24.29",
 "Current_PER_Rank": "9",
-"Close_Price": "1935",
+"Close_Price": "2060",
 "PER_Target_1": "0",
 "PER_Target_2": "-2072",
 "PER_Target_Avr": "-1036",
-"Price_over_PERAvg": "-0.933880308880309",
-"SRIM_1": "3977",
-"SRIM_2": "3299",
-"SRIM_3": "2165"
+"Price_over_PERAvg": "-0.994208494208494",
+"SRIM_1": "3982",
+"SRIM_2": "3303",
+"SRIM_3": "2167",
+"SRIM_2R": "0.623621196333226"
 }

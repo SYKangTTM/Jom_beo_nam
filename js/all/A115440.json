@@ -2,15 +2,16 @@
 "stock_code": "A115440",
 "stock_name": "우리넷",
 "stock_Div": "통신장비",
-"stock_Div_PER": "91.14",
+"stock_Div_PER": "96.41",
 "Current_PER": "82.91",
 "Current_PER_Rank": "23",
 "Close_Price": "10850",
-"PER_Target_1": "20953",
+"PER_Target_1": "22165",
 "PER_Target_2": "4641",
-"PER_Target_Avr": "12797",
-"Price_over_PERAvg": "0.847854966007658",
-"SRIM_1": "7098",
-"SRIM_2": "5888",
-"SRIM_3": "3863"
+"PER_Target_Avr": "13403",
+"Price_over_PERAvg": "0.809520256658957",
+"SRIM_1": "7107",
+"SRIM_2": "5895",
+"SRIM_3": "3868",
+"SRIM_2R": "1.84054801101895"
 }

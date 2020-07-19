@@ -3,14 +3,15 @@
 "stock_name": "씨젠",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "81.8",
+"Current_PER": "83.22",
 "Current_PER_Rank": "9",
-"Close_Price": "172500",
+"Close_Price": "175500",
 "PER_Target_1": "0",
-"PER_Target_2": "1581860",
-"PER_Target_Avr": "790930",
-"Price_over_PERAvg": "0.109048841237531",
-"SRIM_1": "49995",
-"SRIM_2": "72404",
-"SRIM_3": "157626"
+"PER_Target_2": "1446690",
+"PER_Target_Avr": "723345",
+"Price_over_PERAvg": "0.121311407419696",
+"SRIM_1": "44910",
+"SRIM_2": "65191",
+"SRIM_3": "142583",
+"SRIM_2R": "2.69209546715195"
 }

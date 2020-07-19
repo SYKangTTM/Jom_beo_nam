@@ -2,15 +2,16 @@
 "stock_code": "A281740",
 "stock_name": "레이크머티리얼즈",
 "stock_Div": "화학",
-"stock_Div_PER": "46.79",
-"Current_PER": "84.39",
+"stock_Div_PER": "47.09",
+"Current_PER": "85.69",
 "Current_PER_Rank": "69",
-"Close_Price": "2285",
-"PER_Target_1": "1200",
+"Close_Price": "2320",
+"PER_Target_1": "1208",
 "PER_Target_2": "0",
-"PER_Target_Avr": "600",
-"Price_over_PERAvg": "1.90416666666667",
+"PER_Target_Avr": "604",
+"Price_over_PERAvg": "1.9205298013245",
 "SRIM_1": "383",
 "SRIM_2": "318",
-"SRIM_3": "208"
+"SRIM_3": "209",
+"SRIM_2R": "7.29619402130499"
 }

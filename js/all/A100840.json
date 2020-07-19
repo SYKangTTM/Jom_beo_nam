@@ -3,14 +3,15 @@
 "stock_name": "S&TC",
 "stock_Div": "±â°è",
 "stock_Div_PER": "N/A",
-"Current_PER": "4.98",
+"Current_PER": "5.01",
 "Current_PER_Rank": "2",
-"Close_Price": "15250",
+"Close_Price": "15350",
 "PER_Target_1": "0",
 "PER_Target_2": "70272",
 "PER_Target_Avr": "35136",
-"Price_over_PERAvg": "0.217013888888889",
-"SRIM_1": "31685",
-"SRIM_2": "26282",
-"SRIM_3": "17245"
+"Price_over_PERAvg": "0.218436930783242",
+"SRIM_1": "31725",
+"SRIM_2": "26315",
+"SRIM_3": "17266",
+"SRIM_2R": "0.58331600049368"
 }

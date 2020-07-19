@@ -2,15 +2,16 @@
 "stock_code": "A096040",
 "stock_name": "이트론",
 "stock_Div": "전자장비와기기",
-"stock_Div_PER": "30.85",
+"stock_Div_PER": "31.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "158",
-"PER_Target_1": "-322",
+"Close_Price": "174",
+"PER_Target_1": "-330",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-161",
-"Price_over_PERAvg": "-0.490683229813665",
+"PER_Target_Avr": "-165",
+"Price_over_PERAvg": "-0.527272727272727",
 "SRIM_1": "169",
 "SRIM_2": "140",
-"SRIM_3": "92"
+"SRIM_3": "92",
+"SRIM_2R": "1.24161353976247"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A226350",
 "stock_name": "아이엠텍",
 "stock_Div": "핸드셋",
-"stock_Div_PER": "23.05",
+"stock_Div_PER": "24.35",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "214",
-"PER_Target_1": "-1730",
+"PER_Target_1": "-1827",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-865",
-"Price_over_PERAvg": "-0.123699421965318",
-"SRIM_1": "358",
-"SRIM_2": "297",
-"SRIM_3": "195"
+"PER_Target_Avr": "-914",
+"Price_over_PERAvg": "-0.117131910235359",
+"SRIM_1": "359",
+"SRIM_2": "298",
+"SRIM_3": "195",
+"SRIM_2R": "0.718916452353574"
 }

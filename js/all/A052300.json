@@ -2,15 +2,16 @@
 "stock_code": "A052300",
 "stock_name": "W홀딩컴퍼니",
 "stock_Div": "건축제품",
-"stock_Div_PER": "260.75",
+"stock_Div_PER": "265.18",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "244",
-"PER_Target_1": "-23285",
+"Close_Price": "248",
+"PER_Target_1": "-23681",
 "PER_Target_2": "-1570",
-"PER_Target_Avr": "-12428",
-"Price_over_PERAvg": "-1.96338764836049E-02",
+"PER_Target_Avr": "-12626",
+"Price_over_PERAvg": "-0.0196427864243",
 "SRIM_1": "272",
 "SRIM_2": "226",
-"SRIM_3": "148"
+"SRIM_3": "148",
+"SRIM_2R": "1.09766443359816"
 }

@@ -3,14 +3,15 @@
 "stock_name": "지니뮤직",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "31.63",
+"Current_PER": "32.24",
 "Current_PER_Rank": "13",
-"Close_Price": "3590",
+"Close_Price": "3660",
 "PER_Target_1": "0",
 "PER_Target_2": "4472",
 "PER_Target_Avr": "2236",
-"Price_over_PERAvg": "0.802772808586762",
-"SRIM_1": "2385",
-"SRIM_2": "1978",
-"SRIM_3": "1298"
+"Price_over_PERAvg": "0.818425760286225",
+"SRIM_1": "2388",
+"SRIM_2": "1981",
+"SRIM_3": "1300",
+"SRIM_2R": "1.84763642017715"
 }

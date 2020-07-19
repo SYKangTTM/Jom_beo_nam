@@ -3,14 +3,15 @@
 "stock_name": "키움제5호스팩",
 "stock_Div": "미분류",
 "stock_Div_PER": "",
-"Current_PER": "182.02",
+"Current_PER": "182.48",
 "Current_PER_Rank": "16",
-"Close_Price": "2010",
+"Close_Price": "2015",
 "PER_Target_1": "0",
 "PER_Target_2": "2061",
 "PER_Target_Avr": "1030",
-"Price_over_PERAvg": "1.95050946142649",
-"SRIM_1": "1779",
-"SRIM_2": "1476",
-"SRIM_3": "968"
+"Price_over_PERAvg": "1.95536147501213",
+"SRIM_1": "1781",
+"SRIM_2": "1477",
+"SRIM_3": "969",
+"SRIM_2R": "1.36384351236686"
 }

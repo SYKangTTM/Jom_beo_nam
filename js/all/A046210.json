@@ -3,14 +3,15 @@
 "stock_name": "파나진",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "35.03",
+"Current_PER": "36.01",
 "Current_PER_Rank": "4",
-"Close_Price": "4275",
+"Close_Price": "4395",
 "PER_Target_1": "0",
 "PER_Target_2": "2342",
 "PER_Target_Avr": "1171",
-"Price_over_PERAvg": "1.82536293766012",
-"SRIM_1": "567",
-"SRIM_2": "470",
-"SRIM_3": "309"
+"Price_over_PERAvg": "1.87660119555935",
+"SRIM_1": "568",
+"SRIM_2": "471",
+"SRIM_3": "309",
+"SRIM_2R": "9.33369462251612"
 }

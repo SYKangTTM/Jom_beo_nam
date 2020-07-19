@@ -3,14 +3,15 @@
 "stock_name": "교보8호스팩",
 "stock_Div": "미분류",
 "stock_Div_PER": "",
-"Current_PER": "224.58",
+"Current_PER": "230.12",
 "Current_PER_Rank": "23",
-"Close_Price": "2025",
+"Close_Price": "2075",
 "PER_Target_1": "0",
 "PER_Target_2": "2060",
 "PER_Target_Avr": "1030",
-"Price_over_PERAvg": "1.96601941747573",
-"SRIM_1": "1649",
-"SRIM_2": "1368",
-"SRIM_3": "897"
+"Price_over_PERAvg": "2.01456310679612",
+"SRIM_1": "1651",
+"SRIM_2": "1369",
+"SRIM_3": "898",
+"SRIM_2R": "1.51529596877412"
 }

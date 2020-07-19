@@ -3,14 +3,15 @@
 "stock_name": "에이루트",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "72.38",
+"Current_PER": "65.78",
 "Current_PER_Rank": "7",
-"Close_Price": "5100",
+"Close_Price": "4635",
 "PER_Target_1": "0",
 "PER_Target_2": "10226",
 "PER_Target_Avr": "5113",
-"Price_over_PERAvg": "0.498728730686485",
-"SRIM_1": "11972",
-"SRIM_2": "9931",
-"SRIM_3": "6516"
+"Price_over_PERAvg": "0.453256405241541",
+"SRIM_1": "11987",
+"SRIM_2": "9943",
+"SRIM_3": "6524",
+"SRIM_2R": "0.466161075720774"
 }

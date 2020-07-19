@@ -7,10 +7,11 @@
 "Current_PER_Rank": "N/A",
 "Close_Price": "15900",
 "PER_Target_1": "0",
-"PER_Target_2": "10387",
-"PER_Target_Avr": "5194",
-"Price_over_PERAvg": "1.53075960335034",
-"SRIM_1": "9762",
-"SRIM_2": "8835",
-"SRIM_3": "7073"
+"PER_Target_2": "13637",
+"PER_Target_Avr": "6818",
+"Price_over_PERAvg": "1.16594558920584",
+"SRIM_1": "9667",
+"SRIM_2": "8680",
+"SRIM_3": "6827",
+"SRIM_2R": "1.83170973002985"
 }

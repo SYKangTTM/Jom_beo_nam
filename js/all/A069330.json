@@ -2,15 +2,16 @@
 "stock_code": "A069330",
 "stock_name": "유아이디",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
+"stock_Div_PER": "118.69",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "1055",
-"PER_Target_1": "-121015",
+"PER_Target_1": "-126963",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-60508",
-"Price_over_PERAvg": "-8.71792752964509E-03",
-"SRIM_1": "1169",
-"SRIM_2": "970",
-"SRIM_3": "636"
+"PER_Target_Avr": "-63482",
+"Price_over_PERAvg": "-8.30950749430937E-03",
+"SRIM_1": "1171",
+"SRIM_2": "971",
+"SRIM_3": "637",
+"SRIM_2R": "1.08651387054508"
 }

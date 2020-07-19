@@ -3,14 +3,15 @@
 "stock_name": "라이온켐텍",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.94",
-"Current_PER_Rank": "8",
-"Close_Price": "7940",
+"Current_PER": "10.87",
+"Current_PER_Rank": "10",
+"Close_Price": "7890",
 "PER_Target_1": "0",
 "PER_Target_2": "20833",
 "PER_Target_Avr": "10416",
-"Price_over_PERAvg": "0.381126098017568",
-"SRIM_1": "5477",
-"SRIM_2": "4543",
-"SRIM_3": "2981"
+"Price_over_PERAvg": "0.378726059616954",
+"SRIM_1": "5484",
+"SRIM_2": "4549",
+"SRIM_3": "2984",
+"SRIM_2R": "1.73462040501451"
 }

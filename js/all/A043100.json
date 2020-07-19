@@ -2,15 +2,16 @@
 "stock_code": "A043100",
 "stock_name": "솔고바이오",
 "stock_Div": "건강관리장비와용품",
-"stock_Div_PER": "119.78",
+"stock_Div_PER": "117.52",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "392",
-"PER_Target_1": "-36982",
+"PER_Target_1": "-36284",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-18491",
-"Price_over_PERAvg": "-1.05997512303283E-02",
+"PER_Target_Avr": "-18142",
+"Price_over_PERAvg": "-1.08036600154338E-02",
 "SRIM_1": "511",
 "SRIM_2": "424",
-"SRIM_3": "278"
+"SRIM_3": "278",
+"SRIM_2R": "0.924272456422736"
 }

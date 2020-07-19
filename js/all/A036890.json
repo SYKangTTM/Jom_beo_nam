@@ -3,14 +3,15 @@
 "stock_name": "진성티이씨",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.66",
+"Current_PER": "7.88",
 "Current_PER_Rank": "11",
-"Close_Price": "7090",
+"Close_Price": "7290",
 "PER_Target_1": "0",
 "PER_Target_2": "12297",
 "PER_Target_Avr": "6148",
-"Price_over_PERAvg": "0.57656338944458",
-"SRIM_1": "9575",
-"SRIM_2": "11237",
-"SRIM_3": "15864"
+"Price_over_PERAvg": "0.592827518907051",
+"SRIM_1": "9587",
+"SRIM_2": "11251",
+"SRIM_3": "15884",
+"SRIM_2R": "0.647960851558474"
 }

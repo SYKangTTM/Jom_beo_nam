@@ -2,15 +2,16 @@
 "stock_code": "A194510",
 "stock_name": "파티게임즈",
 "stock_Div": "게임엔터테인먼트",
-"stock_Div_PER": "38.14",
+"stock_Div_PER": "36.43",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "536",
-"PER_Target_1": "1775",
+"PER_Target_1": "1696",
 "PER_Target_2": "282",
-"PER_Target_Avr": "1028",
-"Price_over_PERAvg": "0.521147301895965",
-"SRIM_1": "1619",
-"SRIM_2": "1343",
-"SRIM_3": "881"
+"PER_Target_Avr": "989",
+"Price_over_PERAvg": "0.541961577350859",
+"SRIM_1": "1621",
+"SRIM_2": "1345",
+"SRIM_3": "882",
+"SRIM_2R": "0.398555608315895"
 }

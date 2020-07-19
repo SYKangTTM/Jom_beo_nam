@@ -3,14 +3,15 @@
 "stock_name": "로고스바이오",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "171.38",
-"Current_PER_Rank": "12",
-"Close_Price": "17900",
+"Current_PER": "339.88",
+"Current_PER_Rank": "13",
+"Close_Price": "17750",
 "PER_Target_1": "0",
 "PER_Target_2": "13352",
 "PER_Target_Avr": "6676",
-"Price_over_PERAvg": "1.34062312762133",
-"SRIM_1": "5269",
-"SRIM_2": "4371",
-"SRIM_3": "2868"
+"Price_over_PERAvg": "1.32938885560216",
+"SRIM_1": "5276",
+"SRIM_2": "4376",
+"SRIM_3": "2871",
+"SRIM_2R": "4.05592535349946"
 }

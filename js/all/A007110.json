@@ -3,14 +3,15 @@
 "stock_name": "일신석재",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "281",
+"Current_PER": "288.82",
 "Current_PER_Rank": "24",
-"Close_Price": "2335",
+"Close_Price": "2400",
 "PER_Target_1": "0",
 "PER_Target_2": "4801",
 "PER_Target_Avr": "2400",
-"Price_over_PERAvg": "0.486357008956467",
+"Price_over_PERAvg": "0.499895855030202",
 "SRIM_1": "605",
 "SRIM_2": "502",
-"SRIM_3": "329"
+"SRIM_3": "329",
+"SRIM_2R": "4.77961515989215"
 }

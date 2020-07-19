@@ -3,14 +3,15 @@
 "stock_name": "이건산업",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "71.39",
+"Current_PER": "66.73",
 "Current_PER_Rank": "23",
-"Close_Price": "8280",
+"Close_Price": "7740",
 "PER_Target_1": "0",
 "PER_Target_2": "5331",
 "PER_Target_Avr": "2666",
-"Price_over_PERAvg": "1.55317951603827",
-"SRIM_1": "15062",
-"SRIM_2": "12494",
-"SRIM_3": "8198"
+"Price_over_PERAvg": "1.4518851997749",
+"SRIM_1": "15081",
+"SRIM_2": "12509",
+"SRIM_3": "8208",
+"SRIM_2R": "0.618737685513689"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A052770",
 "stock_name": "아이톡시",
 "stock_Div": "게임엔터테인먼트",
-"stock_Div_PER": "38.14",
+"stock_Div_PER": "36.43",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "4460",
-"PER_Target_1": "-34458",
+"PER_Target_1": "-32913",
 "PER_Target_2": "-224531",
-"PER_Target_Avr": "-129494",
-"Price_over_PERAvg": "-3.44416172115418E-02",
-"SRIM_1": "631",
-"SRIM_2": "523",
-"SRIM_3": "343"
+"PER_Target_Avr": "-128722",
+"Price_over_PERAvg": "-3.46483118658815E-02",
+"SRIM_1": "632",
+"SRIM_2": "524",
+"SRIM_3": "344",
+"SRIM_2R": "8.51141617144584"
 }

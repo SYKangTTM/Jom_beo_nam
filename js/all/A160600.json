@@ -2,15 +2,16 @@
 "stock_code": "A160600",
 "stock_name": "이큐셀",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
+"stock_Div_PER": "118.69",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "310",
-"PER_Target_1": "-154547",
+"PER_Target_1": "-162142",
 "PER_Target_2": "-126224",
-"PER_Target_Avr": "-140386",
-"Price_over_PERAvg": "-2.20820526336409E-03",
+"PER_Target_Avr": "-144183",
+"Price_over_PERAvg": "-2.15004542837921E-03",
 "SRIM_1": "255",
 "SRIM_2": "211",
-"SRIM_3": "139"
+"SRIM_3": "139",
+"SRIM_2R": "1.46611841952195"
 }

@@ -3,14 +3,15 @@
 "stock_name": "일신바이오",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "19.41",
+"Current_PER": "20.13",
 "Current_PER_Rank": "2",
-"Close_Price": "2450",
+"Close_Price": "2540",
 "PER_Target_1": "0",
 "PER_Target_2": "3920",
 "PER_Target_Avr": "1960",
-"Price_over_PERAvg": "0.625",
-"SRIM_1": "846",
-"SRIM_2": "702",
-"SRIM_3": "460"
+"Price_over_PERAvg": "0.647959183673469",
+"SRIM_1": "847",
+"SRIM_2": "703",
+"SRIM_3": "461",
+"SRIM_2R": "3.61549180257284"
 }

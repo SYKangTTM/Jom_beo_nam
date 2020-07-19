@@ -2,15 +2,16 @@
 "stock_code": "A031980",
 "stock_name": "피에스케이홀딩스",
 "stock_Div": "반도체와반도체장비",
-"stock_Div_PER": "17.03",
+"stock_Div_PER": "17.47",
 "Current_PER": "0.8",
 "Current_PER_Rank": "1",
 "Close_Price": "6670",
-"PER_Target_1": "14755",
+"PER_Target_1": "15136",
 "PER_Target_2": "8768",
-"PER_Target_Avr": "11762",
-"Price_over_PERAvg": "0.567104535986056",
-"SRIM_1": "3755",
-"SRIM_2": "3115",
-"SRIM_3": "2044"
+"PER_Target_Avr": "11952",
+"Price_over_PERAvg": "0.558065595716198",
+"SRIM_1": "3760",
+"SRIM_2": "3119",
+"SRIM_3": "2046",
+"SRIM_2R": "2.13866675179902"
 }

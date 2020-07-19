@@ -3,14 +3,15 @@
 "stock_name": "케이씨티",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "74.22",
+"Current_PER": "80.19",
 "Current_PER_Rank": "8",
-"Close_Price": "3610",
+"Close_Price": "3900",
 "PER_Target_1": "0",
 "PER_Target_2": "1829",
 "PER_Target_Avr": "914",
-"Price_over_PERAvg": "1.97375615090213",
-"SRIM_1": "1941",
-"SRIM_2": "1610",
-"SRIM_3": "1056"
+"Price_over_PERAvg": "2.13231273920175",
+"SRIM_1": "1943",
+"SRIM_2": "1612",
+"SRIM_3": "1058",
+"SRIM_2R": "2.4196230043907"
 }

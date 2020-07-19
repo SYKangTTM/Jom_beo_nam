@@ -2,15 +2,16 @@
 "stock_code": "A151910",
 "stock_name": "나노스",
 "stock_Div": "핸드셋",
-"stock_Div_PER": "23.05",
+"stock_Div_PER": "24.35",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "3650",
-"PER_Target_1": "-2496",
+"Close_Price": "3500",
+"PER_Target_1": "-2637",
 "PER_Target_2": "-22",
-"PER_Target_Avr": "-1259",
-"Price_over_PERAvg": "-2.89912629070691",
+"PER_Target_Avr": "-1330",
+"Price_over_PERAvg": "-2.63256863482512",
 "SRIM_1": "227",
-"SRIM_2": "188",
-"SRIM_3": "124"
+"SRIM_2": "189",
+"SRIM_3": "124",
+"SRIM_2R": "18.5666975723102"
 }

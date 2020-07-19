@@ -2,15 +2,16 @@
 "stock_code": "A263540",
 "stock_name": "基内",
 "stock_Div": "快林亲傍苞惫规",
-"stock_Div_PER": "16.29",
+"stock_Div_PER": "16.91",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "2015",
-"PER_Target_1": "-62103",
+"PER_Target_1": "-64467",
 "PER_Target_2": "-296801",
-"PER_Target_Avr": "-179452",
-"Price_over_PERAvg": "-1.12286293827876E-02",
-"SRIM_1": "765",
-"SRIM_2": "634",
-"SRIM_3": "416"
+"PER_Target_Avr": "-180634",
+"Price_over_PERAvg": "-1.11551535148422E-02",
+"SRIM_1": "766",
+"SRIM_2": "635",
+"SRIM_3": "417",
+"SRIM_2R": "3.17185842333426"
 }

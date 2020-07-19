@@ -2,15 +2,16 @@
 "stock_code": "A039230",
 "stock_name": "에이아이비트",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
+"stock_Div_PER": "118.69",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "181",
-"PER_Target_1": "-11715",
+"PER_Target_1": "-12290",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-5858",
-"Price_over_PERAvg": "-1.54502774221084E-02",
-"SRIM_1": "436",
+"PER_Target_Avr": "-6145",
+"Price_over_PERAvg": "-1.47274206672091E-02",
+"SRIM_1": "437",
 "SRIM_2": "362",
-"SRIM_3": "238"
+"SRIM_3": "238",
+"SRIM_2R": "0.499318105697819"
 }

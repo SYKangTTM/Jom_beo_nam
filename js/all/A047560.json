@@ -2,15 +2,16 @@
 "stock_code": "A047560",
 "stock_name": "이스트소프트",
 "stock_Div": "소프트웨어",
-"stock_Div_PER": "116.23",
+"stock_Div_PER": "115.55",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "6800",
-"PER_Target_1": "-126540",
+"Close_Price": "6790",
+"PER_Target_1": "-125799",
 "PER_Target_2": "-43376",
-"PER_Target_Avr": "-84958",
-"Price_over_PERAvg": "-8.00395489536006E-02",
+"PER_Target_Avr": "-84588",
+"Price_over_PERAvg": "-8.02719077877937E-02",
 "SRIM_1": "0",
 "SRIM_2": "0",
-"SRIM_3": "0"
+"SRIM_3": "0",
+"SRIM_2R": "N/A"
 }

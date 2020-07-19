@@ -1,16 +1,17 @@
 {
 "stock_code": "A002300",
 "stock_name": "한국제지",
-"stock_Div": "종이와목재",
-"stock_Div_PER": "N/A",
-"Current_PER": "N/A",
-"Current_PER_Rank": "N/A",
+"stock_Div": "반도체와반도체장비",
+"stock_Div_PER": "17.47",
+"Current_PER": "",
+"Current_PER_Rank": "61",
 "Close_Price": "19300",
-"PER_Target_1": "0",
+"PER_Target_1": "-71863",
 "PER_Target_2": "-56564",
-"PER_Target_Avr": "-28282",
-"Price_over_PERAvg": "-0.341206421045188",
-"SRIM_1": "81456",
-"SRIM_2": "67567",
-"SRIM_3": "44332"
+"PER_Target_Avr": "-64214",
+"Price_over_PERAvg": "-0.300559851121649",
+"SRIM_1": "81558",
+"SRIM_2": "67651",
+"SRIM_3": "44388",
+"SRIM_2R": "0.285288633936659"
 }

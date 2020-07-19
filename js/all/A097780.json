@@ -2,15 +2,16 @@
 "stock_code": "A097780",
 "stock_name": "에스맥",
 "stock_Div": "핸드셋",
-"stock_Div_PER": "23.05",
+"stock_Div_PER": "24.35",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1340",
-"PER_Target_1": "-1401",
+"Close_Price": "1370",
+"PER_Target_1": "-1480",
 "PER_Target_2": "-1604",
-"PER_Target_Avr": "-1502",
-"Price_over_PERAvg": "-0.891846921797005",
-"SRIM_1": "770",
+"PER_Target_Avr": "-1542",
+"Price_over_PERAvg": "-0.888456549935149",
+"SRIM_1": "771",
 "SRIM_2": "639",
-"SRIM_3": "419"
+"SRIM_3": "420",
+"SRIM_2R": "2.14251872842399"
 }

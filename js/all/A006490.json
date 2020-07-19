@@ -2,15 +2,16 @@
 "stock_code": "A006490",
 "stock_name": "인스코비",
 "stock_Div": "다각화된통신서비스",
-"stock_Div_PER": "12.34",
+"stock_Div_PER": "12.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "2000",
-"PER_Target_1": "-3071",
+"Close_Price": "1980",
+"PER_Target_1": "-3121",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-1536",
-"Price_over_PERAvg": "-0.651253663301856",
+"PER_Target_Avr": "-1560",
+"Price_over_PERAvg": "-0.634412047420698",
 "SRIM_1": "233",
 "SRIM_2": "193",
-"SRIM_3": "127"
+"SRIM_3": "127",
+"SRIM_2R": "10.2499486542777"
 }

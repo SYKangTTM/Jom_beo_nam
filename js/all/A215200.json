@@ -3,14 +3,15 @@
 "stock_name": "메가스터디교육",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.19",
+"Current_PER": "10.09",
 "Current_PER_Rank": "1",
-"Close_Price": "35450",
+"Close_Price": "35100",
 "PER_Target_1": "0",
-"PER_Target_2": "78397",
-"PER_Target_Avr": "39198",
-"Price_over_PERAvg": "0.45218567037004",
-"SRIM_1": "36010",
-"SRIM_2": "47353",
-"SRIM_3": "84749"
+"PER_Target_2": "51152",
+"PER_Target_Avr": "25576",
+"Price_over_PERAvg": "0.686190178292149",
+"SRIM_1": "33846",
+"SRIM_2": "44970",
+"SRIM_3": "82209",
+"SRIM_2R": "0.780525806817357"
 }

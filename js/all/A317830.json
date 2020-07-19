@@ -3,14 +3,15 @@
 "stock_name": "에스피시스템스",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "33.85",
+"Current_PER": "35.35",
 "Current_PER_Rank": "43",
-"Close_Price": "6070",
+"Close_Price": "6340",
 "PER_Target_1": "0",
 "PER_Target_2": "6704",
 "PER_Target_Avr": "3352",
-"Price_over_PERAvg": "0.905429594272076",
-"SRIM_1": "3699",
-"SRIM_2": "3068",
-"SRIM_3": "2013"
+"Price_over_PERAvg": "0.945704057279236",
+"SRIM_1": "3704",
+"SRIM_2": "3072",
+"SRIM_3": "2016",
+"SRIM_2R": "2.06362879490968"
 }

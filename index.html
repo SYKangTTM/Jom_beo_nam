@@ -40,6 +40,10 @@
         <script type="text/javascript" src="js/Stock_info/Stock_info_15.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_16.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_17.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_18.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_19.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_20.js"></script>
+        <script type="text/javascript" src="js/Stock_info/Stock_info_21.js"></script>
         
         <title>가치투자 - 좀 버는 남자(좀버남)</title>
 
@@ -66,7 +70,7 @@
         <div class="form-group">
             <input class="form-control input-lg" id="txt-search" type="input" placeholder="종목코드 또는 종목명을 입력하세요." style="background-color: #c2c8ca; color: white;"/>
         </div>
-        <section class="main" style="height: 58vh; overflow-y: scroll;">
+        <section class="main" style="height: 55vh; overflow-y: scroll;">
             <div id="filter-records" align="center"></div>
             <!-- <div id="Button_insert" style="padding-top: 10px;" align="center"></div> -->
             <div id="filter-records_1" align="center">
@@ -75,9 +79,10 @@
                     본 자료는 참조로 사용하시길 바랍니다.<br />
                     제공하는 목표가 정보는 개인적인 분석에 의해 작성되었으며, 이를 통한
                     해당종목의 매수추천을 의미하는 것은 아닙니다. <br />
-                    Updated : 2020-07-12<br />
+                    Updated : 2020-07-19<br />
                     <br />
-                    검색 결과에서 제공되는 Table의 설명은 아래와 같습니다.
+                    검색 결과에서 제공되는 Table의 설명은 아래와 같습니다.<br>
+                    더 자세한 설명은 개발자의 블로그에서 확인이 가능합니다.(도움말참고)
                 </p>
                 <p>
                     <img src="images/manual/Table_Explain.png" alt="" style="width: 100%;" />
@@ -86,20 +91,6 @@
         </section>
 
         <section class="banner_section" align="center" style="margin-top:15px;margin-left:5px;margin-right:5px">
-            <!-- <ins
-                class="kakao_ad_area"
-                style="display: none;"
-                data-ad-unit="DAN-1jyb0fd2si5v5"
-                data-ad-width="320"
-                data-ad-height="100"
-            ></ins>
-            <script
-                type="text/javascript"
-                src="//t1.daumcdn.net/kas/static/ba.min.js"
-                async
-            ></script> -->
-            
-            
                        <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-1jed7lof7pwz7" 
  data-ad-width   = "320" 
@@ -141,6 +132,11 @@
         var data15 = stock15;
         var data16 = stock16;
         var data17 = stock17;
+        var data18 = stock18;
+        var data19 = stock19;
+        var data20 = stock20;
+        var data21 = stock21;
+        
         $('#txt-search').keyup(function () {
             var x1 = document.getElementById('filter-records');
             x1.style.display = 'block';
@@ -180,6 +176,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                        ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -202,6 +202,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -224,6 +228,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -246,6 +254,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -268,6 +280,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -290,6 +306,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -312,6 +332,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -334,6 +358,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -356,6 +384,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -378,6 +410,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -400,6 +436,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -422,6 +462,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -444,6 +488,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -466,6 +514,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -488,6 +540,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -510,6 +566,10 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -532,6 +592,114 @@
                         val.C1 +
                         ',' +
                         val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
+                        '">';
+                    output += '[' + val.co + '] ' + val.n;
+                    output += '</button>';
+                    output += '</div>';
+                    count++;
+                }
+            });
+            $.each(data18, function (key, val) {
+                if (val.n.search(regex) != -1 || val.co.search(regex) != -1) {
+                     output +=
+                        '<button id="R' +
+                        count +
+                        '" type="button" class="btn btn-success"" style="width:70vw" onclick="stock_det(this.id)" value="' +
+                        val.co +
+                        ',' +
+                        val.n +
+                        ',' +
+                        val.W +
+                         ',' +
+                        val.C1 +
+                        ',' +
+                        val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
+                        '">';
+                    output += '[' + val.co + '] ' + val.n;
+                    output += '</button>';
+                    output += '</div>';
+                    count++;
+                }
+            });
+            $.each(data19, function (key, val) {
+                if (val.n.search(regex) != -1 || val.co.search(regex) != -1) {
+                     output +=
+                        '<button id="R' +
+                        count +
+                        '" type="button" class="btn btn-success"" style="width:70vw" onclick="stock_det(this.id)" value="' +
+                        val.co +
+                        ',' +
+                        val.n +
+                        ',' +
+                        val.W +
+                         ',' +
+                        val.C1 +
+                        ',' +
+                        val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
+                        '">';
+                    output += '[' + val.co + '] ' + val.n;
+                    output += '</button>';
+                    output += '</div>';
+                    count++;
+                }
+            });
+            $.each(data20, function (key, val) {
+                if (val.n.search(regex) != -1 || val.co.search(regex) != -1) {
+                     output +=
+                        '<button id="R' +
+                        count +
+                        '" type="button" class="btn btn-success"" style="width:70vw" onclick="stock_det(this.id)" value="' +
+                        val.co +
+                        ',' +
+                        val.n +
+                        ',' +
+                        val.W +
+                         ',' +
+                        val.C1 +
+                        ',' +
+                        val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
+                        '">';
+                    output += '[' + val.co + '] ' + val.n;
+                    output += '</button>';
+                    output += '</div>';
+                    count++;
+                }
+            });
+            $.each(data21, function (key, val) {
+                if (val.n.search(regex) != -1 || val.co.search(regex) != -1) {
+                     output +=
+                        '<button id="R' +
+                        count +
+                        '" type="button" class="btn btn-success"" style="width:70vw" onclick="stock_det(this.id)" value="' +
+                        val.co +
+                        ',' +
+                        val.n +
+                        ',' +
+                        val.W +
+                         ',' +
+                        val.C1 +
+                        ',' +
+                        val.C2 +
+                         ',' +
+                        val.C3 +
+                        ',' +
+                        val.C4 +
                         '">';
                     output += '[' + val.co + '] ' + val.n;
                     output += '</button>';
@@ -592,33 +760,22 @@
                 jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +' / ' +
                 jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>' +
                 '</tr>';
-            // output +=
-            //     '<tr>' +
-            //     '<th>SRIM - 10년지속</th>' +
-            //     '<td>' +
-            //     jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
-            //     '</td>' +
-            //     '</tr>';
-            // output +=
-            //     '<tr>' +
-            //     '<th>SRIM - 초과지속</th>' +
-            //     '<td>' +
-            //     jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
-            //     '</td>' +
-            //     '</tr>';
+            
+            output +=
+                '<tr>' +
+                '<th>종가/SRIM_10년 괴리율</th>' +
+                '<td>' +
+                Number(Math.round(jd.SRIM_2R * 100) + 'e-0') +
+                '%' +
+                '</td>' +
+                '</tr>';
 
             output += '<tr>' + '<th>PER_목표</th>' + '<td>' +
                 jd.PER_Target_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + ' / '+
                 jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
                 '</td>' +
                 '</tr>';
-            // output +=
-            //     '<tr>' +
-            //     '<th>PER_목표2</th>' +
-            //     '<td>' +
-            //     jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
-            //     '</td>' +
-            //     '</tr>';
+
             output +=
                 '<tr>' +
                 '<th>PER_목표평균</th>' +
@@ -649,15 +806,36 @@
                 output += '<tr>' + '<th>종목발굴_흑자전환</th>' + '<td>추세_흑자전환</td>' + '</tr>';
             } else {
                 output += '<tr>' + '<th>종목발굴_흑자전환</th>' + '<td></td>' + '</tr>';
-            }    
+            }
+            if(s_info[5] =='OO'){
+                output += '<tr>' + '<th>종목발굴_SRIM_5년</th>' + '<td>SRIM_5년_컨센OK</td>' + '</tr>';
+            } else if(s_info[4] =='O'){
+                output += '<tr>' + '<th>종목발굴_SRIM_5년</th>' + '<td>SRIM_5년</td>' + '</tr>';
+            } else {
+                output += '<tr>' + '<th>종목발굴_SRIM_5년</th>' + '<td></td>' + '</tr>';
+            }
+            if(s_info[6] =='OO'){
+                output += '<tr>' + '<th>종목발굴_SRIM_10년</th>' + '<td>SRIM_10년_컨센OK</td>' + '</tr>';
+            } else if(s_info[4] =='O'){
+                output += '<tr>' + '<th>종목발굴_SRIM_10년</th>' + '<td>SRIM_10년</td>' + '</tr>';
+            } else {
+                output += '<tr>' + '<th>종목발굴_SRIM_10년</th>' + '<td></td>' + '</tr>';
+            }
+            output +=
+                '<tr>' +
+                '<th>한경컨센서스</th>' +
+                '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
+                StartDate +
+                '&edate=' +
+                FinishDate +
+                '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
+                jd.stock_code.substr(1) +
+                '" target="_blank">바로가기</a></td>' +
+                '</tr>';
             output += '</table></div>';
             output += '</div>';
             $('#filter-records_1').html(output);
         });
-        
-        
-        
-        
         
     }
     $.ajaxSetup({

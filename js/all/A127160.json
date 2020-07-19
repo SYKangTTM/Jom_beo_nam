@@ -2,15 +2,16 @@
 "stock_code": "A127160",
 "stock_name": "매직마이크로",
 "stock_Div": "디스플레이장비및부품",
-"stock_Div_PER": "113.13",
+"stock_Div_PER": "118.69",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "512",
-"PER_Target_1": "-25579",
+"Close_Price": "504",
+"PER_Target_1": "-26836",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-12790",
-"Price_over_PERAvg": "-0.020016419719301",
-"SRIM_1": "770",
+"PER_Target_Avr": "-13418",
+"Price_over_PERAvg": "-1.87807422864808E-02",
+"SRIM_1": "771",
 "SRIM_2": "639",
-"SRIM_3": "419"
+"SRIM_3": "420",
+"SRIM_2R": "0.788205335812"
 }

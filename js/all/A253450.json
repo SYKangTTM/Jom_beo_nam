@@ -3,14 +3,15 @@
 "stock_name": "스튜디오드래곤",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "99.43",
+"Current_PER": "95.95",
 "Current_PER_Rank": "21",
-"Close_Price": "91200",
+"Close_Price": "88000",
 "PER_Target_1": "0",
 "PER_Target_2": "116574",
 "PER_Target_Avr": "58287",
-"Price_over_PERAvg": "0.782335683771682",
-"SRIM_1": "18570",
-"SRIM_2": "19867",
-"SRIM_3": "23020"
+"Price_over_PERAvg": "0.7548853089025",
+"SRIM_1": "18807",
+"SRIM_2": "20277",
+"SRIM_3": "23890",
+"SRIM_2R": "4.33995063182693"
 }

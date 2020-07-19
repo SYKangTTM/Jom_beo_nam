@@ -3,14 +3,15 @@
 "stock_name": "한신기계",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "20.88",
-"Current_PER_Rank": "32",
-"Close_Price": "1255",
+"Current_PER": "22.05",
+"Current_PER_Rank": "34",
+"Close_Price": "1325",
 "PER_Target_1": "0",
 "PER_Target_2": "1091",
 "PER_Target_Avr": "546",
-"Price_over_PERAvg": "1.15032080659945",
-"SRIM_1": "2373",
-"SRIM_2": "1969",
-"SRIM_3": "1292"
+"Price_over_PERAvg": "1.21448212648946",
+"SRIM_1": "2376",
+"SRIM_2": "1971",
+"SRIM_3": "1293",
+"SRIM_2R": "0.672246845256054"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A087730",
 "stock_name": "에스모 머티리얼즈",
 "stock_Div": "반도체와반도체장비",
-"stock_Div_PER": "17.03",
+"stock_Div_PER": "17.47",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "2720",
-"PER_Target_1": "-268191",
+"PER_Target_1": "-275120",
 "PER_Target_2": "-196935",
-"PER_Target_Avr": "-232563",
-"Price_over_PERAvg": "-1.16957555587088E-02",
+"PER_Target_Avr": "-236028",
+"Price_over_PERAvg": "-1.15240808804059E-02",
 "SRIM_1": "259",
-"SRIM_2": "214",
-"SRIM_3": "141"
+"SRIM_2": "215",
+"SRIM_3": "141",
+"SRIM_2R": "12.6673931509065"
 }

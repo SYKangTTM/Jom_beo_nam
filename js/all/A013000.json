@@ -3,14 +3,15 @@
 "stock_name": "세우글로벌",
 "stock_Div": "판매업체",
 "stock_Div_PER": "N/A",
-"Current_PER": "136.96",
+"Current_PER": "141.76",
 "Current_PER_Rank": "3",
-"Close_Price": "1855",
+"Close_Price": "1920",
 "PER_Target_1": "0",
 "PER_Target_2": "642",
 "PER_Target_Avr": "321",
-"Price_over_PERAvg": "2.88940809968847",
-"SRIM_1": "1251",
-"SRIM_2": "1037",
-"SRIM_3": "681"
+"Price_over_PERAvg": "2.99065420560748",
+"SRIM_1": "1252",
+"SRIM_2": "1039",
+"SRIM_3": "681",
+"SRIM_2R": "1.84867517578135"
 }

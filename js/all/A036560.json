@@ -3,14 +3,15 @@
 "stock_name": "영풍정밀",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.3",
+"Current_PER": "7.59",
 "Current_PER_Rank": "9",
-"Close_Price": "6460",
+"Close_Price": "6720",
 "PER_Target_1": "0",
 "PER_Target_2": "11275",
 "PER_Target_Avr": "5638",
-"Price_over_PERAvg": "0.572949002217295",
-"SRIM_1": "16288",
-"SRIM_2": "13510",
-"SRIM_3": "8864"
+"Price_over_PERAvg": "0.596008869179601",
+"SRIM_1": "16308",
+"SRIM_2": "13527",
+"SRIM_3": "8876",
+"SRIM_2R": "0.49678168792331"
 }

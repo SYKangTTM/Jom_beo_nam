@@ -3,14 +3,15 @@
 "stock_name": "대림씨엔에스",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "52.08",
+"Current_PER": "52.55",
 "Current_PER_Rank": "22",
-"Close_Price": "6650",
+"Close_Price": "6710",
 "PER_Target_1": "0",
 "PER_Target_2": "5582",
 "PER_Target_Avr": "2791",
-"Price_over_PERAvg": "1.19132927266213",
-"SRIM_1": "19752",
-"SRIM_2": "16384",
-"SRIM_3": "10750"
+"Price_over_PERAvg": "1.20207810820494",
+"SRIM_1": "19776",
+"SRIM_2": "16404",
+"SRIM_3": "10763",
+"SRIM_2R": "0.40904389244384"
 }

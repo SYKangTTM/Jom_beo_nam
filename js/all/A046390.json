@@ -3,14 +3,15 @@
 "stock_name": "삼화네트웍스",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "34.72",
+"Current_PER": "35.2",
 "Current_PER_Rank": "15",
-"Close_Price": "1450",
+"Close_Price": "1470",
 "PER_Target_1": "0",
 "PER_Target_2": "996",
 "PER_Target_Avr": "498",
-"Price_over_PERAvg": "1.45582329317269",
-"SRIM_1": "810",
+"Price_over_PERAvg": "1.47590361445783",
+"SRIM_1": "811",
 "SRIM_2": "672",
-"SRIM_3": "441"
+"SRIM_3": "441",
+"SRIM_2R": "2.18589135905371"
 }

@@ -2,15 +2,16 @@
 "stock_code": "A060480",
 "stock_name": "국일신동",
 "stock_Div": "비철금속",
-"stock_Div_PER": "18.04",
+"stock_Div_PER": "18.01",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "3385",
+"Close_Price": "3550",
 "PER_Target_1": "-154",
 "PER_Target_2": "-491",
 "PER_Target_Avr": "-322",
-"Price_over_PERAvg": "-10.4961240310078",
-"SRIM_1": "3847",
-"SRIM_2": "3191",
-"SRIM_3": "2094"
+"Price_over_PERAvg": "-11.0077519379845",
+"SRIM_1": "3852",
+"SRIM_2": "3195",
+"SRIM_3": "2096",
+"SRIM_2R": "1.11107684799085"
 }

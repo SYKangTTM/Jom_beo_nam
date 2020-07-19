@@ -3,14 +3,15 @@
 "stock_name": "부스타",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.35",
-"Current_PER_Rank": "23",
-"Close_Price": "4445",
+"Current_PER": "14.64",
+"Current_PER_Rank": "22",
+"Close_Price": "4535",
 "PER_Target_1": "0",
 "PER_Target_2": "4620",
 "PER_Target_Avr": "2310",
-"Price_over_PERAvg": "0.962121212121212",
-"SRIM_1": "8054",
-"SRIM_2": "6681",
-"SRIM_3": "4383"
+"Price_over_PERAvg": "0.981601731601732",
+"SRIM_1": "8064",
+"SRIM_2": "6689",
+"SRIM_3": "4389",
+"SRIM_2R": "0.677996082324545"
 }

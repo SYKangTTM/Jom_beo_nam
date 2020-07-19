@@ -2,15 +2,16 @@
 "stock_code": "A069260",
 "stock_name": "ÈÞÄÍ½º",
 "stock_Div": "È­ÇÐ",
-"stock_Div_PER": "60.42",
-"Current_PER": "8.72",
+"stock_Div_PER": "60.8",
+"Current_PER": "9.14",
 "Current_PER_Rank": "26",
-"Close_Price": "15550",
-"PER_Target_1": "105098",
+"Close_Price": "16300",
+"PER_Target_1": "105759",
 "PER_Target_2": "24949",
-"PER_Target_Avr": "65024",
-"Price_over_PERAvg": "0.239144309365076",
+"PER_Target_Avr": "65354",
+"Price_over_PERAvg": "0.249410900633473",
 "SRIM_1": "24966",
 "SRIM_2": "32444",
-"SRIM_3": "56674"
+"SRIM_3": "56674",
+"SRIM_2R": "0.502398247464595"
 }

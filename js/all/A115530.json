@@ -2,15 +2,16 @@
 "stock_code": "A115530",
 "stock_name": "씨엔플러스",
 "stock_Div": "전자장비와기기",
-"stock_Div_PER": "30.85",
+"stock_Div_PER": "31.54",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "839",
-"PER_Target_1": "-410",
+"PER_Target_1": "-419",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-205",
-"Price_over_PERAvg": "-2.04634146341463",
+"PER_Target_Avr": "-210",
+"Price_over_PERAvg": "-2.00238663484487",
 "SRIM_1": "200",
 "SRIM_2": "166",
-"SRIM_3": "109"
+"SRIM_3": "109",
+"SRIM_2R": "5.0604834822482"
 }

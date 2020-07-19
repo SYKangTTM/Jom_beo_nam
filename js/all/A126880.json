@@ -3,14 +3,15 @@
 "stock_name": "제이엔케이히터",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "20.38",
-"Current_PER_Rank": "30",
-"Close_Price": "8140",
+"Current_PER": "19.47",
+"Current_PER_Rank": "29",
+"Close_Price": "7780",
 "PER_Target_1": "0",
 "PER_Target_2": "5200",
 "PER_Target_Avr": "2600",
-"Price_over_PERAvg": "1.56538461538462",
-"SRIM_1": "3458",
-"SRIM_2": "2868",
-"SRIM_3": "1882"
+"Price_over_PERAvg": "1.49615384615385",
+"SRIM_1": "3448",
+"SRIM_2": "2860",
+"SRIM_3": "1877",
+"SRIM_2R": "2.72008364093545"
 }

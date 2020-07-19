@@ -3,14 +3,15 @@
 "stock_name": "큐브엔터",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "381.66",
+"Current_PER": "395.38",
 "Current_PER_Rank": "23",
-"Close_Price": "4310",
+"Close_Price": "4465",
 "PER_Target_1": "0",
 "PER_Target_2": "6185",
 "PER_Target_Avr": "3092",
-"Price_over_PERAvg": "0.696847210994341",
-"SRIM_1": "1039",
-"SRIM_2": "1399",
-"SRIM_3": "2627"
+"Price_over_PERAvg": "0.721907841552142",
+"SRIM_1": "1041",
+"SRIM_2": "1401",
+"SRIM_3": "2631",
+"SRIM_2R": "3.18714058890946"
 }

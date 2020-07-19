@@ -2,15 +2,16 @@
 "stock_code": "A145210",
 "stock_name": "세화아이엠씨",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "12.48",
+"stock_Div_PER": "13.55",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1380",
-"PER_Target_1": "-2217",
+"Close_Price": "1310",
+"PER_Target_1": "-2407",
 "PER_Target_2": "-9075",
-"PER_Target_Avr": "-5646",
-"Price_over_PERAvg": "-0.24442082890542",
+"PER_Target_Avr": "-5741",
+"Price_over_PERAvg": "-0.228183243337398",
 "SRIM_1": "236",
-"SRIM_2": "195",
-"SRIM_3": "128"
+"SRIM_2": "196",
+"SRIM_3": "128",
+"SRIM_2R": "6.6931443137915"
 }

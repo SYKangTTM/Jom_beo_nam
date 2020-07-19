@@ -2,15 +2,16 @@
 "stock_code": "A168330",
 "stock_name": "≥ª√Ú∑≤ø£µµ≈ÿ",
 "stock_Div": "¡¶æ‡",
-"stock_Div_PER": "124.07",
+"stock_Div_PER": "126.68",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "2525",
-"PER_Target_1": "-76495",
+"PER_Target_1": "-78105",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-38248",
-"Price_over_PERAvg": "-3.30086933786522E-02",
-"SRIM_1": "920",
-"SRIM_2": "763",
-"SRIM_3": "501"
+"PER_Target_Avr": "-39052",
+"Price_over_PERAvg": "-3.23282760386659E-02",
+"SRIM_1": "921",
+"SRIM_2": "764",
+"SRIM_3": "501",
+"SRIM_2R": "3.30354919971645"
 }

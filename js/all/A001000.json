@@ -2,15 +2,16 @@
 "stock_code": "A001000",
 "stock_name": "신라섬유",
 "stock_Div": "무선통신서비스",
-"stock_Div_PER": "18",
-"Current_PER": "260.71",
+"stock_Div_PER": "18.22",
+"Current_PER": "256.4",
 "Current_PER_Rank": "4",
-"Close_Price": "2420",
-"PER_Target_1": "154",
+"Close_Price": "2380",
+"PER_Target_1": "156",
 "PER_Target_2": "2051",
-"PER_Target_Avr": "1102",
-"Price_over_PERAvg": "2.19501133786848",
+"PER_Target_Avr": "1104",
+"Price_over_PERAvg": "2.15677390122338",
 "SRIM_1": "539",
 "SRIM_2": "447",
-"SRIM_3": "293"
+"SRIM_3": "294",
+"SRIM_2R": "5.31935497328928"
 }

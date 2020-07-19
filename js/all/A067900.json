@@ -3,14 +3,15 @@
 "stock_name": "와이엔텍",
 "stock_Div": "해운사",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.91",
+"Current_PER": "11",
 "Current_PER_Rank": "4",
-"Close_Price": "12250",
+"Close_Price": "12350",
 "PER_Target_1": "0",
 "PER_Target_2": "13572",
 "PER_Target_Avr": "6786",
-"Price_over_PERAvg": "0.902593575007368",
-"SRIM_1": "12286",
-"SRIM_2": "14986",
-"SRIM_3": "22952"
+"Price_over_PERAvg": "0.909961685823755",
+"SRIM_1": "12301",
+"SRIM_2": "15005",
+"SRIM_3": "22980",
+"SRIM_2R": "0.823053114659093"
 }

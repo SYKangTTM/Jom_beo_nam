@@ -6,12 +6,13 @@
 "Current_PER": "
 						<dt class="line-left"",
 "Current_PER_Rank": "6",
-"Close_Price": "5680",
+"Close_Price": "5690",
 "PER_Target_1": "0",
 "PER_Target_2": "-8660",
 "PER_Target_Avr": "-4330",
-"Price_over_PERAvg": "-0.655889145496536",
-"SRIM_1": "314",
+"Price_over_PERAvg": "-0.657043879907621",
+"SRIM_1": "315",
 "SRIM_2": "261",
-"SRIM_3": "171"
+"SRIM_3": "171",
+"SRIM_2R": "21.8109519599226"
 }

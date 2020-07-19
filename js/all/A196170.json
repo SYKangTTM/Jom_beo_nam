@@ -3,14 +3,15 @@
 "stock_name": "알테오젠",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "1619.8",
+"Current_PER": "793.56",
 "Current_PER_Rank": "10",
-"Close_Price": "293900",
+"Close_Price": "286200",
 "PER_Target_1": "0",
 "PER_Target_2": "153809",
 "PER_Target_Avr": "76904",
-"Price_over_PERAvg": "1.91081146096782",
-"SRIM_1": "7169",
-"SRIM_2": "8505",
-"SRIM_3": "12286"
+"Price_over_PERAvg": "1.86074937097309",
+"SRIM_1": "7178",
+"SRIM_2": "8516",
+"SRIM_3": "12302",
+"SRIM_2R": "33.6092765245641"
 }
