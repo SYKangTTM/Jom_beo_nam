@@ -112,19 +112,22 @@
         }
         .T_body {
             overflow-y: scroll;
+            height: 60%;
             /* overflow: hidden; */
         }
         .T_header {
             overflow-y: scroll;
             /* overflow: hidden; */
-        }
+        }        
     </style>
 
     <body>
         <div class="topnav">
             <a class="title" href="index.html"><img src="images/JBN_Logo.svg" alt="" style="height: 60px;"/></a>
         </div>
-        <section class="main" style="height: 65vh;">
+        
+        
+        <section class="main" style="height: 80vh;">
             <div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 2%;padding-bottom: 2%;">
                 <select id="Find_Stock_Condtion" style="vertical-align: middle;">
                     <option value="F_S_C_1">저PER</option>
@@ -135,38 +138,30 @@
                 <select id="inventory_WICS" style="vertical-align: middle;"></select>
                 <button id="Finder" onclick="Search_Stock()" class="button_1">검색</button>
             </div>
+            
             <form role="form">
-                <div id="PER_FINDER_Result"  style="max-height: 55vh; overflow: hidden;padding-top: 10px;" align="center" ></div>    
+                <div id="PER_FINDER_Result"  style="max-height: 58vh; overflow: hidden;padding-top: 10px;" align="center" ></div>    
             </form>
+            
+            <section class="banner_section" align="center" style="margin-top:5px;margin-left:5px;margin-right:5px">
+                <ins class="kakao_ad_area" style="display: none;" data-ad-unit="DAN-1jyb0fd2si5v5" data-ad-width="320" data-ad-height="100"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>            
+            </section>
+            
+            <section align="center">
+                <div align = "center" class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;"  onclick="location.href='index.html';">목표주가</button>
+                    <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;margin-right:5px;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
+                    <button type="button" class="button" style="height: 8vh; width: 30vw;margin-right:5px;"  onclick="location.href='help.html';">도움말</button>
+                </div>
+            </section>
+            
+            <footer class="footer" style="height: 3vh;">
+                <div class="center_footer">
+                    <p>copyright&copy; 2020. 좀버남(주식아빠) all rights reserved.</p>
+                </div>
+            </footer>
         </section>
-
-        <section class="banner_section" align="center" style="margin-top:15px;margin-left:5px;margin-right:5px">
-            <ins
-                class="kakao_ad_area"
-                style="display: none;"
-                data-ad-unit="DAN-1jyb0fd2si5v5"
-                data-ad-width="320"
-                data-ad-height="100"
-            ></ins>
-            <script
-                type="text/javascript"
-                src="//t1.daumcdn.net/kas/static/ba.min.js"
-                async
-            ></script>            
-        </section>
-
-        <section align="center">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;"  onclick="location.href='index.html';">목표주가</button>
-                <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;margin-right:5px;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
-                <button type="button" class="button" style="height: 8vh; width: 30vw;margin-right:5px;"  onclick="location.href='help.html';">도움말</button>
-            </div>
-        </section>
-        <footer class="footer" style="height: 3vh;">
-            <div class="center_footer">
-                <p>copyright&copy; 2020. 좀버남(주식아빠) all rights reserved.</p>
-            </div>
-        </footer>
     </body>
 </html>
 
@@ -224,7 +219,7 @@
     
     function sortTable_PER() {
         var table, rows, switching, i, x, y, shouldSwitch;
-        table = document.getElementById("Table_F_S");
+        table = document.getElementById("Table_PER_body_1");
         switching = true;
         /*Make a loop that will continue until
         no switching has been done:*/
@@ -234,24 +229,31 @@
             rows = table.rows;
             /*Loop through all table rows (except the
             first, which contains table headers):*/
-            for (i = 1; i < (rows.length - 1); i++) {
+            for (i = 0; i < (rows.length - 3);) {
                 //start by saying there should be no switching:
                 shouldSwitch = false;
                 /*Get the two elements you want to compare,
                 one from current row and one from the next:*/
                 x = rows[i].getElementsByTagName("TD")[2];
-                y = rows[i + 1].getElementsByTagName("TD")[2];
+                y = rows[i + 3].getElementsByTagName("TD")[2];
                 //check if the two rows should switch place:
                 if (Number(x.innerHTML) > Number(y.innerHTML)) {
                     //if so, mark as a switch and break the loop:
                     shouldSwitch = true;
                     break;
                 }
+                i+=3;
             }
             if (shouldSwitch) {
                 /*If a switch has been marked, make the switch
                 and mark that a switch has been done:*/
-                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                
+                
+                rows[i].parentNode.insertBefore(rows[i + 3], rows[i]);
+                rows[i+1].parentNode.insertBefore(rows[i + 4], rows[i+1]);
+                rows[i+2].parentNode.insertBefore(rows[i + 5], rows[i+2]);
+                
+                
                 switching = true;
             }
           }
@@ -588,78 +590,124 @@
         }
 
         var data = stock_div;
-        var output = '<div class="table-responsive">';
-        output += '<table id="Table_F_S" class="table table-sm">';
-        output += '<thread>';
-        output += '<tr >';
-        // output += '<th scope="col"> # </th>';
-        output += '<th scope="col"> 종목코드 </th>';
-        output += '<th scope="col"> 종목명 </th>';
-        output += '<th scope="col"> PER 순위 </th>';
-        output += '<th scope="col"> PER </th>';
-        output += '<th scope="col"> 업종 PER </th>';
-        output += '<th scope="col"> 종가 </th>';
-        output += '<th scope="col"> PER_목표1 </th>';
-        output += '<th scope="col"> PER_목표2 </th>';
-        output += '<th scope="col"> SRIM_10년 </th>';
-        output += '<th scope="col"> 흑자전환예상조건 </th>';
-        output += '<th scope="col"> 업종 </th>';
-        output += '</tr>';
-        output += '</thread>';
+        var output = '<div class="T_header">';        
+        output += '<table class="Table_PER">';
         output += '<tbody>';
+        output += '<tr class="Table_PER_header_1">';
+        output += '<th scope="col" style="width:19vw; back=:;background-color: #E5EEFC;">종목명</th>';
+        output += '<th scope="col" style="width:19vw;">저PER조건</th>';
+        output += '<th scope="col" style="width:19vw;">SRIM조건1</th>';
+        output += '<th scope="col" style="width:19vw;">PER_순위</th>';
+        
+        output += '<th scope="col" style="width:19vw;">PER_목표1</th></tr>';
+        
+        output += '<tr class="Table_PER_header_2">';
+        output += '<th scope="col" style="width:19vw;">종목코드</th>';
+        output += '<th scope="col" style="width:19vw;">흑전조건</th>';
+        output += '<th scope="col" style="width:19vw;">SRIM조건2</th>';
+        output += '<th scope="col" style="width:19vw;">PER</th>';
+        output += '<th scope="col" style="width:19vw;">PER_목표2</th></tr>';
+        
+        output += '<tr class="Table_PER_header_3">';
+        output += '<th scope="col" style="width:19vw;">업종</th>';
+        output += '<th scope="col" style="width:19vw;">조건미정</th>';
+        output += '<th scope="col" style="width:19vw;">조건미정</th>';
+        output += '<th scope="col" style="width:19vw;">업종PER</th>';
+        output += '<th scope="col" style="width:19vw;">종가</th></tr>';
+        output += '</tbody></table></div>';
+        
+        // 찐본문내용
+        output += '<div class="T_body" style="height: 45vh;">';
+        output += '<table id="Table_PER_body_1" class="Table_PER">';
+        output += '<tbody>';
+        
         for (var i= 0;i<n;i++){
             
             if(Div_F_ST =='All'){
                 if (data_stock_F_S_C_1[i] == 'O'){
-                    output += '<tr>'
-                    // output += '<th scope="row">' + i+1 + '</th>'
-                    output += '<td align="center">' +  data_stock_code[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_name[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_Current_PER_Rank[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_Current_PER[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_stock_Div_PER[i] + '</td>';
- 
-                    output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-                    output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-                    output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-                    output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-
-                    if(data_stock_F_S_C_2 =='OO'){
-                        output += '<td align="center">컨센_흑전</td>';
-                    } else if(data_stock_F_S_C_2 =='O'){
-                        output += '<td align="center" >추세_흑전</td>';
+                    output += '<tr class="Table_PER_body_1">';
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
+                    if(data_stock_F_S_C_3[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
+                    } else if(data_stock_F_S_C_3[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년</td>';
                     } else {
-                        output += '<td align="center"></td>';
+                        output += '<td align="center" style="width:19vw;"></td>';
                     }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER_Rank[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
 
-                    output += '<td align="center">' +  data_stock_WICS[i] + '</td>';
-                    output += '</tr>'    
+                    
+                    output += '<tr class="Table_PER_body_2">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    if(data_stock_F_S_C_4[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
+                    } else if(data_stock_F_S_C_4[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                    
+                    
+                    output += '<tr class="Table_PER_body_3">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;">N/A</td>';
+                    output += '<td align="center"style="width:19vw;">N/A</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
                 }
             }else{
                 if (data_stock_WICS[i] == Div_F_ST && data_stock_F_S_C_1[i] == 'O'){
-                    output += '<tr>'
-                    // output += '<th scope="row">' + i+1 + '</th>'
-                    output += '<td align="center">' +  data_stock_code[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_name[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_Current_PER_Rank[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_Current_PER[i] + '</td>';
-                    output += '<td align="center">' +  data_stock_stock_Div_PER[i] + '</td>';
-                    
-                    output += '<td align="right">' +  data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-                    output += '<td align="right">' +  data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-                    output += '<td align="right">' +  data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-                    output += '<td align="right">' +  data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
-
-                    if(data_stock_F_S_C_2 =='OO'){
-                        output += '<td align="center">컨센_흑전</td>';
-                    } else if(data_stock_F_S_C_2 =='O'){
-                        output += '<td align="center">추세_흑전</td>';
+                    output += '<tr class="Table_PER_body_1">';
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
+                    if(data_stock_F_S_C_3[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
+                    } else if(data_stock_F_S_C_3[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년</td>';
                     } else {
-                        output += '<td align="center"></td>';
+                        output += '<td align="center" style="width:19vw;"></td>';
                     }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER_Rank[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
 
-                    output += '<td align="center">' +  data_stock_WICS[i] + '</td>';
-                    output += '</tr>'    
+                    
+                    output += '<tr class="Table_PER_body_2">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    if(data_stock_F_S_C_4[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
+                    } else if(data_stock_F_S_C_4[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                    
+                    
+                    output += '<tr class="Table_PER_body_3">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;">N/A</td>';
+                    output += '<td align="center"style="width:19vw;">N/A</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';   
                 }
             }
             
@@ -1031,7 +1079,7 @@
         output += '</tbody></table></div>';
         
         // 찐본문내용
-        output += '<div class="T_body" style="height: 60vh;">';
+        output += '<div class="T_body" style="height: 45vh;">';
         output += '<table class="Table_PER">';
         output += '<tbody>';
         for (var i= 0;i<n;i++){
@@ -1080,7 +1128,7 @@
             }else{
                 if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
                     output += '<tr class="Table_PER_body_1">';
-                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    output += '<th scope="row" onclick="myPopup()" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
                     if(data_stock_F_S_C_2[i] =='OO'){
                         output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
                     } else if(data_stock_F_S_C_2[i] =='O'){
@@ -1125,7 +1173,7 @@
         output += '</div>';
         $('#PER_FINDER_Result').html(output);
     }
-        
+    
     
     $.ajaxSetup({
     async: false
