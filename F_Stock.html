@@ -133,7 +133,7 @@
                     <option value="F_S_C_1">저PER</option>
                     <option value="F_S_C_2">흑자전환예상</option>
                     <option value="F_S_C_3">SRIM_5년</option>
-                    <!-- <option value="F_S_C_4">SRIM_10년</option> -->
+                    <option value="F_S_C_4">SRIM_10년</option>
                 </select>
                 <select id="inventory_WICS" style="vertical-align: middle;"></select>
                 <button id="Finder" onclick="Search_Stock()" class="button_1">검색</button>
@@ -151,7 +151,7 @@
             <section align="center">
                 <div align = "center" class="btn-group" role="group" aria-label="Basic example">
                     <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;"  onclick="location.href='index.html';">목표주가</button>
-                    <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;margin-right:5px;"  onclick="location.href='Find_Stock.html';">종목발굴</button>
+                    <button type="button" class="button" style="height: 8vh; width: 30vw;margin-left:5px;margin-right:5px;"  onclick="location.href='F_Stock.html';">종목발굴</button>
                     <button type="button" class="button" style="height: 8vh; width: 30vw;margin-right:5px;"  onclick="location.href='help.html';">도움말</button>
                 </div>
             </section>
@@ -220,7 +220,13 @@
             F_S_C_1(Div_F_ST);
         }else if(Con_F_S == "F_S_C_2"){
             F_S_C_2(Div_F_ST);
+        }else if(Con_F_S == "F_S_C_3"){
+            F_S_C_3(Div_F_ST);
+        }else if(Con_F_S == "F_S_C_4"){
+            F_S_C_4(Div_F_ST);
         }
+        
+        
     }
     
     function sortTable_PER() {
@@ -1233,11 +1239,13 @@
         var data_stock_Current_PER_Rank = [];
         var data_stock_Current_PER_Target_1 = [];
         var data_stock_Current_PER_Target_2 = [];
+        var data_stock_Current_SRIM_1 = [];
         var data_stock_Current_SRIM_2 = [];
+        var data_stock_Current_SRIM_3 = [];
         var data_stock_Current_Close_Price =[];
         var data_stock_F_S_C_1 = [];
         var data_stock_F_S_C_2 = [];
-                var data_stock_F_S_C_3 = [];
+        var data_stock_F_S_C_3 = [];
         var data_stock_F_S_C_4 = [];
         
         var n = 0;
@@ -1485,7 +1493,9 @@
                         data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
                         data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
                         data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
-                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;    
+                        data_stock_Current_SRIM_1[i] = jd.SRIM_1;    
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_SRIM_3[i] = jd.SRIM_3;    
                         data_stock_Current_Close_Price[i] = jd.Close_Price;
                     });    
                 }
@@ -1499,7 +1509,9 @@
                         data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
                         data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
                         data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_1[i] = jd.SRIM_1;    
                         data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_SRIM_3[i] = jd.SRIM_3;    
                         data_stock_Current_Close_Price[i] = jd.Close_Price;
                     });    
                 }
@@ -1512,24 +1524,24 @@
         output += '<tbody>';
         output += '<tr class="Table_PER_header_1">';
         output += '<th scope="col" style="width:19vw; back=:;background-color: #E5EEFC;">종목명</th>';
-        output += '<th scope="col" style="width:19vw;">흑전조건</th>';
         output += '<th scope="col" style="width:19vw;">SRIM조건1</th>';
-        output += '<th scope="col" style="width:19vw;">업종PER</th>';
-        output += '<th scope="col" style="width:19vw;">PER_목표1</th></tr>';
+        output += '<th scope="col" style="width:19vw;">흑전조건</th>';
+        output += '<th scope="col" style="width:19vw;">RIM_5년지속</th>';
+        output += '<th scope="col" style="width:19vw;">RIM_10년지속</th></tr>';
         
         output += '<tr class="Table_PER_header_2">';
         output += '<th scope="col" style="width:19vw;">종목코드</th>';
-        output += '<th scope="col" style="width:19vw;">저PER조건</th>';
         output += '<th scope="col" style="width:19vw;">SRIM조건2</th>';
-        output += '<th scope="col" style="width:19vw;">PER</th>';
-        output += '<th scope="col" style="width:19vw;">PER_목표2</th></tr>';
-        
+        output += '<th scope="col" style="width:19vw;">저PER조건</th>';
+        output += '<th scope="col" style="width:19vw;">RIM_초과지속</th>';
+        output += '<th scope="col" style="width:19vw;">종가</th></tr>';
+ 
         output += '<tr class="Table_PER_header_3">';
         output += '<th scope="col" style="width:19vw;">업종</th>';
-        output += '<th scope="col" style="width:19vw;">조건미정</th>';
-        output += '<th scope="col" style="width:19vw;">조건미정</th>';
-        output += '<th scope="col" style="width:19vw;">PER_순위</th>';
-        output += '<th scope="col" style="width:19vw;">종가</th></tr>';
+        output += '<th scope="col" style="width:19vw;">업종PER</th>';
+        output += '<th scope="col" style="width:19vw;">PER</th>';
+        output += '<th scope="col" style="width:19vw;">PER_목표1</th>';
+        output += '<th scope="col" style="width:19vw;">PER_목표2</th></tr>';
         output += '</tbody></table></div>';
         
         // 찐본문내용
@@ -1538,16 +1550,9 @@
         output += '<tbody>';
         for (var i= 0;i<n;i++){
             if(Div_F_ST =='All'){
-                if (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO'){
+                if (data_stock_F_S_C_3[i] == 'O' || data_stock_F_S_C_3[i] == 'OO'){
                     output += '<tr class="Table_PER_body_1">';
                     output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
-                    if(data_stock_F_S_C_2[i] =='OO'){
-                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
-                    } else if(data_stock_F_S_C_2[i] =='O'){
-                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
-                    } else {
-                        output += '<td align="center" style="width:19vw;"></td>';
-                    }
                     if(data_stock_F_S_C_3[i] =='OO'){
                         output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
                     } else if(data_stock_F_S_C_3[i] =='O'){
@@ -1555,12 +1560,20 @@
                     } else {
                         output += '<td align="center" style="width:19vw;"></td>';
                     }
-                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
-
+                    // 흑자전환조건값
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td></tr>';
+                    
+                    // 두번째행
                     output += '<tr class="Table_PER_body_2">';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
-                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
                     if(data_stock_F_S_C_4[i] =='OO'){
                         output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
                     } else if(data_stock_F_S_C_4[i] =='O'){
@@ -1568,28 +1581,22 @@
                     } else {
                         output += '<td align="center" style="width:19vw;"></td>';
                     }
-                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
-                    
-                    
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_3[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>'; 
+
+                    // 세번째행
                     output += '<tr class="Table_PER_body_3">';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
-                    output += '<td align="center" style="width:19vw;">N/A</td>';
-                    output += '<td align="center"style="width:19vw;">N/A</td>';
-                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER_Rank[i] +'</td>';
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>'; 
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
                 }
             }else{
-                if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_2[i] == 'O' || data_stock_F_S_C_2[i] == 'OO')){
+                if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_3[i] == 'O' || data_stock_F_S_C_3[i] == 'OO')){
                     output += '<tr class="Table_PER_body_1">';
-                    output += '<th scope="row" onclick="myPopup()" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
-                    if(data_stock_F_S_C_2[i] =='OO'){
-                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
-                    } else if(data_stock_F_S_C_2[i] =='O'){
-                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
-                    } else {
-                        output += '<td align="center" style="width:19vw;"></td>';
-                    }
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
                     if(data_stock_F_S_C_3[i] =='OO'){
                         output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
                     } else if(data_stock_F_S_C_3[i] =='O'){
@@ -1597,12 +1604,20 @@
                     } else {
                         output += '<td align="center" style="width:19vw;"></td>';
                     }
-                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
-
+                    // 흑자전환조건값
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td></tr>';
+                    
+                    // 두번째행
                     output += '<tr class="Table_PER_body_2">';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
-                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
                     if(data_stock_F_S_C_4[i] =='OO'){
                         output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
                     } else if(data_stock_F_S_C_4[i] =='O'){
@@ -1610,15 +1625,476 @@
                     } else {
                         output += '<td align="center" style="width:19vw;"></td>';
                     }
-                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
-   
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_3[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>'; 
+
+                    // 세번째행
                     output += '<tr class="Table_PER_body_3">';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
-                    output += '<td align="center" style="width:19vw;">N/A</td>';
-                    output += '<td align="center"style="width:19vw;">N/A</td>';
-                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER_Rank[i] +'</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                    }
+            }            
+        }
+        output += '</tbody>';
+        output += '</table>';
+        output += '</div>';
+        $('#PER_FINDER_Result').html(output);
+    }
+    
+    function F_S_C_4(Div_F_ST) {
+        $('#PER_FINDER_Result').html("");
+        // alert(window.innerWidth);
+        var data1 = stock1;
+        var data2 = stock2;
+        var data3 = stock3;
+        var data4 = stock4;
+        var data5 = stock5;
+        var data6 = stock6;
+        var data7 = stock7;
+        var data8 = stock8;
+        var data9 = stock9;
+        var data10 = stock10;
+        var data11 = stock11;
+        var data12 = stock12;
+        var data13 = stock13;
+        var data14 = stock14;
+        var data15 = stock15;
+        var data16 = stock16;
+        var data17 = stock17;
+        var data18 = stock18;
+        var data19 = stock19;
+        var data20 = stock20;
+        var data21 = stock21;
+        
+        var data_length =
+            data1.length +
+            data2.length +
+            data3.length +
+            data4.length +
+            data5.length +
+            data6.length +
+            data7.length +
+            data8.length +
+            data9.length +
+            data10.length +
+            data11.length +
+            data12.length +
+            data13.length +
+            data14.length +
+            data15.length +
+            data16.length +
+            data17.length + data18.length+ data19.length+data20.length+data21.length;
+
+        var data_stock_code = [];
+        var data_stock_name = [];
+        var data_stock_WICS = [];
+        var data_stock_PER_RANK = [];
+        var data_stock_stock_Div_PER = [];
+        var data_stock_Current_PER = [];
+        var data_stock_Current_PER_Rank = [];
+        var data_stock_Current_PER_Target_1 = [];
+        var data_stock_Current_PER_Target_2 = [];
+        var data_stock_Current_SRIM_1 = [];
+        var data_stock_Current_SRIM_2 = [];
+        var data_stock_Current_SRIM_3 = [];
+        var data_stock_Current_Close_Price =[];
+        var data_stock_F_S_C_1 = [];
+        var data_stock_F_S_C_2 = [];
+        var data_stock_F_S_C_3 = [];
+        var data_stock_F_S_C_4 = [];
+        
+        var n = 0;
+
+        for (i = 0; i < data1.length; i++) {
+            data_stock_code[n] = data1[i].co;
+            data_stock_name[n] = data1[i].n;
+            data_stock_WICS[n] = data1[i].W;
+            data_stock_PER_RANK[n] = data1[i].P_R;
+            data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data2.length; i++) {
+            data_stock_code[n] = data2[i].co;
+            data_stock_name[n] = data2[i].n;
+            data_stock_WICS[n] = data2[i].W;
+            data_stock_PER_RANK[n] = data2[i].P_R;
+            data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data3.length; i++) {
+            data_stock_code[n] = data3[i].co;
+            data_stock_name[n] = data3[i].n;
+            data_stock_WICS[n] = data3[i].W;
+            data_stock_PER_RANK[n] = data3[i].P_R;
+            data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data4.length; i++) {
+            data_stock_code[n] = data4[i].co;
+            data_stock_name[n] = data4[i].n;
+            data_stock_WICS[n] = data4[i].W;
+            data_stock_PER_RANK[n] = data4[i].P_R;
+            data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data5.length; i++) {
+            data_stock_code[n] = data5[i].co;
+            data_stock_name[n] = data5[i].n;
+            data_stock_WICS[n] = data5[i].W;
+            data_stock_PER_RANK[n] = data5[i].P_R;
+            data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data6.length; i++) {
+            data_stock_code[n] = data6[i].co;
+            data_stock_name[n] = data6[i].n;
+            data_stock_WICS[n] = data6[i].W;
+            data_stock_PER_RANK[n] = data6[i].P_R;
+            data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data7.length; i++) {
+            data_stock_code[n] = data7[i].co;
+            data_stock_name[n] = data7[i].n;
+            data_stock_WICS[n] = data7[i].W;
+            data_stock_PER_RANK[n] = data7[i].P_R;
+            data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data8.length; i++) {
+            data_stock_code[n] = data8[i].co;
+            data_stock_name[n] = data8[i].n;
+            data_stock_WICS[n] = data8[i].W;
+            data_stock_PER_RANK[n] = data8[i].P_R;
+            data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data9.length; i++) {
+            data_stock_code[n] = data9[i].co;
+            data_stock_name[n] = data9[i].n;
+            data_stock_WICS[n] = data9[i].W;
+            data_stock_PER_RANK[n] = data9[i].P_R;
+            data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data10.length; i++) {
+            data_stock_code[n] = data10[i].co;
+            data_stock_name[n] = data10[i].n;
+            data_stock_WICS[n] = data10[i].W;
+            data_stock_PER_RANK[n] = data10[i].P_R;
+            data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data11.length; i++) {
+            data_stock_code[n] = data11[i].co;
+            data_stock_name[n] = data11[i].n;
+            data_stock_WICS[n] = data11[i].W;
+            data_stock_PER_RANK[n] = data11[i].P_R;
+            data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data12.length; i++) {
+            data_stock_code[n] = data12[i].co;
+            data_stock_name[n] = data12[i].n;
+            data_stock_WICS[n] = data12[i].W;
+            data_stock_PER_RANK[n] = data12[i].P_R;
+            data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data13.length; i++) {
+            data_stock_code[n] = data13[i].co;
+            data_stock_name[n] = data13[i].n;
+            data_stock_WICS[n] = data13[i].W;
+            data_stock_PER_RANK[n] = data13[i].P_R;
+            data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data14.length; i++) {
+            data_stock_code[n] = data14[i].co;
+            data_stock_name[n] = data14[i].n;
+            data_stock_WICS[n] = data14[i].W;
+            data_stock_PER_RANK[n] = data14[i].P_R;
+            data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        
+        for (i = 0; i < data15.length; i++) {
+            data_stock_code[n] = data15[i].co;
+            data_stock_name[n] = data15[i].n;
+            data_stock_WICS[n] = data15[i].W;
+            data_stock_PER_RANK[n] = data15[i].P_R;
+            data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data16.length; i++) {
+            data_stock_code[n] = data16[i].co;
+            data_stock_name[n] = data16[i].n;
+            data_stock_WICS[n] = data16[i].W;
+            data_stock_PER_RANK[n] = data16[i].P_R;
+            data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data17.length; i++) {
+            data_stock_code[n] = data17[i].co;
+            data_stock_name[n] = data17[i].n;
+            data_stock_WICS[n] = data17[i].W;
+            data_stock_PER_RANK[n] = data17[i].P_R;
+            data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data18.length; i++) {
+            data_stock_code[n] = data18[i].co;
+            data_stock_name[n] = data18[i].n;
+            data_stock_WICS[n] = data18[i].W;
+            data_stock_PER_RANK[n] = data18[i].P_R;
+            data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data19.length; i++) {
+            data_stock_code[n] = data19[i].co;
+            data_stock_name[n] = data19[i].n;
+            data_stock_WICS[n] = data19[i].W;
+            data_stock_PER_RANK[n] = data19[i].P_R;
+            data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data20.length; i++) {
+            data_stock_code[n] = data20[i].co;
+            data_stock_name[n] = data20[i].n;
+            data_stock_WICS[n] = data20[i].W;
+            data_stock_PER_RANK[n] = data20[i].P_R;
+            data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+        for (i = 0; i < data21.length; i++) {
+            data_stock_code[n] = data21[i].co;
+            data_stock_name[n] = data21[i].n;
+            data_stock_WICS[n] = data21[i].W;
+            data_stock_PER_RANK[n] = data21[i].P_R;
+            data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
+            n = n + 1;
+        }
+
+        for (var i = 0; i < n; i++) {
+            if(Div_F_ST =='All'){
+                if(data_stock_F_S_C_4[i] == 'O' || data_stock_F_S_C_4[i] == 'OO'){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                        data_stock_Current_PER[i] = jd.Current_PER;
+                        data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                        data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+                        data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_1[i] = jd.SRIM_1;    
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_SRIM_3[i] = jd.SRIM_3;    
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
+                
+            }else{
+                if(data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_4[i] == 'O' || data_stock_F_S_C_4[i] == 'OO')){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PER[i] = jd.stock_Div_PER;
+                        data_stock_Current_PER[i] = jd.Current_PER;
+                        data_stock_Current_PER_Rank[i] = jd.Current_PER_Rank;
+                        data_stock_Current_PER_Target_1[i] = jd.PER_Target_1;
+                        data_stock_Current_PER_Target_2[i] = jd.PER_Target_2;
+                        data_stock_Current_SRIM_1[i] = jd.SRIM_1;    
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_SRIM_3[i] = jd.SRIM_3;    
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
+            }
+        }
+                
+        var data = stock_div;
+        var output = '<div class="T_header">';        
+        output += '<table id="Table_F_S" class="Table_PER">';
+        output += '<tbody>';
+        output += '<tr class="Table_PER_header_1">';
+        output += '<th scope="col" style="width:19vw; back=:;background-color: #E5EEFC;">종목명</th>';
+        output += '<th scope="col" style="width:19vw;">SRIM조건1</th>';
+        output += '<th scope="col" style="width:19vw;">흑전조건</th>';
+        output += '<th scope="col" style="width:19vw;">RIM_5년지속</th>';
+        output += '<th scope="col" style="width:19vw;">RIM_10년지속</th></tr>';
+        
+        output += '<tr class="Table_PER_header_2">';
+        output += '<th scope="col" style="width:19vw;">종목코드</th>';
+        output += '<th scope="col" style="width:19vw;">SRIM조건2</th>';
+        output += '<th scope="col" style="width:19vw;">저PER조건</th>';
+        output += '<th scope="col" style="width:19vw;">RIM_초과지속</th>';
+        output += '<th scope="col" style="width:19vw;">종가</th></tr>';
+ 
+        output += '<tr class="Table_PER_header_3">';
+        output += '<th scope="col" style="width:19vw;">업종</th>';
+        output += '<th scope="col" style="width:19vw;">업종PER</th>';
+        output += '<th scope="col" style="width:19vw;">PER</th>';
+        output += '<th scope="col" style="width:19vw;">PER_목표1</th>';
+        output += '<th scope="col" style="width:19vw;">PER_목표2</th></tr>';
+        output += '</tbody></table></div>';
+        
+        // 찐본문내용
+        output += '<div class="T_body" style="height: 45vh;">';
+        output += '<table class="Table_PER">';
+        output += '<tbody>';
+        for (var i= 0;i<n;i++){
+            if(Div_F_ST =='All'){
+                if (data_stock_F_S_C_4[i] == 'O' || data_stock_F_S_C_4[i] == 'OO'){
+                    output += '<tr class="Table_PER_body_1">';
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    if(data_stock_F_S_C_3[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
+                    } else if(data_stock_F_S_C_3[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    // 흑자전환조건값
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td></tr>';
+                    
+                    // 두번째행
+                    output += '<tr class="Table_PER_body_2">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
+                    if(data_stock_F_S_C_4[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
+                    } else if(data_stock_F_S_C_4[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_3[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
                     output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>'; 
+
+                    // 세번째행
+                    output += '<tr class="Table_PER_body_3">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                }
+            }else{
+                if (data_stock_WICS[i] == Div_F_ST && (data_stock_F_S_C_4[i] == 'O' || data_stock_F_S_C_4[i] == 'OO')){
+                    output += '<tr class="Table_PER_body_1">';
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    if(data_stock_F_S_C_3[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
+                    } else if(data_stock_F_S_C_3[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    // 흑자전환조건값
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td></tr>';
+                    
+                    // 두번째행
+                    output += '<tr class="Table_PER_body_2">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
+                    if(data_stock_F_S_C_4[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
+                    } else if(data_stock_F_S_C_4[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_1[i]+'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_SRIM_3[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>'; 
+
+                    // 세번째행
+                    output += '<tr class="Table_PER_body_3">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PER[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PER_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
                     }
             }            
         }
