@@ -2,16 +2,16 @@
 "stock_code": "A353810",
 "stock_name": "이지바이오",
 "stock_Div": "식품",
-"stock_Div_PER": "29.03",
+"stock_Div_PER": "28.95",
 "Current_PER": "",
 "Current_PER_Rank": "34",
-"Close_Price": "52800",
+"Close_Price": "57000",
 "PER_Target_1": "0",
 "PER_Target_2": "0",
 "PER_Target_Avr": "0",
 "Price_over_PERAvg": "N/A",
-"SRIM_1": "8136",
-"SRIM_2": "6749",
-"SRIM_3": "4428",
-"SRIM_2R": "7.82395873691173"
+"SRIM_1": "8157",
+"SRIM_2": "6778",
+"SRIM_3": "4466",
+"SRIM_2R": "8.40900951959244"
 }

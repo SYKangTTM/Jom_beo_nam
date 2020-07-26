@@ -3,15 +3,15 @@
 "stock_name": "동일금속",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.54",
-"Current_PER_Rank": "7",
-"Close_Price": "11100",
+"Current_PER": "6.66",
+"Current_PER_Rank": "6",
+"Close_Price": "11300",
 "PER_Target_1": "0",
 "PER_Target_2": "24611",
 "PER_Target_Avr": "12306",
-"Price_over_PERAvg": "0.451017837552314",
-"SRIM_1": "17425",
-"SRIM_2": "14454",
-"SRIM_3": "9484",
-"SRIM_2R": "0.767945202656145"
+"Price_over_PERAvg": "0.459144285075779",
+"SRIM_1": "17471",
+"SRIM_2": "14518",
+"SRIM_3": "9566",
+"SRIM_2R": "0.778328720050316"
 }

@@ -3,15 +3,15 @@
 "stock_name": "우림기계",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "39.55",
-"Current_PER_Rank": "46",
-"Close_Price": "3110",
+"Current_PER": "41.97",
+"Current_PER_Rank": "47",
+"Close_Price": "3300",
 "PER_Target_1": "0",
 "PER_Target_2": "-1945",
 "PER_Target_Avr": "-972",
-"Price_over_PERAvg": "-1.59897172236504",
-"SRIM_1": "5931",
-"SRIM_2": "4920",
-"SRIM_3": "3228",
-"SRIM_2R": "0.632143495100271"
+"Price_over_PERAvg": "-1.69665809768638",
+"SRIM_1": "5947",
+"SRIM_2": "4942",
+"SRIM_3": "3256",
+"SRIM_2R": "0.667800260007494"
 }

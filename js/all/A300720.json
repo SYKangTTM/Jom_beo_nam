@@ -3,15 +3,15 @@
 "stock_name": "한일시멘트",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.84",
+"Current_PER": "8.07",
 "Current_PER_Rank": "4",
-"Close_Price": "80600",
+"Close_Price": "83000",
 "PER_Target_1": "0",
 "PER_Target_2": "91026",
 "PER_Target_Avr": "45513",
-"Price_over_PERAvg": "0.885461296772351",
-"SRIM_1": "193285",
-"SRIM_2": "160327",
-"SRIM_3": "105195",
-"SRIM_2R": "0.502723507916338"
+"Price_over_PERAvg": "0.91182738997649",
+"SRIM_1": "193792",
+"SRIM_2": "161038",
+"SRIM_3": "106104",
+"SRIM_2R": "0.515406159053846"
 }

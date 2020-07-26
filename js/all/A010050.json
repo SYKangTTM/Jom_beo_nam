@@ -3,15 +3,15 @@
 "stock_name": "우리종금",
 "stock_Div": "기타금융",
 "stock_Div_PER": "6.59",
-"Current_PER": "7.16",
+"Current_PER": "7.05",
 "Current_PER_Rank": "6",
-"Close_Price": "578",
+"Close_Price": "569",
 "PER_Target_1": "495",
 "PER_Target_2": "1191",
 "PER_Target_Avr": "843",
-"Price_over_PERAvg": "0.68564650059312",
-"SRIM_1": "492",
-"SRIM_2": "408",
-"SRIM_3": "268",
-"SRIM_2R": "1.41611555646076"
+"Price_over_PERAvg": "0.67497034400949",
+"SRIM_1": "493",
+"SRIM_2": "410",
+"SRIM_3": "270",
+"SRIM_2R": "1.38790736793553"
 }

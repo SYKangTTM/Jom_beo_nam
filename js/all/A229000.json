@@ -2,16 +2,16 @@
 "stock_code": "A229000",
 "stock_name": "젠큐릭스",
 "stock_Div": "건강관리장비와용품",
-"stock_Div_PER": "83.67",
+"stock_Div_PER": "87.09",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "15700",
-"PER_Target_1": "-135048",
+"Close_Price": "16450",
+"PER_Target_1": "-140568",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-67524",
-"Price_over_PERAvg": "-0.116254961198981",
+"PER_Target_Avr": "-70284",
+"Price_over_PERAvg": "-0.117025211997041",
 "SRIM_1": "29",
 "SRIM_2": "24",
 "SRIM_3": "16",
-"SRIM_2R": "657.730781383011"
+"SRIM_2R": "686.106883621639"
 }

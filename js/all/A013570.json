@@ -3,15 +3,15 @@
 "stock_name": "디와이",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.81",
-"Current_PER_Rank": "10",
-"Close_Price": "3990",
+"Current_PER": "7.82",
+"Current_PER_Rank": "9",
+"Close_Price": "3995",
 "PER_Target_1": "0",
 "PER_Target_2": "7779",
 "PER_Target_Avr": "3890",
-"Price_over_PERAvg": "0.512919398380255",
-"SRIM_1": "12960",
-"SRIM_2": "10750",
-"SRIM_3": "7053",
-"SRIM_2R": "0.371167447929146"
+"Price_over_PERAvg": "0.513562154518576",
+"SRIM_1": "12994",
+"SRIM_2": "10798",
+"SRIM_3": "7114",
+"SRIM_2R": "0.369990973065326"
 }

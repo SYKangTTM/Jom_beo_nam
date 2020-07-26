@@ -3,15 +3,15 @@
 "stock_name": "서린바이오",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "9.26",
+"Current_PER": "10.69",
 "Current_PER_Rank": "1",
-"Close_Price": "11000",
+"Close_Price": "12700",
 "PER_Target_1": "0",
 "PER_Target_2": "33611",
 "PER_Target_Avr": "16806",
-"Price_over_PERAvg": "0.327273809169617",
-"SRIM_1": "7007",
-"SRIM_2": "5812",
-"SRIM_3": "3814",
-"SRIM_2R": "1.89255938641014"
+"Price_over_PERAvg": "0.377852488768558",
+"SRIM_1": "7025",
+"SRIM_2": "5838",
+"SRIM_3": "3847",
+"SRIM_2R": "2.17539392562188"
 }

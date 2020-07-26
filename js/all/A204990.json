@@ -2,16 +2,16 @@
 "stock_code": "A204990",
 "stock_name": "코썬바이오",
 "stock_Div": "제약",
-"stock_Div_PER": "126.68",
+"stock_Div_PER": "132.51",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "1225",
-"PER_Target_1": "-190026",
+"PER_Target_1": "-198772",
 "PER_Target_2": "-34770",
-"PER_Target_Avr": "-112398",
-"Price_over_PERAvg": "-1.08987704407552E-02",
+"PER_Target_Avr": "-116771",
+"Price_over_PERAvg": "-1.04906183898399E-02",
 "SRIM_1": "139",
-"SRIM_2": "115",
-"SRIM_3": "75",
-"SRIM_2R": "10.6517927021188"
+"SRIM_2": "116",
+"SRIM_3": "76",
+"SRIM_2R": "10.6047409845612"
 }

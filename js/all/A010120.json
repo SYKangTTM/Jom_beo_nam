@@ -3,15 +3,15 @@
 "stock_name": "LS ELECTRIC",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "15.98",
+"Current_PER": "18.25",
 "Current_PER_Rank": "10",
-"Close_Price": "52800",
+"Close_Price": "60300",
 "PER_Target_1": "0",
 "PER_Target_2": "60084",
 "PER_Target_Avr": "30042",
-"Price_over_PERAvg": "0.878769722388656",
-"SRIM_1": "47646",
-"SRIM_2": "48670",
-"SRIM_3": "50994",
-"SRIM_2R": "1.08486716892247"
+"Price_over_PERAvg": "1.00359496704614",
+"SRIM_1": "47880",
+"SRIM_2": "49000",
+"SRIM_3": "51549",
+"SRIM_2R": "1.23062300720826"
 }

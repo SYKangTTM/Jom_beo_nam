@@ -3,15 +3,15 @@
 "stock_name": "하이록코리아",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "11.21",
+"Current_PER": "11.17",
 "Current_PER_Rank": "19",
-"Close_Price": "13200",
+"Close_Price": "13150",
 "PER_Target_1": "0",
 "PER_Target_2": "16681",
 "PER_Target_Avr": "8340",
-"Price_over_PERAvg": "0.791319465259877",
-"SRIM_1": "21324",
-"SRIM_2": "19780",
-"SRIM_3": "16740",
-"SRIM_2R": "0.667335814786194"
+"Price_over_PERAvg": "0.788322043042983",
+"SRIM_1": "21428",
+"SRIM_2": "19913",
+"SRIM_3": "16922",
+"SRIM_2R": "0.660361741834053"
 }

@@ -3,15 +3,15 @@
 "stock_name": "디지털대성",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.42",
-"Current_PER_Rank": "3",
-"Close_Price": "6410",
+"Current_PER": "9.91",
+"Current_PER_Rank": "2",
+"Close_Price": "6100",
 "PER_Target_1": "0",
 "PER_Target_2": "9394",
 "PER_Target_Avr": "4697",
-"Price_over_PERAvg": "0.682350436448797",
-"SRIM_1": "9963",
-"SRIM_2": "13050",
-"SRIM_3": "23170",
-"SRIM_2R": "0.491187629378951"
+"Price_over_PERAvg": "0.649350649350649",
+"SRIM_1": "10012",
+"SRIM_2": "13140",
+"SRIM_3": "23422",
+"SRIM_2R": "0.464229194978011"
 }

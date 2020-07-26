@@ -3,15 +3,15 @@
 "stock_name": "대창단조",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "4.69",
+"Current_PER": "4.68",
 "Current_PER_Rank": "1",
-"Close_Price": "26650",
+"Close_Price": "26600",
 "PER_Target_1": "0",
 "PER_Target_2": "35226",
 "PER_Target_Avr": "17613",
-"Price_over_PERAvg": "0.756543462215409",
-"SRIM_1": "61873",
-"SRIM_2": "51323",
-"SRIM_3": "33674",
-"SRIM_2R": "0.519263228848256"
+"Price_over_PERAvg": "0.75512405609493",
+"SRIM_1": "62059",
+"SRIM_2": "51570",
+"SRIM_3": "33978",
+"SRIM_2R": "0.515805133990526"
 }

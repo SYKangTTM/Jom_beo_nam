@@ -2,16 +2,16 @@
 "stock_code": "A222810",
 "stock_name": "한류AI센터",
 "stock_Div": "소프트웨어",
-"stock_Div_PER": "597.98",
+"stock_Div_PER": "586.43",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "555",
-"PER_Target_1": "-886774",
+"Close_Price": "364",
+"PER_Target_1": "-869646",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-443387",
-"Price_over_PERAvg": "-6.25864087129302E-04",
+"PER_Target_Avr": "-434823",
+"Price_over_PERAvg": "-4.18561115672354E-04",
 "SRIM_1": "41",
 "SRIM_2": "34",
 "SRIM_3": "22",
-"SRIM_2R": "16.48516464325"
+"SRIM_2R": "10.7641328495795"
 }

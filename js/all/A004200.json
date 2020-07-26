@@ -1,17 +1,17 @@
 {
 "stock_code": "A004200",
 "stock_name": "고려개발",
-"stock_Div": "건설",
-"stock_Div_PER": "6.33",
-"Current_PER": "5.41",
-"Current_PER_Rank": "19",
+"stock_Div": "가정용기기와용품",
+"stock_Div_PER": "19.56",
+"Current_PER": "",
+"Current_PER_Rank": "8",
 "Close_Price": "11000",
-"PER_Target_1": "11468",
+"PER_Target_1": "35436",
 "PER_Target_2": "174402",
-"PER_Target_Avr": "92935",
-"Price_over_PERAvg": "0.118362296228547",
-"SRIM_1": "8481",
-"SRIM_2": "7035",
-"SRIM_3": "4616",
-"SRIM_2R": "1.56355882263973"
+"PER_Target_Avr": "104919",
+"Price_over_PERAvg": "0.10484278348059",
+"SRIM_1": "8504",
+"SRIM_2": "7066",
+"SRIM_3": "4656",
+"SRIM_2R": "1.55665217977078"
 }

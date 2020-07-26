@@ -3,15 +3,15 @@
 "stock_name": "iMBC",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "27.37",
-"Current_PER_Rank": "10",
-"Close_Price": "2765",
+"Current_PER": "26.28",
+"Current_PER_Rank": "9",
+"Close_Price": "2655",
 "PER_Target_1": "0",
 "PER_Target_2": "4244",
 "PER_Target_Avr": "2122",
-"Price_over_PERAvg": "0.651508011310085",
-"SRIM_1": "2050",
-"SRIM_2": "1700",
-"SRIM_3": "1116",
-"SRIM_2R": "1.62628931375606"
+"Price_over_PERAvg": "0.625589066918002",
+"SRIM_1": "2055",
+"SRIM_2": "1708",
+"SRIM_3": "1125",
+"SRIM_2R": "1.55469269413435"
 }

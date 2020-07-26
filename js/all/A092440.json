@@ -3,15 +3,15 @@
 "stock_name": "기신정기",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.27",
-"Current_PER_Rank": "16",
-"Close_Price": "3055",
+"Current_PER": "10.2",
+"Current_PER_Rank": "17",
+"Close_Price": "3035",
 "PER_Target_1": "0",
 "PER_Target_2": "31161",
 "PER_Target_Avr": "15580",
-"Price_over_PERAvg": "9.80392156862745E-02",
-"SRIM_1": "7336",
-"SRIM_2": "6085",
-"SRIM_3": "3993",
-"SRIM_2R": "0.502024278856795"
+"Price_over_PERAvg": "9.73973877603415E-02",
+"SRIM_1": "7356",
+"SRIM_2": "6112",
+"SRIM_3": "4027",
+"SRIM_2R": "0.496534651037797"
 }

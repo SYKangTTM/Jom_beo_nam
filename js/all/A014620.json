@@ -3,15 +3,15 @@
 "stock_name": "성광벤드",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "21.19",
-"Current_PER_Rank": "31",
-"Close_Price": "7050",
+"Current_PER": "23.15",
+"Current_PER_Rank": "35",
+"Close_Price": "7700",
 "PER_Target_1": "0",
 "PER_Target_2": "16355",
 "PER_Target_Avr": "8178",
-"Price_over_PERAvg": "0.431060837664323",
-"SRIM_1": "12775",
-"SRIM_2": "11375",
-"SRIM_3": "8779",
-"SRIM_2R": "0.619759619954458"
+"Price_over_PERAvg": "0.470804035463161",
+"SRIM_1": "12837",
+"SRIM_2": "11452",
+"SRIM_3": "8874",
+"SRIM_2R": "0.672387053278281"
 }

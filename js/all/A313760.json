@@ -3,15 +3,15 @@
 "stock_name": "윌링스",
 "stock_Div": "에너지장비및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "18.14",
+"Current_PER": "18.84",
 "Current_PER_Rank": "2",
-"Close_Price": "13000",
+"Close_Price": "13500",
 "PER_Target_1": "0",
 "PER_Target_2": "11744",
 "PER_Target_Avr": "5872",
-"Price_over_PERAvg": "1.10694822888283",
-"SRIM_1": "6724",
-"SRIM_2": "5578",
-"SRIM_3": "3660",
-"SRIM_2R": "2.33074668882585"
+"Price_over_PERAvg": "1.14952316076294",
+"SRIM_1": "6742",
+"SRIM_2": "5602",
+"SRIM_3": "3691",
+"SRIM_2R": "2.40969930141806"
 }

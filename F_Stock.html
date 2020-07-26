@@ -29,7 +29,11 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-        <script type="text/javascript" src="js/Stock_info/Stock_Div_Detail.js"></script>
+        <script type="text/javascript" src="js/Stock_Find_C_Div/Stock_C1div.js"></script>
+        <script type="text/javascript" src="js/Stock_Find_C_Div/Stock_C2div.js"></script>
+        <script type="text/javascript" src="js/Stock_Find_C_Div/Stock_C3div.js"></script>
+        <script type="text/javascript" src="js/Stock_Find_C_Div/Stock_C4div.js"></script>
+        
         <script type="text/javascript" src="js/Stock_info/Stock_info_1.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_2.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_3.js"></script>
@@ -129,7 +133,7 @@
         
         <section class="main" style="height: 80vh;">
             <div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 2%;padding-bottom: 2%;">
-                <select id="Find_Stock_Condtion" style="vertical-align: middle;">
+                <select id="Find_Stock_Condtion" style="vertical-align: middle;" onchange="Fun_C_Div()">
                     <option value="F_S_C_1">저PER</option>
                     <option value="F_S_C_2">흑자전환예상</option>
                     <option value="F_S_C_3">SRIM_5년</option>
@@ -144,8 +148,9 @@
             </form>
             
             <section class="banner_section" align="center" style="margin-top:5px;margin-left:5px;margin-right:5px">
-                <ins class="kakao_ad_area" style="display: none;" data-ad-unit="DAN-1jyb0fd2si5v5" data-ad-width="320" data-ad-height="100"></ins>
-                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>            
+                <a href="https://coupa.ng/bGTkkx" target="_blank"><img src="https://ads-partners.coupang.com/banners/244152?subId=&traceId=V0-301-50c6c2b97fba9aee-I244152&w=320&h=50" alt=""></a>
+                <ins class="kakao_ad_area" style="display:none;" data-ad-unit    = "DAN-1jyb0fd2si5v5" data-ad-width   = "320" data-ad-height  = "50"></ins> 
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
             </section>
             
             <section align="center">
@@ -189,21 +194,59 @@
     
     $(document).ready(function () {
         //inventory_WICS에 업종 선택 내용 추가.
-        var stock_div_data = stock_div;
+        var stock_div_data = stock_div1;
         var output = '<select>';
         output += '<option value="All">전체</option>'
-        
-        
-        
         for(var i=0;i<stock_div_data.length;i++){
             output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
         }
         output += '</select>';
-        
-        
-        
         $('#inventory_WICS').html(output);
     });
+    
+    function Fun_C_Div(){
+        var x = document.getElementById("Find_Stock_Condtion").value;
+        if(x == "F_S_C_1"){
+            var stock_div_data = stock_div1;
+            var output = '<select>';
+            output += '<option value="All">전체</option>'
+            for(var i=0;i<stock_div_data.length;i++){
+                output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
+            }
+            output += '</select>';
+            $('#inventory_WICS').html(output);
+        }else if(x == "F_S_C_2"){
+            var stock_div_data = stock_div2;
+            var output = '<select>';
+            output += '<option value="All">전체</option>'
+            for(var i=0;i<stock_div_data.length;i++){
+                output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
+            }
+            output += '</select>';
+            $('#inventory_WICS').html(output);
+        }else if(x == "F_S_C_3"){
+            var stock_div_data = stock_div3;
+            var output = '<select>';
+            output += '<option value="All">전체</option>'
+            for(var i=0;i<stock_div_data.length;i++){
+                output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
+            }
+            output += '</select>';
+            $('#inventory_WICS').html(output);
+        }else if(x == "F_S_C_4"){
+            var stock_div_data = stock_div4;
+            var output = '<select>';
+            output += '<option value="All">전체</option>'
+            for(var i=0;i<stock_div_data.length;i++){
+                output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
+            }
+            output += '</select>';
+            $('#inventory_WICS').html(output);
+        }
+        
+    }
+    
+    
     
     // 스피너보이게하기
     function Search_Stock(){
@@ -225,8 +268,6 @@
         }else if(Con_F_S == "F_S_C_4"){
             F_S_C_4(Div_F_ST);
         }
-        
-        
     }
     
     function sortTable_PER() {

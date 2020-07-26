@@ -3,15 +3,15 @@
 "stock_name": "베뉴지",
 "stock_Div": "백화점과일반상점",
 "stock_Div_PER": "N/A",
-"Current_PER": "13.67",
-"Current_PER_Rank": "4",
-"Close_Price": "1465",
+"Current_PER": "14.65",
+"Current_PER_Rank": "5",
+"Close_Price": "1570",
 "PER_Target_1": "0",
 "PER_Target_2": "1195",
 "PER_Target_Avr": "598",
-"Price_over_PERAvg": "1.22594142259414",
-"SRIM_1": "5792",
-"SRIM_2": "4804",
-"SRIM_3": "3152",
-"SRIM_2R": "0.304948221186403"
+"Price_over_PERAvg": "1.31380753138075",
+"SRIM_1": "5807",
+"SRIM_2": "4825",
+"SRIM_3": "3179",
+"SRIM_2R": "0.325360998166593"
 }

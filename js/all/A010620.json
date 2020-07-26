@@ -3,15 +3,15 @@
 "stock_name": "현대미포조선",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "16.62",
+"Current_PER": "16.94",
 "Current_PER_Rank": "6",
-"Close_Price": "31050",
+"Close_Price": "31650",
 "PER_Target_1": "0",
 "PER_Target_2": "62631",
 "PER_Target_Avr": "31316",
-"Price_over_PERAvg": "0.495760885184653",
-"SRIM_1": "50094",
-"SRIM_2": "46402",
-"SRIM_3": "39144",
-"SRIM_2R": "0.669156101255552"
+"Price_over_PERAvg": "0.505340805671313",
+"SRIM_1": "50338",
+"SRIM_2": "46714",
+"SRIM_3": "39570",
+"SRIM_2R": "0.677525282986013"
 }

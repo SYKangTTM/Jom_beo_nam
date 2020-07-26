@@ -3,15 +3,15 @@
 "stock_name": "에너토크",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "108.92",
+"Current_PER": "112.83",
 "Current_PER_Rank": "55",
-"Close_Price": "3620",
+"Close_Price": "3750",
 "PER_Target_1": "0",
 "PER_Target_2": "2866",
 "PER_Target_Avr": "1433",
-"Price_over_PERAvg": "1.26308443824145",
-"SRIM_1": "3845",
-"SRIM_2": "3189",
-"SRIM_3": "2092",
-"SRIM_2R": "1.13509852987034"
+"Price_over_PERAvg": "1.30844382414515",
+"SRIM_1": "3855",
+"SRIM_2": "3203",
+"SRIM_3": "2111",
+"SRIM_2R": "1.17066765196692"
 }

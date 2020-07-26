@@ -2,16 +2,16 @@
 "stock_code": "A900100",
 "stock_name": "뉴프라이드",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "13.55",
+"stock_Div_PER": "12.83",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "717",
-"PER_Target_1": "-4145",
+"PER_Target_1": "-3925",
 "PER_Target_2": "0",
-"PER_Target_Avr": "-2072",
-"Price_over_PERAvg": "-0.172979493365501",
+"PER_Target_Avr": "-1962",
+"Price_over_PERAvg": "-0.182675159235669",
 "SRIM_1": "299",
-"SRIM_2": "248",
-"SRIM_3": "163",
-"SRIM_2R": "2.89470125814487"
+"SRIM_2": "249",
+"SRIM_3": "164",
+"SRIM_2R": "2.88191461557486"
 }

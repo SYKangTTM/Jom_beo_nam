@@ -3,15 +3,15 @@
 "stock_name": "정상제이엘에스",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "20.55",
-"Current_PER_Rank": "7",
-"Close_Price": "5940",
+"Current_PER": "20.34",
+"Current_PER_Rank": "8",
+"Close_Price": "5880",
 "PER_Target_1": "0",
 "PER_Target_2": "5410",
 "PER_Target_Avr": "2705",
-"Price_over_PERAvg": "1.09796672828096",
-"SRIM_1": "3818",
-"SRIM_2": "4141",
-"SRIM_3": "4942",
-"SRIM_2R": "1.43443777769558"
+"Price_over_PERAvg": "1.08687615526802",
+"SRIM_1": "3837",
+"SRIM_2": "4169",
+"SRIM_3": "4995",
+"SRIM_2R": "1.41034388048215"
 }

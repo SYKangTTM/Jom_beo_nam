@@ -3,15 +3,15 @@
 "stock_name": "쇼박스",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "46.56",
-"Current_PER_Rank": "17",
-"Close_Price": "2840",
+"Current_PER": "44.83",
+"Current_PER_Rank": "18",
+"Close_Price": "2735",
 "PER_Target_1": "0",
 "PER_Target_2": "3253",
 "PER_Target_Avr": "1626",
-"Price_over_PERAvg": "0.87304027051952",
-"SRIM_1": "2630",
-"SRIM_2": "2513",
-"SRIM_3": "2273",
-"SRIM_2R": "1.12998378171027"
+"Price_over_PERAvg": "0.840762373193975",
+"SRIM_1": "2643",
+"SRIM_2": "2530",
+"SRIM_3": "2297",
+"SRIM_2R": "1.08091237386611"
 }

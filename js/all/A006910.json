@@ -3,15 +3,15 @@
 "stock_name": "보성파워텍",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "25.59",
+"Current_PER": "25.87",
 "Current_PER_Rank": "13",
-"Close_Price": "1800",
+"Close_Price": "1820",
 "PER_Target_1": "0",
 "PER_Target_2": "5901",
 "PER_Target_Avr": "2950",
-"Price_over_PERAvg": "0.305033045246568",
-"SRIM_1": "1573",
-"SRIM_2": "1305",
-"SRIM_3": "856",
-"SRIM_2R": "1.37952243268715"
+"Price_over_PERAvg": "0.308422301304864",
+"SRIM_1": "1577",
+"SRIM_2": "1311",
+"SRIM_3": "864",
+"SRIM_2R": "1.38868904523016"
 }

@@ -3,15 +3,15 @@
 "stock_name": "삼화페인트",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "26.16",
+"Current_PER": "26.18",
 "Current_PER_Rank": "15",
-"Close_Price": "4895",
+"Close_Price": "4900",
 "PER_Target_1": "0",
 "PER_Target_2": "11530",
 "PER_Target_Avr": "5765",
-"Price_over_PERAvg": "0.424544666088465",
-"SRIM_1": "11443",
-"SRIM_2": "9492",
-"SRIM_3": "6228",
-"SRIM_2R": "0.515703872581254"
+"Price_over_PERAvg": "0.424978317432784",
+"SRIM_1": "11473",
+"SRIM_2": "9534",
+"SRIM_3": "6282",
+"SRIM_2R": "0.513950314571105"
 }

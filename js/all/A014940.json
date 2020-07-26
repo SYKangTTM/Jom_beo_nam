@@ -3,15 +3,15 @@
 "stock_name": "오리엔탈정공",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.97",
-"Current_PER_Rank": "2",
-"Close_Price": "1255",
+"Current_PER": "8.7",
+"Current_PER_Rank": "3",
+"Close_Price": "1370",
 "PER_Target_1": "0",
 "PER_Target_2": "800",
 "PER_Target_Avr": "400",
-"Price_over_PERAvg": "1.56875",
-"SRIM_1": "623",
-"SRIM_2": "516",
-"SRIM_3": "339",
-"SRIM_2R": "2.43008771549487"
+"Price_over_PERAvg": "1.7125",
+"SRIM_1": "624",
+"SRIM_2": "519",
+"SRIM_3": "342",
+"SRIM_2R": "2.64104712786884"
 }

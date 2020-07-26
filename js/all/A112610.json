@@ -3,15 +3,15 @@
 "stock_name": "씨에스윈드",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "30.92",
-"Current_PER_Rank": "41",
-"Close_Price": "59000",
+"Current_PER": "34.54",
+"Current_PER_Rank": "42",
+"Close_Price": "65900",
 "PER_Target_1": "0",
 "PER_Target_2": "107483",
 "PER_Target_Avr": "53742",
-"Price_over_PERAvg": "0.548924015890885",
-"SRIM_1": "32100",
-"SRIM_2": "38581",
-"SRIM_3": "57285",
-"SRIM_2R": "1.52926702591816"
+"Price_over_PERAvg": "0.61312021435948",
+"SRIM_1": "32259",
+"SRIM_2": "38845",
+"SRIM_3": "57909",
+"SRIM_2R": "1.69647589406131"
 }

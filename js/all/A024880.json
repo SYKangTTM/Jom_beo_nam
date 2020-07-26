@@ -3,15 +3,15 @@
 "stock_name": "케이피에프",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "15.31",
-"Current_PER_Rank": "24",
-"Close_Price": "4310",
+"Current_PER": "14.77",
+"Current_PER_Rank": "23",
+"Close_Price": "4160",
 "PER_Target_1": "0",
 "PER_Target_2": "3969",
 "PER_Target_Avr": "1984",
-"Price_over_PERAvg": "1.08591584782061",
-"SRIM_1": "9060",
-"SRIM_2": "7515",
-"SRIM_3": "4931",
-"SRIM_2R": "0.573505996725546"
+"Price_over_PERAvg": "1.04812295288486",
+"SRIM_1": "9084",
+"SRIM_2": "7549",
+"SRIM_3": "4974",
+"SRIM_2R": "0.551101233992329"
 }

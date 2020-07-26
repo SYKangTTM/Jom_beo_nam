@@ -3,15 +3,15 @@
 "stock_name": "우정바이오",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "289.66",
-"Current_PER_Rank": "12",
-"Close_Price": "8560",
+"Current_PER": "286.95",
+"Current_PER_Rank": "13",
+"Close_Price": "8480",
 "PER_Target_1": "0",
 "PER_Target_2": "5400",
 "PER_Target_Avr": "2700",
-"Price_over_PERAvg": "1.58518518518519",
-"SRIM_1": "2212",
-"SRIM_2": "1835",
-"SRIM_3": "1204",
-"SRIM_2R": "4.6650688232071"
+"Price_over_PERAvg": "1.57037037037037",
+"SRIM_1": "2218",
+"SRIM_2": "1843",
+"SRIM_3": "1214",
+"SRIM_2R": "4.60105582316521"
 }

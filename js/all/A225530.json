@@ -3,15 +3,15 @@
 "stock_name": "보광산업",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "30.97",
-"Current_PER_Rank": "16",
-"Close_Price": "5010",
+"Current_PER": "37.02",
+"Current_PER_Rank": "17",
+"Close_Price": "5990",
 "PER_Target_1": "0",
 "PER_Target_2": "4292",
 "PER_Target_Avr": "2146",
-"Price_over_PERAvg": "1.16728797763281",
-"SRIM_1": "1693",
-"SRIM_2": "1404",
-"SRIM_3": "922",
-"SRIM_2R": "3.56716972521587"
+"Price_over_PERAvg": "1.39561975768872",
+"SRIM_1": "1698",
+"SRIM_2": "1411",
+"SRIM_3": "929",
+"SRIM_2R": "4.24610011357901"
 }

@@ -3,15 +3,15 @@
 "stock_name": "KSS해운",
 "stock_Div": "해운사",
 "stock_Div_PER": "N/A",
-"Current_PER": "8.44",
+"Current_PER": "8.2",
 "Current_PER_Rank": "3",
-"Close_Price": "8520",
+"Close_Price": "8270",
 "PER_Target_1": "0",
 "PER_Target_2": "10222",
 "PER_Target_Avr": "5111",
-"Price_over_PERAvg": "0.833496380356095",
-"SRIM_1": "18179",
-"SRIM_2": "21242",
-"SRIM_3": "29724",
-"SRIM_2R": "0.401085403795023"
+"Price_over_PERAvg": "0.80903932694189",
+"SRIM_1": "18268",
+"SRIM_2": "21388",
+"SRIM_3": "30048",
+"SRIM_2R": "0.386669207025525"
 }

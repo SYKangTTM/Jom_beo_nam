@@ -3,15 +3,15 @@
 "stock_name": "리드코프",
 "stock_Div": "기타금융",
 "stock_Div_PER": "6.59",
-"Current_PER": "3.82",
+"Current_PER": "4.08",
 "Current_PER_Rank": "1",
-"Close_Price": "6340",
+"Close_Price": "6760",
 "PER_Target_1": "9585",
 "PER_Target_2": "7866",
 "PER_Target_Avr": "8726",
-"Price_over_PERAvg": "0.726605925161882",
-"SRIM_1": "12996",
-"SRIM_2": "10780",
-"SRIM_3": "7073",
-"SRIM_2R": "0.588146478820997"
+"Price_over_PERAvg": "0.774740702538536",
+"SRIM_1": "13030",
+"SRIM_2": "10827",
+"SRIM_3": "7134",
+"SRIM_2R": "0.624338762146946"
 }

@@ -3,15 +3,15 @@
 "stock_name": "푸른저축은행",
 "stock_Div": "기타금융",
 "stock_Div_PER": "6.59",
-"Current_PER": "5.58",
+"Current_PER": "5.57",
 "Current_PER_Rank": "3",
-"Close_Price": "7840",
+"Close_Price": "7830",
 "PER_Target_1": "10211",
 "PER_Target_2": "8925",
 "PER_Target_Avr": "9568",
-"Price_over_PERAvg": "0.819397993311037",
-"SRIM_1": "20068",
-"SRIM_2": "16646",
-"SRIM_3": "10922",
-"SRIM_2R": "0.470981414693872"
+"Price_over_PERAvg": "0.818352842809365",
+"SRIM_1": "20129",
+"SRIM_2": "16727",
+"SRIM_3": "11021",
+"SRIM_2R": "0.468102876171611"
 }

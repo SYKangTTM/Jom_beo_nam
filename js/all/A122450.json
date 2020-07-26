@@ -3,15 +3,15 @@
 "stock_name": "KMH",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.88",
+"Current_PER": "11.05",
 "Current_PER_Rank": "4",
-"Close_Price": "7490",
+"Close_Price": "7610",
 "PER_Target_1": "0",
 "PER_Target_2": "4720",
 "PER_Target_Avr": "2360",
-"Price_over_PERAvg": "1.58686440677966",
-"SRIM_1": "8721",
-"SRIM_2": "7234",
-"SRIM_3": "4747",
-"SRIM_2R": "1.03536684782331"
+"Price_over_PERAvg": "1.61228813559322",
+"SRIM_1": "8744",
+"SRIM_2": "7266",
+"SRIM_3": "4788",
+"SRIM_2R": "1.04730807869339"
 }

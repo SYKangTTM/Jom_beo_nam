@@ -3,15 +3,15 @@
 "stock_name": "에스에프에이",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "9.97",
-"Current_PER_Rank": "15",
-"Close_Price": "33750",
+"Current_PER": "9.94",
+"Current_PER_Rank": "16",
+"Close_Price": "33650",
 "PER_Target_1": "0",
 "PER_Target_2": "60259",
 "PER_Target_Avr": "30130",
-"Price_over_PERAvg": "0.56008231135598",
-"SRIM_1": "36659",
-"SRIM_2": "42676",
-"SRIM_3": "59239",
-"SRIM_2R": "0.790849973719394"
+"Price_over_PERAvg": "0.558422808211222",
+"SRIM_1": "36840",
+"SRIM_2": "42968",
+"SRIM_3": "59884",
+"SRIM_2R": "0.783146478459687"
 }

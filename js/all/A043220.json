@@ -3,15 +3,15 @@
 "stock_name": "에이치엘비파워",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "57.03",
+"Current_PER": "54.29",
 "Current_PER_Rank": "49",
-"Close_Price": "1250",
+"Close_Price": "1190",
 "PER_Target_1": "0",
 "PER_Target_2": "1641",
 "PER_Target_Avr": "820",
-"Price_over_PERAvg": "0.761730652041438",
-"SRIM_1": "344",
-"SRIM_2": "285",
-"SRIM_3": "187",
-"SRIM_2R": "4.38144691594188"
+"Price_over_PERAvg": "0.725167580743449",
+"SRIM_1": "345",
+"SRIM_2": "287",
+"SRIM_3": "189",
+"SRIM_2R": "4.15271247324154"
 }

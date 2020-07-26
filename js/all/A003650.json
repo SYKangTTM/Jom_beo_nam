@@ -3,15 +3,15 @@
 "stock_name": "미창석유",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.5",
+"Current_PER": "7.62",
 "Current_PER_Rank": "4",
-"Close_Price": "57100",
+"Close_Price": "58000",
 "PER_Target_1": "0",
 "PER_Target_2": "87564",
 "PER_Target_Avr": "43782",
-"Price_over_PERAvg": "0.652094468046229",
-"SRIM_1": "153520",
-"SRIM_2": "127342",
-"SRIM_3": "83553",
-"SRIM_2R": "0.448399003240859"
+"Price_over_PERAvg": "0.662372664565346",
+"SRIM_1": "153958",
+"SRIM_2": "127937",
+"SRIM_3": "84294",
+"SRIM_2R": "0.453348272864459"
 }

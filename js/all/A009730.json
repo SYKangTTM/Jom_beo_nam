@@ -2,16 +2,16 @@
 "stock_code": "A009730",
 "stock_name": "코센",
 "stock_Div": "비철금속",
-"stock_Div_PER": "18.01",
+"stock_Div_PER": "18.98",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "301",
-"PER_Target_1": "-14440",
+"Close_Price": "324",
+"PER_Target_1": "-15218",
 "PER_Target_2": "-23961",
-"PER_Target_Avr": "-19200",
-"Price_over_PERAvg": "-1.56766750865863E-02",
+"PER_Target_Avr": "-19590",
+"Price_over_PERAvg": "-0.016539472676689",
 "SRIM_1": "24",
 "SRIM_2": "20",
 "SRIM_3": "13",
-"SRIM_2R": "15.0586953639422"
+"SRIM_2R": "16.1377588679541"
 }

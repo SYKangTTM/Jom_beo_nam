@@ -3,15 +3,15 @@
 "stock_name": "노루페인트",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.52",
-"Current_PER_Rank": "3",
-"Close_Price": "7560",
+"Current_PER": "7.33",
+"Current_PER_Rank": "2",
+"Close_Price": "7370",
 "PER_Target_1": "0",
 "PER_Target_2": "8361",
 "PER_Target_Avr": "4180",
-"Price_over_PERAvg": "0.904198062432723",
-"SRIM_1": "15917",
-"SRIM_2": "16177",
-"SRIM_3": "16763",
-"SRIM_2R": "0.467323215148155"
+"Price_over_PERAvg": "0.881473507953594",
+"SRIM_1": "15996",
+"SRIM_2": "16287",
+"SRIM_3": "16945",
+"SRIM_2R": "0.452511060230666"
 }

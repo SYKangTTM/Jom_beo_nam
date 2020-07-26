@@ -2,16 +2,16 @@
 "stock_code": "A032580",
 "stock_name": "피델릭스",
 "stock_Div": "반도체와반도체장비",
-"stock_Div_PER": "17.47",
+"stock_Div_PER": "17.46",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1820",
+"Close_Price": "1750",
 "PER_Target_1": "-846",
 "PER_Target_2": "-2401",
 "PER_Target_Avr": "-1624",
-"Price_over_PERAvg": "-1.1210348013551",
-"SRIM_1": "1080",
-"SRIM_2": "896",
-"SRIM_3": "588",
-"SRIM_2R": "2.03104464383181"
+"Price_over_PERAvg": "-1.07791807822605",
+"SRIM_1": "1083",
+"SRIM_2": "900",
+"SRIM_3": "593",
+"SRIM_2R": "1.94430095714819"
 }

@@ -3,15 +3,15 @@
 "stock_name": "SK디스커버리",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "2.99",
+"Current_PER": "3.98",
 "Current_PER_Rank": "1",
-"Close_Price": "35250",
+"Close_Price": "46950",
 "PER_Target_1": "0",
 "PER_Target_2": "78818",
 "PER_Target_Avr": "39409",
-"Price_over_PERAvg": "0.447232865589079",
-"SRIM_1": "74552",
-"SRIM_2": "61840",
-"SRIM_3": "40575",
-"SRIM_2R": "0.57002100925009"
+"Price_over_PERAvg": "0.595676114593113",
+"SRIM_1": "74748",
+"SRIM_2": "62114",
+"SRIM_3": "40925",
+"SRIM_2R": "0.755865803535415"
 }

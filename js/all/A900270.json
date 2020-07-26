@@ -3,15 +3,15 @@
 "stock_name": "헝셩그룹",
 "stock_Div": "레저용장비와제품",
 "stock_Div_PER": "N/A",
-"Current_PER": "2.04",
+"Current_PER": "1.96",
 "Current_PER_Rank": "1",
-"Close_Price": "724",
+"Close_Price": "695",
 "PER_Target_1": "0",
 "PER_Target_2": "1859",
 "PER_Target_Avr": "930",
-"Price_over_PERAvg": "0.389456697149005",
-"SRIM_1": "3137",
-"SRIM_2": "2602",
-"SRIM_3": "1707",
-"SRIM_2R": "0.278218077980007"
+"Price_over_PERAvg": "0.373856912318451",
+"SRIM_1": "3145",
+"SRIM_2": "2614",
+"SRIM_3": "1722",
+"SRIM_2R": "0.265894248979381"
 }

@@ -3,15 +3,15 @@
 "stock_name": "강남제비스코",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "7.51",
-"Current_PER_Rank": "2",
-"Close_Price": "14700",
+"Current_PER": "7.66",
+"Current_PER_Rank": "3",
+"Close_Price": "15000",
 "PER_Target_1": "0",
 "PER_Target_2": "16646",
 "PER_Target_Avr": "8323",
-"Price_over_PERAvg": "0.88309503784693",
-"SRIM_1": "73167",
-"SRIM_2": "60691",
-"SRIM_3": "39821",
-"SRIM_2R": "0.242211732575598"
+"Price_over_PERAvg": "0.901117385558092",
+"SRIM_1": "73359",
+"SRIM_2": "60960",
+"SRIM_3": "40165",
+"SRIM_2R": "0.246063082488537"
 }

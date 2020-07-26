@@ -3,15 +3,15 @@
 "stock_name": "대양전기공업",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "8.39",
-"Current_PER_Rank": "3",
-"Close_Price": "11250",
+"Current_PER": "8.5",
+"Current_PER_Rank": "2",
+"Close_Price": "11400",
 "PER_Target_1": "0",
 "PER_Target_2": "11618",
 "PER_Target_Avr": "5809",
-"Price_over_PERAvg": "0.968325012911",
-"SRIM_1": "20234",
-"SRIM_2": "16784",
-"SRIM_3": "11012",
-"SRIM_2R": "0.670284650043805"
+"Price_over_PERAvg": "0.981236013083147",
+"SRIM_1": "20287",
+"SRIM_2": "16858",
+"SRIM_3": "11108",
+"SRIM_2R": "0.676221480809601"
 }

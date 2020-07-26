@@ -3,15 +3,15 @@
 "stock_name": "고려시멘트",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "39.47",
+"Current_PER": "40.78",
 "Current_PER_Rank": "19",
-"Close_Price": "3335",
+"Close_Price": "3445",
 "PER_Target_1": "0",
 "PER_Target_2": "3499",
 "PER_Target_Avr": "1750",
-"Price_over_PERAvg": "0.953129465561589",
-"SRIM_1": "2496",
-"SRIM_2": "2071",
-"SRIM_3": "1359",
-"SRIM_2R": "1.61052262056638"
+"Price_over_PERAvg": "0.984567019148328",
+"SRIM_1": "2503",
+"SRIM_2": "2080",
+"SRIM_3": "1370",
+"SRIM_2R": "1.65629456483548"
 }

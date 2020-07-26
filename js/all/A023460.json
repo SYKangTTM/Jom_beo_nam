@@ -3,15 +3,15 @@
 "stock_name": "CNH",
 "stock_Div": "±‚≈∏±›¿∂",
 "stock_Div_PER": "6.59",
-"Current_PER": "1569.11",
+"Current_PER": "1558.29",
 "Current_PER_Rank": "7",
-"Close_Price": "1450",
+"Close_Price": "1440",
 "PER_Target_1": "2592",
 "PER_Target_2": "10942",
 "PER_Target_Avr": "6767",
-"Price_over_PERAvg": "0.21427515885917",
-"SRIM_1": "2654",
-"SRIM_2": "2200",
-"SRIM_3": "1441",
-"SRIM_2R": "0.659176623406047"
+"Price_over_PERAvg": "0.212797399142899",
+"SRIM_1": "2662",
+"SRIM_2": "2212",
+"SRIM_3": "1457",
+"SRIM_2R": "0.651003301250366"
 }

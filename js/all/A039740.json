@@ -3,15 +3,15 @@
 "stock_name": "한국정보공학",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "21.45",
-"Current_PER_Rank": "3",
-"Close_Price": "2930",
+"Current_PER": "23.02",
+"Current_PER_Rank": "4",
+"Close_Price": "3145",
 "PER_Target_1": "0",
 "PER_Target_2": "11154",
 "PER_Target_Avr": "5577",
-"Price_over_PERAvg": "0.262686031916801",
-"SRIM_1": "4539",
-"SRIM_2": "3765",
-"SRIM_3": "2470",
-"SRIM_2R": "0.778207601587652"
+"Price_over_PERAvg": "0.281961628115474",
+"SRIM_1": "4551",
+"SRIM_2": "3782",
+"SRIM_3": "2492",
+"SRIM_2R": "0.831621785546389"
 }

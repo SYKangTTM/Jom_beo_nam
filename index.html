@@ -61,6 +61,7 @@
         <meta name="keywords" content="가치투자, 주식발굴, 종목발굴, 목표매도가, 주식아빠, 좀버남, 저평가주, 퀀트투자, SRIM, PER, PBR, NCAV, PCR" />
         <meta name="description" content="내가 보유하고 있는 종목의 목표매도가는 얼마 일까요? PER? PBR? SRIM? 각종 방법으로 계산한 목표가를 확인해보세요. 또한, 다양한 조건을 활용하여 저평가되어 있는 종목을 한번 찾아보세요. 가치투자, 퀀트투자를 통해 수익을 가져올 수 있는 기회를 잡으세요." />
         <meta name="author" content="좀버남(주식아빠)" />
+        
     </head>
 
     <body>
@@ -78,12 +79,16 @@
                     모바일 환경에서 최적화 되어 있습니다.<br />
                     본 자료는 참조로 사용하시길 바랍니다.<br />
                     제공하는 목표가 정보는 개인적인 분석에 의해 작성되었으며, 이를 통한
-                    해당종목의 매수추천을 의미하는 것은 아닙니다. <br />
-                    Updated : 2020-07-19<br />
+                    해당종목의 매수/매도를 추천 하는 것은 아닙니다. <br />
+                    
+                </p>
+                <p style="color:red;font-weight:bold;"> Updated : 2020-07-26<br /></p>
+                <p>
                     <br />
                     검색 결과에서 제공되는 Table의 설명은 아래와 같습니다.<br>
-                    더 자세한 설명은 개발자의 블로그에서 확인이 가능합니다.(도움말참고)
+                    더 자세한 설명은 개발자의 블로그에서 확인이 가능합니다.(도움말참고) 
                 </p>
+
                 <p>
                     <img src="images/manual/Table_Explain.png" alt="" style="width: 100%;" />
                 </p>
@@ -714,6 +719,8 @@
 </script>
 
 <script type="text/javascript">
+    var Click_count;
+    Click_count=0;
     function stock_det(clicked_id) {
         document.getElementById('filter-records_1').innerHTML = '';
         var x1 = document.getElementById('filter-records');
@@ -726,6 +733,12 @@
         var s_info = xx.split(',');
 
         var detail_path = 'js/all/' + s_info[0] + '.json';
+        
+        
+        Click_count += 1;
+        if(Click_count ==10){
+        }
+            
  
         $.getJSON(detail_path, function (jd) {
             document.getElementById('filter-records').innerHTML = '';

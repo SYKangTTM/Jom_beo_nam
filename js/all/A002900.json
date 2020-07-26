@@ -3,15 +3,15 @@
 "stock_name": "동양물산",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "26.19",
-"Current_PER_Rank": "40",
-"Close_Price": "1070",
+"Current_PER": "25.83",
+"Current_PER_Rank": "38",
+"Close_Price": "1055",
 "PER_Target_1": "0",
 "PER_Target_2": "2437",
 "PER_Target_Avr": "1218",
-"Price_over_PERAvg": "0.439064423471481",
-"SRIM_1": "820",
-"SRIM_2": "680",
-"SRIM_3": "446",
-"SRIM_2R": "1.57269552404174"
+"Price_over_PERAvg": "0.432909314731227",
+"SRIM_1": "822",
+"SRIM_2": "683",
+"SRIM_3": "450",
+"SRIM_2R": "1.54379877636897"
 }

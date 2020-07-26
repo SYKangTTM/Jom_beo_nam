@@ -3,15 +3,15 @@
 "stock_name": "동화기업",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "46.56",
-"Current_PER_Rank": "21",
-"Close_Price": "46200",
+"Current_PER": "47.67",
+"Current_PER_Rank": "20",
+"Close_Price": "47300",
 "PER_Target_1": "0",
 "PER_Target_2": "14103",
 "PER_Target_Avr": "7052",
-"Price_over_PERAvg": "3.27589874494788",
-"SRIM_1": "29196",
-"SRIM_2": "29563",
-"SRIM_3": "30386",
-"SRIM_2R": "1.56276265960131"
+"Price_over_PERAvg": "3.35389633411331",
+"SRIM_1": "29339",
+"SRIM_2": "29763",
+"SRIM_3": "30716",
+"SRIM_2R": "1.58920208183386"
 }

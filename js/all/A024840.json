@@ -3,15 +3,15 @@
 "stock_name": "KBI메탈",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.58",
+"Current_PER": "6.27",
 "Current_PER_Rank": "1",
-"Close_Price": "1340",
+"Close_Price": "1275",
 "PER_Target_1": "0",
 "PER_Target_2": "2945",
 "PER_Target_Avr": "1472",
-"Price_over_PERAvg": "0.455008488964346",
-"SRIM_1": "2475",
-"SRIM_2": "2053",
-"SRIM_3": "1347",
-"SRIM_2R": "0.652760083922604"
+"Price_over_PERAvg": "0.432937181663837",
+"SRIM_1": "2481",
+"SRIM_2": "2062",
+"SRIM_3": "1359",
+"SRIM_2R": "0.618352805634179"
 }

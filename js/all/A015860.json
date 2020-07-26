@@ -3,15 +3,15 @@
 "stock_name": "일진홀딩스",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.85",
-"Current_PER_Rank": "5",
-"Close_Price": "4640",
+"Current_PER": "11.42",
+"Current_PER_Rank": "6",
+"Close_Price": "4885",
 "PER_Target_1": "0",
 "PER_Target_2": "12674",
 "PER_Target_Avr": "6337",
-"Price_over_PERAvg": "0.366103834622061",
-"SRIM_1": "5857",
-"SRIM_2": "5606",
-"SRIM_3": "5088",
-"SRIM_2R": "0.827720241837806"
+"Price_over_PERAvg": "0.385434748303614",
+"SRIM_1": "5886",
+"SRIM_2": "5644",
+"SRIM_3": "5143",
+"SRIM_2R": "0.865583760482607"
 }

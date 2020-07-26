@@ -3,15 +3,15 @@
 "stock_name": "에이테크솔루션",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "56.66",
+"Current_PER": "49.44",
 "Current_PER_Rank": "48",
-"Close_Price": "10350",
+"Close_Price": "9030",
 "PER_Target_1": "0",
 "PER_Target_2": "12816",
 "PER_Target_Avr": "6408",
-"Price_over_PERAvg": "0.807584269662921",
-"SRIM_1": "6442",
-"SRIM_2": "5343",
-"SRIM_3": "3506",
-"SRIM_2R": "1.93696696398109"
+"Price_over_PERAvg": "0.704588014981273",
+"SRIM_1": "6459",
+"SRIM_2": "5367",
+"SRIM_3": "3536",
+"SRIM_2R": "1.68246862369248"
 }
