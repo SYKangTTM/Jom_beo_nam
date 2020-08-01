@@ -3,15 +3,15 @@
 "stock_name": "광명전기",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "9.81",
-"Current_PER_Rank": "4",
-"Close_Price": "1905",
+"Current_PER": "9.73",
+"Current_PER_Rank": "3",
+"Close_Price": "1890",
 "PER_Target_1": "0",
 "PER_Target_2": "3986",
 "PER_Target_Avr": "1993",
-"Price_over_PERAvg": "0.477922729553437",
-"SRIM_1": "2041",
-"SRIM_2": "1696",
-"SRIM_3": "1118",
-"SRIM_2R": "1.1230216341159"
+"Price_over_PERAvg": "0.474159558454591",
+"SRIM_1": "2380",
+"SRIM_2": "2393",
+"SRIM_3": "2421",
+"SRIM_2R": "0.789954676542918"
 }

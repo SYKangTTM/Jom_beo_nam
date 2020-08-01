@@ -3,15 +3,15 @@
 "stock_name": "극동유화",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.63",
+"Current_PER": "6.66",
 "Current_PER_Rank": "3",
-"Close_Price": "3070",
+"Close_Price": "3085",
 "PER_Target_1": "0",
 "PER_Target_2": "3239",
 "PER_Target_Avr": "1620",
-"Price_over_PERAvg": "0.947823402284656",
-"SRIM_1": "4524",
-"SRIM_2": "3759",
-"SRIM_3": "2477",
-"SRIM_2R": "0.816715350593373"
+"Price_over_PERAvg": "0.952454461253473",
+"SRIM_1": "5446",
+"SRIM_2": "5699",
+"SRIM_3": "6294",
+"SRIM_2R": "0.541360153715157"
 }

@@ -3,15 +3,15 @@
 "stock_name": "일진전기",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "8.6",
+"Current_PER": "8.74",
 "Current_PER_Rank": "2",
-"Close_Price": "2805",
+"Close_Price": "2850",
 "PER_Target_1": "0",
 "PER_Target_2": "5956",
 "PER_Target_Avr": "2978",
-"Price_over_PERAvg": "0.470953660174614",
-"SRIM_1": "7418",
-"SRIM_2": "6164",
-"SRIM_3": "4061",
-"SRIM_2R": "0.455050861279043"
+"Price_over_PERAvg": "0.478509066487576",
+"SRIM_1": "7676",
+"SRIM_2": "6647",
+"SRIM_3": "4813",
+"SRIM_2R": "0.428789863434842"
 }

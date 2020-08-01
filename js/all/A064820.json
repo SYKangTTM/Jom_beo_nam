@@ -3,15 +3,15 @@
 "stock_name": "케이프",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "24",
+"Current_PER": "24.48",
 "Current_PER_Rank": "9",
-"Close_Price": "3265",
+"Close_Price": "3330",
 "PER_Target_1": "0",
 "PER_Target_2": "7887",
 "PER_Target_Avr": "3944",
-"Price_over_PERAvg": "0.413972359579054",
-"SRIM_1": "4827",
-"SRIM_2": "4011",
-"SRIM_3": "2643",
-"SRIM_2R": "0.813933117050655"
+"Price_over_PERAvg": "0.422213769494104",
+"SRIM_1": "5043",
+"SRIM_2": "4420",
+"SRIM_3": "3290",
+"SRIM_2R": "0.75341185007026"
 }

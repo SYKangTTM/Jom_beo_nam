@@ -3,15 +3,15 @@
 "stock_name": "진로발효",
 "stock_Div": "음료",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.34",
+"Current_PER": "14.39",
 "Current_PER_Rank": "2",
-"Close_Price": "29900",
+"Close_Price": "30000",
 "PER_Target_1": "0",
 "PER_Target_2": "30063",
 "PER_Target_Avr": "15032",
-"Price_over_PERAvg": "0.994578052755879",
-"SRIM_1": "10727",
-"SRIM_2": "8914",
-"SRIM_3": "5873",
-"SRIM_2R": "3.35420112595046"
+"Price_over_PERAvg": "0.997904400758407",
+"SRIM_1": "14758",
+"SRIM_2": "18240",
+"SRIM_3": "28711",
+"SRIM_2R": "1.64475840736177"
 }

@@ -2,16 +2,16 @@
 "stock_code": "A101670",
 "stock_name": "코리아에스이",
 "stock_Div": "건설",
-"stock_Div_PER": "6.42",
+"stock_Div_PER": "6.4",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "1260",
+"Close_Price": "1220",
 "PER_Target_1": "-213",
 "PER_Target_2": "-1034",
 "PER_Target_Avr": "-624",
-"Price_over_PERAvg": "-2.02085004009623",
-"SRIM_1": "1595",
-"SRIM_2": "1325",
-"SRIM_3": "873",
-"SRIM_2R": "0.950934110009837"
+"Price_over_PERAvg": "-1.95669607056937",
+"SRIM_1": "1316",
+"SRIM_2": "858",
+"SRIM_3": "316",
+"SRIM_2R": "1.42220236438253"
 }

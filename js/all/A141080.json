@@ -3,15 +3,15 @@
 "stock_name": "레고켐바이오",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "134.78",
-"Current_PER_Rank": "11",
-"Close_Price": "57900",
+"Current_PER": "134.09",
+"Current_PER_Rank": "10",
+"Close_Price": "57600",
 "PER_Target_1": "0",
 "PER_Target_2": "28300",
 "PER_Target_Avr": "14150",
-"Price_over_PERAvg": "2.04593639575972",
-"SRIM_1": "5880",
-"SRIM_2": "6181",
-"SRIM_3": "6895",
-"SRIM_2R": "9.36744691496537"
+"Price_over_PERAvg": "2.03533568904594",
+"SRIM_1": "5890",
+"SRIM_2": "6194",
+"SRIM_3": "6913",
+"SRIM_2R": "9.29958480358998"
 }

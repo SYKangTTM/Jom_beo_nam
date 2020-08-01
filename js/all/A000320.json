@@ -3,15 +3,15 @@
 "stock_name": "노루홀딩스",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.62",
+"Current_PER": "14.6",
 "Current_PER_Rank": "12",
-"Close_Price": "9300",
+"Close_Price": "9290",
 "PER_Target_1": "0",
 "PER_Target_2": "6151",
 "PER_Target_Avr": "3076",
-"Price_over_PERAvg": "1.5119492765404",
-"SRIM_1": "27592",
-"SRIM_2": "24844",
-"SRIM_3": "19663",
-"SRIM_2R": "0.374330240059405"
+"Price_over_PERAvg": "1.51032352463014",
+"SRIM_1": "27642",
+"SRIM_2": "24896",
+"SRIM_3": "19714",
+"SRIM_2R": "0.373155812909677"
 }

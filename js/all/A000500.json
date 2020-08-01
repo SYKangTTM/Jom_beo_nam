@@ -3,15 +3,15 @@
 "stock_name": "가온전선",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "12.54",
-"Current_PER_Rank": "7",
-"Close_Price": "16950",
+"Current_PER": "12.28",
+"Current_PER_Rank": "6",
+"Close_Price": "16600",
 "PER_Target_1": "0",
 "PER_Target_2": "239316",
 "PER_Target_Avr": "119658",
-"Price_over_PERAvg": "7.08268565411423E-02",
-"SRIM_1": "59129",
-"SRIM_2": "49135",
-"SRIM_3": "32374",
-"SRIM_2R": "0.344964965407278"
+"Price_over_PERAvg": "6.93643550786408E-02",
+"SRIM_1": "61185",
+"SRIM_2": "52981",
+"SRIM_3": "38369",
+"SRIM_2R": "0.313318436670811"
 }

@@ -2,7 +2,7 @@
 "stock_code": "A044180",
 "stock_name": "KD",
 "stock_Div": "°Ç¼³",
-"stock_Div_PER": "6.42",
+"stock_Div_PER": "6.4",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "495",
@@ -10,8 +10,8 @@
 "PER_Target_2": "-3487",
 "PER_Target_Avr": "-1880",
 "Price_over_PERAvg": "-0.26322786492954",
-"SRIM_1": "393",
-"SRIM_2": "327",
-"SRIM_3": "215",
-"SRIM_2R": "1.51602476471387"
+"SRIM_1": "280",
+"SRIM_2": "151",
+"SRIM_3": "35",
+"SRIM_2R": "3.2819722973935"
 }

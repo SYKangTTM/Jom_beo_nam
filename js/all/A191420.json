@@ -3,15 +3,15 @@
 "stock_name": "테고사이언스",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "201.65",
+"Current_PER": "189.27",
 "Current_PER_Rank": "9",
-"Close_Price": "31750",
+"Close_Price": "29800",
 "PER_Target_1": "0",
 "PER_Target_2": "18835",
 "PER_Target_Avr": "9418",
-"Price_over_PERAvg": "1.68569153172286",
-"SRIM_1": "5377",
-"SRIM_2": "4468",
-"SRIM_3": "2944",
-"SRIM_2R": "7.10637225988147"
+"Price_over_PERAvg": "1.58216087071941",
+"SRIM_1": "5675",
+"SRIM_2": "5039",
+"SRIM_3": "3863",
+"SRIM_2R": "5.91417725543834"
 }

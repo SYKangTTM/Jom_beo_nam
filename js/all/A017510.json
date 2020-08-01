@@ -3,15 +3,15 @@
 "stock_name": "세명전기",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "28.14",
+"Current_PER": "28.39",
 "Current_PER_Rank": "14",
-"Close_Price": "3950",
+"Close_Price": "3985",
 "PER_Target_1": "0",
 "PER_Target_2": "5182",
 "PER_Target_Avr": "2591",
-"Price_over_PERAvg": "0.762253956001544",
-"SRIM_1": "4241",
-"SRIM_2": "3524",
-"SRIM_3": "2322",
-"SRIM_2R": "1.12092743448007"
+"Price_over_PERAvg": "0.769008104978773",
+"SRIM_1": "4498",
+"SRIM_2": "4017",
+"SRIM_3": "3121",
+"SRIM_2R": "0.992004950262542"
 }

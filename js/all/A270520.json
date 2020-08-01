@@ -3,15 +3,15 @@
 "stock_name": "지엔원에너지",
 "stock_Div": "에너지장비및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "27.62",
+"Current_PER": "26.61",
 "Current_PER_Rank": "5",
-"Close_Price": "2720",
+"Close_Price": "2620",
 "PER_Target_1": "0",
 "PER_Target_2": "3301",
 "PER_Target_Avr": "1650",
-"Price_over_PERAvg": "0.823992729475916",
-"SRIM_1": "594",
-"SRIM_2": "493",
-"SRIM_3": "325",
-"SRIM_2R": "5.51170231913092"
+"Price_over_PERAvg": "0.793698879127537",
+"SRIM_1": "202",
+"SRIM_2": "42",
+"SRIM_3": "1",
+"SRIM_2R": "62.525906092236"
 }

@@ -3,15 +3,15 @@
 "stock_name": "흥국에프엔비",
 "stock_Div": "음료",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.87",
+"Current_PER": "14.4",
 "Current_PER_Rank": "3",
-"Close_Price": "1610",
+"Close_Price": "1560",
 "PER_Target_1": "0",
 "PER_Target_2": "3389",
 "PER_Target_Avr": "1694",
-"Price_over_PERAvg": "0.47506639126586",
-"SRIM_1": "1653",
-"SRIM_2": "1374",
-"SRIM_3": "905",
-"SRIM_2R": "1.17204575843796"
+"Price_over_PERAvg": "0.460312776630274",
+"SRIM_1": "1862",
+"SRIM_2": "1794",
+"SRIM_3": "1651",
+"SRIM_2R": "0.869742425522403"
 }

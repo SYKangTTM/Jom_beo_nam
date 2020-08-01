@@ -3,15 +3,15 @@
 "stock_name": "창해에탄올",
 "stock_Div": "음료",
 "stock_Div_PER": "N/A",
-"Current_PER": "5.74",
+"Current_PER": "5.95",
 "Current_PER_Rank": "1",
-"Close_Price": "13250",
+"Close_Price": "13750",
 "PER_Target_1": "0",
 "PER_Target_2": "85028",
 "PER_Target_Avr": "42514",
-"Price_over_PERAvg": "0.155831020369761",
-"SRIM_1": "14846",
-"SRIM_2": "12337",
-"SRIM_3": "8128",
-"SRIM_2R": "1.07401011786557"
+"Price_over_PERAvg": "0.16171143623277",
+"SRIM_1": "17475",
+"SRIM_2": "17781",
+"SRIM_3": "18472",
+"SRIM_2R": "0.773286721508458"
 }

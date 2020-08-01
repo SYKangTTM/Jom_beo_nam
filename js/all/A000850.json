@@ -3,15 +3,15 @@
 "stock_name": "화천기공",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "9.46",
+"Current_PER": "9.82",
 "Current_PER_Rank": "15",
-"Close_Price": "30700",
+"Close_Price": "31850",
 "PER_Target_1": "0",
 "PER_Target_2": "37979",
 "PER_Target_Avr": "18990",
-"Price_over_PERAvg": "0.808341451854973",
-"SRIM_1": "122118",
-"SRIM_2": "101478",
-"SRIM_3": "66861",
-"SRIM_2R": "0.302528440931126"
+"Price_over_PERAvg": "0.83862134337397",
+"SRIM_1": "129301",
+"SRIM_2": "115236",
+"SRIM_3": "89106",
+"SRIM_2R": "0.276389988106466"
 }

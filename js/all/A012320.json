@@ -3,15 +3,15 @@
 "stock_name": "경동인베스트",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.35",
+"Current_PER": "6.26",
 "Current_PER_Rank": "2",
-"Close_Price": "27850",
+"Close_Price": "27450",
 "PER_Target_1": "0",
 "PER_Target_2": "29260",
 "PER_Target_Avr": "14630",
-"Price_over_PERAvg": "0.951811346548189",
-"SRIM_1": "168901",
-"SRIM_2": "140354",
-"SRIM_3": "92476",
-"SRIM_2R": "0.198426804710817"
+"Price_over_PERAvg": "0.938140806561859",
+"SRIM_1": "177678",
+"SRIM_2": "157067",
+"SRIM_3": "119230",
+"SRIM_2R": "0.174766118142944"
 }

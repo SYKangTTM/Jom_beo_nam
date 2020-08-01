@@ -3,15 +3,15 @@
 "stock_name": "한솔PNS",
 "stock_Div": "종이와목재",
 "stock_Div_PER": "N/A",
-"Current_PER": "9.31",
+"Current_PER": "9.35",
 "Current_PER_Rank": "3",
-"Close_Price": "1395",
+"Close_Price": "1400",
 "PER_Target_1": "0",
 "PER_Target_2": "3039",
 "PER_Target_Avr": "1520",
-"Price_over_PERAvg": "0.459032576505429",
-"SRIM_1": "1816",
-"SRIM_2": "1509",
-"SRIM_3": "994",
-"SRIM_2R": "0.92440200627564"
+"Price_over_PERAvg": "0.46067785455742",
+"SRIM_1": "2121",
+"SRIM_2": "2137",
+"SRIM_3": "2174",
+"SRIM_2R": "0.655015623431926"
 }

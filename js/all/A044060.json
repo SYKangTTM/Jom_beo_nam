@@ -3,15 +3,15 @@
 "stock_name": "Á¶±¤ILI",
 "stock_Div": "±â°è",
 "stock_Div_PER": "N/A",
-"Current_PER": "41.83",
-"Current_PER_Rank": "46",
-"Close_Price": "6190",
+"Current_PER": "41.76",
+"Current_PER_Rank": "47",
+"Close_Price": "6180",
 "PER_Target_1": "0",
 "PER_Target_2": "4829",
 "PER_Target_Avr": "2414",
-"Price_over_PERAvg": "1.28183889003935",
-"SRIM_1": "5327",
-"SRIM_2": "4426",
-"SRIM_3": "2916",
-"SRIM_2R": "1.39847120566901"
+"Price_over_PERAvg": "1.27976806792297",
+"SRIM_1": "5804",
+"SRIM_2": "5362",
+"SRIM_3": "4496",
+"SRIM_2R": "1.15258264551715"
 }

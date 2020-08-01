@@ -3,15 +3,15 @@
 "stock_name": "디와이피엔에프",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "5.36",
-"Current_PER_Rank": "3",
-"Close_Price": "10050",
+"Current_PER": "6.83",
+"Current_PER_Rank": "6",
+"Close_Price": "12800",
 "PER_Target_1": "0",
 "PER_Target_2": "86585",
 "PER_Target_Avr": "43292",
-"Price_over_PERAvg": "0.116070912975689",
-"SRIM_1": "6498",
-"SRIM_2": "5400",
-"SRIM_3": "3558",
-"SRIM_2R": "1.8611359858256"
+"Price_over_PERAvg": "0.147831610556101",
+"SRIM_1": "11172",
+"SRIM_2": "18204",
+"SRIM_3": "50038",
+"SRIM_2R": "0.703137242238196"
 }

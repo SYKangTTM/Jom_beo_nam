@@ -3,15 +3,15 @@
 "stock_name": "한전KPS",
 "stock_Div": "전기유틸리티",
 "stock_Div_PER": "N/A",
-"Current_PER": "8.32",
+"Current_PER": "8.25",
 "Current_PER_Rank": "2",
-"Close_Price": "29700",
+"Close_Price": "29450",
 "PER_Target_1": "0",
 "PER_Target_2": "56238",
 "PER_Target_Avr": "28119",
-"Price_over_PERAvg": "0.528112664034994",
-"SRIM_1": "25461",
-"SRIM_2": "28568",
-"SRIM_3": "36668",
-"SRIM_2R": "1.03962497529434"
+"Price_over_PERAvg": "0.523667271240087",
+"SRIM_1": "25508",
+"SRIM_2": "28627",
+"SRIM_3": "36763",
+"SRIM_2R": "1.02873197796633"
 }

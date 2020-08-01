@@ -3,15 +3,15 @@
 "stock_name": "유바이오로직스",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "63.23",
+"Current_PER": "82.86",
 "Current_PER_Rank": "7",
-"Close_Price": "15950",
+"Close_Price": "20900",
 "PER_Target_1": "0",
 "PER_Target_2": "-1328",
 "PER_Target_Avr": "-664",
-"Price_over_PERAvg": "-12.0105421686747",
-"SRIM_1": "1140",
-"SRIM_2": "948",
-"SRIM_3": "624",
-"SRIM_2R": "16.8298584196949"
+"Price_over_PERAvg": "-15.7379518072289",
+"SRIM_1": "1757",
+"SRIM_2": "2258",
+"SRIM_3": "3857",
+"SRIM_2R": "9.25502525302548"
 }

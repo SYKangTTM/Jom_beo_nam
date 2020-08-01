@@ -3,15 +3,15 @@
 "stock_name": "성신양회",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "22.98",
+"Current_PER": "22.41",
 "Current_PER_Rank": "14",
-"Close_Price": "8100",
+"Close_Price": "7900",
 "PER_Target_1": "0",
 "PER_Target_2": "-846",
 "PER_Target_Avr": "-423",
-"Price_over_PERAvg": "-9.57446808510638",
-"SRIM_1": "31698",
-"SRIM_2": "27981",
-"SRIM_3": "21172",
-"SRIM_2R": "0.289478673536659"
+"Price_over_PERAvg": "-9.33806146572104",
+"SRIM_1": "15670",
+"SRIM_2": "13836",
+"SRIM_3": "10474",
+"SRIM_2R": "0.570990533168859"
 }

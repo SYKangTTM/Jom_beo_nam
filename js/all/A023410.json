@@ -3,15 +3,15 @@
 "stock_name": "유진기업",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.6",
+"Current_PER": "10.55",
 "Current_PER_Rank": "8",
-"Close_Price": "4075",
+"Close_Price": "4055",
 "PER_Target_1": "0",
 "PER_Target_2": "12263",
 "PER_Target_Avr": "6132",
-"Price_over_PERAvg": "0.332300415885183",
-"SRIM_1": "59705",
-"SRIM_2": "59816",
-"SRIM_3": "60061",
-"SRIM_2R": "6.81254864989593E-02"
+"Price_over_PERAvg": "0.33066949359863",
+"SRIM_1": "13377",
+"SRIM_2": "13405",
+"SRIM_3": "13467",
+"SRIM_2R": "0.302490805978704"
 }

@@ -3,15 +3,15 @@
 "stock_name": "SG",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.88",
+"Current_PER": "7.01",
 "Current_PER_Rank": "1",
-"Close_Price": "2350",
+"Close_Price": "2395",
 "PER_Target_1": "0",
 "PER_Target_2": "2993",
 "PER_Target_Avr": "1496",
-"Price_over_PERAvg": "0.785165385900434",
-"SRIM_1": "1780",
-"SRIM_2": "1479",
-"SRIM_3": "975",
-"SRIM_2R": "1.58875113383736"
+"Price_over_PERAvg": "0.800200467758102",
+"SRIM_1": "2476",
+"SRIM_2": "3103",
+"SRIM_3": "5027",
+"SRIM_2R": "0.77187220190443"
 }

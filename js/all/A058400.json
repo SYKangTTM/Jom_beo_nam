@@ -3,15 +3,15 @@
 "stock_name": "KNN",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "31.48",
+"Current_PER": "32.39",
 "Current_PER_Rank": "14",
-"Close_Price": "1565",
+"Close_Price": "1610",
 "PER_Target_1": "0",
 "PER_Target_2": "1030",
 "PER_Target_Avr": "515",
-"Price_over_PERAvg": "1.51941747572816",
-"SRIM_1": "1339",
-"SRIM_2": "1113",
-"SRIM_3": "733",
-"SRIM_2R": "1.40600888774891"
+"Price_over_PERAvg": "1.5631067961165",
+"SRIM_1": "1434",
+"SRIM_2": "1295",
+"SRIM_3": "1033",
+"SRIM_2R": "1.24296993784266"
 }

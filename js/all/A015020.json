@@ -3,15 +3,15 @@
 "stock_name": "이스타코",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "2.62",
+"Current_PER": "2.72",
 "Current_PER_Rank": "1",
-"Close_Price": "735",
+"Close_Price": "764",
 "PER_Target_1": "0",
 "PER_Target_2": "7188",
 "PER_Target_Avr": "3594",
-"Price_over_PERAvg": "0.102253756260434",
-"SRIM_1": "1139",
-"SRIM_2": "946",
-"SRIM_3": "623",
-"SRIM_2R": "0.776872648901437"
+"Price_over_PERAvg": "0.106288258208125",
+"SRIM_1": "1604",
+"SRIM_2": "2041",
+"SRIM_3": "3414",
+"SRIM_2R": "0.374341891453781"
 }

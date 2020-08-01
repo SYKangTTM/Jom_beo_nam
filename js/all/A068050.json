@@ -3,15 +3,15 @@
 "stock_name": "팬엔터테인먼트",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "41.75",
+"Current_PER": "40.93",
 "Current_PER_Rank": "17",
-"Close_Price": "5600",
+"Close_Price": "5490",
 "PER_Target_1": "0",
 "PER_Target_2": "5522",
 "PER_Target_Avr": "2761",
-"Price_over_PERAvg": "1.01412531691416",
-"SRIM_1": "3205",
-"SRIM_2": "2663",
-"SRIM_3": "1755",
-"SRIM_2R": "2.10269816562895"
+"Price_over_PERAvg": "0.994204998189062",
+"SRIM_1": "3466",
+"SRIM_2": "3173",
+"SRIM_3": "2606",
+"SRIM_2R": "1.73023788696584"
 }

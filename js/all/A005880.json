@@ -3,15 +3,15 @@
 "stock_name": "대한해운",
 "stock_Div": "해운사",
 "stock_Div_PER": "N/A",
-"Current_PER": "3.73",
+"Current_PER": "3.76",
 "Current_PER_Rank": "1",
-"Close_Price": "16100",
+"Close_Price": "16250",
 "PER_Target_1": "0",
 "PER_Target_2": "27787",
 "PER_Target_Avr": "13894",
-"Price_over_PERAvg": "0.579407636664627",
-"SRIM_1": "38519",
-"SRIM_2": "39139",
-"SRIM_3": "40536",
-"SRIM_2R": "0.411353116753521"
+"Price_over_PERAvg": "0.584805844459639",
+"SRIM_1": "38590",
+"SRIM_2": "39220",
+"SRIM_3": "40641",
+"SRIM_2R": "0.41432542184046"
 }

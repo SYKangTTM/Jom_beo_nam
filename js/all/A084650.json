@@ -3,15 +3,15 @@
 "stock_name": "랩지노믹스",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "132.36",
-"Current_PER_Rank": "10",
-"Close_Price": "40450",
+"Current_PER": "171.14",
+"Current_PER_Rank": "11",
+"Close_Price": "52300",
 "PER_Target_1": "0",
 "PER_Target_2": "7908",
 "PER_Target_Avr": "3954",
-"Price_over_PERAvg": "5.11507334344967",
-"SRIM_1": "2494",
-"SRIM_2": "2073",
-"SRIM_3": "1366",
-"SRIM_2R": "19.5152880198684"
+"Price_over_PERAvg": "6.61355589276682",
+"SRIM_1": "18434",
+"SRIM_2": "17847",
+"SRIM_3": "16615",
+"SRIM_2R": "2.93048158673187"
 }

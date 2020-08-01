@@ -3,15 +3,15 @@
 "stock_name": "한일홀딩스",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.45",
+"Current_PER": "10.44",
 "Current_PER_Rank": "7",
-"Close_Price": "44200",
+"Close_Price": "44150",
 "PER_Target_1": "0",
 "PER_Target_2": "20570",
 "PER_Target_Avr": "10285",
-"Price_over_PERAvg": "2.14876033057851",
-"SRIM_1": "156661",
-"SRIM_2": "130183",
-"SRIM_3": "85774",
-"SRIM_2R": "0.339522240571915"
+"Price_over_PERAvg": "2.14632960622265",
+"SRIM_1": "201538",
+"SRIM_2": "228995",
+"SRIM_3": "301924",
+"SRIM_2R": "0.192798571859589"
 }

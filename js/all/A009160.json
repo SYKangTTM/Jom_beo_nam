@@ -3,15 +3,15 @@
 "stock_name": "SIMPAC",
 "stock_Div": "±â°è",
 "stock_Div_PER": "N/A",
-"Current_PER": "17.97",
-"Current_PER_Rank": "26",
-"Close_Price": "2385",
+"Current_PER": "18.24",
+"Current_PER_Rank": "28",
+"Close_Price": "2420",
 "PER_Target_1": "0",
 "PER_Target_2": "1442",
 "PER_Target_Avr": "721",
-"Price_over_PERAvg": "1.65395284327323",
-"SRIM_1": "6950",
-"SRIM_2": "5775",
-"SRIM_3": "3805",
-"SRIM_2R": "0.412990322853963"
+"Price_over_PERAvg": "1.67822468793343",
+"SRIM_1": "7817",
+"SRIM_2": "7515",
+"SRIM_3": "6888",
+"SRIM_2R": "0.322017182642447"
 }

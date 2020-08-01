@@ -3,15 +3,15 @@
 "stock_name": "이퓨쳐",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "19.76",
+"Current_PER": "19.83",
 "Current_PER_Rank": "7",
-"Close_Price": "5810",
+"Close_Price": "5830",
 "PER_Target_1": "0",
 "PER_Target_2": "31633",
 "PER_Target_Avr": "15816",
-"Price_over_PERAvg": "0.183668953308254",
-"SRIM_1": "3807",
-"SRIM_2": "3164",
-"SRIM_3": "2085",
-"SRIM_2R": "1.83643218497095"
+"Price_over_PERAvg": "0.184301204438403",
+"SRIM_1": "4371",
+"SRIM_2": "4312",
+"SRIM_3": "4184",
+"SRIM_2R": "1.35206946928235"
 }

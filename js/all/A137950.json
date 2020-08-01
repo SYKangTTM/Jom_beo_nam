@@ -3,15 +3,15 @@
 "stock_name": "제이씨케미칼",
 "stock_Div": "에너지장비및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "22.95",
+"Current_PER": "22.9",
 "Current_PER_Rank": "3",
-"Close_Price": "5410",
+"Close_Price": "5400",
 "PER_Target_1": "0",
 "PER_Target_2": "57847",
 "PER_Target_Avr": "28924",
-"Price_over_PERAvg": "9.35225681539233E-02",
-"SRIM_1": "3867",
-"SRIM_2": "3214",
-"SRIM_3": "2117",
-"SRIM_2R": "1.68344127505999"
+"Price_over_PERAvg": "9.33496983421785E-02",
+"SRIM_1": "4220",
+"SRIM_2": "3906",
+"SRIM_3": "3290",
+"SRIM_2R": "1.38240555991055"
 }

@@ -2,16 +2,16 @@
 "stock_code": "A001840",
 "stock_name": "이화공영",
 "stock_Div": "건설",
-"stock_Div_PER": "6.42",
+"stock_Div_PER": "6.4",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "4650",
+"Close_Price": "4740",
 "PER_Target_1": "85",
 "PER_Target_2": "2133",
 "PER_Target_Avr": "1109",
-"Price_over_PERAvg": "4.19296663660956",
-"SRIM_1": "1952",
-"SRIM_2": "1622",
-"SRIM_3": "1069",
-"SRIM_2R": "2.86612787691976"
+"Price_over_PERAvg": "4.2741208295762",
+"SRIM_1": "1911",
+"SRIM_2": "1543",
+"SRIM_3": "951",
+"SRIM_2R": "3.07290191310396"
 }

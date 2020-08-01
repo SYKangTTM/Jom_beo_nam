@@ -3,15 +3,15 @@
 "stock_name": "모헨즈",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "54.27",
-"Current_PER_Rank": "21",
-"Close_Price": "4775",
+"Current_PER": "61.26",
+"Current_PER_Rank": "22",
+"Close_Price": "5390",
 "PER_Target_1": "0",
 "PER_Target_2": "2641",
 "PER_Target_Avr": "1320",
-"Price_over_PERAvg": "1.80802726240061",
-"SRIM_1": "1874",
-"SRIM_2": "1557",
-"SRIM_3": "1026",
-"SRIM_2R": "3.06626915613851"
+"Price_over_PERAvg": "2.04089360090875",
+"SRIM_1": "2064",
+"SRIM_2": "1934",
+"SRIM_3": "1672",
+"SRIM_2R": "2.78762637302616"
 }

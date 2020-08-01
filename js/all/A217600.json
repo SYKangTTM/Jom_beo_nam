@@ -3,15 +3,15 @@
 "stock_name": "켐온",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "49.53",
+"Current_PER": "65.62",
 "Current_PER_Rank": "8",
-"Close_Price": "1555",
+"Close_Price": "2060",
 "PER_Target_1": "0",
 "PER_Target_2": "2096",
 "PER_Target_Avr": "1048",
-"Price_over_PERAvg": "0.741889312977099",
-"SRIM_1": "557",
-"SRIM_2": "463",
-"SRIM_3": "305",
-"SRIM_2R": "3.35679696267927"
+"Price_over_PERAvg": "0.982824427480916",
+"SRIM_1": "620",
+"SRIM_2": "588",
+"SRIM_3": "524",
+"SRIM_2R": "3.50050884911858"
 }

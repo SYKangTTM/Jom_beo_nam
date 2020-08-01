@@ -3,15 +3,15 @@
 "stock_name": "현대에너지솔루션",
 "stock_Div": "에너지장비및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "11.1",
+"Current_PER": "11.25",
 "Current_PER_Rank": "1",
-"Close_Price": "30950",
+"Close_Price": "31350",
 "PER_Target_1": "0",
 "PER_Target_2": "7725",
 "PER_Target_Avr": "3862",
-"Price_over_PERAvg": "4.00647249190938",
-"SRIM_1": "28103",
-"SRIM_2": "28253",
-"SRIM_3": "28586",
-"SRIM_2R": "1.0954688344635"
+"Price_over_PERAvg": "4.05825242718447",
+"SRIM_1": "28154",
+"SRIM_2": "28311",
+"SRIM_3": "28660",
+"SRIM_2R": "1.10732855828543"
 }

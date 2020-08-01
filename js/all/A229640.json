@@ -3,15 +3,15 @@
 "stock_name": "LS전선아시아",
 "stock_Div": "전기장비",
 "stock_Div_PER": "N/A",
-"Current_PER": "13.26",
-"Current_PER_Rank": "8",
-"Close_Price": "6800",
+"Current_PER": "13.03",
+"Current_PER_Rank": "7",
+"Close_Price": "6680",
 "PER_Target_1": "0",
 "PER_Target_2": "7944",
 "PER_Target_Avr": "3972",
-"Price_over_PERAvg": "0.855991943605237",
-"SRIM_1": "5219",
-"SRIM_2": "5766",
-"SRIM_3": "7158",
-"SRIM_2R": "1.17937896115337"
+"Price_over_PERAvg": "0.840886203423968",
+"SRIM_1": "5137",
+"SRIM_2": "5554",
+"SRIM_3": "6584",
+"SRIM_2R": "1.20270550797487"
 }

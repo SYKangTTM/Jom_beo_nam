@@ -3,15 +3,15 @@
 "stock_name": "세이브존I&C",
 "stock_Div": "백화점과일반상점",
 "stock_Div_PER": "N/A",
-"Current_PER": "4.97",
+"Current_PER": "5.05",
 "Current_PER_Rank": "2",
-"Close_Price": "2175",
+"Close_Price": "2210",
 "PER_Target_1": "0",
 "PER_Target_2": "3873",
 "PER_Target_Avr": "1936",
-"Price_over_PERAvg": "0.561580170410534",
-"SRIM_1": "10739",
-"SRIM_2": "8924",
-"SRIM_3": "5880",
-"SRIM_2R": "0.243717186071517"
+"Price_over_PERAvg": "0.570617092693003",
+"SRIM_1": "11629",
+"SRIM_2": "10660",
+"SRIM_3": "8783",
+"SRIM_2R": "0.207324804330814"
 }

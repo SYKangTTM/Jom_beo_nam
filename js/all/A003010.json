@@ -3,15 +3,15 @@
 "stock_name": "ÇýÀÎ",
 "stock_Div": "±â°è",
 "stock_Div_PER": "N/A",
-"Current_PER": "121.41",
+"Current_PER": "113.41",
 "Current_PER_Rank": "56",
-"Close_Price": "5310",
+"Close_Price": "4960",
 "PER_Target_1": "0",
 "PER_Target_2": "10928",
 "PER_Target_Avr": "5464",
-"Price_over_PERAvg": "0.48590775988287",
-"SRIM_1": "8770",
-"SRIM_2": "7288",
-"SRIM_3": "4802",
-"SRIM_2R": "0.728630253892882"
+"Price_over_PERAvg": "0.453879941434846",
+"SRIM_1": "8871",
+"SRIM_2": "7465",
+"SRIM_3": "5064",
+"SRIM_2R": "0.664419113626024"
 }

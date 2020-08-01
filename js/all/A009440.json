@@ -3,15 +3,15 @@
 "stock_name": "KC그린홀딩스",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "11.7",
+"Current_PER": "11.45",
 "Current_PER_Rank": "21",
-"Close_Price": "4200",
+"Close_Price": "4110",
 "PER_Target_1": "0",
 "PER_Target_2": "6829",
 "PER_Target_Avr": "3414",
-"Price_over_PERAvg": "0.615024161663494",
-"SRIM_1": "7342",
-"SRIM_2": "6101",
-"SRIM_3": "4020",
-"SRIM_2R": "0.688386647416255"
+"Price_over_PERAvg": "0.601845072484991",
+"SRIM_1": "8216",
+"SRIM_2": "7846",
+"SRIM_3": "7087",
+"SRIM_2R": "0.523804871490753"
 }

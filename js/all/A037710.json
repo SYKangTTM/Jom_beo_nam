@@ -3,15 +3,15 @@
 "stock_name": "광주신세계",
 "stock_Div": "백화점과일반상점",
 "stock_Div_PER": "N/A",
-"Current_PER": "4.96",
+"Current_PER": "5.03",
 "Current_PER_Rank": "1",
-"Close_Price": "136000",
+"Close_Price": "138000",
 "PER_Target_1": "0",
 "PER_Target_2": "227321",
 "PER_Target_Avr": "113660",
-"Price_over_PERAvg": "0.598272926830341",
-"SRIM_1": "376208",
-"SRIM_2": "312623",
-"SRIM_3": "205979",
-"SRIM_2R": "0.435029278103685"
+"Price_over_PERAvg": "0.607071058107258",
+"SRIM_1": "428191",
+"SRIM_2": "417758",
+"SRIM_3": "395623",
+"SRIM_2R": "0.330334697814488"
 }

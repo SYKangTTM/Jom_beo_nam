@@ -3,15 +3,15 @@
 "stock_name": "에이프로젠 KIC",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "98.23",
+"Current_PER": "95.93",
 "Current_PER_Rank": "53",
-"Close_Price": "2765",
+"Close_Price": "2700",
 "PER_Target_1": "0",
 "PER_Target_2": "3466",
 "PER_Target_Avr": "1733",
-"Price_over_PERAvg": "0.797749567224466",
-"SRIM_1": "1538",
-"SRIM_2": "1278",
-"SRIM_3": "842",
-"SRIM_2R": "2.16360594163857"
+"Price_over_PERAvg": "0.778995960761685",
+"SRIM_1": "1539",
+"SRIM_2": "1279",
+"SRIM_3": "843",
+"SRIM_2R": "2.11104004437991"
 }

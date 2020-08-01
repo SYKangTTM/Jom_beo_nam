@@ -3,15 +3,15 @@
 "stock_name": "YBM넷",
 "stock_Div": "교육서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "219.5",
+"Current_PER": "215.87",
 "Current_PER_Rank": "12",
-"Close_Price": "7260",
+"Close_Price": "7140",
 "PER_Target_1": "0",
 "PER_Target_2": "22390",
 "PER_Target_Avr": "11195",
-"Price_over_PERAvg": "0.324251898168825",
-"SRIM_1": "2355",
-"SRIM_2": "1957",
-"SRIM_3": "1290",
-"SRIM_2R": "3.70913299310945"
+"Price_over_PERAvg": "0.318892362661903",
+"SRIM_1": "2414",
+"SRIM_2": "2066",
+"SRIM_3": "1456",
+"SRIM_2R": "3.45570553261262"
 }

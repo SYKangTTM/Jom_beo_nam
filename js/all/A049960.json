@@ -3,15 +3,15 @@
 "stock_name": "쎌바이오텍",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "19.41",
+"Current_PER": "20.93",
 "Current_PER_Rank": "2",
-"Close_Price": "16550",
+"Close_Price": "17850",
 "PER_Target_1": "0",
 "PER_Target_2": "17575",
 "PER_Target_Avr": "8788",
-"Price_over_PERAvg": "0.941678520625889",
-"SRIM_1": "13266",
-"SRIM_2": "11023",
-"SRIM_3": "7263",
-"SRIM_2R": "1.50134255949589"
+"Price_over_PERAvg": "1.01564722617354",
+"SRIM_1": "15385",
+"SRIM_2": "15367",
+"SRIM_3": "15328",
+"SRIM_2R": "1.16156007204092"
 }

@@ -3,15 +3,15 @@
 "stock_name": "한전산업",
 "stock_Div": "전기유틸리티",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.25",
+"Current_PER": "6.26",
 "Current_PER_Rank": "1",
-"Close_Price": "3225",
+"Close_Price": "3230",
 "PER_Target_1": "0",
 "PER_Target_2": "6075",
 "PER_Target_Avr": "3038",
-"Price_over_PERAvg": "0.530864197530864",
-"SRIM_1": "2383",
-"SRIM_2": "1980",
-"SRIM_3": "1305",
-"SRIM_2R": "1.6284811297156"
+"Price_over_PERAvg": "0.531687242798354",
+"SRIM_1": "3388",
+"SRIM_2": "4360",
+"SRIM_3": "7466",
+"SRIM_2R": "0.740810508436147"
 }

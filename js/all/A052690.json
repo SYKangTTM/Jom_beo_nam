@@ -3,15 +3,15 @@
 "stock_name": "한전기술",
 "stock_Div": "전기유틸리티",
 "stock_Div_PER": "N/A",
-"Current_PER": "27.53",
+"Current_PER": "27.79",
 "Current_PER_Rank": "3",
-"Close_Price": "16050",
+"Close_Price": "16200",
 "PER_Target_1": "0",
 "PER_Target_2": "34122",
 "PER_Target_Avr": "17061",
-"Price_over_PERAvg": "0.470371021628275",
-"SRIM_1": "11715",
-"SRIM_2": "9735",
-"SRIM_3": "6414",
-"SRIM_2R": "1.64868106039552"
+"Price_over_PERAvg": "0.474767012484614",
+"SRIM_1": "10461",
+"SRIM_2": "9655",
+"SRIM_3": "8079",
+"SRIM_2R": "1.67788273800973"
 }

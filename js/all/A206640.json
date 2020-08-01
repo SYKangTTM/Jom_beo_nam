@@ -3,15 +3,15 @@
 "stock_name": "바디텍메드",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "41.9",
-"Current_PER_Rank": "6",
-"Close_Price": "20250",
+"Current_PER": "43.56",
+"Current_PER_Rank": "5",
+"Close_Price": "21050",
 "PER_Target_1": "0",
 "PER_Target_2": "13444",
 "PER_Target_Avr": "6722",
-"Price_over_PERAvg": "1.50624814043439",
-"SRIM_1": "2894",
-"SRIM_2": "2405",
-"SRIM_3": "1585",
-"SRIM_2R": "8.41966810968961"
+"Price_over_PERAvg": "1.56575423980958",
+"SRIM_1": "3907",
+"SRIM_2": "4716",
+"SRIM_3": "7067",
+"SRIM_2R": "4.46306093615369"
 }

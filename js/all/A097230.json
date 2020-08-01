@@ -3,15 +3,15 @@
 "stock_name": "한진중공업",
 "stock_Div": "조선",
 "stock_Div_PER": "N/A",
-"Current_PER": "6.97",
+"Current_PER": "7.14",
 "Current_PER_Rank": "1",
-"Close_Price": "6460",
+"Close_Price": "6610",
 "PER_Target_1": "0",
 "PER_Target_2": "4993",
 "PER_Target_Avr": "2496",
-"Price_over_PERAvg": "1.29381133587022",
-"SRIM_1": "2665",
-"SRIM_2": "2215",
-"SRIM_3": "1459",
-"SRIM_2R": "2.91670034407375"
+"Price_over_PERAvg": "1.32385339475265",
+"SRIM_1": "2669",
+"SRIM_2": "2219",
+"SRIM_3": "1463",
+"SRIM_2R": "2.97910940702929"
 }

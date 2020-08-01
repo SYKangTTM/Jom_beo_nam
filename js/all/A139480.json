@@ -3,15 +3,15 @@
 "stock_name": "이마트",
 "stock_Div": "백화점과일반상점",
 "stock_Div_PER": "N/A",
-"Current_PER": "14.34",
-"Current_PER_Rank": "4",
-"Close_Price": "110500",
+"Current_PER": "14.8",
+"Current_PER_Rank": "6",
+"Close_Price": "114000",
 "PER_Target_1": "0",
 "PER_Target_2": "138838",
 "PER_Target_Avr": "69419",
-"Price_over_PERAvg": "0.795891614687622",
-"SRIM_1": "275337",
-"SRIM_2": "246800",
-"SRIM_3": "193338",
-"SRIM_2R": "0.447730815387807"
+"Price_over_PERAvg": "0.821100851351935",
+"SRIM_1": "275844",
+"SRIM_2": "247311",
+"SRIM_3": "193838",
+"SRIM_2R": "0.460958910855705"
 }

@@ -3,15 +3,15 @@
 "stock_name": "에스엠코어",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "25.35",
+"Current_PER": "26.65",
 "Current_PER_Rank": "37",
-"Close_Price": "7810",
+"Close_Price": "8210",
 "PER_Target_1": "0",
 "PER_Target_2": "15257",
 "PER_Target_Avr": "7628",
-"Price_over_PERAvg": "0.511896178803172",
-"SRIM_1": "3548",
-"SRIM_2": "2948",
-"SRIM_3": "1943",
-"SRIM_2R": "2.64892990833593"
+"Price_over_PERAvg": "0.538113652749558",
+"SRIM_1": "4113",
+"SRIM_2": "4105",
+"SRIM_3": "4088",
+"SRIM_2R": "1.9999927936692"
 }

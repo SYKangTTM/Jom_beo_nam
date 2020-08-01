@@ -3,15 +3,15 @@
 "stock_name": "스페코",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "8.03",
-"Current_PER_Rank": "10",
-"Close_Price": "5780",
+"Current_PER": "7.96",
+"Current_PER_Rank": "9",
+"Close_Price": "5730",
 "PER_Target_1": "0",
 "PER_Target_2": "6672",
 "PER_Target_Avr": "3336",
-"Price_over_PERAvg": "0.866306954436451",
-"SRIM_1": "2366",
-"SRIM_2": "1966",
-"SRIM_3": "1296",
-"SRIM_2R": "2.93935143633087"
+"Price_over_PERAvg": "0.858812949640288",
+"SRIM_1": "3427",
+"SRIM_2": "4514",
+"SRIM_3": "8108",
+"SRIM_2R": "1.2693318732894"
 }

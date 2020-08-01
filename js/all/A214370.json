@@ -3,15 +3,15 @@
 "stock_name": "케어젠",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "24.68",
+"Current_PER": "24.89",
 "Current_PER_Rank": "5",
-"Close_Price": "68400",
+"Close_Price": "69000",
 "PER_Target_1": "0",
 "PER_Target_2": "115212",
 "PER_Target_Avr": "57606",
-"Price_over_PERAvg": "0.593688157483595",
-"SRIM_1": "20038",
-"SRIM_2": "16651",
-"SRIM_3": "10971",
-"SRIM_2R": "4.10778517289702"
+"Price_over_PERAvg": "0.598895948338715",
+"SRIM_1": "24879",
+"SRIM_2": "27058",
+"SRIM_3": "32483",
+"SRIM_2R": "2.55007467773619"
 }

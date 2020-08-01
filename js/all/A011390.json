@@ -3,15 +3,15 @@
 "stock_name": "부산산업",
 "stock_Div": "건축자재",
 "stock_Div_PER": "N/A",
-"Current_PER": "38.02",
-"Current_PER_Rank": "18",
-"Close_Price": "128500",
+"Current_PER": "38.47",
+"Current_PER_Rank": "17",
+"Close_Price": "130000",
 "PER_Target_1": "0",
 "PER_Target_2": "89160",
 "PER_Target_Avr": "44580",
-"Price_over_PERAvg": "1.44122925078511",
-"SRIM_1": "47847",
-"SRIM_2": "39760",
-"SRIM_3": "26197",
-"SRIM_2R": "3.23188237540347"
+"Price_over_PERAvg": "1.45805293853746",
+"SRIM_1": "58056",
+"SRIM_2": "61355",
+"SRIM_3": "69227",
+"SRIM_2R": "2.11883060948904"
 }

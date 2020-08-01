@@ -3,15 +3,15 @@
 "stock_name": "화성밸브",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "21.52",
-"Current_PER_Rank": "31",
-"Close_Price": "5370",
+"Current_PER": "21.96",
+"Current_PER_Rank": "33",
+"Close_Price": "5480",
 "PER_Target_1": "0",
 "PER_Target_2": "6874",
 "PER_Target_Avr": "3437",
-"Price_over_PERAvg": "0.781204538842013",
-"SRIM_1": "6323",
-"SRIM_2": "5255",
-"SRIM_3": "3462",
-"SRIM_2R": "1.02195080690305"
+"Price_over_PERAvg": "0.797206866453302",
+"SRIM_1": "6837",
+"SRIM_2": "6255",
+"SRIM_3": "5132",
+"SRIM_2R": "0.876096086008036"
 }

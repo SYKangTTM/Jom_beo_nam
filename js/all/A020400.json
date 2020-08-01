@@ -2,16 +2,16 @@
 "stock_code": "A020400",
 "stock_name": "대동금속",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "12.83",
+"stock_Div_PER": "13.21",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "8220",
+"Close_Price": "8300",
 "PER_Target_1": "0",
 "PER_Target_2": "0",
 "PER_Target_Avr": "0",
 "Price_over_PERAvg": "N/A",
-"SRIM_1": "12014",
-"SRIM_2": "9984",
-"SRIM_3": "6578",
-"SRIM_2R": "0.823337463256951"
+"SRIM_1": "11767",
+"SRIM_2": "9509",
+"SRIM_3": "5873",
+"SRIM_2R": "0.872862928958647"
 }

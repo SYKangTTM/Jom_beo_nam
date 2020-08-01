@@ -3,15 +3,15 @@
 "stock_name": "코윈테크",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "10.61",
+"Current_PER": "11.15",
 "Current_PER_Rank": "18",
-"Close_Price": "22700",
+"Close_Price": "23850",
 "PER_Target_1": "0",
 "PER_Target_2": "22197",
 "PER_Target_Avr": "11098",
-"Price_over_PERAvg": "1.02266071991711",
-"SRIM_1": "18889",
-"SRIM_2": "24296",
-"SRIM_3": "41548",
-"SRIM_2R": "0.934313463282855"
+"Price_over_PERAvg": "1.0744695229085",
+"SRIM_1": "18924",
+"SRIM_2": "24347",
+"SRIM_3": "41655",
+"SRIM_2R": "0.979598871308703"
 }

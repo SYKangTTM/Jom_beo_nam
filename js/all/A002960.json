@@ -3,15 +3,15 @@
 "stock_name": "한국쉘석유",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "13.35",
+"Current_PER": "13.4",
 "Current_PER_Rank": "6",
-"Close_Price": "234000",
+"Close_Price": "235000",
 "PER_Target_1": "0",
 "PER_Target_2": "319825",
 "PER_Target_Avr": "159912",
-"Price_over_PERAvg": "0.731650121160009",
-"SRIM_1": "68191",
-"SRIM_2": "56665",
-"SRIM_3": "37335",
-"SRIM_2R": "4.12951660902969"
+"Price_over_PERAvg": "0.734776831079497",
+"SRIM_1": "106724",
+"SRIM_2": "154801",
+"SRIM_3": "338063",
+"SRIM_2R": "1.51807896822334"
 }

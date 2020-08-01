@@ -3,15 +3,15 @@
 "stock_name": "코메론",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "5.83",
-"Current_PER_Rank": "4",
-"Close_Price": "8710",
+"Current_PER": "5.68",
+"Current_PER_Rank": "3",
+"Close_Price": "8490",
 "PER_Target_1": "0",
 "PER_Target_2": "10966",
 "PER_Target_Avr": "5483",
-"Price_over_PERAvg": "0.794273208097757",
-"SRIM_1": "15357",
-"SRIM_2": "12761",
-"SRIM_3": "8408",
-"SRIM_2R": "0.68253357093841"
+"Price_over_PERAvg": "0.774211198249134",
+"SRIM_1": "18545",
+"SRIM_2": "19482",
+"SRIM_3": "21700",
+"SRIM_2R": "0.435779224833825"
 }

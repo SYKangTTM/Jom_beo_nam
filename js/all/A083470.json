@@ -2,16 +2,16 @@
 "stock_code": "A083470",
 "stock_name": "ÀÌ¿¥¾Ø¾ÆÀÌ",
 "stock_Div": "ÇÚµå¼Â",
-"stock_Div_PER": "24.5",
+"stock_Div_PER": "25.95",
 "Current_PER": "0.44",
 "Current_PER_Rank": "1",
 "Close_Price": "1585",
-"PER_Target_1": "252254",
+"PER_Target_1": "267184",
 "PER_Target_2": "6232",
-"PER_Target_Avr": "129243",
-"Price_over_PERAvg": "1.22637202788546E-02",
+"PER_Target_Avr": "136708",
+"Price_over_PERAvg": "1.15940544810838E-02",
 "SRIM_1": "182",
 "SRIM_2": "151",
-"SRIM_3": "99",
-"SRIM_2R": "10.4969350718276"
+"SRIM_3": "100",
+"SRIM_2R": "10.4782368112551"
 }

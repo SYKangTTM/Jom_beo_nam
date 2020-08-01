@@ -2,16 +2,16 @@
 "stock_code": "A053280",
 "stock_name": "예스24",
 "stock_Div": "인터넷과카탈로그소매",
-"stock_Div_PER": "15.45",
+"stock_Div_PER": "15.31",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "7220",
+"Close_Price": "7110",
 "PER_Target_1": "0",
 "PER_Target_2": "0",
 "PER_Target_Avr": "0",
 "Price_over_PERAvg": "N/A",
-"SRIM_1": "3364",
-"SRIM_2": "2795",
-"SRIM_3": "1842",
-"SRIM_2R": "2.58278042138107"
+"SRIM_1": "2752",
+"SRIM_2": "1772",
+"SRIM_3": "635",
+"SRIM_2R": "4.01200561982545"
 }

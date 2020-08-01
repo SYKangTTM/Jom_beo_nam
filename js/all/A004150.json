@@ -3,15 +3,15 @@
 "stock_name": "한솔홀딩스",
 "stock_Div": "종이와목재",
 "stock_Div_PER": "N/A",
-"Current_PER": "4.58",
+"Current_PER": "4.76",
 "Current_PER_Rank": "1",
-"Close_Price": "3140",
+"Close_Price": "3260",
 "PER_Target_1": "0",
 "PER_Target_2": "5889",
 "PER_Target_Avr": "2944",
-"Price_over_PERAvg": "0.533197486839871",
-"SRIM_1": "9132",
-"SRIM_2": "8860",
-"SRIM_3": "8287",
-"SRIM_2R": "0.354417911450879"
+"Price_over_PERAvg": "0.553574460859229",
+"SRIM_1": "9149",
+"SRIM_2": "8878",
+"SRIM_3": "8308",
+"SRIM_2R": "0.367201244639884"
 }

@@ -3,15 +3,15 @@
 "stock_name": "동국S&C",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "28.31",
-"Current_PER_Rank": "39",
-"Close_Price": "7210",
+"Current_PER": "27.8",
+"Current_PER_Rank": "38",
+"Close_Price": "7080",
 "PER_Target_1": "0",
 "PER_Target_2": "3844",
 "PER_Target_Avr": "1922",
-"Price_over_PERAvg": "1.87565036420395",
-"SRIM_1": "4253",
-"SRIM_2": "3535",
-"SRIM_3": "2329",
-"SRIM_2R": "2.03988825097418"
+"Price_over_PERAvg": "1.84183142559834",
+"SRIM_1": "4580",
+"SRIM_2": "4168",
+"SRIM_3": "3379",
+"SRIM_2R": "1.6986458481738"
 }

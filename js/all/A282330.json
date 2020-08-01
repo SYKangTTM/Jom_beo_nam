@@ -3,15 +3,15 @@
 "stock_name": "BGF리테일",
 "stock_Div": "백화점과일반상점",
 "stock_Div_PER": "N/A",
-"Current_PER": "15.53",
+"Current_PER": "15.11",
 "Current_PER_Rank": "7",
-"Close_Price": "128000",
+"Close_Price": "124500",
 "PER_Target_1": "0",
 "PER_Target_2": "488654",
 "PER_Target_Avr": "244327",
-"Price_over_PERAvg": "0.261944034019981",
-"SRIM_1": "59574",
-"SRIM_2": "77144",
-"SRIM_3": "133765",
-"SRIM_2R": "1.65923739435762"
+"Price_over_PERAvg": "0.254781501839748",
+"SRIM_1": "59684",
+"SRIM_2": "77305",
+"SRIM_3": "134111",
+"SRIM_2R": "1.61050055486025"
 }

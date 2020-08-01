@@ -3,15 +3,15 @@
 "stock_name": "대한과학",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "35.6",
+"Current_PER": "35.17",
 "Current_PER_Rank": "3",
-"Close_Price": "5770",
+"Close_Price": "5700",
 "PER_Target_1": "0",
 "PER_Target_2": "4641",
 "PER_Target_Avr": "2320",
-"Price_over_PERAvg": "1.24326653738418",
-"SRIM_1": "3426",
-"SRIM_2": "2847",
-"SRIM_3": "1876",
-"SRIM_2R": "2.02649429969533"
+"Price_over_PERAvg": "1.22818358112476",
+"SRIM_1": "3978",
+"SRIM_2": "3978",
+"SRIM_3": "3978",
+"SRIM_2R": "1.43304334102204"
 }

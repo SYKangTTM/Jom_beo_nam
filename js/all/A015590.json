@@ -3,15 +3,15 @@
 "stock_name": "큐로",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "18.2",
-"Current_PER_Rank": "27",
-"Close_Price": "726",
+"Current_PER": "16.29",
+"Current_PER_Rank": "25",
+"Close_Price": "650",
 "PER_Target_1": "0",
 "PER_Target_2": "758",
 "PER_Target_Avr": "379",
-"Price_over_PERAvg": "0.95778364116095",
-"SRIM_1": "372",
-"SRIM_2": "309",
-"SRIM_3": "204",
-"SRIM_2R": "2.34716173471662"
+"Price_over_PERAvg": "0.857519788918206",
+"SRIM_1": "381",
+"SRIM_2": "325",
+"SRIM_3": "227",
+"SRIM_2R": "2.00292551986303"
 }

@@ -3,15 +3,15 @@
 "stock_name": "피씨디렉트",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "22.5",
-"Current_PER_Rank": "3",
-"Close_Price": "10900",
+"Current_PER": "23.33",
+"Current_PER_Rank": "4",
+"Close_Price": "11300",
 "PER_Target_1": "0",
 "PER_Target_2": "23999",
 "PER_Target_Avr": "12000",
-"Price_over_PERAvg": "0.454185591066294",
-"SRIM_1": "4263",
-"SRIM_2": "3542",
-"SRIM_3": "2334",
-"SRIM_2R": "3.07719101747073"
+"Price_over_PERAvg": "0.470852952206342",
+"SRIM_1": "5240",
+"SRIM_2": "5628",
+"SRIM_3": "6577",
+"SRIM_2R": "2.00787859139731"
 }

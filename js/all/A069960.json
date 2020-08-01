@@ -3,15 +3,15 @@
 "stock_name": "현대백화점",
 "stock_Div": "백화점과일반상점",
 "stock_Div_PER": "N/A",
-"Current_PER": "8.98",
+"Current_PER": "8.96",
 "Current_PER_Rank": "3",
-"Close_Price": "59800",
+"Close_Price": "59700",
 "PER_Target_1": "0",
 "PER_Target_2": "64204",
 "PER_Target_Avr": "32102",
-"Price_over_PERAvg": "0.931406142919444",
-"SRIM_1": "174223",
-"SRIM_2": "165382",
-"SRIM_3": "147366",
-"SRIM_2R": "0.361587595508239"
+"Price_over_PERAvg": "0.929848607563392",
+"SRIM_1": "174543",
+"SRIM_2": "165724",
+"SRIM_3": "147747",
+"SRIM_2R": "0.360236557856631"
 }

@@ -3,15 +3,15 @@
 "stock_name": "대모",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "23.54",
+"Current_PER": "23.2",
 "Current_PER_Rank": "36",
-"Close_Price": "5530",
+"Close_Price": "5450",
 "PER_Target_1": "0",
 "PER_Target_2": "6467",
 "PER_Target_Avr": "3234",
-"Price_over_PERAvg": "0.855110561311273",
-"SRIM_1": "4721",
-"SRIM_2": "3923",
-"SRIM_3": "2585",
-"SRIM_2R": "1.40965256216376"
+"Price_over_PERAvg": "0.842740064945106",
+"SRIM_1": "5488",
+"SRIM_2": "5499",
+"SRIM_3": "5521",
+"SRIM_2R": "0.99116986633323"
 }

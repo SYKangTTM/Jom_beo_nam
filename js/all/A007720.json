@@ -3,15 +3,15 @@
 "stock_name": "대명소노시즌",
 "stock_Div": "판매업체",
 "stock_Div_PER": "N/A",
-"Current_PER": "1.79",
+"Current_PER": "1.85",
 "Current_PER_Rank": "1",
-"Close_Price": "1070",
+"Close_Price": "1105",
 "PER_Target_1": "0",
 "PER_Target_2": "10147",
 "PER_Target_Avr": "5074",
-"Price_over_PERAvg": "0.10544988666601",
-"SRIM_1": "1488",
-"SRIM_2": "1236",
-"SRIM_3": "814",
-"SRIM_2R": "0.865582794935105"
+"Price_over_PERAvg": "0.108899182024244",
+"SRIM_1": "2603",
+"SRIM_2": "4337",
+"SRIM_3": "12441",
+"SRIM_2R": "0.254813290832677"
 }

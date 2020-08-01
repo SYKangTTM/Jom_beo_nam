@@ -3,15 +3,15 @@
 "stock_name": "GS",
 "stock_Div": "석유와가스",
 "stock_Div_PER": "N/A",
-"Current_PER": "68.51",
+"Current_PER": "67.84",
 "Current_PER_Rank": "8",
-"Close_Price": "35350",
+"Close_Price": "35000",
 "PER_Target_1": "0",
 "PER_Target_2": "22670",
 "PER_Target_Avr": "11335",
-"Price_over_PERAvg": "1.55932951036612",
-"SRIM_1": "90448",
-"SRIM_2": "89320",
-"SRIM_3": "86885",
-"SRIM_2R": "0.395766591293155"
+"Price_over_PERAvg": "1.54389060432289",
+"SRIM_1": "90615",
+"SRIM_2": "89506",
+"SRIM_3": "87110",
+"SRIM_2R": "0.391036965808699"
 }

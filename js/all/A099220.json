@@ -3,15 +3,15 @@
 "stock_name": "SDN",
 "stock_Div": "에너지장비및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "26.3",
+"Current_PER": "25.99",
 "Current_PER_Rank": "4",
-"Close_Price": "2620",
+"Close_Price": "2590",
 "PER_Target_1": "0",
 "PER_Target_2": "3443",
 "PER_Target_Avr": "1722",
-"Price_over_PERAvg": "0.760964275341272",
-"SRIM_1": "1428",
-"SRIM_2": "1187",
-"SRIM_3": "782",
-"SRIM_2R": "2.20732154245796"
+"Price_over_PERAvg": "0.752250943944235",
+"SRIM_1": "1581",
+"SRIM_2": "1489",
+"SRIM_3": "1305",
+"SRIM_2R": "1.7388707560843"
 }

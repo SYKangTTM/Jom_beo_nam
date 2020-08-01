@@ -2,16 +2,16 @@
 "stock_code": "A011080",
 "stock_name": "형지I&C",
 "stock_Div": "섬유,의류,신발,호화품",
-"stock_Div_PER": "22.37",
+"stock_Div_PER": "22.5",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "946",
+"Close_Price": "1200",
 "PER_Target_1": "-43",
 "PER_Target_2": "-35",
 "PER_Target_Avr": "-39",
-"Price_over_PERAvg": "-24.2564102564103",
-"SRIM_1": "525",
-"SRIM_2": "437",
-"SRIM_3": "288",
-"SRIM_2R": "2.1670794115023"
+"Price_over_PERAvg": "-30.7692307692308",
+"SRIM_1": "352",
+"SRIM_2": "176",
+"SRIM_3": "33",
+"SRIM_2R": "6.81764185196744"
 }

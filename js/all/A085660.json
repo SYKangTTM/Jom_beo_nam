@@ -3,15 +3,15 @@
 "stock_name": "차바이오텍",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "21.53",
+"Current_PER": "21.37",
 "Current_PER_Rank": "4",
-"Close_Price": "20150",
+"Close_Price": "20000",
 "PER_Target_1": "0",
 "PER_Target_2": "34208",
 "PER_Target_Avr": "17104",
-"Price_over_PERAvg": "0.589043498596819",
-"SRIM_1": "6506",
-"SRIM_2": "5407",
-"SRIM_3": "3562",
-"SRIM_2R": "3.72689990279686"
+"Price_over_PERAvg": "0.58465855940131",
+"SRIM_1": "8260",
+"SRIM_2": "9237",
+"SRIM_3": "11771",
+"SRIM_2R": "2.16519328974341"
 }

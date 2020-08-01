@@ -3,15 +3,15 @@
 "stock_name": "서암기계공업",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "38.42",
-"Current_PER_Rank": "45",
-"Close_Price": "4750",
+"Current_PER": "41.09",
+"Current_PER_Rank": "44",
+"Close_Price": "5080",
 "PER_Target_1": "0",
 "PER_Target_2": "5876",
 "PER_Target_Avr": "2938",
-"Price_over_PERAvg": "0.808373042886317",
-"SRIM_1": "4427",
-"SRIM_2": "3679",
-"SRIM_3": "2424",
-"SRIM_2R": "1.29123753436931"
+"Price_over_PERAvg": "0.864533696392103",
+"SRIM_1": "4736",
+"SRIM_2": "4275",
+"SRIM_3": "3404",
+"SRIM_2R": "1.18821631405048"
 }

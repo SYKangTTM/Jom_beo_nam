@@ -2,16 +2,16 @@
 "stock_code": "A038880",
 "stock_name": "아이에이",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "12.83",
-"Current_PER": "405.23",
+"stock_Div_PER": "13.21",
+"Current_PER": "388.64",
 "Current_PER_Rank": "80",
-"Close_Price": "464",
-"PER_Target_1": "85",
+"Close_Price": "445",
+"PER_Target_1": "88",
 "PER_Target_2": "1293",
-"PER_Target_Avr": "689",
-"Price_over_PERAvg": "0.67343976777939",
+"PER_Target_Avr": "690",
+"Price_over_PERAvg": "0.644460535843592",
 "SRIM_1": "214",
 "SRIM_2": "178",
 "SRIM_3": "117",
-"SRIM_2R": "2.60792671729971"
+"SRIM_2R": "2.49668132329011"
 }

@@ -3,15 +3,15 @@
 "stock_name": "에이텍",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "27.04",
+"Current_PER": "33.59",
 "Current_PER_Rank": "5",
-"Close_Price": "22900",
+"Close_Price": "28450",
 "PER_Target_1": "0",
 "PER_Target_2": "7277",
 "PER_Target_Avr": "3638",
-"Price_over_PERAvg": "3.14690119554762",
-"SRIM_1": "8438",
-"SRIM_2": "7012",
-"SRIM_3": "4620",
-"SRIM_2R": "3.26586530682631"
+"Price_over_PERAvg": "3.90957812285282",
+"SRIM_1": "10063",
+"SRIM_2": "10408",
+"SRIM_3": "11206",
+"SRIM_2R": "2.73337541142418"
 }

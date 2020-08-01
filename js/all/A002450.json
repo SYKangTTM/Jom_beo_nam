@@ -3,15 +3,15 @@
 "stock_name": "삼익악기",
 "stock_Div": "레저용장비와제품",
 "stock_Div_PER": "N/A",
-"Current_PER": "13.65",
+"Current_PER": "13.89",
 "Current_PER_Rank": "2",
-"Close_Price": "1435",
+"Close_Price": "1460",
 "PER_Target_1": "0",
 "PER_Target_2": "3521",
 "PER_Target_Avr": "1760",
-"Price_over_PERAvg": "0.407554671968191",
-"SRIM_1": "2431",
-"SRIM_2": "2021",
-"SRIM_3": "1331",
-"SRIM_2R": "0.710219456216931"
+"Price_over_PERAvg": "0.414654927577393",
+"SRIM_1": "2667",
+"SRIM_2": "2484",
+"SRIM_3": "2122",
+"SRIM_2R": "0.58768653987946"
 }

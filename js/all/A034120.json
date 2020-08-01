@@ -3,15 +3,15 @@
 "stock_name": "SBS",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "32.14",
-"Current_PER_Rank": "15",
-"Close_Price": "16000",
+"Current_PER": "31.64",
+"Current_PER_Rank": "13",
+"Close_Price": "15750",
 "PER_Target_1": "0",
 "PER_Target_2": "16948",
 "PER_Target_Avr": "8474",
-"Price_over_PERAvg": "0.944064196365353",
-"SRIM_1": "28129",
-"SRIM_2": "26024",
-"SRIM_3": "21892",
-"SRIM_2R": "0.614825172130311"
+"Price_over_PERAvg": "0.929313193297144",
+"SRIM_1": "28181",
+"SRIM_2": "26078",
+"SRIM_3": "21949",
+"SRIM_2R": "0.603968125489746"
 }

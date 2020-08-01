@@ -3,15 +3,15 @@
 "stock_name": "에이텍티앤",
 "stock_Div": "컴퓨터와주변기기",
 "stock_Div_PER": "N/A",
-"Current_PER": "44.55",
+"Current_PER": "46.3",
 "Current_PER_Rank": "6",
-"Close_Price": "19100",
+"Close_Price": "19850",
 "PER_Target_1": "0",
 "PER_Target_2": "16843",
 "PER_Target_Avr": "8422",
-"Price_over_PERAvg": "1.13400225613014",
-"SRIM_1": "8415",
-"SRIM_2": "6993",
-"SRIM_3": "4607",
-"SRIM_2R": "2.73135506288077"
+"Price_over_PERAvg": "1.17853114053316",
+"SRIM_1": "9776",
+"SRIM_2": "9785",
+"SRIM_3": "9805",
+"SRIM_2R": "2.02859328657084"
 }

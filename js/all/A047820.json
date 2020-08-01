@@ -3,15 +3,15 @@
 "stock_name": "초록뱀",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "15.89",
+"Current_PER": "15.63",
 "Current_PER_Rank": "7",
-"Close_Price": "1565",
+"Close_Price": "1540",
 "PER_Target_1": "0",
 "PER_Target_2": "1277",
 "PER_Target_Avr": "638",
-"Price_over_PERAvg": "1.22552858261551",
-"SRIM_1": "782",
-"SRIM_2": "649",
-"SRIM_3": "428",
-"SRIM_2R": "2.40961227994086"
+"Price_over_PERAvg": "1.20595144870791",
+"SRIM_1": "862",
+"SRIM_2": "808",
+"SRIM_3": "701",
+"SRIM_2R": "1.90483102864949"
 }

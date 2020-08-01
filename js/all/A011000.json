@@ -5,13 +5,13 @@
 "stock_Div_PER": "N/A",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
-"Close_Price": "9280",
+"Close_Price": "9000",
 "PER_Target_1": "0",
 "PER_Target_2": "-35274",
 "PER_Target_Avr": "-17637",
-"Price_over_PERAvg": "-0.263083290809095",
-"SRIM_1": "491",
-"SRIM_2": "408",
-"SRIM_3": "269",
-"SRIM_2R": "22.7443179686083"
+"Price_over_PERAvg": "-0.255145432896751",
+"SRIM_1": "252",
+"SRIM_2": "90",
+"SRIM_3": "7",
+"SRIM_2R": "100.199504862238"
 }

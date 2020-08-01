@@ -3,15 +3,15 @@
 "stock_name": "티비씨",
 "stock_Div": "방송과엔터테인먼트",
 "stock_Div_PER": "N/A",
-"Current_PER": "13.64",
-"Current_PER_Rank": "5",
-"Close_Price": "726",
+"Current_PER": "13.33",
+"Current_PER_Rank": "6",
+"Close_Price": "710",
 "PER_Target_1": "0",
 "PER_Target_2": "1205",
 "PER_Target_Avr": "602",
-"Price_over_PERAvg": "0.602489626556017",
-"SRIM_1": "1060",
-"SRIM_2": "881",
-"SRIM_3": "581",
-"SRIM_2R": "0.823962247865206"
+"Price_over_PERAvg": "0.589211618257261",
+"SRIM_1": "1169",
+"SRIM_2": "1095",
+"SRIM_3": "948",
+"SRIM_2R": "0.648439160502192"
 }

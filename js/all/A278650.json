@@ -3,15 +3,15 @@
 "stock_name": "노터스",
 "stock_Div": "생명과학도구및서비스",
 "stock_Div_PER": "N/A",
-"Current_PER": "43.3",
-"Current_PER_Rank": "7",
-"Close_Price": "25850",
+"Current_PER": "44.23",
+"Current_PER_Rank": "6",
+"Close_Price": "26400",
 "PER_Target_1": "0",
 "PER_Target_2": "35521",
 "PER_Target_Avr": "17760",
-"Price_over_PERAvg": "0.727738520874975",
-"SRIM_1": "5973",
-"SRIM_2": "4963",
-"SRIM_3": "3270",
-"SRIM_2R": "5.20823020358752"
+"Price_over_PERAvg": "0.743222319191464",
+"SRIM_1": "8076",
+"SRIM_2": "9768",
+"SRIM_3": "14698",
+"SRIM_2R": "2.70264143856824"
 }

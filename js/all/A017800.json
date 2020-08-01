@@ -3,15 +3,15 @@
 "stock_name": "현대엘리베이",
 "stock_Div": "기계",
 "stock_Div_PER": "N/A",
-"Current_PER": "99.8",
+"Current_PER": "100.46",
 "Current_PER_Rank": "54",
-"Close_Price": "46000",
+"Close_Price": "46300",
 "PER_Target_1": "0",
 "PER_Target_2": "148888",
 "PER_Target_Avr": "74444",
-"Price_over_PERAvg": "0.308957068400408",
-"SRIM_1": "23211",
-"SRIM_2": "24118",
-"SRIM_3": "26228",
-"SRIM_2R": "1.90731189361143"
+"Price_over_PERAvg": "0.31097200580302",
+"SRIM_1": "23254",
+"SRIM_2": "24168",
+"SRIM_3": "26295",
+"SRIM_2R": "1.91577095289593"
 }

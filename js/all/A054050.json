@@ -3,15 +3,15 @@
 "stock_name": "농우바이오",
 "stock_Div": "생물공학",
 "stock_Div_PER": "N/A",
-"Current_PER": "19.8",
+"Current_PER": "21.26",
 "Current_PER_Rank": "3",
-"Close_Price": "10800",
+"Close_Price": "11600",
 "PER_Target_1": "0",
 "PER_Target_2": "72949",
 "PER_Target_Avr": "36474",
-"Price_over_PERAvg": "0.148048636718804",
-"SRIM_1": "13037",
-"SRIM_2": "10833",
-"SRIM_3": "7138",
-"SRIM_2R": "0.996917848014585"
+"Price_over_PERAvg": "0.159015202401678",
+"SRIM_1": "14651",
+"SRIM_2": "14068",
+"SRIM_3": "12861",
+"SRIM_2R": "0.824558857441632"
 }
