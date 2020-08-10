@@ -2,7 +2,7 @@
 "stock_code": "A086250",
 "stock_name": "이노와이즈",
 "stock_Div": "자동차부품",
-"stock_Div_PER": "12.03",
+"stock_Div_PER": "12.86",
 "Current_PER": "N/A",
 "Current_PER_Rank": "N/A",
 "Close_Price": "1405",
@@ -13,5 +13,15 @@
 "SRIM_1": "0",
 "SRIM_2": "0",
 "SRIM_3": "0",
-"SRIM_2R": "N/A"
+"SRIM_2R": "N/A",
+"P_3": "-39",
+"P_2": "",
+"P_1": "-56",
+"P_E": "",
+"PY_3": "2",
+"PY_2": "-5",
+"PY_1": "",
+"PY_E": "",
+"Total_P": "433",
+"D_R": "-"
 }
