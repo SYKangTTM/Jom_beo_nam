@@ -66,6 +66,16 @@
         <meta name="author" content="좀버남(주식아빠)" />
         
     </head>
+    
+    <style>
+    .Status_Table td {
+        border-collapse: collapse;
+        border: 1px solid black;
+        width: 19vw;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    </style>
 
     <body>
         <div class="topnav">
@@ -864,96 +874,130 @@
             var StartDate = year + '-' + month + '-' + day;
             var output = '<div>';
             // var count = 1;
-            output += '<div class="S_Table"><table>';
-            output += '<tr>' + '<th>종목 코드</th>' + '<td>' + jd.stock_code + '</td>' + '</tr>';
-            output += '<tr>' + '<th>종목명</th>' + '<td>' + s_info[1] + '</td>' + '</tr>';
-            output += '<tr>' + '<th>업종</th>' + '<td>' + s_info[2] + '</td>' + '</tr>';
-            output += '<tr>' + '<th>PER / 업종PER / 순위 </th>' + '<td>' + jd.Current_PER + ' / ' + jd.stock_Div_PER + ' / ' + jd.Current_PER_Rank +'</td>' + '</tr>';
-            // output += '<tr>' + '<th>PER</th>' + '<td>' + jd.Current_PER + '</td>' + '</tr>';
-            // output += '<tr>' + '<th>업종내PER순위</th>' + '<td>' + jd.Current_PER_Rank + '</td>' + '</tr>';
-
-            output += '<tr>' + '<th>SRIM</th>' + '<td>' + 
-                jd.SRIM_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + ' / ' +
-                jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +' / ' +
-                jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +'</td>' +
-                '</tr>';
+            output += '<div class="Status_Table"><table>';
             
-            output +=
-                '<tr>' +
-                '<th>종가/SRIM_10년 괴리율</th>' +
-                '<td>' +
-                Number(Math.round(jd.SRIM_2R * 100) + 'e-0') +
-                '%' +
-                '</td>' +
-                '</tr>';
-
-            output += '<tr>' + '<th>PER_목표</th>' + '<td>' +
-                jd.PER_Target_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + ' / '+
-                jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
-                '</td>' +
-                '</tr>';
-
-            output +=
-                '<tr>' +
-                '<th>PER_목표평균</th>' +
-                '<td>' +
-                jd.PER_Target_Avr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
-                '</td>' +
-                '</tr>';
-
-            output +=
-                '<tr>' +
-                '<th>종가</th>' +
-                '<td>' +
-                jd.Close_Price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
-                '</td>' +
-                '</tr>';
-            output +=
-                '<tr>' +
-                '<th>종가/PER 괴리율</th>' +
-                '<td>' +
-                Number(Math.round(jd.Price_over_PERAvg * 100) + 'e-0') +
-                '%' +
-                '</td>' +
-                '</tr>';
-            output += '<tr>' + '<th>종목발굴_저PER</th>' + '<td>' + s_info[3] + '</td>' + '</tr>';
-            if(s_info[4] =='OO'){
-                output += '<tr>' + '<th>종목발굴_흑자전환</th>' + '<td>컨센_흑자전환</td>' + '</tr>';
-            } else if(s_info[4] =='O'){
-                output += '<tr>' + '<th>종목발굴_흑자전환</th>' + '<td>추세_흑자전환</td>' + '</tr>';
-            } else {
-                output += '<tr>' + '<th>종목발굴_흑자전환</th>' + '<td></td>' + '</tr>';
+            output += '<tr>' + '<td style="font-weight:bold;">'+ s_info[1] + '</td>';
+            output += '<td>'+ jd.stock_code + '</td>';
+            output += '<td style="background-color:#c9f3c5">PER</td>';
+            output += '<td style="background-color:#c9f3c5">업종PER</td>';
+            output += '<td style="background-color:#c9f3c5">PER순위</td>' + '</tr>';
+            
+            output += '<tr>' + '<td colspan="2">' + s_info[2] + '</td>';
+            output += '<td>' + jd.Current_PER + '</td>';
+            output += '<td>' + jd.stock_Div_PER + '</td>';
+            output += '<td>' + jd.Current_PER_Rank + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#c9f3c5">종가(원)</td>';
+            output += '<td style="background-color:#c9f3c5">발행주식수(천주)</td>';
+            output += '<td style="background-color:#c9f3c5">시가총액(억원)</td>';
+            output += '<td style="background-color:#c9f3c5">베타</td>';
+            output += '<td style="background-color:#c9f3c5">배당률</td>' + '</tr>';
+            
+            output += '<tr>' + '<td>' + jd.Close_Price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td>' + jd.Total_Q.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>'; //상장주식수
+            output += '<td>' + jd.Total_P.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td>' + jd.BETA + '</td>'; //베타
+            output += '<td>' + (jd.D_R*100).toFixed(2) + '%</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#c9f3c5">시영비</td>';
+            output += '<td style="background-color:#c9f3c5"></td>';
+            output += '<td style="background-color:#c9f3c5"></td>';
+            output += '<td style="background-color:#c9f3c5"></td>';
+            output += '<td style="background-color:#c9f3c5">한경컨센서스</td>' + '</tr>';
+            
+            output += '<tr>' + '<td>' + jd.SY_R + '</td>';
+            output += '<td>' + '' + '</td>';
+            output += '<td>' + '' + '</td>';
+            output += '<td>' + '' + '</td>'; 
+            output += '<td>' + '<a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
+                StartDate + '&edate=' + FinishDate + '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
+                jd.stock_code.substr(1) + '" target="_blank">바로가기</a>' + '</td>' + '</tr>';           
+            
+            output += '<tr>' + '<td style="background-color:#c9f3c5">저PER</td>';
+            output += '<td style="background-color:#c9f3c5">흑자전환</td>';
+            output += '<td style="background-color:#c9f3c5">SRIM_5년</td>';
+            output += '<td style="background-color:#c9f3c5">SRIM_10년</td>';
+            output += '<td style="background-color:#c9f3c5">고배당주</td>' + '</tr>';
+            
+            for(var i= 3;i<8;i++){
+                if(s_info[i] == ""){
+                    s_info[i] = 'N/A';
+                }
             }
-            if(s_info[5] =='OO'){
-                output += '<tr>' + '<th>종목발굴_SRIM_5년</th>' + '<td>SRIM_5년_컨센OK</td>' + '</tr>';
-            } else if(s_info[5] =='O'){
-                output += '<tr>' + '<th>종목발굴_SRIM_5년</th>' + '<td>SRIM_5년</td>' + '</tr>';
-            } else {
-                output += '<tr>' + '<th>종목발굴_SRIM_5년</th>' + '<td></td>' + '</tr>';
+            output += '<tr>' + '<td>' + s_info[3] + '</td>';
+            output += '<td>' + s_info[4] + '</td>';
+            output += '<td>' + s_info[5] + '</td>';
+            output += '<td>' + s_info[6] + '</td>';
+            output += '<td>' + s_info[7] + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td colspan="5" style="background-color:white">' + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td rowspan="2" colspan=2" style="background-color:#88baff">RIM모델 (5년/ 10년/ 초과) <br> (괴리율 %)</td>';
+            output += '<td style="text-align:right">' + jd.SRIM_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.SRIM_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')+ '</td>';
+            output += '<td style="text-align:right">' + jd.SRIM_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>'+ '</tr>';
+            var R1 = (jd.Close_Price / jd.SRIM_1*100).toFixed(0);
+            var R2 = (jd.Close_Price / jd.SRIM_2*100).toFixed(0);
+            var R3 = (jd.Close_Price / jd.SRIM_3*100).toFixed(0);
+            output += '<tr>' + '<td style="text-align:right">' + R1 + '%</td>';
+            output += '<td style="text-align:right">' + R2 + '%</td>';
+            output += '<td style="text-align:right">' + R3 + '%</td>' + '</tr>';
+            
+            output += '<tr>' + '<td rowspan="2" colspan=2" style="background-color:#dea3ff">PER모델 (동일업종/ 종목과거/ 평균) <br> (괴리율 %)</td>';
+            output += '<td style="text-align:right">' + jd.PER_Target_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.PER_Target_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')+ '</td>';
+            output += '<td style="text-align:right">' + jd.PER_Target_Avr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>'+ '</tr>';
+            if(jd.PER_Target_1 == 0){
+                var R1_1 = 'N/A';
+            } else{
+                var R1_1 = (jd.Close_Price / jd.PER_Target_1*100).toFixed(0) + '%';
             }
-            if(s_info[6] =='OO'){
-                output += '<tr>' + '<th>종목발굴_SRIM_10년</th>' + '<td>SRIM_10년_컨센OK</td>' + '</tr>';
-            } else if(s_info[6] =='O'){
-                output += '<tr>' + '<th>종목발굴_SRIM_10년</th>' + '<td>SRIM_10년</td>' + '</tr>';
-            } else {
-                output += '<tr>' + '<th>종목발굴_SRIM_10년</th>' + '<td></td>' + '</tr>';
+            if(jd.PER_Target_2 == 0){
+                var R2_1 = 'N/A';
+            } else{
+                var R2_1 = (jd.Close_Price / jd.PER_Target_2*100).toFixed(0) + '%';
             }
-            if(s_info[7] =='O'){
-                output += '<tr>' + '<th>고배당주</th>' + '<td>배당주</td>' + '</tr>';
-            }else {
-                output += '<tr>' + '<th>고배당주</th>' + '<td></td>' + '</tr>';
+            if(jd.PER_Target_Avr*100 == 0){
+                var R3_1 = 'N/A';
+            } else{
+                var R3_1 = (jd.Close_Price /  jd.PER_Target_Avr*100).toFixed(0) + '%';
             }
-            output +=
-                '<tr>' +
-                '<th>한경컨센서스</th>' +
-                '<td><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
-                StartDate +
-                '&edate=' +
-                FinishDate +
-                '&now_page=1&search_value=&report_type=CO&pagenum=20&search_text=' +
-                jd.stock_code.substr(1) +
-                '" target="_blank">바로가기</a></td>' +
-                '</tr>';
+            output += '<tr>' + '<td style="text-align:right">' + R1_1 + '</td>';
+            output += '<td style="text-align:right">' + R2_1 + '</td>';
+            output += '<td style="text-align:right">' + R3_1 + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td colspan="5" style="background-color:white">' + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#c9f3c5">Financial</td>';
+            output += '<td style="background-color:#c9f3c5">' + (year-3) + '년</td>';
+            output += '<td style="background-color:#c9f3c5">' + (year-2) + '년</td>';
+            output += '<td style="background-color:#c9f3c5">' + (year-1) + '년</td>';
+            output += '<td style="background-color:#c9f3c5">' + year + '년(E)</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#faffc2">매출액(억원)</td>';
+            output += '<td style="text-align:right">' + jd.MY_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.MY_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.MY_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.MY_E.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#faffc2">영업이익(억원)</td>';
+            output += '<td style="text-align:right">' + jd.PY_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.PY_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.PY_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.PY_E.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#faffc2">지배주주자본(억원)</td>';
+            output += '<td style="text-align:right">' + jd.JY_3.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.JY_2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.JY_1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
+            output += '<td style="text-align:right">' + jd.JY_E.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>' + '</tr>';
+            
+            output += '<tr>' + '<td style="background-color:#faffc2">ROE(배)</td>';
+            output += '<td>' + jd.ROE_3 + '</td>';
+            output += '<td>' + jd.ROE_2 + '</td>';
+            output += '<td>' + jd.ROE_1 + '</td>';
+            output += '<td>' + jd.ROE_E + '</td>' + '</tr>';
+            
             output += '</table></div>';
             output += '</div>';
             $('#filter-records_1').html(output);
