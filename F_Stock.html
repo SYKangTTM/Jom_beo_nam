@@ -57,7 +57,7 @@
         <script type="text/javascript" src="js/Stock_info/Stock_info_20.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_21.js"></script>
         <script type="text/javascript" src="js/Stock_info/Stock_info_22.js"></script>
-        <script type="text/javascript" src="js/Stock_info/Stock_info_23.js"></script>
+        <!-- <script type="text/javascript" src="js/Stock_info/Stock_info_23.js"></script> -->
         
 
         <title>가치투자 - 좀 버는 남자(좀버남)</title>
@@ -137,12 +137,13 @@
         <section class="main" style="height: 80vh;">
             <div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 2%;padding-bottom: 2%;">
                 <select id="Find_Stock_Condtion" style="vertical-align: middle;" onchange="Fun_C_Div()">
-                    <option value="F_S_C_1">저PER</option>
-                    <option value="F_S_C_2">흑자전환예상</option>
                     <option value="F_S_C_3">SRIM_5년</option>
                     <option value="F_S_C_4">SRIM_10년</option>
+                    <option value="F_S_C_2">흑자전환예상</option>
                     <option value="F_S_C_5">고배당</option>
-                    <!-- <option value="F_S_C_6">저PBR</option> -->
+                    <option value="F_S_C_1">저PER</option>
+                    <option value="F_S_C_6">저PBR</option>
+                    
                     <!-- <option value="F_S_C_7">F_Score</option> -->
                 </select>
                 <select id="inventory_WICS" style="vertical-align: middle;"></select>
@@ -262,6 +263,15 @@
             }
             output += '</select>';
             $('#inventory_WICS').html(output);
+        }else if(x == "F_S_C_6"){
+            var stock_div_data = stock_div6;
+            var output = '<select>';
+            output += '<option value="All">전체</option>'
+            for(var i=0;i<stock_div_data.length;i++){
+                output += '<option value="'+ stock_div_data[i] + '">' + stock_div_data[i] +'</option>'
+            }
+            output += '</select>';
+            $('#inventory_WICS').html(output);
         }
         
     }
@@ -289,6 +299,8 @@
             F_S_C_4(Div_F_ST);
         }else if(Con_F_S == "F_S_C_5"){
             F_S_C_5(Div_F_ST);
+        }else if(Con_F_S == "F_S_C_6"){
+            F_S_C_6(Div_F_ST);
         }
     }
     
@@ -322,18 +334,51 @@
             if (shouldSwitch) {
                 /*If a switch has been marked, make the switch
                 and mark that a switch has been done:*/
-                
-                
                 rows[i].parentNode.insertBefore(rows[i + 3], rows[i]);
                 rows[i+1].parentNode.insertBefore(rows[i + 4], rows[i+1]);
                 rows[i+2].parentNode.insertBefore(rows[i + 5], rows[i+2]);
-                
-                
                 switching = true;
             }
           }
     }
     
+    function sortTable_PBR() {
+        var table, rows, switching, i, x, y, shouldSwitch;
+        table = document.getElementById("Table_PER_body_1");
+        switching = true;
+        /*Make a loop that will continue until
+        no switching has been done:*/
+        while (switching) {
+            //start by saying: no switching is done:
+            switching = false;
+            rows = table.rows;
+            /*Loop through all table rows (except the
+            first, which contains table headers):*/
+            for (i = 0; i < (rows.length - 3);) {
+                //start by saying there should be no switching:
+                shouldSwitch = false;
+                /*Get the two elements you want to compare,
+                one from current row and one from the next:*/
+                x = rows[i].getElementsByTagName("TD")[2];
+                y = rows[i + 3].getElementsByTagName("TD")[2];
+                //check if the two rows should switch place:
+                if (Number(x.innerHTML) > Number(y.innerHTML)) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch = true;
+                    break;
+                }
+                i+=3;
+            }
+            if (shouldSwitch) {
+                /*If a switch has been marked, make the switch
+                and mark that a switch has been done:*/
+                rows[i].parentNode.insertBefore(rows[i + 3], rows[i]);
+                rows[i+1].parentNode.insertBefore(rows[i + 4], rows[i+1]);
+                rows[i+2].parentNode.insertBefore(rows[i + 5], rows[i+2]);
+                switching = true;
+            }
+          }
+    }
     
 </script>
 <script type="text/javascript">
@@ -364,7 +409,7 @@
         var data20 = stock20;
         var data21 = stock21;
         var data22 = stock22;
-        var data23 = stock23;
+        // var data23 = stock23;
         
         var data_length =
             data1.length +
@@ -383,7 +428,7 @@
             data14.length +
             data15.length +
             data16.length +
-            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length+data23.length;
+            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length; //+data23.length;
 
         var data_stock_code = []; //종목코드
         var data_stock_name = []; //종목명
@@ -401,6 +446,7 @@
         var data_stock_F_S_C_3 = [];
         var data_stock_F_S_C_4 = [];
         var data_stock_F_S_C_5 = [];
+        var data_stock_F_S_C_6 = [];
         
         var n = 0;
 
@@ -408,168 +454,182 @@
             data_stock_code[n] = data1[i].co;
             data_stock_name[n] = data1[i].n;
             data_stock_WICS[n] = data1[i].W;
-            data_stock_PER_RANK[n] = data1[i].P_R;
+            // data_stock_PER_RANK[n] = data1[i].P_R;
             data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data1[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data1[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data2.length; i++) {
             data_stock_code[n] = data2[i].co;
             data_stock_name[n] = data2[i].n;
             data_stock_WICS[n] = data2[i].W;
-            data_stock_PER_RANK[n] = data2[i].P_R;
+            // data_stock_PER_RANK[n] = data2[i].P_R;
             data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data2[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data2[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data3.length; i++) {
             data_stock_code[n] = data3[i].co;
             data_stock_name[n] = data3[i].n;
             data_stock_WICS[n] = data3[i].W;
-            data_stock_PER_RANK[n] = data3[i].P_R;
+            // data_stock_PER_RANK[n] = data3[i].P_R;
             data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data3[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data3[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data4.length; i++) {
             data_stock_code[n] = data4[i].co;
             data_stock_name[n] = data4[i].n;
             data_stock_WICS[n] = data4[i].W;
-            data_stock_PER_RANK[n] = data4[i].P_R;
+            // data_stock_PER_RANK[n] = data4[i].P_R;
             data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data4[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data4[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data5.length; i++) {
             data_stock_code[n] = data5[i].co;
             data_stock_name[n] = data5[i].n;
             data_stock_WICS[n] = data5[i].W;
-            data_stock_PER_RANK[n] = data5[i].P_R;
+            // data_stock_PER_RANK[n] = data5[i].P_R;
             data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data5[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data5[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data6.length; i++) {
             data_stock_code[n] = data6[i].co;
             data_stock_name[n] = data6[i].n;
             data_stock_WICS[n] = data6[i].W;
-            data_stock_PER_RANK[n] = data6[i].P_R;
+            // data_stock_PER_RANK[n] = data6[i].P_R;
             data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data6[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data6[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data7.length; i++) {
             data_stock_code[n] = data7[i].co;
             data_stock_name[n] = data7[i].n;
             data_stock_WICS[n] = data7[i].W;
-            data_stock_PER_RANK[n] = data7[i].P_R;
+            // data_stock_PER_RANK[n] = data7[i].P_R;
             data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data7[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data7[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data8.length; i++) {
             data_stock_code[n] = data8[i].co;
             data_stock_name[n] = data8[i].n;
             data_stock_WICS[n] = data8[i].W;
-            data_stock_PER_RANK[n] = data8[i].P_R;
+            // data_stock_PER_RANK[n] = data8[i].P_R;
             data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data8[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data8[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data9.length; i++) {
             data_stock_code[n] = data9[i].co;
             data_stock_name[n] = data9[i].n;
             data_stock_WICS[n] = data9[i].W;
-            data_stock_PER_RANK[n] = data9[i].P_R;
+            // data_stock_PER_RANK[n] = data9[i].P_R;
             data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data9[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data9[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data10.length; i++) {
             data_stock_code[n] = data10[i].co;
             data_stock_name[n] = data10[i].n;
             data_stock_WICS[n] = data10[i].W;
-            data_stock_PER_RANK[n] = data10[i].P_R;
+            // data_stock_PER_RANK[n] = data10[i].P_R;
             data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data10[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data10[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data11.length; i++) {
             data_stock_code[n] = data11[i].co;
             data_stock_name[n] = data11[i].n;
             data_stock_WICS[n] = data11[i].W;
-            data_stock_PER_RANK[n] = data11[i].P_R;
+            // data_stock_PER_RANK[n] = data11[i].P_R;
             data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data11[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data11[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data12.length; i++) {
             data_stock_code[n] = data12[i].co;
             data_stock_name[n] = data12[i].n;
             data_stock_WICS[n] = data12[i].W;
-            data_stock_PER_RANK[n] = data12[i].P_R;
+            // data_stock_PER_RANK[n] = data12[i].P_R;
             data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data12[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data12[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data13.length; i++) {
             data_stock_code[n] = data13[i].co;
             data_stock_name[n] = data13[i].n;
             data_stock_WICS[n] = data13[i].W;
-            data_stock_PER_RANK[n] = data13[i].P_R;
+            // data_stock_PER_RANK[n] = data13[i].P_R;
             data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data13[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data13[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data14.length; i++) {
             data_stock_code[n] = data14[i].co;
             data_stock_name[n] = data14[i].n;
             data_stock_WICS[n] = data14[i].W;
-            data_stock_PER_RANK[n] = data14[i].P_R;
+            // data_stock_PER_RANK[n] = data14[i].P_R;
             data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data14[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data14[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         
@@ -577,110 +637,119 @@
             data_stock_code[n] = data15[i].co;
             data_stock_name[n] = data15[i].n;
             data_stock_WICS[n] = data15[i].W;
-            data_stock_PER_RANK[n] = data15[i].P_R;
+            // data_stock_PER_RANK[n] = data15[i].P_R;
             data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data15[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data15[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data16.length; i++) {
             data_stock_code[n] = data16[i].co;
             data_stock_name[n] = data16[i].n;
             data_stock_WICS[n] = data16[i].W;
-            data_stock_PER_RANK[n] = data16[i].P_R;
+            // data_stock_PER_RANK[n] = data16[i].P_R;
             data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data16[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data16[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data17.length; i++) {
             data_stock_code[n] = data17[i].co;
             data_stock_name[n] = data17[i].n;
             data_stock_WICS[n] = data17[i].W;
-            data_stock_PER_RANK[n] = data17[i].P_R;
+            // data_stock_PER_RANK[n] = data17[i].P_R;
             data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data17[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data17[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data18.length; i++) {
             data_stock_code[n] = data18[i].co;
             data_stock_name[n] = data18[i].n;
             data_stock_WICS[n] = data18[i].W;
-            data_stock_PER_RANK[n] = data18[i].P_R;
+            // data_stock_PER_RANK[n] = data18[i].P_R;
             data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data18[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data18[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data19.length; i++) {
             data_stock_code[n] = data19[i].co;
             data_stock_name[n] = data19[i].n;
             data_stock_WICS[n] = data19[i].W;
-            data_stock_PER_RANK[n] = data19[i].P_R;
+            // data_stock_PER_RANK[n] = data19[i].P_R;
             data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data19[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data19[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data20.length; i++) {
             data_stock_code[n] = data20[i].co;
             data_stock_name[n] = data20[i].n;
             data_stock_WICS[n] = data20[i].W;
-            data_stock_PER_RANK[n] = data20[i].P_R;
+            // data_stock_PER_RANK[n] = data20[i].P_R;
             data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data20[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data20[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data21.length; i++) {
             data_stock_code[n] = data21[i].co;
             data_stock_name[n] = data21[i].n;
             data_stock_WICS[n] = data21[i].W;
-            data_stock_PER_RANK[n] = data21[i].P_R;
+            // data_stock_PER_RANK[n] = data21[i].P_R;
             data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data21[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data21[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data22.length; i++) {
             data_stock_code[n] = data22[i].co;
             data_stock_name[n] = data22[i].n;
             data_stock_WICS[n] = data22[i].W;
-            data_stock_PER_RANK[n] = data22[i].P_R;
+            // data_stock_PER_RANK[n] = data22[i].P_R;
             data_stock_F_S_C_1[n] = data22[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data22[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data22[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data22[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data22[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data22[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
-        for (i = 0; i < data23.length; i++) {
-            data_stock_code[n] = data23[i].co;
-            data_stock_name[n] = data23[i].n;
-            data_stock_WICS[n] = data23[i].W;
-            data_stock_PER_RANK[n] = data23[i].P_R;
-            data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
-            data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
-            data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
-            data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
-            data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
-            n = n + 1;
-        }
+        // for (i = 0; i < data23.length; i++) {
+        //     data_stock_code[n] = data23[i].co;
+        //     data_stock_name[n] = data23[i].n;
+        //     data_stock_WICS[n] = data23[i].W;
+        //     data_stock_PER_RANK[n] = data23[i].P_R;
+        //     data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
+        //     data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
+        //     data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
+        //     data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
+        //     data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
+        //     data_stock_F_S_C_6[n] = data23[i].C6; //저PBR조건 값=O
+        //     n = n + 1;
+        // }
         //여기까지복사하기
 
         for (var i = 0; i < n; i++) {
@@ -738,8 +807,8 @@
         
         output += '<tr class="Table_PER_header_3">';
         output += '<th scope="col" style="width:19vw;">업종</th>';
-        output += '<th scope="col" style="width:19vw;">조건미정</th>';
-        output += '<th scope="col" style="width:19vw;">조건미정</th>';
+        output += '<th scope="col" style="width:19vw;">고배당주</th>';
+        output += '<th scope="col" style="width:19vw;">저PBR</th>';
         output += '<th scope="col" style="width:19vw;">업종PER</th>';
         output += '<th scope="col" style="width:19vw;">종가</th></tr>';
         output += '</tbody></table></div>';
@@ -789,8 +858,8 @@
                     
                     output += '<tr class="Table_PER_body_3">';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
-                    output += '<td align="center" style="width:19vw;">N/A</td>';
-                    output += '<td align="center"style="width:19vw;">N/A</td>';
+                    output += '<td align="center" style="width:19vw;">' +data_stock_F_S_C_5[i]+ '</td>';
+                    output += '<td align="center"style="width:19vw;">'+data_stock_F_S_C_6[i]+'</td>';
                     output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
                     output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
                 }
@@ -832,8 +901,8 @@
                     
                     output += '<tr class="Table_PER_body_3">';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
-                    output += '<td align="center" style="width:19vw;">N/A</td>';
-                    output += '<td align="center"style="width:19vw;">N/A</td>';
+                    output += '<td align="center" style="width:19vw;">' +data_stock_F_S_C_5[i]+ '</td>';
+                    output += '<td align="center"style="width:19vw;">'+data_stock_F_S_C_6[i]+'</td>';
                     output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PER[i] +'</td>';
                     output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';   
                 }
@@ -880,7 +949,7 @@
         var data20 = stock20;
         var data21 = stock21;
         var data22 = stock22;
-        var data23 = stock23;
+        // var data23 = stock23;
         
         var data_length =
             data1.length +
@@ -899,7 +968,7 @@
             data14.length +
             data15.length +
             data16.length +
-            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length+data23.length;
+            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length;//+data23.length;
 
         var data_stock_code = []; //종목코드
         var data_stock_name = []; //종목명
@@ -923,6 +992,7 @@
         var data_stock_F_S_C_3 = [];
         var data_stock_F_S_C_4 = [];
         var data_stock_F_S_C_5 = [];
+        var data_stock_F_S_C_6 = [];
         
         var n = 0;
 
@@ -930,168 +1000,182 @@
             data_stock_code[n] = data1[i].co;
             data_stock_name[n] = data1[i].n;
             data_stock_WICS[n] = data1[i].W;
-            data_stock_PER_RANK[n] = data1[i].P_R;
+            // data_stock_PER_RANK[n] = data1[i].P_R;
             data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data1[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data1[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data2.length; i++) {
             data_stock_code[n] = data2[i].co;
             data_stock_name[n] = data2[i].n;
             data_stock_WICS[n] = data2[i].W;
-            data_stock_PER_RANK[n] = data2[i].P_R;
+            // data_stock_PER_RANK[n] = data2[i].P_R;
             data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data2[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data2[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data3.length; i++) {
             data_stock_code[n] = data3[i].co;
             data_stock_name[n] = data3[i].n;
             data_stock_WICS[n] = data3[i].W;
-            data_stock_PER_RANK[n] = data3[i].P_R;
+            // data_stock_PER_RANK[n] = data3[i].P_R;
             data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data3[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data3[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data4.length; i++) {
             data_stock_code[n] = data4[i].co;
             data_stock_name[n] = data4[i].n;
             data_stock_WICS[n] = data4[i].W;
-            data_stock_PER_RANK[n] = data4[i].P_R;
+            // data_stock_PER_RANK[n] = data4[i].P_R;
             data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data4[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data4[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data5.length; i++) {
             data_stock_code[n] = data5[i].co;
             data_stock_name[n] = data5[i].n;
             data_stock_WICS[n] = data5[i].W;
-            data_stock_PER_RANK[n] = data5[i].P_R;
+            // data_stock_PER_RANK[n] = data5[i].P_R;
             data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data5[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data5[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data6.length; i++) {
             data_stock_code[n] = data6[i].co;
             data_stock_name[n] = data6[i].n;
             data_stock_WICS[n] = data6[i].W;
-            data_stock_PER_RANK[n] = data6[i].P_R;
+            // data_stock_PER_RANK[n] = data6[i].P_R;
             data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data6[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data6[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data7.length; i++) {
             data_stock_code[n] = data7[i].co;
             data_stock_name[n] = data7[i].n;
             data_stock_WICS[n] = data7[i].W;
-            data_stock_PER_RANK[n] = data7[i].P_R;
+            // data_stock_PER_RANK[n] = data7[i].P_R;
             data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data7[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data7[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data8.length; i++) {
             data_stock_code[n] = data8[i].co;
             data_stock_name[n] = data8[i].n;
             data_stock_WICS[n] = data8[i].W;
-            data_stock_PER_RANK[n] = data8[i].P_R;
+            // data_stock_PER_RANK[n] = data8[i].P_R;
             data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data8[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data8[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data9.length; i++) {
             data_stock_code[n] = data9[i].co;
             data_stock_name[n] = data9[i].n;
             data_stock_WICS[n] = data9[i].W;
-            data_stock_PER_RANK[n] = data9[i].P_R;
+            // data_stock_PER_RANK[n] = data9[i].P_R;
             data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data9[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data9[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data10.length; i++) {
             data_stock_code[n] = data10[i].co;
             data_stock_name[n] = data10[i].n;
             data_stock_WICS[n] = data10[i].W;
-            data_stock_PER_RANK[n] = data10[i].P_R;
+            // data_stock_PER_RANK[n] = data10[i].P_R;
             data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data10[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data10[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data11.length; i++) {
             data_stock_code[n] = data11[i].co;
             data_stock_name[n] = data11[i].n;
             data_stock_WICS[n] = data11[i].W;
-            data_stock_PER_RANK[n] = data11[i].P_R;
+            // data_stock_PER_RANK[n] = data11[i].P_R;
             data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data11[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data11[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data12.length; i++) {
             data_stock_code[n] = data12[i].co;
             data_stock_name[n] = data12[i].n;
             data_stock_WICS[n] = data12[i].W;
-            data_stock_PER_RANK[n] = data12[i].P_R;
+            // data_stock_PER_RANK[n] = data12[i].P_R;
             data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data12[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data12[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data13.length; i++) {
             data_stock_code[n] = data13[i].co;
             data_stock_name[n] = data13[i].n;
             data_stock_WICS[n] = data13[i].W;
-            data_stock_PER_RANK[n] = data13[i].P_R;
+            // data_stock_PER_RANK[n] = data13[i].P_R;
             data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data13[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data13[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data14.length; i++) {
             data_stock_code[n] = data14[i].co;
             data_stock_name[n] = data14[i].n;
             data_stock_WICS[n] = data14[i].W;
-            data_stock_PER_RANK[n] = data14[i].P_R;
+            // data_stock_PER_RANK[n] = data14[i].P_R;
             data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data14[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data14[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         
@@ -1099,110 +1183,119 @@
             data_stock_code[n] = data15[i].co;
             data_stock_name[n] = data15[i].n;
             data_stock_WICS[n] = data15[i].W;
-            data_stock_PER_RANK[n] = data15[i].P_R;
+            // data_stock_PER_RANK[n] = data15[i].P_R;
             data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data15[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data15[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data16.length; i++) {
             data_stock_code[n] = data16[i].co;
             data_stock_name[n] = data16[i].n;
             data_stock_WICS[n] = data16[i].W;
-            data_stock_PER_RANK[n] = data16[i].P_R;
+            // data_stock_PER_RANK[n] = data16[i].P_R;
             data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data16[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data16[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data17.length; i++) {
             data_stock_code[n] = data17[i].co;
             data_stock_name[n] = data17[i].n;
             data_stock_WICS[n] = data17[i].W;
-            data_stock_PER_RANK[n] = data17[i].P_R;
+            // data_stock_PER_RANK[n] = data17[i].P_R;
             data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data17[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data17[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data18.length; i++) {
             data_stock_code[n] = data18[i].co;
             data_stock_name[n] = data18[i].n;
             data_stock_WICS[n] = data18[i].W;
-            data_stock_PER_RANK[n] = data18[i].P_R;
+            // data_stock_PER_RANK[n] = data18[i].P_R;
             data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data18[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data18[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data19.length; i++) {
             data_stock_code[n] = data19[i].co;
             data_stock_name[n] = data19[i].n;
             data_stock_WICS[n] = data19[i].W;
-            data_stock_PER_RANK[n] = data19[i].P_R;
+            // data_stock_PER_RANK[n] = data19[i].P_R;
             data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data19[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data19[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data20.length; i++) {
             data_stock_code[n] = data20[i].co;
             data_stock_name[n] = data20[i].n;
             data_stock_WICS[n] = data20[i].W;
-            data_stock_PER_RANK[n] = data20[i].P_R;
+            // data_stock_PER_RANK[n] = data20[i].P_R;
             data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data20[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data20[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data21.length; i++) {
             data_stock_code[n] = data21[i].co;
             data_stock_name[n] = data21[i].n;
             data_stock_WICS[n] = data21[i].W;
-            data_stock_PER_RANK[n] = data21[i].P_R;
+            // data_stock_PER_RANK[n] = data21[i].P_R;
             data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data21[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data21[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data22.length; i++) {
             data_stock_code[n] = data22[i].co;
             data_stock_name[n] = data22[i].n;
             data_stock_WICS[n] = data22[i].W;
-            data_stock_PER_RANK[n] = data22[i].P_R;
+            // data_stock_PER_RANK[n] = data22[i].P_R;
             data_stock_F_S_C_1[n] = data22[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data22[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data22[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data22[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data22[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data22[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
-        for (i = 0; i < data23.length; i++) {
-            data_stock_code[n] = data23[i].co;
-            data_stock_name[n] = data23[i].n;
-            data_stock_WICS[n] = data23[i].W;
-            data_stock_PER_RANK[n] = data23[i].P_R;
-            data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
-            data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
-            data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
-            data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
-            data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
-            n = n + 1;
-        }
+        // for (i = 0; i < data23.length; i++) {
+        //     data_stock_code[n] = data23[i].co;
+        //     data_stock_name[n] = data23[i].n;
+        //     data_stock_WICS[n] = data23[i].W;
+        //     data_stock_PER_RANK[n] = data23[i].P_R;
+        //     data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
+        //     data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
+        //     data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
+        //     data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
+        //     data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
+        //     data_stock_F_S_C_6[n] = data23[i].C6; //저PBR조건 값=O
+        //     n = n + 1;
+        // }
         //여기까지복사하기
 
         for (var i = 0; i < n; i++) {
@@ -1405,7 +1498,7 @@
         var data20 = stock20;
         var data21 = stock21;
         var data22 = stock22;
-        var data23 = stock23;
+        // var data23 = stock23;
         
         var data_length =
             data1.length +
@@ -1424,7 +1517,7 @@
             data14.length +
             data15.length +
             data16.length +
-            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length+data23.length;
+            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length; //+data23.length;
 
         var data_stock_code = [];
         var data_stock_name = [];
@@ -1444,6 +1537,7 @@
         var data_stock_F_S_C_3 = [];
         var data_stock_F_S_C_4 = [];
         var data_stock_F_S_C_5 = [];
+        var data_stock_F_S_C_6 = [];
         
         var n = 0;
 
@@ -1451,168 +1545,182 @@
             data_stock_code[n] = data1[i].co;
             data_stock_name[n] = data1[i].n;
             data_stock_WICS[n] = data1[i].W;
-            data_stock_PER_RANK[n] = data1[i].P_R;
+            // data_stock_PER_RANK[n] = data1[i].P_R;
             data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data1[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data1[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data2.length; i++) {
             data_stock_code[n] = data2[i].co;
             data_stock_name[n] = data2[i].n;
             data_stock_WICS[n] = data2[i].W;
-            data_stock_PER_RANK[n] = data2[i].P_R;
+            // data_stock_PER_RANK[n] = data2[i].P_R;
             data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data2[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data2[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data3.length; i++) {
             data_stock_code[n] = data3[i].co;
             data_stock_name[n] = data3[i].n;
             data_stock_WICS[n] = data3[i].W;
-            data_stock_PER_RANK[n] = data3[i].P_R;
+            // data_stock_PER_RANK[n] = data3[i].P_R;
             data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data3[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data3[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data4.length; i++) {
             data_stock_code[n] = data4[i].co;
             data_stock_name[n] = data4[i].n;
             data_stock_WICS[n] = data4[i].W;
-            data_stock_PER_RANK[n] = data4[i].P_R;
+            // data_stock_PER_RANK[n] = data4[i].P_R;
             data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data4[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data4[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data5.length; i++) {
             data_stock_code[n] = data5[i].co;
             data_stock_name[n] = data5[i].n;
             data_stock_WICS[n] = data5[i].W;
-            data_stock_PER_RANK[n] = data5[i].P_R;
+            // data_stock_PER_RANK[n] = data5[i].P_R;
             data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data5[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data5[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data6.length; i++) {
             data_stock_code[n] = data6[i].co;
             data_stock_name[n] = data6[i].n;
             data_stock_WICS[n] = data6[i].W;
-            data_stock_PER_RANK[n] = data6[i].P_R;
+            // data_stock_PER_RANK[n] = data6[i].P_R;
             data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data6[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data6[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data7.length; i++) {
             data_stock_code[n] = data7[i].co;
             data_stock_name[n] = data7[i].n;
             data_stock_WICS[n] = data7[i].W;
-            data_stock_PER_RANK[n] = data7[i].P_R;
+            // data_stock_PER_RANK[n] = data7[i].P_R;
             data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data7[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data7[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data8.length; i++) {
             data_stock_code[n] = data8[i].co;
             data_stock_name[n] = data8[i].n;
             data_stock_WICS[n] = data8[i].W;
-            data_stock_PER_RANK[n] = data8[i].P_R;
+            // data_stock_PER_RANK[n] = data8[i].P_R;
             data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data8[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data8[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data9.length; i++) {
             data_stock_code[n] = data9[i].co;
             data_stock_name[n] = data9[i].n;
             data_stock_WICS[n] = data9[i].W;
-            data_stock_PER_RANK[n] = data9[i].P_R;
+            // data_stock_PER_RANK[n] = data9[i].P_R;
             data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data9[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data9[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data10.length; i++) {
             data_stock_code[n] = data10[i].co;
             data_stock_name[n] = data10[i].n;
             data_stock_WICS[n] = data10[i].W;
-            data_stock_PER_RANK[n] = data10[i].P_R;
+            // data_stock_PER_RANK[n] = data10[i].P_R;
             data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data10[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data10[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data11.length; i++) {
             data_stock_code[n] = data11[i].co;
             data_stock_name[n] = data11[i].n;
             data_stock_WICS[n] = data11[i].W;
-            data_stock_PER_RANK[n] = data11[i].P_R;
+            // data_stock_PER_RANK[n] = data11[i].P_R;
             data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data11[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data11[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data12.length; i++) {
             data_stock_code[n] = data12[i].co;
             data_stock_name[n] = data12[i].n;
             data_stock_WICS[n] = data12[i].W;
-            data_stock_PER_RANK[n] = data12[i].P_R;
+            // data_stock_PER_RANK[n] = data12[i].P_R;
             data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data12[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data12[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data13.length; i++) {
             data_stock_code[n] = data13[i].co;
             data_stock_name[n] = data13[i].n;
             data_stock_WICS[n] = data13[i].W;
-            data_stock_PER_RANK[n] = data13[i].P_R;
+            // data_stock_PER_RANK[n] = data13[i].P_R;
             data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data13[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data13[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data14.length; i++) {
             data_stock_code[n] = data14[i].co;
             data_stock_name[n] = data14[i].n;
             data_stock_WICS[n] = data14[i].W;
-            data_stock_PER_RANK[n] = data14[i].P_R;
+            // data_stock_PER_RANK[n] = data14[i].P_R;
             data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data14[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data14[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         
@@ -1620,110 +1728,119 @@
             data_stock_code[n] = data15[i].co;
             data_stock_name[n] = data15[i].n;
             data_stock_WICS[n] = data15[i].W;
-            data_stock_PER_RANK[n] = data15[i].P_R;
+            // data_stock_PER_RANK[n] = data15[i].P_R;
             data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data15[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data15[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data16.length; i++) {
             data_stock_code[n] = data16[i].co;
             data_stock_name[n] = data16[i].n;
             data_stock_WICS[n] = data16[i].W;
-            data_stock_PER_RANK[n] = data16[i].P_R;
+            // data_stock_PER_RANK[n] = data16[i].P_R;
             data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data16[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data16[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data17.length; i++) {
             data_stock_code[n] = data17[i].co;
             data_stock_name[n] = data17[i].n;
             data_stock_WICS[n] = data17[i].W;
-            data_stock_PER_RANK[n] = data17[i].P_R;
+            // data_stock_PER_RANK[n] = data17[i].P_R;
             data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data17[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data17[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data18.length; i++) {
             data_stock_code[n] = data18[i].co;
             data_stock_name[n] = data18[i].n;
             data_stock_WICS[n] = data18[i].W;
-            data_stock_PER_RANK[n] = data18[i].P_R;
+            // data_stock_PER_RANK[n] = data18[i].P_R;
             data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data18[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data18[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data19.length; i++) {
             data_stock_code[n] = data19[i].co;
             data_stock_name[n] = data19[i].n;
             data_stock_WICS[n] = data19[i].W;
-            data_stock_PER_RANK[n] = data19[i].P_R;
+            // data_stock_PER_RANK[n] = data19[i].P_R;
             data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data19[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data19[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data20.length; i++) {
             data_stock_code[n] = data20[i].co;
             data_stock_name[n] = data20[i].n;
             data_stock_WICS[n] = data20[i].W;
-            data_stock_PER_RANK[n] = data20[i].P_R;
+            // data_stock_PER_RANK[n] = data20[i].P_R;
             data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data20[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data20[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data21.length; i++) {
             data_stock_code[n] = data21[i].co;
             data_stock_name[n] = data21[i].n;
             data_stock_WICS[n] = data21[i].W;
-            data_stock_PER_RANK[n] = data21[i].P_R;
+            // data_stock_PER_RANK[n] = data21[i].P_R;
             data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data21[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data21[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data22.length; i++) {
             data_stock_code[n] = data22[i].co;
             data_stock_name[n] = data22[i].n;
             data_stock_WICS[n] = data22[i].W;
-            data_stock_PER_RANK[n] = data22[i].P_R;
+            // data_stock_PER_RANK[n] = data22[i].P_R;
             data_stock_F_S_C_1[n] = data22[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data22[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data22[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data22[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data22[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data22[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
-        for (i = 0; i < data23.length; i++) {
-            data_stock_code[n] = data23[i].co;
-            data_stock_name[n] = data23[i].n;
-            data_stock_WICS[n] = data23[i].W;
-            data_stock_PER_RANK[n] = data23[i].P_R;
-            data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
-            data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
-            data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
-            data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
-            data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
-            n = n + 1;
-        }
+        // for (i = 0; i < data23.length; i++) {
+        //     data_stock_code[n] = data23[i].co;
+        //     data_stock_name[n] = data23[i].n;
+        //     data_stock_WICS[n] = data23[i].W;
+        //     data_stock_PER_RANK[n] = data23[i].P_R;
+        //     data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
+        //     data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
+        //     data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
+        //     data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
+        //     data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
+        //     data_stock_F_S_C_6[n] = data23[i].C6; //저PBR조건 값=O
+        //     n = n + 1;
+        // }
         //여기까지복사하기
 
         for (var i = 0; i < n; i++) {
@@ -1913,7 +2030,7 @@
         var data20 = stock20;
         var data21 = stock21;
         var data22 = stock22;
-        var data23 = stock23;
+        // var data23 = stock23;
         
         var data_length =
             data1.length +
@@ -1932,7 +2049,7 @@
             data14.length +
             data15.length +
             data16.length +
-            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length+data23.length;
+            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length; //+data23.length;
 
         var data_stock_code = [];
         var data_stock_name = [];
@@ -1952,6 +2069,7 @@
         var data_stock_F_S_C_3 = [];
         var data_stock_F_S_C_4 = [];
         var data_stock_F_S_C_5 = [];
+        var data_stock_F_S_C_6 = [];
         
         var n = 0;
 
@@ -1959,168 +2077,182 @@
             data_stock_code[n] = data1[i].co;
             data_stock_name[n] = data1[i].n;
             data_stock_WICS[n] = data1[i].W;
-            data_stock_PER_RANK[n] = data1[i].P_R;
+            // data_stock_PER_RANK[n] = data1[i].P_R;
             data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data1[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data1[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data2.length; i++) {
             data_stock_code[n] = data2[i].co;
             data_stock_name[n] = data2[i].n;
             data_stock_WICS[n] = data2[i].W;
-            data_stock_PER_RANK[n] = data2[i].P_R;
+            // data_stock_PER_RANK[n] = data2[i].P_R;
             data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data2[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data2[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data3.length; i++) {
             data_stock_code[n] = data3[i].co;
             data_stock_name[n] = data3[i].n;
             data_stock_WICS[n] = data3[i].W;
-            data_stock_PER_RANK[n] = data3[i].P_R;
+            // data_stock_PER_RANK[n] = data3[i].P_R;
             data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data3[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data3[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data4.length; i++) {
             data_stock_code[n] = data4[i].co;
             data_stock_name[n] = data4[i].n;
             data_stock_WICS[n] = data4[i].W;
-            data_stock_PER_RANK[n] = data4[i].P_R;
+            // data_stock_PER_RANK[n] = data4[i].P_R;
             data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data4[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data4[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data5.length; i++) {
             data_stock_code[n] = data5[i].co;
             data_stock_name[n] = data5[i].n;
             data_stock_WICS[n] = data5[i].W;
-            data_stock_PER_RANK[n] = data5[i].P_R;
+            // data_stock_PER_RANK[n] = data5[i].P_R;
             data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data5[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data5[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data6.length; i++) {
             data_stock_code[n] = data6[i].co;
             data_stock_name[n] = data6[i].n;
             data_stock_WICS[n] = data6[i].W;
-            data_stock_PER_RANK[n] = data6[i].P_R;
+            // data_stock_PER_RANK[n] = data6[i].P_R;
             data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data6[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data6[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data7.length; i++) {
             data_stock_code[n] = data7[i].co;
             data_stock_name[n] = data7[i].n;
             data_stock_WICS[n] = data7[i].W;
-            data_stock_PER_RANK[n] = data7[i].P_R;
+            // data_stock_PER_RANK[n] = data7[i].P_R;
             data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data7[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data7[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data8.length; i++) {
             data_stock_code[n] = data8[i].co;
             data_stock_name[n] = data8[i].n;
             data_stock_WICS[n] = data8[i].W;
-            data_stock_PER_RANK[n] = data8[i].P_R;
+            // data_stock_PER_RANK[n] = data8[i].P_R;
             data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data8[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data8[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data9.length; i++) {
             data_stock_code[n] = data9[i].co;
             data_stock_name[n] = data9[i].n;
             data_stock_WICS[n] = data9[i].W;
-            data_stock_PER_RANK[n] = data9[i].P_R;
+            // data_stock_PER_RANK[n] = data9[i].P_R;
             data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data9[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data9[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data10.length; i++) {
             data_stock_code[n] = data10[i].co;
             data_stock_name[n] = data10[i].n;
             data_stock_WICS[n] = data10[i].W;
-            data_stock_PER_RANK[n] = data10[i].P_R;
+            // data_stock_PER_RANK[n] = data10[i].P_R;
             data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data10[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data10[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data11.length; i++) {
             data_stock_code[n] = data11[i].co;
             data_stock_name[n] = data11[i].n;
             data_stock_WICS[n] = data11[i].W;
-            data_stock_PER_RANK[n] = data11[i].P_R;
+            // data_stock_PER_RANK[n] = data11[i].P_R;
             data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data11[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data11[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data12.length; i++) {
             data_stock_code[n] = data12[i].co;
             data_stock_name[n] = data12[i].n;
             data_stock_WICS[n] = data12[i].W;
-            data_stock_PER_RANK[n] = data12[i].P_R;
+            // data_stock_PER_RANK[n] = data12[i].P_R;
             data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data12[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data12[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data13.length; i++) {
             data_stock_code[n] = data13[i].co;
             data_stock_name[n] = data13[i].n;
             data_stock_WICS[n] = data13[i].W;
-            data_stock_PER_RANK[n] = data13[i].P_R;
+            // data_stock_PER_RANK[n] = data13[i].P_R;
             data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data13[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data13[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data14.length; i++) {
             data_stock_code[n] = data14[i].co;
             data_stock_name[n] = data14[i].n;
             data_stock_WICS[n] = data14[i].W;
-            data_stock_PER_RANK[n] = data14[i].P_R;
+            // data_stock_PER_RANK[n] = data14[i].P_R;
             data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data14[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data14[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         
@@ -2128,110 +2260,119 @@
             data_stock_code[n] = data15[i].co;
             data_stock_name[n] = data15[i].n;
             data_stock_WICS[n] = data15[i].W;
-            data_stock_PER_RANK[n] = data15[i].P_R;
+            // data_stock_PER_RANK[n] = data15[i].P_R;
             data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data15[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data15[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data16.length; i++) {
             data_stock_code[n] = data16[i].co;
             data_stock_name[n] = data16[i].n;
             data_stock_WICS[n] = data16[i].W;
-            data_stock_PER_RANK[n] = data16[i].P_R;
+            // data_stock_PER_RANK[n] = data16[i].P_R;
             data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data16[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data16[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data17.length; i++) {
             data_stock_code[n] = data17[i].co;
             data_stock_name[n] = data17[i].n;
             data_stock_WICS[n] = data17[i].W;
-            data_stock_PER_RANK[n] = data17[i].P_R;
+            // data_stock_PER_RANK[n] = data17[i].P_R;
             data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data17[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data17[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data18.length; i++) {
             data_stock_code[n] = data18[i].co;
             data_stock_name[n] = data18[i].n;
             data_stock_WICS[n] = data18[i].W;
-            data_stock_PER_RANK[n] = data18[i].P_R;
+            // data_stock_PER_RANK[n] = data18[i].P_R;
             data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data18[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data18[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data19.length; i++) {
             data_stock_code[n] = data19[i].co;
             data_stock_name[n] = data19[i].n;
             data_stock_WICS[n] = data19[i].W;
-            data_stock_PER_RANK[n] = data19[i].P_R;
+            // data_stock_PER_RANK[n] = data19[i].P_R;
             data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data19[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data19[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data20.length; i++) {
             data_stock_code[n] = data20[i].co;
             data_stock_name[n] = data20[i].n;
             data_stock_WICS[n] = data20[i].W;
-            data_stock_PER_RANK[n] = data20[i].P_R;
+            // data_stock_PER_RANK[n] = data20[i].P_R;
             data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data20[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data20[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data21.length; i++) {
             data_stock_code[n] = data21[i].co;
             data_stock_name[n] = data21[i].n;
             data_stock_WICS[n] = data21[i].W;
-            data_stock_PER_RANK[n] = data21[i].P_R;
+            // data_stock_PER_RANK[n] = data21[i].P_R;
             data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data21[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data21[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data22.length; i++) {
             data_stock_code[n] = data22[i].co;
             data_stock_name[n] = data22[i].n;
             data_stock_WICS[n] = data22[i].W;
-            data_stock_PER_RANK[n] = data22[i].P_R;
+            // data_stock_PER_RANK[n] = data22[i].P_R;
             data_stock_F_S_C_1[n] = data22[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data22[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data22[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data22[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data22[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data22[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
-        for (i = 0; i < data23.length; i++) {
-            data_stock_code[n] = data23[i].co;
-            data_stock_name[n] = data23[i].n;
-            data_stock_WICS[n] = data23[i].W;
-            data_stock_PER_RANK[n] = data23[i].P_R;
-            data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
-            data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
-            data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
-            data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
-            data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
-            n = n + 1;
-        }
+        // for (i = 0; i < data23.length; i++) {
+        //     data_stock_code[n] = data23[i].co;
+        //     data_stock_name[n] = data23[i].n;
+        //     data_stock_WICS[n] = data23[i].W;
+        //     data_stock_PER_RANK[n] = data23[i].P_R;
+        //     data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
+        //     data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
+        //     data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
+        //     data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
+        //     data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
+        //     data_stock_F_S_C_6[n] = data23[i].C6; //저PBR조건 값=O
+        //     n = n + 1;
+        // }
         //여기까지복사하기
 
         for (var i = 0; i < n; i++) {
@@ -2421,7 +2562,7 @@
         var data20 = stock20;
         var data21 = stock21;
         var data22 = stock22;
-        var data23 = stock23;
+        // var data23 = stock23;
         
         var data_length =
             data1.length +
@@ -2440,7 +2581,7 @@
             data14.length +
             data15.length +
             data16.length +
-            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length+data23.length;
+            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length; //+data23.length;
 
         var data_stock_code = []; //종목코드
         var data_stock_name = []; //종목명
@@ -2464,6 +2605,7 @@
         var data_stock_F_S_C_3 = [];
         var data_stock_F_S_C_4 = [];
         var data_stock_F_S_C_5 = [];
+        var data_stock_F_S_C_6 = [];
         
         var n = 0;
 
@@ -2471,168 +2613,182 @@
             data_stock_code[n] = data1[i].co;
             data_stock_name[n] = data1[i].n;
             data_stock_WICS[n] = data1[i].W;
-            data_stock_PER_RANK[n] = data1[i].P_R;
+            // data_stock_PER_RANK[n] = data1[i].P_R;
             data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data1[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data1[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data2.length; i++) {
             data_stock_code[n] = data2[i].co;
             data_stock_name[n] = data2[i].n;
             data_stock_WICS[n] = data2[i].W;
-            data_stock_PER_RANK[n] = data2[i].P_R;
+            // data_stock_PER_RANK[n] = data2[i].P_R;
             data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data2[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data2[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data3.length; i++) {
             data_stock_code[n] = data3[i].co;
             data_stock_name[n] = data3[i].n;
             data_stock_WICS[n] = data3[i].W;
-            data_stock_PER_RANK[n] = data3[i].P_R;
+            // data_stock_PER_RANK[n] = data3[i].P_R;
             data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data3[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data3[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data4.length; i++) {
             data_stock_code[n] = data4[i].co;
             data_stock_name[n] = data4[i].n;
             data_stock_WICS[n] = data4[i].W;
-            data_stock_PER_RANK[n] = data4[i].P_R;
+            // data_stock_PER_RANK[n] = data4[i].P_R;
             data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data4[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data4[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data5.length; i++) {
             data_stock_code[n] = data5[i].co;
             data_stock_name[n] = data5[i].n;
             data_stock_WICS[n] = data5[i].W;
-            data_stock_PER_RANK[n] = data5[i].P_R;
+            // data_stock_PER_RANK[n] = data5[i].P_R;
             data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data5[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data5[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data6.length; i++) {
             data_stock_code[n] = data6[i].co;
             data_stock_name[n] = data6[i].n;
             data_stock_WICS[n] = data6[i].W;
-            data_stock_PER_RANK[n] = data6[i].P_R;
+            // data_stock_PER_RANK[n] = data6[i].P_R;
             data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data6[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data6[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data7.length; i++) {
             data_stock_code[n] = data7[i].co;
             data_stock_name[n] = data7[i].n;
             data_stock_WICS[n] = data7[i].W;
-            data_stock_PER_RANK[n] = data7[i].P_R;
+            // data_stock_PER_RANK[n] = data7[i].P_R;
             data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data7[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data7[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data8.length; i++) {
             data_stock_code[n] = data8[i].co;
             data_stock_name[n] = data8[i].n;
             data_stock_WICS[n] = data8[i].W;
-            data_stock_PER_RANK[n] = data8[i].P_R;
+            // data_stock_PER_RANK[n] = data8[i].P_R;
             data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data8[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data8[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data9.length; i++) {
             data_stock_code[n] = data9[i].co;
             data_stock_name[n] = data9[i].n;
             data_stock_WICS[n] = data9[i].W;
-            data_stock_PER_RANK[n] = data9[i].P_R;
+            // data_stock_PER_RANK[n] = data9[i].P_R;
             data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data9[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data9[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data10.length; i++) {
             data_stock_code[n] = data10[i].co;
             data_stock_name[n] = data10[i].n;
             data_stock_WICS[n] = data10[i].W;
-            data_stock_PER_RANK[n] = data10[i].P_R;
+            // data_stock_PER_RANK[n] = data10[i].P_R;
             data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data10[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data10[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data11.length; i++) {
             data_stock_code[n] = data11[i].co;
             data_stock_name[n] = data11[i].n;
             data_stock_WICS[n] = data11[i].W;
-            data_stock_PER_RANK[n] = data11[i].P_R;
+            // data_stock_PER_RANK[n] = data11[i].P_R;
             data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data11[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data11[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data12.length; i++) {
             data_stock_code[n] = data12[i].co;
             data_stock_name[n] = data12[i].n;
             data_stock_WICS[n] = data12[i].W;
-            data_stock_PER_RANK[n] = data12[i].P_R;
+            // data_stock_PER_RANK[n] = data12[i].P_R;
             data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data12[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data12[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data13.length; i++) {
             data_stock_code[n] = data13[i].co;
             data_stock_name[n] = data13[i].n;
             data_stock_WICS[n] = data13[i].W;
-            data_stock_PER_RANK[n] = data13[i].P_R;
+            // data_stock_PER_RANK[n] = data13[i].P_R;
             data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data13[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data13[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data14.length; i++) {
             data_stock_code[n] = data14[i].co;
             data_stock_name[n] = data14[i].n;
             data_stock_WICS[n] = data14[i].W;
-            data_stock_PER_RANK[n] = data14[i].P_R;
+            // data_stock_PER_RANK[n] = data14[i].P_R;
             data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data14[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data14[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         
@@ -2640,110 +2796,119 @@
             data_stock_code[n] = data15[i].co;
             data_stock_name[n] = data15[i].n;
             data_stock_WICS[n] = data15[i].W;
-            data_stock_PER_RANK[n] = data15[i].P_R;
+            // data_stock_PER_RANK[n] = data15[i].P_R;
             data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data15[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data15[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data16.length; i++) {
             data_stock_code[n] = data16[i].co;
             data_stock_name[n] = data16[i].n;
             data_stock_WICS[n] = data16[i].W;
-            data_stock_PER_RANK[n] = data16[i].P_R;
+            // data_stock_PER_RANK[n] = data16[i].P_R;
             data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data16[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data16[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data17.length; i++) {
             data_stock_code[n] = data17[i].co;
             data_stock_name[n] = data17[i].n;
             data_stock_WICS[n] = data17[i].W;
-            data_stock_PER_RANK[n] = data17[i].P_R;
+            // data_stock_PER_RANK[n] = data17[i].P_R;
             data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data17[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data17[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data18.length; i++) {
             data_stock_code[n] = data18[i].co;
             data_stock_name[n] = data18[i].n;
             data_stock_WICS[n] = data18[i].W;
-            data_stock_PER_RANK[n] = data18[i].P_R;
+            // data_stock_PER_RANK[n] = data18[i].P_R;
             data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data18[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data18[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data19.length; i++) {
             data_stock_code[n] = data19[i].co;
             data_stock_name[n] = data19[i].n;
             data_stock_WICS[n] = data19[i].W;
-            data_stock_PER_RANK[n] = data19[i].P_R;
+            // data_stock_PER_RANK[n] = data19[i].P_R;
             data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data19[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data19[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data20.length; i++) {
             data_stock_code[n] = data20[i].co;
             data_stock_name[n] = data20[i].n;
             data_stock_WICS[n] = data20[i].W;
-            data_stock_PER_RANK[n] = data20[i].P_R;
+            // data_stock_PER_RANK[n] = data20[i].P_R;
             data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data20[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data20[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data21.length; i++) {
             data_stock_code[n] = data21[i].co;
             data_stock_name[n] = data21[i].n;
             data_stock_WICS[n] = data21[i].W;
-            data_stock_PER_RANK[n] = data21[i].P_R;
+            // data_stock_PER_RANK[n] = data21[i].P_R;
             data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data21[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data21[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
         for (i = 0; i < data22.length; i++) {
             data_stock_code[n] = data22[i].co;
             data_stock_name[n] = data22[i].n;
             data_stock_WICS[n] = data22[i].W;
-            data_stock_PER_RANK[n] = data22[i].P_R;
+            // data_stock_PER_RANK[n] = data22[i].P_R;
             data_stock_F_S_C_1[n] = data22[i].C1; //저PE조건 값=O
             data_stock_F_S_C_2[n] = data22[i].C2; //흑자전환조건 값= OO or O
             data_stock_F_S_C_3[n] = data22[i].C3; //SRIM_5년 값= OO or O
             data_stock_F_S_C_4[n] = data22[i].C4; //SRIM_10년 값= OO or O
             data_stock_F_S_C_5[n] = data22[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data22[i].C6; //저PBR조건 값=O
             n = n + 1;
         }
-        for (i = 0; i < data23.length; i++) {
-            data_stock_code[n] = data23[i].co;
-            data_stock_name[n] = data23[i].n;
-            data_stock_WICS[n] = data23[i].W;
-            data_stock_PER_RANK[n] = data23[i].P_R;
-            data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
-            data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
-            data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
-            data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
-            data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
-            n = n + 1;
-        }
+        // for (i = 0; i < data23.length; i++) {
+        //     data_stock_code[n] = data23[i].co;
+        //     data_stock_name[n] = data23[i].n;
+        //     data_stock_WICS[n] = data23[i].W;
+        //     data_stock_PER_RANK[n] = data23[i].P_R;
+        //     data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
+        //     data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
+        //     data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
+        //     data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
+        //     data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
+        //     data_stock_F_S_C_6[n] = data23[i].C6; //저PBR조건 값=O
+        //     n = n + 1;
+        // }
         //여기까지복사하기
 
         for (var i = 0; i < n; i++) {
@@ -2919,6 +3084,548 @@
         output += '</table>';
         output += '</div>';
         $('#PER_FINDER_Result').html(output);
+    }
+    
+    //저PBR조건
+    function F_S_C_6(Div_F_ST) {
+        $('#PER_FINDER_Result').html("");
+        //여기부터복사하기
+        var data1 = stock1;
+        var data2 = stock2;
+        var data3 = stock3;
+        var data4 = stock4;
+        var data5 = stock5;
+        var data6 = stock6;
+        var data7 = stock7;
+        var data8 = stock8;
+        var data9 = stock9;
+        var data10 = stock10;
+        var data11 = stock11;
+        var data12 = stock12;
+        var data13 = stock13;
+        var data14 = stock14;
+        var data15 = stock15;
+        var data16 = stock16;
+        var data17 = stock17;
+        var data18 = stock18;
+        var data19 = stock19;
+        var data20 = stock20;
+        var data21 = stock21;
+        var data22 = stock22;
+        // var data23 = stock23;
+        
+        var data_length =
+            data1.length +
+            data2.length +
+            data3.length +
+            data4.length +
+            data5.length +
+            data6.length +
+            data7.length +
+            data8.length +
+            data9.length +
+            data10.length +
+            data11.length +
+            data12.length +
+            data13.length +
+            data14.length +
+            data15.length +
+            data16.length +
+            data17.length + data18.length+ data19.length+data20.length+data21.length+data22.length; //+data23.length;
+
+        var data_stock_code = []; //종목코드
+        var data_stock_name = []; //종목명
+        var data_stock_WICS = []; //WICS기준 업종분류
+        var data_stock_PER_RANK = []; //업종내 PER순위
+        var data_stock_stock_Div_PER = []; //업종 PER
+        var data_stock_Current_PER = [];
+        var data_stock_Current_PER_Rank = [];
+        var data_stock_Current_PER_Target_1 = [];
+        var data_stock_Current_PER_Target_2 = [];
+        
+        var data_stock_PBR_RANK = []; //업종내 PBR순위
+        var data_stock_stock_Div_PBR = []; //업종 PBR
+        var data_stock_Current_PBR = [];
+        var data_stock_Current_PBR_Rank = [];
+        var data_stock_Current_PBR_Target_1 = [];
+        var data_stock_Current_PBR_Target_2 = [];
+        
+        var data_stock_Current_SRIM_2 = [];
+        var data_stock_Current_Close_Price =[];        
+        var data_stock_F_S_C_1 = [];
+        var data_stock_F_S_C_2 = [];
+        var data_stock_F_S_C_3 = [];
+        var data_stock_F_S_C_4 = [];
+        var data_stock_F_S_C_5 = [];
+        var data_stock_F_S_C_6 = [];
+        
+        var n = 0;
+
+        for (i = 0; i < data1.length; i++) {
+            data_stock_code[n] = data1[i].co;
+            data_stock_name[n] = data1[i].n;
+            data_stock_WICS[n] = data1[i].W;
+            // data_stock_PER_RANK[n] = data1[i].P_R;
+            data_stock_F_S_C_1[n] = data1[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data1[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data1[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data1[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data1[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data1[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data2.length; i++) {
+            data_stock_code[n] = data2[i].co;
+            data_stock_name[n] = data2[i].n;
+            data_stock_WICS[n] = data2[i].W;
+            // data_stock_PER_RANK[n] = data2[i].P_R;
+            data_stock_F_S_C_1[n] = data2[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data2[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data2[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data2[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data2[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data2[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data3.length; i++) {
+            data_stock_code[n] = data3[i].co;
+            data_stock_name[n] = data3[i].n;
+            data_stock_WICS[n] = data3[i].W;
+            // data_stock_PER_RANK[n] = data3[i].P_R;
+            data_stock_F_S_C_1[n] = data3[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data3[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data3[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data3[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data3[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data3[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data4.length; i++) {
+            data_stock_code[n] = data4[i].co;
+            data_stock_name[n] = data4[i].n;
+            data_stock_WICS[n] = data4[i].W;
+            // data_stock_PER_RANK[n] = data4[i].P_R;
+            data_stock_F_S_C_1[n] = data4[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data4[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data4[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data4[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data4[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data4[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data5.length; i++) {
+            data_stock_code[n] = data5[i].co;
+            data_stock_name[n] = data5[i].n;
+            data_stock_WICS[n] = data5[i].W;
+            // data_stock_PER_RANK[n] = data5[i].P_R;
+            data_stock_F_S_C_1[n] = data5[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data5[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data5[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data5[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data5[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data5[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data6.length; i++) {
+            data_stock_code[n] = data6[i].co;
+            data_stock_name[n] = data6[i].n;
+            data_stock_WICS[n] = data6[i].W;
+            // data_stock_PER_RANK[n] = data6[i].P_R;
+            data_stock_F_S_C_1[n] = data6[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data6[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data6[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data6[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data6[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data6[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data7.length; i++) {
+            data_stock_code[n] = data7[i].co;
+            data_stock_name[n] = data7[i].n;
+            data_stock_WICS[n] = data7[i].W;
+            // data_stock_PER_RANK[n] = data7[i].P_R;
+            data_stock_F_S_C_1[n] = data7[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data7[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data7[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data7[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data7[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data7[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data8.length; i++) {
+            data_stock_code[n] = data8[i].co;
+            data_stock_name[n] = data8[i].n;
+            data_stock_WICS[n] = data8[i].W;
+            // data_stock_PER_RANK[n] = data8[i].P_R;
+            data_stock_F_S_C_1[n] = data8[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data8[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data8[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data8[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data8[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data8[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data9.length; i++) {
+            data_stock_code[n] = data9[i].co;
+            data_stock_name[n] = data9[i].n;
+            data_stock_WICS[n] = data9[i].W;
+            // data_stock_PER_RANK[n] = data9[i].P_R;
+            data_stock_F_S_C_1[n] = data9[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data9[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data9[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data9[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data9[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data9[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data10.length; i++) {
+            data_stock_code[n] = data10[i].co;
+            data_stock_name[n] = data10[i].n;
+            data_stock_WICS[n] = data10[i].W;
+            // data_stock_PER_RANK[n] = data10[i].P_R;
+            data_stock_F_S_C_1[n] = data10[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data10[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data10[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data10[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data10[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data10[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data11.length; i++) {
+            data_stock_code[n] = data11[i].co;
+            data_stock_name[n] = data11[i].n;
+            data_stock_WICS[n] = data11[i].W;
+            // data_stock_PER_RANK[n] = data11[i].P_R;
+            data_stock_F_S_C_1[n] = data11[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data11[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data11[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data11[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data11[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data11[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data12.length; i++) {
+            data_stock_code[n] = data12[i].co;
+            data_stock_name[n] = data12[i].n;
+            data_stock_WICS[n] = data12[i].W;
+            // data_stock_PER_RANK[n] = data12[i].P_R;
+            data_stock_F_S_C_1[n] = data12[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data12[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data12[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data12[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data12[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data12[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data13.length; i++) {
+            data_stock_code[n] = data13[i].co;
+            data_stock_name[n] = data13[i].n;
+            data_stock_WICS[n] = data13[i].W;
+            // data_stock_PER_RANK[n] = data13[i].P_R;
+            data_stock_F_S_C_1[n] = data13[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data13[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data13[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data13[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data13[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data13[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data14.length; i++) {
+            data_stock_code[n] = data14[i].co;
+            data_stock_name[n] = data14[i].n;
+            data_stock_WICS[n] = data14[i].W;
+            // data_stock_PER_RANK[n] = data14[i].P_R;
+            data_stock_F_S_C_1[n] = data14[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data14[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data14[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data14[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data14[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data14[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        
+        for (i = 0; i < data15.length; i++) {
+            data_stock_code[n] = data15[i].co;
+            data_stock_name[n] = data15[i].n;
+            data_stock_WICS[n] = data15[i].W;
+            // data_stock_PER_RANK[n] = data15[i].P_R;
+            data_stock_F_S_C_1[n] = data15[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data15[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data15[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data15[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data15[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data15[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data16.length; i++) {
+            data_stock_code[n] = data16[i].co;
+            data_stock_name[n] = data16[i].n;
+            data_stock_WICS[n] = data16[i].W;
+            // data_stock_PER_RANK[n] = data16[i].P_R;
+            data_stock_F_S_C_1[n] = data16[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data16[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data16[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data16[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data16[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data16[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data17.length; i++) {
+            data_stock_code[n] = data17[i].co;
+            data_stock_name[n] = data17[i].n;
+            data_stock_WICS[n] = data17[i].W;
+            // data_stock_PER_RANK[n] = data17[i].P_R;
+            data_stock_F_S_C_1[n] = data17[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data17[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data17[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data17[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data17[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data17[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data18.length; i++) {
+            data_stock_code[n] = data18[i].co;
+            data_stock_name[n] = data18[i].n;
+            data_stock_WICS[n] = data18[i].W;
+            // data_stock_PER_RANK[n] = data18[i].P_R;
+            data_stock_F_S_C_1[n] = data18[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data18[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data18[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data18[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data18[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data18[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data19.length; i++) {
+            data_stock_code[n] = data19[i].co;
+            data_stock_name[n] = data19[i].n;
+            data_stock_WICS[n] = data19[i].W;
+            // data_stock_PER_RANK[n] = data19[i].P_R;
+            data_stock_F_S_C_1[n] = data19[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data19[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data19[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data19[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data19[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data19[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data20.length; i++) {
+            data_stock_code[n] = data20[i].co;
+            data_stock_name[n] = data20[i].n;
+            data_stock_WICS[n] = data20[i].W;
+            // data_stock_PER_RANK[n] = data20[i].P_R;
+            data_stock_F_S_C_1[n] = data20[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data20[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data20[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data20[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data20[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data20[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data21.length; i++) {
+            data_stock_code[n] = data21[i].co;
+            data_stock_name[n] = data21[i].n;
+            data_stock_WICS[n] = data21[i].W;
+            // data_stock_PER_RANK[n] = data21[i].P_R;
+            data_stock_F_S_C_1[n] = data21[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data21[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data21[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data21[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data21[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data21[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        for (i = 0; i < data22.length; i++) {
+            data_stock_code[n] = data22[i].co;
+            data_stock_name[n] = data22[i].n;
+            data_stock_WICS[n] = data22[i].W;
+            // data_stock_PER_RANK[n] = data22[i].P_R;
+            data_stock_F_S_C_1[n] = data22[i].C1; //저PE조건 값=O
+            data_stock_F_S_C_2[n] = data22[i].C2; //흑자전환조건 값= OO or O
+            data_stock_F_S_C_3[n] = data22[i].C3; //SRIM_5년 값= OO or O
+            data_stock_F_S_C_4[n] = data22[i].C4; //SRIM_10년 값= OO or O
+            data_stock_F_S_C_5[n] = data22[i].C5; //배당주 값 =O
+            data_stock_F_S_C_6[n] = data22[i].C6; //저PBR조건 값=O
+            n = n + 1;
+        }
+        // for (i = 0; i < data23.length; i++) {
+        //     data_stock_code[n] = data23[i].co;
+        //     data_stock_name[n] = data23[i].n;
+        //     data_stock_WICS[n] = data23[i].W;
+        //     data_stock_PER_RANK[n] = data23[i].P_R;
+        //     data_stock_F_S_C_1[n] = data23[i].C1; //저PE조건 값=O
+        //     data_stock_F_S_C_2[n] = data23[i].C2; //흑자전환조건 값= OO or O
+        //     data_stock_F_S_C_3[n] = data23[i].C3; //SRIM_5년 값= OO or O
+        //     data_stock_F_S_C_4[n] = data23[i].C4; //SRIM_10년 값= OO or O
+        //     data_stock_F_S_C_5[n] = data23[i].C5; //배당주 값 =O
+        //     data_stock_F_S_C_6[n] = data23[i].C6; //저PBR조건 값=O
+        //     n = n + 1;
+        // }
+        //여기까지복사하기
+
+        for (var i = 0; i < n; i++) {
+            if(Div_F_ST =='All'){
+                if(data_stock_F_S_C_6[i] == 'O'){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PBR[i] = jd.stock_Div_PBR;
+                        data_stock_Current_PBR[i] = jd.Current_PBR;
+                        data_stock_Current_PBR_Rank[i] = jd.Current_PBR_Rank;
+                        data_stock_Current_PBR_Target_1[i] = jd.PBR_Target_1;
+                        data_stock_Current_PBR_Target_2[i] = jd.PBR_Target_2;
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
+                
+            }else{
+                if(data_stock_WICS[i] == Div_F_ST && data_stock_F_S_C_6[i] == 'O'){
+                    var detail_path = 'js/all/' + data_stock_code[i] + '.json';
+                    // console.log(detail_path);
+                    $.getJSON(detail_path, function (jd) {
+                        data_stock_stock_Div_PBR[i] = jd.stock_Div_PBR;
+                        data_stock_Current_PBR[i] = jd.Current_PBR;
+                        data_stock_Current_PBR_Rank[i] = jd.Current_PBR_Rank;
+                        data_stock_Current_PBR_Target_1[i] = jd.PBR_Target_1;
+                        data_stock_Current_PBR_Target_2[i] = jd.PBR_Target_2;
+                        data_stock_Current_SRIM_2[i] = jd.SRIM_2;
+                        data_stock_Current_Close_Price[i] = jd.Close_Price;
+                    });    
+                }
+            }
+            
+            
+        }
+
+        // var data = stock_div1;
+        var output = '<div class="T_header">';        
+        output += '<table class="Table_PER">';
+        output += '<tbody>';
+        output += '<tr class="Table_PER_header_1">';
+        output += '<th scope="col" style="width:19vw; back=:;background-color: #E5EEFC;">종목명</th>';
+        output += '<th scope="col" style="width:19vw;">저PBR조건</th>';
+        output += '<th scope="col" style="width:19vw;">SRIM조건1</th>';
+        output += '<th scope="col" style="width:19vw;">PBR_순위</th>';
+        output += '<th scope="col" style="width:19vw;">PBR_목표1</th></tr>';
+        
+        output += '<tr class="Table_PER_header_2">';
+        output += '<th scope="col" style="width:19vw;">종목코드</th>';
+        output += '<th scope="col" style="width:19vw;">흑전조건</th>';
+        output += '<th scope="col" style="width:19vw;">SRIM조건2</th>';
+        output += '<th scope="col" style="width:19vw;">PBR</th>';
+        output += '<th scope="col" style="width:19vw;">PBR_목표2</th></tr>';
+        
+        output += '<tr class="Table_PER_header_3">';
+        output += '<th scope="col" style="width:19vw;">업종</th>';
+        output += '<th scope="col" style="width:19vw;">고배당조건</th>';
+        output += '<th scope="col" style="width:19vw;">저PER조건</th>';
+        output += '<th scope="col" style="width:19vw;">업종PBR</th>';
+        output += '<th scope="col" style="width:19vw;">종가</th></tr>';
+        output += '</tbody></table></div>';
+        
+        // 찐본문내용
+        output += '<div class="T_body" style="height: 45vh;">';
+        output += '<table id="Table_PER_body_1" class="Table_PER">';
+        output += '<tbody>';
+        
+        for (var i= 0;i<n;i++){
+            
+            if(Div_F_ST =='All'){
+                if (data_stock_F_S_C_6[i] == 'O'){
+                    output += '<tr class="Table_PER_body_1">';
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_6[i]+'</td>';
+                    if(data_stock_F_S_C_3[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
+                    } else if(data_stock_F_S_C_3[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PBR_Rank[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PBR_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+
+                    
+                    output += '<tr class="Table_PER_body_2">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    if(data_stock_F_S_C_4[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
+                    } else if(data_stock_F_S_C_4[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PBR[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PBR_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                    
+                    
+                    output += '<tr class="Table_PER_body_3">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_F_S_C_1[i] + '</td>';
+                    output += '<td align="center"style="width:19vw;">' + data_stock_F_S_C_5[i] + '</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PBR[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                }
+            }else{
+                if (data_stock_WICS[i] == Div_F_ST && data_stock_F_S_C_6[i] == 'O'){
+                    output += '<tr class="Table_PER_body_1">';
+                    output += '<th scope="row" style="width:19vw;color:red;back=:;background-color: #E5EEFC;">' + data_stock_name[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">'+data_stock_F_S_C_6[i]+'</td>';
+                    if(data_stock_F_S_C_3[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년OK</td>';
+                    } else if(data_stock_F_S_C_3[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">5년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PBR_Rank[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PBR_Target_1[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+
+                    
+                    output += '<tr class="Table_PER_body_2">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</th>';
+                    if(data_stock_F_S_C_2[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">컨센_흑전</td>';
+                    } else if(data_stock_F_S_C_2[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight: bold;">추세_흑전</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    if(data_stock_F_S_C_4[i] =='OO'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년OK</td>';
+                    } else if(data_stock_F_S_C_4[i] =='O'){
+                        output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">10년</td>';
+                    } else {
+                        output += '<td align="center" style="width:19vw;"></td>';
+                    }
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_Current_PBR[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_PBR_Target_2[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';
+                    
+                    
+                    output += '<tr class="Table_PER_body_3">';
+                    output += '<td align="center" style="width:19vw;">' +  data_stock_WICS[i] + '</th>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_F_S_C_1[i] + '</td>';
+                    output += '<td align="center"style="width:19vw;">' + data_stock_F_S_C_5[i] + '</td>';
+                    output += '<td align="center" style="width:19vw;">'+ data_stock_stock_Div_PBR[i] +'</td>';
+                    output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td></tr>';   
+                }
+            }
+            
+        }
+        output += '</tbody>';
+        output += '</table>';
+        output += '</div>';
+        
+        // alert(data_stock_Current_PER_Rank[0]);
+        $('#PER_FINDER_Result').html(output);
+        sortTable_PBR();   
     }
     
     $.ajaxSetup({
