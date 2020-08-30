@@ -1405,7 +1405,7 @@
                     output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</td>';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_Total_P[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>'; 
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_D_R[i]*100 + '%</td>'; 
+                    output += '<td align="right" style="width:19vw;">'+ (data_stock_D_R[i]*100).toFixed(2) + '%</td>'; 
                     if(data_stock_F_S_C_5[i] =='O'){
                         output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">O</td></tr>';
                     } else {
@@ -1451,7 +1451,7 @@
                     output += '<td align="center" style="width:19vw;">' +  data_stock_code[i] + '</td>';
                     output += '<td align="center" style="width:19vw;">' +  data_stock_Total_P[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>';
                     output += '<td align="right" style="width:19vw;">'+ data_stock_Current_Close_Price[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '</td>'; 
-                    output += '<td align="right" style="width:19vw;">'+ data_stock_D_R[i]*100 + '%</td>'; 
+                    output += '<td align="right" style="width:19vw;">'+ (data_stock_D_R[i]*100).toFixed(2) + '%</td>'; 
                     if(data_stock_F_S_C_5[i] =='O'){
                         output += '<td align="center" style="width:19vw;font-weight:bold;color:red;">O</td></tr>';
                     } else {
