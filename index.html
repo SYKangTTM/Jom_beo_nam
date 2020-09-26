@@ -97,17 +97,25 @@
                 <p> <br>제공 되는 데이터의 정확성에 대하여 100% 보장할 수 없습니다.</p>
                 <p style="color:red;font-weight:bold;"> Updated : 2020-09-26<br /></p>
                 <p> <br> 검색 결과에서 제공되는 Table의 설명은 아래 개발자 블로그에서 확인이 가능합니다.<br> </p>
-                <a href="https://blog.naver.com/kkseyj/222075272222" target="_blank" style="text-align:center;color:red;font-weight:bold;font-size:2rem">목표주가 설명 바로가기<br>[Click]</a>    
+                <a href="https://blog.naver.com/kkseyj/222075272222" target="_blank" style="text-align:center;color:red;font-weight:bold;font-size:2rem">목표주가 설명 바로가기<br>[Click]</a>    <br>
+                <a href="https://coupa.ng/bKnjEn" target="_blank"><img src="https://ads-partners.coupang.com/banners/330077?subId=&traceId=V0-301-879dd1202e5c73b2-I330077&w=300&h=250" alt=""></a>
                 
             </div>
         </section>
 
+        
+
         <section class="banner_section" align="center" style="margin-top:15px;margin-left:5px;margin-right:5px">
-                       <ins class="kakao_ad_area" style="display:none;" 
+            
+            <script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+    new PartnersCoupang.G({"id":273827,"subId":null});
+</script>
+                       <!-- <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-1jed7lof7pwz7" 
  data-ad-width   = "320" 
  data-ad-height  = "50"></ins> 
-            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> -->
         </section>
 
         <section align="center">
@@ -544,8 +552,12 @@
             if (month.length < 2) month = '0' + month;
             if (day.length < 2) day = '0' + day;
             var StartDate = year + '-' + month + '-' + day;
-            var output = '<div>';
+            var output = '<ins class="kakao_ad_area" style="display:none;" data-ad-unit    = "DAN-1jed7lof7pwz7" data-ad-width   = "320" data-ad-height  = "50"></ins>';
             // var count = 1;
+            output += '<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script';
+            output += '>';
+            
+            output += '<div>';
             output += '<div class="Status_Table"><table>';
             
             output += '<tr>' + '<td style="font-weight:bold;"><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?sdate=' +
